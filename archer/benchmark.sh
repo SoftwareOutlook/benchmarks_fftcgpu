@@ -9,7 +9,7 @@
 #PBS -l select=1
 #PBS -N benchmark-FFT
 #PBS -A c01-hec
-#PBS -l walltime=1:0:0
+#PBS -l walltime=4:0:0
 
 # Switch to current working directory
 cd $PBS_O_WORKDIR
