@@ -20,7 +20,7 @@ qsub -v N_X=257,N_Y=257,N_Z=257,N_COILS=32 benchmark.sh
 # Regular tests
 # powers of 2
 # square
-qsub -v N_X=32,N_Y=32,N_Z=128,N_COILS=1 benchmark.sh
+qsub -v N_X=32,N_Y=32,N_Z=32,N_COILS=1 benchmark.sh
 qsub -v N_X=64,N_Y=64,N_Z=64,N_COILS=1 benchmark.sh
 qsub -v N_X=128,N_Y=128,N_Z=128,N_COILS=1 benchmark.sh
 qsub -v N_X=256,N_Y=256,N_Z=256,N_COILS=1 benchmark.sh
