@@ -60,6 +60,8 @@ qsub -v N_X=82320,N_Y=30,N_Z=30,N_COILS=1 benchmark.sh
 # primes
 # 11 13 127 257 509 1021 2053 4093 8191 16381 32771
 # square
+qsub -v N_X=31,N_Y=31,N_Z=31,N_COILS=1 benchmark.sh
+qsub -v N_X=61,N_Y=61,N_Z=61,N_COILS=1 benchmark.sh
 qsub -v N_X=127,N_Y=127,N_Z=127,N_COILS=1 benchmark.sh
 qsub -v N_X=257,N_Y=257,N_Z=257,N_COILS=1 benchmark.sh
 qsub -v N_X=509,N_Y=509,N_Z=509,N_COILS=1 benchmark.sh  
