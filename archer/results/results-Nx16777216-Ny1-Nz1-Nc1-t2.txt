@@ -1,0 +1,137 @@
+N threads: 2
+
+Dimensions: 16777216 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.437007 s
+      Inverse
+        Time:  0.598646 s
+      Error: 2.74368e-09
+
+    GSL
+      Direct
+        Time:  3.37752 s
+      Inverse
+        Time:  2.78864 s
+      Error: 3.53009e-09
+
+    MKL
+      Direct
+        Time:  0.567589 s
+      Inverse
+        Time:  0.602922 s
+      Error: 3.53009e-09
+
+    FFTPACK
+      Direct
+        Time:  0.737994 s
+      Inverse
+        Time:  0.737822 s
+      Error: 3.53009e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  1.01422 s
+      Inverse
+        Time:  1.14214 s
+      Error: 4.65551e-09
+
+    GSL
+      Direct
+        Time:  0.945636 s
+      Inverse
+        Time:  1.03013 s
+      Error: 8.51088e-09
+
+    MKL
+      Direct
+        Time:  0.939543 s
+      Inverse
+        Time:  0.880456 s
+      Error: 8.51088e-09
+
+    FFTPACK
+      Direct
+        Time:  0.939192 s
+      Inverse
+        Time:  0.879941 s
+      Error: 8.51088e-09
+
+
+Dimensions: 16777216 1 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.734322 s
+      Inverse
+        Time:  0.885861 s
+      Error: 2.1868e-09
+
+    MKL
+      Direct
+        Time:  1.03223 s
+      Inverse
+        Time:  1.05151 s
+      Error: 2.1868e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.999164 s
+      Inverse
+        Time:  1.20753 s
+      Error: 4.65551e-09
+
+    MKL
+      Direct
+        Time:  0.743051 s
+      Inverse
+        Time:  0.777855 s
+      Error: 4.65551e-09
+
+Dimensions: 16777216 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.745233 s
+      Inverse
+        Time:  0.924293 s
+      Error: 2.1868e-09
+
+    MKL
+      Direct
+        Time:  101.092 s
+      Inverse
+        Time:  104.705 s
+      Error: 2.1868e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  1.00831 s
+      Inverse
+        Time:  1.21543 s
+      Error: 4.65551e-09
+
+    MKL
+      Direct
+        Time:  0.752582 s
+      Inverse
+        Time:  0.802961 s
+      Error: 4.65551e-09
+
+Application 34009493 resources: utime ~91s, stime ~165s, Rss ~4741844, inblocks ~1383, outblocks ~2500
