@@ -1,0 +1,48 @@
+N threads: 4
+
+Dimensions: 524287 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.059122 s
+      Inverse
+        Time:  0.0627364 s
+      Error: 1.80231e-10
+
+    GSL
+      Direct
+        Time:  451.02 s
+      Inverse
+        Time:  492.359 s
+      Error: 1.93458e-05
+
+    MKL
+      Direct
+        Time:  0.0377229 s
+      Inverse
+        Time:  0.0329783 s
+      Error: 1.93458e-05
+
+    FFTPACK
+      Direct
+        Time:  225.222 s
+      Inverse
+        Time:  223.909 s
+      Error: 1.93458e-05
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0433328 s
+      Inverse
+        Time:  0.0419192 s
+      Error: 3.30919e-10
+
+    GSL
+      Direct
+        Time:  0.0385705 s
+      Inverse

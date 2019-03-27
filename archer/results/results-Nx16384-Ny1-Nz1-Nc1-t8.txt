@@ -1,0 +1,137 @@
+N threads: 8
+
+Dimensions: 16384 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.000465736 s
+      Inverse
+        Time:  0.000392489 s
+      Error: 2.11485e-12
+
+    GSL
+      Direct
+        Time:  0.000374857 s
+      Inverse
+        Time:  0.000392456 s
+      Error: 2.07982e-12
+
+    MKL
+      Direct
+        Time:  0.286816 s
+      Inverse
+        Time:  0.287975 s
+      Error: 2.07982e-12
+
+    FFTPACK
+      Direct
+        Time:  0.000251855 s
+      Inverse
+        Time:  0.000267702 s
+      Error: 2.07982e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.00622454 s
+      Inverse
+        Time:  0.00333457 s
+      Error: 3.20898e-12
+
+    GSL
+      Direct
+        Time:  0.00681642 s
+      Inverse
+        Time:  0.00056999 s
+      Error: 4.60031e-12
+
+    MKL
+      Direct
+        Time:  0.0108834 s
+      Inverse
+        Time:  0.000452925 s
+      Error: 4.60031e-12
+
+    FFTPACK
+      Direct
+        Time:  0.00962293 s
+      Inverse
+        Time:  0.000454297 s
+      Error: 4.60031e-12
+
+
+Dimensions: 16384 1 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.0161888 s
+      Inverse
+        Time:  0.00525804 s
+      Error: 1.47054e-12
+
+    MKL
+      Direct
+        Time:  0.0958678 s
+      Inverse
+        Time:  0.0731555 s
+      Error: 1.47054e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.00372691 s
+      Inverse
+        Time:  0.00150103 s
+      Error: 3.20898e-12
+
+    MKL
+      Direct
+        Time:  0.0030479 s
+      Inverse
+        Time:  0.00157251 s
+      Error: 3.20898e-12
+
+Dimensions: 16384 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.0054259 s
+      Inverse
+        Time:  0.00258362 s
+      Error: 1.47054e-12
+
+    MKL
+      Direct
+        Time:  0.0898599 s
+      Inverse
+        Time:  0.160779 s
+      Error: 1.47054e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.00861583 s
+      Inverse
+        Time:  0.00215212 s
+      Error: 3.20898e-12
+
+    MKL
+      Direct
+        Time:  0.00390935 s
+      Inverse
+        Time:  0.00226847 s
+      Error: 3.20898e-12
+
+Application 34009398 resources: utime ~1s, stime ~1s, Rss ~24316, inblocks ~1384, outblocks ~2500
