@@ -7,60 +7,60 @@ N coils: 1
 
     FFTW
       Direct
-        Time:  0.000261826 s
+        Time:  0.000260767 s
       Inverse
-        Time:  0.000120718 s
+        Time:  6.0115e-05 s
       Error: 4.86278e-14
 
     GSL
       Direct
-        Time:  3.2321e-05 s
+        Time:  3.2657e-05 s
       Inverse
-        Time:  3.9e-05 s
+        Time:  3.9837e-05 s
       Error: 5.69128e-14
 
     MKL
       Direct
-        Time:  1.7319e-05 s
+        Time:  1.8491e-05 s
       Inverse
-        Time:  3.821e-06 s
+        Time:  3.84e-06 s
       Error: 5.69128e-14
 
     FFTPACK
       Direct
-        Time:  1.7068e-05 s
+        Time:  1.7031e-05 s
       Inverse
-        Time:  4.974e-06 s
+        Time:  4.726e-06 s
       Error: 5.69128e-14
 
   C <-> C
 
     FFTW
       Direct
-        Time:  0.000139309 s
+        Time:  0.000131314 s
       Inverse
-        Time:  3.7258e-05 s
+        Time:  4.4539e-05 s
       Error: 7.23598e-14
 
     GSL
       Direct
-        Time:  3.6368e-05 s
+        Time:  4.1442e-05 s
       Inverse
-        Time:  5.5306e-05 s
+        Time:  4.6833e-05 s
       Error: 1.19321e-13
 
     MKL
       Direct
-        Time:  3.3246e-05 s
+        Time:  3.5585e-05 s
       Inverse
-        Time:  1.1917e-05 s
+        Time:  1.1955e-05 s
       Error: 1.19321e-13
 
     FFTPACK
       Direct
-        Time:  4.0577e-05 s
+        Time:  3.2774e-05 s
       Inverse
-        Time:  1.199e-05 s
+        Time:  1.1847e-05 s
       Error: 1.19321e-13
 
 
@@ -71,32 +71,32 @@ N coils: 1
 
     FFTW
       Direct
-        Time:  0.00269698 s
+        Time:  0.00264176 s
       Inverse
-        Time:  0.00390154 s
+        Time:  0.00388342 s
       Error: 2.08798e-11
 
     MKL
       Direct
-        Time:  0.00244504 s
+        Time:  0.00239778 s
       Inverse
-        Time:  0.00243525 s
+        Time:  0.00242156 s
       Error: 2.08798e-11
 
   C <-> C
 
     FFTW
       Direct
-        Time:  0.0049864 s
+        Time:  0.00476369 s
       Inverse
-        Time:  0.0065747 s
+        Time:  0.00665171 s
       Error: 3.24709e-11
 
     MKL
       Direct
-        Time:  0.00210652 s
+        Time:  0.00202915 s
       Inverse
-        Time:  0.00353601 s
+        Time:  0.00341401 s
       Error: 3.24709e-11
 
 Dimensions: 512 512 512 
@@ -106,32 +106,32 @@ N coils: 1
 
     FFTW
       Direct
-        Time:  1.64524 s
+        Time:  1.63681 s
       Inverse
-        Time:  2.44238 s
+        Time:  2.4339 s
       Error: 7.82227e-09
 
     MKL
       Direct
-        Time:  1.26005 s
+        Time:  1.24119 s
       Inverse
-        Time:  1.28117 s
+        Time:  1.26765 s
       Error: 7.82227e-09
 
   C <-> C
 
     FFTW
       Direct
-        Time:  3.93605 s
+        Time:  3.92119 s
       Inverse
-        Time:  4.59097 s
+        Time:  4.56378 s
       Error: 1.28485e-08
 
     MKL
       Direct
-        Time:  2.50583 s
+        Time:  2.49154 s
       Inverse
-        Time:  2.46165 s
+        Time:  2.45388 s
       Error: 1.28485e-08
 
-Application 34077401 resources: utime ~88s, stime ~19s, Rss ~25187456, inblocks ~1384, outblocks ~2500
+Application 34079167 resources: utime ~89s, stime ~18s, Rss ~25187460, inblocks ~1383, outblocks ~2500

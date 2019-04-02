@@ -231,3 +231,17 @@ qsub -v N_X=1048573,N_Y=1,N_Z=1,N_COILS=1 benchmark.sh
 qsub -v N_X=4194301,N_Y=1,N_Z=1,N_COILS=1 benchmark.sh
 qsub -v N_X=16777213,N_Y=1,N_Z=1,N_COILS=1 benchmark.sh
 qsub -v N_X=67108859,N_Y=1,N_Z=1,N_COILS=1 benchmark.sh
+
+
+
+# flatness
+qsub -v N_X=134217728,N_Y=1,N_Z=1,N_COILS=1 benchmark.sh
+qsub -v N_X=33554432,N_Y=2,N_Z=2,N_COILS=1 benchmark.sh
+qsub -v N_X=8388608,N_Y=4,N_Z=4,N_COILS=1 benchmark.sh
+qsub -v N_X=2097152,N_Y=8,N_Z=8,N_COILS=1 benchmark.sh
+qsub -v N_X=524288,N_Y=16,N_Z=16,N_COILS=1 benchmark.sh
+qsub -v N_X=131072,N_Y=32,N_Z=32,N_COILS=1 benchmark.sh
+qsub -v N_X=32768,N_Y=64,N_Z=64,N_COILS=1 benchmark.sh
+qsub -v N_X=8192,N_Y=128,N_Z=128,N_COILS=1 benchmark.sh
+qsub -v N_X=2048,N_Y=256,N_Z=256,N_COILS=1 benchmark.sh
+qsub -v N_X=512,N_Y=512,N_Z=512,N_COILS=1 benchmark.sh
