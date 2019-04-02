@@ -16,6 +16,7 @@ cd $PBS_O_WORKDIR
 
 #aprun -n 1 -N 1 -d 24  prog N_X N_Y N_Z N_COILS
 
+export KMP_AFFINITY=disabled
 
 PROG=${DATA}/FFTC/test
 
