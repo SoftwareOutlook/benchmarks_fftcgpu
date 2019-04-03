@@ -8,25 +8,25 @@ N coils: 256
 
     Multiplication
       CPU
-        Time:  0.000680148 s
+        Time:  0.000424678 s
 
       OpenMP CPU
-        Time:  2.401e-06 s
+        Time:  1.58e-06 s
 
       OpenMP GPU
-        Time:  0.000311328 s
+        Time:  0.000185378 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.000390667 s
+        Time:  0.000554036 s
 
       OpenMP
-        Time:  1.633e-06 s
+        Time:  2.081e-06 s
 
       OpenMP GPU
-        Time:  0.000183527 s
+        Time:  0.000200775 s
 
 Dimensions: 210 
 N coils: 210
@@ -35,25 +35,25 @@ N coils: 210
 
     Multiplication
       CPU
-        Time:  0.000178724 s
+        Time:  0.000190943 s
 
       OpenMP CPU
-        Time:  9.65e-07 s
+        Time:  8.34e-07 s
 
       OpenMP GPU
-        Time:  8.0105e-05 s
+        Time:  7.33e-05 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.000287636 s
+        Time:  0.000258993 s
 
       OpenMP
-        Time:  1.466e-06 s
+        Time:  1.165e-06 s
 
       OpenMP GPU
-        Time:  0.000112508 s
+        Time:  9.1262e-05 s
 
 Dimensions: 257 
 N coils: 257
@@ -62,25 +62,79 @@ N coils: 257
 
     Multiplication
       CPU
-        Time:  0.000313165 s
+        Time:  0.000326619 s
 
       OpenMP CPU
-        Time:  1.17e-06 s
+        Time:  1.24e-06 s
 
       OpenMP GPU
-        Time:  0.000137727 s
+        Time:  0.00014694 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.000458558 s
+        Time:  0.000459369 s
 
       OpenMP
-        Time:  1.503e-06 s
+        Time:  1.518e-06 s
 
       OpenMP GPU
-        Time:  0.000159669 s
+        Time:  0.000166454 s
+
+Dimensions: 32 
+N coils: 32
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  7.579e-06 s
+
+      OpenMP CPU
+        Time:  2.26e-07 s
+
+      OpenMP GPU
+        Time:  2.337e-06 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  8.544e-06 s
+
+      OpenMP
+        Time:  2.58e-07 s
+
+      OpenMP GPU
+        Time:  2.327e-06 s
+
+Dimensions: 64 
+N coils: 64
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.1443e-05 s
+
+      OpenMP CPU
+        Time:  3.6e-07 s
+
+      OpenMP GPU
+        Time:  8.301e-06 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  2.503e-05 s
+
+      OpenMP
+        Time:  3.94e-07 s
+
+      OpenMP GPU
+        Time:  8.318e-06 s
 
 Dimensions: 128 
 N coils: 128
@@ -89,25 +143,25 @@ N coils: 128
 
     Multiplication
       CPU
-        Time:  7.5069e-05 s
+        Time:  7.067e-05 s
 
       OpenMP CPU
-        Time:  5.73e-07 s
+        Time:  5.88e-07 s
 
       OpenMP GPU
-        Time:  3.3704e-05 s
+        Time:  3.1547e-05 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.0001071 s
+        Time:  0.000111932 s
 
       OpenMP
-        Time:  6.95e-07 s
+        Time:  7.05e-07 s
 
       OpenMP GPU
-        Time:  3.3624e-05 s
+        Time:  3.1655e-05 s
 
 Dimensions: 256 
 N coils: 256
@@ -116,25 +170,25 @@ N coils: 256
 
     Multiplication
       CPU
-        Time:  0.000312069 s
+        Time:  0.000438762 s
 
       OpenMP CPU
-        Time:  1.231e-06 s
+        Time:  1.69e-06 s
 
       OpenMP GPU
-        Time:  0.000141101 s
+        Time:  0.000203054 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.000444483 s
+        Time:  0.000406447 s
 
       OpenMP
-        Time:  1.731e-06 s
+        Time:  1.608e-06 s
 
       OpenMP GPU
-        Time:  0.000161249 s
+        Time:  0.00015855 s
 
 Dimensions: 512 
 N coils: 512
@@ -143,25 +197,25 @@ N coils: 512
 
     Multiplication
       CPU
-        Time:  0.00100314 s
+        Time:  0.00111759 s
 
       OpenMP CPU
-        Time:  1.994e-06 s
+        Time:  2.106e-06 s
 
       OpenMP GPU
-        Time:  0.000557943 s
+        Time:  0.00056694 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00149331 s
+        Time:  0.00149398 s
 
       OpenMP
-        Time:  2.588e-06 s
+        Time:  2.645e-06 s
 
       OpenMP GPU
-        Time:  0.000704733 s
+        Time:  0.000775759 s
 
 Dimensions: 32768 
 N coils: 8
@@ -170,25 +224,25 @@ N coils: 8
 
     Multiplication
       CPU
-        Time:  0.00141986 s
+        Time:  0.00140131 s
 
       OpenMP CPU
-        Time:  6.8121e-05 s
+        Time:  6.8368e-05 s
 
       OpenMP GPU
-        Time:  0.000530576 s
+        Time:  0.000564847 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00204748 s
+        Time:  0.00198287 s
 
       OpenMP
-        Time:  0.000126469 s
+        Time:  0.000125352 s
 
       OpenMP GPU
-        Time:  0.000778186 s
+        Time:  0.000787484 s
 
 Dimensions: 65536 
 N coils: 16
@@ -197,25 +251,25 @@ N coils: 16
 
     Multiplication
       CPU
-        Time:  0.00473284 s
+        Time:  0.0046625 s
 
       OpenMP CPU
-        Time:  0.000149337 s
+        Time:  0.000142494 s
 
       OpenMP GPU
-        Time:  0.00204127 s
+        Time:  0.00205991 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00676951 s
+        Time:  0.0068472 s
 
       OpenMP
-        Time:  0.000188221 s
+        Time:  0.000196434 s
 
       OpenMP GPU
-        Time:  0.0026271 s
+        Time:  0.00265508 s
 
 Dimensions: 131072 
 N coils: 32
@@ -224,25 +278,25 @@ N coils: 32
 
     Multiplication
       CPU
-        Time:  0.016992 s
+        Time:  0.016527 s
 
       OpenMP CPU
-        Time:  0.000230262 s
+        Time:  0.000237252 s
 
       OpenMP GPU
-        Time:  0.00756877 s
+        Time:  0.00764287 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.0257513 s
+        Time:  0.0257209 s
 
       OpenMP
-        Time:  0.000379528 s
+        Time:  0.000385397 s
 
       OpenMP GPU
-        Time:  0.00963004 s
+        Time:  0.0100424 s
 
 Dimensions: 210 
 N coils: 210
@@ -251,25 +305,25 @@ N coils: 210
 
     Multiplication
       CPU
-        Time:  0.000179627 s
+        Time:  0.000175512 s
 
       OpenMP CPU
-        Time:  6.92e-07 s
+        Time:  7.1e-07 s
 
       OpenMP GPU
-        Time:  7.1972e-05 s
+        Time:  7.2063e-05 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.000219308 s
+        Time:  0.00026145 s
 
       OpenMP
-        Time:  8.65e-07 s
+        Time:  1.1e-06 s
 
       OpenMP GPU
-        Time:  7.2551e-05 s
+        Time:  8.8987e-05 s
 
 Dimensions: 420 
 N coils: 420
@@ -278,25 +332,25 @@ N coils: 420
 
     Multiplication
       CPU
-        Time:  0.000798884 s
+        Time:  0.000760581 s
 
       OpenMP CPU
-        Time:  1.646e-06 s
+        Time:  1.618e-06 s
 
       OpenMP GPU
-        Time:  0.000376229 s
+        Time:  0.000378816 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.000876324 s
+        Time:  0.00104432 s
 
       OpenMP
-        Time:  1.63e-06 s
+        Time:  2.255e-06 s
 
       OpenMP GPU
-        Time:  0.000355232 s
+        Time:  0.000391437 s
 
 Dimensions: 41160 
 N coils: 15
@@ -305,25 +359,25 @@ N coils: 15
 
     Multiplication
       CPU
-        Time:  0.00263476 s
+        Time:  0.00273211 s
 
       OpenMP CPU
-        Time:  8.5642e-05 s
+        Time:  7.7202e-05 s
 
       OpenMP GPU
-        Time:  0.00115087 s
+        Time:  0.00128427 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00356721 s
+        Time:  0.00359854 s
 
       OpenMP
-        Time:  0.000119434 s
+        Time:  0.00011733 s
 
       OpenMP GPU
-        Time:  0.00133363 s
+        Time:  0.00137511 s
 
 Dimensions: 82320 
 N coils: 30
@@ -332,25 +386,25 @@ N coils: 30
 
     Multiplication
       CPU
-        Time:  0.0100448 s
+        Time:  0.0095389 s
 
       OpenMP CPU
-        Time:  0.00014812 s
+        Time:  0.000161088 s
 
       OpenMP GPU
-        Time:  0.00464739 s
+        Time:  0.00464186 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.0141936 s
+        Time:  0.0140495 s
 
       OpenMP
-        Time:  0.000223297 s
+        Time:  0.000218723 s
 
       OpenMP GPU
-        Time:  0.00575454 s
+        Time:  0.00576131 s
 
 Dimensions: 127 
 N coils: 127
@@ -359,25 +413,25 @@ N coils: 127
 
     Multiplication
       CPU
-        Time:  6.7076e-05 s
+        Time:  6.62e-05 s
 
       OpenMP CPU
-        Time:  4.97e-07 s
+        Time:  5.14e-07 s
 
       OpenMP GPU
-        Time:  3.0474e-05 s
+        Time:  3.0191e-05 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  8.9781e-05 s
+        Time:  8.9843e-05 s
 
       OpenMP
-        Time:  6.34e-07 s
+        Time:  6.49e-07 s
 
       OpenMP GPU
-        Time:  3.0109e-05 s
+        Time:  3.0146e-05 s
 
 Dimensions: 257 
 N coils: 257
@@ -386,25 +440,25 @@ N coils: 257
 
     Multiplication
       CPU
-        Time:  0.000267216 s
+        Time:  0.000266624 s
 
       OpenMP CPU
-        Time:  9.48e-07 s
+        Time:  9.06e-07 s
 
       OpenMP GPU
-        Time:  0.000120404 s
+        Time:  0.000120101 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00037837 s
+        Time:  0.000381389 s
 
       OpenMP
-        Time:  1.306e-06 s
+        Time:  1.284e-06 s
 
       OpenMP GPU
-        Time:  0.00013278 s
+        Time:  0.000133403 s
 
 Dimensions: 509 
 N coils: 509
@@ -413,25 +467,25 @@ N coils: 509
 
     Multiplication
       CPU
-        Time:  0.000919594 s
+        Time:  0.00113962 s
 
       OpenMP CPU
-        Time:  1.583e-06 s
+        Time:  2.05e-06 s
 
       OpenMP GPU
-        Time:  0.000458438 s
+        Time:  0.000569599 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00142461 s
+        Time:  0.0013566 s
 
       OpenMP
-        Time:  2.482e-06 s
+        Time:  2.541e-06 s
 
       OpenMP GPU
-        Time:  0.000534598 s
+        Time:  0.000534987 s
 
 Dimensions: 32771 
 N coils: 7
@@ -440,25 +494,25 @@ N coils: 7
 
     Multiplication
       CPU
-        Time:  0.00101863 s
+        Time:  0.00107832 s
 
       OpenMP CPU
-        Time:  5.8069e-05 s
+        Time:  5.7038e-05 s
 
       OpenMP GPU
-        Time:  0.000405147 s
+        Time:  0.000441757 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00138556 s
+        Time:  0.00142152 s
 
       OpenMP
-        Time:  7.3001e-05 s
+        Time:  9.2216e-05 s
 
       OpenMP GPU
-        Time:  0.000452329 s
+        Time:  0.000461573 s
 
 Dimensions: 65537 
 N coils: 17
@@ -467,25 +521,25 @@ N coils: 17
 
     Multiplication
       CPU
-        Time:  0.00438037 s
+        Time:  0.00437009 s
 
       OpenMP CPU
-        Time:  0.000127527 s
+        Time:  0.000132747 s
 
       OpenMP GPU
-        Time:  0.00200788 s
+        Time:  0.00210614 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00628631 s
+        Time:  0.00632876 s
 
       OpenMP
-        Time:  0.000187317 s
+        Time:  0.000185052 s
 
       OpenMP GPU
-        Time:  0.00251137 s
+        Time:  0.0025318 s
 
 Dimensions: 131071 
 N coils: 31
@@ -494,25 +548,25 @@ N coils: 31
 
     Multiplication
       CPU
-        Time:  0.0162697 s
+        Time:  0.0159283 s
 
       OpenMP CPU
-        Time:  0.000243359 s
+        Time:  0.000250588 s
 
       OpenMP GPU
-        Time:  0.00744073 s
+        Time:  0.00772974 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.024818 s
+        Time:  0.0250813 s
 
       OpenMP
-        Time:  0.000408311 s
+        Time:  0.000397921 s
 
       OpenMP GPU
-        Time:  0.00972043 s
+        Time:  0.00983604 s
 
 Dimensions: 256 
 N coils: 256
@@ -521,25 +575,25 @@ N coils: 256
 
     Multiplication
       CPU
-        Time:  0.000257391 s
+        Time:  0.000249502 s
 
       OpenMP CPU
-        Time:  9.04e-07 s
+        Time:  8.26e-07 s
 
       OpenMP GPU
-        Time:  0.000119285 s
+        Time:  0.000108206 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.000330438 s
+        Time:  0.000320653 s
 
       OpenMP
-        Time:  1.177e-06 s
+        Time:  1.041e-06 s
 
       OpenMP GPU
-        Time:  0.000119865 s
+        Time:  0.000127263 s
 
 Dimensions: 210 
 N coils: 210
@@ -548,25 +602,25 @@ N coils: 210
 
     Multiplication
       CPU
-        Time:  0.000173357 s
+        Time:  0.000189744 s
 
       OpenMP CPU
-        Time:  7.61e-07 s
+        Time:  8.55e-07 s
 
       OpenMP GPU
-        Time:  8.0544e-05 s
+        Time:  8.8265e-05 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.000237885 s
+        Time:  0.000244947 s
 
       OpenMP
-        Time:  1.081e-06 s
+        Time:  1.095e-06 s
 
       OpenMP GPU
-        Time:  8.6085e-05 s
+        Time:  8.8887e-05 s
 
 Dimensions: 257 
 N coils: 257
@@ -575,25 +629,25 @@ N coils: 257
 
     Multiplication
       CPU
-        Time:  0.000277825 s
+        Time:  0.000374679 s
 
       OpenMP CPU
-        Time:  9.69e-07 s
+        Time:  1.263e-06 s
 
       OpenMP GPU
-        Time:  0.000132115 s
+        Time:  0.000169927 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.000344495 s
+        Time:  0.000487477 s
 
       OpenMP
-        Time:  1.146e-06 s
+        Time:  1.706e-06 s
 
       OpenMP GPU
-        Time:  0.00011505 s
+        Time:  0.00017106 s
 
 Dimensions: 128 
 N coils: 128
@@ -602,25 +656,25 @@ N coils: 128
 
     Multiplication
       CPU
-        Time:  6.3863e-05 s
+        Time:  9.4585e-05 s
 
       OpenMP CPU
-        Time:  5.02e-07 s
+        Time:  8.3e-07 s
 
       OpenMP GPU
-        Time:  2.8851e-05 s
+        Time:  4.3405e-05 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  8.5594e-05 s
+        Time:  8.3872e-05 s
 
       OpenMP
-        Time:  6.07e-07 s
+        Time:  5.9e-07 s
 
       OpenMP GPU
-        Time:  2.8878e-05 s
+        Time:  2.8094e-05 s
 
 Dimensions: 256 
 N coils: 256
@@ -629,25 +683,25 @@ N coils: 256
 
     Multiplication
       CPU
-        Time:  0.000327391 s
+        Time:  0.000232986 s
 
       OpenMP CPU
-        Time:  1.222e-06 s
+        Time:  9.11e-07 s
 
       OpenMP GPU
-        Time:  0.000155588 s
+        Time:  0.000109452 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.000423855 s
+        Time:  0.000309418 s
 
       OpenMP
-        Time:  1.549e-06 s
+        Time:  1.113e-06 s
 
       OpenMP GPU
-        Time:  0.000161499 s
+        Time:  0.000110413 s
 
 Dimensions: 512 
 N coils: 512
@@ -656,25 +710,25 @@ N coils: 512
 
     Multiplication
       CPU
-        Time:  0.00102444 s
+        Time:  0.00112201 s
 
       OpenMP CPU
-        Time:  1.812e-06 s
+        Time:  1.997e-06 s
 
       OpenMP GPU
-        Time:  0.000524878 s
+        Time:  0.000562409 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00132855 s
+        Time:  0.0013347 s
 
       OpenMP
-        Time:  2.338e-06 s
+        Time:  2.527e-06 s
 
       OpenMP GPU
-        Time:  0.000563285 s
+        Time:  0.000544086 s
 
 Dimensions: 1024 
 N coils: 1024
@@ -683,25 +737,25 @@ N coils: 1024
 
     Multiplication
       CPU
-        Time:  0.00404574 s
+        Time:  0.00396129 s
 
       OpenMP CPU
-        Time:  3.355e-06 s
+        Time:  3.856e-06 s
 
       OpenMP GPU
-        Time:  0.00192776 s
+        Time:  0.00196189 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00504508 s
+        Time:  0.00502981 s
 
       OpenMP
-        Time:  4.572e-06 s
+        Time:  4.585e-06 s
 
       OpenMP GPU
-        Time:  0.00213823 s
+        Time:  0.00219028 s
 
 Dimensions: 2048 
 N coils: 2048
@@ -710,25 +764,25 @@ N coils: 2048
 
     Multiplication
       CPU
-        Time:  0.0163379 s
+        Time:  0.0159786 s
 
       OpenMP CPU
-        Time:  6.891e-06 s
+        Time:  7.063e-06 s
 
       OpenMP GPU
-        Time:  0.00755468 s
+        Time:  0.00766744 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.0201011 s
+        Time:  0.0200386 s
 
       OpenMP
-        Time:  8.97e-06 s
+        Time:  9.48e-06 s
 
       OpenMP GPU
-        Time:  0.00871509 s
+        Time:  0.00889697 s
 
 Dimensions: 4096 
 N coils: 4096
@@ -737,25 +791,25 @@ N coils: 4096
 
     Multiplication
       CPU
-        Time:  0.0662695 s
+        Time:  0.0637471 s
 
       OpenMP CPU
-        Time:  1.3601e-05 s
+        Time:  1.3506e-05 s
 
       OpenMP GPU
-        Time:  0.030074 s
+        Time:  0.0302768 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.0787564 s
+        Time:  0.0788145 s
 
       OpenMP
-        Time:  1.7722e-05 s
+        Time:  1.7371e-05 s
 
       OpenMP GPU
-        Time:  0.0349191 s
+        Time:  0.0354988 s
 
 Dimensions: 8192 
 N coils: 8192
@@ -764,25 +818,25 @@ N coils: 8192
 
     Multiplication
       CPU
-        Time:  0.256986 s
+        Time:  0.258441 s
 
       OpenMP CPU
-        Time:  2.7159e-05 s
+        Time:  2.6923e-05 s
 
       OpenMP GPU
-        Time:  0.120618 s
+        Time:  0.122951 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.316854 s
+        Time:  0.318753 s
 
       OpenMP
-        Time:  3.5976e-05 s
+        Time:  3.4702e-05 s
 
       OpenMP GPU
-        Time:  0.13992 s
+        Time:  0.140958 s
 
 Dimensions: 32768 
 N coils: 8
@@ -791,25 +845,25 @@ N coils: 8
 
     Multiplication
       CPU
-        Time:  0.00143483 s
+        Time:  0.00139899 s
 
       OpenMP CPU
-        Time:  5.6242e-05 s
+        Time:  5.6559e-05 s
 
       OpenMP GPU
-        Time:  0.000505726 s
+        Time:  0.000499385 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00151229 s
+        Time:  0.00155 s
 
       OpenMP
-        Time:  8.6535e-05 s
+        Time:  8.7577e-05 s
 
       OpenMP GPU
-        Time:  0.000515674 s
+        Time:  0.000515972 s
 
 Dimensions: 65536 
 N coils: 16
@@ -818,25 +872,25 @@ N coils: 16
 
     Multiplication
       CPU
-        Time:  0.00442006 s
+        Time:  0.00428721 s
 
       OpenMP CPU
-        Time:  0.000123989 s
+        Time:  0.000128675 s
 
       OpenMP GPU
-        Time:  0.0018636 s
+        Time:  0.00194855 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00607602 s
+        Time:  0.00602994 s
 
       OpenMP
-        Time:  0.000173722 s
+        Time:  0.000176459 s
 
       OpenMP GPU
-        Time:  0.00236777 s
+        Time:  0.0023948 s
 
 Dimensions: 131072 
 N coils: 32
@@ -845,25 +899,25 @@ N coils: 32
 
     Multiplication
       CPU
-        Time:  0.0167949 s
+        Time:  0.0165265 s
 
       OpenMP CPU
-        Time:  0.000227031 s
+        Time:  0.000235228 s
 
       OpenMP GPU
-        Time:  0.00751165 s
+        Time:  0.00762855 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.0253031 s
+        Time:  0.0253714 s
 
       OpenMP
-        Time:  0.000392871 s
+        Time:  0.000368261 s
 
       OpenMP GPU
-        Time:  0.00961512 s
+        Time:  0.00977899 s
 
 Dimensions: 262144 
 N coils: 64
@@ -872,25 +926,25 @@ N coils: 64
 
     Multiplication
       CPU
-        Time:  0.0708523 s
+        Time:  0.0698055 s
 
       OpenMP CPU
-        Time:  0.000498847 s
+        Time:  0.000491181 s
 
       OpenMP GPU
-        Time:  0.0303207 s
+        Time:  0.030637 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.113952 s
+        Time:  0.114224 s
 
       OpenMP
-        Time:  0.000845319 s
+        Time:  0.000851859 s
 
       OpenMP GPU
-        Time:  0.0404167 s
+        Time:  0.0415115 s
 
 Dimensions: 524288 
 N coils: 128
@@ -899,25 +953,25 @@ N coils: 128
 
     Multiplication
       CPU
-        Time:  0.285332 s
+        Time:  0.288481 s
 
       OpenMP CPU
-        Time:  0.00107853 s
+        Time:  0.00109431 s
 
       OpenMP GPU
-        Time:  0.126485 s
+        Time:  0.127848 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.503138 s
+        Time:  0.494843 s
 
       OpenMP
-        Time:  0.00169336 s
+        Time:  0.00168755 s
 
       OpenMP GPU
-        Time:  0.196338 s
+        Time:  0.199669 s
 
 Dimensions: 210 
 N coils: 210
@@ -926,25 +980,25 @@ N coils: 210
 
     Multiplication
       CPU
-        Time:  0.00017697 s
+        Time:  0.000159884 s
 
       OpenMP CPU
-        Time:  7.12e-07 s
+        Time:  6.83e-07 s
 
       OpenMP GPU
-        Time:  7.2741e-05 s
+        Time:  7.2335e-05 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.000205806 s
+        Time:  0.000212403 s
 
       OpenMP
-        Time:  9.01e-07 s
+        Time:  8.77e-07 s
 
       OpenMP GPU
-        Time:  7.2903e-05 s
+        Time:  7.2663e-05 s
 
 Dimensions: 420 
 N coils: 420
@@ -953,25 +1007,25 @@ N coils: 420
 
     Multiplication
       CPU
-        Time:  0.000741307 s
+        Time:  0.000825376 s
 
       OpenMP CPU
-        Time:  1.609e-06 s
+        Time:  1.713e-06 s
 
       OpenMP GPU
-        Time:  0.000368798 s
+        Time:  0.000390024 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.000901133 s
+        Time:  0.000902921 s
 
       OpenMP
-        Time:  1.748e-06 s
+        Time:  1.747e-06 s
 
       OpenMP GPU
-        Time:  0.000333056 s
+        Time:  0.000321049 s
 
 Dimensions: 1260 
 N coils: 1260
@@ -980,25 +1034,25 @@ N coils: 1260
 
     Multiplication
       CPU
-        Time:  0.00551364 s
+        Time:  0.00550724 s
 
       OpenMP CPU
-        Time:  3.937e-06 s
+        Time:  4.313e-06 s
 
       OpenMP GPU
-        Time:  0.00289087 s
+        Time:  0.00289885 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00767793 s
+        Time:  0.00756126 s
 
       OpenMP
-        Time:  5.725e-06 s
+        Time:  6.445e-06 s
 
       OpenMP GPU
-        Time:  0.00326599 s
+        Time:  0.00328648 s
 
 Dimensions: 4410 
 N coils: 4410
@@ -1007,25 +1061,25 @@ N coils: 4410
 
     Multiplication
       CPU
-        Time:  0.0642147 s
+        Time:  0.064376 s
 
       OpenMP CPU
-        Time:  3.0757e-05 s
+        Time:  1.5094e-05 s
 
       OpenMP GPU
-        Time:  0.0348433 s
+        Time:  0.0350171 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.103279 s
+        Time:  0.103056 s
 
       OpenMP
-        Time:  2.0081e-05 s
+        Time:  2.0393e-05 s
 
       OpenMP GPU
-        Time:  0.0406112 s
+        Time:  0.0405216 s
 
 Dimensions: 8820 
 N coils: 8820
@@ -1034,25 +1088,25 @@ N coils: 8820
 
     Multiplication
       CPU
-        Time:  0.257899 s
+        Time:  0.256608 s
 
       OpenMP CPU
-        Time:  2.9403e-05 s
+        Time:  2.901e-05 s
 
       OpenMP GPU
-        Time:  0.140949 s
+        Time:  0.142899 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.366275 s
+        Time:  0.363959 s
 
       OpenMP
-        Time:  3.7898e-05 s
+        Time:  4.0071e-05 s
 
       OpenMP GPU
-        Time:  0.162269 s
+        Time:  0.162933 s
 
 Dimensions: 55125 
 N coils: 15
@@ -1061,25 +1115,25 @@ N coils: 15
 
     Multiplication
       CPU
-        Time:  0.00327598 s
+        Time:  0.00321536 s
 
       OpenMP CPU
-        Time:  9.2738e-05 s
+        Time:  0.00010913 s
 
       OpenMP GPU
-        Time:  0.00149455 s
+        Time:  0.0014943 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00468327 s
+        Time:  0.0046441 s
 
       OpenMP
-        Time:  0.000145403 s
+        Time:  0.000148328 s
 
       OpenMP GPU
-        Time:  0.00182926 s
+        Time:  0.00184567 s
 
 Dimensions: 110250 
 N coils: 30
@@ -1088,25 +1142,25 @@ N coils: 30
 
     Multiplication
       CPU
-        Time:  0.013106 s
+        Time:  0.0126453 s
 
       OpenMP CPU
-        Time:  0.000203661 s
+        Time:  0.000209286 s
 
       OpenMP GPU
-        Time:  0.00595972 s
+        Time:  0.0060212 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.0194285 s
+        Time:  0.0192082 s
 
       OpenMP
-        Time:  0.000306392 s
+        Time:  0.000314913 s
 
       OpenMP GPU
-        Time:  0.00770733 s
+        Time:  0.00779899 s
 
 Dimensions: 220500 
 N coils: 60
@@ -1115,25 +1169,25 @@ N coils: 60
 
     Multiplication
       CPU
-        Time:  0.0526319 s
+        Time:  0.0516536 s
 
       OpenMP CPU
-        Time:  0.000414322 s
+        Time:  0.000414406 s
 
       OpenMP GPU
-        Time:  0.023942 s
+        Time:  0.0242727 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.086248 s
+        Time:  0.0866707 s
 
       OpenMP
-        Time:  0.000696267 s
+        Time:  0.000697836 s
 
       OpenMP GPU
-        Time:  0.0313271 s
+        Time:  0.031679 s
 
 Dimensions: 441000 
 N coils: 120
@@ -1142,25 +1196,25 @@ N coils: 120
 
     Multiplication
       CPU
-        Time:  0.215054 s
+        Time:  0.216024 s
 
       OpenMP CPU
-        Time:  0.00085559 s
+        Time:  0.000844019 s
 
       OpenMP GPU
-        Time:  0.0962701 s
+        Time:  0.098372 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.386383 s
+        Time:  0.386889 s
 
       OpenMP
-        Time:  0.00146414 s
+        Time:  0.00148355 s
 
       OpenMP GPU
-        Time:  0.147997 s
+        Time:  0.153073 s
 
 Dimensions: 127 
 N coils: 127
@@ -1169,25 +1223,25 @@ N coils: 127
 
     Multiplication
       CPU
-        Time:  7.6002e-05 s
+        Time:  6.092e-05 s
 
       OpenMP CPU
-        Time:  5.28e-07 s
+        Time:  5.61e-07 s
 
       OpenMP GPU
-        Time:  2.6917e-05 s
+        Time:  2.6859e-05 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.000122027 s
+        Time:  0.000108112 s
 
       OpenMP
-        Time:  5.62e-07 s
+        Time:  7e-07 s
 
       OpenMP GPU
-        Time:  2.6926e-05 s
+        Time:  3.2969e-05 s
 
 Dimensions: 257 
 N coils: 257
@@ -1196,25 +1250,25 @@ N coils: 257
 
     Multiplication
       CPU
-        Time:  0.000322363 s
+        Time:  0.000289988 s
 
       OpenMP CPU
-        Time:  1.068e-06 s
+        Time:  1.006e-06 s
 
       OpenMP GPU
-        Time:  0.000140573 s
+        Time:  0.000131616 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.000418836 s
+        Time:  0.000366497 s
 
       OpenMP
-        Time:  1.597e-06 s
+        Time:  1.278e-06 s
 
       OpenMP GPU
-        Time:  0.000141878 s
+        Time:  0.000128267 s
 
 Dimensions: 509 
 N coils: 509
@@ -1223,25 +1277,25 @@ N coils: 509
 
     Multiplication
       CPU
-        Time:  0.000933183 s
+        Time:  0.00104333 s
 
       OpenMP CPU
-        Time:  1.536e-06 s
+        Time:  1.584e-06 s
 
       OpenMP GPU
-        Time:  0.000447314 s
+        Time:  0.000470022 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00128143 s
+        Time:  0.00134405 s
 
       OpenMP
-        Time:  2.813e-06 s
+        Time:  2.633e-06 s
 
       OpenMP GPU
-        Time:  0.000517207 s
+        Time:  0.000517307 s
 
 Dimensions: 1021 
 N coils: 1021
@@ -1250,25 +1304,25 @@ N coils: 1021
 
     Multiplication
       CPU
-        Time:  0.00397483 s
+        Time:  0.00400976 s
 
       OpenMP CPU
-        Time:  3.601e-06 s
+        Time:  3.918e-06 s
 
       OpenMP GPU
-        Time:  0.00190183 s
+        Time:  0.00194311 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00499952 s
+        Time:  0.00504016 s
 
       OpenMP
-        Time:  4.762e-06 s
+        Time:  4.705e-06 s
 
       OpenMP GPU
-        Time:  0.00212085 s
+        Time:  0.00213963 s
 
 Dimensions: 2053 
 N coils: 2053
@@ -1277,25 +1331,25 @@ N coils: 2053
 
     Multiplication
       CPU
-        Time:  0.0134834 s
+        Time:  0.0134927 s
 
       OpenMP CPU
-        Time:  6.895e-06 s
+        Time:  6.924e-06 s
 
       OpenMP GPU
-        Time:  0.00760429 s
+        Time:  0.0077595 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.0209806 s
+        Time:  0.0209202 s
 
       OpenMP
-        Time:  9.502e-06 s
+        Time:  9.529e-06 s
 
       OpenMP GPU
-        Time:  0.00868471 s
+        Time:  0.00875261 s
 
 Dimensions: 4093 
 N coils: 4093
@@ -1304,25 +1358,25 @@ N coils: 4093
 
     Multiplication
       CPU
-        Time:  0.065836 s
+        Time:  0.0637744 s
 
       OpenMP CPU
-        Time:  1.44e-05 s
+        Time:  1.3823e-05 s
 
       OpenMP GPU
-        Time:  0.030235 s
+        Time:  0.0304811 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.0797673 s
+        Time:  0.0795289 s
 
       OpenMP
-        Time:  1.7734e-05 s
+        Time:  1.7952e-05 s
 
       OpenMP GPU
-        Time:  0.0348239 s
+        Time:  0.0352036 s
 
 Dimensions: 8191 
 N coils: 8191
@@ -1331,25 +1385,25 @@ N coils: 8191
 
     Multiplication
       CPU
-        Time:  0.257355 s
+        Time:  0.256841 s
 
       OpenMP CPU
-        Time:  4.4767e-05 s
+        Time:  2.8126e-05 s
 
       OpenMP GPU
-        Time:  0.120983 s
+        Time:  0.122902 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.315761 s
+        Time:  0.31315 s
 
       OpenMP
-        Time:  3.5919e-05 s
+        Time:  3.5504e-05 s
 
       OpenMP GPU
-        Time:  0.139615 s
+        Time:  0.140835 s
 
 Dimensions: 65563 
 N coils: 17
@@ -1358,25 +1412,25 @@ N coils: 17
 
     Multiplication
       CPU
-        Time:  0.004412 s
+        Time:  0.00424032 s
 
       OpenMP CPU
-        Time:  0.000163347 s
+        Time:  0.000130152 s
 
       OpenMP GPU
-        Time:  0.00197972 s
+        Time:  0.00202002 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00614165 s
+        Time:  0.00611326 s
 
       OpenMP
-        Time:  0.00017229 s
+        Time:  0.000175218 s
 
       OpenMP GPU
-        Time:  0.00249571 s
+        Time:  0.00251725 s
 
 Dimensions: 131071 
 N coils: 31
@@ -1385,25 +1439,25 @@ N coils: 31
 
     Multiplication
       CPU
-        Time:  0.0161775 s
+        Time:  0.0158556 s
 
       OpenMP CPU
-        Time:  0.000240908 s
+        Time:  0.000246453 s
 
       OpenMP GPU
-        Time:  0.00737993 s
+        Time:  0.0074904 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.024827 s
+        Time:  0.0246442 s
 
       OpenMP
-        Time:  0.000389467 s
+        Time:  0.000404887 s
 
       OpenMP GPU
-        Time:  0.00964546 s
+        Time:  0.00960895 s
 
 Dimensions: 262147 
 N coils: 61
@@ -1412,25 +1466,25 @@ N coils: 61
 
     Multiplication
       CPU
-        Time:  0.0655904 s
+        Time:  0.0643951 s
 
       OpenMP CPU
-        Time:  0.000486174 s
+        Time:  0.000500219 s
 
       OpenMP GPU
-        Time:  0.0292261 s
+        Time:  0.0298258 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.108413 s
+        Time:  0.107318 s
 
       OpenMP
-        Time:  0.000829486 s
+        Time:  0.0008524 s
 
       OpenMP GPU
-        Time:  0.0385916 s
+        Time:  0.0387699 s
 
 Dimensions: 524287 
 N coils: 127
@@ -1439,25 +1493,25 @@ N coils: 127
 
     Multiplication
       CPU
-        Time:  0.279817 s
+        Time:  0.280602 s
 
       OpenMP CPU
-        Time:  0.00102515 s
+        Time:  0.00104736 s
 
       OpenMP GPU
-        Time:  0.122776 s
+        Time:  0.124687 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.495228 s
+        Time:  0.484495 s
 
       OpenMP
-        Time:  0.00164897 s
+        Time:  0.00172058 s
 
       OpenMP GPU
-        Time:  0.198487 s
+        Time:  0.202152 s
 
 Dimensions: 256 
 N coils: 1
@@ -1466,25 +1520,25 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  2.096e-06 s
+        Time:  2.231e-06 s
 
       OpenMP CPU
-        Time:  5.04e-07 s
+        Time:  4.27e-07 s
 
       OpenMP GPU
-        Time:  4.88e-07 s
+        Time:  4.91e-07 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  2.735e-06 s
+        Time:  2.699e-06 s
 
       OpenMP
-        Time:  5.52e-07 s
+        Time:  5.5e-07 s
 
       OpenMP GPU
-        Time:  4.93e-07 s
+        Time:  4.8e-07 s
 
 Dimensions: 210 
 N coils: 1
@@ -1493,25 +1547,25 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  4.474e-06 s
+        Time:  4.204e-06 s
 
       OpenMP CPU
-        Time:  5.82e-07 s
+        Time:  3.72e-07 s
 
       OpenMP GPU
-        Time:  6.48e-07 s
+        Time:  4.09e-07 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  3.972e-06 s
+        Time:  2.865e-06 s
 
       OpenMP
-        Time:  7.38e-07 s
+        Time:  4.59e-07 s
 
       OpenMP GPU
-        Time:  6.46e-07 s
+        Time:  4.25e-07 s
 
 Dimensions: 257 
 N coils: 1
@@ -1520,25 +1574,25 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  1.823e-06 s
+        Time:  2.709e-06 s
 
       OpenMP CPU
-        Time:  4.08e-07 s
+        Time:  6.06e-07 s
 
       OpenMP GPU
-        Time:  4.58e-07 s
+        Time:  6.73e-07 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  2.45e-06 s
+        Time:  3.655e-06 s
 
       OpenMP
-        Time:  5.34e-07 s
+        Time:  7.83e-07 s
 
       OpenMP GPU
-        Time:  4.62e-07 s
+        Time:  6.85e-07 s
 
 Dimensions: 256 
 N coils: 1
@@ -1547,25 +1601,25 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  2.767e-06 s
+        Time:  2.716e-06 s
 
       OpenMP CPU
-        Time:  6.11e-07 s
+        Time:  6.02e-07 s
 
       OpenMP GPU
-        Time:  6.76e-07 s
+        Time:  6.74e-07 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  3.656e-06 s
+        Time:  3.552e-06 s
 
       OpenMP
-        Time:  7.62e-07 s
+        Time:  7.69e-07 s
 
       OpenMP GPU
-        Time:  6.81e-07 s
+        Time:  6.82e-07 s
 
 Dimensions: 1024 
 N coils: 1
@@ -1574,25 +1628,25 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  1.3099e-05 s
+        Time:  1.3184e-05 s
 
       OpenMP CPU
-        Time:  2.052e-06 s
+        Time:  2.066e-06 s
 
       OpenMP GPU
-        Time:  2.388e-06 s
+        Time:  2.394e-06 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  1.3341e-05 s
+        Time:  1.3167e-05 s
 
       OpenMP
-        Time:  2.775e-06 s
+        Time:  2.778e-06 s
 
       OpenMP GPU
-        Time:  2.39e-06 s
+        Time:  2.407e-06 s
 
 Dimensions: 4096 
 N coils: 1
@@ -1601,25 +1655,25 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  5.7358e-05 s
+        Time:  5.1734e-05 s
 
       OpenMP CPU
-        Time:  1.1069e-05 s
+        Time:  7.759e-06 s
 
       OpenMP GPU
-        Time:  1.3194e-05 s
+        Time:  9.25e-06 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  6.2602e-05 s
+        Time:  4.4847e-05 s
 
       OpenMP
-        Time:  1.5313e-05 s
+        Time:  1.0775e-05 s
 
       OpenMP GPU
-        Time:  1.3212e-05 s
+        Time:  9.355e-06 s
 
 Dimensions: 16384 
 N coils: 1
@@ -1628,25 +1682,25 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.000239414 s
+        Time:  0.000176962 s
 
       OpenMP CPU
-        Time:  4.3719e-05 s
+        Time:  3.0659e-05 s
 
       OpenMP GPU
-        Time:  5.2074e-05 s
+        Time:  3.6632e-05 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.000390208 s
+        Time:  0.000375811 s
 
       OpenMP
-        Time:  6.0825e-05 s
+        Time:  6.0837e-05 s
 
       OpenMP GPU
-        Time:  5.239e-05 s
+        Time:  5.2204e-05 s
 
 Dimensions: 65536 
 N coils: 1
@@ -1655,25 +1709,25 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.000958098 s
+        Time:  0.000884131 s
 
       OpenMP CPU
-        Time:  0.000182093 s
+        Time:  0.000174581 s
 
       OpenMP GPU
-        Time:  0.000207903 s
+        Time:  0.000207755 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00106932 s
+        Time:  0.00131406 s
 
       OpenMP
-        Time:  0.000153974 s
+        Time:  0.000143665 s
 
       OpenMP GPU
-        Time:  0.000131393 s
+        Time:  0.000114471 s
 
 Dimensions: 262144 
 N coils: 1
@@ -1682,25 +1736,25 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.00232165 s
+        Time:  0.00197349 s
 
       OpenMP CPU
-        Time:  0.000483197 s
+        Time:  0.000496695 s
 
       OpenMP GPU
-        Time:  0.000453584 s
+        Time:  0.000460676 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00417737 s
+        Time:  0.00376192 s
 
       OpenMP
-        Time:  0.000753088 s
+        Time:  0.000770246 s
 
       OpenMP GPU
-        Time:  0.000722659 s
+        Time:  0.000748388 s
 
 Dimensions: 1048576 
 N coils: 1
@@ -1709,25 +1763,25 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.0087817 s
+        Time:  0.00780063 s
 
       OpenMP CPU
-        Time:  0.00210943 s
+        Time:  0.00210059 s
 
       OpenMP GPU
-        Time:  0.00213959 s
+        Time:  0.00216089 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.0169423 s
+        Time:  0.0154596 s
 
       OpenMP
-        Time:  0.00336899 s
+        Time:  0.00335357 s
 
       OpenMP GPU
-        Time:  0.00332844 s
+        Time:  0.00334544 s
 
 Dimensions: 4194304 
 N coils: 1
@@ -1736,25 +1790,25 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.0361194 s
+        Time:  0.0321064 s
 
       OpenMP CPU
-        Time:  0.00865768 s
+        Time:  0.00884706 s
 
       OpenMP GPU
-        Time:  0.00905336 s
+        Time:  0.00907201 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.0719749 s
+        Time:  0.0657796 s
 
       OpenMP
-        Time:  0.0133283 s
+        Time:  0.0136425 s
 
       OpenMP GPU
-        Time:  0.013114 s
+        Time:  0.0133377 s
 
 Dimensions: 16777216 
 N coils: 1
@@ -1763,25 +1817,25 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.135959 s
+        Time:  0.126355 s
 
       OpenMP CPU
-        Time:  0.0347576 s
+        Time:  0.0346023 s
 
       OpenMP GPU
-        Time:  0.0361179 s
+        Time:  0.0360501 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.278216 s
+        Time:  0.26617 s
 
       OpenMP
-        Time:  0.0532979 s
+        Time:  0.053919 s
 
       OpenMP GPU
-        Time:  0.052204 s
+        Time:  0.052604 s
 
 Dimensions: 67108864 
 N coils: 1
@@ -1790,25 +1844,25 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.51291 s
+        Time:  0.504728 s
 
       OpenMP CPU
-        Time:  0.13923 s
+        Time:  0.139298 s
 
       OpenMP GPU
-        Time:  0.14486 s
+        Time:  0.143748 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  1.07513 s
+        Time:  1.06487 s
 
       OpenMP
-        Time:  0.212964 s
+        Time:  0.216727 s
 
       OpenMP GPU
-        Time:  0.208962 s
+        Time:  0.21391 s
 
 Dimensions: 210 
 N coils: 1
@@ -1817,25 +1871,25 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  2.931e-06 s
+        Time:  2.869e-06 s
 
       OpenMP CPU
-        Time:  4.43e-07 s
+        Time:  3.56e-07 s
 
       OpenMP GPU
-        Time:  4e-07 s
+        Time:  4.01e-07 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  2.531e-06 s
+        Time:  2.695e-06 s
 
       OpenMP
-        Time:  4.65e-07 s
+        Time:  4.57e-07 s
 
       OpenMP GPU
-        Time:  4.04e-07 s
+        Time:  4.07e-07 s
 
 Dimensions: 1260 
 N coils: 1
@@ -1844,25 +1898,25 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  8.799e-06 s
+        Time:  1.2316e-05 s
 
       OpenMP CPU
-        Time:  1.769e-06 s
+        Time:  2.475e-06 s
 
       OpenMP GPU
-        Time:  2.069e-06 s
+        Time:  2.922e-06 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  1.1844e-05 s
+        Time:  1.3854e-05 s
 
       OpenMP
-        Time:  2.399e-06 s
+        Time:  3.387e-06 s
 
       OpenMP GPU
-        Time:  2.546e-06 s
+        Time:  2.924e-06 s
 
 Dimensions: 4410 
 N coils: 1
@@ -1871,25 +1925,25 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  3.2516e-05 s
+        Time:  3.9728e-05 s
 
       OpenMP CPU
-        Time:  6.042e-06 s
+        Time:  8.331e-06 s
 
       OpenMP GPU
-        Time:  1.1229e-05 s
+        Time:  9.963e-06 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  4.2782e-05 s
+        Time:  4.9816e-05 s
 
       OpenMP
-        Time:  1.5609e-05 s
+        Time:  1.1601e-05 s
 
       OpenMP GPU
-        Time:  7.09e-06 s
+        Time:  9.943e-06 s
 
 Dimensions: 15750 
 N coils: 1
@@ -1898,25 +1952,25 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.000177689 s
+        Time:  0.000156136 s
 
       OpenMP CPU
-        Time:  3.1779e-05 s
+        Time:  2.9391e-05 s
 
       OpenMP GPU
-        Time:  3.806e-05 s
+        Time:  3.5227e-05 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.0002581 s
+        Time:  0.000273083 s
 
       OpenMP
-        Time:  4.507e-05 s
+        Time:  5.9798e-05 s
 
       OpenMP GPU
-        Time:  3.8291e-05 s
+        Time:  5.0654e-05 s
 
 Dimensions: 66150 
 N coils: 1
@@ -1925,25 +1979,25 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.000740854 s
+        Time:  0.000894536 s
 
       OpenMP CPU
-        Time:  0.000134864 s
+        Time:  0.000185442 s
 
       OpenMP GPU
-        Time:  0.000159452 s
+        Time:  0.000209712 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00133366 s
+        Time:  0.00154385 s
 
       OpenMP
-        Time:  0.000199107 s
+        Time:  0.000136074 s
 
       OpenMP GPU
-        Time:  0.000188595 s
+        Time:  0.000120226 s
 
 Dimensions: 257250 
 N coils: 1
@@ -1952,25 +2006,25 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.00226921 s
+        Time:  0.00196404 s
 
       OpenMP CPU
-        Time:  0.000485059 s
+        Time:  0.000487358 s
 
       OpenMP GPU
-        Time:  0.000486045 s
+        Time:  0.000485834 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00420337 s
+        Time:  0.00387497 s
 
       OpenMP
-        Time:  0.000750386 s
+        Time:  0.000765488 s
 
       OpenMP GPU
-        Time:  0.000718481 s
+        Time:  0.000703507 s
 
 Dimensions: 1080450 
 N coils: 1
@@ -1979,25 +2033,25 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.00890024 s
+        Time:  0.00810237 s
 
       OpenMP CPU
-        Time:  0.00218252 s
+        Time:  0.0022498 s
 
       OpenMP GPU
-        Time:  0.00223751 s
+        Time:  0.00232069 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.0174046 s
+        Time:  0.0165297 s
 
       OpenMP
-        Time:  0.00345288 s
+        Time:  0.00345201 s
 
       OpenMP GPU
-        Time:  0.00337181 s
+        Time:  0.00340441 s
 
 Dimensions: 4321800 
 N coils: 1
@@ -2006,25 +2060,25 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.0370821 s
+        Time:  0.0324597 s
 
       OpenMP CPU
-        Time:  0.00892533 s
+        Time:  0.00902808 s
 
       OpenMP GPU
-        Time:  0.00927153 s
+        Time:  0.00930577 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.0741535 s
+        Time:  0.0675196 s
 
       OpenMP
-        Time:  0.0137056 s
+        Time:  0.0135361 s
 
       OpenMP GPU
-        Time:  0.0135182 s
+        Time:  0.0133454 s
 
 Dimensions: 15435000 
 N coils: 1
@@ -2033,25 +2087,25 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.125285 s
+        Time:  0.116484 s
 
       OpenMP CPU
-        Time:  0.0319737 s
+        Time:  0.0324922 s
 
       OpenMP GPU
-        Time:  0.0330139 s
+        Time:  0.0339286 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.255794 s
+        Time:  0.24234 s
 
       OpenMP
-        Time:  0.0486891 s
+        Time:  0.0497353 s
 
       OpenMP GPU
-        Time:  0.0478641 s
+        Time:  0.0490937 s
 
 Dimensions: 64827000 
 N coils: 1
@@ -2060,25 +2114,25 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.494338 s
+        Time:  0.489486 s
 
       OpenMP CPU
-        Time:  0.134675 s
+        Time:  0.13929 s
 
       OpenMP GPU
-        Time:  0.140586 s
+        Time:  0.143414 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  1.0414 s
+        Time:  1.02022 s
 
       OpenMP
-        Time:  0.205712 s
+        Time:  0.206886 s
 
       OpenMP GPU
-        Time:  0.202136 s
+        Time:  0.203764 s
 
 Dimensions: 257 
 N coils: 1
@@ -2087,25 +2141,25 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  2.37e-06 s
+        Time:  2.007e-06 s
 
       OpenMP CPU
-        Time:  5.65e-07 s
+        Time:  5.22e-07 s
 
       OpenMP GPU
-        Time:  5.49e-07 s
+        Time:  4.83e-07 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  3.011e-06 s
+        Time:  2.668e-06 s
 
       OpenMP
-        Time:  6.17e-07 s
+        Time:  5.48e-07 s
 
       OpenMP GPU
-        Time:  5.52e-07 s
+        Time:  4.84e-07 s
 
 Dimensions: 1021 
 N coils: 1
@@ -2114,25 +2168,25 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  1.1977e-05 s
+        Time:  1.1232e-05 s
 
       OpenMP CPU
-        Time:  1.686e-06 s
+        Time:  1.473e-06 s
 
       OpenMP GPU
-        Time:  1.89e-06 s
+        Time:  1.695e-06 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  1.0464e-05 s
+        Time:  9.179e-06 s
 
       OpenMP
-        Time:  2.196e-06 s
+        Time:  1.961e-06 s
 
       OpenMP GPU
-        Time:  1.917e-06 s
+        Time:  1.714e-06 s
 
 Dimensions: 4093 
 N coils: 1
@@ -2141,25 +2195,25 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  3.247e-05 s
+        Time:  4.2801e-05 s
 
       OpenMP CPU
-        Time:  6.162e-06 s
+        Time:  8.412e-06 s
 
       OpenMP GPU
-        Time:  7.355e-06 s
+        Time:  9.981e-06 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  3.7118e-05 s
+        Time:  4.8385e-05 s
 
       OpenMP
-        Time:  8.57e-06 s
+        Time:  1.1623e-05 s
 
       OpenMP GPU
-        Time:  7.335e-06 s
+        Time:  9.969e-06 s
 
 Dimensions: 16381 
 N coils: 1
@@ -2168,25 +2222,25 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.000138315 s
+        Time:  0.000172616 s
 
       OpenMP CPU
-        Time:  2.4606e-05 s
+        Time:  3.3215e-05 s
 
       OpenMP GPU
-        Time:  2.9095e-05 s
+        Time:  3.9564e-05 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.000276277 s
+        Time:  0.000250911 s
 
       OpenMP
-        Time:  5.0231e-05 s
+        Time:  4.6235e-05 s
 
       OpenMP GPU
-        Time:  4.3293e-05 s
+        Time:  3.9819e-05 s
 
 Dimensions: 65521 
 N coils: 1
@@ -2195,25 +2249,25 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.000804555 s
+        Time:  0.000682276 s
 
       OpenMP CPU
-        Time:  0.000144423 s
+        Time:  0.000137712 s
 
       OpenMP GPU
-        Time:  0.000171964 s
+        Time:  0.00017612 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00138708 s
+        Time:  0.0011699 s
 
       OpenMP
-        Time:  0.000205534 s
+        Time:  0.000191192 s
 
       OpenMP GPU
-        Time:  0.000173725 s
+        Time:  0.000159042 s
 
 Dimensions: 262139 
 N coils: 1
@@ -2222,25 +2276,25 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.00225883 s
+        Time:  0.00200348 s
 
       OpenMP CPU
-        Time:  0.000495465 s
+        Time:  0.000468763 s
 
       OpenMP GPU
-        Time:  0.000472115 s
+        Time:  0.000485776 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00423102 s
+        Time:  0.00386719 s
 
       OpenMP
-        Time:  0.000769561 s
+        Time:  0.000745439 s
 
       OpenMP GPU
-        Time:  0.000685098 s
+        Time:  0.000711217 s
 
 Dimensions: 1048573 
 N coils: 1
@@ -2249,25 +2303,25 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.00887318 s
+        Time:  0.00791954 s
 
       OpenMP CPU
-        Time:  0.0021051 s
+        Time:  0.00215299 s
 
       OpenMP GPU
-        Time:  0.00215865 s
+        Time:  0.00221521 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.0169053 s
+        Time:  0.0154756 s
 
       OpenMP
-        Time:  0.00335079 s
+        Time:  0.0033478 s
 
       OpenMP GPU
-        Time:  0.0032717 s
+        Time:  0.00326751 s
 
 Dimensions: 4194301 
 N coils: 1
@@ -2276,25 +2330,25 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.0361707 s
+        Time:  0.0318455 s
 
       OpenMP CPU
-        Time:  0.008717 s
+        Time:  0.0090691 s
 
       OpenMP GPU
-        Time:  0.00904971 s
+        Time:  0.00921884 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.0726297 s
+        Time:  0.0650439 s
 
       OpenMP
-        Time:  0.0133117 s
+        Time:  0.0131893 s
 
       OpenMP GPU
-        Time:  0.0130864 s
+        Time:  0.0130368 s
 
 Dimensions: 16777213 
 N coils: 1
@@ -2303,25 +2357,25 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.134541 s
+        Time:  0.127131 s
 
       OpenMP CPU
-        Time:  0.0346163 s
+        Time:  0.0355386 s
 
       OpenMP GPU
-        Time:  0.0358933 s
+        Time:  0.0371256 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.278128 s
+        Time:  0.262008 s
 
       OpenMP
-        Time:  0.0529499 s
+        Time:  0.0526968 s
 
       OpenMP GPU
-        Time:  0.0521426 s
+        Time:  0.0516235 s
 
 Dimensions: 67108859 
 N coils: 1
@@ -2330,23 +2384,23 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.510767 s
+        Time:  0.51027 s
 
       OpenMP CPU
-        Time:  0.139737 s
+        Time:  0.141896 s
 
       OpenMP GPU
-        Time:  0.145718 s
+        Time:  0.148889 s
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  1.07462 s
+        Time:  1.05523 s
 
       OpenMP
-        Time:  0.21235 s
+        Time:  0.209928 s
 
       OpenMP GPU
-        Time:  0.209585 s
+        Time:  0.206228 s
 

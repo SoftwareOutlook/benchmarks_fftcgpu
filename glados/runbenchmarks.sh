@@ -2,11 +2,11 @@
 
 export OMP_PROC_BIND=spread
 
-PROG=/home/pgambron/GPU/cuda/test
+#PROG=/home/pgambron/GPU/cuda/test
 #PROG=/home/pgambron/GPU/kokkos/test
 #PROG=/home/pgambron/GPU/opencl/test
 #PROG=/home/pgambron/GPU/openacc/test
-#PROG=/home/pgambron/GPU/openmp/test
+PROG=/home/pgambron/GPU/openmp/test
 
 echo "===================================="
 echo $PROG
