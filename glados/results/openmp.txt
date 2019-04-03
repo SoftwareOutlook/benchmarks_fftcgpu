@@ -1,0 +1,2352 @@
+====================================
+/home/pgambron/GPU/openmp/test
+
+Dimensions: 256 
+N coils: 256
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000680148 s
+
+      OpenMP CPU
+        Time:  2.401e-06 s
+
+      OpenMP GPU
+        Time:  0.000311328 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000390667 s
+
+      OpenMP
+        Time:  1.633e-06 s
+
+      OpenMP GPU
+        Time:  0.000183527 s
+
+Dimensions: 210 
+N coils: 210
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000178724 s
+
+      OpenMP CPU
+        Time:  9.65e-07 s
+
+      OpenMP GPU
+        Time:  8.0105e-05 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000287636 s
+
+      OpenMP
+        Time:  1.466e-06 s
+
+      OpenMP GPU
+        Time:  0.000112508 s
+
+Dimensions: 257 
+N coils: 257
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000313165 s
+
+      OpenMP CPU
+        Time:  1.17e-06 s
+
+      OpenMP GPU
+        Time:  0.000137727 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000458558 s
+
+      OpenMP
+        Time:  1.503e-06 s
+
+      OpenMP GPU
+        Time:  0.000159669 s
+
+Dimensions: 128 
+N coils: 128
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  7.5069e-05 s
+
+      OpenMP CPU
+        Time:  5.73e-07 s
+
+      OpenMP GPU
+        Time:  3.3704e-05 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0001071 s
+
+      OpenMP
+        Time:  6.95e-07 s
+
+      OpenMP GPU
+        Time:  3.3624e-05 s
+
+Dimensions: 256 
+N coils: 256
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000312069 s
+
+      OpenMP CPU
+        Time:  1.231e-06 s
+
+      OpenMP GPU
+        Time:  0.000141101 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000444483 s
+
+      OpenMP
+        Time:  1.731e-06 s
+
+      OpenMP GPU
+        Time:  0.000161249 s
+
+Dimensions: 512 
+N coils: 512
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00100314 s
+
+      OpenMP CPU
+        Time:  1.994e-06 s
+
+      OpenMP GPU
+        Time:  0.000557943 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00149331 s
+
+      OpenMP
+        Time:  2.588e-06 s
+
+      OpenMP GPU
+        Time:  0.000704733 s
+
+Dimensions: 32768 
+N coils: 8
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00141986 s
+
+      OpenMP CPU
+        Time:  6.8121e-05 s
+
+      OpenMP GPU
+        Time:  0.000530576 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00204748 s
+
+      OpenMP
+        Time:  0.000126469 s
+
+      OpenMP GPU
+        Time:  0.000778186 s
+
+Dimensions: 65536 
+N coils: 16
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00473284 s
+
+      OpenMP CPU
+        Time:  0.000149337 s
+
+      OpenMP GPU
+        Time:  0.00204127 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00676951 s
+
+      OpenMP
+        Time:  0.000188221 s
+
+      OpenMP GPU
+        Time:  0.0026271 s
+
+Dimensions: 131072 
+N coils: 32
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.016992 s
+
+      OpenMP CPU
+        Time:  0.000230262 s
+
+      OpenMP GPU
+        Time:  0.00756877 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0257513 s
+
+      OpenMP
+        Time:  0.000379528 s
+
+      OpenMP GPU
+        Time:  0.00963004 s
+
+Dimensions: 210 
+N coils: 210
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000179627 s
+
+      OpenMP CPU
+        Time:  6.92e-07 s
+
+      OpenMP GPU
+        Time:  7.1972e-05 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000219308 s
+
+      OpenMP
+        Time:  8.65e-07 s
+
+      OpenMP GPU
+        Time:  7.2551e-05 s
+
+Dimensions: 420 
+N coils: 420
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000798884 s
+
+      OpenMP CPU
+        Time:  1.646e-06 s
+
+      OpenMP GPU
+        Time:  0.000376229 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000876324 s
+
+      OpenMP
+        Time:  1.63e-06 s
+
+      OpenMP GPU
+        Time:  0.000355232 s
+
+Dimensions: 41160 
+N coils: 15
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00263476 s
+
+      OpenMP CPU
+        Time:  8.5642e-05 s
+
+      OpenMP GPU
+        Time:  0.00115087 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00356721 s
+
+      OpenMP
+        Time:  0.000119434 s
+
+      OpenMP GPU
+        Time:  0.00133363 s
+
+Dimensions: 82320 
+N coils: 30
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0100448 s
+
+      OpenMP CPU
+        Time:  0.00014812 s
+
+      OpenMP GPU
+        Time:  0.00464739 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0141936 s
+
+      OpenMP
+        Time:  0.000223297 s
+
+      OpenMP GPU
+        Time:  0.00575454 s
+
+Dimensions: 127 
+N coils: 127
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  6.7076e-05 s
+
+      OpenMP CPU
+        Time:  4.97e-07 s
+
+      OpenMP GPU
+        Time:  3.0474e-05 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  8.9781e-05 s
+
+      OpenMP
+        Time:  6.34e-07 s
+
+      OpenMP GPU
+        Time:  3.0109e-05 s
+
+Dimensions: 257 
+N coils: 257
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000267216 s
+
+      OpenMP CPU
+        Time:  9.48e-07 s
+
+      OpenMP GPU
+        Time:  0.000120404 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00037837 s
+
+      OpenMP
+        Time:  1.306e-06 s
+
+      OpenMP GPU
+        Time:  0.00013278 s
+
+Dimensions: 509 
+N coils: 509
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000919594 s
+
+      OpenMP CPU
+        Time:  1.583e-06 s
+
+      OpenMP GPU
+        Time:  0.000458438 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00142461 s
+
+      OpenMP
+        Time:  2.482e-06 s
+
+      OpenMP GPU
+        Time:  0.000534598 s
+
+Dimensions: 32771 
+N coils: 7
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00101863 s
+
+      OpenMP CPU
+        Time:  5.8069e-05 s
+
+      OpenMP GPU
+        Time:  0.000405147 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00138556 s
+
+      OpenMP
+        Time:  7.3001e-05 s
+
+      OpenMP GPU
+        Time:  0.000452329 s
+
+Dimensions: 65537 
+N coils: 17
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00438037 s
+
+      OpenMP CPU
+        Time:  0.000127527 s
+
+      OpenMP GPU
+        Time:  0.00200788 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00628631 s
+
+      OpenMP
+        Time:  0.000187317 s
+
+      OpenMP GPU
+        Time:  0.00251137 s
+
+Dimensions: 131071 
+N coils: 31
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0162697 s
+
+      OpenMP CPU
+        Time:  0.000243359 s
+
+      OpenMP GPU
+        Time:  0.00744073 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.024818 s
+
+      OpenMP
+        Time:  0.000408311 s
+
+      OpenMP GPU
+        Time:  0.00972043 s
+
+Dimensions: 256 
+N coils: 256
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000257391 s
+
+      OpenMP CPU
+        Time:  9.04e-07 s
+
+      OpenMP GPU
+        Time:  0.000119285 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000330438 s
+
+      OpenMP
+        Time:  1.177e-06 s
+
+      OpenMP GPU
+        Time:  0.000119865 s
+
+Dimensions: 210 
+N coils: 210
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000173357 s
+
+      OpenMP CPU
+        Time:  7.61e-07 s
+
+      OpenMP GPU
+        Time:  8.0544e-05 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000237885 s
+
+      OpenMP
+        Time:  1.081e-06 s
+
+      OpenMP GPU
+        Time:  8.6085e-05 s
+
+Dimensions: 257 
+N coils: 257
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000277825 s
+
+      OpenMP CPU
+        Time:  9.69e-07 s
+
+      OpenMP GPU
+        Time:  0.000132115 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000344495 s
+
+      OpenMP
+        Time:  1.146e-06 s
+
+      OpenMP GPU
+        Time:  0.00011505 s
+
+Dimensions: 128 
+N coils: 128
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  6.3863e-05 s
+
+      OpenMP CPU
+        Time:  5.02e-07 s
+
+      OpenMP GPU
+        Time:  2.8851e-05 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  8.5594e-05 s
+
+      OpenMP
+        Time:  6.07e-07 s
+
+      OpenMP GPU
+        Time:  2.8878e-05 s
+
+Dimensions: 256 
+N coils: 256
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000327391 s
+
+      OpenMP CPU
+        Time:  1.222e-06 s
+
+      OpenMP GPU
+        Time:  0.000155588 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000423855 s
+
+      OpenMP
+        Time:  1.549e-06 s
+
+      OpenMP GPU
+        Time:  0.000161499 s
+
+Dimensions: 512 
+N coils: 512
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00102444 s
+
+      OpenMP CPU
+        Time:  1.812e-06 s
+
+      OpenMP GPU
+        Time:  0.000524878 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00132855 s
+
+      OpenMP
+        Time:  2.338e-06 s
+
+      OpenMP GPU
+        Time:  0.000563285 s
+
+Dimensions: 1024 
+N coils: 1024
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00404574 s
+
+      OpenMP CPU
+        Time:  3.355e-06 s
+
+      OpenMP GPU
+        Time:  0.00192776 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00504508 s
+
+      OpenMP
+        Time:  4.572e-06 s
+
+      OpenMP GPU
+        Time:  0.00213823 s
+
+Dimensions: 2048 
+N coils: 2048
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0163379 s
+
+      OpenMP CPU
+        Time:  6.891e-06 s
+
+      OpenMP GPU
+        Time:  0.00755468 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0201011 s
+
+      OpenMP
+        Time:  8.97e-06 s
+
+      OpenMP GPU
+        Time:  0.00871509 s
+
+Dimensions: 4096 
+N coils: 4096
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0662695 s
+
+      OpenMP CPU
+        Time:  1.3601e-05 s
+
+      OpenMP GPU
+        Time:  0.030074 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0787564 s
+
+      OpenMP
+        Time:  1.7722e-05 s
+
+      OpenMP GPU
+        Time:  0.0349191 s
+
+Dimensions: 8192 
+N coils: 8192
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.256986 s
+
+      OpenMP CPU
+        Time:  2.7159e-05 s
+
+      OpenMP GPU
+        Time:  0.120618 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.316854 s
+
+      OpenMP
+        Time:  3.5976e-05 s
+
+      OpenMP GPU
+        Time:  0.13992 s
+
+Dimensions: 32768 
+N coils: 8
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00143483 s
+
+      OpenMP CPU
+        Time:  5.6242e-05 s
+
+      OpenMP GPU
+        Time:  0.000505726 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00151229 s
+
+      OpenMP
+        Time:  8.6535e-05 s
+
+      OpenMP GPU
+        Time:  0.000515674 s
+
+Dimensions: 65536 
+N coils: 16
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00442006 s
+
+      OpenMP CPU
+        Time:  0.000123989 s
+
+      OpenMP GPU
+        Time:  0.0018636 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00607602 s
+
+      OpenMP
+        Time:  0.000173722 s
+
+      OpenMP GPU
+        Time:  0.00236777 s
+
+Dimensions: 131072 
+N coils: 32
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0167949 s
+
+      OpenMP CPU
+        Time:  0.000227031 s
+
+      OpenMP GPU
+        Time:  0.00751165 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0253031 s
+
+      OpenMP
+        Time:  0.000392871 s
+
+      OpenMP GPU
+        Time:  0.00961512 s
+
+Dimensions: 262144 
+N coils: 64
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0708523 s
+
+      OpenMP CPU
+        Time:  0.000498847 s
+
+      OpenMP GPU
+        Time:  0.0303207 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.113952 s
+
+      OpenMP
+        Time:  0.000845319 s
+
+      OpenMP GPU
+        Time:  0.0404167 s
+
+Dimensions: 524288 
+N coils: 128
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.285332 s
+
+      OpenMP CPU
+        Time:  0.00107853 s
+
+      OpenMP GPU
+        Time:  0.126485 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.503138 s
+
+      OpenMP
+        Time:  0.00169336 s
+
+      OpenMP GPU
+        Time:  0.196338 s
+
+Dimensions: 210 
+N coils: 210
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00017697 s
+
+      OpenMP CPU
+        Time:  7.12e-07 s
+
+      OpenMP GPU
+        Time:  7.2741e-05 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000205806 s
+
+      OpenMP
+        Time:  9.01e-07 s
+
+      OpenMP GPU
+        Time:  7.2903e-05 s
+
+Dimensions: 420 
+N coils: 420
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000741307 s
+
+      OpenMP CPU
+        Time:  1.609e-06 s
+
+      OpenMP GPU
+        Time:  0.000368798 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000901133 s
+
+      OpenMP
+        Time:  1.748e-06 s
+
+      OpenMP GPU
+        Time:  0.000333056 s
+
+Dimensions: 1260 
+N coils: 1260
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00551364 s
+
+      OpenMP CPU
+        Time:  3.937e-06 s
+
+      OpenMP GPU
+        Time:  0.00289087 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00767793 s
+
+      OpenMP
+        Time:  5.725e-06 s
+
+      OpenMP GPU
+        Time:  0.00326599 s
+
+Dimensions: 4410 
+N coils: 4410
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0642147 s
+
+      OpenMP CPU
+        Time:  3.0757e-05 s
+
+      OpenMP GPU
+        Time:  0.0348433 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.103279 s
+
+      OpenMP
+        Time:  2.0081e-05 s
+
+      OpenMP GPU
+        Time:  0.0406112 s
+
+Dimensions: 8820 
+N coils: 8820
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.257899 s
+
+      OpenMP CPU
+        Time:  2.9403e-05 s
+
+      OpenMP GPU
+        Time:  0.140949 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.366275 s
+
+      OpenMP
+        Time:  3.7898e-05 s
+
+      OpenMP GPU
+        Time:  0.162269 s
+
+Dimensions: 55125 
+N coils: 15
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00327598 s
+
+      OpenMP CPU
+        Time:  9.2738e-05 s
+
+      OpenMP GPU
+        Time:  0.00149455 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00468327 s
+
+      OpenMP
+        Time:  0.000145403 s
+
+      OpenMP GPU
+        Time:  0.00182926 s
+
+Dimensions: 110250 
+N coils: 30
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.013106 s
+
+      OpenMP CPU
+        Time:  0.000203661 s
+
+      OpenMP GPU
+        Time:  0.00595972 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0194285 s
+
+      OpenMP
+        Time:  0.000306392 s
+
+      OpenMP GPU
+        Time:  0.00770733 s
+
+Dimensions: 220500 
+N coils: 60
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0526319 s
+
+      OpenMP CPU
+        Time:  0.000414322 s
+
+      OpenMP GPU
+        Time:  0.023942 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.086248 s
+
+      OpenMP
+        Time:  0.000696267 s
+
+      OpenMP GPU
+        Time:  0.0313271 s
+
+Dimensions: 441000 
+N coils: 120
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.215054 s
+
+      OpenMP CPU
+        Time:  0.00085559 s
+
+      OpenMP GPU
+        Time:  0.0962701 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.386383 s
+
+      OpenMP
+        Time:  0.00146414 s
+
+      OpenMP GPU
+        Time:  0.147997 s
+
+Dimensions: 127 
+N coils: 127
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  7.6002e-05 s
+
+      OpenMP CPU
+        Time:  5.28e-07 s
+
+      OpenMP GPU
+        Time:  2.6917e-05 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000122027 s
+
+      OpenMP
+        Time:  5.62e-07 s
+
+      OpenMP GPU
+        Time:  2.6926e-05 s
+
+Dimensions: 257 
+N coils: 257
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000322363 s
+
+      OpenMP CPU
+        Time:  1.068e-06 s
+
+      OpenMP GPU
+        Time:  0.000140573 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000418836 s
+
+      OpenMP
+        Time:  1.597e-06 s
+
+      OpenMP GPU
+        Time:  0.000141878 s
+
+Dimensions: 509 
+N coils: 509
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000933183 s
+
+      OpenMP CPU
+        Time:  1.536e-06 s
+
+      OpenMP GPU
+        Time:  0.000447314 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00128143 s
+
+      OpenMP
+        Time:  2.813e-06 s
+
+      OpenMP GPU
+        Time:  0.000517207 s
+
+Dimensions: 1021 
+N coils: 1021
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00397483 s
+
+      OpenMP CPU
+        Time:  3.601e-06 s
+
+      OpenMP GPU
+        Time:  0.00190183 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00499952 s
+
+      OpenMP
+        Time:  4.762e-06 s
+
+      OpenMP GPU
+        Time:  0.00212085 s
+
+Dimensions: 2053 
+N coils: 2053
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0134834 s
+
+      OpenMP CPU
+        Time:  6.895e-06 s
+
+      OpenMP GPU
+        Time:  0.00760429 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0209806 s
+
+      OpenMP
+        Time:  9.502e-06 s
+
+      OpenMP GPU
+        Time:  0.00868471 s
+
+Dimensions: 4093 
+N coils: 4093
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.065836 s
+
+      OpenMP CPU
+        Time:  1.44e-05 s
+
+      OpenMP GPU
+        Time:  0.030235 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0797673 s
+
+      OpenMP
+        Time:  1.7734e-05 s
+
+      OpenMP GPU
+        Time:  0.0348239 s
+
+Dimensions: 8191 
+N coils: 8191
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.257355 s
+
+      OpenMP CPU
+        Time:  4.4767e-05 s
+
+      OpenMP GPU
+        Time:  0.120983 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.315761 s
+
+      OpenMP
+        Time:  3.5919e-05 s
+
+      OpenMP GPU
+        Time:  0.139615 s
+
+Dimensions: 65563 
+N coils: 17
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.004412 s
+
+      OpenMP CPU
+        Time:  0.000163347 s
+
+      OpenMP GPU
+        Time:  0.00197972 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00614165 s
+
+      OpenMP
+        Time:  0.00017229 s
+
+      OpenMP GPU
+        Time:  0.00249571 s
+
+Dimensions: 131071 
+N coils: 31
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0161775 s
+
+      OpenMP CPU
+        Time:  0.000240908 s
+
+      OpenMP GPU
+        Time:  0.00737993 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.024827 s
+
+      OpenMP
+        Time:  0.000389467 s
+
+      OpenMP GPU
+        Time:  0.00964546 s
+
+Dimensions: 262147 
+N coils: 61
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0655904 s
+
+      OpenMP CPU
+        Time:  0.000486174 s
+
+      OpenMP GPU
+        Time:  0.0292261 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.108413 s
+
+      OpenMP
+        Time:  0.000829486 s
+
+      OpenMP GPU
+        Time:  0.0385916 s
+
+Dimensions: 524287 
+N coils: 127
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.279817 s
+
+      OpenMP CPU
+        Time:  0.00102515 s
+
+      OpenMP GPU
+        Time:  0.122776 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.495228 s
+
+      OpenMP
+        Time:  0.00164897 s
+
+      OpenMP GPU
+        Time:  0.198487 s
+
+Dimensions: 256 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.096e-06 s
+
+      OpenMP CPU
+        Time:  5.04e-07 s
+
+      OpenMP GPU
+        Time:  4.88e-07 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  2.735e-06 s
+
+      OpenMP
+        Time:  5.52e-07 s
+
+      OpenMP GPU
+        Time:  4.93e-07 s
+
+Dimensions: 210 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  4.474e-06 s
+
+      OpenMP CPU
+        Time:  5.82e-07 s
+
+      OpenMP GPU
+        Time:  6.48e-07 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  3.972e-06 s
+
+      OpenMP
+        Time:  7.38e-07 s
+
+      OpenMP GPU
+        Time:  6.46e-07 s
+
+Dimensions: 257 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  1.823e-06 s
+
+      OpenMP CPU
+        Time:  4.08e-07 s
+
+      OpenMP GPU
+        Time:  4.58e-07 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  2.45e-06 s
+
+      OpenMP
+        Time:  5.34e-07 s
+
+      OpenMP GPU
+        Time:  4.62e-07 s
+
+Dimensions: 256 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.767e-06 s
+
+      OpenMP CPU
+        Time:  6.11e-07 s
+
+      OpenMP GPU
+        Time:  6.76e-07 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  3.656e-06 s
+
+      OpenMP
+        Time:  7.62e-07 s
+
+      OpenMP GPU
+        Time:  6.81e-07 s
+
+Dimensions: 1024 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  1.3099e-05 s
+
+      OpenMP CPU
+        Time:  2.052e-06 s
+
+      OpenMP GPU
+        Time:  2.388e-06 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.3341e-05 s
+
+      OpenMP
+        Time:  2.775e-06 s
+
+      OpenMP GPU
+        Time:  2.39e-06 s
+
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  5.7358e-05 s
+
+      OpenMP CPU
+        Time:  1.1069e-05 s
+
+      OpenMP GPU
+        Time:  1.3194e-05 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  6.2602e-05 s
+
+      OpenMP
+        Time:  1.5313e-05 s
+
+      OpenMP GPU
+        Time:  1.3212e-05 s
+
+Dimensions: 16384 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000239414 s
+
+      OpenMP CPU
+        Time:  4.3719e-05 s
+
+      OpenMP GPU
+        Time:  5.2074e-05 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000390208 s
+
+      OpenMP
+        Time:  6.0825e-05 s
+
+      OpenMP GPU
+        Time:  5.239e-05 s
+
+Dimensions: 65536 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000958098 s
+
+      OpenMP CPU
+        Time:  0.000182093 s
+
+      OpenMP GPU
+        Time:  0.000207903 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00106932 s
+
+      OpenMP
+        Time:  0.000153974 s
+
+      OpenMP GPU
+        Time:  0.000131393 s
+
+Dimensions: 262144 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00232165 s
+
+      OpenMP CPU
+        Time:  0.000483197 s
+
+      OpenMP GPU
+        Time:  0.000453584 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00417737 s
+
+      OpenMP
+        Time:  0.000753088 s
+
+      OpenMP GPU
+        Time:  0.000722659 s
+
+Dimensions: 1048576 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0087817 s
+
+      OpenMP CPU
+        Time:  0.00210943 s
+
+      OpenMP GPU
+        Time:  0.00213959 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0169423 s
+
+      OpenMP
+        Time:  0.00336899 s
+
+      OpenMP GPU
+        Time:  0.00332844 s
+
+Dimensions: 4194304 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0361194 s
+
+      OpenMP CPU
+        Time:  0.00865768 s
+
+      OpenMP GPU
+        Time:  0.00905336 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0719749 s
+
+      OpenMP
+        Time:  0.0133283 s
+
+      OpenMP GPU
+        Time:  0.013114 s
+
+Dimensions: 16777216 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.135959 s
+
+      OpenMP CPU
+        Time:  0.0347576 s
+
+      OpenMP GPU
+        Time:  0.0361179 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.278216 s
+
+      OpenMP
+        Time:  0.0532979 s
+
+      OpenMP GPU
+        Time:  0.052204 s
+
+Dimensions: 67108864 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.51291 s
+
+      OpenMP CPU
+        Time:  0.13923 s
+
+      OpenMP GPU
+        Time:  0.14486 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.07513 s
+
+      OpenMP
+        Time:  0.212964 s
+
+      OpenMP GPU
+        Time:  0.208962 s
+
+Dimensions: 210 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.931e-06 s
+
+      OpenMP CPU
+        Time:  4.43e-07 s
+
+      OpenMP GPU
+        Time:  4e-07 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  2.531e-06 s
+
+      OpenMP
+        Time:  4.65e-07 s
+
+      OpenMP GPU
+        Time:  4.04e-07 s
+
+Dimensions: 1260 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  8.799e-06 s
+
+      OpenMP CPU
+        Time:  1.769e-06 s
+
+      OpenMP GPU
+        Time:  2.069e-06 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.1844e-05 s
+
+      OpenMP
+        Time:  2.399e-06 s
+
+      OpenMP GPU
+        Time:  2.546e-06 s
+
+Dimensions: 4410 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  3.2516e-05 s
+
+      OpenMP CPU
+        Time:  6.042e-06 s
+
+      OpenMP GPU
+        Time:  1.1229e-05 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  4.2782e-05 s
+
+      OpenMP
+        Time:  1.5609e-05 s
+
+      OpenMP GPU
+        Time:  7.09e-06 s
+
+Dimensions: 15750 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000177689 s
+
+      OpenMP CPU
+        Time:  3.1779e-05 s
+
+      OpenMP GPU
+        Time:  3.806e-05 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0002581 s
+
+      OpenMP
+        Time:  4.507e-05 s
+
+      OpenMP GPU
+        Time:  3.8291e-05 s
+
+Dimensions: 66150 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000740854 s
+
+      OpenMP CPU
+        Time:  0.000134864 s
+
+      OpenMP GPU
+        Time:  0.000159452 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00133366 s
+
+      OpenMP
+        Time:  0.000199107 s
+
+      OpenMP GPU
+        Time:  0.000188595 s
+
+Dimensions: 257250 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00226921 s
+
+      OpenMP CPU
+        Time:  0.000485059 s
+
+      OpenMP GPU
+        Time:  0.000486045 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00420337 s
+
+      OpenMP
+        Time:  0.000750386 s
+
+      OpenMP GPU
+        Time:  0.000718481 s
+
+Dimensions: 1080450 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00890024 s
+
+      OpenMP CPU
+        Time:  0.00218252 s
+
+      OpenMP GPU
+        Time:  0.00223751 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0174046 s
+
+      OpenMP
+        Time:  0.00345288 s
+
+      OpenMP GPU
+        Time:  0.00337181 s
+
+Dimensions: 4321800 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0370821 s
+
+      OpenMP CPU
+        Time:  0.00892533 s
+
+      OpenMP GPU
+        Time:  0.00927153 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0741535 s
+
+      OpenMP
+        Time:  0.0137056 s
+
+      OpenMP GPU
+        Time:  0.0135182 s
+
+Dimensions: 15435000 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.125285 s
+
+      OpenMP CPU
+        Time:  0.0319737 s
+
+      OpenMP GPU
+        Time:  0.0330139 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.255794 s
+
+      OpenMP
+        Time:  0.0486891 s
+
+      OpenMP GPU
+        Time:  0.0478641 s
+
+Dimensions: 64827000 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.494338 s
+
+      OpenMP CPU
+        Time:  0.134675 s
+
+      OpenMP GPU
+        Time:  0.140586 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.0414 s
+
+      OpenMP
+        Time:  0.205712 s
+
+      OpenMP GPU
+        Time:  0.202136 s
+
+Dimensions: 257 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.37e-06 s
+
+      OpenMP CPU
+        Time:  5.65e-07 s
+
+      OpenMP GPU
+        Time:  5.49e-07 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  3.011e-06 s
+
+      OpenMP
+        Time:  6.17e-07 s
+
+      OpenMP GPU
+        Time:  5.52e-07 s
+
+Dimensions: 1021 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  1.1977e-05 s
+
+      OpenMP CPU
+        Time:  1.686e-06 s
+
+      OpenMP GPU
+        Time:  1.89e-06 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.0464e-05 s
+
+      OpenMP
+        Time:  2.196e-06 s
+
+      OpenMP GPU
+        Time:  1.917e-06 s
+
+Dimensions: 4093 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  3.247e-05 s
+
+      OpenMP CPU
+        Time:  6.162e-06 s
+
+      OpenMP GPU
+        Time:  7.355e-06 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  3.7118e-05 s
+
+      OpenMP
+        Time:  8.57e-06 s
+
+      OpenMP GPU
+        Time:  7.335e-06 s
+
+Dimensions: 16381 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000138315 s
+
+      OpenMP CPU
+        Time:  2.4606e-05 s
+
+      OpenMP GPU
+        Time:  2.9095e-05 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000276277 s
+
+      OpenMP
+        Time:  5.0231e-05 s
+
+      OpenMP GPU
+        Time:  4.3293e-05 s
+
+Dimensions: 65521 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000804555 s
+
+      OpenMP CPU
+        Time:  0.000144423 s
+
+      OpenMP GPU
+        Time:  0.000171964 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00138708 s
+
+      OpenMP
+        Time:  0.000205534 s
+
+      OpenMP GPU
+        Time:  0.000173725 s
+
+Dimensions: 262139 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00225883 s
+
+      OpenMP CPU
+        Time:  0.000495465 s
+
+      OpenMP GPU
+        Time:  0.000472115 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00423102 s
+
+      OpenMP
+        Time:  0.000769561 s
+
+      OpenMP GPU
+        Time:  0.000685098 s
+
+Dimensions: 1048573 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00887318 s
+
+      OpenMP CPU
+        Time:  0.0021051 s
+
+      OpenMP GPU
+        Time:  0.00215865 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0169053 s
+
+      OpenMP
+        Time:  0.00335079 s
+
+      OpenMP GPU
+        Time:  0.0032717 s
+
+Dimensions: 4194301 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0361707 s
+
+      OpenMP CPU
+        Time:  0.008717 s
+
+      OpenMP GPU
+        Time:  0.00904971 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0726297 s
+
+      OpenMP
+        Time:  0.0133117 s
+
+      OpenMP GPU
+        Time:  0.0130864 s
+
+Dimensions: 16777213 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.134541 s
+
+      OpenMP CPU
+        Time:  0.0346163 s
+
+      OpenMP GPU
+        Time:  0.0358933 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.278128 s
+
+      OpenMP
+        Time:  0.0529499 s
+
+      OpenMP GPU
+        Time:  0.0521426 s
+
+Dimensions: 67108859 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.510767 s
+
+      OpenMP CPU
+        Time:  0.139737 s
+
+      OpenMP GPU
+        Time:  0.145718 s
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.07462 s
+
+      OpenMP
+        Time:  0.21235 s
+
+      OpenMP GPU
+        Time:  0.209585 s
+

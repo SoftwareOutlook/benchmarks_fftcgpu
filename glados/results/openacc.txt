@@ -1,0 +1,7204 @@
+====================================
+/home/pgambron/GPU/openacc/test
+
+Dimensions: 256 
+N coils: 32
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000298722 s
+
+      OpenACC
+        Time:  0.000147693 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00263134 s
+        Inverse
+          Time:  0.00271178 s
+        Error: 5.3179e+28
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000418517 s
+
+      OpenACC
+        Time:  0.000243378 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00275815 s
+        Inverse
+          Time:  0.00305577 s
+        Error: 4.03974e-14
+
+
+Dimensions: 256 256 
+N coils: 32
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.126362 s
+        Inverse
+          Time:  0.174006 s
+        Error: 4.24732e+67
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.164732 s
+        Inverse
+          Time:  0.228442 s
+        Error: 1.00683e-11
+
+
+Dimensions: 256 256 256 
+N coils: 32
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  29.4767 s
+        Inverse
+          Time:  46.4787 s
+        Error: 4.23345e+50
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  41.1117 s
+        Inverse
+          Time:  61.5601 s
+        Error: 1.80846e-09
+
+
+Dimensions: 210 
+N coils: 32
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000231906 s
+
+      OpenACC
+        Time:  0.000102431 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0025705 s
+        Inverse
+          Time:  0.00258875 s
+        Error: 4.28544e+27
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000344369 s
+
+      OpenACC
+        Time:  0.000216255 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00277319 s
+        Inverse
+          Time:  0.00306807 s
+        Error: 4.29394e-14
+
+
+Dimensions: 210 210 
+N coils: 32
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0963717 s
+        Inverse
+          Time:  0.12865 s
+        Error: 1.67543e+65
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.121821 s
+        Inverse
+          Time:  0.164415 s
+        Error: 7.01427e-12
+
+
+Dimensions: 210 210 210 
+N coils: 32
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  16.2696 s
+        Inverse
+          Time:  25.6458 s
+        Error: 1.15572e+49
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  22.7177 s
+        Inverse
+          Time:  33.9577 s
+        Error: 1.04916e-09
+
+
+Dimensions: 257 
+N coils: 32
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000273241 s
+
+      OpenACC
+        Time:  0.000151701 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00304932 s
+        Inverse
+          Time:  0.00319025 s
+        Error: 1.09211e+31
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000380304 s
+
+      OpenACC
+        Time:  0.00023998 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00322959 s
+        Inverse
+          Time:  0.00354119 s
+        Error: 5.375e-12
+
+
+Dimensions: 257 257 
+N coils: 32
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.222814 s
+        Inverse
+          Time:  0.256031 s
+        Error: 1.33023e+69
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.236417 s
+        Inverse
+          Time:  0.299848 s
+        Error: 9.52558e-10
+
+
+Dimensions: 257 257 257 
+N coils: 32
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  30.317 s
+        Inverse
+          Time:  47.5933 s
+        Error: 7.09491e+41
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  41.9301 s
+        Inverse
+          Time:  62.6338 s
+        Error: 1.33818e-07
+
+
+Dimensions: 128 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  7.103e-06 s
+
+      OpenACC
+        Time:  3.5348e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000133458 s
+        Inverse
+          Time:  9.343e-05 s
+        Error: 30
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  8.244e-06 s
+
+      OpenACC
+        Time:  7.571e-06 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  9.6167e-05 s
+        Inverse
+          Time:  9.1895e-05 s
+        Error: 2.28698e-14
+
+
+Dimensions: 128 128 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0016048 s
+        Inverse
+          Time:  0.00194675 s
+        Error: 1440
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00187636 s
+        Inverse
+          Time:  0.00236756 s
+        Error: 2.37778e-12
+
+
+Dimensions: 128 128 128 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.128941 s
+        Inverse
+          Time:  0.198327 s
+        Error: 109271
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.18618 s
+        Inverse
+          Time:  0.26303 s
+        Error: 2.11956e-10
+
+
+Dimensions: 256 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  1.1623e-05 s
+
+      OpenACC
+        Time:  1.9168e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000142165 s
+        Inverse
+          Time:  0.000101691 s
+        Error: 60
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  3.0183e-05 s
+
+      OpenACC
+        Time:  1.1592e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000108113 s
+        Inverse
+          Time:  0.000106568 s
+        Error: 4.03974e-14
+
+
+Dimensions: 256 256 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00440238 s
+        Inverse
+          Time:  0.00602325 s
+        Error: 5760
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00552925 s
+        Inverse
+          Time:  0.00776142 s
+        Error: 1.00683e-11
+
+
+Dimensions: 256 256 256 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  1.00847 s
+        Inverse
+          Time:  1.55483 s
+        Error: 873976
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  1.45353 s
+        Inverse
+          Time:  2.08771 s
+        Error: 1.80846e-09
+
+
+Dimensions: 512 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  3.4776e-05 s
+
+      OpenACC
+        Time:  2.3212e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000166893 s
+        Inverse
+          Time:  0.000132584 s
+        Error: 120
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  2.5932e-05 s
+
+      OpenACC
+        Time:  1.8728e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000131656 s
+        Inverse
+          Time:  0.000139666 s
+        Error: 1.25389e-13
+
+
+Dimensions: 512 512 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.015155 s
+        Inverse
+          Time:  0.0215656 s
+        Error: 23040
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0195048 s
+        Inverse
+          Time:  0.0281802 s
+        Error: 5.11154e-11
+
+
+Dimensions: 512 512 512 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  8.04105 s
+        Inverse
+          Time:  12.382 s
+        Error: 6.99132e+06
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+!!!!!!!!!! Failed to cudaMallocHost in MemMgr
+Dimensions: 32768 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00114309 s
+
+      OpenACC
+        Time:  0.000602005 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00332793 s
+        Inverse
+          Time:  0.00371214 s
+        Error: 7680
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00144486 s
+
+      OpenACC
+        Time:  0.000961036 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00375363 s
+        Inverse
+          Time:  0.00432837 s
+        Error: 1.01382e-11
+
+
+Dimensions: 32768 8 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.113259 s
+        Inverse
+          Time:  0.120176 s
+        Error: 23040
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.119596 s
+        Inverse
+          Time:  0.127854 s
+        Error: 4.65388e-11
+
+
+Dimensions: 32768 8 8 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.230315 s
+        Inverse
+          Time:  0.303961 s
+        Error: 99490.4
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.287176 s
+        Inverse
+          Time:  0.36603 s
+        Error: 2.31302e-10
+
+
+Dimensions: 65536 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0022535 s
+
+      OpenACC
+        Time:  0.00122063 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00654813 s
+        Inverse
+          Time:  0.00736907 s
+        Error: 15360
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00283753 s
+
+      OpenACC
+        Time:  0.00217028 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00725034 s
+        Inverse
+          Time:  0.00963352 s
+        Error: 2.28513e-11
+
+
+Dimensions: 65536 16 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.251037 s
+        Inverse
+          Time:  0.277855 s
+        Error: 92160
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.275168 s
+        Inverse
+          Time:  0.306306 s
+        Error: 2.25261e-10
+
+
+Dimensions: 65536 16 16 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  1.20967 s
+        Inverse
+          Time:  1.75746 s
+        Error: 810583
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  1.66496 s
+        Inverse
+          Time:  2.30069 s
+        Error: 2.04666e-09
+
+
+Dimensions: 131072 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00444711 s
+
+      OpenACC
+        Time:  0.00243114 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0139541 s
+        Inverse
+          Time:  0.0171004 s
+        Error: 30720
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00615514 s
+
+      OpenACC
+        Time:  0.0045889 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0143623 s
+        Inverse
+          Time:  0.0187281 s
+        Error: 4.85688e-11
+
+
+Dimensions: 131072 32 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.629828 s
+        Inverse
+          Time:  0.729487 s
+        Error: 368640
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.719963 s
+        Inverse
+          Time:  0.844799 s
+        Error: 9.38421e-10
+
+
+Dimensions: 131072 32 32 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  8.57739 s
+        Inverse
+Dimensions: 210 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  1.3303e-05 s
+
+      OpenACC
+        Time:  3.4497e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000133762 s
+        Inverse
+          Time:  9.6187e-05 s
+        Error: 49.2857
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.2796e-05 s
+
+      OpenACC
+        Time:  9.884e-06 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000105735 s
+        Inverse
+          Time:  0.00010047 s
+        Error: 4.29394e-14
+
+
+Dimensions: 210 210 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00307845 s
+        Inverse
+          Time:  0.00413151 s
+        Error: 3893.57
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00387486 s
+        Inverse
+          Time:  0.00540829 s
+        Error: 7.01427e-12
+
+
+Dimensions: 210 210 210 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.560336 s
+        Inverse
+          Time:  0.861431 s
+        Error: 484752
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.802436 s
+        Inverse
+          Time:  1.15427 s
+        Error: 1.04916e-09
+
+
+Dimensions: 420 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  3.2513e-05 s
+
+      OpenACC
+        Time:  2.2483e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000157945 s
+        Inverse
+          Time:  0.000119337 s
+        Error: 98.3143
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  3.7251e-05 s
+
+      OpenACC
+        Time:  1.6428e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000126934 s
+        Inverse
+          Time:  0.000127771 s
+        Error: 9.71089e-14
+
+
+Dimensions: 420 420 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00957751 s
+        Inverse
+          Time:  0.0144584 s
+        Error: 15435.3
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0131952 s
+        Inverse
+          Time:  0.0199516 s
+        Error: 3.07501e-11
+
+
+Dimensions: 420 420 420 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  4.41926 s
+        Inverse
+          Time:  6.84375 s
+        Error: 3.84079e+06
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  6.37659 s
+        Inverse
+          Time:  9.1882 s
+        Error: 9.23135e-09
+
+
+Dimensions: 41160 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00143128 s
+
+      OpenACC
+        Time:  0.000784101 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00417644 s
+        Inverse
+          Time:  0.00492567 s
+        Error: 9646.88
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0019678 s
+
+      OpenACC
+        Time:  0.001558 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00450711 s
+        Inverse
+          Time:  0.00594143 s
+        Error: 1.46732e-11
+
+
+Dimensions: 41160 15 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.164081 s
+        Inverse
+          Time:  0.174318 s
+        Error: 48234.4
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.172187 s
+        Inverse
+          Time:  0.190457 s
+        Error: 1.28059e-10
+
+
+Dimensions: 41160 15 15 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.696474 s
+        Inverse
+          Time:  0.99747 s
+        Error: 368690
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.940686 s
+        Inverse
+          Time:  1.29534 s
+        Error: 1.08255e-09
+
+
+Dimensions: 82320 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00280959 s
+
+      OpenACC
+        Time:  0.00152334 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00878126 s
+        Inverse
+          Time:  0.00936896 s
+        Error: 19293.8
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0039947 s
+
+      OpenACC
+        Time:  0.00273888 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00897315 s
+        Inverse
+          Time:  0.0117795 s
+        Error: 3.36148e-11
+
+
+Dimensions: 82320 30 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.377624 s
+        Inverse
+          Time:  0.439242 s
+        Error: 212231
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.432224 s
+        Inverse
+          Time:  0.50354 s
+        Error: 5.7667e-10
+
+
+Dimensions: 82320 30 30 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  4.76248 s
+        Inverse
+          Time:  7.17924 s
+        Error: 3.42767e+06
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  6.85605 s
+        Inverse
+          Time:  9.58724 s
+        Error: 1.0192e-08
+
+
+Dimensions: 127 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  7.141e-06 s
+
+      OpenACC
+        Time:  3.1947e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00013028 s
+        Inverse
+          Time:  8.7105e-05 s
+        Error: 29.6063
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  8.353e-06 s
+
+      OpenACC
+        Time:  7.516e-06 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  9.2506e-05 s
+        Inverse
+          Time:  9.1433e-05 s
+        Error: 3.72048e-14
+
+
+Dimensions: 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00158332 s
+        Inverse
+          Time:  0.001944 s
+        Error: 1402.97
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0018458 s
+        Inverse
+          Time:  0.00246211 s
+        Error: 3.71113e-12
+
+
+Dimensions: 127 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.127414 s
+        Inverse
+          Time:  0.1955 s
+        Error: 109960
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.182404 s
+        Inverse
+          Time:  0.258407 s
+        Error: 3.58009e-10
+
+
+Dimensions: 257 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  1.1037e-05 s
+
+      OpenACC
+        Time:  3.3892e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000146518 s
+        Inverse
+          Time:  0.000107154 s
+        Error: 60.3891
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.4073e-05 s
+
+      OpenACC
+        Time:  2.7216e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000116078 s
+        Inverse
+          Time:  0.000114504 s
+        Error: 5.375e-12
+
+
+Dimensions: 257 257 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00622003 s
+        Inverse
+          Time:  0.00774636 s
+        Error: 5880.67
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00739934 s
+        Inverse
+          Time:  0.00939944 s
+        Error: 9.52558e-10
+
+
+Dimensions: 257 257 257 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  1.03243 s
+        Inverse
+          Time:  1.58986 s
+        Error: 938369
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  1.47563 s
+        Inverse
+          Time:  2.11746 s
+        Error: 1.33818e-07
+
+
+Dimensions: 509 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  1.8885e-05 s
+
+      OpenACC
+        Time:  2.3851e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000182044 s
+        Inverse
+          Time:  0.000140992 s
+        Error: 119.328
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  2.4973e-05 s
+
+      OpenACC
+        Time:  1.7682e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000143124 s
+        Inverse
+          Time:  0.000149236 s
+        Error: 1.5937e-11
+
+
+Dimensions: 509 509 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0198042 s
+        Inverse
+          Time:  0.0261295 s
+        Error: 22837
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0242233 s
+        Inverse
+          Time:  0.0342384 s
+        Error: 5.24129e-09
+
+
+Dimensions: 509 509 509 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+Dimensions: 32771 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00115468 s
+
+      OpenACC
+        Time:  0.00063421 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00350877 s
+        Inverse
+          Time:  0.00388896 s
+        Error: 7680.67
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00144081 s
+
+      OpenACC
+        Time:  0.000919572 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00371563 s
+        Inverse
+          Time:  0.00437929 s
+        Error: 3.31596e-11
+
+
+Dimensions: 32771 7 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.242633 s
+        Inverse
+          Time:  0.248476 s
+        Error: 15361.9
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.247257 s
+        Inverse
+          Time:  0.255529 s
+        Error: 9.77108e-11
+
+
+Dimensions: 32771 7 7 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.332279 s
+        Inverse
+          Time:  0.386585 s
+        Error: 47808.8
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.379702 s
+        Inverse
+          Time:  0.439282 s
+        Error: 2.92672e-10
+
+
+Dimensions: 65537 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00225174 s
+
+      OpenACC
+        Time:  0.00122639 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00694593 s
+        Inverse
+          Time:  0.00735811 s
+        Error: 15360.4
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00289202 s
+
+      OpenACC
+        Time:  0.00184344 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00725818 s
+        Inverse
+          Time:  0.00885396 s
+        Error: 6.76372e-11
+
+
+Dimensions: 65537 17 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.259409 s
+        Inverse
+          Time:  0.285637 s
+        Error: 107524
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.279074 s
+        Inverse
+          Time:  0.315894 s
+        Error: 6.33789e-10
+
+
+Dimensions: 65537 17 17 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  1.39255 s
+        Inverse
+          Time:  2.01272 s
+        Error: 1.07087e+06
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  1.90444 s
+        Inverse
+          Time:  2.62049 s
+        Error: 6.09843e-09
+
+
+Dimensions: 131071 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00441814 s
+
+      OpenACC
+        Time:  0.00243847 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0131957 s
+        Inverse
+          Time:  0.014577 s
+        Error: 30719.6
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0062523 s
+
+      OpenACC
+        Time:  0.00431945 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0148749 s
+        Inverse
+          Time:  0.0184332 s
+        Error: 1.32421e-10
+
+
+Dimensions: 131071 31 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.648069 s
+        Inverse
+          Time:  0.745333 s
+        Error: 337918
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.736032 s
+        Inverse
+          Time:  0.857737 s
+        Error: 2.00407e-09
+
+
+Dimensions: 131071 31 31 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+Dimensions: 256 
+N coils: 32
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000275085 s
+
+      OpenACC
+        Time:  0.000142439 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00251992 s
+        Inverse
+          Time:  0.00257724 s
+        Error: 5.3179e+28
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000427995 s
+
+      OpenACC
+        Time:  0.000255941 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00262989 s
+        Inverse
+          Time:  0.00299463 s
+        Error: 4.03974e-14
+
+
+Dimensions: 256 256 
+N coils: 32
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.119853 s
+        Inverse
+          Time:  0.169629 s
+        Error: 4.24732e+67
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.156849 s
+        Inverse
+          Time:  0.220115 s
+        Error: 1.00683e-11
+
+
+Dimensions: 256 256 1 
+N coils: 32
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.145029 s
+        Inverse
+          Time:  0.208986 s
+        Error: 4.24732e+67
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.193444 s
+        Inverse
+          Time:  0.272901 s
+        Error: 1.00683e-11
+
+
+Dimensions: 210 
+N coils: 32
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000232109 s
+
+      OpenACC
+        Time:  0.000102161 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00242192 s
+        Inverse
+          Time:  0.00249992 s
+        Error: 4.28544e+27
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000334248 s
+
+      OpenACC
+        Time:  0.000215581 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00249485 s
+        Inverse
+          Time:  0.00286195 s
+        Error: 4.29394e-14
+
+
+Dimensions: 210 210 
+N coils: 32
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0884328 s
+        Inverse
+          Time:  0.120994 s
+        Error: 1.67543e+65
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.114304 s
+        Inverse
+          Time:  0.157072 s
+        Error: 7.01427e-12
+
+
+Dimensions: 210 210 1 
+N coils: 32
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.106047 s
+        Inverse
+          Time:  0.149913 s
+        Error: 1.67543e+65
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.138472 s
+        Inverse
+          Time:  0.192319 s
+        Error: 7.01427e-12
+
+
+Dimensions: 257 
+N coils: 32
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000273429 s
+
+      OpenACC
+        Time:  0.000151363 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00289406 s
+        Inverse
+          Time:  0.0029405 s
+        Error: 1.09211e+31
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00040639 s
+
+      OpenACC
+        Time:  0.00025588 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00298467 s
+        Inverse
+          Time:  0.00331916 s
+        Error: 5.375e-12
+
+
+Dimensions: 257 257 
+N coils: 32
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.198093 s
+        Inverse
+          Time:  0.247772 s
+        Error: 1.33023e+69
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.236688 s
+        Inverse
+          Time:  0.300838 s
+        Error: 9.52558e-10
+
+
+Dimensions: 257 257 1 
+N coils: 32
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.224087 s
+        Inverse
+          Time:  0.28866 s
+        Error: 1.33023e+69
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.273073 s
+        Inverse
+          Time:  0.355363 s
+        Error: 9.52558e-10
+
+
+Dimensions: 128 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  7.009e-06 s
+
+      OpenACC
+        Time:  3.2363e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000128516 s
+        Inverse
+          Time:  8.8466e-05 s
+        Error: 30
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  8.311e-06 s
+
+      OpenACC
+        Time:  7.363e-06 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  9.1095e-05 s
+        Inverse
+          Time:  9.1644e-05 s
+        Error: 2.28698e-14
+
+
+Dimensions: 128 128 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00142739 s
+        Inverse
+          Time:  0.0017641 s
+        Error: 1440
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00170419 s
+        Inverse
+          Time:  0.0021941 s
+        Error: 2.37778e-12
+
+
+Dimensions: 128 128 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00161926 s
+        Inverse
+          Time:  0.00213208 s
+        Error: 1440
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00199284 s
+        Inverse
+          Time:  0.0026029 s
+        Error: 2.37778e-12
+
+
+Dimensions: 256 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  1.0985e-05 s
+
+      OpenACC
+        Time:  2.2923e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00013502 s
+        Inverse
+          Time:  0.000102495 s
+        Error: 60
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.3997e-05 s
+
+      OpenACC
+        Time:  2.7282e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000105341 s
+        Inverse
+          Time:  0.000123618 s
+        Error: 4.03974e-14
+
+
+Dimensions: 256 256 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00383028 s
+        Inverse
+          Time:  0.00522069 s
+        Error: 5760
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00496924 s
+        Inverse
+          Time:  0.00697897 s
+        Error: 1.00683e-11
+
+
+Dimensions: 256 256 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00460993 s
+        Inverse
+          Time:  0.00678007 s
+        Error: 5760
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00618515 s
+        Inverse
+          Time:  0.00859485 s
+        Error: 1.00683e-11
+
+
+Dimensions: 512 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  3.4655e-05 s
+
+      OpenACC
+        Time:  2.48e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000169541 s
+        Inverse
+          Time:  0.000127355 s
+        Error: 120
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  2.5856e-05 s
+
+      OpenACC
+        Time:  1.8415e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000131129 s
+        Inverse
+          Time:  0.000156979 s
+        Error: 1.25389e-13
+
+
+Dimensions: 512 512 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0147953 s
+        Inverse
+          Time:  0.0205264 s
+        Error: 23040
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0193309 s
+        Inverse
+          Time:  0.0279401 s
+        Error: 5.11154e-11
+
+
+Dimensions: 512 512 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0166385 s
+        Inverse
+          Time:  0.0245175 s
+        Error: 23040
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0222165 s
+        Inverse
+          Time:  0.0324515 s
+        Error: 5.11154e-11
+
+
+Please supply 3 dimensions and a number of coils
+Dimensions: 2048 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  7.1136e-05 s
+
+      OpenACC
+        Time:  4.8274e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000330871 s
+        Inverse
+          Time:  0.000309548 s
+        Error: 480
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  9.3725e-05 s
+
+      OpenACC
+        Time:  6.0247e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000304259 s
+        Inverse
+          Time:  0.000347295 s
+        Error: 4.55184e-13
+
+
+Dimensions: 2048 2048 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.215234 s
+        Inverse
+          Time:  0.314999 s
+        Error: 368640
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.305776 s
+        Inverse
+          Time:  0.43053 s
+        Error: 8.68815e-10
+
+
+Dimensions: 2048 2048 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.266763 s
+        Inverse
+          Time:  0.404758 s
+        Error: 368640
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.378087 s
+        Inverse
+          Time:  0.541024 s
+        Error: 8.68815e-10
+
+
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000155448 s
+
+      OpenACC
+        Time:  9.0695e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000520689 s
+        Inverse
+          Time:  0.000530616 s
+        Error: 960
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000200326 s
+
+      OpenACC
+        Time:  0.000124114 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000516962 s
+        Inverse
+          Time:  0.00061426 s
+        Error: 1.16575e-12
+
+
+Dimensions: 4096 4096 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.84623 s
+        Inverse
+          Time:  1.25292 s
+        Error: 1.47456e+06
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  1.21805 s
+        Inverse
+          Time:  1.71153 s
+        Error: 4.16883e-09
+
+
+Dimensions: 4096 4096 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  1.0751 s
+        Inverse
+          Time:  1.61469 s
+        Error: 1.47456e+06
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  1.50672 s
+        Inverse
+          Time:  2.14096 s
+        Error: 4.16883e-09
+
+
+Dimensions: 8192 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000299215 s
+
+      OpenACC
+        Time:  0.000168242 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000920317 s
+        Inverse
+          Time:  0.000986435 s
+        Error: 1920
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000372115 s
+
+      OpenACC
+        Time:  0.000228429 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000963841 s
+        Inverse
+          Time:  0.00113625 s
+        Error: 2.27551e-12
+
+
+Dimensions: 8192 8192 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  3.26445 s
+        Inverse
+          Time:  4.88482 s
+        Error: 5.89824e+06
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  4.75781 s
+        Inverse
+          Time:  6.72343 s
+        Error: 1.55479e-08
+
+
+Dimensions: 8192 8192 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  4.11652 s
+        Inverse
+          Time:  6.30006 s
+        Error: 5.89824e+06
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  5.92386 s
+        Inverse
+          Time:  8.43595 s
+        Error: 1.55479e-08
+
+
+Dimensions: 32768 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00114282 s
+
+      OpenACC
+        Time:  0.000635782 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00337241 s
+        Inverse
+          Time:  0.00366357 s
+        Error: 7680
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00145682 s
+
+      OpenACC
+        Time:  0.000937317 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00365698 s
+        Inverse
+          Time:  0.00442683 s
+        Error: 1.01382e-11
+
+
+Dimensions: 32768 8 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.112824 s
+        Inverse
+          Time:  0.119621 s
+        Error: 23040
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.117373 s
+        Inverse
+          Time:  0.126671 s
+        Error: 4.65388e-11
+
+
+Dimensions: 32768 8 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.115928 s
+        Inverse
+          Time:  0.124334 s
+        Error: 23040
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.120422 s
+        Inverse
+          Time:  0.130085 s
+        Error: 4.65388e-11
+
+
+Dimensions: 65536 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00223743 s
+
+      OpenACC
+        Time:  0.00122777 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00679255 s
+        Inverse
+          Time:  0.00736333 s
+        Error: 15360
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00283919 s
+
+      OpenACC
+        Time:  0.00187292 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00716767 s
+        Inverse
+          Time:  0.00901488 s
+        Error: 2.28513e-11
+
+
+Dimensions: 65536 16 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.25231 s
+        Inverse
+          Time:  0.279244 s
+        Error: 92160
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.276863 s
+        Inverse
+          Time:  0.307255 s
+        Error: 2.25261e-10
+
+
+Dimensions: 65536 16 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.265555 s
+        Inverse
+          Time:  0.301178 s
+        Error: 92160
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.294408 s
+        Inverse
+          Time:  0.333967 s
+        Error: 2.25261e-10
+
+
+Dimensions: 131072 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00440744 s
+
+      OpenACC
+        Time:  0.0022782 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0127236 s
+        Inverse
+          Time:  0.0144235 s
+        Error: 30720
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00564175 s
+
+      OpenACC
+        Time:  0.00364257 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0140075 s
+        Inverse
+          Time:  0.0171663 s
+        Error: 4.85688e-11
+
+
+Dimensions: 131072 32 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.619075 s
+        Inverse
+          Time:  0.721941 s
+        Error: 368640
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.709805 s
+        Inverse
+          Time:  0.835355 s
+        Error: 9.38421e-10
+
+
+Dimensions: 131072 32 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.669956 s
+        Inverse
+          Time:  0.807732 s
+        Error: 368640
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.78243 s
+        Inverse
+          Time:  0.941254 s
+        Error: 9.38421e-10
+
+
+Dimensions: 262144 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00889647 s
+
+      OpenACC
+        Time:  0.00485631 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0256927 s
+        Inverse
+          Time:  0.0293415 s
+        Error: 61440
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0123796 s
+
+      OpenACC
+        Time:  0.0099499 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0276686 s
+        Inverse
+          Time:  0.0365222 s
+        Error: 1.05741e-10
+
+
+Dimensions: 262144 64 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  1.68221 s
+        Inverse
+          Time:  2.08179 s
+        Error: 1.47456e+06
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  2.08397 s
+        Inverse
+          Time:  2.5434 s
+        Error: 4.40484e-09
+
+
+Dimensions: 262144 64 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  1.88959 s
+        Inverse
+          Time:  2.43741 s
+        Error: 1.47456e+06
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  2.33907 s
+        Inverse
+          Time:  2.96828 s
+        Error: 4.40484e-09
+
+
+Dimensions: 524288 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0176168 s
+
+      OpenACC
+        Time:  0.0096464 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0513718 s
+        Inverse
+          Time:  0.0583788 s
+        Error: 122880
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0245889 s
+
+      OpenACC
+        Time:  0.020134 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0549277 s
+        Inverse
+          Time:  0.0733082 s
+        Error: 2.48562e-10
+
+
+Dimensions: 524288 128 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  5.95768 s
+        Inverse
+          Time:  7.58201 s
+        Error: 5.89824e+06
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  7.44482 s
+        Inverse
+          Time:  9.4173 s
+        Error: 1.90147e-08
+
+
+Dimensions: 524288 128 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  6.87039 s
+        Inverse
+          Time:  8.999 s
+        Error: 5.89824e+06
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  8.58383 s
+        Inverse
+          Time:  11.1146 s
+        Error: 1.90147e-08
+
+
+Dimensions: 210 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  9.197e-06 s
+
+      OpenACC
+        Time:  1.8034e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000137304 s
+        Inverse
+          Time:  9.7349e-05 s
+        Error: 49.2857
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.2788e-05 s
+
+      OpenACC
+        Time:  9.918e-06 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00010306 s
+        Inverse
+          Time:  0.000102669 s
+        Error: 4.29394e-14
+
+
+Dimensions: 210 210 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00294352 s
+        Inverse
+          Time:  0.00400929 s
+        Error: 3893.57
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00374021 s
+        Inverse
+          Time:  0.00563895 s
+        Error: 7.01427e-12
+
+
+Dimensions: 210 210 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00347347 s
+        Inverse
+          Time:  0.00480236 s
+        Error: 3893.57
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0045418 s
+        Inverse
+          Time:  0.00617035 s
+        Error: 7.01427e-12
+
+
+Dimensions: 420 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  3.2266e-05 s
+
+      OpenACC
+        Time:  2.2211e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00015971 s
+        Inverse
+          Time:  0.000123742 s
+        Error: 98.3143
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  3.7819e-05 s
+
+      OpenACC
+        Time:  1.6955e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000132783 s
+        Inverse
+          Time:  0.000129488 s
+        Error: 9.71089e-14
+
+
+Dimensions: 420 420 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00983209 s
+        Inverse
+          Time:  0.0136841 s
+        Error: 15435.3
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0128002 s
+        Inverse
+          Time:  0.0180672 s
+        Error: 3.07501e-11
+
+
+Dimensions: 420 420 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0120912 s
+        Inverse
+          Time:  0.0174539 s
+        Error: 15435.3
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0158823 s
+        Inverse
+          Time:  0.0226423 s
+        Error: 3.07501e-11
+
+
+Dimensions: 1260 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  4.5023e-05 s
+
+      OpenACC
+        Time:  3.481e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000259476 s
+        Inverse
+          Time:  0.000230448 s
+        Error: 295.187
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  5.8761e-05 s
+
+      OpenACC
+        Time:  4.0236e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000223734 s
+        Inverse
+          Time:  0.000263042 s
+        Error: 5.20985e-13
+
+
+Dimensions: 1260 1260 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0990144 s
+        Inverse
+          Time:  0.138754 s
+        Error: 139328
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.135511 s
+        Inverse
+          Time:  0.18252 s
+        Error: 5.21259e-10
+
+
+Dimensions: 1260 1260 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.118997 s
+        Inverse
+          Time:  0.172164 s
+        Error: 139328
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.164635 s
+        Inverse
+          Time:  0.223375 s
+        Error: 5.21259e-10
+
+
+Dimensions: 4410 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000172327 s
+
+      OpenACC
+        Time:  9.1982e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000572584 s
+        Inverse
+          Time:  0.000574102 s
+        Error: 1033.66
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000212248 s
+
+      OpenACC
+        Time:  0.000129136 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000562712 s
+        Inverse
+          Time:  0.000672351 s
+        Error: 1.53779e-12
+
+
+Dimensions: 4410 4410 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  1.00468 s
+        Inverse
+          Time:  1.47229 s
+        Error: 1.70967e+06
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  1.42595 s
+        Inverse
+          Time:  1.9963 s
+        Error: 4.99233e-09
+
+
+Dimensions: 4410 4410 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  1.24083 s
+        Inverse
+          Time:  1.87934 s
+        Error: 1.70967e+06
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  1.75117 s
+        Inverse
+          Time:  2.48985 s
+        Error: 4.99233e-09
+
+
+Dimensions: 8820 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000325983 s
+
+      OpenACC
+        Time:  0.000187578 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00101972 s
+        Inverse
+          Time:  0.00108807 s
+        Error: 2067.06
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000412779 s
+
+      OpenACC
+        Time:  0.000263532 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00103772 s
+        Inverse
+          Time:  0.0012149 s
+        Error: 3.55603e-12
+
+
+Dimensions: 8820 8820 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  3.85099 s
+        Inverse
+          Time:  5.70523 s
+        Error: 6.83578e+06
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  5.52408 s
+        Inverse
+          Time:  7.84446 s
+        Error: 2.40099e-08
+
+
+Dimensions: 8820 8820 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  4.79582 s
+        Inverse
+          Time:  7.33773 s
+        Error: 6.83578e+06
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  6.87866 s
+        Inverse
+          Time:  9.8018 s
+        Error: 2.40099e-08
+
+
+Dimensions: 55125 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00192914 s
+
+      OpenACC
+        Time:  0.00105003 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00555127 s
+        Inverse
+          Time:  0.00615726 s
+        Error: 12920
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00237883 s
+
+      OpenACC
+        Time:  0.00187735 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00621951 s
+        Inverse
+          Time:  0.00798214 s
+        Error: 2.13841e-11
+
+
+Dimensions: 55125 15 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.212439 s
+        Inverse
+          Time:  0.232657 s
+        Error: 64600.7
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.225855 s
+        Inverse
+          Time:  0.25294 s
+        Error: 1.75883e-10
+
+
+Dimensions: 55125 15 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.217816 s
+        Inverse
+          Time:  0.242928 s
+        Error: 64600.7
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.235308 s
+        Inverse
+          Time:  0.268852 s
+        Error: 1.75883e-10
+
+
+Dimensions: 110250 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00368535 s
+
+      OpenACC
+        Time:  0.00203295 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0111672 s
+        Inverse
+          Time:  0.0130162 s
+        Error: 25839.9
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00518473 s
+
+      OpenACC
+        Time:  0.00409413 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0119338 s
+        Inverse
+          Time:  0.0156423 s
+        Error: 4.87567e-11
+
+
+Dimensions: 110250 30 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.507805 s
+        Inverse
+          Time:  0.585646 s
+        Error: 284239
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.578769 s
+        Inverse
+          Time:  0.675876 s
+        Error: 8.31156e-10
+
+
+Dimensions: 110250 30 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.548822 s
+        Inverse
+          Time:  0.654417 s
+        Error: 284239
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.637035 s
+        Inverse
+          Time:  0.760122 s
+        Error: 8.31156e-10
+
+
+Dimensions: 220500 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00738776 s
+
+      OpenACC
+        Time:  0.00405872 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0226061 s
+        Inverse
+          Time:  0.0253984 s
+        Error: 51679.6
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0106211 s
+
+      OpenACC
+        Time:  0.0086166 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0253507 s
+        Inverse
+          Time:  0.0322383 s
+        Error: 9.24952e-11
+
+
+Dimensions: 220500 60 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  1.48439 s
+        Inverse
+          Time:  1.80484 s
+        Error: 1.13695e+06
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  1.77406 s
+        Inverse
+          Time:  2.16855 s
+        Error: 3.43929e-09
+
+
+Dimensions: 220500 60 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  1.72148 s
+        Inverse
+          Time:  2.0826 s
+        Error: 1.13695e+06
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  2.0006 s
+        Inverse
+          Time:  2.50334 s
+        Error: 3.43929e-09
+
+
+Dimensions: 441000 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0149701 s
+
+      OpenACC
+        Time:  0.00834983 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0433917 s
+        Inverse
+          Time:  0.0490711 s
+        Error: 103359
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0206571 s
+
+      OpenACC
+        Time:  0.0155125 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.048564 s
+        Inverse
+          Time:  0.0619598 s
+        Error: 1.90145e-10
+
+
+Dimensions: 441000 120 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  4.61363 s
+        Inverse
+          Time:  5.88599 s
+        Error: 4.65117e+06
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  5.80743 s
+        Inverse
+          Time:  7.32535 s
+        Error: 1.3137e-08
+
+
+Dimensions: 441000 120 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  5.2769 s
+        Inverse
+          Time:  6.99218 s
+        Error: 4.65117e+06
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  6.7164 s
+        Inverse
+          Time:  8.66583 s
+        Error: 1.3137e-08
+
+
+Dimensions: 127 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  7.224e-06 s
+
+      OpenACC
+        Time:  3.2034e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000117967 s
+        Inverse
+          Time:  8.9469e-05 s
+        Error: 29.6063
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  8.32e-06 s
+
+      OpenACC
+        Time:  7.146e-06 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  9.277e-05 s
+        Inverse
+          Time:  9.0195e-05 s
+        Error: 3.72048e-14
+
+
+Dimensions: 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0015067 s
+        Inverse
+          Time:  0.0018523 s
+        Error: 1402.97
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00179986 s
+        Inverse
+          Time:  0.00227063 s
+        Error: 3.71113e-12
+
+
+Dimensions: 127 127 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00169428 s
+        Inverse
+          Time:  0.0021793 s
+        Error: 1402.97
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00207911 s
+        Inverse
+          Time:  0.00268319 s
+        Error: 3.71113e-12
+
+
+Dimensions: 257 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  1.1305e-05 s
+
+      OpenACC
+        Time:  2.0921e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00014781 s
+        Inverse
+          Time:  0.000106123 s
+        Error: 60.3891
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.3758e-05 s
+
+      OpenACC
+        Time:  1.1266e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000108772 s
+        Inverse
+          Time:  0.000111091 s
+        Error: 5.375e-12
+
+
+Dimensions: 257 257 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00620751 s
+        Inverse
+          Time:  0.00764535 s
+        Error: 5880.67
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00740375 s
+        Inverse
+          Time:  0.00941121 s
+        Error: 9.52558e-10
+
+
+Dimensions: 257 257 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00704534 s
+        Inverse
+          Time:  0.00904521 s
+        Error: 5880.67
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00856813 s
+        Inverse
+          Time:  0.0110617 s
+        Error: 9.52558e-10
+
+
+Dimensions: 509 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  3.5233e-05 s
+
+      OpenACC
+        Time:  2.6415e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000181166 s
+        Inverse
+          Time:  0.000134192 s
+        Error: 119.328
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  3.0392e-05 s
+
+      OpenACC
+        Time:  1.9008e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000139085 s
+        Inverse
+          Time:  0.000149726 s
+        Error: 1.5937e-11
+
+
+Dimensions: 509 509 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0196522 s
+        Inverse
+          Time:  0.0259317 s
+        Error: 22837
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0240068 s
+        Inverse
+          Time:  0.0324504 s
+        Error: 5.24129e-09
+
+
+Dimensions: 509 509 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0212712 s
+        Inverse
+          Time:  0.029046 s
+        Error: 22837
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0270329 s
+        Inverse
+          Time:  0.0367022 s
+        Error: 5.24129e-09
+
+
+Dimensions: 1021 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  3.5905e-05 s
+
+      OpenACC
+        Time:  3.2094e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000234549 s
+        Inverse
+          Time:  0.000195422 s
+        Error: 239.328
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  4.8253e-05 s
+
+      OpenACC
+        Time:  3.178e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000191039 s
+        Inverse
+          Time:  0.000211578 s
+        Error: 6.29294e-11
+
+
+Dimensions: 1021 1021 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0643084 s
+        Inverse
+          Time:  0.0906476 s
+        Error: 91753.4
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0819256 s
+        Inverse
+          Time:  0.11666 s
+        Error: 4.18089e-08
+
+
+Dimensions: 1021 1021 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0710748 s
+        Inverse
+          Time:  0.103233 s
+        Error: 91753.4
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0937814 s
+        Inverse
+          Time:  0.133784 s
+        Error: 4.18089e-08
+
+
+Dimensions: 2053 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  7.2238e-05 s
+
+      OpenACC
+        Time:  5.9188e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000352513 s
+        Inverse
+          Time:  0.000381308 s
+        Error: 481.203
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  9.8288e-05 s
+
+      OpenACC
+        Time:  5.9987e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000328456 s
+        Inverse
+          Time:  0.000377069 s
+        Error: 1.1651e-12
+
+
+Dimensions: 2053 2053 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.280682 s
+        Inverse
+          Time:  0.382221 s
+        Error: 370648
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.375523 s
+        Inverse
+          Time:  0.496421 s
+        Error: 1.85609e-09
+
+
+Dimensions: 2053 2053 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.332262 s
+        Inverse
+          Time:  0.470104 s
+        Error: 370648
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.444789 s
+        Inverse
+          Time:  0.604623 s
+        Error: 1.85609e-09
+
+
+Dimensions: 4093 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000162995 s
+
+      OpenACC
+        Time:  8.4544e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000539297 s
+        Inverse
+          Time:  0.00056963 s
+        Error: 959.328
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000200954 s
+
+      OpenACC
+        Time:  0.000115849 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000547064 s
+        Inverse
+          Time:  0.000646122 s
+        Error: 3.24559e-12
+
+
+Dimensions: 4093 4093 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.948101 s
+        Inverse
+          Time:  1.35466 s
+        Error: 1.47293e+06
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  1.31323 s
+        Inverse
+          Time:  1.8103 s
+        Error: 1.02274e-08
+
+
+Dimensions: 4093 4093 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  1.15858 s
+        Inverse
+          Time:  1.70551 s
+        Error: 1.47293e+06
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  1.6065 s
+        Inverse
+          Time:  2.23355 s
+        Error: 1.02274e-08
+
+
+Dimensions: 8191 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000298956 s
+
+      OpenACC
+        Time:  0.000168464 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000973701 s
+        Inverse
+          Time:  0.00107578 s
+        Error: 1919.61
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000386897 s
+
+      OpenACC
+        Time:  0.000251023 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00101257 s
+        Inverse
+          Time:  0.00120309 s
+        Error: 6.01875e-12
+
+
+Dimensions: 8191 8191 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  3.48566 s
+        Inverse
+Dimensions: 65563 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00224903 s
+
+      OpenACC
+        Time:  0.0012104 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00671774 s
+        Inverse
+          Time:  0.00736125 s
+        Error: 15366.3
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00287346 s
+
+      OpenACC
+        Time:  0.00180875 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00717345 s
+        Inverse
+          Time:  0.00871674 s
+        Error: 6.56889e-11
+
+
+Dimensions: 65563 17 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.258459 s
+        Inverse
+          Time:  0.286311 s
+        Error: 107565
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.279562 s
+        Inverse
+          Time:  0.317318 s
+        Error: 6.33318e-10
+
+
+Dimensions: 65563 17 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.265998 s
+        Inverse
+          Time:  0.307164 s
+        Error: 107565
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.293553 s
+        Inverse
+          Time:  0.345731 s
+        Error: 6.33318e-10
+
+
+Dimensions: 131071 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0044261 s
+
+      OpenACC
+        Time:  0.00238786 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0138474 s
+        Inverse
+          Time:  0.015108 s
+        Error: 30719.6
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00563805 s
+
+      OpenACC
+        Time:  0.00381907 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0145785 s
+        Inverse
+          Time:  0.0193768 s
+        Error: 1.32421e-10
+
+
+Dimensions: 131071 31 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.65438 s
+        Inverse
+          Time:  0.751802 s
+        Error: 337918
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.741712 s
+        Inverse
+          Time:  0.862121 s
+        Error: 2.00407e-09
+
+
+Dimensions: 131071 31 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.705008 s
+        Inverse
+          Time:  0.839403 s
+        Error: 337918
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.813479 s
+        Inverse
+          Time:  0.968742 s
+        Error: 2.00407e-09
+
+
+Dimensions: 262147 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00885643 s
+
+      OpenACC
+        Time:  0.00479599 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0267735 s
+        Inverse
+          Time:  0.0304225 s
+        Error: 61440.7
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0123832 s
+
+      OpenACC
+        Time:  0.00920399 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0301717 s
+        Inverse
+          Time:  0.0373504 s
+        Error: 3.0746e-10
+
+
+Dimensions: 262147 61 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  1.99517 s
+        Inverse
+          Time:  2.32474 s
+        Error: 1.41314e+06
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  2.29026 s
+        Inverse
+          Time:  2.75738 s
+        Error: 9.54514e-09
+
+
+Dimensions: 262147 61 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  2.13683 s
+        Inverse
+          Time:  2.65983 s
+        Error: 1.41314e+06
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  2.57154 s
+        Inverse
+          Time:  3.16205 s
+        Error: 9.54514e-09
+
+
+Dimensions: 524287 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0175948 s
+
+      OpenACC
+        Time:  0.00910068 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0513479 s
+        Inverse
+          Time:  0.0576137 s
+        Error: 122880
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0248327 s
+
+      OpenACC
+        Time:  0.0185323 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0571602 s
+        Inverse
+          Time:  0.0757922 s
+        Error: 5.19808e-10
+
+
+Dimensions: 524287 127 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  6.28679 s
+        Inverse
+Dimensions: 256 
+N coils: 32
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000270697 s
+
+      OpenACC
+        Time:  0.000124242 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00255327 s
+        Inverse
+          Time:  0.00258335 s
+        Error: 5.3179e+28
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000400434 s
+
+      OpenACC
+        Time:  0.000259225 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00267716 s
+        Inverse
+          Time:  0.00302756 s
+        Error: 4.03974e-14
+
+
+Dimensions: 256 1 
+N coils: 32
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00268194 s
+        Inverse
+          Time:  0.0028209 s
+        Error: 5.3179e+28
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00281789 s
+        Inverse
+          Time:  0.00321651 s
+        Error: 4.03974e-14
+
+
+Dimensions: 256 1 1 
+N coils: 32
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00272406 s
+        Inverse
+          Time:  0.00292053 s
+        Error: 5.3179e+28
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00293639 s
+        Inverse
+          Time:  0.00351892 s
+        Error: 4.03974e-14
+
+
+Dimensions: 210 
+N coils: 32
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000225859 s
+
+      OpenACC
+        Time:  9.8619e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00239309 s
+        Inverse
+          Time:  0.00248167 s
+        Error: 4.28544e+27
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000325544 s
+
+      OpenACC
+        Time:  0.000199003 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00249356 s
+        Inverse
+          Time:  0.00280112 s
+        Error: 4.29394e-14
+
+
+Dimensions: 210 1 
+N coils: 32
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00249067 s
+        Inverse
+          Time:  0.00260895 s
+        Error: 4.28544e+27
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00260444 s
+        Inverse
+          Time:  0.00300162 s
+        Error: 4.29394e-14
+
+
+Dimensions: 210 1 1 
+N coils: 32
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00255777 s
+        Inverse
+          Time:  0.00276974 s
+        Error: 4.28544e+27
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00284263 s
+        Inverse
+          Time:  0.00321246 s
+        Error: 4.29394e-14
+
+
+Dimensions: 257 
+N coils: 32
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000268901 s
+
+      OpenACC
+        Time:  0.000122745 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00282589 s
+        Inverse
+          Time:  0.00292709 s
+        Error: 1.09211e+31
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000406583 s
+
+      OpenACC
+        Time:  0.000253733 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00294105 s
+        Inverse
+          Time:  0.00324459 s
+        Error: 5.375e-12
+
+
+Dimensions: 257 1 
+N coils: 32
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00287488 s
+        Inverse
+          Time:  0.0030637 s
+        Error: 1.09211e+31
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0030572 s
+        Inverse
+          Time:  0.00350737 s
+        Error: 5.375e-12
+
+
+Dimensions: 257 1 1 
+N coils: 32
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00300832 s
+        Inverse
+          Time:  0.0032483 s
+        Error: 1.09211e+31
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00319969 s
+        Inverse
+          Time:  0.00366522 s
+        Error: 5.375e-12
+
+
+Dimensions: 256 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  1.0723e-05 s
+
+      OpenACC
+        Time:  3.1838e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000138689 s
+        Inverse
+          Time:  0.000100282 s
+        Error: 60
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.2247e-05 s
+
+      OpenACC
+        Time:  2.5275e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000124148 s
+        Inverse
+          Time:  0.000104599 s
+        Error: 4.03974e-14
+
+
+Dimensions: 256 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000100402 s
+        Inverse
+          Time:  9.9534e-05 s
+        Error: 60
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000104154 s
+        Inverse
+          Time:  0.000109555 s
+        Error: 4.03974e-14
+
+
+Dimensions: 256 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00010227 s
+        Inverse
+          Time:  0.000104541 s
+        Error: 60
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000108363 s
+        Inverse
+          Time:  0.000114154 s
+        Error: 4.03974e-14
+
+
+Dimensions: 1024 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  3.5067e-05 s
+
+      OpenACC
+        Time:  2.8351e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000223407 s
+        Inverse
+          Time:  0.000190161 s
+        Error: 240
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  4.6242e-05 s
+
+      OpenACC
+        Time:  3.0629e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000188063 s
+        Inverse
+          Time:  0.000207364 s
+        Error: 1.57496e-13
+
+
+Dimensions: 1024 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000191523 s
+        Inverse
+          Time:  0.000204323 s
+        Error: 240
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000205536 s
+        Inverse
+          Time:  0.000233189 s
+        Error: 1.57496e-13
+
+
+Dimensions: 1024 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000203297 s
+        Inverse
+          Time:  0.000238517 s
+        Error: 240
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000245921 s
+        Inverse
+          Time:  0.000261211 s
+        Error: 1.57496e-13
+
+
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000145521 s
+
+      OpenACC
+        Time:  7.8869e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000534368 s
+        Inverse
+          Time:  0.000542267 s
+        Error: 960
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000199923 s
+
+      OpenACC
+        Time:  0.000122772 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000550599 s
+        Inverse
+          Time:  0.000625009 s
+        Error: 1.16575e-12
+
+
+Dimensions: 4096 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000512335 s
+        Inverse
+          Time:  0.000601618 s
+        Error: 960
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000609129 s
+        Inverse
+          Time:  0.00072974 s
+        Error: 1.16575e-12
+
+
+Dimensions: 4096 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000572224 s
+        Inverse
+          Time:  0.000691517 s
+        Error: 960
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000675336 s
+        Inverse
+          Time:  0.00083779 s
+        Error: 1.16575e-12
+
+
+Dimensions: 16384 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000584318 s
+
+      OpenACC
+        Time:  0.000318634 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00174096 s
+        Inverse
+          Time:  0.00187221 s
+        Error: 3840
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000738122 s
+
+      OpenACC
+        Time:  0.000492236 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00184208 s
+        Inverse
+          Time:  0.00217527 s
+        Error: 4.51007e-12
+
+
+Dimensions: 16384 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00181627 s
+        Inverse
+          Time:  0.00220939 s
+        Error: 3840
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00209977 s
+        Inverse
+          Time:  0.00260022 s
+        Error: 4.51007e-12
+
+
+Dimensions: 16384 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00200687 s
+        Inverse
+          Time:  0.00249721 s
+        Error: 3840
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00240838 s
+        Inverse
+          Time:  0.00305289 s
+        Error: 4.51007e-12
+
+
+Dimensions: 65536 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00222554 s
+
+      OpenACC
+        Time:  0.0012172 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00659625 s
+        Inverse
+          Time:  0.00725527 s
+        Error: 15360
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00285124 s
+
+      OpenACC
+        Time:  0.00192321 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00714484 s
+        Inverse
+          Time:  0.0087211 s
+        Error: 2.28513e-11
+
+
+Dimensions: 65536 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00705907 s
+        Inverse
+          Time:  0.00843181 s
+        Error: 15360
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00818285 s
+        Inverse
+          Time:  0.0101792 s
+        Error: 2.28513e-11
+
+
+Dimensions: 65536 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00802275 s
+        Inverse
+          Time:  0.00979986 s
+        Error: 15360
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00928641 s
+        Inverse
+          Time:  0.0118564 s
+        Error: 2.28513e-11
+
+
+Dimensions: 262144 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00883828 s
+
+      OpenACC
+        Time:  0.00450452 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0251084 s
+        Inverse
+          Time:  0.0307449 s
+        Error: 61440
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0123323 s
+
+      OpenACC
+        Time:  0.010004 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0277683 s
+        Inverse
+          Time:  0.0365962 s
+        Error: 1.05741e-10
+
+
+Dimensions: 262144 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.027642 s
+        Inverse
+          Time:  0.0341668 s
+        Error: 61440
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0324993 s
+        Inverse
+          Time:  0.0403437 s
+        Error: 1.05741e-10
+
+
+Dimensions: 262144 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0316603 s
+        Inverse
+          Time:  0.0390843 s
+        Error: 61440
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0367535 s
+        Inverse
+          Time:  0.0477539 s
+        Error: 1.05741e-10
+
+
+Dimensions: 1048576 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.035333 s
+
+      OpenACC
+        Time:  0.0195305 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.103402 s
+        Inverse
+          Time:  0.121243 s
+        Error: 245760
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0490006 s
+
+      OpenACC
+        Time:  0.0397021 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.109427 s
+        Inverse
+          Time:  0.145154 s
+        Error: 4.71321e-10
+
+
+Dimensions: 1048576 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.117238 s
+        Inverse
+          Time:  0.142055 s
+        Error: 245760
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.141634 s
+        Inverse
+          Time:  0.171396 s
+        Error: 4.71321e-10
+
+
+Dimensions: 1048576 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.131337 s
+        Inverse
+          Time:  0.163877 s
+        Error: 245760
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.161889 s
+        Inverse
+          Time:  0.197547 s
+        Error: 4.71321e-10
+
+
+Dimensions: 4194304 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.142657 s
+
+      OpenACC
+        Time:  0.0874576 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.418927 s
+        Inverse
+          Time:  0.493894 s
+        Error: 983040
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.218163 s
+
+      OpenACC
+        Time:  0.175178 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.487684 s
+        Inverse
+          Time:  0.58913 s
+        Error: 1.64727e-09
+
+
+Dimensions: 4194304 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.459226 s
+        Inverse
+          Time:  0.56584 s
+        Error: 983040
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.557954 s
+        Inverse
+          Time:  0.682634 s
+        Error: 1.64727e-09
+
+
+Dimensions: 4194304 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.525292 s
+        Inverse
+          Time:  0.652854 s
+        Error: 983040
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.634587 s
+        Inverse
+          Time:  0.78905 s
+        Error: 1.64727e-09
+
+
+Dimensions: 16777216 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.559027 s
+
+      OpenACC
+        Time:  0.338941 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  1.61912 s
+        Inverse
+          Time:  1.896 s
+        Error: 3.93216e+06
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.87157 s
+
+      OpenACC
+        Time:  0.683841 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  1.92198 s
+        Inverse
+          Time:  2.29208 s
+        Error: 8.33354e-09
+
+
+Dimensions: 16777216 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  1.85859 s
+        Inverse
+          Time:  2.2713 s
+        Error: 3.93216e+06
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  2.20455 s
+        Inverse
+          Time:  2.70299 s
+        Error: 8.33354e-09
+
+
+Dimensions: 16777216 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  2.09603 s
+        Inverse
+          Time:  2.62328 s
+        Error: 3.93216e+06
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  2.50762 s
+        Inverse
+          Time:  3.1376 s
+        Error: 8.33354e-09
+
+
+Dimensions: 67108864 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.21046 s
+
+      OpenACC
+        Time:  1.28853 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  6.60803 s
+        Inverse
+          Time:  7.5663 s
+        Error: 1.57286e+07
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  3.4406 s
+
+      OpenACC
+        Time:  2.66934 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  7.67547 s
+        Inverse
+          Time:  9.15257 s
+        Error: 3.35674e-08
+
+
+Dimensions: 67108864 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  7.29464 s
+        Inverse
+          Time:  9.1646 s
+        Error: 1.57286e+07
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  8.83646 s
+        Inverse
+          Time:  10.9173 s
+        Error: 3.35674e-08
+
+
+Dimensions: 67108864 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  8.14029 s
+        Inverse
+          Time:  10.3709 s
+        Error: 1.57286e+07
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  9.96377 s
+        Inverse
+          Time:  12.5234 s
+        Error: 3.35674e-08
+
+
+Dimensions: 210 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  8.64e-06 s
+
+      OpenACC
+        Time:  3.1813e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000133716 s
+        Inverse
+          Time:  9.7832e-05 s
+        Error: 49.2857
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.014e-05 s
+
+      OpenACC
+        Time:  8.933e-06 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000101598 s
+        Inverse
+          Time:  0.000101039 s
+        Error: 4.29394e-14
+
+
+Dimensions: 210 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  9.7372e-05 s
+        Inverse
+          Time:  0.000115192 s
+        Error: 49.2857
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  9.9714e-05 s
+        Inverse
+          Time:  0.000107032 s
+        Error: 4.29394e-14
+
+
+Dimensions: 210 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  9.9363e-05 s
+        Inverse
+          Time:  9.8979e-05 s
+        Error: 49.2857
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000109561 s
+        Inverse
+          Time:  0.000110521 s
+        Error: 4.29394e-14
+
+
+Dimensions: 1260 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  4.2749e-05 s
+
+      OpenACC
+        Time:  3.269e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000265218 s
+        Inverse
+          Time:  0.000226681 s
+        Error: 295.187
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  5.6564e-05 s
+
+      OpenACC
+        Time:  3.763e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000225127 s
+        Inverse
+          Time:  0.000276254 s
+        Error: 5.20985e-13
+
+
+Dimensions: 1260 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00023562 s
+        Inverse
+          Time:  0.000255776 s
+        Error: 295.187
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00025531 s
+        Inverse
+          Time:  0.000293606 s
+        Error: 5.20985e-13
+
+
+Dimensions: 1260 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000247589 s
+        Inverse
+          Time:  0.000277308 s
+        Error: 295.187
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000268217 s
+        Inverse
+          Time:  0.000338866 s
+        Error: 5.20985e-13
+
+
+Dimensions: 4410 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000150024 s
+
+      OpenACC
+        Time:  9.1455e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000571188 s
+        Inverse
+          Time:  0.000571316 s
+        Error: 1033.66
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000206383 s
+
+      OpenACC
+        Time:  0.000127548 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000567173 s
+        Inverse
+          Time:  0.000658693 s
+        Error: 1.53779e-12
+
+
+Dimensions: 4410 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000561981 s
+        Inverse
+          Time:  0.000653895 s
+        Error: 1033.66
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000638916 s
+        Inverse
+          Time:  0.000775884 s
+        Error: 1.53779e-12
+
+
+Dimensions: 4410 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000651529 s
+        Inverse
+          Time:  0.000801142 s
+        Error: 1033.66
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000722021 s
+        Inverse
+          Time:  0.000887191 s
+        Error: 1.53779e-12
+
+
+Dimensions: 15750 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000556283 s
+
+      OpenACC
+        Time:  0.000309474 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00170791 s
+        Inverse
+          Time:  0.00184875 s
+        Error: 3691.34
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00071184 s
+
+      OpenACC
+        Time:  0.000460649 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00178626 s
+        Inverse
+          Time:  0.00210723 s
+        Error: 5.55948e-12
+
+
+Dimensions: 15750 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00175693 s
+        Inverse
+          Time:  0.00211476 s
+        Error: 3691.34
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00203364 s
+        Inverse
+          Time:  0.00250383 s
+        Error: 5.55948e-12
+
+
+Dimensions: 15750 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00197034 s
+        Inverse
+          Time:  0.00248813 s
+        Error: 3691.34
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00238847 s
+        Inverse
+          Time:  0.00289982 s
+        Error: 5.55948e-12
+
+
+Dimensions: 66150 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00224155 s
+
+      OpenACC
+        Time:  0.00123675 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00668798 s
+        Inverse
+          Time:  0.00731327 s
+        Error: 15503.8
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00289949 s
+
+      OpenACC
+        Time:  0.00191119 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00723068 s
+        Inverse
+          Time:  0.00878196 s
+        Error: 2.44871e-11
+
+
+Dimensions: 66150 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00723892 s
+        Inverse
+          Time:  0.00855095 s
+        Error: 15503.8
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00835777 s
+        Inverse
+          Time:  0.01029 s
+        Error: 2.44871e-11
+
+
+Dimensions: 66150 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00790193 s
+        Inverse
+          Time:  0.00993455 s
+        Error: 15503.8
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00949027 s
+        Inverse
+          Time:  0.0119855 s
+        Error: 2.44871e-11
+
+
+Dimensions: 257250 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0086597 s
+
+      OpenACC
+        Time:  0.00473547 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.026035 s
+        Inverse
+          Time:  0.0290297 s
+        Error: 60293
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0120602 s
+
+      OpenACC
+        Time:  0.00973966 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0273907 s
+        Inverse
+          Time:  0.0359062 s
+        Error: 1.00274e-10
+
+
+Dimensions: 257250 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0271247 s
+        Inverse
+          Time:  0.0328648 s
+        Error: 60293
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0317682 s
+        Inverse
+          Time:  0.0392274 s
+        Error: 1.00274e-10
+
+
+Dimensions: 257250 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.030452 s
+        Inverse
+          Time:  0.0382254 s
+        Error: 60293
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0364869 s
+        Inverse
+          Time:  0.045993 s
+        Error: 1.00274e-10
+
+
+Dimensions: 1080450 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.036598 s
+
+      OpenACC
+        Time:  0.0199318 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.105475 s
+        Inverse
+          Time:  0.127373 s
+        Error: 253231
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0505972 s
+
+      OpenACC
+        Time:  0.0409588 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.113589 s
+        Inverse
+          Time:  0.15087 s
+        Error: 4.88887e-10
+
+
+Dimensions: 1080450 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.114468 s
+        Inverse
+          Time:  0.142586 s
+        Error: 253231
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.144684 s
+        Inverse
+          Time:  0.176926 s
+        Error: 4.88887e-10
+
+
+Dimensions: 1080450 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.130606 s
+        Inverse
+          Time:  0.169768 s
+        Error: 253231
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.163297 s
+        Inverse
+          Time:  0.204602 s
+        Error: 4.88887e-10
+
+
+Dimensions: 4321800 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.146765 s
+
+      OpenACC
+        Time:  0.0903497 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.424983 s
+        Inverse
+          Time:  0.489716 s
+        Error: 1.01292e+06
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.22531 s
+
+      OpenACC
+        Time:  0.17973 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.495889 s
+        Inverse
+          Time:  0.599666 s
+        Error: 2.24898e-09
+
+
+Dimensions: 4321800 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.481435 s
+        Inverse
+          Time:  0.588406 s
+        Error: 1.01292e+06
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.573125 s
+        Inverse
+          Time:  0.709546 s
+        Error: 2.24898e-09
+
+
+Dimensions: 4321800 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.544778 s
+        Inverse
+          Time:  0.674071 s
+        Error: 1.01292e+06
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.645578 s
+        Inverse
+          Time:  0.81598 s
+        Error: 2.24898e-09
+
+
+Dimensions: 15435000 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.515822 s
+
+      OpenACC
+        Time:  0.310028 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  1.50068 s
+        Inverse
+          Time:  1.84463 s
+        Error: 3.61758e+06
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.795619 s
+
+      OpenACC
+        Time:  0.626874 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  1.8109 s
+        Inverse
+          Time:  2.15568 s
+        Error: 6.24414e-09
+
+
+Dimensions: 15435000 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  1.68938 s
+        Inverse
+          Time:  2.16878 s
+        Error: 3.61758e+06
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  2.04252 s
+        Inverse
+          Time:  2.53603 s
+        Error: 6.24414e-09
+
+
+Dimensions: 15435000 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  1.90863 s
+        Inverse
+          Time:  2.49653 s
+        Error: 3.61758e+06
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  2.31439 s
+        Inverse
+          Time:  2.91989 s
+        Error: 6.24414e-09
+
+
+Dimensions: 64827000 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.1251 s
+
+      OpenACC
+        Time:  1.24272 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  6.59648 s
+        Inverse
+          Time:  7.39726 s
+        Error: 1.51938e+07
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  3.30512 s
+
+      OpenACC
+        Time:  2.57597 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  7.4696 s
+        Inverse
+          Time:  8.91291 s
+        Error: 3.37697e-08
+
+
+Dimensions: 64827000 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  7.52963 s
+        Inverse
+          Time:  8.68145 s
+        Error: 1.51938e+07
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  8.59465 s
+        Inverse
+          Time:  10.5376 s
+        Error: 3.37697e-08
+
+
+Dimensions: 64827000 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  8.24562 s
+        Inverse
+          Time:  10.0295 s
+        Error: 1.51938e+07
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  9.65244 s
+        Inverse
+          Time:  12.1469 s
+        Error: 3.37697e-08
+
+
+Dimensions: 257 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  1.0967e-05 s
+
+      OpenACC
+        Time:  1.6013e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000151111 s
+        Inverse
+          Time:  0.000107265 s
+        Error: 60.3891
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.2416e-05 s
+
+      OpenACC
+        Time:  1.0438e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000113315 s
+        Inverse
+          Time:  0.000113264 s
+        Error: 5.375e-12
+
+
+Dimensions: 257 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00011273 s
+        Inverse
+          Time:  0.000108304 s
+        Error: 60.3891
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000116183 s
+        Inverse
+          Time:  0.000121802 s
+        Error: 5.375e-12
+
+
+Dimensions: 257 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000114729 s
+        Inverse
+          Time:  0.000114185 s
+        Error: 60.3891
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000120655 s
+        Inverse
+          Time:  0.000125937 s
+        Error: 5.375e-12
+
+
+Dimensions: 1021 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  3.4986e-05 s
+
+      OpenACC
+        Time:  2.8981e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000236321 s
+        Inverse
+          Time:  0.000194101 s
+        Error: 239.328
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  5.1236e-05 s
+
+      OpenACC
+        Time:  3.2321e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000194652 s
+        Inverse
+          Time:  0.000216969 s
+        Error: 6.29294e-11
+
+
+Dimensions: 1021 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000200466 s
+        Inverse
+          Time:  0.000215974 s
+        Error: 239.328
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000213797 s
+        Inverse
+          Time:  0.000240125 s
+        Error: 6.29294e-11
+
+
+Dimensions: 1021 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000209764 s
+        Inverse
+          Time:  0.000246972 s
+        Error: 239.328
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000233995 s
+        Inverse
+          Time:  0.000281877 s
+        Error: 6.29294e-11
+
+
+Dimensions: 4093 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000140346 s
+
+      OpenACC
+        Time:  7.9759e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00055694 s
+        Inverse
+          Time:  0.000560493 s
+        Error: 959.328
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000214615 s
+
+      OpenACC
+        Time:  0.000113985 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00056051 s
+        Inverse
+          Time:  0.000644308 s
+        Error: 3.24559e-12
+
+
+Dimensions: 4093 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000571093 s
+        Inverse
+          Time:  0.000629166 s
+        Error: 959.328
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000618799 s
+        Inverse
+          Time:  0.000745031 s
+        Error: 3.24559e-12
+
+
+Dimensions: 4093 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000604726 s
+        Inverse
+          Time:  0.000719487 s
+        Error: 959.328
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.000689885 s
+        Inverse
+          Time:  0.000851472 s
+        Error: 3.24559e-12
+
+
+Dimensions: 16381 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00057159 s
+
+      OpenACC
+        Time:  0.000320083 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00179948 s
+        Inverse
+          Time:  0.00194831 s
+        Error: 3839.33
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000746808 s
+
+      OpenACC
+        Time:  0.000490568 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00187478 s
+        Inverse
+          Time:  0.00225738 s
+        Error: 1.19921e-11
+
+
+Dimensions: 16381 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00188756 s
+        Inverse
+          Time:  0.00232897 s
+        Error: 3839.33
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00216239 s
+        Inverse
+          Time:  0.00260177 s
+        Error: 1.19921e-11
+
+
+Dimensions: 16381 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00204493 s
+        Inverse
+          Time:  0.0025285 s
+        Error: 3839.33
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00242606 s
+        Inverse
+          Time:  0.00302477 s
+        Error: 1.19921e-11
+
+
+Dimensions: 65521 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00221367 s
+
+      OpenACC
+        Time:  0.00121652 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00666733 s
+        Inverse
+          Time:  0.00754768 s
+        Error: 15356.6
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00288497 s
+
+      OpenACC
+        Time:  0.00187659 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00733545 s
+        Inverse
+          Time:  0.00888977 s
+        Error: 6.27791e-11
+
+
+Dimensions: 65521 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00737999 s
+        Inverse
+          Time:  0.00861363 s
+        Error: 15356.6
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00821098 s
+        Inverse
+          Time:  0.0102591 s
+        Error: 6.27791e-11
+
+
+Dimensions: 65521 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00791919 s
+        Inverse
+          Time:  0.00989608 s
+        Error: 15356.6
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00936261 s
+        Inverse
+          Time:  0.0119828 s
+        Error: 6.27791e-11
+
+
+Dimensions: 262139 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00880603 s
+
+      OpenACC
+        Time:  0.00448288 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0253841 s
+        Inverse
+          Time:  0.0318079 s
+        Error: 61438.8
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0125356 s
+
+      OpenACC
+        Time:  0.00921019 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0317987 s
+        Inverse
+          Time:  0.03907 s
+        Error: 2.65551e-10
+
+
+Dimensions: 262139 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0279416 s
+        Inverse
+          Time:  0.0350187 s
+        Error: 61438.8
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0349805 s
+        Inverse
+          Time:  0.0422733 s
+        Error: 2.65551e-10
+
+
+Dimensions: 262139 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0313955 s
+        Inverse
+          Time:  0.0406723 s
+        Error: 61438.8
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0393276 s
+        Inverse
+          Time:  0.0488344 s
+        Error: 2.65551e-10
+
+
+Dimensions: 1048573 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0356983 s
+
+      OpenACC
+        Time:  0.019686 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.103238 s
+        Inverse
+          Time:  0.119345 s
+        Error: 245759
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0491097 s
+
+      OpenACC
+        Time:  0.0373513 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.116782 s
+        Inverse
+          Time:  0.146775 s
+        Error: 1.00169e-09
+
+
+Dimensions: 1048573 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.117621 s
+        Inverse
+          Time:  0.14344 s
+        Error: 245759
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.134691 s
+        Inverse
+          Time:  0.169698 s
+        Error: 1.00169e-09
+
+
+Dimensions: 1048573 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.125331 s
+        Inverse
+          Time:  0.156526 s
+        Error: 245759
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.145933 s
+        Inverse
+          Time:  0.186615 s
+        Error: 1.00169e-09
+
+
+Dimensions: 4194301 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.142745 s
+
+      OpenACC
+        Time:  0.0877054 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.415842 s
+        Inverse
+          Time:  0.486894 s
+        Error: 983039
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.217983 s
+
+      OpenACC
+        Time:  0.174911 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.489429 s
+        Inverse
+          Time:  0.588918 s
+        Error: 4.88146e-09
+
+
+Dimensions: 4194301 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.478098 s
+        Inverse
+          Time:  0.577602 s
+        Error: 983039
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.564745 s
+        Inverse
+          Time:  0.712935 s
+        Error: 4.88146e-09
+
+
+Dimensions: 4194301 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.522764 s
+        Inverse
+          Time:  0.665155 s
+        Error: 983039
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.632056 s
+        Inverse
+          Time:  0.798171 s
+        Error: 4.88146e-09
+
+
+Dimensions: 16777213 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.559445 s
+
+      OpenACC
+        Time:  0.340039 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  1.65231 s
+        Inverse
+          Time:  2.01437 s
+        Error: 3.93216e+06
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.866145 s
+
+      OpenACC
+        Time:  0.700522 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  1.96558 s
+        Inverse
+          Time:  2.32978 s
+        Error: 1.95624e-08
+
+
+Dimensions: 16777213 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  1.8788 s
+        Inverse
+          Time:  2.36276 s
+        Error: 3.93216e+06
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  2.25337 s
+        Inverse
+          Time:  2.77005 s
+        Error: 1.95624e-08
+
+
+Dimensions: 16777213 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  2.07027 s
+        Inverse
+          Time:  2.7688 s
+        Error: 3.93216e+06
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  2.5714 s
+        Inverse
+          Time:  3.17553 s
+        Error: 1.95624e-08
+
+
+Dimensions: 67108859 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.20209 s
+
+      OpenACC
+        Time:  1.28571 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  6.60523 s
+        Inverse

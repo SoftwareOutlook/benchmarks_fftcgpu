@@ -12,21 +12,6 @@ echo "===================================="
 echo $PROG
 echo
 
-#PROG=/home/pgambron/GPU/cuda/test
-#PROG=/home/pgambron/GPU/kokkos/test
-#PROG=/home/pgambron/GPU/opencl/test
-PROG=/home/pgambron/GPU/openacc/test
-#PROG=/home/pgambron/GPU/openmp/test
-
-echo "===================================="
-echo $PROG
-echo
-
-echo "===================================="
-echo $PROG
-echo
-
-
 
 # 3D
 
@@ -90,14 +75,6 @@ $PROG 509 509 509 1
 $PROG 32771 7 7 1 
 $PROG 65537 17 17 1 
 $PROG 131071 31 31 1 
-<<<<<<< HEAD
-=======
-
-
-
-
-
-
 
 
 
@@ -254,4 +231,4 @@ $PROG 1048573 1 1 1
 $PROG 4194301 1 1 1 
 $PROG 16777213 1 1 1 
 $PROG 67108859 1 1 1 
->>>>>>> 9c13b58ecccf05655c39f20bb6a3dc2dd1f2f531
+
