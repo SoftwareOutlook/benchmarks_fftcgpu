@@ -2,9 +2,9 @@
 
 export OMP_PROC_BIND=spread
 
-#PROG=/home/pgambron/GPU/cuda/test
+PROG=/home/pgambron/GPU/cuda/test
 #PROG=/home/pgambron/GPU/kokkos/test
-PROG=/home/pgambron/GPU/opencl/test
+#PROG=/home/pgambron/GPU/opencl/test
 #PROG=/home/pgambron/GPU/openacc/test
 #PROG=/home/pgambron/GPU/openmp/test
 
@@ -32,6 +32,8 @@ $PROG 257 257 257 32
 # Regular tests
 # powers of 2
 # square
+$PROG 32 32 32 1 
+$PROG 64 64 64 1 
 $PROG 128 128 128 1 
 $PROG 256 256 256 1 
 $PROG 512 512 512 1   
