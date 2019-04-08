@@ -5,8 +5,8 @@ export OMP_PROC_BIND=spread
 #PROG=/home/pgambron/GPU/cuda/test
 #PROG=/home/pgambron/GPU/kokkos/test
 #PROG=/home/pgambron/GPU/opencl/test
-#PROG=/home/pgambron/GPU/openacc/test
-PROG=/home/pgambron/GPU/openmp/test
+PROG=/home/pgambron/GPU/openacc/test
+#PROG=/home/pgambron/GPU/openmp/test
 
 echo "===================================="
 echo $PROG
@@ -22,8 +22,9 @@ echo
 $PROG 256 256 256 32 
 
 # product of small primes 2*3*5*7=210
-$PROG 210 210 210 32 
-
+$PROG 210 210 210 32
+# product of small primes 2**2*3**2*7
+$PROG 252 252 252 32 
 # prime numbers 257 
 $PROG 257 257 257 32 
 

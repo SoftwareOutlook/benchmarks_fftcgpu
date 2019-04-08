@@ -8,33 +8,33 @@ N coils: 32
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.00130285 s
+        Time:  0.00143854 s
 
       OpenCL (4 queues)
-        Time:  0.00434596 s
+        Time:  0.00434654 s
 
     FFT
       clFFT
         Direct
-          Time:  0.00197335 s
+          Time:  0.0016318 s
         Inverse
-          Time:  0.00139543 s
+          Time:  0.00141339 s
         Error: 98.087
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.00298802 s
+        Time:  0.00182155 s
 
       OpenCL (4 queues)
-        Time:  0.00656514 s
+        Time:  0.00649923 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.00150995 s
+          Time:  0.00153817 s
         Inverse
-          Time:  0.00154695 s
+          Time:  0.00156642 s
         Error: 135.234
 
 
@@ -46,9 +46,9 @@ N coils: 32
     FFT
       clFFT
         Direct
-          Time:  0.0176204 s
+          Time:  0.0184544 s
         Inverse
-          Time:  0.0220094 s
+          Time:  0.0218669 s
         Error: 11086.7
 
   C <-> C
@@ -56,9 +56,9 @@ N coils: 32
     FFT
       clFFT
         Direct
-          Time:  0.0249294 s
+          Time:  0.0258683 s
         Inverse
-          Time:  0.0292465 s
+          Time:  0.0298396 s
         Error: 13033.2
 
 
@@ -70,19 +70,19 @@ N coils: 32
     FFT
       OpenCL
         Direct
-          Time:  3.6567 s
+          Time:  3.70957 s
         Inverse
-          Time:  4.73534 s
-        Error: 2.05651e+13
+          Time:  4.82534 s
+        Error: 1.97914e+13
 
   C <-> C
 
     FFT
       OpenCL
         Direct
-          Time:  5.41112 s
+          Time:  5.60463 s
         Inverse
-          Time:  6.72661 s
+          Time:  6.93776 s
         Error: 1.25121e+06
 
 
@@ -93,33 +93,33 @@ N coils: 32
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.00128162 s
+        Time:  0.00131223 s
 
       OpenCL (4 queues)
-        Time:  0.00436138 s
+        Time:  0.00442025 s
 
     FFT
       clFFT
         Direct
-          Time:  0.0018799 s
+          Time:  0.00188886 s
         Inverse
-          Time:  0.00196432 s
+          Time:  0.00184787 s
         Error: 79.5017
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.00184628 s
+        Time:  0.00192734 s
 
       OpenCL (4 queues)
-        Time:  0.00648621 s
+        Time:  0.00662522 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.00168567 s
+          Time:  0.001684 s
         Inverse
-          Time:  0.00173306 s
+          Time:  0.00165191 s
         Error: 111.191
 
 
@@ -131,9 +131,9 @@ N coils: 32
     FFT
       clFFT
         Direct
-          Time:  0.0137166 s
+          Time:  0.0136827 s
         Inverse
-          Time:  0.0163642 s
+          Time:  0.0162734 s
         Error: 7445.79
 
   C <-> C
@@ -141,9 +141,9 @@ N coils: 32
     FFT
       clFFT
         Direct
-          Time:  0.0186275 s
+          Time:  0.0190975 s
         Inverse
-          Time:  0.0214643 s
+          Time:  0.0219801 s
         Error: 8825.91
 
 
@@ -155,9 +155,9 @@ N coils: 32
     FFT
       OpenCL
         Direct
-          Time:  2.09076 s
+          Time:  2.0949 s
         Inverse
-          Time:  2.66873 s
+          Time:  2.75071 s
         Error: 703075
 
   C <-> C
@@ -165,10 +165,95 @@ N coils: 32
     FFT
       OpenCL
         Direct
-          Time:  2.97878 s
+          Time:  3.14311 s
         Inverse
-          Time:  3.68561 s
+          Time:  3.82119 s
         Error: 697262
+
+
+Dimensions: 252 
+N coils: 32
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.00132289 s
+
+      OpenCL (4 queues)
+        Time:  0.00442759 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00174364 s
+        Inverse
+          Time:  0.00172155 s
+        Error: 95.8884
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00191152 s
+
+      OpenCL (4 queues)
+        Time:  0.00665859 s
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00182393 s
+        Inverse
+          Time:  0.00182491 s
+        Error: 132.409
+
+
+Dimensions: 252 252 
+N coils: 32
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0184766 s
+        Inverse
+          Time:  0.022304 s
+        Error: 10675.5
+
+  C <-> C
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0263156 s
+        Inverse
+          Time:  0.0302485 s
+        Error: 12495.8
+
+
+Dimensions: 252 252 252 
+N coils: 32
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  3.77296 s
+        Inverse
+          Time:  4.66306 s
+        Error: 3.23818e+12
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  5.10387 s
+        Inverse
+          Time:  6.32305 s
+        Error: 1.17462e+06
 
 
 Dimensions: 257 
@@ -178,33 +263,33 @@ N coils: 32
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.00147315 s
+        Time:  0.00170779 s
 
       OpenCL (4 queues)
-        Time:  0.00428545 s
+        Time:  0.00434545 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000856024 s
+          Time:  0.000873185 s
         Inverse
-          Time:  0.000914403 s
+          Time:  0.000899827 s
         Error: 96.6226
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.0020814 s
+        Time:  0.00204352 s
 
       OpenCL (4 queues)
-        Time:  0.00662485 s
+        Time:  0.00647068 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000875549 s
+          Time:  0.000893209 s
         Inverse
-          Time:  0.000912341 s
+          Time:  0.000889021 s
         Error: 136.645
 
 
@@ -216,9 +301,9 @@ N coils: 32
     FFT
       clFFT
         Direct
-          Time:  0.0162952 s
+          Time:  0.016465 s
         Inverse
-          Time:  0.0200731 s
+          Time:  0.0204353 s
         Error: 9408.86
 
   C <-> C
@@ -226,9 +311,9 @@ N coils: 32
     FFT
       clFFT
         Direct
-          Time:  0.0248256 s
+          Time:  0.0249902 s
         Inverse
-          Time:  0.0282335 s
+          Time:  0.0282244 s
         Error: 13306.1
 
 
@@ -240,9 +325,9 @@ N coils: 32
     FFT
       OpenCL
         Direct
-          Time:  3.56627 s
+          Time:  3.58112 s
         Inverse
-          Time:  4.66917 s
+          Time:  4.71626 s
         Error: 912673
 
   C <-> C
@@ -250,9 +335,9 @@ N coils: 32
     FFT
       OpenCL
         Direct
-          Time:  5.3706 s
+          Time:  5.29459 s
         Inverse
-          Time:  6.64609 s
+          Time:  6.54601 s
         Error: 1.29071e+06
 
 
@@ -263,33 +348,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000352687 s
+        Time:  0.000329913 s
 
       OpenCL (4 queues)
-        Time:  0.000458006 s
+        Time:  0.00045953 s
 
     FFT
       clFFT
         Direct
-          Time:  6.1467e-05 s
+          Time:  6.4776e-05 s
         Inverse
-          Time:  5.9379e-05 s
+          Time:  5.9255e-05 s
         Error: 11.7241
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000323875 s
+        Time:  0.000324317 s
 
       OpenCL (4 queues)
-        Time:  0.000510903 s
+        Time:  0.000515018 s
 
     FFT
       OpenCL
         Direct
-          Time:  5.7325e-05 s
+          Time:  5.9742e-05 s
         Inverse
-          Time:  5.7499e-05 s
+          Time:  5.8886e-05 s
         Error: 16.4402
 
 
@@ -301,9 +386,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000303154 s
+          Time:  0.000323283 s
         Inverse
-          Time:  0.000284013 s
+          Time:  0.000293298 s
         Error: 169.529
 
   C <-> C
@@ -311,9 +396,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00029426 s
+          Time:  0.000298728 s
         Inverse
-          Time:  0.000302794 s
+          Time:  0.000322619 s
         Error: 203.448
 
 
@@ -325,9 +410,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.000597705 s
+          Time:  0.000575991 s
         Inverse
-          Time:  0.000623692 s
+          Time:  0.000632798 s
         Error: 2457.89
 
   C <-> C
@@ -335,9 +420,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.000729443 s
+          Time:  0.00086683 s
         Inverse
-          Time:  0.000801655 s
+          Time:  0.000809236 s
         Error: 2443.69
 
 
@@ -348,33 +433,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000331579 s
+        Time:  0.00032169 s
 
       OpenCL (4 queues)
-        Time:  0.000450532 s
+        Time:  0.00044886 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000222809 s
+          Time:  0.000241411 s
         Inverse
-          Time:  0.000222972 s
+          Time:  0.000219471 s
         Error: 23.9755
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000317348 s
+        Time:  0.000322083 s
 
       OpenCL (4 queues)
-        Time:  0.000514551 s
+        Time:  0.000514784 s
 
     FFT
       OpenCL
         Direct
-          Time:  6.1171e-05 s
+          Time:  6.2703e-05 s
         Inverse
-          Time:  6.0273e-05 s
+          Time:  6.2802e-05 s
         Error: 33.4108
 
 
@@ -386,9 +471,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000328233 s
+          Time:  0.000352079 s
         Inverse
-          Time:  0.000317576 s
+          Time:  0.000325898 s
         Error: 686.756
 
   C <-> C
@@ -396,9 +481,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000350078 s
+          Time:  0.0003564 s
         Inverse
-          Time:  0.000361598 s
+          Time:  0.000357543 s
         Error: 814.388
 
 
@@ -410,9 +495,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0021878 s
+          Time:  0.00219573 s
         Inverse
-          Time:  0.00250655 s
+          Time:  0.00253005 s
         Error: 19794.4
 
   C <-> C
@@ -420,9 +505,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.00302682 s
+          Time:  0.00307334 s
         Inverse
-          Time:  0.00363003 s
+          Time:  0.00369765 s
         Error: 19550
 
 
@@ -433,33 +518,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000332986 s
+        Time:  0.000345073 s
 
       OpenCL (4 queues)
-        Time:  0.000432634 s
+        Time:  0.000425244 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000217883 s
+          Time:  0.000235211 s
         Inverse
-          Time:  0.000241785 s
+          Time:  0.000221395 s
         Error: 48.6389
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000317386 s
+        Time:  0.000316185 s
 
       OpenCL (4 queues)
-        Time:  0.000470692 s
+        Time:  0.000465223 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000222888 s
+          Time:  0.000232942 s
         Inverse
-          Time:  0.000227903 s
+          Time:  0.000228216 s
         Error: 67.3519
 
 
@@ -471,9 +556,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000517564 s
+          Time:  0.00047347 s
         Inverse
-          Time:  0.000433093 s
+          Time:  0.000456202 s
         Error: 2763.25
 
   C <-> C
@@ -481,9 +566,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00132906 s
+          Time:  0.000506633 s
         Inverse
-          Time:  0.0005312 s
+          Time:  0.000537436 s
         Error: 3258.15
 
 
@@ -495,19 +580,19 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0193123 s
+          Time:  0.0197539 s
         Inverse
-          Time:  0.027723 s
-        Error: 165666
+          Time:  0.0280217 s
+        Error: 168094
 
   C <-> C
 
     FFT
       OpenCL
         Direct
-          Time:  0.0324846 s
+          Time:  0.0302751 s
         Inverse
-          Time:  0.0356715 s
+          Time:  0.0354053 s
         Error: 156401
 
 
@@ -518,33 +603,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000324122 s
+        Time:  0.000340231 s
 
       OpenCL (4 queues)
-        Time:  0.000430006 s
+        Time:  0.000441346 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000234079 s
+          Time:  0.000222708 s
         Inverse
-          Time:  0.000234386 s
+          Time:  0.000224257 s
         Error: 98.087
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000909953 s
+        Time:  0.000312268 s
 
       OpenCL (4 queues)
-        Time:  0.000466361 s
+        Time:  0.000473529 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000246998 s
+          Time:  0.000230819 s
         Inverse
-          Time:  0.00023656 s
+          Time:  0.000235382 s
         Error: 135.234
 
 
@@ -556,9 +641,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00084132 s
+          Time:  0.00082744 s
         Inverse
-          Time:  0.000927124 s
+          Time:  0.000888157 s
         Error: 11086.7
 
   C <-> C
@@ -566,9 +651,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.0010853 s
+          Time:  0.00107163 s
         Inverse
-          Time:  0.00122291 s
+          Time:  0.00117651 s
         Error: 13033.2
 
 
@@ -580,19 +665,19 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.147261 s
+          Time:  0.146858 s
         Inverse
-          Time:  0.207118 s
-        Error: 3.07781e+13
+          Time:  0.207877 s
+        Error: 6.58593e+13
 
   C <-> C
 
     FFT
       OpenCL
         Direct
-          Time:  0.234085 s
+          Time:  0.23022 s
         Inverse
-          Time:  0.279653 s
+          Time:  0.274981 s
         Error: 1.25121e+06
 
 
@@ -603,33 +688,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000342673 s
+        Time:  0.000347729 s
 
       OpenCL (4 queues)
-        Time:  0.00043292 s
+        Time:  0.000436707 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000243274 s
+          Time:  0.000240529 s
         Inverse
-          Time:  0.000249577 s
+          Time:  0.000248449 s
         Error: 196.892
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000321225 s
+        Time:  0.00160947 s
 
       OpenCL (4 queues)
-        Time:  0.000466755 s
+        Time:  0.000506257 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000242526 s
+          Time:  0.000241687 s
         Inverse
-          Time:  0.000253636 s
+          Time:  0.000245791 s
         Error: 270.999
 
 
@@ -641,9 +726,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00212737 s
+          Time:  0.00210255 s
         Inverse
-          Time:  0.00247175 s
+          Time:  0.0024813 s
         Error: 44421.1
 
   C <-> C
@@ -651,9 +736,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00305808 s
+          Time:  0.00313535 s
         Inverse
-          Time:  0.00350474 s
+          Time:  0.00352779 s
         Error: 52133.4
 
 
@@ -665,19 +750,19 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  1.1579 s
+          Time:  1.15692 s
         Inverse
-          Time:  1.60714 s
-        Error: 7.53913e+20
+          Time:  1.61309 s
+        Error: 7.10519e+20
 
   C <-> C
 
     FFT
       OpenCL
         Direct
-          Time:  1.82908 s
+          Time:  1.82199 s
         Inverse
-          Time:  2.17875 s
+          Time:  2.18101 s
         Error: 1.00096e+07
 
 
@@ -688,33 +773,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.00207866 s
+        Time:  0.00162311 s
 
       OpenCL (4 queues)
-        Time:  0.00244651 s
+        Time:  0.000841862 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000575311 s
+          Time:  0.000575671 s
         Inverse
-          Time:  0.000681021 s
+          Time:  0.00069097 s
         Error: 12649.7
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000868441 s
+        Time:  0.00084434 s
 
       OpenCL (4 queues)
-        Time:  0.00112183 s
+        Time:  0.00111622 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000665106 s
+          Time:  0.000681012 s
         Inverse
-          Time:  0.000720801 s
+          Time:  0.000722882 s
         Error: 17377.3
 
 
@@ -726,9 +811,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00248923 s
+          Time:  0.00239456 s
         Inverse
-          Time:  0.00273883 s
+          Time:  0.00279028 s
         Error: 47488.7
 
   C <-> C
@@ -736,9 +821,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00314448 s
+          Time:  0.00310875 s
         Inverse
-          Time:  0.00352708 s
+          Time:  0.00363072 s
         Error: 52133.4
 
 
@@ -750,9 +835,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.02128 s
+          Time:  0.0205201 s
         Inverse
-          Time:  0.0282599 s
+          Time:  0.0283472 s
         Error: 156652
 
   C <-> C
@@ -760,9 +845,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0311592 s
+          Time:  0.0303715 s
         Inverse
-          Time:  0.036458 s
+          Time:  0.0352921 s
         Error: 156401
 
 
@@ -773,33 +858,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.00160587 s
+        Time:  0.00161072 s
 
       OpenCL (4 queues)
-        Time:  0.00112619 s
+        Time:  0.00113462 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000974269 s
+          Time:  0.000974427 s
         Inverse
-          Time:  0.00122591 s
+          Time:  0.00124825 s
         Error: 25300.3
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.00163452 s
+        Time:  0.00158125 s
 
       OpenCL (4 queues)
-        Time:  0.00186142 s
+        Time:  0.0018093 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.0010753 s
+          Time:  0.0010693 s
         Inverse
-          Time:  0.00118972 s
+          Time:  0.00116357 s
         Error: 34755.2
 
 
@@ -811,9 +896,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00767251 s
+          Time:  0.00766763 s
         Inverse
-          Time:  0.0114743 s
+          Time:  0.0113711 s
         Error: 167206
 
   C <-> C
@@ -821,9 +906,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.0104426 s
+          Time:  0.0104877 s
         Inverse
-          Time:  0.0120593 s
+          Time:  0.0121187 s
         Error: 208534
 
 
@@ -835,9 +920,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.152063 s
+          Time:  0.154032 s
         Inverse
-          Time:  0.214308 s
+          Time:  0.21232 s
         Error: 1.13948e+06
 
   C <-> C
@@ -845,9 +930,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.235819 s
+          Time:  0.230074 s
         Inverse
-          Time:  0.281385 s
+          Time:  0.277122 s
         Error: 1.25121e+06
 
 
@@ -858,33 +943,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.00321442 s
+        Time:  0.00312668 s
 
       OpenCL (4 queues)
-        Time:  0.00210876 s
+        Time:  0.00210292 s
 
     FFT
       clFFT
         Direct
-          Time:  0.00145077 s
+          Time:  0.00147145 s
         Inverse
-          Time:  0.00189394 s
+          Time:  0.00193224 s
         Error: 50601.6
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.00297935 s
+        Time:  0.00293727 s
 
       OpenCL (4 queues)
-        Time:  0.00330073 s
+        Time:  0.00326161 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.00193201 s
+          Time:  0.00187996 s
         Inverse
-          Time:  0.00208944 s
+          Time:  0.00211563 s
         Error: 69510.9
 
 
@@ -896,9 +981,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.0393035 s
+          Time:  0.038937 s
         Inverse
-          Time:  0.0549446 s
+          Time:  0.0549759 s
         Error: 682555
 
   C <-> C
@@ -906,9 +991,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.0598148 s
+          Time:  0.0577141 s
         Inverse
-          Time:  0.0650381 s
+          Time:  0.0656161 s
         Error: 834137
 
 
@@ -920,9 +1005,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  1.21781 s
+          Time:  1.2255 s
         Inverse
-          Time:  1.67884 s
+          Time:  1.67629 s
         Error: 9.25243e+06
 
   C <-> C
@@ -930,9 +1015,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  1.83513 s
+          Time:  1.822 s
         Inverse
-          Time:  2.1735 s
+          Time:  2.18392 s
         Error: 1.00096e+07
 
 
@@ -943,33 +1028,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000345507 s
+        Time:  0.000334216 s
 
       OpenCL (4 queues)
-        Time:  0.000472093 s
+        Time:  0.000455448 s
 
     FFT
       clFFT
         Direct
-          Time:  7.7491e-05 s
+          Time:  6.9357e-05 s
         Inverse
-          Time:  6.4185e-05 s
+          Time:  6.3815e-05 s
         Error: 11.5889
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000324575 s
+        Time:  0.000337892 s
 
       OpenCL (4 queues)
-        Time:  0.000501442 s
+        Time:  0.00051316 s
 
     FFT
       OpenCL
         Direct
-          Time:  6.8574e-05 s
+          Time:  6.1356e-05 s
         Inverse
-          Time:  6.2909e-05 s
+          Time:  6.4929e-05 s
         Error: 15.0378
 
 
@@ -981,9 +1066,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000425855 s
+          Time:  0.000314301 s
         Inverse
-          Time:  0.000283917 s
+          Time:  0.000291192 s
         Error: 151.446
 
   C <-> C
@@ -991,9 +1076,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000426543 s
+          Time:  0.000305877 s
         Inverse
-          Time:  0.000313005 s
+          Time:  0.000317647 s
         Error: 170.93
 
 
@@ -1005,9 +1090,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.000652459 s
+          Time:  0.000578671 s
         Inverse
-          Time:  0.000592632 s
+          Time:  0.000571697 s
         Error: 2032.92
 
   C <-> C
@@ -1015,9 +1100,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.000796794 s
+          Time:  0.00067839 s
         Inverse
-          Time:  0.000734273 s
+          Time:  0.000722904 s
         Error: 1882.25
 
 
@@ -1028,33 +1113,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000328179 s
+        Time:  0.00032253 s
 
       OpenCL (4 queues)
-        Time:  0.000457652 s
+        Time:  0.000461203 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000256341 s
+          Time:  0.000246059 s
         Inverse
-          Time:  0.000246808 s
+          Time:  0.000238258 s
         Error: 26.4271
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.00191788 s
+        Time:  0.000322496 s
 
       OpenCL (4 queues)
-        Time:  0.000502248 s
+        Time:  0.000523477 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000275526 s
+          Time:  0.000232381 s
         Inverse
-          Time:  0.000259549 s
+          Time:  0.000241623 s
         Error: 36.2443
 
 
@@ -1066,9 +1151,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000437477 s
+          Time:  0.000357487 s
         Inverse
-          Time:  0.000376331 s
+          Time:  0.000350038 s
         Error: 813.825
 
   C <-> C
@@ -1076,9 +1161,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000458875 s
+          Time:  0.000376898 s
         Inverse
-          Time:  0.000405586 s
+          Time:  0.00038866 s
         Error: 955.813
 
 
@@ -1090,9 +1175,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.00297083 s
+          Time:  0.00274689 s
         Inverse
-          Time:  0.00319238 s
+          Time:  0.00323509 s
         Error: 25366
 
   C <-> C
@@ -1100,9 +1185,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.00402931 s
+          Time:  0.00393076 s
         Inverse
-          Time:  0.00470818 s
+          Time:  0.00485439 s
         Error: 24856.1
 
 
@@ -1113,33 +1198,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000369589 s
+        Time:  0.000329247 s
 
       OpenCL (4 queues)
-        Time:  0.000470267 s
+        Time:  0.000464929 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000411519 s
+          Time:  0.000279553 s
         Inverse
-          Time:  0.000279515 s
+          Time:  0.000278064 s
         Error: 38.8091
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.00031229 s
+        Time:  0.000339841 s
 
       OpenCL (4 queues)
-        Time:  0.00050174 s
+        Time:  0.000510849 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000374308 s
+          Time:  0.000260015 s
         Inverse
-          Time:  0.000270386 s
+          Time:  0.000266561 s
         Error: 56.0298
 
 
@@ -1151,9 +1236,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000561246 s
+          Time:  0.000448409 s
         Inverse
-          Time:  0.000437919 s
+          Time:  0.000433939 s
         Error: 1884.68
 
   C <-> C
@@ -1161,9 +1246,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000583569 s
+          Time:  0.000466268 s
         Inverse
-          Time:  0.000485539 s
+          Time:  0.00049038 s
         Error: 2262.54
 
 
@@ -1175,9 +1260,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.00892522 s
+          Time:  0.00867244 s
         Inverse
-          Time:  0.0128989 s
+          Time:  0.0128564 s
         Error: 90621.5
 
   C <-> C
@@ -1185,9 +1270,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.012036 s
+          Time:  0.0124239 s
         Inverse
-          Time:  0.0149868 s
+          Time:  0.0149964 s
         Error: 90509.6
 
 
@@ -1198,33 +1283,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000359883 s
+        Time:  0.00033037 s
 
       OpenCL (4 queues)
-        Time:  0.000429898 s
+        Time:  0.000447047 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000278037 s
+          Time:  0.000277162 s
         Inverse
-          Time:  0.000282212 s
+          Time:  0.000282909 s
         Error: 79.5017
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000328578 s
+        Time:  0.000326924 s
 
       OpenCL (4 queues)
-        Time:  0.000484069 s
+        Time:  0.000486838 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000266824 s
+          Time:  0.000290373 s
         Inverse
-          Time:  0.000278836 s
+          Time:  0.00029942 s
         Error: 111.191
 
 
@@ -1236,9 +1321,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000709657 s
+          Time:  0.000702703 s
         Inverse
-          Time:  0.000740648 s
+          Time:  0.000748913 s
         Error: 7445.79
 
   C <-> C
@@ -1246,9 +1331,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00105889 s
+          Time:  0.00281617 s
         Inverse
-          Time:  0.00112729 s
+          Time:  0.00114821 s
         Error: 8825.91
 
 
@@ -1260,9 +1345,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0840152 s
+          Time:  0.08351 s
         Inverse
-          Time:  0.115522 s
+          Time:  0.116667 s
         Error: 703075
 
   C <-> C
@@ -1270,9 +1355,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.130694 s
+          Time:  0.13039 s
         Inverse
-          Time:  0.155079 s
+          Time:  0.155196 s
         Error: 697262
 
 
@@ -1283,33 +1368,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000344666 s
+        Time:  0.000339333 s
 
       OpenCL (4 queues)
-        Time:  0.000434141 s
+        Time:  0.000428897 s
 
     FFT
       clFFT
         Direct
-          Time:  0.00114205 s
+          Time:  0.000303553 s
         Inverse
-          Time:  0.000289826 s
+          Time:  0.000298251 s
         Error: 160.001
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000336612 s
+        Time:  0.000323881 s
 
       OpenCL (4 queues)
-        Time:  0.000500299 s
+        Time:  0.000495962 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000290713 s
+          Time:  0.000290041 s
         Inverse
-          Time:  0.000840002 s
+          Time:  0.000302689 s
         Error: 221.503
 
 
@@ -1321,9 +1406,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00195944 s
+          Time:  0.00202104 s
         Inverse
-          Time:  0.00227225 s
+          Time:  0.00225247 s
         Error: 29604.1
 
   C <-> C
@@ -1331,9 +1416,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00261956 s
+          Time:  0.00264529 s
         Inverse
-          Time:  0.00304791 s
+          Time:  0.00288581 s
         Error: 34858.8
 
 
@@ -1345,9 +1430,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.654702 s
+          Time:  0.655994 s
         Inverse
-          Time:  0.907153 s
+          Time:  0.901706 s
         Error: 5.55292e+06
 
   C <-> C
@@ -1355,9 +1440,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  1.0228 s
+          Time:  1.01069 s
         Inverse
-          Time:  1.23303 s
+          Time:  1.23345 s
         Error: 5.47286e+06
 
 
@@ -1368,33 +1453,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.00116081 s
+        Time:  0.00113362 s
 
       OpenCL (4 queues)
-        Time:  0.000882345 s
+        Time:  0.000975438 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000638655 s
+          Time:  0.000649965 s
         Inverse
-          Time:  0.000778509 s
+          Time:  0.000818878 s
         Error: 15890.7
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.00106052 s
+        Time:  0.00102992 s
 
       OpenCL (4 queues)
-        Time:  0.00121668 s
+        Time:  0.00120212 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000837671 s
+          Time:  0.00083392 s
         Inverse
-          Time:  0.000912661 s
+          Time:  0.000888342 s
         Error: 21827.9
 
 
@@ -1406,9 +1491,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00478659 s
+          Time:  0.00486043 s
         Inverse
-          Time:  0.00590756 s
+          Time:  0.00574184 s
         Error: 93903.9
 
   C <-> C
@@ -1416,9 +1501,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00658229 s
+          Time:  0.00641964 s
         Inverse
-          Time:  0.00762718 s
+          Time:  0.00751346 s
         Error: 109142
 
 
@@ -1430,9 +1515,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0970822 s
+          Time:  0.0879605 s
         Inverse
-          Time:  0.120721 s
+          Time:  0.120295 s
         Error: 567600
 
   C <-> C
@@ -1440,9 +1525,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.129793 s
+          Time:  0.12898 s
         Inverse
-          Time:  0.153758 s
+          Time:  0.154203 s
         Error: 545710
 
 
@@ -1453,33 +1538,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.00190905 s
+        Time:  0.00195532 s
 
       OpenCL (4 queues)
-        Time:  0.00132235 s
+        Time:  0.00132822 s
 
     FFT
       clFFT
         Direct
-          Time:  0.00115716 s
+          Time:  0.00115261 s
         Inverse
-          Time:  0.00141039 s
+          Time:  0.00146 s
         Error: 31780.1
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.0018673 s
+        Time:  0.00186997 s
 
       OpenCL (4 queues)
-        Time:  0.00212784 s
+        Time:  0.002127 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.00151808 s
+          Time:  0.00155984 s
         Inverse
-          Time:  0.00161664 s
+          Time:  0.00164836 s
         Error: 43656.2
 
 
@@ -1491,9 +1576,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.0229435 s
+          Time:  0.0235597 s
         Inverse
-          Time:  0.0297963 s
+          Time:  0.0302706 s
         Error: 400130
 
   C <-> C
@@ -1501,9 +1586,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.0358144 s
+          Time:  0.0358343 s
         Inverse
-          Time:  0.0398861 s
+          Time:  0.039489 s
         Error: 480224
 
 
@@ -1515,9 +1600,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.704072 s
+          Time:  0.697473 s
         Inverse
-          Time:  0.953979 s
+          Time:  0.945015 s
         Error: 5.38003e+06
 
   C <-> C
@@ -1525,9 +1610,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  1.01345 s
+          Time:  1.01835 s
         Inverse
-          Time:  1.22333 s
+          Time:  1.23704 s
         Error: 5.28247e+06
 
 
@@ -1538,33 +1623,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000351467 s
+        Time:  0.000333564 s
 
       OpenCL (4 queues)
-        Time:  0.000453771 s
+        Time:  0.000462462 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000287127 s
+          Time:  0.00025991 s
         Inverse
-          Time:  0.000282669 s
+          Time:  0.000277811 s
         Error: 10.6452
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.00128854 s
+        Time:  0.000333713 s
 
       OpenCL (4 queues)
-        Time:  0.000494207 s
+        Time:  0.000504174 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.00023522 s
+          Time:  0.000237896 s
         Inverse
-          Time:  0.000240193 s
+          Time:  0.000241591 s
         Error: 15.0545
 
 
@@ -1576,9 +1661,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000284045 s
+          Time:  0.000306307 s
         Inverse
-          Time:  0.000254366 s
+          Time:  0.000274881 s
         Error: 120.874
 
   C <-> C
@@ -1586,9 +1671,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000252068 s
+          Time:  0.000249659 s
         Inverse
-          Time:  0.000255858 s
+          Time:  0.000255371 s
         Error: 170.942
 
 
@@ -1600,9 +1685,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.000482941 s
+          Time:  0.00049401 s
         Inverse
-          Time:  0.000526533 s
+          Time:  0.000532927 s
         Error: 1330.96
 
   C <-> C
@@ -1610,9 +1695,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.000610204 s
+          Time:  0.00062568 s
         Inverse
-          Time:  0.00072147 s
+          Time:  0.00070897 s
         Error: 1882.26
 
 
@@ -1623,33 +1708,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000320321 s
+        Time:  0.000320582 s
 
       OpenCL (4 queues)
-        Time:  0.00046561 s
+        Time:  0.000488765 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000294863 s
+          Time:  0.000265221 s
         Inverse
-          Time:  0.000278428 s
+          Time:  0.000272052 s
         Error: 22.623
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000328877 s
+        Time:  0.000377437 s
 
       OpenCL (4 queues)
-        Time:  0.000521148 s
+        Time:  0.000516122 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.00025921 s
+          Time:  0.000243794 s
         Inverse
-          Time:  0.000245622 s
+          Time:  0.000256 s
         Error: 31.9937
 
 
@@ -1661,9 +1746,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000306611 s
+          Time:  0.000780238 s
         Inverse
-          Time:  0.000284029 s
+          Time:  0.00030287 s
         Error: 528.858
 
   C <-> C
@@ -1671,9 +1756,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000305159 s
+          Time:  0.000290979 s
         Inverse
-          Time:  0.00031061 s
+          Time:  0.000305609 s
         Error: 747.918
 
 
@@ -1685,9 +1770,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.00191594 s
+          Time:  0.00191506 s
         Inverse
-          Time:  0.00221842 s
+          Time:  0.00215917 s
         Error: 12166.9
 
   C <-> C
@@ -1695,9 +1780,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0026643 s
+          Time:  0.00260027 s
         Inverse
-          Time:  0.00315862 s
+          Time:  0.00311068 s
         Error: 17206.7
 
 
@@ -1708,33 +1793,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000341557 s
+        Time:  0.000326509 s
 
       OpenCL (4 queues)
-        Time:  0.000481453 s
+        Time:  0.000576497 s
 
     FFT
       clFFT
         Direct
-          Time:  0.00027653 s
+          Time:  0.000268124 s
         Inverse
-          Time:  0.000273349 s
+          Time:  0.000274383 s
         Error: 46.6299
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.00032912 s
+        Time:  0.000353929 s
 
       OpenCL (4 queues)
-        Time:  0.000505757 s
+        Time:  0.00049437 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000237651 s
+          Time:  0.000254899 s
         Inverse
-          Time:  0.000239852 s
+          Time:  0.000242692 s
         Error: 65.9447
 
 
@@ -1746,9 +1831,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000420098 s
+          Time:  0.000448727 s
         Inverse
-          Time:  0.000404116 s
+          Time:  0.000401438 s
         Error: 2208.86
 
   C <-> C
@@ -1756,9 +1841,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000442405 s
+          Time:  0.000443726 s
         Inverse
-          Time:  0.000473348 s
+          Time:  0.000553156 s
         Error: 3123.8
 
 
@@ -1770,9 +1855,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0189447 s
+          Time:  0.0189954 s
         Inverse
-          Time:  0.0266752 s
+          Time:  0.0268629 s
         Error: 103823
 
   C <-> C
@@ -1780,9 +1865,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0204788 s
+          Time:  0.0201144 s
         Inverse
-          Time:  0.0250161 s
+          Time:  0.0252195 s
         Error: 146828
 
 
@@ -1793,33 +1878,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000349692 s
+        Time:  0.000346595 s
 
       OpenCL (4 queues)
-        Time:  0.000443382 s
+        Time:  0.000443068 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000265549 s
+          Time:  0.00026347 s
         Inverse
-          Time:  0.000275349 s
+          Time:  0.000274793 s
         Error: 96.6226
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000343115 s
+        Time:  0.000340436 s
 
       OpenCL (4 queues)
-        Time:  0.0004746 s
+        Time:  0.000480509 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000238663 s
+          Time:  0.000238524 s
         Inverse
-          Time:  0.00024292 s
+          Time:  0.000237275 s
         Error: 136.645
 
 
@@ -1831,9 +1916,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000799454 s
+          Time:  0.000823856 s
         Inverse
-          Time:  0.000867331 s
+          Time:  0.00088773 s
         Error: 9408.86
 
   C <-> C
@@ -1841,9 +1926,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00105077 s
+          Time:  0.00115328 s
         Inverse
-          Time:  0.00112309 s
+          Time:  0.00113107 s
         Error: 13306.1
 
 
@@ -1855,9 +1940,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.14412 s
+          Time:  0.147845 s
         Inverse
-          Time:  0.204137 s
+          Time:  0.206656 s
         Error: 912673
 
   C <-> C
@@ -1865,9 +1950,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.227896 s
+          Time:  0.225568 s
         Inverse
-          Time:  0.271073 s
+          Time:  0.270744 s
         Error: 1.29071e+06
 
 
@@ -1878,33 +1963,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000333923 s
+        Time:  0.00035681 s
 
       OpenCL (4 queues)
-        Time:  0.000442575 s
+        Time:  0.000431088 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000282012 s
+          Time:  0.000265987 s
         Inverse
-          Time:  0.000269374 s
+          Time:  0.000278207 s
         Error: 190.625
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000344379 s
+        Time:  0.000350791 s
 
       OpenCL (4 queues)
-        Time:  0.000477046 s
+        Time:  0.000484227 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000245009 s
+          Time:  0.000266277 s
         Inverse
-          Time:  0.000242341 s
+          Time:  0.000242859 s
         Error: 269.584
 
 
@@ -1916,9 +2001,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00214298 s
+          Time:  0.0020475 s
         Inverse
-          Time:  0.00241588 s
+          Time:  0.00245496 s
         Error: 36480.9
 
   C <-> C
@@ -1926,9 +2011,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00281877 s
+          Time:  0.00281466 s
         Inverse
-          Time:  0.00325983 s
+          Time:  0.00316829 s
         Error: 51591.7
 
 
@@ -1940,9 +2025,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  1.10009 s
+          Time:  1.1133 s
         Inverse
-          Time:  1.5396 s
+          Time:  1.56326 s
         Error: 6.96787e+06
 
   C <-> C
@@ -1950,9 +2035,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  1.70867 s
+          Time:  1.72214 s
         Inverse
-          Time:  2.0603 s
+          Time:  2.08151 s
         Error: 9.85406e+06
 
 
@@ -1963,33 +2048,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.00103603 s
+        Time:  0.00104092 s
 
       OpenCL (4 queues)
-        Time:  0.000841269 s
+        Time:  0.00084798 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000580606 s
+          Time:  0.000547482 s
         Inverse
-          Time:  0.000703449 s
+          Time:  0.000656732 s
         Error: 12288.6
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000925979 s
+        Time:  0.000946814 s
 
       OpenCL (4 queues)
-        Time:  0.00111803 s
+        Time:  0.00114408 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.00064452 s
+          Time:  0.000617909 s
         Inverse
-          Time:  0.00068903 s
+          Time:  0.000709786 s
         Error: 17378.7
 
 
@@ -2001,9 +2086,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.001954 s
+          Time:  0.00197645 s
         Inverse
-          Time:  0.0022595 s
+          Time:  0.00230732 s
         Error: 24577.9
 
   C <-> C
@@ -2011,9 +2096,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00256131 s
+          Time:  0.00251848 s
         Inverse
-          Time:  0.00295846 s
+          Time:  0.00290739 s
         Error: 34758.4
 
 
@@ -2025,9 +2110,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0119384 s
+          Time:  0.0119911 s
         Inverse
-          Time:  0.0176998 s
+          Time:  0.0177333 s
         Error: 49156
 
   C <-> C
@@ -2035,9 +2120,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0157753 s
+          Time:  0.0164729 s
         Inverse
-          Time:  0.019741 s
+          Time:  0.0195828 s
         Error: 69517
 
 
@@ -2048,33 +2133,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.00174923 s
+        Time:  0.00180736 s
 
       OpenCL (4 queues)
-        Time:  0.00112657 s
+        Time:  0.00115894 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000764058 s
+          Time:  0.000763766 s
         Inverse
-          Time:  0.000976891 s
+          Time:  0.000972083 s
         Error: 24576.6
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.00176177 s
+        Time:  0.00174431 s
 
       OpenCL (4 queues)
-        Time:  0.00186751 s
+        Time:  0.00182333 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.00100091 s
+          Time:  0.00102465 s
         Inverse
-          Time:  0.0011134 s
+          Time:  0.00112151 s
         Error: 34756.6
 
 
@@ -2086,9 +2171,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00754779 s
+          Time:  0.00758737 s
         Inverse
-          Time:  0.0117181 s
+          Time:  0.0118518 s
         Error: 172039
 
   C <-> C
@@ -2096,9 +2181,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.0105475 s
+          Time:  0.0106172 s
         Inverse
-          Time:  0.0124197 s
+          Time:  0.0123116 s
         Error: 243300
 
 
@@ -2110,9 +2195,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.16943 s
+          Time:  0.169375 s
         Inverse
-          Time:  0.233859 s
+          Time:  0.234663 s
         Error: 1.20427e+06
 
   C <-> C
@@ -2120,9 +2205,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.254288 s
+          Time:  0.248699 s
         Inverse
-          Time:  0.305151 s
+          Time:  0.301911 s
         Error: 1.7031e+06
 
 
@@ -2133,33 +2218,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.00341323 s
+        Time:  0.00346755 s
 
       OpenCL (4 queues)
-        Time:  0.00207067 s
+        Time:  0.00209629 s
 
     FFT
       clFFT
         Direct
-          Time:  0.00119347 s
+          Time:  0.00116842 s
         Inverse
-          Time:  0.00163796 s
+          Time:  0.00162803 s
         Error: 49150.6
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.00330041 s
+        Time:  0.00312553 s
 
       OpenCL (4 queues)
-        Time:  0.00318363 s
+        Time:  0.00315637 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.00160259 s
+          Time:  0.00156759 s
         Inverse
-          Time:  0.00179802 s
+          Time:  0.0017795 s
         Error: 69509.5
 
 
@@ -2171,9 +2256,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.0350612 s
+          Time:  0.0360611 s
         Inverse
-          Time:  0.0509813 s
+          Time:  0.0525928 s
         Error: 540661
 
   C <-> C
@@ -2181,9 +2266,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.0559516 s
+          Time:  0.0576449 s
         Inverse
-          Time:  0.0628789 s
+          Time:  0.0615676 s
         Error: 764610
 
 
@@ -2195,9 +2280,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  1.08177 s
+          Time:  1.08758 s
         Inverse
-          Time:  1.49763 s
+          Time:  1.51789 s
         Error: 5.94727e+06
 
   C <-> C
@@ -2205,9 +2290,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  1.64196 s
+          Time:  1.65983 s
         Inverse
-          Time:  1.97779 s
+          Time:  2.00091 s
         Error: 8.41071e+06
 
 
@@ -2218,33 +2303,33 @@ N coils: 32
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.0012377 s
+        Time:  0.00127542 s
 
       OpenCL (4 queues)
-        Time:  0.00428399 s
+        Time:  0.00430062 s
 
     FFT
       clFFT
         Direct
-          Time:  0.00129214 s
+          Time:  0.00129022 s
         Inverse
-          Time:  0.00133258 s
+          Time:  0.00130393 s
         Error: 98.087
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.00180238 s
+        Time:  0.00183825 s
 
       OpenCL (4 queues)
-        Time:  0.00653135 s
+        Time:  0.00649974 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.00145373 s
+          Time:  0.00137426 s
         Inverse
-          Time:  0.00139764 s
+          Time:  0.00144421 s
         Error: 135.234
 
 
@@ -2256,9 +2341,9 @@ N coils: 32
     FFT
       clFFT
         Direct
-          Time:  0.0176797 s
+          Time:  0.0173396 s
         Inverse
-          Time:  0.0218032 s
+          Time:  0.0215784 s
         Error: 11086.7
 
   C <-> C
@@ -2266,9 +2351,9 @@ N coils: 32
     FFT
       clFFT
         Direct
-          Time:  0.0252662 s
+          Time:  0.0287979 s
         Inverse
-          Time:  0.0288018 s
+          Time:  0.0290978 s
         Error: 13033.2
 
 
@@ -2280,9 +2365,9 @@ N coils: 32
     FFT
       OpenCL
         Direct
-          Time:  0.0276675 s
+          Time:  0.0277129 s
         Inverse
-          Time:  0.0293361 s
+          Time:  0.0297672 s
         Error: 11086.7
 
   C <-> C
@@ -2290,9 +2375,9 @@ N coils: 32
     FFT
       OpenCL
         Direct
-          Time:  0.0262991 s
+          Time:  0.0268149 s
         Inverse
-          Time:  0.031966 s
+          Time:  0.0323885 s
         Error: 13033.2
 
 
@@ -2303,33 +2388,33 @@ N coils: 32
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.00126009 s
+        Time:  0.00127663 s
 
       OpenCL (4 queues)
-        Time:  0.00427802 s
+        Time:  0.0043395 s
 
     FFT
       clFFT
         Direct
-          Time:  0.00173923 s
+          Time:  0.00272883 s
         Inverse
-          Time:  0.00174844 s
+          Time:  0.00191615 s
         Error: 79.5017
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.00184803 s
+        Time:  0.00180588 s
 
       OpenCL (4 queues)
-        Time:  0.00648095 s
+        Time:  0.00652246 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.00159242 s
+          Time:  0.00171535 s
         Inverse
-          Time:  0.0015956 s
+          Time:  0.00169063 s
         Error: 111.191
 
 
@@ -2341,9 +2426,9 @@ N coils: 32
     FFT
       clFFT
         Direct
-          Time:  0.0131766 s
+          Time:  0.0134693 s
         Inverse
-          Time:  0.0159389 s
+          Time:  0.0161581 s
         Error: 7445.79
 
   C <-> C
@@ -2351,9 +2436,9 @@ N coils: 32
     FFT
       clFFT
         Direct
-          Time:  0.018082 s
+          Time:  0.0183666 s
         Inverse
-          Time:  0.0209631 s
+          Time:  0.0218694 s
         Error: 8825.91
 
 
@@ -2365,9 +2450,9 @@ N coils: 32
     FFT
       OpenCL
         Direct
-          Time:  0.0201033 s
+          Time:  0.0203553 s
         Inverse
-          Time:  0.021763 s
+          Time:  0.0216806 s
         Error: 7445.79
 
   C <-> C
@@ -2375,9 +2460,9 @@ N coils: 32
     FFT
       OpenCL
         Direct
-          Time:  0.0191338 s
+          Time:  0.0193765 s
         Inverse
-          Time:  0.0229193 s
+          Time:  0.0233209 s
         Error: 8825.91
 
 
@@ -2388,33 +2473,33 @@ N coils: 32
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.00149513 s
+        Time:  0.00218203 s
 
       OpenCL (4 queues)
-        Time:  0.00428468 s
+        Time:  0.00435116 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000869307 s
+          Time:  0.00118863 s
         Inverse
-          Time:  0.000876752 s
+          Time:  0.00195787 s
         Error: 96.6226
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.00205192 s
+        Time:  0.00207167 s
 
       OpenCL (4 queues)
-        Time:  0.00654815 s
+        Time:  0.00659588 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000859613 s
+          Time:  0.000878104 s
         Inverse
-          Time:  0.000872259 s
+          Time:  0.000920414 s
         Error: 136.645
 
 
@@ -2426,9 +2511,9 @@ N coils: 32
     FFT
       clFFT
         Direct
-          Time:  0.0167352 s
+          Time:  0.0166677 s
         Inverse
-          Time:  0.0205077 s
+          Time:  0.0202486 s
         Error: 9408.86
 
   C <-> C
@@ -2436,9 +2521,9 @@ N coils: 32
     FFT
       clFFT
         Direct
-          Time:  0.0247428 s
+          Time:  0.0246868 s
         Inverse
-          Time:  0.0281982 s
+          Time:  0.0284627 s
         Error: 13306.1
 
 
@@ -2450,9 +2535,9 @@ N coils: 32
     FFT
       OpenCL
         Direct
-          Time:  0.0267002 s
+          Time:  0.0268065 s
         Inverse
-          Time:  0.028588 s
+          Time:  0.0287905 s
         Error: 9408.86
 
   C <-> C
@@ -2460,9 +2545,9 @@ N coils: 32
     FFT
       OpenCL
         Direct
-          Time:  0.0254483 s
+          Time:  0.0253473 s
         Inverse
-          Time:  0.0312571 s
+          Time:  0.0311648 s
         Error: 13306.1
 
 
@@ -2473,33 +2558,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000350704 s
+        Time:  0.000330207 s
 
       OpenCL (4 queues)
-        Time:  0.000536769 s
+        Time:  0.00042379 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000256776 s
+          Time:  0.000217946 s
         Inverse
-          Time:  0.000216949 s
+          Time:  0.000221007 s
         Error: 48.6389
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000411708 s
+        Time:  0.000322929 s
 
       OpenCL (4 queues)
-        Time:  0.000475732 s
+        Time:  0.000470733 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000222248 s
+          Time:  0.000243489 s
         Inverse
-          Time:  0.00022298 s
+          Time:  0.000227415 s
         Error: 67.3519
 
 
@@ -2511,9 +2596,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000440069 s
+          Time:  0.000441936 s
         Inverse
-          Time:  0.000426255 s
+          Time:  0.000434853 s
         Error: 2763.25
 
   C <-> C
@@ -2521,9 +2606,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000491803 s
+          Time:  0.000492418 s
         Inverse
-          Time:  0.000523256 s
+          Time:  0.000530171 s
         Error: 3258.15
 
 
@@ -2535,9 +2620,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.000513368 s
+          Time:  0.000517848 s
         Inverse
-          Time:  0.000534489 s
+          Time:  0.000548102 s
         Error: 2763.25
 
   C <-> C
@@ -2545,9 +2630,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.000507755 s
+          Time:  0.000520638 s
         Inverse
-          Time:  0.000555112 s
+          Time:  0.000578574 s
         Error: 3258.15
 
 
@@ -2558,33 +2643,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000333916 s
+        Time:  0.000321428 s
 
       OpenCL (4 queues)
-        Time:  0.000424444 s
+        Time:  0.000431427 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000220689 s
+          Time:  0.000223577 s
         Inverse
-          Time:  0.000229561 s
+          Time:  0.000224689 s
         Error: 98.087
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000318312 s
+        Time:  0.000317672 s
 
       OpenCL (4 queues)
-        Time:  0.000470758 s
+        Time:  0.000477242 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000239992 s
+          Time:  0.000228638 s
         Inverse
-          Time:  0.000230179 s
+          Time:  0.000233695 s
         Error: 135.234
 
 
@@ -2596,9 +2681,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000822919 s
+          Time:  0.000830794 s
         Inverse
-          Time:  0.000882706 s
+          Time:  0.000882569 s
         Error: 11086.7
 
   C <-> C
@@ -2606,9 +2691,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00109055 s
+          Time:  0.00109651 s
         Inverse
-          Time:  0.00118623 s
+          Time:  0.00122649 s
         Error: 13033.2
 
 
@@ -2620,9 +2705,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0011393 s
+          Time:  0.00114791 s
         Inverse
-          Time:  0.00122733 s
+          Time:  0.00120493 s
         Error: 11086.7
 
   C <-> C
@@ -2630,9 +2715,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.00112596 s
+          Time:  0.0011419 s
         Inverse
-          Time:  0.00130174 s
+          Time:  0.00135838 s
         Error: 13033.2
 
 
@@ -2643,33 +2728,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000330493 s
+        Time:  0.000322448 s
 
       OpenCL (4 queues)
-        Time:  0.000426367 s
+        Time:  0.000431378 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000229766 s
+          Time:  0.000235636 s
         Inverse
-          Time:  0.000227497 s
+          Time:  0.00024258 s
         Error: 196.892
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000358093 s
+        Time:  0.000355455 s
 
       OpenCL (4 queues)
-        Time:  0.000480592 s
+        Time:  0.000593106 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.0002381 s
+          Time:  0.000239923 s
         Inverse
-          Time:  0.00024993 s
+          Time:  0.000253799 s
         Error: 270.999
 
 
@@ -2681,9 +2766,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00211566 s
+          Time:  0.00217897 s
         Inverse
-          Time:  0.00251542 s
+          Time:  0.00248293 s
         Error: 44421.1
 
   C <-> C
@@ -2691,9 +2776,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00314232 s
+          Time:  0.0031986 s
         Inverse
-          Time:  0.00347557 s
+          Time:  0.00479265 s
         Error: 52133.4
 
 
@@ -2705,9 +2790,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.00321674 s
+          Time:  0.00321187 s
         Inverse
-          Time:  0.00350084 s
+          Time:  0.00351395 s
         Error: 44421.1
 
   C <-> C
@@ -2715,9 +2800,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.00323948 s
+          Time:  0.00322773 s
         Inverse
-          Time:  0.00388188 s
+          Time:  0.00389291 s
         Error: 52133.4
 
 
@@ -2729,33 +2814,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000363265 s
+        Time:  0.000356396 s
 
       OpenCL (4 queues)
-        Time:  0.000446564 s
+        Time:  0.000834049 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000285728 s
+          Time:  0.000281679 s
         Inverse
-          Time:  0.000335908 s
+          Time:  0.000288881 s
         Error: 789.78
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000360812 s
+        Time:  0.000380401 s
 
       OpenCL (4 queues)
-        Time:  0.000514588 s
+        Time:  0.000499827 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000293115 s
+          Time:  0.000289018 s
         Inverse
-          Time:  0.000287142 s
+          Time:  0.000298546 s
         Error: 1085.59
 
 
@@ -2767,19 +2852,19 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.0365711 s
+          Time:  0.0374082 s
         Inverse
-          Time:  0.0533943 s
-        Error: 7.63331e+09
+          Time:  0.0550243 s
+        Error: 1.39607e+10
 
   C <-> C
 
     FFT
       clFFT
         Direct
-          Time:  0.0599952 s
+          Time:  0.0588094 s
         Inverse
-          Time:  0.0658929 s
+          Time:  0.0664606 s
         Error: 834137
 
 
@@ -2791,19 +2876,19 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0686798 s
+          Time:  0.0686981 s
         Inverse
-          Time:  0.0804581 s
-        Error: 9.40977e+09
+          Time:  0.0790348 s
+        Error: 8.07119e+09
 
   C <-> C
 
     FFT
       OpenCL
         Direct
-          Time:  0.0604811 s
+          Time:  0.0612333 s
         Inverse
-          Time:  0.0712713 s
+          Time:  0.072401 s
         Error: 834137
 
 
@@ -2814,33 +2899,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000414708 s
+        Time:  0.0011104 s
 
       OpenCL (4 queues)
-        Time:  0.000476731 s
+        Time:  0.00048916 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000496032 s
+          Time:  0.000481416 s
         Inverse
-          Time:  0.000489979 s
+          Time:  0.000489874 s
         Error: 1580.38
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000399571 s
+        Time:  0.000402738 s
 
       OpenCL (4 queues)
-        Time:  0.000548225 s
+        Time:  0.00055076 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000324953 s
+          Time:  0.00169281 s
         Inverse
-          Time:  0.000358986 s
+          Time:  0.00206655 s
         Error: 2171.7
 
 
@@ -2852,9 +2937,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.140834 s
+          Time:  0.142407 s
         Inverse
-          Time:  0.202958 s
+          Time:  0.206518 s
         Error: 2.84796e+06
 
   C <-> C
@@ -2862,9 +2947,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.228051 s
+          Time:  0.2225 s
         Inverse
-          Time:  0.257999 s
+          Time:  0.256858 s
         Error: 3.33655e+06
 
 
@@ -2876,9 +2961,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.26778 s
+          Time:  0.267744 s
         Inverse
-          Time:  0.312454 s
+          Time:  0.30962 s
         Error: 2.84796e+06
 
   C <-> C
@@ -2886,9 +2971,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.235638 s
+          Time:  0.232242 s
         Inverse
-          Time:  0.283051 s
+          Time:  0.278064 s
         Error: 3.33655e+06
 
 
@@ -2899,33 +2984,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000496958 s
+        Time:  0.000497128 s
 
       OpenCL (4 queues)
-        Time:  0.000527704 s
+        Time:  0.000528758 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000400394 s
+          Time:  0.0004016 s
         Inverse
-          Time:  0.00042418 s
+          Time:  0.000474286 s
         Error: 3161.68
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000488372 s
+        Time:  0.00048294 s
 
       OpenCL (4 queues)
-        Time:  0.00064777 s
+        Time:  0.000642773 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000428912 s
+          Time:  0.00317432 s
         Inverse
-          Time:  0.000417749 s
+          Time:  0.000420225 s
         Error: 4343.93
 
 
@@ -2937,9 +3022,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.564172 s
+          Time:  0.566381 s
         Inverse
-          Time:  0.802653 s
+          Time:  0.803658 s
         Error: 1.13937e+07
 
   C <-> C
@@ -2947,9 +3032,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.897857 s
+          Time:  0.887572 s
         Inverse
-          Time:  1.01673 s
+          Time:  1.02071 s
         Error: 1.33462e+07
 
 
@@ -2961,9 +3046,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  1.0546 s
+          Time:  1.05957 s
         Inverse
-          Time:  1.22797 s
+          Time:  1.2276 s
         Error: 1.13937e+07
 
   C <-> C
@@ -2971,9 +3056,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.932814 s
+          Time:  0.925326 s
         Inverse
-          Time:  1.12027 s
+          Time:  1.11936 s
         Error: 1.33462e+07
 
 
@@ -2984,33 +3069,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000979673 s
+        Time:  0.00096554 s
 
       OpenCL (4 queues)
-        Time:  0.000838641 s
+        Time:  0.000815602 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000571052 s
+          Time:  0.000569462 s
         Inverse
-          Time:  0.000684654 s
+          Time:  0.000701535 s
         Error: 12649.7
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000872886 s
+        Time:  0.000927277 s
 
       OpenCL (4 queues)
-        Time:  0.00112484 s
+        Time:  0.0011444 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000674308 s
+          Time:  0.000709066 s
         Inverse
-          Time:  0.000720386 s
+          Time:  0.000743256 s
         Error: 17377.3
 
 
@@ -3022,9 +3107,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00242603 s
+          Time:  0.00238469 s
         Inverse
-          Time:  0.00272774 s
+          Time:  0.00280124 s
         Error: 47488.7
 
   C <-> C
@@ -3032,9 +3117,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00311303 s
+          Time:  0.00317155 s
         Inverse
-          Time:  0.00359999 s
+          Time:  0.0036175 s
         Error: 52133.4
 
 
@@ -3046,9 +3131,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.00361085 s
+          Time:  0.0035488 s
         Inverse
-          Time:  0.00378443 s
+          Time:  0.0037908 s
         Error: 47488.7
 
   C <-> C
@@ -3056,9 +3141,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.00325555 s
+          Time:  0.00327429 s
         Inverse
-          Time:  0.00396373 s
+          Time:  0.00394814 s
         Error: 52133.4
 
 
@@ -3069,33 +3154,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.00165768 s
+        Time:  0.00162788 s
 
       OpenCL (4 queues)
-        Time:  0.00115786 s
+        Time:  0.00113306 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000976944 s
+          Time:  0.0010245 s
         Inverse
-          Time:  0.00126702 s
+          Time:  0.00120512 s
         Error: 25300.3
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.00158912 s
+        Time:  0.00164519 s
 
       OpenCL (4 queues)
-        Time:  0.00182613 s
+        Time:  0.00182401 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.00107628 s
+          Time:  0.00108167 s
         Inverse
-          Time:  0.00117076 s
+          Time:  0.00117356 s
         Error: 34755.2
 
 
@@ -3107,9 +3192,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00756504 s
+          Time:  0.00778671 s
         Inverse
-          Time:  0.0114232 s
+          Time:  0.0117003 s
         Error: 167206
 
   C <-> C
@@ -3117,9 +3202,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.0105803 s
+          Time:  0.0117687 s
         Inverse
-          Time:  0.0123165 s
+          Time:  0.0122364 s
         Error: 208534
 
 
@@ -3131,9 +3216,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.012067 s
+          Time:  0.0120969 s
         Inverse
-          Time:  0.0133001 s
+          Time:  0.0133106 s
         Error: 167206
 
   C <-> C
@@ -3141,9 +3226,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0108677 s
+          Time:  0.0111647 s
         Inverse
-          Time:  0.0135684 s
+          Time:  0.0137529 s
         Error: 208534
 
 
@@ -3154,33 +3239,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.00310571 s
+        Time:  0.003154 s
 
       OpenCL (4 queues)
-        Time:  0.00205008 s
+        Time:  0.00210501 s
 
     FFT
       clFFT
         Direct
-          Time:  0.00148848 s
+          Time:  0.00149491 s
         Inverse
-          Time:  0.00189 s
+          Time:  0.00191614 s
         Error: 50601.6
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.00292584 s
+        Time:  0.00426949 s
 
       OpenCL (4 queues)
-        Time:  0.00320263 s
+        Time:  0.00328942 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.00190143 s
+          Time:  0.00194312 s
         Inverse
-          Time:  0.00207858 s
+          Time:  0.00211783 s
         Error: 69510.9
 
 
@@ -3192,9 +3277,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.0399924 s
+          Time:  0.0408024 s
         Inverse
-          Time:  0.0573307 s
+          Time:  0.0534156 s
         Error: 682555
 
   C <-> C
@@ -3202,9 +3287,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.0599985 s
+          Time:  0.0579673 s
         Inverse
-          Time:  0.0656954 s
+          Time:  0.0646589 s
         Error: 834137
 
 
@@ -3216,9 +3301,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0715643 s
+          Time:  0.0694847 s
         Inverse
-          Time:  0.0826451 s
+          Time:  0.0813875 s
         Error: 682555
 
   C <-> C
@@ -3226,9 +3311,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0592728 s
+          Time:  0.0605413 s
         Inverse
-          Time:  0.0702241 s
+          Time:  0.0716155 s
         Error: 834137
 
 
@@ -3239,33 +3324,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.00568831 s
+        Time:  0.00573856 s
 
       OpenCL (4 queues)
-        Time:  0.00350352 s
+        Time:  0.00349529 s
 
     FFT
       clFFT
         Direct
-          Time:  0.00241343 s
+          Time:  0.00242539 s
         Inverse
-          Time:  0.00325157 s
+          Time:  0.00326836 s
         Error: 101204
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.00499635 s
+        Time:  0.00498131 s
 
       OpenCL (4 queues)
-        Time:  0.00556184 s
+        Time:  0.00560654 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.00301513 s
+          Time:  0.00306945 s
         Inverse
-          Time:  0.00344891 s
+          Time:  0.00342082 s
         Error: 139022
 
 
@@ -3277,9 +3362,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.146449 s
+          Time:  0.147528 s
         Inverse
-          Time:  0.210107 s
+          Time:  0.210929 s
         Error: 2.76124e+06
 
   C <-> C
@@ -3287,9 +3372,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.22864 s
+          Time:  0.222121 s
         Inverse
-          Time:  0.2597 s
+          Time:  0.254593 s
         Error: 3.33655e+06
 
 
@@ -3301,9 +3386,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.27392 s
+          Time:  0.2734 s
         Inverse
-          Time:  0.320551 s
+          Time:  0.315346 s
         Error: 2.76124e+06
 
   C <-> C
@@ -3311,9 +3396,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.238141 s
+          Time:  0.230359 s
         Inverse
-          Time:  0.28213 s
+          Time:  0.277814 s
         Error: 3.33655e+06
 
 
@@ -3324,33 +3409,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.0115923 s
+        Time:  0.0105367 s
 
       OpenCL (4 queues)
-        Time:  0.00759531 s
+        Time:  0.00600499 s
 
     FFT
       clFFT
         Direct
-          Time:  0.00412765 s
+          Time:  0.0040349 s
         Inverse
-          Time:  0.00572271 s
+          Time:  0.00573581 s
         Error: 202409
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.00850589 s
+        Time:  0.0090925 s
 
       OpenCL (4 queues)
-        Time:  0.00988392 s
+        Time:  0.0100044 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.00554941 s
+          Time:  0.00552665 s
         Inverse
-          Time:  0.0063968 s
+          Time:  0.00629836 s
         Error: 278045
 
 
@@ -3362,9 +3447,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.597159 s
+          Time:  0.606839 s
         Inverse
-          Time:  0.838047 s
+          Time:  0.831423 s
         Error: 1.11177e+07
 
   C <-> C
@@ -3372,9 +3457,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.891118 s
+          Time:  0.887423 s
         Inverse
-          Time:  1.00906 s
+          Time:  1.01818 s
         Error: 1.33462e+07
 
 
@@ -3386,9 +3471,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  1.08427 s
+          Time:  1.09971 s
         Inverse
-          Time:  1.25876 s
+          Time:  1.25861 s
         Error: 1.11177e+07
 
   C <-> C
@@ -3396,9 +3481,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.928843 s
+          Time:  0.921137 s
         Inverse
-          Time:  1.11816 s
+          Time:  1.11831 s
         Error: 1.33462e+07
 
 
@@ -3409,33 +3494,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000338087 s
+        Time:  0.000331539 s
 
       OpenCL (4 queues)
-        Time:  0.000430887 s
+        Time:  0.000454716 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000285152 s
+          Time:  0.000275552 s
         Inverse
-          Time:  0.000274092 s
+          Time:  0.000277978 s
         Error: 79.5017
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000348126 s
+        Time:  0.000333583 s
 
       OpenCL (4 queues)
-        Time:  0.000480637 s
+        Time:  0.000500048 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000269978 s
+          Time:  0.000267101 s
         Inverse
-          Time:  0.000270542 s
+          Time:  0.000300678 s
         Error: 111.191
 
 
@@ -3447,9 +3532,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000702673 s
+          Time:  0.000701803 s
         Inverse
-          Time:  0.000764084 s
+          Time:  0.000738728 s
         Error: 7445.79
 
   C <-> C
@@ -3457,9 +3542,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00107621 s
+          Time:  0.00105269 s
         Inverse
-          Time:  0.00115555 s
+          Time:  0.00113429 s
         Error: 8825.91
 
 
@@ -3471,9 +3556,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.000905042 s
+          Time:  0.000909624 s
         Inverse
-          Time:  0.000984454 s
+          Time:  0.0009632 s
         Error: 7445.79
 
   C <-> C
@@ -3481,9 +3566,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.00111766 s
+          Time:  0.00108803 s
         Inverse
-          Time:  0.0012237 s
+          Time:  0.00123604 s
         Error: 8825.91
 
 
@@ -3494,33 +3579,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000343194 s
+        Time:  0.000330324 s
 
       OpenCL (4 queues)
-        Time:  0.000435058 s
+        Time:  0.000437969 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000293138 s
+          Time:  0.000306742 s
         Inverse
-          Time:  0.000292692 s
+          Time:  0.00028351 s
         Error: 160.001
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.00032973 s
+        Time:  0.00033532 s
 
       OpenCL (4 queues)
-        Time:  0.000488154 s
+        Time:  0.000492626 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000318006 s
+          Time:  0.000297433 s
         Inverse
-          Time:  0.00029345 s
+          Time:  0.000337509 s
         Error: 221.503
 
 
@@ -3532,9 +3617,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00195955 s
+          Time:  0.00216544 s
         Inverse
-          Time:  0.00219524 s
+          Time:  0.00221937 s
         Error: 29604.1
 
   C <-> C
@@ -3542,9 +3627,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00259206 s
+          Time:  0.00259655 s
         Inverse
-          Time:  0.00290423 s
+          Time:  0.00298277 s
         Error: 34858.8
 
 
@@ -3556,9 +3641,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.00277035 s
+          Time:  0.0027831 s
         Inverse
-          Time:  0.00303738 s
+          Time:  0.00457125 s
         Error: 29604.1
 
   C <-> C
@@ -3566,9 +3651,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.00274187 s
+          Time:  0.00273765 s
         Inverse
-          Time:  0.00315195 s
+          Time:  0.00779711 s
         Error: 34858.8
 
 
@@ -3579,33 +3664,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.00034973 s
+        Time:  0.000355543 s
 
       OpenCL (4 queues)
-        Time:  0.000472517 s
+        Time:  0.000443054 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000306167 s
+          Time:  0.000315149 s
         Inverse
-          Time:  0.00031434 s
+          Time:  0.000321875 s
         Error: 484.892
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000343173 s
+        Time:  0.000366778 s
 
       OpenCL (4 queues)
-        Time:  0.000527859 s
+        Time:  0.000511986 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000330723 s
+          Time:  0.000309588 s
         Inverse
-          Time:  0.000316669 s
+          Time:  0.000335188 s
         Error: 666.979
 
 
@@ -3617,9 +3702,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.0108474 s
+          Time:  0.0111669 s
         Inverse
-          Time:  0.0169679 s
+          Time:  0.0173267 s
         Error: 269043
 
   C <-> C
@@ -3627,9 +3712,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.0164492 s
+          Time:  0.0167585 s
         Inverse
-          Time:  0.0192329 s
+          Time:  0.0194715 s
         Error: 315064
 
 
@@ -3641,9 +3726,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0175678 s
+          Time:  0.0190799 s
         Inverse
-          Time:  0.019569 s
+          Time:  0.01971 s
         Error: 269043
 
   C <-> C
@@ -3651,9 +3736,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0176137 s
+          Time:  0.0174419 s
         Inverse
-          Time:  0.021562 s
+          Time:  0.0217437 s
         Error: 315064
 
 
@@ -3664,33 +3749,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000424195 s
+        Time:  0.00043532 s
 
       OpenCL (4 queues)
-        Time:  0.00048758 s
+        Time:  0.000506432 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000374498 s
+          Time:  0.000375134 s
         Inverse
-          Time:  0.000392628 s
+          Time:  0.00039412 s
         Error: 1701.55
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000431535 s
+        Time:  0.000411929 s
 
       OpenCL (4 queues)
-        Time:  0.00060488 s
+        Time:  0.00057106 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000415851 s
+          Time:  0.000439216 s
         Inverse
-          Time:  0.000410985 s
+          Time:  0.000409274 s
         Error: 2338.58
 
 
@@ -3702,9 +3787,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.165504 s
+          Time:  0.168684 s
         Inverse
-          Time:  0.238036 s
+          Time:  0.240655 s
         Error: 3.30314e+06
 
   C <-> C
@@ -3712,9 +3797,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.267016 s
+          Time:  0.265152 s
         Inverse
-          Time:  0.30318 s
+          Time:  0.304266 s
         Error: 3.86889e+06
 
 
@@ -3726,9 +3811,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.311241 s
+          Time:  0.314489 s
         Inverse
-          Time:  0.362663 s
+          Time:  0.361364 s
         Error: 3.30314e+06
 
   C <-> C
@@ -3736,9 +3821,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.278914 s
+          Time:  0.276445 s
         Inverse
-          Time:  0.329355 s
+          Time:  0.331339 s
         Error: 3.86889e+06
 
 
@@ -3749,33 +3834,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000505446 s
+        Time:  0.000506806 s
 
       OpenCL (4 queues)
-        Time:  0.00054079 s
+        Time:  0.000535657 s
 
     FFT
       clFFT
         Direct
-          Time:  0.00042807 s
+          Time:  0.000431324 s
         Inverse
-          Time:  0.000487511 s
+          Time:  0.00044716 s
         Error: 3402.56
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000504609 s
+        Time:  0.000502215 s
 
       OpenCL (4 queues)
-        Time:  0.000656225 s
+        Time:  0.000675354 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000485586 s
+          Time:  0.000468511 s
         Inverse
-          Time:  0.000495017 s
+          Time:  0.000491936 s
         Error: 4676.27
 
 
@@ -3787,9 +3872,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.685772 s
+          Time:  0.664537 s
         Inverse
-          Time:  0.958294 s
+          Time:  0.943761 s
         Error: 1.3201e+07
 
   C <-> C
@@ -3797,9 +3882,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  1.04589 s
+          Time:  1.05672 s
         Inverse
-          Time:  1.19428 s
+          Time:  1.21177 s
         Error: 1.54662e+07
 
 
@@ -3811,9 +3896,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  1.23356 s
+          Time:  1.24644 s
         Inverse
-          Time:  1.42507 s
+          Time:  1.43879 s
         Error: 1.3201e+07
 
   C <-> C
@@ -3821,9 +3906,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  1.09109 s
+          Time:  1.10036 s
         Inverse
-          Time:  1.3153 s
+          Time:  1.32299 s
         Error: 1.54662e+07
 
 
@@ -3834,33 +3919,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.00140888 s
+        Time:  0.00140766 s
 
       OpenCL (4 queues)
-        Time:  0.00115813 s
+        Time:  0.00114476 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000731986 s
+          Time:  0.000769237 s
         Inverse
-          Time:  0.000919855 s
+          Time:  0.000919154 s
         Error: 21282.1
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.00148671 s
+        Time:  0.00145656 s
 
       OpenCL (4 queues)
-        Time:  0.00175936 s
+        Time:  0.00174471 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000993593 s
+          Time:  0.000983119 s
         Inverse
-          Time:  0.00106534 s
+          Time:  0.00105913 s
         Error: 29234.1
 
 
@@ -3872,9 +3957,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00641086 s
+          Time:  0.00626558 s
         Inverse
-          Time:  0.00942059 s
+          Time:  0.00934579 s
         Error: 125765
 
   C <-> C
@@ -3882,9 +3967,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00830179 s
+          Time:  0.00843601 s
         Inverse
-          Time:  0.00997215 s
+          Time:  0.0100269 s
         Error: 146173
 
 
@@ -3896,9 +3981,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.00960954 s
+          Time:  0.0097031 s
         Inverse
-          Time:  0.0105775 s
+          Time:  0.0105905 s
         Error: 125765
 
   C <-> C
@@ -3906,9 +3991,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.00871553 s
+          Time:  0.00890488 s
         Inverse
-          Time:  0.0111309 s
+          Time:  0.0109883 s
         Error: 146173
 
 
@@ -3919,33 +4004,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.00269799 s
+        Time:  0.00268698 s
 
       OpenCL (4 queues)
-        Time:  0.00204546 s
+        Time:  0.00195201 s
 
     FFT
       clFFT
         Direct
-          Time:  0.00133704 s
+          Time:  0.0013774 s
         Inverse
-          Time:  0.00180075 s
+          Time:  0.00168152 s
         Error: 42563
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.00252317 s
+        Time:  0.00259911 s
 
       OpenCL (4 queues)
-        Time:  0.00298659 s
+        Time:  0.00295626 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.00177701 s
+          Time:  0.00173489 s
         Inverse
-          Time:  0.00194841 s
+          Time:  0.0033991 s
         Error: 58468.7
 
 
@@ -3957,9 +4042,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.0313555 s
+          Time:  0.0315956 s
         Inverse
-          Time:  0.0423351 s
+          Time:  0.0428095 s
         Error: 535894
 
   C <-> C
@@ -3967,9 +4052,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.0472497 s
+          Time:  0.0464229 s
         Inverse
-          Time:  0.0529765 s
+          Time:  0.052152 s
         Error: 643162
 
 
@@ -3981,9 +4066,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0567909 s
+          Time:  0.0567943 s
         Inverse
-          Time:  0.0662889 s
+          Time:  0.0648008 s
         Error: 535894
 
   C <-> C
@@ -3991,9 +4076,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0511456 s
+          Time:  0.047798 s
         Inverse
-          Time:  0.0559553 s
+          Time:  0.0569674 s
         Error: 643162
 
 
@@ -4004,33 +4089,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.00492993 s
+        Time:  0.00603519 s
 
       OpenCL (4 queues)
-        Time:  0.0030882 s
+        Time:  0.0032342 s
 
     FFT
       clFFT
         Direct
-          Time:  0.00199445 s
+          Time:  0.00202396 s
         Inverse
-          Time:  0.00274465 s
+          Time:  0.00275276 s
         Error: 85125.2
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.004516 s
+        Time:  0.00437901 s
 
       OpenCL (4 queues)
-        Time:  0.00677397 s
+        Time:  0.00499389 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.00282029 s
+          Time:  0.00274122 s
         Inverse
-          Time:  0.00311886 s
+          Time:  0.00301923 s
         Error: 116937
 
 
@@ -4042,9 +4127,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.118778 s
+          Time:  0.116707 s
         Inverse
-          Time:  0.168617 s
+          Time:  0.166964 s
         Error: 2.13706e+06
 
   C <-> C
@@ -4052,9 +4137,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.18223 s
+          Time:  0.177891 s
         Inverse
-          Time:  0.205267 s
+          Time:  0.200037 s
         Error: 2.57262e+06
 
 
@@ -4066,9 +4151,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.218185 s
+          Time:  0.215553 s
         Inverse
-          Time:  0.253295 s
+          Time:  0.25247 s
         Error: 2.13706e+06
 
   C <-> C
@@ -4076,9 +4161,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.189323 s
+          Time:  0.184065 s
         Inverse
-          Time:  0.223548 s
+          Time:  0.218992 s
         Error: 2.57262e+06
 
 
@@ -4089,33 +4174,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.00907888 s
+        Time:  0.00891456 s
 
       OpenCL (4 queues)
-        Time:  0.00527347 s
+        Time:  0.00534338 s
 
     FFT
       clFFT
         Direct
-          Time:  0.00343483 s
+          Time:  0.00348305 s
         Inverse
-          Time:  0.00486406 s
+          Time:  0.00489024 s
         Error: 170256
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.00750573 s
+        Time:  0.00813829 s
 
       OpenCL (4 queues)
-        Time:  0.00957463 s
+        Time:  0.00849971 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.00466919 s
+          Time:  0.00468269 s
         Inverse
-          Time:  0.00537838 s
+          Time:  0.00540427 s
         Error: 233875
 
 
@@ -4127,9 +4212,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.457071 s
+          Time:  0.458683 s
         Inverse
-          Time:  0.649234 s
+          Time:  0.650786 s
         Error: 8.91579e+06
 
   C <-> C
@@ -4137,9 +4222,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.714325 s
+          Time:  0.692047 s
         Inverse
-          Time:  0.806187 s
+          Time:  0.800739 s
         Error: 1.05244e+07
 
 
@@ -4151,9 +4236,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.853357 s
+          Time:  0.850621 s
         Inverse
-          Time:  0.981502 s
+          Time:  0.982098 s
         Error: 8.91579e+06
 
   C <-> C
@@ -4161,9 +4246,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.72963 s
+          Time:  0.722897 s
         Inverse
-          Time:  0.872995 s
+          Time:  0.877346 s
         Error: 1.05244e+07
 
 
@@ -4174,33 +4259,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000323491 s
+        Time:  0.000336538 s
 
       OpenCL (4 queues)
-        Time:  0.000460924 s
+        Time:  0.000453199 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000264177 s
+          Time:  0.000263048 s
         Inverse
-          Time:  0.00027551 s
+          Time:  0.00132507 s
         Error: 46.6299
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000432971 s
+        Time:  0.000334664 s
 
       OpenCL (4 queues)
-        Time:  0.00049225 s
+        Time:  0.000502377 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000233652 s
+          Time:  0.000240862 s
         Inverse
-          Time:  0.000243649 s
+          Time:  0.00127429 s
         Error: 65.9447
 
 
@@ -4212,9 +4297,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000414029 s
+          Time:  0.00043243 s
         Inverse
-          Time:  0.000402908 s
+          Time:  0.000388773 s
         Error: 2208.86
 
   C <-> C
@@ -4222,9 +4307,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000490134 s
+          Time:  0.000449463 s
         Inverse
-          Time:  0.000510007 s
+          Time:  0.000481996 s
         Error: 3123.8
 
 
@@ -4236,9 +4321,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.00044642 s
+          Time:  0.000452267 s
         Inverse
-          Time:  0.00047934 s
+          Time:  0.000643991 s
         Error: 2208.86
 
   C <-> C
@@ -4246,9 +4331,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.000436271 s
+          Time:  0.000438481 s
         Inverse
-          Time:  0.000488385 s
+          Time:  0.000524201 s
         Error: 3123.8
 
 
@@ -4259,33 +4344,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000333355 s
+        Time:  0.000335577 s
 
       OpenCL (4 queues)
-        Time:  0.000434953 s
+        Time:  0.000430396 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000262552 s
+          Time:  0.00026526 s
         Inverse
-          Time:  0.000277301 s
+          Time:  0.000274412 s
         Error: 96.6226
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000333645 s
+        Time:  0.000350398 s
 
       OpenCL (4 queues)
-        Time:  0.000462786 s
+        Time:  0.000479075 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000258429 s
+          Time:  0.000238463 s
         Inverse
-          Time:  0.000243368 s
+          Time:  0.000241985 s
         Error: 136.645
 
 
@@ -4297,9 +4382,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000804574 s
+          Time:  0.000834478 s
         Inverse
-          Time:  0.000851238 s
+          Time:  0.000866071 s
         Error: 9408.86
 
   C <-> C
@@ -4307,9 +4392,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00103615 s
+          Time:  0.00102068 s
         Inverse
-          Time:  0.00113752 s
+          Time:  0.00114305 s
         Error: 13306.1
 
 
@@ -4321,9 +4406,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.00109026 s
+          Time:  0.00108525 s
         Inverse
-          Time:  0.00120092 s
+          Time:  0.00116125 s
         Error: 9408.86
 
   C <-> C
@@ -4331,9 +4416,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.00108024 s
+          Time:  0.001058 s
         Inverse
-          Time:  0.00124262 s
+          Time:  0.00127278 s
         Error: 13306.1
 
 
@@ -4344,33 +4429,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000475737 s
+        Time:  0.000359983 s
 
       OpenCL (4 queues)
-        Time:  0.000458538 s
+        Time:  0.00043478 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000265767 s
+          Time:  0.000284482 s
         Inverse
-          Time:  0.000276319 s
+          Time:  0.000281134 s
         Error: 190.625
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000348139 s
+        Time:  0.0003395 s
 
       OpenCL (4 queues)
-        Time:  0.000481274 s
+        Time:  0.000484721 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000269118 s
+          Time:  0.000247486 s
         Inverse
-          Time:  0.000246215 s
+          Time:  0.000264993 s
         Error: 269.584
 
 
@@ -4382,9 +4467,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00204629 s
+          Time:  0.00203705 s
         Inverse
-          Time:  0.00242676 s
+          Time:  0.00237643 s
         Error: 36480.9
 
   C <-> C
@@ -4392,9 +4477,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00288126 s
+          Time:  0.0027729 s
         Inverse
-          Time:  0.00331032 s
+          Time:  0.00315542 s
         Error: 51591.7
 
 
@@ -4406,9 +4491,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.00311238 s
+          Time:  0.00312526 s
         Inverse
-          Time:  0.00348516 s
+          Time:  0.00345453 s
         Error: 36480.9
 
   C <-> C
@@ -4416,9 +4501,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0029185 s
+          Time:  0.00283779 s
         Inverse
-          Time:  0.00359017 s
+          Time:  0.0036692 s
         Error: 51591.7
 
 
@@ -4429,33 +4514,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000352906 s
+        Time:  0.000343994 s
 
       OpenCL (4 queues)
-        Time:  0.000442366 s
+        Time:  0.000443821 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000286005 s
+          Time:  0.000276621 s
         Inverse
-          Time:  0.000302072 s
+          Time:  0.000291544 s
         Error: 382.625
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000365127 s
+        Time:  0.000357584 s
 
       OpenCL (4 queues)
-        Time:  0.000483903 s
+        Time:  0.00058819 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000248404 s
+          Time:  0.000281337 s
         Inverse
-          Time:  0.000260417 s
+          Time:  0.000251656 s
         Error: 541.113
 
 
@@ -4467,9 +4552,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00681867 s
+          Time:  0.00678326 s
         Inverse
-          Time:  0.0108487 s
+          Time:  0.0106614 s
         Error: 146689
 
   C <-> C
@@ -4477,9 +4562,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.0100184 s
+          Time:  0.0100321 s
         Inverse
-          Time:  0.011487 s
+          Time:  0.0116894 s
         Error: 207449
 
 
@@ -4491,9 +4576,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.011194 s
+          Time:  0.0111548 s
         Inverse
-          Time:  0.0149601 s
+          Time:  0.0149935 s
         Error: 146689
 
   C <-> C
@@ -4501,9 +4586,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0106946 s
+          Time:  0.0108942 s
         Inverse
-          Time:  0.0129762 s
+          Time:  0.0131331 s
         Error: 207449
 
 
@@ -4514,33 +4599,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000385503 s
+        Time:  0.000388557 s
 
       OpenCL (4 queues)
-        Time:  0.000465775 s
+        Time:  0.00045223 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000277424 s
+          Time:  0.000273529 s
         Inverse
-          Time:  0.000315601 s
+          Time:  0.000297395 s
         Error: 769.625
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000399736 s
+        Time:  0.000373612 s
 
       OpenCL (4 queues)
-        Time:  0.000511416 s
+        Time:  0.000517916 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000282161 s
+          Time:  0.000267169 s
         Inverse
-          Time:  0.000279707 s
+          Time:  0.000269931 s
         Error: 1088.41
 
 
@@ -4552,9 +4637,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.0360324 s
+          Time:  0.0358062 s
         Inverse
-          Time:  0.0530171 s
+          Time:  0.0538768 s
         Error: 592900
 
   C <-> C
@@ -4562,9 +4647,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.0576132 s
+          Time:  0.0562752 s
         Inverse
-          Time:  0.0650474 s
+          Time:  0.0625833 s
         Error: 838487
 
 
@@ -4576,9 +4661,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.067607 s
+          Time:  0.0673921 s
         Inverse
-          Time:  0.0803176 s
+          Time:  0.0789424 s
         Error: 592900
 
   C <-> C
@@ -4586,9 +4671,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0599792 s
+          Time:  0.0568985 s
         Inverse
-          Time:  0.0706877 s
+          Time:  0.068037 s
         Error: 838487
 
 
@@ -4599,33 +4684,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000427535 s
+        Time:  0.000434473 s
 
       OpenCL (4 queues)
-        Time:  0.000487978 s
+        Time:  0.000477667 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000307748 s
+          Time:  0.000296938 s
         Inverse
-          Time:  0.000325521 s
+          Time:  0.000321191 s
         Error: 1534.62
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000448539 s
+        Time:  0.000431166 s
 
       OpenCL (4 queues)
-        Time:  0.000547835 s
+        Time:  0.000567231 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000289784 s
+          Time:  0.000297866 s
         Inverse
-          Time:  0.000304355 s
+          Time:  0.000305569 s
         Error: 2170.29
 
 
@@ -4637,9 +4722,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.133723 s
+          Time:  0.135409 s
         Inverse
-          Time:  0.196002 s
+          Time:  0.198691 s
         Error: 2.35622e+06
 
   C <-> C
@@ -4647,9 +4732,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.218922 s
+          Time:  0.213978 s
         Inverse
-          Time:  0.247619 s
+          Time:  0.241989 s
         Error: 3.33221e+06
 
 
@@ -4661,9 +4746,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.258021 s
+          Time:  0.262001 s
         Inverse
-          Time:  0.302029 s
+          Time:  0.302957 s
         Error: 2.35622e+06
 
   C <-> C
@@ -4671,9 +4756,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.224751 s
+          Time:  0.229319 s
         Inverse
-          Time:  0.268566 s
+          Time:  0.273994 s
         Error: 3.33221e+06
 
 
@@ -4684,33 +4769,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.00053298 s
+        Time:  0.000592524 s
 
       OpenCL (4 queues)
-        Time:  0.000545088 s
+        Time:  0.000588319 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000341002 s
+          Time:  0.000376259 s
         Inverse
-          Time:  0.000378284 s
+          Time:  0.00041533 s
         Error: 3070.63
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000914536 s
+        Time:  0.000584182 s
 
       OpenCL (4 queues)
-        Time:  0.000660786 s
+        Time:  0.00071707 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000348044 s
+          Time:  0.000428821 s
         Inverse
-          Time:  0.00037912 s
+          Time:  0.000424256 s
         Error: 4342.52
 
 
@@ -4722,9 +4807,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.527908 s
+          Time:  0.525222 s
         Inverse
-          Time:  0.770214 s
+          Time:  0.761314 s
         Error: 9.43104e+06
 
   C <-> C
@@ -4732,9 +4817,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.84428 s
+          Time:  0.844715 s
         Inverse
-          Time:  0.965425 s
+          Time:  0.971717 s
         Error: 1.33375e+07
 
 
@@ -4746,9 +4831,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  1.02382 s
+          Time:  1.0169 s
         Inverse
-          Time:  1.1959 s
+          Time:  1.18151 s
         Error: 9.43104e+06
 
   C <-> C
@@ -4756,9 +4841,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.882378 s
+          Time:  0.879484 s
         Inverse
-          Time:  1.06488 s
+          Time:  1.06995 s
         Error: 1.33375e+07
 
 
@@ -4769,33 +4854,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.00173812 s
+        Time:  0.00281261 s
 
       OpenCL (4 queues)
-        Time:  0.00113381 s
+        Time:  0.00115253 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000757607 s
+          Time:  0.000752533 s
         Inverse
-          Time:  0.000979793 s
+          Time:  0.000985121 s
         Error: 24585.6
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.00172958 s
+        Time:  0.00177341 s
 
       OpenCL (4 queues)
-        Time:  0.00181716 s
+        Time:  0.00181197 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.00101283 s
+          Time:  0.00101648 s
         Inverse
-          Time:  0.00111328 s
+          Time:  0.00112954 s
         Error: 34769.3
 
 
@@ -4807,9 +4892,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00734045 s
+          Time:  0.00742766 s
         Inverse
-          Time:  0.0117976 s
+          Time:  0.01204 s
         Error: 172102
 
   C <-> C
@@ -4817,9 +4902,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.0104041 s
+          Time:  0.0103692 s
         Inverse
-          Time:  0.0121477 s
+          Time:  0.0119798 s
         Error: 243389
 
 
@@ -4831,9 +4916,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0121853 s
+          Time:  0.0118235 s
         Inverse
-          Time:  0.0160865 s
+          Time:  0.0160927 s
         Error: 172102
 
   C <-> C
@@ -4841,9 +4926,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0108068 s
+          Time:  0.0107629 s
         Inverse
-          Time:  0.0134368 s
+          Time:  0.0134825 s
         Error: 243389
 
 
@@ -4854,33 +4939,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.00341299 s
+        Time:  0.00337523 s
 
       OpenCL (4 queues)
-        Time:  0.00210487 s
+        Time:  0.00207128 s
 
     FFT
       clFFT
         Direct
-          Time:  0.00116982 s
+          Time:  0.00119626 s
         Inverse
-          Time:  0.00161287 s
+          Time:  0.00165399 s
         Error: 49150.6
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.00317397 s
+        Time:  0.00317069 s
 
       OpenCL (4 queues)
-        Time:  0.0031405 s
+        Time:  0.00462124 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.00154398 s
+          Time:  0.00155394 s
         Inverse
-          Time:  0.00177049 s
+          Time:  0.00177053 s
         Error: 69509.5
 
 
@@ -4892,9 +4977,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.0354175 s
+          Time:  0.0340819 s
         Inverse
-          Time:  0.0510876 s
+          Time:  0.0489769 s
         Error: 540661
 
   C <-> C
@@ -4902,9 +4987,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.0570173 s
+          Time:  0.0552566 s
         Inverse
-          Time:  0.0631066 s
+          Time:  0.0613553 s
         Error: 764610
 
 
@@ -4916,9 +5001,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0657108 s
+          Time:  0.0640576 s
         Inverse
-          Time:  0.0776387 s
+          Time:  0.0747697 s
         Error: 540661
 
   C <-> C
@@ -4926,9 +5011,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0577101 s
+          Time:  0.0564635 s
         Inverse
-          Time:  0.0676267 s
+          Time:  0.067079 s
         Error: 764610
 
 
@@ -4939,33 +5024,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.00639551 s
+        Time:  0.00753768 s
 
       OpenCL (4 queues)
-        Time:  0.00384153 s
+        Time:  0.00376741 s
 
     FFT
       clFFT
         Direct
-          Time:  0.00193926 s
+          Time:  0.0019854 s
         Inverse
-          Time:  0.00280011 s
+          Time:  0.00280588 s
         Error: 98304.6
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.00571234 s
+        Time:  0.0057322 s
 
       OpenCL (4 queues)
-        Time:  0.00586947 s
+        Time:  0.00578675 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.00274082 s
+          Time:  0.00270038 s
         Inverse
-          Time:  0.00313539 s
+          Time:  0.00307347 s
         Error: 139024
 
 
@@ -4977,9 +5062,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.128904 s
+          Time:  0.130868 s
         Inverse
-          Time:  0.188854 s
+          Time:  0.19097 s
         Error: 2.26101e+06
 
   C <-> C
@@ -4987,9 +5072,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.207274 s
+          Time:  0.206042 s
         Inverse
-          Time:  0.235292 s
+          Time:  0.235352 s
         Error: 3.19756e+06
 
 
@@ -5001,9 +5086,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.246292 s
+          Time:  0.246688 s
         Inverse
-          Time:  0.288464 s
+          Time:  0.288517 s
         Error: 2.26101e+06
 
   C <-> C
@@ -5011,9 +5096,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.215008 s
+          Time:  0.211206 s
         Inverse
-          Time:  0.257393 s
+          Time:  0.253981 s
         Error: 3.19756e+06
 
 
@@ -5024,33 +5109,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.0115671 s
+        Time:  0.011563 s
 
       OpenCL (4 queues)
-        Time:  0.00705799 s
+        Time:  0.00695818 s
 
     FFT
       clFFT
         Direct
-          Time:  0.00342057 s
+          Time:  0.0034537 s
         Inverse
-          Time:  0.00516276 s
+          Time:  0.00542775 s
         Error: 196607
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.00949147 s
+        Time:  0.00947591 s
 
       OpenCL (4 queues)
-        Time:  0.0119342 s
+        Time:  0.0108206 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.00512912 s
+          Time:  0.00497729 s
         Inverse
-          Time:  0.00579078 s
+          Time:  0.00567563 s
         Error: 278044
 
 
@@ -5062,9 +5147,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.529629 s
+          Time:  0.528835 s
         Inverse
-          Time:  0.770543 s
+          Time:  0.765491 s
         Error: 9.24053e+06
 
   C <-> C
@@ -5072,9 +5157,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.847063 s
+          Time:  0.839225 s
         Inverse
-          Time:  0.958375 s
+          Time:  0.966714 s
         Error: 1.30681e+07
 
 
@@ -5086,9 +5171,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  1.0113 s
+          Time:  1.01054 s
         Inverse
-          Time:  1.17942 s
+          Time:  1.17442 s
         Error: 9.24053e+06
 
   C <-> C
@@ -5096,9 +5181,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.889456 s
+          Time:  0.866061 s
         Inverse
-          Time:  1.07108 s
+          Time:  1.06231 s
         Error: 1.30681e+07
 
 
@@ -5109,33 +5194,33 @@ N coils: 32
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.00127401 s
+        Time:  0.00124622 s
 
       OpenCL (4 queues)
-        Time:  0.00426389 s
+        Time:  0.00431191 s
 
     FFT
       clFFT
         Direct
-          Time:  0.00132179 s
+          Time:  0.00129289 s
         Inverse
-          Time:  0.00131197 s
+          Time:  0.00130493 s
         Error: 98.087
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.00183599 s
+        Time:  0.00185524 s
 
       OpenCL (4 queues)
-        Time:  0.00646203 s
+        Time:  0.00648441 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.00137249 s
+          Time:  0.00136956 s
         Inverse
-          Time:  0.00141417 s
+          Time:  0.00140368 s
         Error: 135.234
 
 
@@ -5147,9 +5232,9 @@ N coils: 32
     FFT
       clFFT
         Direct
-          Time:  0.00161834 s
+          Time:  0.00161873 s
         Inverse
-          Time:  0.00159969 s
+          Time:  0.00156414 s
         Error: 98.087
 
   C <-> C
@@ -5157,9 +5242,9 @@ N coils: 32
     FFT
       clFFT
         Direct
-          Time:  0.00143958 s
+          Time:  0.00140685 s
         Inverse
-          Time:  0.0014763 s
+          Time:  0.00146743 s
         Error: 135.234
 
 
@@ -5171,9 +5256,9 @@ N coils: 32
     FFT
       OpenCL
         Direct
-          Time:  0.0018657 s
+          Time:  0.00184449 s
         Inverse
-          Time:  0.00188959 s
+          Time:  0.00186891 s
         Error: 98.087
 
   C <-> C
@@ -5181,9 +5266,9 @@ N coils: 32
     FFT
       OpenCL
         Direct
-          Time:  0.00142887 s
+          Time:  0.00144229 s
         Inverse
-          Time:  0.00160902 s
+          Time:  0.00148752 s
         Error: 135.234
 
 
@@ -5194,33 +5279,33 @@ N coils: 32
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.001272 s
+        Time:  0.00125428 s
 
       OpenCL (4 queues)
-        Time:  0.00431317 s
+        Time:  0.00426186 s
 
     FFT
       clFFT
         Direct
-          Time:  0.00190427 s
+          Time:  0.00221123 s
         Inverse
-          Time:  0.00189962 s
+          Time:  0.00179431 s
         Error: 79.5017
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.00181528 s
+        Time:  0.00183265 s
 
       OpenCL (4 queues)
-        Time:  0.00644888 s
+        Time:  0.00646227 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.00170223 s
+          Time:  0.00160118 s
         Inverse
-          Time:  0.00170266 s
+          Time:  0.00157872 s
         Error: 111.191
 
 
@@ -5232,9 +5317,9 @@ N coils: 32
     FFT
       clFFT
         Direct
-          Time:  0.00222323 s
+          Time:  0.00218172 s
         Inverse
-          Time:  0.00220437 s
+          Time:  0.00217503 s
         Error: 79.5017
 
   C <-> C
@@ -5242,9 +5327,9 @@ N coils: 32
     FFT
       clFFT
         Direct
-          Time:  0.00175413 s
+          Time:  0.00162724 s
         Inverse
-          Time:  0.00177098 s
+          Time:  0.00166449 s
         Error: 111.191
 
 
@@ -5256,9 +5341,9 @@ N coils: 32
     FFT
       OpenCL
         Direct
-          Time:  0.00255717 s
+          Time:  0.00247941 s
         Inverse
-          Time:  0.00267512 s
+          Time:  0.00249963 s
         Error: 79.5017
 
   C <-> C
@@ -5266,9 +5351,9 @@ N coils: 32
     FFT
       OpenCL
         Direct
-          Time:  0.00177958 s
+          Time:  0.00162891 s
         Inverse
-          Time:  0.0017773 s
+          Time:  0.00182746 s
         Error: 111.191
 
 
@@ -5279,33 +5364,33 @@ N coils: 32
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.00148938 s
+        Time:  0.00154144 s
 
       OpenCL (4 queues)
-        Time:  0.00436052 s
+        Time:  0.00438118 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000896479 s
+          Time:  0.000871064 s
         Inverse
-          Time:  0.000919662 s
+          Time:  0.000916073 s
         Error: 96.6226
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.00203846 s
+        Time:  0.0020601 s
 
       OpenCL (4 queues)
-        Time:  0.00648217 s
+        Time:  0.00726721 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000904977 s
+          Time:  0.00546426 s
         Inverse
-          Time:  0.000903233 s
+          Time:  0.000925544 s
         Error: 136.645
 
 
@@ -5317,9 +5402,9 @@ N coils: 32
     FFT
       clFFT
         Direct
-          Time:  0.000948182 s
+          Time:  0.000947323 s
         Inverse
-          Time:  0.000911298 s
+          Time:  0.00092536 s
         Error: 96.6226
 
   C <-> C
@@ -5327,9 +5412,9 @@ N coils: 32
     FFT
       clFFT
         Direct
-          Time:  0.000908635 s
+          Time:  0.00092184 s
         Inverse
-          Time:  0.000932458 s
+          Time:  0.000946297 s
         Error: 136.645
 
 
@@ -5341,9 +5426,9 @@ N coils: 32
     FFT
       OpenCL
         Direct
-          Time:  0.000908179 s
+          Time:  0.000929298 s
         Inverse
-          Time:  0.000967063 s
+          Time:  0.000961709 s
         Error: 96.6226
 
   C <-> C
@@ -5351,9 +5436,9 @@ N coils: 32
     FFT
       OpenCL
         Direct
-          Time:  0.000925444 s
+          Time:  0.000904431 s
         Inverse
-          Time:  0.000939302 s
+          Time:  0.000945167 s
         Error: 136.645
 
 
@@ -5364,33 +5449,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000329284 s
+        Time:  0.000352109 s
 
       OpenCL (4 queues)
-        Time:  0.000453005 s
+        Time:  0.000440657 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000224694 s
+          Time:  0.000246064 s
         Inverse
-          Time:  0.000224248 s
+          Time:  0.000227857 s
         Error: 98.087
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.00032735 s
+        Time:  0.000342404 s
 
       OpenCL (4 queues)
-        Time:  0.00048875 s
+        Time:  0.000498588 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000240121 s
+          Time:  0.000232638 s
         Inverse
-          Time:  0.000233035 s
+          Time:  0.000241679 s
         Error: 135.234
 
 
@@ -5402,9 +5487,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000273441 s
+          Time:  0.000310219 s
         Inverse
-          Time:  0.000265823 s
+          Time:  0.000285361 s
         Error: 98.087
 
   C <-> C
@@ -5412,9 +5497,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000247503 s
+          Time:  0.000246751 s
         Inverse
-          Time:  0.00027931 s
+          Time:  0.000288128 s
         Error: 135.234
 
 
@@ -5426,9 +5511,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.00029367 s
+          Time:  0.000290494 s
         Inverse
-          Time:  0.000305153 s
+          Time:  0.000298379 s
         Error: 98.087
 
   C <-> C
@@ -5436,9 +5521,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.000252287 s
+          Time:  0.000261504 s
         Inverse
-          Time:  0.000262078 s
+          Time:  0.000265788 s
         Error: 135.234
 
 
@@ -5449,33 +5534,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000361725 s
+        Time:  0.000345068 s
 
       OpenCL (4 queues)
-        Time:  0.000443016 s
+        Time:  0.000430081 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000250536 s
+          Time:  0.000255024 s
         Inverse
-          Time:  0.000255701 s
+          Time:  0.000262132 s
         Error: 394.509
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000337467 s
+        Time:  0.000338828 s
 
       OpenCL (4 queues)
-        Time:  0.000481364 s
+        Time:  0.000480941 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000254956 s
+          Time:  0.000261885 s
         Inverse
-          Time:  0.000268246 s
+          Time:  0.000268351 s
         Error: 542.528
 
 
@@ -5487,9 +5572,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000306827 s
+          Time:  0.000323955 s
         Inverse
-          Time:  0.000327107 s
+          Time:  0.000294234 s
         Error: 394.509
 
   C <-> C
@@ -5497,9 +5582,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00026878 s
+          Time:  0.000272888 s
         Inverse
-          Time:  0.00029112 s
+          Time:  0.00027818 s
         Error: 542.528
 
 
@@ -5511,9 +5596,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.000319239 s
+          Time:  0.000323455 s
         Inverse
-          Time:  0.000326344 s
+          Time:  0.000327776 s
         Error: 394.509
 
   C <-> C
@@ -5521,9 +5606,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.000281035 s
+          Time:  0.000289286 s
         Inverse
-          Time:  0.000290771 s
+          Time:  0.000305773 s
         Error: 542.528
 
 
@@ -5534,33 +5619,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000406115 s
+        Time:  0.000409989 s
 
       OpenCL (4 queues)
-        Time:  0.000481701 s
+        Time:  0.000474959 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000488753 s
+          Time:  0.000570072 s
         Inverse
-          Time:  0.000491026 s
+          Time:  0.000513911 s
         Error: 1580.38
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000408469 s
+        Time:  0.000406658 s
 
       OpenCL (4 queues)
-        Time:  0.000565773 s
+        Time:  0.000567696 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000348727 s
+          Time:  0.000416833 s
         Inverse
-          Time:  0.000358302 s
+          Time:  0.000360486 s
         Error: 2171.7
 
 
@@ -5572,9 +5657,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000559268 s
+          Time:  0.000565039 s
         Inverse
-          Time:  0.000548943 s
+          Time:  0.000537559 s
         Error: 1580.38
 
   C <-> C
@@ -5582,9 +5667,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000355885 s
+          Time:  0.000348727 s
         Inverse
-          Time:  0.000376264 s
+          Time:  0.000379382 s
         Error: 2171.7
 
 
@@ -5596,9 +5681,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.000573931 s
+          Time:  0.00229803 s
         Inverse
-          Time:  0.000588629 s
+          Time:  0.000591723 s
         Error: 1580.38
 
   C <-> C
@@ -5606,9 +5691,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.000362527 s
+          Time:  0.000370425 s
         Inverse
-          Time:  0.000385884 s
+          Time:  0.000393122 s
         Error: 2171.7
 
 
@@ -5619,33 +5704,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000654498 s
+        Time:  0.00068178 s
 
       OpenCL (4 queues)
-        Time:  0.000632199 s
+        Time:  0.000642824 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000665436 s
+          Time:  0.000647261 s
         Inverse
-          Time:  0.00069103 s
+          Time:  0.00069263 s
         Error: 6324.36
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000618144 s
+        Time:  0.000639642 s
 
       OpenCL (4 queues)
-        Time:  0.000825517 s
+        Time:  0.000805317 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000482677 s
+          Time:  0.00048248 s
         Inverse
-          Time:  0.000514272 s
+          Time:  0.00051914 s
         Error: 8688.4
 
 
@@ -5657,9 +5742,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000745466 s
+          Time:  0.000711617 s
         Inverse
-          Time:  0.000714515 s
+          Time:  0.000721507 s
         Error: 6324.36
 
   C <-> C
@@ -5667,9 +5752,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000515009 s
+          Time:  0.000500854 s
         Inverse
-          Time:  0.000530443 s
+          Time:  0.000541013 s
         Error: 8688.4
 
 
@@ -5681,9 +5766,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.000732373 s
+          Time:  0.000730764 s
         Inverse
-          Time:  0.000769497 s
+          Time:  0.000787232 s
         Error: 6324.36
 
   C <-> C
@@ -5691,9 +5776,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.000538786 s
+          Time:  0.00052019 s
         Inverse
-          Time:  0.000582185 s
+          Time:  0.000650816 s
         Error: 8688.4
 
 
@@ -5704,33 +5789,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.00161917 s
+        Time:  0.00164263 s
 
       OpenCL (4 queues)
-        Time:  0.0011332 s
+        Time:  0.00112691 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000993259 s
+          Time:  0.000986139 s
         Inverse
-          Time:  0.00123519 s
+          Time:  0.00120474 s
         Error: 25300.3
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.00158442 s
+        Time:  0.00161069 s
 
       OpenCL (4 queues)
-        Time:  0.00185203 s
+        Time:  0.00185681 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.00108508 s
+          Time:  0.0011346 s
         Inverse
-          Time:  0.00117552 s
+          Time:  0.00120935 s
         Error: 34755.2
 
 
@@ -5742,9 +5827,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00129628 s
+          Time:  0.001335 s
         Inverse
-          Time:  0.00142465 s
+          Time:  0.00141224 s
         Error: 25300.3
 
   C <-> C
@@ -5752,9 +5837,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00113015 s
+          Time:  0.00112866 s
         Inverse
-          Time:  0.00123952 s
+          Time:  0.00125358 s
         Error: 34755.2
 
 
@@ -5766,9 +5851,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.00136082 s
+          Time:  0.0021423 s
         Inverse
-          Time:  0.00143763 s
+          Time:  0.00145656 s
         Error: 25300.3
 
   C <-> C
@@ -5776,9 +5861,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.00115127 s
+          Time:  0.00118427 s
         Inverse
-          Time:  0.00131003 s
+          Time:  0.00132967 s
         Error: 34755.2
 
 
@@ -5789,33 +5874,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.00557919 s
+        Time:  0.00565981 s
 
       OpenCL (4 queues)
-        Time:  0.00358072 s
+        Time:  0.00358602 s
 
     FFT
       clFFT
         Direct
-          Time:  0.00246524 s
+          Time:  0.0024758 s
         Inverse
-          Time:  0.00332945 s
+          Time:  0.00336401 s
         Error: 101204
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.00494625 s
+        Time:  0.00505933 s
 
       OpenCL (4 queues)
-        Time:  0.00562883 s
+        Time:  0.00738 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.00312148 s
+          Time:  0.00322882 s
         Inverse
-          Time:  0.00339865 s
+          Time:  0.00345488 s
         Error: 139022
 
 
@@ -5827,9 +5912,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00331345 s
+          Time:  0.0033308 s
         Inverse
-          Time:  0.00378537 s
+          Time:  0.00372829 s
         Error: 101204
 
   C <-> C
@@ -5837,9 +5922,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00324406 s
+          Time:  0.00320244 s
         Inverse
-          Time:  0.00365974 s
+          Time:  0.00372788 s
         Error: 139022
 
 
@@ -5851,9 +5936,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.00361089 s
+          Time:  0.00365294 s
         Inverse
-          Time:  0.00389504 s
+          Time:  0.0039215 s
         Error: 101204
 
   C <-> C
@@ -5861,9 +5946,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.00334794 s
+          Time:  0.00336885 s
         Inverse
-          Time:  0.003981 s
+          Time:  0.00404376 s
         Error: 139022
 
 
@@ -5874,33 +5959,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.0199931 s
+        Time:  0.0201239 s
 
       OpenCL (4 queues)
-        Time:  0.0103852 s
+        Time:  0.0105777 s
 
     FFT
       clFFT
         Direct
-          Time:  0.00746492 s
+          Time:  0.0074871 s
         Inverse
-          Time:  0.0107504 s
+          Time:  0.0107868 s
         Error: 404820
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.0159213 s
+        Time:  0.0157043 s
 
       OpenCL (4 queues)
-        Time:  0.0245377 s
+        Time:  0.0237608 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.0108383 s
+          Time:  0.0107151 s
         Inverse
-          Time:  0.0131551 s
+          Time:  0.0130602 s
         Error: 556091
 
 
@@ -5912,9 +5997,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.0121544 s
+          Time:  0.0120891 s
         Inverse
-          Time:  0.0135383 s
+          Time:  0.013875 s
         Error: 404820
 
   C <-> C
@@ -5922,9 +6007,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.0111156 s
+          Time:  0.0111871 s
         Inverse
-          Time:  0.0134747 s
+          Time:  0.0126633 s
         Error: 556091
 
 
@@ -5936,9 +6021,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0129939 s
+          Time:  0.0128408 s
         Inverse
-          Time:  0.0140644 s
+          Time:  0.014117 s
         Error: 404820
 
   C <-> C
@@ -5946,9 +6031,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0118835 s
+          Time:  0.0116818 s
         Inverse
-          Time:  0.0142786 s
+          Time:  0.0140834 s
         Error: 556091
 
 
@@ -5959,33 +6044,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.0811705 s
+        Time:  0.0809123 s
 
       OpenCL (4 queues)
-        Time:  0.075624 s
+        Time:  0.0737585 s
 
     FFT
       clFFT
         Direct
-          Time:  0.0377402 s
+          Time:  0.0370779 s
         Inverse
-          Time:  0.0512155 s
+          Time:  0.0495073 s
         Error: 1.61928e+06
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.123032 s
+        Time:  0.118749 s
 
       OpenCL (4 queues)
-        Time:  0.120271 s
+        Time:  0.119874 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.058551 s
+          Time:  0.0588391 s
         Inverse
-          Time:  0.0650224 s
+          Time:  0.065608 s
         Error: 2.22437e+06
 
 
@@ -5997,9 +6082,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.0701192 s
+          Time:  0.0701098 s
         Inverse
-          Time:  0.0841905 s
+          Time:  0.0804493 s
         Error: 1.61928e+06
 
   C <-> C
@@ -6007,9 +6092,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.0618263 s
+          Time:  0.0602848 s
         Inverse
-          Time:  0.0688617 s
+          Time:  0.0684544 s
         Error: 2.22437e+06
 
 
@@ -6021,9 +6106,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0731626 s
+          Time:  0.0732549 s
         Inverse
-          Time:  0.0859651 s
+          Time:  0.0836472 s
         Error: 1.61928e+06
 
   C <-> C
@@ -6031,9 +6116,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0632364 s
+          Time:  0.0623129 s
         Inverse
-          Time:  0.0736343 s
+          Time:  0.073961 s
         Error: 2.22437e+06
 
 
@@ -6044,33 +6129,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.302979 s
+        Time:  0.300406 s
 
       OpenCL (4 queues)
-        Time:  0.273214 s
+        Time:  0.268287 s
 
     FFT
       clFFT
         Direct
-          Time:  0.129556 s
+          Time:  0.131096 s
         Inverse
-          Time:  0.181532 s
+          Time:  0.175176 s
         Error: 6.29146e+06
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.465191 s
+        Time:  0.459195 s
 
       OpenCL (4 queues)
-        Time:  0.460858 s
+        Time:  0.457696 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.228887 s
+          Time:  0.226257 s
         Inverse
-          Time:  0.251693 s
+          Time:  0.2527 s
         Error: 8.89746e+06
 
 
@@ -6082,9 +6167,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.240917 s
+          Time:  0.243431 s
         Inverse
-          Time:  0.293782 s
+          Time:  0.291582 s
         Error: 6.29146e+06
 
   C <-> C
@@ -6092,9 +6177,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.239394 s
+          Time:  0.235994 s
         Inverse
-          Time:  0.268941 s
+          Time:  0.268702 s
         Error: 8.89746e+06
 
 
@@ -6106,9 +6191,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.258204 s
+          Time:  0.260697 s
         Inverse
-          Time:  0.302385 s
+          Time:  0.301196 s
         Error: 6.29146e+06
 
   C <-> C
@@ -6116,9 +6201,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.248567 s
+          Time:  0.244131 s
         Inverse
-          Time:  0.290886 s
+          Time:  0.28946 s
         Error: 8.89746e+06
 
 
@@ -6129,33 +6214,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  1.17018 s
+        Time:  1.16474 s
 
       OpenCL (4 queues)
-        Time:  1.05602 s
+        Time:  1.04685 s
 
     FFT
       clFFT
         Direct
-          Time:  0.511006 s
+          Time:  0.510462 s
         Inverse
-          Time:  0.685229 s
+          Time:  0.688674 s
         Error: 2.51658e+07
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  1.79098 s
+        Time:  1.79677 s
 
       OpenCL (4 queues)
-        Time:  1.78375 s
+        Time:  1.79087 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.888009 s
+          Time:  0.888817 s
         Inverse
-          Time:  0.971095 s
+          Time:  0.968519 s
         Error: 3.55898e+07
 
 
@@ -6167,9 +6252,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.948423 s
+          Time:  0.958217 s
         Inverse
-          Time:  1.1427 s
+          Time:  1.14391 s
         Error: 2.51658e+07
 
   C <-> C
@@ -6177,9 +6262,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.919023 s
+          Time:  0.916374 s
         Inverse
-          Time:  1.03787 s
+          Time:  1.0429 s
         Error: 3.55898e+07
 
 
@@ -6191,9 +6276,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  1.01952 s
+          Time:  1.02183 s
         Inverse
-          Time:  1.18947 s
+          Time:  1.1888 s
         Error: 2.51658e+07
 
   C <-> C
@@ -6201,9 +6286,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.95445 s
+          Time:  0.94957 s
         Inverse
-          Time:  1.13991 s
+          Time:  1.14319 s
         Error: 3.55898e+07
 
 
@@ -6214,33 +6299,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000344808 s
+        Time:  0.000347775 s
 
       OpenCL (4 queues)
-        Time:  0.00043451 s
+        Time:  0.000561571 s
 
     FFT
       clFFT
         Direct
-          Time:  0.00028836 s
+          Time:  0.000278231 s
         Inverse
-          Time:  0.000274411 s
+          Time:  0.00027721 s
         Error: 79.5017
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000326216 s
+        Time:  0.000326694 s
 
       OpenCL (4 queues)
-        Time:  0.000478795 s
+        Time:  0.000481689 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000270572 s
+          Time:  0.000262181 s
         Inverse
-          Time:  0.000278907 s
+          Time:  0.000275278 s
         Error: 111.191
 
 
@@ -6252,9 +6337,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000326846 s
+          Time:  0.000317196 s
         Inverse
-          Time:  0.000303708 s
+          Time:  0.000301018 s
         Error: 79.5017
 
   C <-> C
@@ -6262,9 +6347,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000282545 s
+          Time:  0.000289691 s
         Inverse
-          Time:  0.000291718 s
+          Time:  0.000288508 s
         Error: 111.191
 
 
@@ -6276,9 +6361,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.000347053 s
+          Time:  0.000321168 s
         Inverse
-          Time:  0.000328262 s
+          Time:  0.000326455 s
         Error: 79.5017
 
   C <-> C
@@ -6286,9 +6371,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.000297204 s
+          Time:  0.000311461 s
         Inverse
-          Time:  0.00029638 s
+          Time:  0.000295351 s
         Error: 111.191
 
 
@@ -6299,33 +6384,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000344186 s
+        Time:  0.000345223 s
 
       OpenCL (4 queues)
-        Time:  0.00045655 s
+        Time:  0.000449591 s
 
     FFT
       clFFT
         Direct
-          Time:  0.00032579 s
+          Time:  0.000306327 s
         Inverse
-          Time:  0.000321904 s
+          Time:  0.00031909 s
         Error: 484.892
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000361221 s
+        Time:  0.000350324 s
 
       OpenCL (4 queues)
-        Time:  0.000510142 s
+        Time:  0.000503199 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000334119 s
+          Time:  0.000311068 s
         Inverse
-          Time:  0.000314739 s
+          Time:  0.000313674 s
         Error: 666.979
 
 
@@ -6337,9 +6422,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000353571 s
+          Time:  0.000361757 s
         Inverse
-          Time:  0.00034515 s
+          Time:  0.000344883 s
         Error: 484.892
 
   C <-> C
@@ -6347,9 +6432,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000329428 s
+          Time:  0.000340964 s
         Inverse
-          Time:  0.000345744 s
+          Time:  0.000330652 s
         Error: 666.979
 
 
@@ -6361,9 +6446,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.000364882 s
+          Time:  0.000347644 s
         Inverse
-          Time:  0.000377317 s
+          Time:  0.000352648 s
         Error: 484.892
 
   C <-> C
@@ -6371,9 +6456,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.00036042 s
+          Time:  0.000340768 s
         Inverse
-          Time:  0.000360668 s
+          Time:  0.000351369 s
         Error: 666.979
 
 
@@ -6384,33 +6469,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000425091 s
+        Time:  0.000432292 s
 
       OpenCL (4 queues)
-        Time:  0.000495119 s
+        Time:  0.000490345 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000374802 s
+          Time:  0.000390696 s
         Inverse
-          Time:  0.000404044 s
+          Time:  0.00040022 s
         Error: 1701.55
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000431838 s
+        Time:  0.000423336 s
 
       OpenCL (4 queues)
-        Time:  0.000574506 s
+        Time:  0.000561941 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000395417 s
+          Time:  0.000396603 s
         Inverse
-          Time:  0.000397343 s
+          Time:  0.000415814 s
         Error: 2338.58
 
 
@@ -6422,9 +6507,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000428537 s
+          Time:  0.000460864 s
         Inverse
-          Time:  0.000421315 s
+          Time:  0.000434071 s
         Error: 1701.55
 
   C <-> C
@@ -6432,9 +6517,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000406198 s
+          Time:  0.000409635 s
         Inverse
-          Time:  0.000443892 s
+          Time:  0.000423565 s
         Error: 2338.58
 
 
@@ -6446,9 +6531,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.000434738 s
+          Time:  0.000438205 s
         Inverse
-          Time:  0.000451074 s
+          Time:  0.000452673 s
         Error: 1701.55
 
   C <-> C
@@ -6456,9 +6541,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0020916 s
+          Time:  0.000425933 s
         Inverse
-          Time:  0.000462599 s
+          Time:  0.000474001 s
         Error: 2338.58
 
 
@@ -6469,33 +6554,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000632974 s
+        Time:  0.000654234 s
 
       OpenCL (4 queues)
-        Time:  0.000632261 s
+        Time:  0.00063712 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000491038 s
+          Time:  0.000478983 s
         Inverse
-          Time:  0.000548674 s
+          Time:  0.000541609 s
         Error: 6079.73
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000627695 s
+        Time:  0.000605675 s
 
       OpenCL (4 queues)
-        Time:  0.000799622 s
+        Time:  0.000787077 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000536274 s
+          Time:  0.000543123 s
         Inverse
-          Time:  0.000570906 s
+          Time:  0.000574648 s
         Error: 8351.81
 
 
@@ -6507,9 +6592,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000607326 s
+          Time:  0.000600552 s
         Inverse
-          Time:  0.000595126 s
+          Time:  0.000593193 s
         Error: 6079.73
 
   C <-> C
@@ -6517,9 +6602,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000581152 s
+          Time:  0.000561934 s
         Inverse
-          Time:  0.000616507 s
+          Time:  0.000595555 s
         Error: 8351.81
 
 
@@ -6531,9 +6616,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.000617748 s
+          Time:  0.000600975 s
         Inverse
-          Time:  0.000634208 s
+          Time:  0.000622606 s
         Error: 6079.73
 
   C <-> C
@@ -6541,9 +6626,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.000594333 s
+          Time:  0.000596858 s
         Inverse
-          Time:  0.000650945 s
+          Time:  0.000641861 s
         Error: 8351.81
 
 
@@ -6554,33 +6639,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.00272543 s
+        Time:  0.00162129 s
 
       OpenCL (4 queues)
-        Time:  0.00118661 s
+        Time:  0.001169 s
 
     FFT
       clFFT
         Direct
-          Time:  0.00106927 s
+          Time:  0.00108135 s
         Inverse
-          Time:  0.00129604 s
+          Time:  0.00128031 s
         Error: 25537.5
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.00163332 s
+        Time:  0.00158945 s
 
       OpenCL (4 queues)
-        Time:  0.00189006 s
+        Time:  0.00183746 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.00134096 s
+          Time:  0.00132159 s
         Inverse
-          Time:  0.00147478 s
+          Time:  0.00143229 s
         Error: 35080.5
 
 
@@ -6592,9 +6677,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00143103 s
+          Time:  0.00144472 s
         Inverse
-          Time:  0.00151315 s
+          Time:  0.00153542 s
         Error: 25537.5
 
   C <-> C
@@ -6602,9 +6687,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00138462 s
+          Time:  0.0013919 s
         Inverse
-          Time:  0.00152688 s
+          Time:  0.00151865 s
         Error: 35080.5
 
 
@@ -6616,9 +6701,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.00149134 s
+          Time:  0.0014912 s
         Inverse
-          Time:  0.00157011 s
+          Time:  0.0015594 s
         Error: 25537.5
 
   C <-> C
@@ -6626,9 +6711,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.00146732 s
+          Time:  0.0030258 s
         Inverse
-          Time:  0.00167102 s
+          Time:  0.00161919 s
         Error: 35080.5
 
 
@@ -6639,33 +6724,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.00558099 s
+        Time:  0.00559632 s
 
       OpenCL (4 queues)
-        Time:  0.00353914 s
+        Time:  0.00356997 s
 
     FFT
       clFFT
         Direct
-          Time:  0.00239933 s
+          Time:  0.00237678 s
         Inverse
-          Time:  0.00332663 s
+          Time:  0.00326577 s
         Error: 99313.7
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.0049776 s
+        Time:  0.00504929 s
 
       OpenCL (4 queues)
-        Time:  0.00564093 s
+        Time:  0.00685893 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.00316147 s
+          Time:  0.0038192 s
         Inverse
-          Time:  0.00349209 s
+          Time:  0.00349446 s
         Error: 136427
 
 
@@ -6677,9 +6762,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00340328 s
+          Time:  0.00342947 s
         Inverse
-          Time:  0.00379124 s
+          Time:  0.00391826 s
         Error: 99313.7
 
   C <-> C
@@ -6687,9 +6772,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00327123 s
+          Time:  0.00332503 s
         Inverse
-          Time:  0.00362607 s
+          Time:  0.0037345 s
         Error: 136427
 
 
@@ -6701,9 +6786,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.00368037 s
+          Time:  0.0036449 s
         Inverse
-          Time:  0.00397282 s
+          Time:  0.00393663 s
         Error: 99313.7
 
   C <-> C
@@ -6711,9 +6796,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.00346723 s
+          Time:  0.00348117 s
         Inverse
-          Time:  0.0041458 s
+          Time:  0.00406768 s
         Error: 136427
 
 
@@ -6724,33 +6809,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.0204259 s
+        Time:  0.0208516 s
 
       OpenCL (4 queues)
-        Time:  0.0106155 s
+        Time:  0.0106454 s
 
     FFT
       clFFT
         Direct
-          Time:  0.0080461 s
+          Time:  0.00790742 s
         Inverse
-          Time:  0.0115308 s
+          Time:  0.0115912 s
         Error: 417124
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.0174585 s
+        Time:  0.0160216 s
 
       OpenCL (4 queues)
-        Time:  0.025384 s
+        Time:  0.0248653 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.0110677 s
+          Time:  0.0108135 s
         Inverse
-          Time:  0.0126419 s
+          Time:  0.0125312 s
         Error: 572995
 
 
@@ -6762,9 +6847,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.0124372 s
+          Time:  0.0123089 s
         Inverse
-          Time:  0.0140843 s
+          Time:  0.0139209 s
         Error: 417124
 
   C <-> C
@@ -6772,9 +6857,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.0114634 s
+          Time:  0.0113043 s
         Inverse
-          Time:  0.0129782 s
+          Time:  0.0129913 s
         Error: 572995
 
 
@@ -6786,9 +6871,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.013358 s
+          Time:  0.0131432 s
         Inverse
-          Time:  0.0147552 s
+          Time:  0.0142997 s
         Error: 417124
 
   C <-> C
@@ -6796,9 +6881,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0120272 s
+          Time:  0.0115545 s
         Inverse
-          Time:  0.0145747 s
+          Time:  0.0141326 s
         Error: 572995
 
 
@@ -6809,33 +6894,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.0832742 s
+        Time:  0.0827374 s
 
       OpenCL (4 queues)
-        Time:  0.0817309 s
+        Time:  0.0722606 s
 
     FFT
       clFFT
         Direct
-          Time:  0.0353926 s
+          Time:  0.0339895 s
         Inverse
-          Time:  0.0494732 s
+          Time:  0.0467529 s
         Error: 1.62067e+06
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.125604 s
+        Time:  0.120671 s
 
       OpenCL (4 queues)
-        Time:  0.123969 s
+        Time:  0.12402 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.0622974 s
+          Time:  0.0614729 s
         Inverse
-          Time:  0.0684197 s
+          Time:  0.0677896 s
         Error: 2.29198e+06
 
 
@@ -6847,9 +6932,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.0647165 s
+          Time:  0.0652862 s
         Inverse
-          Time:  0.0794214 s
+          Time:  0.0764802 s
         Error: 1.62067e+06
 
   C <-> C
@@ -6857,9 +6942,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.0654929 s
+          Time:  0.0633298 s
         Inverse
-          Time:  0.073829 s
+          Time:  0.0715875 s
         Error: 2.29198e+06
 
 
@@ -6871,9 +6956,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0688935 s
+          Time:  0.0692123 s
         Inverse
-          Time:  0.0817603 s
+          Time:  0.0792539 s
         Error: 1.62067e+06
 
   C <-> C
@@ -6881,9 +6966,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0677896 s
+          Time:  0.0653746 s
         Inverse
-          Time:  0.0783032 s
+          Time:  0.0767028 s
         Error: 2.29198e+06
 
 
@@ -6894,33 +6979,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.282801 s
+        Time:  0.277342 s
 
       OpenCL (4 queues)
-        Time:  0.253836 s
+        Time:  0.2484 s
 
     FFT
       clFFT
         Direct
-          Time:  0.120452 s
+          Time:  0.120627 s
         Inverse
-          Time:  0.165867 s
+          Time:  0.16167 s
         Error: 5.78812e+06
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.427117 s
+        Time:  0.418187 s
 
       OpenCL (4 queues)
-        Time:  0.425263 s
+        Time:  0.418213 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.211343 s
+          Time:  0.208785 s
         Inverse
-          Time:  0.234135 s
+          Time:  0.234061 s
         Error: 8.18564e+06
 
 
@@ -6932,9 +7017,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.221373 s
+          Time:  0.224547 s
         Inverse
-          Time:  0.285213 s
+          Time:  0.271838 s
         Error: 5.78812e+06
 
   C <-> C
@@ -6942,9 +7027,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.220915 s
+          Time:  0.216267 s
         Inverse
-          Time:  0.248497 s
+          Time:  0.245616 s
         Error: 8.18564e+06
 
 
@@ -6956,9 +7041,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.238095 s
+          Time:  0.244178 s
         Inverse
-          Time:  0.280184 s
+          Time:  0.278817 s
         Error: 5.78812e+06
 
   C <-> C
@@ -6966,9 +7051,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.228119 s
+          Time:  0.228597 s
         Inverse
-          Time:  0.268338 s
+          Time:  0.268246 s
         Error: 8.18564e+06
 
 
@@ -6979,33 +7064,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  1.14474 s
+        Time:  1.14236 s
 
       OpenCL (4 queues)
-        Time:  1.03342 s
+        Time:  1.01378 s
 
     FFT
       clFFT
         Direct
-          Time:  0.495755 s
+          Time:  0.501848 s
         Inverse
-          Time:  0.662396 s
+          Time:  0.671114 s
         Error: 2.43101e+07
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  1.739 s
+        Time:  1.83757 s
 
       OpenCL (4 queues)
-        Time:  1.73034 s
+        Time:  1.78656 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.857791 s
+          Time:  0.892129 s
         Inverse
-          Time:  0.952628 s
+          Time:  0.991866 s
         Error: 3.43797e+07
 
 
@@ -7017,9 +7102,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.916639 s
+          Time:  0.948624 s
         Inverse
-          Time:  1.10791 s
+          Time:  1.14402 s
         Error: 2.43101e+07
 
   C <-> C
@@ -7027,9 +7112,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.892654 s
+          Time:  0.905594 s
         Inverse
-          Time:  1.00672 s
+          Time:  1.03419 s
         Error: 3.43797e+07
 
 
@@ -7041,9 +7126,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.986406 s
+          Time:  1.00363 s
         Inverse
-          Time:  1.14947 s
+          Time:  1.18869 s
         Error: 2.43101e+07
 
   C <-> C
@@ -7051,9 +7136,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.926004 s
+          Time:  0.949865 s
         Inverse
-          Time:  1.10392 s
+          Time:  1.129 s
         Error: 3.43797e+07
 
 
@@ -7064,33 +7149,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000332016 s
+        Time:  0.000354827 s
 
       OpenCL (4 queues)
-        Time:  0.000431821 s
+        Time:  0.000463212 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000285162 s
+          Time:  0.000319177 s
         Inverse
-          Time:  0.000296294 s
+          Time:  0.000304633 s
         Error: 96.6226
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000333535 s
+        Time:  0.000383816 s
 
       OpenCL (4 queues)
-        Time:  0.000466006 s
+        Time:  0.000500158 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000233535 s
+          Time:  0.000238985 s
         Inverse
-          Time:  0.000239437 s
+          Time:  0.00024436 s
         Error: 136.645
 
 
@@ -7102,9 +7187,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000274122 s
+          Time:  0.000278073 s
         Inverse
-          Time:  0.000243803 s
+          Time:  0.00024536 s
         Error: 96.6226
 
   C <-> C
@@ -7112,9 +7197,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000239313 s
+          Time:  0.000256963 s
         Inverse
-          Time:  0.000262183 s
+          Time:  0.000246382 s
         Error: 136.645
 
 
@@ -7126,9 +7211,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.000234629 s
+          Time:  0.000244543 s
         Inverse
-          Time:  0.000244124 s
+          Time:  0.000256252 s
         Error: 96.6226
 
   C <-> C
@@ -7136,9 +7221,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.000243541 s
+          Time:  0.00025546 s
         Inverse
-          Time:  0.000250432 s
+          Time:  0.000246673 s
         Error: 136.645
 
 
@@ -7149,33 +7234,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000335583 s
+        Time:  0.000336819 s
 
       OpenCL (4 queues)
-        Time:  0.000445399 s
+        Time:  0.000436796 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000271034 s
+          Time:  0.000293866 s
         Inverse
-          Time:  0.000289241 s
+          Time:  0.000287241 s
         Error: 382.625
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000334721 s
+        Time:  0.000352558 s
 
       OpenCL (4 queues)
-        Time:  0.000488237 s
+        Time:  0.000478577 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000267017 s
+          Time:  0.000258022 s
         Inverse
-          Time:  0.000257122 s
+          Time:  0.000258492 s
         Error: 541.113
 
 
@@ -7187,9 +7272,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000289298 s
+          Time:  0.000283318 s
         Inverse
-          Time:  0.000269851 s
+          Time:  0.000257698 s
         Error: 382.625
 
   C <-> C
@@ -7197,9 +7282,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000250439 s
+          Time:  0.000256766 s
         Inverse
-          Time:  0.000268057 s
+          Time:  0.00025683 s
         Error: 541.113
 
 
@@ -7211,9 +7296,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.000265852 s
+          Time:  0.000257421 s
         Inverse
-          Time:  0.000254239 s
+          Time:  0.000268118 s
         Error: 382.625
 
   C <-> C
@@ -7221,9 +7306,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.000253034 s
+          Time:  0.00025864 s
         Inverse
-          Time:  0.000263954 s
+          Time:  0.000254586 s
         Error: 541.113
 
 
@@ -7234,33 +7319,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.00041483 s
+        Time:  0.000413744 s
 
       OpenCL (4 queues)
-        Time:  0.000478244 s
+        Time:  0.000485797 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000317525 s
+          Time:  0.000295467 s
         Inverse
-          Time:  0.000321267 s
+          Time:  0.00032155 s
         Error: 1534.62
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000449923 s
+        Time:  0.000412266 s
 
       OpenCL (4 queues)
-        Time:  0.000534889 s
+        Time:  0.000530348 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000300753 s
+          Time:  0.000296994 s
         Inverse
-          Time:  0.000300598 s
+          Time:  0.000304185 s
         Error: 2170.29
 
 
@@ -7272,9 +7357,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000333075 s
+          Time:  0.000331919 s
         Inverse
-          Time:  0.000303084 s
+          Time:  0.000308822 s
         Error: 1534.62
 
   C <-> C
@@ -7282,9 +7367,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000294743 s
+          Time:  0.000300947 s
         Inverse
-          Time:  0.000316446 s
+          Time:  0.00030641 s
         Error: 2170.29
 
 
@@ -7296,9 +7381,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.000300955 s
+          Time:  0.000292528 s
         Inverse
-          Time:  0.000309913 s
+          Time:  0.000323054 s
         Error: 1534.62
 
   C <-> C
@@ -7306,9 +7391,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.000302341 s
+          Time:  0.000307422 s
         Inverse
-          Time:  0.000310639 s
+          Time:  0.000310538 s
         Error: 2170.29
 
 
@@ -7319,33 +7404,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.000713203 s
+        Time:  0.000685908 s
 
       OpenCL (4 queues)
-        Time:  0.000657643 s
+        Time:  0.000643255 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000393869 s
+          Time:  0.000398373 s
         Inverse
-          Time:  0.000455991 s
+          Time:  0.000487695 s
         Error: 6142.62
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.000642007 s
+        Time:  0.000680121 s
 
       OpenCL (4 queues)
-        Time:  0.000793356 s
+        Time:  0.000873837 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.000425312 s
+          Time:  0.000532814 s
         Inverse
-          Time:  0.000464232 s
+          Time:  0.000527136 s
         Error: 8686.98
 
 
@@ -7357,9 +7442,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000482456 s
+          Time:  0.00052218 s
         Inverse
-          Time:  0.000479756 s
+          Time:  0.000549178 s
         Error: 6142.62
 
   C <-> C
@@ -7367,9 +7452,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.000697419 s
+          Time:  0.00047061 s
         Inverse
-          Time:  0.000469029 s
+          Time:  0.000529897 s
         Error: 8686.98
 
 
@@ -7381,9 +7466,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.000438974 s
+          Time:  0.000492436 s
         Inverse
-          Time:  0.00047106 s
+          Time:  0.000491569 s
         Error: 6142.62
 
   C <-> C
@@ -7391,9 +7476,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.000454547 s
+          Time:  0.000580276 s
         Inverse
-          Time:  0.00050784 s
+          Time:  0.000531403 s
         Error: 8686.98
 
 
@@ -7404,33 +7489,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.00176114 s
+        Time:  0.0017704 s
 
       OpenCL (4 queues)
-        Time:  0.00120243 s
+        Time:  0.00121947 s
 
     FFT
       clFFT
         Direct
-          Time:  0.000747052 s
+          Time:  0.000784905 s
         Inverse
-          Time:  0.00100075 s
+          Time:  0.000986288 s
         Error: 24570.6
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.0016921 s
+        Time:  0.00176546 s
 
       OpenCL (4 queues)
-        Time:  0.00182143 s
+        Time:  0.00190064 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.0010042 s
+          Time:  0.00116435 s
         Inverse
-          Time:  0.00110345 s
+          Time:  0.00161101 s
         Error: 34748.1
 
 
@@ -7442,9 +7527,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00106467 s
+          Time:  0.00112609 s
         Inverse
-          Time:  0.00109938 s
+          Time:  0.00118364 s
         Error: 24570.6
 
   C <-> C
@@ -7452,9 +7537,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00109371 s
+          Time:  0.00106568 s
         Inverse
-          Time:  0.0011722 s
+          Time:  0.00116887 s
         Error: 34748.1
 
 
@@ -7466,9 +7551,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.00107125 s
+          Time:  0.00116248 s
         Inverse
-          Time:  0.00113893 s
+          Time:  0.00114928 s
         Error: 24570.6
 
   C <-> C
@@ -7476,9 +7561,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.00106532 s
+          Time:  0.0011063 s
         Inverse
-          Time:  0.00122881 s
+          Time:  0.00127358 s
         Error: 34748.1
 
 
@@ -7489,33 +7574,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.00627013 s
+        Time:  0.00633588 s
 
       OpenCL (4 queues)
-        Time:  0.00376585 s
+        Time:  0.003769 s
 
     FFT
       clFFT
         Direct
-          Time:  0.00195093 s
+          Time:  0.00199657 s
         Inverse
-          Time:  0.00279256 s
+          Time:  0.00281874 s
         Error: 98301.6
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.00546483 s
+        Time:  0.00559323 s
 
       OpenCL (4 queues)
-        Time:  0.00568699 s
+        Time:  0.00574115 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.00279095 s
+          Time:  0.00282978 s
         Inverse
-          Time:  0.00313663 s
+          Time:  0.00319881 s
         Error: 139019
 
 
@@ -7527,9 +7612,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00294079 s
+          Time:  0.00303647 s
         Inverse
-          Time:  0.0033185 s
+          Time:  0.00342054 s
         Error: 98301.6
 
   C <-> C
@@ -7537,9 +7622,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.00279483 s
+          Time:  0.00288941 s
         Inverse
-          Time:  0.0032569 s
+          Time:  0.00347935 s
         Error: 139019
 
 
@@ -7551,9 +7636,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.00318951 s
+          Time:  0.00319867 s
         Inverse
-          Time:  0.00343141 s
+          Time:  0.00344033 s
         Error: 98301.6
 
   C <-> C
@@ -7561,9 +7646,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.00288827 s
+          Time:  0.00291066 s
         Inverse
-          Time:  0.00361893 s
+          Time:  0.00360737 s
         Error: 139019
 
 
@@ -7574,33 +7659,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.0216247 s
+        Time:  0.0207722 s
 
       OpenCL (4 queues)
-        Time:  0.0103337 s
+        Time:  0.0102816 s
 
     FFT
       clFFT
         Direct
-          Time:  0.0062892 s
+          Time:  0.00644273 s
         Inverse
-          Time:  0.00973084 s
+          Time:  0.00965789 s
         Error: 393215
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.0170575 s
+        Time:  0.0170581 s
 
       OpenCL (4 queues)
-        Time:  0.0213188 s
+        Time:  0.0210672 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.00966441 s
+          Time:  0.00971575 s
         Inverse
-          Time:  0.0111142 s
+          Time:  0.011057 s
         Error: 556089
 
 
@@ -7612,9 +7697,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.0104471 s
+          Time:  0.010314 s
         Inverse
-          Time:  0.0120457 s
+          Time:  0.0123514 s
         Error: 393215
 
   C <-> C
@@ -7622,9 +7707,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.0100158 s
+          Time:  0.0105299 s
         Inverse
-          Time:  0.0115381 s
+          Time:  0.0117052 s
         Error: 556089
 
 
@@ -7636,9 +7721,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0112142 s
+          Time:  0.0114295 s
         Inverse
-          Time:  0.0125531 s
+          Time:  0.0127354 s
         Error: 393215
 
   C <-> C
@@ -7646,9 +7731,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0104124 s
+          Time:  0.0107003 s
         Inverse
-          Time:  0.0129491 s
+          Time:  0.0133499 s
         Error: 556089
 
 
@@ -7659,33 +7744,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.0859859 s
+        Time:  0.0841273 s
 
       OpenCL (4 queues)
-        Time:  0.0738378 s
+        Time:  0.0679086 s
 
     FFT
       clFFT
         Direct
-          Time:  0.0340501 s
+          Time:  0.0324786 s
         Inverse
-          Time:  0.0473056 s
+          Time:  0.0440793 s
         Error: 1.57286e+06
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.128127 s
+        Time:  0.12441 s
 
       OpenCL (4 queues)
-        Time:  0.120656 s
+        Time:  0.117239 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.0535573 s
+          Time:  0.0522827 s
         Inverse
-          Time:  0.0600262 s
+          Time:  0.0587314 s
         Error: 2.22436e+06
 
 
@@ -7697,9 +7782,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.0627191 s
+          Time:  0.0614735 s
         Inverse
-          Time:  0.0771767 s
+          Time:  0.0732476 s
         Error: 1.57286e+06
 
   C <-> C
@@ -7707,9 +7792,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.0578233 s
+          Time:  0.0547426 s
         Inverse
-          Time:  0.0642219 s
+          Time:  0.0627014 s
         Error: 2.22436e+06
 
 
@@ -7721,9 +7806,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0679466 s
+          Time:  0.0666625 s
         Inverse
-          Time:  0.0790943 s
+          Time:  0.0754791 s
         Error: 1.57286e+06
 
   C <-> C
@@ -7731,9 +7816,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.0586434 s
+          Time:  0.0566486 s
         Inverse
-          Time:  0.0697931 s
+          Time:  0.067872 s
         Error: 2.22436e+06
 
 
@@ -7744,33 +7829,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  0.337011 s
+        Time:  0.329354 s
 
       OpenCL (4 queues)
-        Time:  0.275062 s
+        Time:  0.27267 s
 
     FFT
       clFFT
         Direct
-          Time:  0.130787 s
+          Time:  0.130826 s
         Inverse
-          Time:  0.17954 s
+          Time:  0.177493 s
         Error: 6.29145e+06
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  0.491804 s
+        Time:  0.489761 s
 
       OpenCL (4 queues)
-        Time:  0.459216 s
+        Time:  0.452137 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.207591 s
+          Time:  0.202911 s
         Inverse
-          Time:  0.232888 s
+          Time:  0.228235 s
         Error: 8.89746e+06
 
 
@@ -7782,9 +7867,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.241433 s
+          Time:  0.239001 s
         Inverse
-          Time:  0.293452 s
+          Time:  0.287251 s
         Error: 6.29145e+06
 
   C <-> C
@@ -7792,9 +7877,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.216797 s
+          Time:  0.211742 s
         Inverse
-          Time:  0.246896 s
+          Time:  0.244246 s
         Error: 8.89746e+06
 
 
@@ -7806,9 +7891,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.258797 s
+          Time:  0.256491 s
         Inverse
-          Time:  0.304525 s
+          Time:  0.300047 s
         Error: 6.29145e+06
 
   C <-> C
@@ -7816,9 +7901,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.226385 s
+          Time:  0.220708 s
         Inverse
-          Time:  0.269349 s
+          Time:  0.266714 s
         Error: 8.89746e+06
 
 
@@ -7829,33 +7914,33 @@ N coils: 1
 
     Multiplication
       OpenCL (1 queues)
-        Time:  1.28062 s
+        Time:  1.28058 s
 
       OpenCL (4 queues)
-        Time:  1.06885 s
+        Time:  1.06746 s
 
     FFT
       clFFT
         Direct
-          Time:  0.514657 s
+          Time:  0.522755 s
         Inverse
-          Time:  0.688392 s
+          Time:  0.695449 s
         Error: 2.51658e+07
 
   C <-> C
 
       OpenCL (1 queues)
-        Time:  1.90275 s
+        Time:  1.90292 s
 
       OpenCL (4 queues)
-        Time:  1.79873 s
+        Time:  1.79175 s
 
     FFT
       OpenCL
         Direct
-          Time:  0.818725 s
+          Time:  0.821376 s
         Inverse
-          Time:  0.914757 s
+          Time:  0.918466 s
         Error: 3.55898e+07
 
 
@@ -7867,9 +7952,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.948064 s
+          Time:  0.955383 s
         Inverse
-          Time:  1.14517 s
+          Time:  1.14949 s
         Error: 2.51658e+07
 
   C <-> C
@@ -7877,9 +7962,9 @@ N coils: 1
     FFT
       clFFT
         Direct
-          Time:  0.845101 s
+          Time:  0.83681 s
         Inverse
-          Time:  0.960938 s
+          Time:  0.964427 s
         Error: 3.55898e+07
 
 
@@ -7891,9 +7976,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  1.01796 s
+          Time:  1.02847 s
         Inverse
-          Time:  1.18844 s
+          Time:  1.19128 s
         Error: 2.51658e+07
 
   C <-> C
@@ -7901,9 +7986,9 @@ N coils: 1
     FFT
       OpenCL
         Direct
-          Time:  0.878719 s
+          Time:  0.877325 s
         Inverse
-          Time:  1.06292 s
+          Time:  1.07153 s
         Error: 3.55898e+07
 
 
