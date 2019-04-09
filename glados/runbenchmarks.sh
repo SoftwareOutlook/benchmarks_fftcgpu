@@ -2,30 +2,15 @@
 
 export OMP_PROC_BIND=spread
 
-#PROG=/home/pgambron/GPU/cuda/test
+PROG=/home/pgambron/GPU/cuda/test
 #PROG=/home/pgambron/GPU/kokkos/test
 #PROG=/home/pgambron/GPU/opencl/test
 #PROG=/home/pgambron/GPU/openacc/test
-PROG=/home/pgambron/GPU/openmp/test
-
-echo "===================================="
-echo $PROG
-echo
-
-#PROG=/home/pgambron/GPU/cuda/test
-#PROG=/home/pgambron/GPU/kokkos/test
-#PROG=/home/pgambron/GPU/opencl/test
-PROG=/home/pgambron/GPU/openacc/test
 #PROG=/home/pgambron/GPU/openmp/test
 
 echo "===================================="
 echo $PROG
 echo
-
-echo "===================================="
-echo $PROG
-echo
-
 
 
 # 3D
@@ -37,8 +22,9 @@ echo
 $PROG 256 256 256 32 
 
 # product of small primes 2*3*5*7=210
-$PROG 210 210 210 32 
-
+$PROG 210 210 210 32
+# product of small primes 2**2*3**2*7
+$PROG 252 252 252 32 
 # prime numbers 257 
 $PROG 257 257 257 32 
 
@@ -47,6 +33,8 @@ $PROG 257 257 257 32
 # Regular tests
 # powers of 2
 # square
+$PROG 32 32 32 1 
+$PROG 64 64 64 1 
 $PROG 128 128 128 1 
 $PROG 256 256 256 1 
 $PROG 512 512 512 1   
@@ -70,6 +58,9 @@ $PROG 131072 32 32 1
 #2 2 3 1   31500
 
 #square
+$PROG 30 30 30 1
+$PROG 70 70 70 1
+$PROG 105 105 105 1
 $PROG 210 210 210 1 
 $PROG 420 420 420 1 
 
@@ -82,6 +73,9 @@ $PROG 82320 30 30 1
 # primes
 # 11 13 127 257 509 1021 2053 4093 8191 16381 32771
 # square
+
+$PROG 31 31 31 1
+$PROG 61 61 61 1
 $PROG 127 127 127 1 
 $PROG 257 257 257 1 
 $PROG 509 509 509 1   
@@ -90,14 +84,6 @@ $PROG 509 509 509 1
 $PROG 32771 7 7 1 
 $PROG 65537 17 17 1 
 $PROG 131071 31 31 1 
-<<<<<<< HEAD
-=======
-
-
-
-
-
-
 
 
 
@@ -254,4 +240,4 @@ $PROG 1048573 1 1 1
 $PROG 4194301 1 1 1 
 $PROG 16777213 1 1 1 
 $PROG 67108859 1 1 1 
->>>>>>> 9c13b58ecccf05655c39f20bb6a3dc2dd1f2f531
+

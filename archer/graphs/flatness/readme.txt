@@ -1,0 +1,20 @@
+3D
+powers2
+
+N_x=ratio*ratio*512 N_y=512/ratio N_z=512/ratio
+
+ratio varies from 1 to 512 by factors of 2
+
+1 thread, 1 coil
+
+512 512 512
+2048 256 256
+8192 128 128
+32768 64 64
+131072 32 32
+524288 16 16
+2097152 8 8
+8388608 4 4
+33554432 2 2
+134217728 1 1
+
