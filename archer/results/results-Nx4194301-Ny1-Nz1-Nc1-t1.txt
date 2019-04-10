@@ -7,12 +7,42 @@ N coils: 1
 
     FFTW
       Direct
-        Time:  1.46058 s
+        Time:  1.62775 s
       Inverse
-        Time:  1.4997 s
+        Time:  1.64701 s
       Error: 1.6509e-09
 
     GSL
       Direct
-Application 34009764 exit signals: Terminated
-Application 34009764 resources: utime ~14410s, stime ~1s, Rss ~516504, inblocks ~1292, outblocks ~2496
+        Time:  7e-08 s
+      Inverse
+        Time:  5.9e-08 s
+      Error: 1.6509e-09
+
+    MKL
+      Direct
+        Time:  0.49698 s
+      Inverse
+        Time:  0.499872 s
+      Error: 1.6509e-09
+
+    FFTPACK
+      Direct
+        Time:  6.7e-08 s
+      Inverse
+        Time:  5.5e-08 s
+      Error: 1.6509e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  1.29413 s
+      Inverse
+        Time:  1.3212 s
+      Error: 2.88751e-09
+
+    GSL
+      Direct
+        Time:  1.2534 s
+      Inverse
