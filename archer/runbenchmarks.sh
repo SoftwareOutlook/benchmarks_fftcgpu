@@ -11,7 +11,7 @@ qsub -v N_X=256,N_Y=256,N_Z=256,N_COILS=32 benchmark.sh
 
 # product of small primes 2*3*5*7=210
 qsub -v N_X=210,N_Y=210,N_Z=210,N_COILS=32 benchmark.sh 
-
+qsub -v N_X=252,N_Y=252,N_Z=252,N_COILS=32 benchmark.sh 
 # prime numbers 257 
 qsub -v N_X=257,N_Y=257,N_Z=257,N_COILS=32 benchmark.sh 
 
