@@ -1,3 +1,21 @@
+#!/bin/bash --login
+#
+# Parallel script produced by bolt
+#        Resource: ARCHER (Cray XC30 (24-core per node))
+#    Batch system: PBSPro_select
+#
+# bolt is written by EPCC (http://www.epcc.ed.ac.uk)
+#
+#PBS -l select=1
+#PBS -N benchmark-FFT
+#PBS -A c01-hec
+#PBS -l walltime=8:0:0
+
+# Switch to current working directory
+cd $PBS_O_WORKDIR
+
+
+
 export KMP_AFFINITY=disabled
 source ${DATA}/FFTC/init-archer.sh
 PROG=${DATA}/FFTC/test
