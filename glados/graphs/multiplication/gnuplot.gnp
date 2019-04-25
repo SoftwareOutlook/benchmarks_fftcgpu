@@ -1,0 +1,12 @@
+set terminal pdf
+set boxwidth 0.75
+set style fill solid 1.0
+set xtics rotate 270
+set ylabel "Time (s)"
+set title "Multiplication"
+
+set output "multiplicationr.pdf"
+plot "multiplication.dat" using 2:xtic(1) with boxes lc rgb "blue" title ""
+
+set output "multiplication3.pdf"
+plot "multiplication.dat" using 3:xtic(1) with boxes lc rgb "blue" title ""

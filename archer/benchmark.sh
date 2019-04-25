@@ -23,19 +23,73 @@ PROG=${DATA}/FFTC/test
 NAME=results/results-Nx${N_X}-Ny${N_Y}-Nz${N_Z}-Nc${N_COILS}
 
 export OMP_NUM_THREADS=1
-aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS > ${NAME}-t${OMP_NUM_THREADS}.txt 
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >  ${NAME}-t${OMP_NUM_THREADS}.txt 
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt 
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt 
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt 
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt 
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
 
 export OMP_NUM_THREADS=2
-aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS > ${NAME}-t${OMP_NUM_THREADS}.txt 
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >  ${NAME}-t${OMP_NUM_THREADS}.txt 
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt 
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt 
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
 
 export OMP_NUM_THREADS=4
-aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS > ${NAME}-t${OMP_NUM_THREADS}.txt 
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >  ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
 
 export OMP_NUM_THREADS=8
-aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS > ${NAME}-t${OMP_NUM_THREADS}.txt 
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >  ${NAME}-t${OMP_NUM_THREADS}.txt 
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt 
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt 
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt 
 
 export OMP_NUM_THREADS=16
-aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS > ${NAME}-t${OMP_NUM_THREADS}.txt 
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >  ${NAME}-t${OMP_NUM_THREADS}.txt 
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt 
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt 
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
 
 export OMP_NUM_THREADS=24
-aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS > ${NAME}-t${OMP_NUM_THREADS}.txt 
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >  ${NAME}-t${OMP_NUM_THREADS}.txt 
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt
+aprun -n 1 -N 1 -d 24  $PROG $N_X $N_Y $N_Z $N_COILS >> ${NAME}-t${OMP_NUM_THREADS}.txt 
