@@ -35,7 +35,7 @@ PRIMES_1D=(257 1021 4093 16381 65521 262139 1048573 4194301 16777213 67108859)
 
 export OMP_NUM_THREADS=1
 
-FILE=powers2-3d.txt
+FILE=results/powers2-3d.txt
 echo "" > $FILE
 for N in ${POWERS2_3D[@]}
 do
@@ -47,7 +47,7 @@ do
   done
 done
 
-FILE=productintegers-3d.txt
+FILE=results/productintegers-3d.txt
 echo "" > $FILE
 for N in ${PRODUCT_INTEGERS_3D[@]}
 do
@@ -59,7 +59,7 @@ do
   done
 done
 
-FILE=primes-3d.txt
+FILE=results/primes-3d.txt
 echo "" > $FILE
 for N in ${PRIMES_3D[@]}
 do
@@ -71,7 +71,7 @@ do
   done
 done
 
-FILE=powers2-1d.txt
+FILE=results/powers2-1d.txt
 echo "" > $FILE
 for N in ${POWERS2_1D[@]}
 do
@@ -83,7 +83,7 @@ do
   done
 done
 
-FILE=productintegers-1d.txt
+FILE=results/productintegers-1d.txt
 echo "" > $FILE
 for N in ${PRODUCT_INTEGERS_1D[@]}
 do
@@ -95,7 +95,7 @@ do
   done
 done
 
-FILE=primes-1d.txt
+FILE=results/primes-1d.txt
 echo "" > $FILE
 for N in ${PRIMES_1D[@]}
 do
@@ -110,9 +110,9 @@ done
 
 MULTITHREADING=(1 2 4 8 16 24)
 N=512
-FILE=multithreading.txt
+FILE=results/multithreading.txt
 echo "" > $FILE
-for N_THREADS in ${MULITHREADING[@]}
+for N_THREADS in ${MULTITHREADING[@]}
 do
   echo "================" >> $FILE   
   export OMP_NUM_THREADS=$N_THREADS 
@@ -125,7 +125,7 @@ done
 
 
 export OMP_NUM_THREADS=1
-FILE=ccppetmr.txt
+FILE=results/ccppetmr.txt
 CCPPETMR=(252 256 257)
 N_COILS=32
 echo "" > $FILE
