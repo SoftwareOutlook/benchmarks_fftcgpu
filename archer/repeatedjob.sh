@@ -9,7 +9,7 @@
 #PBS -l select=1
 #PBS -N benchmark-FFT
 #PBS -A c01-hec
-#PBS -l walltime=8:0:0
+#PBS -l walltime=16:0:0
 
 # Switch to current working directory
 cd $PBS_O_WORKDIR
@@ -79,7 +79,7 @@ do
   for ((I_RUN=0; I_RUN<$N_RUNS; I_RUN++))
   do
     echo "----------------" >> $FILE
-    aprun -n 1 -N 1 -d 24 $PROG $N $N $N $N_COILS >> $FILE
+    aprun -n 1 -N 1 -d 24 $PROG $N 1 1 $N_COILS >> $FILE
   done
 done
 
@@ -91,7 +91,7 @@ do
   for ((I_RUN=0; I_RUN<$N_RUNS; I_RUN++))
   do
     echo "----------------" >> $FILE
-    aprun -n 1 -N 1 -d 24 $PROG $N $N $N $N_COILS >> $FILE
+    aprun -n 1 -N 1 -d 24 $PROG $N 1 1 $N_COILS >> $FILE
   done
 done
 
@@ -103,7 +103,7 @@ do
   for ((I_RUN=0; I_RUN<$N_RUNS; I_RUN++))
   do
     echo "----------------" >> $FILE
-    aprun -n 1 -N 1 -d 24 $PROG $N $N $N $N_COILS >> $FILE
+    aprun -n 1 -N 1 -d 24 $PROG $N 1 1 $N_COILS >> $FILE
   done
 done
 
