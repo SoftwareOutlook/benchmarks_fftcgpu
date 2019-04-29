@@ -1,0 +1,6906 @@
+
+================
+----------------
+N threads: 1
+
+Dimensions: 31 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  3.713e-06 s
+      Inverse
+        Time:  1.421e-06 s
+      Error: 2.55262e-15
+
+    GSL
+      Direct
+        Time:  3.5279e-05 s
+      Inverse
+        Time:  2.1132e-05 s
+      Error: 3.05298e-14
+
+    MKL
+      Direct
+        Time:  7.965e-06 s
+      Inverse
+        Time:  9.42e-07 s
+      Error: 3.05298e-14
+
+    FFTPACK
+      Direct
+        Time:  3.9884e-05 s
+      Inverse
+        Time:  2.24e-06 s
+      Error: 3.05298e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.375e-06 s
+      Inverse
+        Time:  1.185e-06 s
+      Error: 3.57956e-15
+
+    GSL
+      Direct
+        Time:  8.31e-07 s
+      Inverse
+        Time:  4.1264e-05 s
+      Error: 5.10533e-15
+
+    MKL
+      Direct
+        Time:  4.221e-06 s
+      Inverse
+        Time:  3.989e-06 s
+      Error: 5.10533e-15
+
+    FFTPACK
+      Direct
+        Time:  1.004e-06 s
+      Inverse
+        Time:  3.968e-06 s
+      Error: 5.10533e-15
+
+
+Dimensions: 31 31 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  2.7395e-05 s
+      Inverse
+        Time:  2.5362e-05 s
+      Error: 7.32765e-14
+
+    MKL
+      Direct
+        Time:  5.4848e-05 s
+      Inverse
+        Time:  3.1656e-05 s
+      Error: 7.32765e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  3.2618e-05 s
+      Inverse
+        Time:  3.5505e-05 s
+      Error: 9.29383e-14
+
+    MKL
+      Direct
+        Time:  3.3095e-05 s
+      Inverse
+        Time:  2.6306e-05 s
+      Error: 9.29383e-14
+
+Dimensions: 31 31 31 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.000999983 s
+      Inverse
+        Time:  0.00119669 s
+      Error: 1.65545e-12
+
+    MKL
+      Direct
+        Time:  0.00104277 s
+      Inverse
+        Time:  0.00103659 s
+      Error: 1.65545e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.00165794 s
+      Inverse
+        Time:  0.00180696 s
+      Error: 2.27163e-12
+
+    MKL
+      Direct
+        Time:  0.00125958 s
+      Inverse
+        Time:  0.00126384 s
+      Error: 2.27163e-12
+
+Application 34832289 resources: utime ~0s, stime ~0s, Rss ~23548, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 31 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  3.906e-06 s
+      Inverse
+        Time:  1.626e-06 s
+      Error: 2.55262e-15
+
+    GSL
+      Direct
+        Time:  3.658e-05 s
+      Inverse
+        Time:  1.7823e-05 s
+      Error: 3.05298e-14
+
+    MKL
+      Direct
+        Time:  8.073e-06 s
+      Inverse
+        Time:  9.62e-07 s
+      Error: 3.05298e-14
+
+    FFTPACK
+      Direct
+        Time:  4.0272e-05 s
+      Inverse
+        Time:  1.5746e-05 s
+      Error: 3.05298e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.392e-06 s
+      Inverse
+        Time:  1.562e-06 s
+      Error: 3.57956e-15
+
+    GSL
+      Direct
+        Time:  8.52e-07 s
+      Inverse
+        Time:  3.3885e-05 s
+      Error: 5.10533e-15
+
+    MKL
+      Direct
+        Time:  1.067e-06 s
+      Inverse
+        Time:  4.038e-06 s
+      Error: 5.10533e-15
+
+    FFTPACK
+      Direct
+        Time:  1.028e-06 s
+      Inverse
+        Time:  1.2676e-05 s
+      Error: 5.10533e-15
+
+
+Dimensions: 31 31 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  2.7562e-05 s
+      Inverse
+        Time:  2.4848e-05 s
+      Error: 7.32765e-14
+
+    MKL
+      Direct
+        Time:  5.4545e-05 s
+      Inverse
+        Time:  2.9301e-05 s
+      Error: 7.32765e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  3.2812e-05 s
+      Inverse
+        Time:  3.5452e-05 s
+      Error: 9.29383e-14
+
+    MKL
+      Direct
+        Time:  3.9639e-05 s
+      Inverse
+        Time:  2.4311e-05 s
+      Error: 9.29383e-14
+
+Dimensions: 31 31 31 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.00100475 s
+      Inverse
+        Time:  0.00118673 s
+      Error: 1.65545e-12
+
+    MKL
+      Direct
+        Time:  0.00102841 s
+      Inverse
+        Time:  0.00100941 s
+      Error: 1.65545e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.00157448 s
+      Inverse
+        Time:  0.00183276 s
+      Error: 2.27163e-12
+
+    MKL
+      Direct
+        Time:  0.00112982 s
+      Inverse
+        Time:  0.00128675 s
+      Error: 2.27163e-12
+
+Application 34832301 resources: utime ~0s, stime ~0s, Rss ~23548, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 31 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  3.921e-06 s
+      Inverse
+        Time:  2.187e-06 s
+      Error: 2.55262e-15
+
+    GSL
+      Direct
+        Time:  3.4552e-05 s
+      Inverse
+        Time:  2.4413e-05 s
+      Error: 3.05298e-14
+
+    MKL
+      Direct
+        Time:  7.71e-06 s
+      Inverse
+        Time:  1.312e-06 s
+      Error: 3.05298e-14
+
+    FFTPACK
+      Direct
+        Time:  4.0812e-05 s
+      Inverse
+        Time:  3.26e-06 s
+      Error: 3.05298e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  3.011e-06 s
+      Inverse
+        Time:  1.572e-06 s
+      Error: 3.57956e-15
+
+    GSL
+      Direct
+        Time:  1.437e-06 s
+      Inverse
+        Time:  8.1762e-05 s
+      Error: 5.10533e-15
+
+    MKL
+      Direct
+        Time:  1.818e-06 s
+      Inverse
+        Time:  5.447e-06 s
+      Error: 5.10533e-15
+
+    FFTPACK
+      Direct
+        Time:  1.04e-06 s
+      Inverse
+        Time:  5.018e-06 s
+      Error: 5.10533e-15
+
+
+Dimensions: 31 31 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  2.6492e-05 s
+      Inverse
+        Time:  2.445e-05 s
+      Error: 7.32765e-14
+
+    MKL
+      Direct
+        Time:  5.9612e-05 s
+      Inverse
+        Time:  3.981e-05 s
+      Error: 7.32765e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  3.232e-05 s
+      Inverse
+        Time:  3.4498e-05 s
+      Error: 9.29383e-14
+
+    MKL
+      Direct
+        Time:  3.4043e-05 s
+      Inverse
+        Time:  3.5128e-05 s
+      Error: 9.29383e-14
+
+Dimensions: 31 31 31 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.00106582 s
+      Inverse
+        Time:  0.00114632 s
+      Error: 1.65545e-12
+
+    MKL
+      Direct
+        Time:  0.00101771 s
+      Inverse
+        Time:  0.00109419 s
+      Error: 1.65545e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.00164344 s
+      Inverse
+        Time:  0.00176802 s
+      Error: 2.27163e-12
+
+    MKL
+      Direct
+        Time:  0.0012486 s
+      Inverse
+        Time:  0.00127068 s
+      Error: 2.27163e-12
+
+Application 34832312 resources: utime ~0s, stime ~0s, Rss ~23548, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 31 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  3.794e-06 s
+      Inverse
+        Time:  1.448e-06 s
+      Error: 2.55262e-15
+
+    GSL
+      Direct
+        Time:  3.8449e-05 s
+      Inverse
+        Time:  2.0602e-05 s
+      Error: 3.05298e-14
+
+    MKL
+      Direct
+        Time:  7.96e-06 s
+      Inverse
+        Time:  9.88e-07 s
+      Error: 3.05298e-14
+
+    FFTPACK
+      Direct
+        Time:  4.0668e-05 s
+      Inverse
+        Time:  1.6705e-05 s
+      Error: 3.05298e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.019e-06 s
+      Inverse
+        Time:  1.463e-06 s
+      Error: 3.57956e-15
+
+    GSL
+      Direct
+        Time:  4.055e-06 s
+      Inverse
+        Time:  4.3001e-05 s
+      Error: 5.10533e-15
+
+    MKL
+      Direct
+        Time:  1.073e-06 s
+      Inverse
+        Time:  4.029e-06 s
+      Error: 5.10533e-15
+
+    FFTPACK
+      Direct
+        Time:  1.056e-06 s
+      Inverse
+        Time:  4.012e-06 s
+      Error: 5.10533e-15
+
+
+Dimensions: 31 31 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  2.7569e-05 s
+      Inverse
+        Time:  2.5063e-05 s
+      Error: 7.32765e-14
+
+    MKL
+      Direct
+        Time:  5.4548e-05 s
+      Inverse
+        Time:  3.4681e-05 s
+      Error: 7.32765e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  3.5021e-05 s
+      Inverse
+        Time:  3.6592e-05 s
+      Error: 9.29383e-14
+
+    MKL
+      Direct
+        Time:  5.1923e-05 s
+      Inverse
+        Time:  2.7926e-05 s
+      Error: 9.29383e-14
+
+Dimensions: 31 31 31 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.00102696 s
+      Inverse
+        Time:  0.00131123 s
+      Error: 1.65545e-12
+
+    MKL
+      Direct
+        Time:  0.000950938 s
+      Inverse
+        Time:  0.00103007 s
+      Error: 1.65545e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.00150953 s
+      Inverse
+        Time:  0.00189098 s
+      Error: 2.27163e-12
+
+    MKL
+      Direct
+        Time:  0.00111402 s
+      Inverse
+        Time:  0.00128997 s
+      Error: 2.27163e-12
+
+Application 34832320 resources: utime ~0s, stime ~0s, Rss ~23548, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 31 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  3.927e-06 s
+      Inverse
+        Time:  1.692e-06 s
+      Error: 2.55262e-15
+
+    GSL
+      Direct
+        Time:  3.5194e-05 s
+      Inverse
+        Time:  1.4562e-05 s
+      Error: 3.05298e-14
+
+    MKL
+      Direct
+        Time:  1.8678e-05 s
+      Inverse
+        Time:  1.03e-06 s
+      Error: 3.05298e-14
+
+    FFTPACK
+      Direct
+        Time:  4.1117e-05 s
+      Inverse
+        Time:  1.6431e-05 s
+      Error: 3.05298e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.567e-06 s
+      Inverse
+        Time:  1.306e-06 s
+      Error: 3.57956e-15
+
+    GSL
+      Direct
+        Time:  8.1e-07 s
+      Inverse
+        Time:  4.0606e-05 s
+      Error: 5.10533e-15
+
+    MKL
+      Direct
+        Time:  1.027e-06 s
+      Inverse
+        Time:  4.068e-06 s
+      Error: 5.10533e-15
+
+    FFTPACK
+      Direct
+        Time:  1.008e-06 s
+      Inverse
+        Time:  4.055e-06 s
+      Error: 5.10533e-15
+
+
+Dimensions: 31 31 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  2.7418e-05 s
+      Inverse
+        Time:  2.5528e-05 s
+      Error: 7.32765e-14
+
+    MKL
+      Direct
+        Time:  5.8849e-05 s
+      Inverse
+        Time:  2.9186e-05 s
+      Error: 7.32765e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  3.3063e-05 s
+      Inverse
+        Time:  3.5403e-05 s
+      Error: 9.29383e-14
+
+    MKL
+      Direct
+        Time:  3.2476e-05 s
+      Inverse
+        Time:  1.9571e-05 s
+      Error: 9.29383e-14
+
+Dimensions: 31 31 31 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.00100378 s
+      Inverse
+        Time:  0.00118132 s
+      Error: 1.65545e-12
+
+    MKL
+      Direct
+        Time:  0.000999231 s
+      Inverse
+        Time:  0.00100117 s
+      Error: 1.65545e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.00157414 s
+      Inverse
+        Time:  0.0018343 s
+      Error: 2.27163e-12
+
+    MKL
+      Direct
+        Time:  0.00113375 s
+      Inverse
+        Time:  0.00128552 s
+      Error: 2.27163e-12
+
+Application 34832328 resources: utime ~0s, stime ~0s, Rss ~23548, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 31 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  8.083e-06 s
+      Inverse
+        Time:  1.75e-06 s
+      Error: 2.55262e-15
+
+    GSL
+      Direct
+        Time:  3.4262e-05 s
+      Inverse
+        Time:  1.557e-05 s
+      Error: 3.05298e-14
+
+    MKL
+      Direct
+        Time:  7.559e-06 s
+      Inverse
+        Time:  9.15e-07 s
+      Error: 3.05298e-14
+
+    FFTPACK
+      Direct
+        Time:  3.9093e-05 s
+      Inverse
+        Time:  2.297e-06 s
+      Error: 3.05298e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.089e-06 s
+      Inverse
+        Time:  1.577e-06 s
+      Error: 3.57956e-15
+
+    GSL
+      Direct
+        Time:  7.96e-07 s
+      Inverse
+        Time:  3.4417e-05 s
+      Error: 5.10533e-15
+
+    MKL
+      Direct
+        Time:  1.02e-06 s
+      Inverse
+        Time:  4.039e-06 s
+      Error: 5.10533e-15
+
+    FFTPACK
+      Direct
+        Time:  9.51e-07 s
+      Inverse
+        Time:  3.99e-06 s
+      Error: 5.10533e-15
+
+
+Dimensions: 31 31 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  2.8091e-05 s
+      Inverse
+        Time:  2.4937e-05 s
+      Error: 7.32765e-14
+
+    MKL
+      Direct
+        Time:  5.4373e-05 s
+      Inverse
+        Time:  2.4475e-05 s
+      Error: 7.32765e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  3.2799e-05 s
+      Inverse
+        Time:  3.782e-05 s
+      Error: 9.29383e-14
+
+    MKL
+      Direct
+        Time:  3.486e-05 s
+      Inverse
+        Time:  2.7391e-05 s
+      Error: 9.29383e-14
+
+Dimensions: 31 31 31 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.00100385 s
+      Inverse
+        Time:  0.00125753 s
+      Error: 1.65545e-12
+
+    MKL
+      Direct
+        Time:  0.000937729 s
+      Inverse
+        Time:  0.00100761 s
+      Error: 1.65545e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.00151415 s
+      Inverse
+        Time:  0.00192091 s
+      Error: 2.27163e-12
+
+    MKL
+      Direct
+        Time:  0.00111643 s
+      Inverse
+        Time:  0.00129407 s
+      Error: 2.27163e-12
+
+Application 34832343 resources: utime ~0s, stime ~0s, Rss ~23548, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 31 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  3.648e-06 s
+      Inverse
+        Time:  1.441e-06 s
+      Error: 2.55262e-15
+
+    GSL
+      Direct
+        Time:  5.6072e-05 s
+      Inverse
+        Time:  1.4144e-05 s
+      Error: 3.05298e-14
+
+    MKL
+      Direct
+        Time:  8.535e-06 s
+      Inverse
+        Time:  1.014e-06 s
+      Error: 3.05298e-14
+
+    FFTPACK
+      Direct
+        Time:  4.0466e-05 s
+      Inverse
+        Time:  2.166e-06 s
+      Error: 3.05298e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.471e-06 s
+      Inverse
+        Time:  1.189e-06 s
+      Error: 3.57956e-15
+
+    GSL
+      Direct
+        Time:  8.33e-07 s
+      Inverse
+        Time:  4.1186e-05 s
+      Error: 5.10533e-15
+
+    MKL
+      Direct
+        Time:  1.039e-06 s
+      Inverse
+        Time:  3.987e-06 s
+      Error: 5.10533e-15
+
+    FFTPACK
+      Direct
+        Time:  9.98e-07 s
+      Inverse
+        Time:  3.933e-06 s
+      Error: 5.10533e-15
+
+
+Dimensions: 31 31 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  2.7487e-05 s
+      Inverse
+        Time:  2.5433e-05 s
+      Error: 7.32765e-14
+
+    MKL
+      Direct
+        Time:  5.8528e-05 s
+      Inverse
+        Time:  2.489e-05 s
+      Error: 7.32765e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  4.6603e-05 s
+      Inverse
+        Time:  3.5515e-05 s
+      Error: 9.29383e-14
+
+    MKL
+      Direct
+        Time:  3.219e-05 s
+      Inverse
+        Time:  1.9457e-05 s
+      Error: 9.29383e-14
+
+Dimensions: 31 31 31 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.000976145 s
+      Inverse
+        Time:  0.0011996 s
+      Error: 1.65545e-12
+
+    MKL
+      Direct
+        Time:  0.000973054 s
+      Inverse
+        Time:  0.00100337 s
+      Error: 1.65545e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.00161075 s
+      Inverse
+        Time:  0.00185743 s
+      Error: 2.27163e-12
+
+    MKL
+      Direct
+        Time:  0.00111709 s
+      Inverse
+        Time:  0.0012943 s
+      Error: 2.27163e-12
+
+Application 34832348 resources: utime ~0s, stime ~0s, Rss ~23548, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 31 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  4.025e-06 s
+      Inverse
+        Time:  1.412e-06 s
+      Error: 2.55262e-15
+
+    GSL
+      Direct
+        Time:  3.6528e-05 s
+      Inverse
+        Time:  1.3608e-05 s
+      Error: 3.05298e-14
+
+    MKL
+      Direct
+        Time:  7.924e-06 s
+      Inverse
+        Time:  9.7e-07 s
+      Error: 3.05298e-14
+
+    FFTPACK
+      Direct
+        Time:  4.1244e-05 s
+      Inverse
+        Time:  2.193e-06 s
+      Error: 3.05298e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.3e-06 s
+      Inverse
+        Time:  1.246e-06 s
+      Error: 3.57956e-15
+
+    GSL
+      Direct
+        Time:  8.14e-07 s
+      Inverse
+        Time:  4.1006e-05 s
+      Error: 5.10533e-15
+
+    MKL
+      Direct
+        Time:  1.014e-06 s
+      Inverse
+        Time:  4.097e-06 s
+      Error: 5.10533e-15
+
+    FFTPACK
+      Direct
+        Time:  1.034e-06 s
+      Inverse
+        Time:  3.944e-06 s
+      Error: 5.10533e-15
+
+
+Dimensions: 31 31 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  4.1814e-05 s
+      Inverse
+        Time:  2.6617e-05 s
+      Error: 7.32765e-14
+
+    MKL
+      Direct
+        Time:  7.139e-05 s
+      Inverse
+        Time:  3.0846e-05 s
+      Error: 7.32765e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  3.2666e-05 s
+      Inverse
+        Time:  3.5583e-05 s
+      Error: 9.29383e-14
+
+    MKL
+      Direct
+        Time:  3.8294e-05 s
+      Inverse
+        Time:  2.4232e-05 s
+      Error: 9.29383e-14
+
+Dimensions: 31 31 31 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.00107737 s
+      Inverse
+        Time:  0.00121447 s
+      Error: 1.65545e-12
+
+    MKL
+      Direct
+        Time:  0.000937946 s
+      Inverse
+        Time:  0.00101447 s
+      Error: 1.65545e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.00157119 s
+      Inverse
+        Time:  0.00195802 s
+      Error: 2.27163e-12
+
+    MKL
+      Direct
+        Time:  0.00115013 s
+      Inverse
+        Time:  0.00139523 s
+      Error: 2.27163e-12
+
+Application 34832360 resources: utime ~0s, stime ~0s, Rss ~23548, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 31 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  3.764e-06 s
+      Inverse
+        Time:  1.569e-06 s
+      Error: 2.55262e-15
+
+    GSL
+      Direct
+        Time:  3.5161e-05 s
+      Inverse
+        Time:  3.0772e-05 s
+      Error: 3.05298e-14
+
+    MKL
+      Direct
+        Time:  8.194e-06 s
+      Inverse
+        Time:  1.025e-06 s
+      Error: 3.05298e-14
+
+    FFTPACK
+      Direct
+        Time:  3.9336e-05 s
+      Inverse
+        Time:  1.5908e-05 s
+      Error: 3.05298e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.383e-06 s
+      Inverse
+        Time:  1.219e-06 s
+      Error: 3.57956e-15
+
+    GSL
+      Direct
+        Time:  8.73e-07 s
+      Inverse
+        Time:  4.9733e-05 s
+      Error: 5.10533e-15
+
+    MKL
+      Direct
+        Time:  1.044e-06 s
+      Inverse
+        Time:  4.125e-06 s
+      Error: 5.10533e-15
+
+    FFTPACK
+      Direct
+        Time:  1.015e-06 s
+      Inverse
+        Time:  3.99e-06 s
+      Error: 5.10533e-15
+
+
+Dimensions: 31 31 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  2.7072e-05 s
+      Inverse
+        Time:  2.5257e-05 s
+      Error: 7.32765e-14
+
+    MKL
+      Direct
+        Time:  5.4231e-05 s
+      Inverse
+        Time:  3.0624e-05 s
+      Error: 7.32765e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  4.8763e-05 s
+      Inverse
+        Time:  3.5497e-05 s
+      Error: 9.29383e-14
+
+    MKL
+      Direct
+        Time:  4.2721e-05 s
+      Inverse
+        Time:  2.4188e-05 s
+      Error: 9.29383e-14
+
+Dimensions: 31 31 31 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.00101899 s
+      Inverse
+        Time:  0.0013205 s
+      Error: 1.65545e-12
+
+    MKL
+      Direct
+        Time:  0.00093599 s
+      Inverse
+        Time:  0.00102903 s
+      Error: 1.65545e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.00153082 s
+      Inverse
+        Time:  0.00188415 s
+      Error: 2.27163e-12
+
+    MKL
+      Direct
+        Time:  0.0011149 s
+      Inverse
+        Time:  0.00140089 s
+      Error: 2.27163e-12
+
+Application 34832369 resources: utime ~0s, stime ~0s, Rss ~23548, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 31 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  3.846e-06 s
+      Inverse
+        Time:  1.519e-06 s
+      Error: 2.55262e-15
+
+    GSL
+      Direct
+        Time:  3.7097e-05 s
+      Inverse
+        Time:  1.6223e-05 s
+      Error: 3.05298e-14
+
+    MKL
+      Direct
+        Time:  7.685e-06 s
+      Inverse
+        Time:  1.087e-06 s
+      Error: 3.05298e-14
+
+    FFTPACK
+      Direct
+        Time:  4.002e-05 s
+      Inverse
+        Time:  1.6653e-05 s
+      Error: 3.05298e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.42e-06 s
+      Inverse
+        Time:  1.216e-06 s
+      Error: 3.57956e-15
+
+    GSL
+      Direct
+        Time:  7.66e-07 s
+      Inverse
+        Time:  4.1192e-05 s
+      Error: 5.10533e-15
+
+    MKL
+      Direct
+        Time:  1.029e-06 s
+      Inverse
+        Time:  3.998e-06 s
+      Error: 5.10533e-15
+
+    FFTPACK
+      Direct
+        Time:  9.89e-07 s
+      Inverse
+        Time:  3.963e-06 s
+      Error: 5.10533e-15
+
+
+Dimensions: 31 31 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  2.7787e-05 s
+      Inverse
+        Time:  2.5479e-05 s
+      Error: 7.32765e-14
+
+    MKL
+      Direct
+        Time:  6.8092e-05 s
+      Inverse
+        Time:  2.7009e-05 s
+      Error: 7.32765e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  4.7591e-05 s
+      Inverse
+        Time:  3.9438e-05 s
+      Error: 9.29383e-14
+
+    MKL
+      Direct
+        Time:  5.2959e-05 s
+      Inverse
+        Time:  4.2193e-05 s
+      Error: 9.29383e-14
+
+Dimensions: 31 31 31 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.00100304 s
+      Inverse
+        Time:  0.00128704 s
+      Error: 1.65545e-12
+
+    MKL
+      Direct
+        Time:  0.000951015 s
+      Inverse
+        Time:  0.00100639 s
+      Error: 1.65545e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0015825 s
+      Inverse
+        Time:  0.00191392 s
+      Error: 2.27163e-12
+
+    MKL
+      Direct
+        Time:  0.00111734 s
+      Inverse
+        Time:  0.0013089 s
+      Error: 2.27163e-12
+
+Application 34832379 resources: utime ~0s, stime ~0s, Rss ~23548, inblocks ~1383, outblocks ~2500
+================
+----------------
+N threads: 1
+
+Dimensions: 61 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  4.875e-06 s
+      Inverse
+        Time:  2.288e-06 s
+      Error: 6.43725e-15
+
+    GSL
+      Direct
+        Time:  3.8656e-05 s
+      Inverse
+        Time:  2.0496e-05 s
+      Error: 5.28926e-14
+
+    MKL
+      Direct
+        Time:  9.238e-06 s
+      Inverse
+        Time:  2.127e-06 s
+      Error: 5.28926e-14
+
+    FFTPACK
+      Direct
+        Time:  4.2749e-05 s
+      Inverse
+        Time:  1.9249e-05 s
+      Error: 5.28926e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  5.141e-06 s
+      Inverse
+        Time:  3.861e-06 s
+      Error: 1.50894e-14
+
+    GSL
+      Direct
+        Time:  3.307e-06 s
+      Inverse
+        Time:  5.6589e-05 s
+      Error: 1.66625e-14
+
+    MKL
+      Direct
+        Time:  7.078e-06 s
+      Inverse
+        Time:  1.4276e-05 s
+      Error: 1.66625e-14
+
+    FFTPACK
+      Direct
+        Time:  4.145e-06 s
+      Inverse
+        Time:  1.2623e-05 s
+      Error: 1.66625e-14
+
+
+Dimensions: 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.000209747 s
+      Inverse
+        Time:  0.00017858 s
+      Error: 4.51222e-13
+
+    MKL
+      Direct
+        Time:  0.000207141 s
+      Inverse
+        Time:  0.00017523 s
+      Error: 4.51222e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.000328625 s
+      Inverse
+        Time:  0.000339697 s
+      Error: 8.24289e-13
+
+    MKL
+      Direct
+        Time:  8.3267e-05 s
+      Inverse
+        Time:  0.000119404 s
+      Error: 8.24289e-13
+
+Dimensions: 61 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.0154922 s
+      Inverse
+        Time:  0.0168218 s
+      Error: 1.84725e-11
+
+    MKL
+      Direct
+        Time:  0.0133934 s
+      Inverse
+        Time:  0.0134866 s
+      Error: 1.84725e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0304358 s
+      Inverse
+        Time:  0.0315201 s
+      Error: 3.40617e-11
+
+    MKL
+      Direct
+        Time:  0.0141486 s
+      Inverse
+        Time:  0.0153509 s
+      Error: 3.40617e-11
+
+Application 34832388 resources: utime ~0s, stime ~0s, Rss ~60816, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 61 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  4.48e-06 s
+      Inverse
+        Time:  3.47e-06 s
+      Error: 6.43725e-15
+
+    GSL
+      Direct
+        Time:  4.069e-05 s
+      Inverse
+        Time:  3.0208e-05 s
+      Error: 5.28926e-14
+
+    MKL
+      Direct
+        Time:  9.367e-06 s
+      Inverse
+        Time:  2.999e-06 s
+      Error: 5.28926e-14
+
+    FFTPACK
+      Direct
+        Time:  4.292e-05 s
+      Inverse
+        Time:  7.317e-06 s
+      Error: 5.28926e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  5.153e-06 s
+      Inverse
+        Time:  3.946e-06 s
+      Error: 1.50894e-14
+
+    GSL
+      Direct
+        Time:  6.589e-06 s
+      Inverse
+        Time:  7.452e-05 s
+      Error: 1.66625e-14
+
+    MKL
+      Direct
+        Time:  4.706e-06 s
+      Inverse
+        Time:  1.6873e-05 s
+      Error: 1.66625e-14
+
+    FFTPACK
+      Direct
+        Time:  4.41e-06 s
+      Inverse
+        Time:  3.1434e-05 s
+      Error: 1.66625e-14
+
+
+Dimensions: 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.000202673 s
+      Inverse
+        Time:  0.000178824 s
+      Error: 4.51222e-13
+
+    MKL
+      Direct
+        Time:  0.000198065 s
+      Inverse
+        Time:  0.00018332 s
+      Error: 4.51222e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.000319647 s
+      Inverse
+        Time:  0.000339997 s
+      Error: 8.24289e-13
+
+    MKL
+      Direct
+        Time:  0.000126898 s
+      Inverse
+        Time:  0.000117108 s
+      Error: 8.24289e-13
+
+Dimensions: 61 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.0154618 s
+      Inverse
+        Time:  0.0163409 s
+      Error: 1.84725e-11
+
+    MKL
+      Direct
+        Time:  0.0132928 s
+      Inverse
+        Time:  0.013463 s
+      Error: 1.84725e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0305193 s
+      Inverse
+        Time:  0.0315966 s
+      Error: 3.40617e-11
+
+    MKL
+      Direct
+        Time:  0.0141513 s
+      Inverse
+        Time:  0.0153816 s
+      Error: 3.40617e-11
+
+Application 34832397 resources: utime ~0s, stime ~0s, Rss ~60816, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 61 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  4.624e-06 s
+      Inverse
+        Time:  2.341e-06 s
+      Error: 6.43725e-15
+
+    GSL
+      Direct
+        Time:  5.8439e-05 s
+      Inverse
+        Time:  1.9877e-05 s
+      Error: 5.28926e-14
+
+    MKL
+      Direct
+        Time:  9.357e-06 s
+      Inverse
+        Time:  2.219e-06 s
+      Error: 5.28926e-14
+
+    FFTPACK
+      Direct
+        Time:  4.2281e-05 s
+      Inverse
+        Time:  4.751e-06 s
+      Error: 5.28926e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  1.9022e-05 s
+      Inverse
+        Time:  3.923e-06 s
+      Error: 1.50894e-14
+
+    GSL
+      Direct
+        Time:  5.098e-06 s
+      Inverse
+        Time:  5.069e-05 s
+      Error: 1.66625e-14
+
+    MKL
+      Direct
+        Time:  3.936e-06 s
+      Inverse
+        Time:  1.2811e-05 s
+      Error: 1.66625e-14
+
+    FFTPACK
+      Direct
+        Time:  4.188e-06 s
+      Inverse
+        Time:  1.2765e-05 s
+      Error: 1.66625e-14
+
+
+Dimensions: 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.000174327 s
+      Inverse
+        Time:  0.000210241 s
+      Error: 4.51222e-13
+
+    MKL
+      Direct
+        Time:  0.000208658 s
+      Inverse
+        Time:  0.000180421 s
+      Error: 4.51222e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.000319082 s
+      Inverse
+        Time:  0.00033975 s
+      Error: 8.24289e-13
+
+    MKL
+      Direct
+        Time:  8.0364e-05 s
+      Inverse
+        Time:  8.5701e-05 s
+      Error: 8.24289e-13
+
+Dimensions: 61 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.0153996 s
+      Inverse
+        Time:  0.0166732 s
+      Error: 1.84725e-11
+
+    MKL
+      Direct
+        Time:  0.0131291 s
+      Inverse
+        Time:  0.0134098 s
+      Error: 1.84725e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0304261 s
+      Inverse
+        Time:  0.0315384 s
+      Error: 3.40617e-11
+
+    MKL
+      Direct
+        Time:  0.014184 s
+      Inverse
+        Time:  0.0153752 s
+      Error: 3.40617e-11
+
+Application 34832407 resources: utime ~0s, stime ~0s, Rss ~60816, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 61 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  4.479e-06 s
+      Inverse
+        Time:  2.242e-06 s
+      Error: 6.43725e-15
+
+    GSL
+      Direct
+        Time:  5.7423e-05 s
+      Inverse
+        Time:  2.5454e-05 s
+      Error: 5.28926e-14
+
+    MKL
+      Direct
+        Time:  9.362e-06 s
+      Inverse
+        Time:  2.18e-06 s
+      Error: 5.28926e-14
+
+    FFTPACK
+      Direct
+        Time:  4.5173e-05 s
+      Inverse
+        Time:  4.878e-06 s
+      Error: 5.28926e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  5.229e-06 s
+      Inverse
+        Time:  3.831e-06 s
+      Error: 1.50894e-14
+
+    GSL
+      Direct
+        Time:  5.187e-06 s
+      Inverse
+        Time:  5.3595e-05 s
+      Error: 1.66625e-14
+
+    MKL
+      Direct
+        Time:  7.676e-06 s
+      Inverse
+        Time:  3.3529e-05 s
+      Error: 1.66625e-14
+
+    FFTPACK
+      Direct
+        Time:  4.439e-06 s
+      Inverse
+        Time:  2.8667e-05 s
+      Error: 1.66625e-14
+
+
+Dimensions: 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.000174137 s
+      Inverse
+        Time:  0.0001825 s
+      Error: 4.51222e-13
+
+    MKL
+      Direct
+        Time:  0.00020785 s
+      Inverse
+        Time:  0.00017671 s
+      Error: 4.51222e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.000316734 s
+      Inverse
+        Time:  0.000358682 s
+      Error: 8.24289e-13
+
+    MKL
+      Direct
+        Time:  9.5671e-05 s
+      Inverse
+        Time:  8.423e-05 s
+      Error: 8.24289e-13
+
+Dimensions: 61 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.0153798 s
+      Inverse
+        Time:  0.0166464 s
+      Error: 1.84725e-11
+
+    MKL
+      Direct
+        Time:  0.0132928 s
+      Inverse
+        Time:  0.0135654 s
+      Error: 1.84725e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0304138 s
+      Inverse
+        Time:  0.0315084 s
+      Error: 3.40617e-11
+
+    MKL
+      Direct
+        Time:  0.0142651 s
+      Inverse
+        Time:  0.0154072 s
+      Error: 3.40617e-11
+
+Application 34832421 resources: utime ~0s, stime ~0s, Rss ~60816, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 61 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  7.825e-06 s
+      Inverse
+        Time:  2.345e-06 s
+      Error: 6.43725e-15
+
+    GSL
+      Direct
+        Time:  4.9125e-05 s
+      Inverse
+        Time:  1.8448e-05 s
+      Error: 5.28926e-14
+
+    MKL
+      Direct
+        Time:  9.056e-06 s
+      Inverse
+        Time:  2.245e-06 s
+      Error: 5.28926e-14
+
+    FFTPACK
+      Direct
+        Time:  4.5018e-05 s
+      Inverse
+        Time:  1.9567e-05 s
+      Error: 5.28926e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  5.763e-06 s
+      Inverse
+        Time:  3.837e-06 s
+      Error: 1.50894e-14
+
+    GSL
+      Direct
+        Time:  3.388e-06 s
+      Inverse
+        Time:  6.0285e-05 s
+      Error: 1.66625e-14
+
+    MKL
+      Direct
+        Time:  3.945e-06 s
+      Inverse
+        Time:  1.286e-05 s
+      Error: 1.66625e-14
+
+    FFTPACK
+      Direct
+        Time:  4.127e-06 s
+      Inverse
+        Time:  1.2812e-05 s
+      Error: 1.66625e-14
+
+
+Dimensions: 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.000175981 s
+      Inverse
+        Time:  0.00017974 s
+      Error: 4.51222e-13
+
+    MKL
+      Direct
+        Time:  0.00021728 s
+      Inverse
+        Time:  0.000175314 s
+      Error: 4.51222e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.000374227 s
+      Inverse
+        Time:  0.000385507 s
+      Error: 8.24289e-13
+
+    MKL
+      Direct
+        Time:  0.000106212 s
+      Inverse
+        Time:  8.7764e-05 s
+      Error: 8.24289e-13
+
+Dimensions: 61 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.015419 s
+      Inverse
+        Time:  0.0167534 s
+      Error: 1.84725e-11
+
+    MKL
+      Direct
+        Time:  0.013458 s
+      Inverse
+        Time:  0.0136494 s
+      Error: 1.84725e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0305051 s
+      Inverse
+        Time:  0.0315956 s
+      Error: 3.40617e-11
+
+    MKL
+      Direct
+        Time:  0.0141824 s
+      Inverse
+        Time:  0.0154159 s
+      Error: 3.40617e-11
+
+Application 34832427 resources: utime ~0s, stime ~0s, Rss ~60816, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 61 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  4.189e-06 s
+      Inverse
+        Time:  1.0105e-05 s
+      Error: 6.43725e-15
+
+    GSL
+      Direct
+        Time:  4.0538e-05 s
+      Inverse
+        Time:  3.0986e-05 s
+      Error: 5.28926e-14
+
+    MKL
+      Direct
+        Time:  9.574e-06 s
+      Inverse
+        Time:  2.837e-06 s
+      Error: 5.28926e-14
+
+    FFTPACK
+      Direct
+        Time:  4.3126e-05 s
+      Inverse
+        Time:  8.09e-06 s
+      Error: 5.28926e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  5.387e-06 s
+      Inverse
+        Time:  3.813e-06 s
+      Error: 1.50894e-14
+
+    GSL
+      Direct
+        Time:  6.802e-06 s
+      Inverse
+        Time:  8.1152e-05 s
+      Error: 1.66625e-14
+
+    MKL
+      Direct
+        Time:  1.2489e-05 s
+      Inverse
+        Time:  1.6988e-05 s
+      Error: 1.66625e-14
+
+    FFTPACK
+      Direct
+        Time:  4.263e-06 s
+      Inverse
+        Time:  1.6941e-05 s
+      Error: 1.66625e-14
+
+
+Dimensions: 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.000168614 s
+      Inverse
+        Time:  0.000216459 s
+      Error: 4.51222e-13
+
+    MKL
+      Direct
+        Time:  0.000213853 s
+      Inverse
+        Time:  0.000183998 s
+      Error: 4.51222e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.000333641 s
+      Inverse
+        Time:  0.000339626 s
+      Error: 8.24289e-13
+
+    MKL
+      Direct
+        Time:  9.953e-05 s
+      Inverse
+        Time:  9.4109e-05 s
+      Error: 8.24289e-13
+
+Dimensions: 61 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.0153714 s
+      Inverse
+        Time:  0.0164876 s
+      Error: 1.84725e-11
+
+    MKL
+      Direct
+        Time:  0.0131504 s
+      Inverse
+        Time:  0.0133747 s
+      Error: 1.84725e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0301943 s
+      Inverse
+        Time:  0.0313041 s
+      Error: 3.40617e-11
+
+    MKL
+      Direct
+        Time:  0.0140339 s
+      Inverse
+        Time:  0.0152273 s
+      Error: 3.40617e-11
+
+Application 34832436 resources: utime ~0s, stime ~0s, Rss ~60816, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 61 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  4.545e-06 s
+      Inverse
+        Time:  3.671e-06 s
+      Error: 6.43725e-15
+
+    GSL
+      Direct
+        Time:  3.992e-05 s
+      Inverse
+        Time:  2.9413e-05 s
+      Error: 5.28926e-14
+
+    MKL
+      Direct
+        Time:  9.161e-06 s
+      Inverse
+        Time:  2.875e-06 s
+      Error: 5.28926e-14
+
+    FFTPACK
+      Direct
+        Time:  5.3297e-05 s
+      Inverse
+        Time:  7.421e-06 s
+      Error: 5.28926e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  5.099e-06 s
+      Inverse
+        Time:  3.789e-06 s
+      Error: 1.50894e-14
+
+    GSL
+      Direct
+        Time:  6.72e-06 s
+      Inverse
+        Time:  7.2532e-05 s
+      Error: 1.66625e-14
+
+    MKL
+      Direct
+        Time:  4.735e-06 s
+      Inverse
+        Time:  1.7212e-05 s
+      Error: 1.66625e-14
+
+    FFTPACK
+      Direct
+        Time:  4.251e-06 s
+      Inverse
+        Time:  1.6983e-05 s
+      Error: 1.66625e-14
+
+
+Dimensions: 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.000206615 s
+      Inverse
+        Time:  0.000178852 s
+      Error: 4.51222e-13
+
+    MKL
+      Direct
+        Time:  0.000233121 s
+      Inverse
+        Time:  0.000203464 s
+      Error: 4.51222e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.000317865 s
+      Inverse
+        Time:  0.000339932 s
+      Error: 8.24289e-13
+
+    MKL
+      Direct
+        Time:  0.000112365 s
+      Inverse
+        Time:  0.000100076 s
+      Error: 8.24289e-13
+
+Dimensions: 61 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.0153975 s
+      Inverse
+        Time:  0.0162391 s
+      Error: 1.84725e-11
+
+    MKL
+      Direct
+        Time:  0.0131761 s
+      Inverse
+        Time:  0.0133974 s
+      Error: 1.84725e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0304583 s
+      Inverse
+        Time:  0.0316145 s
+      Error: 3.40617e-11
+
+    MKL
+      Direct
+        Time:  0.0141631 s
+      Inverse
+        Time:  0.0153695 s
+      Error: 3.40617e-11
+
+Application 34832449 resources: utime ~0s, stime ~0s, Rss ~60816, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 61 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  7.584e-06 s
+      Inverse
+        Time:  2.459e-06 s
+      Error: 6.43725e-15
+
+    GSL
+      Direct
+        Time:  4.2396e-05 s
+      Inverse
+        Time:  1.8947e-05 s
+      Error: 5.28926e-14
+
+    MKL
+      Direct
+        Time:  9.586e-06 s
+      Inverse
+        Time:  2.179e-06 s
+      Error: 5.28926e-14
+
+    FFTPACK
+      Direct
+        Time:  4.4234e-05 s
+      Inverse
+        Time:  5.059e-06 s
+      Error: 5.28926e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  1.9325e-05 s
+      Inverse
+        Time:  3.872e-06 s
+      Error: 1.50894e-14
+
+    GSL
+      Direct
+        Time:  3.335e-06 s
+      Inverse
+        Time:  4.3978e-05 s
+      Error: 1.66625e-14
+
+    MKL
+      Direct
+        Time:  4.01e-06 s
+      Inverse
+        Time:  2.7377e-05 s
+      Error: 1.66625e-14
+
+    FFTPACK
+      Direct
+        Time:  4.41e-06 s
+      Inverse
+        Time:  1.3469e-05 s
+      Error: 1.66625e-14
+
+
+Dimensions: 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.000199126 s
+      Inverse
+        Time:  0.000194592 s
+      Error: 4.51222e-13
+
+    MKL
+      Direct
+        Time:  0.000218313 s
+      Inverse
+        Time:  0.000175372 s
+      Error: 4.51222e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.000326453 s
+      Inverse
+        Time:  0.000339925 s
+      Error: 8.24289e-13
+
+    MKL
+      Direct
+        Time:  8.2311e-05 s
+      Inverse
+        Time:  0.000117955 s
+      Error: 8.24289e-13
+
+Dimensions: 61 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.015479 s
+      Inverse
+        Time:  0.0167917 s
+      Error: 1.84725e-11
+
+    MKL
+      Direct
+        Time:  0.0136128 s
+      Inverse
+        Time:  0.0133666 s
+      Error: 1.84725e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0305302 s
+      Inverse
+        Time:  0.031636 s
+      Error: 3.40617e-11
+
+    MKL
+      Direct
+        Time:  0.0141831 s
+      Inverse
+        Time:  0.0153388 s
+      Error: 3.40617e-11
+
+Application 34832459 resources: utime ~0s, stime ~0s, Rss ~60816, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 61 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  4.796e-06 s
+      Inverse
+        Time:  2.453e-06 s
+      Error: 6.43725e-15
+
+    GSL
+      Direct
+        Time:  4.0758e-05 s
+      Inverse
+        Time:  2.1519e-05 s
+      Error: 5.28926e-14
+
+    MKL
+      Direct
+        Time:  9.263e-06 s
+      Inverse
+        Time:  2.239e-06 s
+      Error: 5.28926e-14
+
+    FFTPACK
+      Direct
+        Time:  4.4232e-05 s
+      Inverse
+        Time:  5.076e-06 s
+      Error: 5.28926e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  5.222e-06 s
+      Inverse
+        Time:  4.06e-06 s
+      Error: 1.50894e-14
+
+    GSL
+      Direct
+        Time:  3.372e-06 s
+      Inverse
+        Time:  7.1368e-05 s
+      Error: 1.66625e-14
+
+    MKL
+      Direct
+        Time:  4.008e-06 s
+      Inverse
+        Time:  2.1568e-05 s
+      Error: 1.66625e-14
+
+    FFTPACK
+      Direct
+        Time:  4.307e-06 s
+      Inverse
+        Time:  1.3107e-05 s
+      Error: 1.66625e-14
+
+
+Dimensions: 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.000191407 s
+      Inverse
+        Time:  0.000179028 s
+      Error: 4.51222e-13
+
+    MKL
+      Direct
+        Time:  0.000216595 s
+      Inverse
+        Time:  0.000177101 s
+      Error: 4.51222e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.000327338 s
+      Inverse
+        Time:  0.000339544 s
+      Error: 8.24289e-13
+
+    MKL
+      Direct
+        Time:  9.8649e-05 s
+      Inverse
+        Time:  9.0319e-05 s
+      Error: 8.24289e-13
+
+Dimensions: 61 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.0154655 s
+      Inverse
+        Time:  0.0167136 s
+      Error: 1.84725e-11
+
+    MKL
+      Direct
+        Time:  0.013472 s
+      Inverse
+        Time:  0.0134938 s
+      Error: 1.84725e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0303864 s
+      Inverse
+        Time:  0.0315783 s
+      Error: 3.40617e-11
+
+    MKL
+      Direct
+        Time:  0.0141632 s
+      Inverse
+        Time:  0.0153314 s
+      Error: 3.40617e-11
+
+Application 34832465 resources: utime ~0s, stime ~0s, Rss ~60816, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 61 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  4.714e-06 s
+      Inverse
+        Time:  2.552e-06 s
+      Error: 6.43725e-15
+
+    GSL
+      Direct
+        Time:  4.0729e-05 s
+      Inverse
+        Time:  2.1499e-05 s
+      Error: 5.28926e-14
+
+    MKL
+      Direct
+        Time:  9.361e-06 s
+      Inverse
+        Time:  2.165e-06 s
+      Error: 5.28926e-14
+
+    FFTPACK
+      Direct
+        Time:  4.194e-05 s
+      Inverse
+        Time:  1.8675e-05 s
+      Error: 5.28926e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  5.374e-06 s
+      Inverse
+        Time:  4.185e-06 s
+      Error: 1.50894e-14
+
+    GSL
+      Direct
+        Time:  5.343e-06 s
+      Inverse
+        Time:  6.0968e-05 s
+      Error: 1.66625e-14
+
+    MKL
+      Direct
+        Time:  7.126e-06 s
+      Inverse
+        Time:  2.6955e-05 s
+      Error: 1.66625e-14
+
+    FFTPACK
+      Direct
+        Time:  4.177e-06 s
+      Inverse
+        Time:  1.2673e-05 s
+      Error: 1.66625e-14
+
+
+Dimensions: 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.000176818 s
+      Inverse
+        Time:  0.000179612 s
+      Error: 4.51222e-13
+
+    MKL
+      Direct
+        Time:  0.000207129 s
+      Inverse
+        Time:  0.000175516 s
+      Error: 4.51222e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.000323694 s
+      Inverse
+        Time:  0.000352242 s
+      Error: 8.24289e-13
+
+    MKL
+      Direct
+        Time:  7.8866e-05 s
+      Inverse
+        Time:  0.00010276 s
+      Error: 8.24289e-13
+
+Dimensions: 61 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.015454 s
+      Inverse
+        Time:  0.016492 s
+      Error: 1.84725e-11
+
+    MKL
+      Direct
+        Time:  0.0132626 s
+      Inverse
+        Time:  0.013428 s
+      Error: 1.84725e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0304455 s
+      Inverse
+        Time:  0.0315205 s
+      Error: 3.40617e-11
+
+    MKL
+      Direct
+        Time:  0.014144 s
+      Inverse
+        Time:  0.0153643 s
+      Error: 3.40617e-11
+
+Application 34832478 resources: utime ~0s, stime ~0s, Rss ~60816, inblocks ~1383, outblocks ~2500
+================
+----------------
+N threads: 1
+
+Dimensions: 127 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  8.674e-06 s
+      Inverse
+        Time:  5.887e-06 s
+      Error: 2.49186e-14
+
+    GSL
+      Direct
+        Time:  7.8467e-05 s
+      Inverse
+        Time:  4.4347e-05 s
+      Error: 4.55432e-13
+
+    MKL
+      Direct
+        Time:  1.9077e-05 s
+      Inverse
+        Time:  3.459e-06 s
+      Error: 4.55432e-13
+
+    FFTPACK
+      Direct
+        Time:  5.5309e-05 s
+      Inverse
+        Time:  1.6873e-05 s
+      Error: 4.55432e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  7.965e-06 s
+      Inverse
+        Time:  1.268e-05 s
+      Error: 5.17055e-14
+
+    GSL
+      Direct
+        Time:  1.1162e-05 s
+      Inverse
+        Time:  0.000106988 s
+      Error: 4.75305e-14
+
+    MKL
+      Direct
+        Time:  7.705e-06 s
+      Inverse
+        Time:  5.9122e-05 s
+      Error: 4.75305e-14
+
+    FFTPACK
+      Direct
+        Time:  8.027e-06 s
+      Inverse
+        Time:  5.8667e-05 s
+      Error: 4.75305e-14
+
+
+Dimensions: 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.00105422 s
+      Inverse
+        Time:  0.00115322 s
+      Error: 2.70309e-12
+
+    MKL
+      Direct
+        Time:  0.000555146 s
+      Inverse
+        Time:  0.000503963 s
+      Error: 2.70309e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.00151999 s
+      Inverse
+        Time:  0.001684 s
+      Error: 5.22872e-12
+
+    MKL
+      Direct
+        Time:  0.000535538 s
+      Inverse
+        Time:  0.000670198 s
+      Error: 5.22872e-12
+
+Dimensions: 127 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.172303 s
+      Inverse
+        Time:  0.184111 s
+      Error: 2.36221e-10
+
+    MKL
+      Direct
+        Time:  0.0742341 s
+      Inverse
+        Time:  0.075385 s
+      Error: 2.36221e-10
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.28968 s
+      Inverse
+        Time:  0.299876 s
+      Error: 4.37666e-10
+
+    MKL
+      Direct
+        Time:  0.0960393 s
+      Inverse
+        Time:  0.106197 s
+      Error: 4.37666e-10
+
+Application 34832488 resources: utime ~1s, stime ~1s, Rss ~403392, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 127 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  8.578e-06 s
+      Inverse
+        Time:  5.994e-06 s
+      Error: 2.49186e-14
+
+    GSL
+      Direct
+        Time:  6.2479e-05 s
+      Inverse
+        Time:  4.4635e-05 s
+      Error: 4.55432e-13
+
+    MKL
+      Direct
+        Time:  1.9021e-05 s
+      Inverse
+        Time:  3.492e-06 s
+      Error: 4.55432e-13
+
+    FFTPACK
+      Direct
+        Time:  5.5367e-05 s
+      Inverse
+        Time:  2.2247e-05 s
+      Error: 4.55432e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  7.851e-06 s
+      Inverse
+        Time:  1.6662e-05 s
+      Error: 5.17055e-14
+
+    GSL
+      Direct
+        Time:  6.743e-06 s
+      Inverse
+        Time:  8.945e-05 s
+      Error: 4.75305e-14
+
+    MKL
+      Direct
+        Time:  7.234e-06 s
+      Inverse
+        Time:  5.174e-05 s
+      Error: 4.75305e-14
+
+    FFTPACK
+      Direct
+        Time:  7.769e-06 s
+      Inverse
+        Time:  5.5918e-05 s
+      Error: 4.75305e-14
+
+
+Dimensions: 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.00110128 s
+      Inverse
+        Time:  0.00116552 s
+      Error: 2.70309e-12
+
+    MKL
+      Direct
+        Time:  0.000483866 s
+      Inverse
+        Time:  0.00048206 s
+      Error: 2.70309e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0015508 s
+      Inverse
+        Time:  0.00162323 s
+      Error: 5.22872e-12
+
+    MKL
+      Direct
+        Time:  0.000577589 s
+      Inverse
+        Time:  0.000645306 s
+      Error: 5.22872e-12
+
+Dimensions: 127 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.172961 s
+      Inverse
+        Time:  0.18308 s
+      Error: 2.36221e-10
+
+    MKL
+      Direct
+        Time:  0.0740412 s
+      Inverse
+        Time:  0.0755575 s
+      Error: 2.36221e-10
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.289788 s
+      Inverse
+        Time:  0.301333 s
+      Error: 4.37666e-10
+
+    MKL
+      Direct
+        Time:  0.0960146 s
+      Inverse
+        Time:  0.106129 s
+      Error: 4.37666e-10
+
+Application 34832499 resources: utime ~1s, stime ~1s, Rss ~403392, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 127 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  8.438e-06 s
+      Inverse
+        Time:  6.012e-06 s
+      Error: 2.49186e-14
+
+    GSL
+      Direct
+        Time:  8.3673e-05 s
+      Inverse
+        Time:  4.2217e-05 s
+      Error: 4.55432e-13
+
+    MKL
+      Direct
+        Time:  2.0358e-05 s
+      Inverse
+        Time:  3.544e-06 s
+      Error: 4.55432e-13
+
+    FFTPACK
+      Direct
+        Time:  5.425e-05 s
+      Inverse
+        Time:  1.6641e-05 s
+      Error: 4.55432e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  8.136e-06 s
+      Inverse
+        Time:  7.45e-06 s
+      Error: 5.17055e-14
+
+    GSL
+      Direct
+        Time:  6.57e-06 s
+      Inverse
+        Time:  9.477e-05 s
+      Error: 4.75305e-14
+
+    MKL
+      Direct
+        Time:  7.171e-06 s
+      Inverse
+        Time:  5.1128e-05 s
+      Error: 4.75305e-14
+
+    FFTPACK
+      Direct
+        Time:  7.645e-06 s
+      Inverse
+        Time:  5.1745e-05 s
+      Error: 4.75305e-14
+
+
+Dimensions: 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.00112196 s
+      Inverse
+        Time:  0.0011017 s
+      Error: 2.70309e-12
+
+    MKL
+      Direct
+        Time:  0.000488094 s
+      Inverse
+        Time:  0.000513694 s
+      Error: 2.70309e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.00158069 s
+      Inverse
+        Time:  0.00169296 s
+      Error: 5.22872e-12
+
+    MKL
+      Direct
+        Time:  0.000562626 s
+      Inverse
+        Time:  0.00066719 s
+      Error: 5.22872e-12
+
+Dimensions: 127 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.171992 s
+      Inverse
+        Time:  0.184862 s
+      Error: 2.36221e-10
+
+    MKL
+      Direct
+        Time:  0.0742708 s
+      Inverse
+        Time:  0.0754644 s
+      Error: 2.36221e-10
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.289982 s
+      Inverse
+        Time:  0.300274 s
+      Error: 4.37666e-10
+
+    MKL
+      Direct
+        Time:  0.096007 s
+      Inverse
+        Time:  0.106282 s
+      Error: 4.37666e-10
+
+Application 34832512 resources: utime ~1s, stime ~1s, Rss ~403392, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 127 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  8.445e-06 s
+      Inverse
+        Time:  8.957e-06 s
+      Error: 2.49186e-14
+
+    GSL
+      Direct
+        Time:  7.2268e-05 s
+      Inverse
+        Time:  5.8664e-05 s
+      Error: 4.55432e-13
+
+    MKL
+      Direct
+        Time:  1.9851e-05 s
+      Inverse
+        Time:  5.54e-06 s
+      Error: 4.55432e-13
+
+    FFTPACK
+      Direct
+        Time:  5.4153e-05 s
+      Inverse
+        Time:  2.9992e-05 s
+      Error: 4.55432e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  7.795e-06 s
+      Inverse
+        Time:  1.7354e-05 s
+      Error: 5.17055e-14
+
+    GSL
+      Direct
+        Time:  1.6391e-05 s
+      Inverse
+        Time:  0.000126503 s
+      Error: 4.75305e-14
+
+    MKL
+      Direct
+        Time:  7.214e-06 s
+      Inverse
+        Time:  5.2579e-05 s
+      Error: 4.75305e-14
+
+    FFTPACK
+      Direct
+        Time:  7.682e-06 s
+      Inverse
+        Time:  6.73e-05 s
+      Error: 4.75305e-14
+
+
+Dimensions: 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.00111427 s
+      Inverse
+        Time:  0.00105366 s
+      Error: 2.70309e-12
+
+    MKL
+      Direct
+        Time:  0.000463199 s
+      Inverse
+        Time:  0.000525621 s
+      Error: 2.70309e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.00147287 s
+      Inverse
+        Time:  0.00168442 s
+      Error: 5.22872e-12
+
+    MKL
+      Direct
+        Time:  0.000571334 s
+      Inverse
+        Time:  0.000587432 s
+      Error: 5.22872e-12
+
+Dimensions: 127 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.172751 s
+      Inverse
+        Time:  0.184485 s
+      Error: 2.36221e-10
+
+    MKL
+      Direct
+        Time:  0.0738304 s
+      Inverse
+        Time:  0.0751846 s
+      Error: 2.36221e-10
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.289128 s
+      Inverse
+        Time:  0.299123 s
+      Error: 4.37666e-10
+
+    MKL
+      Direct
+        Time:  0.0957055 s
+      Inverse
+        Time:  0.10579 s
+      Error: 4.37666e-10
+
+Application 34832523 resources: utime ~1s, stime ~1s, Rss ~403392, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 127 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  8.363e-06 s
+      Inverse
+        Time:  9.602e-06 s
+      Error: 2.49186e-14
+
+    GSL
+      Direct
+        Time:  6.2967e-05 s
+      Inverse
+        Time:  5.413e-05 s
+      Error: 4.55432e-13
+
+    MKL
+      Direct
+        Time:  1.9319e-05 s
+      Inverse
+        Time:  5.322e-06 s
+      Error: 4.55432e-13
+
+    FFTPACK
+      Direct
+        Time:  5.4979e-05 s
+      Inverse
+        Time:  2.7607e-05 s
+      Error: 4.55432e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  7.938e-06 s
+      Inverse
+        Time:  1.1385e-05 s
+      Error: 5.17055e-14
+
+    GSL
+      Direct
+        Time:  1.5653e-05 s
+      Inverse
+        Time:  0.00013451 s
+      Error: 4.75305e-14
+
+    MKL
+      Direct
+        Time:  7.424e-06 s
+      Inverse
+        Time:  7.3781e-05 s
+      Error: 4.75305e-14
+
+    FFTPACK
+      Direct
+        Time:  7.663e-06 s
+      Inverse
+        Time:  6.7166e-05 s
+      Error: 4.75305e-14
+
+
+Dimensions: 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.00104975 s
+      Inverse
+        Time:  0.00105784 s
+      Error: 2.70309e-12
+
+    MKL
+      Direct
+        Time:  0.000464312 s
+      Inverse
+        Time:  0.000535839 s
+      Error: 2.70309e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.00143465 s
+      Inverse
+        Time:  0.0017093 s
+      Error: 5.22872e-12
+
+    MKL
+      Direct
+        Time:  0.000527787 s
+      Inverse
+        Time:  0.000584992 s
+      Error: 5.22872e-12
+
+Dimensions: 127 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.171506 s
+      Inverse
+        Time:  0.184292 s
+      Error: 2.36221e-10
+
+    MKL
+      Direct
+        Time:  0.0738731 s
+      Inverse
+        Time:  0.0751745 s
+      Error: 2.36221e-10
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.289564 s
+      Inverse
+        Time:  0.301722 s
+      Error: 4.37666e-10
+
+    MKL
+      Direct
+        Time:  0.101107 s
+      Inverse
+        Time:  0.112297 s
+      Error: 4.37666e-10
+
+Application 34832533 resources: utime ~1s, stime ~1s, Rss ~403392, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 127 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  8.744e-06 s
+      Inverse
+        Time:  6.416e-06 s
+      Error: 2.49186e-14
+
+    GSL
+      Direct
+        Time:  6.1661e-05 s
+      Inverse
+        Time:  5.0117e-05 s
+      Error: 4.55432e-13
+
+    MKL
+      Direct
+        Time:  1.891e-05 s
+      Inverse
+        Time:  3.508e-06 s
+      Error: 4.55432e-13
+
+    FFTPACK
+      Direct
+        Time:  5.3983e-05 s
+      Inverse
+        Time:  1.6077e-05 s
+      Error: 4.55432e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  7.876e-06 s
+      Inverse
+        Time:  7.495e-06 s
+      Error: 5.17055e-14
+
+    GSL
+      Direct
+        Time:  1.0408e-05 s
+      Inverse
+        Time:  9.4037e-05 s
+      Error: 4.75305e-14
+
+    MKL
+      Direct
+        Time:  1.7371e-05 s
+      Inverse
+        Time:  5.116e-05 s
+      Error: 4.75305e-14
+
+    FFTPACK
+      Direct
+        Time:  7.74e-06 s
+      Inverse
+        Time:  5.9936e-05 s
+      Error: 4.75305e-14
+
+
+Dimensions: 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.00109535 s
+      Inverse
+        Time:  0.0010911 s
+      Error: 2.70309e-12
+
+    MKL
+      Direct
+        Time:  0.000483635 s
+      Inverse
+        Time:  0.000489184 s
+      Error: 2.70309e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.00153486 s
+      Inverse
+        Time:  0.00163283 s
+      Error: 5.22872e-12
+
+    MKL
+      Direct
+        Time:  0.00055223 s
+      Inverse
+        Time:  0.000679952 s
+      Error: 5.22872e-12
+
+Dimensions: 127 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.172119 s
+      Inverse
+        Time:  0.184051 s
+      Error: 2.36221e-10
+
+    MKL
+      Direct
+        Time:  0.0740484 s
+      Inverse
+        Time:  0.0753206 s
+      Error: 2.36221e-10
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.289558 s
+      Inverse
+        Time:  0.299822 s
+      Error: 4.37666e-10
+
+    MKL
+      Direct
+        Time:  0.0960688 s
+      Inverse
+        Time:  0.106128 s
+      Error: 4.37666e-10
+
+Application 34832543 resources: utime ~1s, stime ~1s, Rss ~403392, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 127 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  8.467e-06 s
+      Inverse
+        Time:  6.549e-06 s
+      Error: 2.49186e-14
+
+    GSL
+      Direct
+        Time:  7.9412e-05 s
+      Inverse
+        Time:  4.475e-05 s
+      Error: 4.55432e-13
+
+    MKL
+      Direct
+        Time:  1.9366e-05 s
+      Inverse
+        Time:  3.582e-06 s
+      Error: 4.55432e-13
+
+    FFTPACK
+      Direct
+        Time:  5.6292e-05 s
+      Inverse
+        Time:  1.6903e-05 s
+      Error: 4.55432e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  8e-06 s
+      Inverse
+        Time:  7.342e-06 s
+      Error: 5.17055e-14
+
+    GSL
+      Direct
+        Time:  1.5981e-05 s
+      Inverse
+        Time:  9.882e-05 s
+      Error: 4.75305e-14
+
+    MKL
+      Direct
+        Time:  7.187e-06 s
+      Inverse
+        Time:  5.5468e-05 s
+      Error: 4.75305e-14
+
+    FFTPACK
+      Direct
+        Time:  7.837e-06 s
+      Inverse
+        Time:  5.7503e-05 s
+      Error: 4.75305e-14
+
+
+Dimensions: 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.00109574 s
+      Inverse
+        Time:  0.00107111 s
+      Error: 2.70309e-12
+
+    MKL
+      Direct
+        Time:  0.000476977 s
+      Inverse
+        Time:  0.00053575 s
+      Error: 2.70309e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.00151462 s
+      Inverse
+        Time:  0.00169534 s
+      Error: 5.22872e-12
+
+    MKL
+      Direct
+        Time:  0.000599712 s
+      Inverse
+        Time:  0.000634022 s
+      Error: 5.22872e-12
+
+Dimensions: 127 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.172746 s
+      Inverse
+        Time:  0.18386 s
+      Error: 2.36221e-10
+
+    MKL
+      Direct
+        Time:  0.0742778 s
+      Inverse
+        Time:  0.0753251 s
+      Error: 2.36221e-10
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.289767 s
+      Inverse
+        Time:  0.29951 s
+      Error: 4.37666e-10
+
+    MKL
+      Direct
+        Time:  0.0960507 s
+      Inverse
+        Time:  0.106004 s
+      Error: 4.37666e-10
+
+Application 34832556 resources: utime ~1s, stime ~1s, Rss ~403392, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 127 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  9.037e-06 s
+      Inverse
+        Time:  5.996e-06 s
+      Error: 2.49186e-14
+
+    GSL
+      Direct
+        Time:  6.1563e-05 s
+      Inverse
+        Time:  5.1003e-05 s
+      Error: 4.55432e-13
+
+    MKL
+      Direct
+        Time:  1.9832e-05 s
+      Inverse
+        Time:  3.676e-06 s
+      Error: 4.55432e-13
+
+    FFTPACK
+      Direct
+        Time:  5.3869e-05 s
+      Inverse
+        Time:  1.62e-05 s
+      Error: 4.55432e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  7.983e-06 s
+      Inverse
+        Time:  7.539e-06 s
+      Error: 5.17055e-14
+
+    GSL
+      Direct
+        Time:  1.0797e-05 s
+      Inverse
+        Time:  9.3476e-05 s
+      Error: 4.75305e-14
+
+    MKL
+      Direct
+        Time:  7.202e-06 s
+      Inverse
+        Time:  7.169e-05 s
+      Error: 4.75305e-14
+
+    FFTPACK
+      Direct
+        Time:  7.902e-06 s
+      Inverse
+        Time:  5.845e-05 s
+      Error: 4.75305e-14
+
+
+Dimensions: 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.0011087 s
+      Inverse
+        Time:  0.00107541 s
+      Error: 2.70309e-12
+
+    MKL
+      Direct
+        Time:  0.000517449 s
+      Inverse
+        Time:  0.000553004 s
+      Error: 2.70309e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.00145158 s
+      Inverse
+        Time:  0.0017399 s
+      Error: 5.22872e-12
+
+    MKL
+      Direct
+        Time:  0.000542241 s
+      Inverse
+        Time:  0.000610283 s
+      Error: 5.22872e-12
+
+Dimensions: 127 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.172555 s
+      Inverse
+        Time:  0.18529 s
+      Error: 2.36221e-10
+
+    MKL
+      Direct
+        Time:  0.0745439 s
+      Inverse
+        Time:  0.075886 s
+      Error: 2.36221e-10
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.290735 s
+      Inverse
+        Time:  0.300675 s
+      Error: 4.37666e-10
+
+    MKL
+      Direct
+        Time:  0.0961606 s
+      Inverse
+        Time:  0.106406 s
+      Error: 4.37666e-10
+
+Application 34832567 resources: utime ~1s, stime ~1s, Rss ~403392, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 127 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  8.19e-06 s
+      Inverse
+        Time:  8.315e-06 s
+      Error: 2.49186e-14
+
+    GSL
+      Direct
+        Time:  5.9654e-05 s
+      Inverse
+        Time:  6.1888e-05 s
+      Error: 4.55432e-13
+
+    MKL
+      Direct
+        Time:  1.9664e-05 s
+      Inverse
+        Time:  5.087e-06 s
+      Error: 4.55432e-13
+
+    FFTPACK
+      Direct
+        Time:  6.999e-05 s
+      Inverse
+        Time:  3.092e-05 s
+      Error: 4.55432e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  8.238e-06 s
+      Inverse
+        Time:  1.1434e-05 s
+      Error: 5.17055e-14
+
+    GSL
+      Direct
+        Time:  2.3011e-05 s
+      Inverse
+        Time:  0.000132028 s
+      Error: 4.75305e-14
+
+    MKL
+      Direct
+        Time:  7.154e-06 s
+      Inverse
+        Time:  5.2344e-05 s
+      Error: 4.75305e-14
+
+    FFTPACK
+      Direct
+        Time:  7.726e-06 s
+      Inverse
+        Time:  6.5811e-05 s
+      Error: 4.75305e-14
+
+
+Dimensions: 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.00114459 s
+      Inverse
+        Time:  0.00114365 s
+      Error: 2.70309e-12
+
+    MKL
+      Direct
+        Time:  0.000463964 s
+      Inverse
+        Time:  0.000468017 s
+      Error: 2.70309e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0015406 s
+      Inverse
+        Time:  0.00159651 s
+      Error: 5.22872e-12
+
+    MKL
+      Direct
+        Time:  0.000603498 s
+      Inverse
+        Time:  0.000615474 s
+      Error: 5.22872e-12
+
+Dimensions: 127 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.172654 s
+      Inverse
+        Time:  0.184397 s
+      Error: 2.36221e-10
+
+    MKL
+      Direct
+        Time:  0.0738465 s
+      Inverse
+        Time:  0.0749669 s
+      Error: 2.36221e-10
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.289158 s
+      Inverse
+        Time:  0.299312 s
+      Error: 4.37666e-10
+
+    MKL
+      Direct
+        Time:  0.0956336 s
+      Inverse
+        Time:  0.105774 s
+      Error: 4.37666e-10
+
+Application 34832578 resources: utime ~1s, stime ~1s, Rss ~403392, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 127 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  8.611e-06 s
+      Inverse
+        Time:  6.072e-06 s
+      Error: 2.49186e-14
+
+    GSL
+      Direct
+        Time:  7.7132e-05 s
+      Inverse
+        Time:  4.2605e-05 s
+      Error: 4.55432e-13
+
+    MKL
+      Direct
+        Time:  1.9289e-05 s
+      Inverse
+        Time:  3.686e-06 s
+      Error: 4.55432e-13
+
+    FFTPACK
+      Direct
+        Time:  5.4311e-05 s
+      Inverse
+        Time:  2.1548e-05 s
+      Error: 4.55432e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  8.349e-06 s
+      Inverse
+        Time:  8.311e-06 s
+      Error: 5.17055e-14
+
+    GSL
+      Direct
+        Time:  1.1329e-05 s
+      Inverse
+        Time:  9.8066e-05 s
+      Error: 4.75305e-14
+
+    MKL
+      Direct
+        Time:  7.37e-06 s
+      Inverse
+        Time:  5.3278e-05 s
+      Error: 4.75305e-14
+
+    FFTPACK
+      Direct
+        Time:  7.733e-06 s
+      Inverse
+        Time:  5.2392e-05 s
+      Error: 4.75305e-14
+
+
+Dimensions: 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.00105652 s
+      Inverse
+        Time:  0.00113288 s
+      Error: 2.70309e-12
+
+    MKL
+      Direct
+        Time:  0.000525322 s
+      Inverse
+        Time:  0.000496848 s
+      Error: 2.70309e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.00153063 s
+      Inverse
+        Time:  0.00166963 s
+      Error: 5.22872e-12
+
+    MKL
+      Direct
+        Time:  0.000537558 s
+      Inverse
+        Time:  0.000652733 s
+      Error: 5.22872e-12
+
+Dimensions: 127 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.172752 s
+      Inverse
+        Time:  0.184544 s
+      Error: 2.36221e-10
+
+    MKL
+      Direct
+        Time:  0.0744432 s
+      Inverse
+        Time:  0.0757234 s
+      Error: 2.36221e-10
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.290553 s
+      Inverse
+        Time:  0.301982 s
+      Error: 4.37666e-10
+
+    MKL
+      Direct
+        Time:  0.0959991 s
+      Inverse
+        Time:  0.106176 s
+      Error: 4.37666e-10
+
+Application 34832591 resources: utime ~1s, stime ~1s, Rss ~403392, inblocks ~1383, outblocks ~2500
+================
+----------------
+N threads: 1
+
+Dimensions: 257 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.3811e-05 s
+      Inverse
+        Time:  1.3621e-05 s
+      Error: 5.66034e-14
+
+    GSL
+      Direct
+        Time:  0.000146839 s
+      Inverse
+        Time:  0.000167675 s
+      Error: 9.94579e-13
+
+    MKL
+      Direct
+        Time:  4.1079e-05 s
+      Inverse
+        Time:  1.1122e-05 s
+      Error: 9.94579e-13
+
+    FFTPACK
+      Direct
+        Time:  9.7988e-05 s
+      Inverse
+        Time:  7.6731e-05 s
+      Error: 9.94579e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  1.5239e-05 s
+      Inverse
+        Time:  1.6557e-05 s
+      Error: 7.20914e-14
+
+    GSL
+      Direct
+        Time:  1.3923e-05 s
+      Inverse
+        Time:  0.000276472 s
+      Error: 1.00214e-13
+
+    MKL
+      Direct
+        Time:  1.3587e-05 s
+      Inverse
+        Time:  0.000218853 s
+      Error: 1.00214e-13
+
+    FFTPACK
+      Direct
+        Time:  1.3799e-05 s
+      Inverse
+        Time:  0.000214136 s
+      Error: 1.00214e-13
+
+
+Dimensions: 257 257 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.00462104 s
+      Inverse
+        Time:  0.00481939 s
+      Error: 1.05915e-11
+
+    MKL
+      Direct
+        Time:  0.00277134 s
+      Inverse
+        Time:  0.00278372 s
+      Error: 1.05915e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0065071 s
+      Inverse
+        Time:  0.00708499 s
+      Error: 1.59175e-11
+
+    MKL
+      Direct
+        Time:  0.00301123 s
+      Inverse
+        Time:  0.00339853 s
+      Error: 1.59175e-11
+
+Dimensions: 257 257 257 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.6566 s
+      Inverse
+        Time:  1.73474 s
+      Error: 1.78873e-09
+
+    MKL
+      Direct
+        Time:  0.879011 s
+      Inverse
+        Time:  0.879038 s
+      Error: 1.78873e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.63113 s
+      Inverse
+        Time:  2.71635 s
+      Error: 2.83164e-09
+
+    MKL
+      Direct
+        Time:  1.27935 s
+      Inverse
+        Time:  1.27758 s
+      Error: 2.83164e-09
+
+Application 34832601 resources: utime ~13s, stime ~2s, Rss ~3202136, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 257 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.3845e-05 s
+      Inverse
+        Time:  1.224e-05 s
+      Error: 5.66034e-14
+
+    GSL
+      Direct
+        Time:  0.000177776 s
+      Inverse
+        Time:  0.000143407 s
+      Error: 9.94579e-13
+
+    MKL
+      Direct
+        Time:  4.9028e-05 s
+      Inverse
+        Time:  1.8114e-05 s
+      Error: 9.94579e-13
+
+    FFTPACK
+      Direct
+        Time:  0.000106307 s
+      Inverse
+        Time:  7.8844e-05 s
+      Error: 9.94579e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  1.5437e-05 s
+      Inverse
+        Time:  1.5522e-05 s
+      Error: 7.20914e-14
+
+    GSL
+      Direct
+        Time:  1.3475e-05 s
+      Inverse
+        Time:  0.000251793 s
+      Error: 1.00214e-13
+
+    MKL
+      Direct
+        Time:  1.359e-05 s
+      Inverse
+        Time:  0.000207875 s
+      Error: 1.00214e-13
+
+    FFTPACK
+      Direct
+        Time:  2.2508e-05 s
+      Inverse
+        Time:  0.00021276 s
+      Error: 1.00214e-13
+
+
+Dimensions: 257 257 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.00460455 s
+      Inverse
+        Time:  0.0048303 s
+      Error: 1.05915e-11
+
+    MKL
+      Direct
+        Time:  0.00274152 s
+      Inverse
+        Time:  0.00280998 s
+      Error: 1.05915e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.00649323 s
+      Inverse
+        Time:  0.00704285 s
+      Error: 1.59175e-11
+
+    MKL
+      Direct
+        Time:  0.00299863 s
+      Inverse
+        Time:  0.00337121 s
+      Error: 1.59175e-11
+
+Dimensions: 257 257 257 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.66003 s
+      Inverse
+        Time:  1.73634 s
+      Error: 1.78873e-09
+
+    MKL
+      Direct
+        Time:  0.879125 s
+      Inverse
+        Time:  0.879482 s
+      Error: 1.78873e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.63145 s
+      Inverse
+        Time:  2.718 s
+      Error: 2.83164e-09
+
+    MKL
+      Direct
+        Time:  1.28071 s
+      Inverse
+        Time:  1.27865 s
+      Error: 2.83164e-09
+
+Application 34832639 resources: utime ~13s, stime ~2s, Rss ~3202136, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 257 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.4696e-05 s
+      Inverse
+        Time:  1.2506e-05 s
+      Error: 5.66034e-14
+
+    GSL
+      Direct
+        Time:  0.000143344 s
+      Inverse
+        Time:  0.000150782 s
+      Error: 9.94579e-13
+
+    MKL
+      Direct
+        Time:  4.0967e-05 s
+      Inverse
+        Time:  1.3313e-05 s
+      Error: 9.94579e-13
+
+    FFTPACK
+      Direct
+        Time:  9.5834e-05 s
+      Inverse
+        Time:  8.3499e-05 s
+      Error: 9.94579e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.9312e-05 s
+      Inverse
+        Time:  1.5541e-05 s
+      Error: 7.20914e-14
+
+    GSL
+      Direct
+        Time:  1.7402e-05 s
+      Inverse
+        Time:  0.000277136 s
+      Error: 1.00214e-13
+
+    MKL
+      Direct
+        Time:  1.6341e-05 s
+      Inverse
+        Time:  0.000204494 s
+      Error: 1.00214e-13
+
+    FFTPACK
+      Direct
+        Time:  1.3537e-05 s
+      Inverse
+        Time:  0.000219219 s
+      Error: 1.00214e-13
+
+
+Dimensions: 257 257 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.00459698 s
+      Inverse
+        Time:  0.00483511 s
+      Error: 1.05915e-11
+
+    MKL
+      Direct
+        Time:  0.00272426 s
+      Inverse
+        Time:  0.00277609 s
+      Error: 1.05915e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.00644598 s
+      Inverse
+        Time:  0.00689251 s
+      Error: 1.59175e-11
+
+    MKL
+      Direct
+        Time:  0.00294645 s
+      Inverse
+        Time:  0.00329806 s
+      Error: 1.59175e-11
+
+Dimensions: 257 257 257 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.65589 s
+      Inverse
+        Time:  1.75038 s
+      Error: 1.78873e-09
+
+    MKL
+      Direct
+        Time:  0.89197 s
+      Inverse
+        Time:  0.876735 s
+      Error: 1.78873e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.6286 s
+      Inverse
+        Time:  2.71462 s
+      Error: 2.83164e-09
+
+    MKL
+      Direct
+        Time:  1.27597 s
+      Inverse
+        Time:  1.27468 s
+      Error: 2.83164e-09
+
+Application 34832670 resources: utime ~13s, stime ~2s, Rss ~3202136, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 257 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.3711e-05 s
+      Inverse
+        Time:  1.2794e-05 s
+      Error: 5.66034e-14
+
+    GSL
+      Direct
+        Time:  0.000146218 s
+      Inverse
+        Time:  0.000158804 s
+      Error: 9.94579e-13
+
+    MKL
+      Direct
+        Time:  4.0732e-05 s
+      Inverse
+        Time:  1.1231e-05 s
+      Error: 9.94579e-13
+
+    FFTPACK
+      Direct
+        Time:  9.8693e-05 s
+      Inverse
+        Time:  9.0957e-05 s
+      Error: 9.94579e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  1.5178e-05 s
+      Inverse
+        Time:  1.4953e-05 s
+      Error: 7.20914e-14
+
+    GSL
+      Direct
+        Time:  2.2666e-05 s
+      Inverse
+        Time:  0.000263824 s
+      Error: 1.00214e-13
+
+    MKL
+      Direct
+        Time:  1.3318e-05 s
+      Inverse
+        Time:  0.000203123 s
+      Error: 1.00214e-13
+
+    FFTPACK
+      Direct
+        Time:  2.8231e-05 s
+      Inverse
+        Time:  0.000257028 s
+      Error: 1.00214e-13
+
+
+Dimensions: 257 257 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.00455238 s
+      Inverse
+        Time:  0.00491067 s
+      Error: 1.05915e-11
+
+    MKL
+      Direct
+        Time:  0.00267458 s
+      Inverse
+        Time:  0.00275207 s
+      Error: 1.05915e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.00661373 s
+      Inverse
+        Time:  0.00702047 s
+      Error: 1.59175e-11
+
+    MKL
+      Direct
+        Time:  0.00302661 s
+      Inverse
+        Time:  0.00333894 s
+      Error: 1.59175e-11
+
+Dimensions: 257 257 257 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.66074 s
+      Inverse
+        Time:  1.73906 s
+      Error: 1.78873e-09
+
+    MKL
+      Direct
+        Time:  0.87923 s
+      Inverse
+        Time:  0.8794 s
+      Error: 1.78873e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.6536 s
+      Inverse
+        Time:  2.76352 s
+      Error: 2.83164e-09
+
+    MKL
+      Direct
+        Time:  1.27855 s
+      Inverse
+        Time:  1.27732 s
+      Error: 2.83164e-09
+
+Application 34832703 resources: utime ~13s, stime ~2s, Rss ~3202136, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 257 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.3631e-05 s
+      Inverse
+        Time:  1.2331e-05 s
+      Error: 5.66034e-14
+
+    GSL
+      Direct
+        Time:  0.000147422 s
+      Inverse
+        Time:  0.000161013 s
+      Error: 9.94579e-13
+
+    MKL
+      Direct
+        Time:  5.3179e-05 s
+      Inverse
+        Time:  1.1068e-05 s
+      Error: 9.94579e-13
+
+    FFTPACK
+      Direct
+        Time:  0.000117006 s
+      Inverse
+        Time:  6.2629e-05 s
+      Error: 9.94579e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  1.5058e-05 s
+      Inverse
+        Time:  1.51e-05 s
+      Error: 7.20914e-14
+
+    GSL
+      Direct
+        Time:  1.3172e-05 s
+      Inverse
+        Time:  0.000249334 s
+      Error: 1.00214e-13
+
+    MKL
+      Direct
+        Time:  1.4795e-05 s
+      Inverse
+        Time:  0.000210122 s
+      Error: 1.00214e-13
+
+    FFTPACK
+      Direct
+        Time:  2.2351e-05 s
+      Inverse
+        Time:  0.000218783 s
+      Error: 1.00214e-13
+
+
+Dimensions: 257 257 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.00456542 s
+      Inverse
+        Time:  0.00483753 s
+      Error: 1.05915e-11
+
+    MKL
+      Direct
+        Time:  0.00273594 s
+      Inverse
+        Time:  0.00282313 s
+      Error: 1.05915e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.00647462 s
+      Inverse
+        Time:  0.00699971 s
+      Error: 1.59175e-11
+
+    MKL
+      Direct
+        Time:  0.00300417 s
+      Inverse
+        Time:  0.00333451 s
+      Error: 1.59175e-11
+
+Dimensions: 257 257 257 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.65672 s
+      Inverse
+        Time:  1.73436 s
+      Error: 1.78873e-09
+
+    MKL
+      Direct
+        Time:  0.877818 s
+      Inverse
+        Time:  0.878947 s
+      Error: 1.78873e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.6313 s
+      Inverse
+        Time:  2.71635 s
+      Error: 2.83164e-09
+
+    MKL
+      Direct
+        Time:  1.28039 s
+      Inverse
+        Time:  1.29679 s
+      Error: 2.83164e-09
+
+Application 34832733 resources: utime ~13s, stime ~2s, Rss ~3202136, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 257 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.3882e-05 s
+      Inverse
+        Time:  1.2389e-05 s
+      Error: 5.66034e-14
+
+    GSL
+      Direct
+        Time:  0.000145965 s
+      Inverse
+        Time:  0.000165918 s
+      Error: 9.94579e-13
+
+    MKL
+      Direct
+        Time:  4.1527e-05 s
+      Inverse
+        Time:  3.8181e-05 s
+      Error: 9.94579e-13
+
+    FFTPACK
+      Direct
+        Time:  9.5288e-05 s
+      Inverse
+        Time:  8.3282e-05 s
+      Error: 9.94579e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  1.5358e-05 s
+      Inverse
+        Time:  1.4842e-05 s
+      Error: 7.20914e-14
+
+    GSL
+      Direct
+        Time:  1.6835e-05 s
+      Inverse
+        Time:  0.000262286 s
+      Error: 1.00214e-13
+
+    MKL
+      Direct
+        Time:  1.3355e-05 s
+      Inverse
+        Time:  0.000243715 s
+      Error: 1.00214e-13
+
+    FFTPACK
+      Direct
+        Time:  1.4002e-05 s
+      Inverse
+        Time:  0.000218122 s
+      Error: 1.00214e-13
+
+
+Dimensions: 257 257 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.00455169 s
+      Inverse
+        Time:  0.00484331 s
+      Error: 1.05915e-11
+
+    MKL
+      Direct
+        Time:  0.00262739 s
+      Inverse
+        Time:  0.00272752 s
+      Error: 1.05915e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.00645324 s
+      Inverse
+        Time:  0.00705023 s
+      Error: 1.59175e-11
+
+    MKL
+      Direct
+        Time:  0.00300666 s
+      Inverse
+        Time:  0.00335934 s
+      Error: 1.59175e-11
+
+Dimensions: 257 257 257 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.65732 s
+      Inverse
+        Time:  1.735 s
+      Error: 1.78873e-09
+
+    MKL
+      Direct
+        Time:  0.876399 s
+      Inverse
+        Time:  0.876911 s
+      Error: 1.78873e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.63021 s
+      Inverse
+        Time:  2.71955 s
+      Error: 2.83164e-09
+
+    MKL
+      Direct
+        Time:  1.27714 s
+      Inverse
+        Time:  1.27558 s
+      Error: 2.83164e-09
+
+Application 34832760 resources: utime ~13s, stime ~2s, Rss ~3202136, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 257 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.484e-05 s
+      Inverse
+        Time:  1.251e-05 s
+      Error: 5.66034e-14
+
+    GSL
+      Direct
+        Time:  0.000145773 s
+      Inverse
+        Time:  0.000146646 s
+      Error: 9.94579e-13
+
+    MKL
+      Direct
+        Time:  4.0129e-05 s
+      Inverse
+        Time:  1.087e-05 s
+      Error: 9.94579e-13
+
+    FFTPACK
+      Direct
+        Time:  0.000105627 s
+      Inverse
+        Time:  8.0554e-05 s
+      Error: 9.94579e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  1.5132e-05 s
+      Inverse
+        Time:  1.5114e-05 s
+      Error: 7.20914e-14
+
+    GSL
+      Direct
+        Time:  1.3068e-05 s
+      Inverse
+        Time:  0.000248935 s
+      Error: 1.00214e-13
+
+    MKL
+      Direct
+        Time:  1.3554e-05 s
+      Inverse
+        Time:  0.000237586 s
+      Error: 1.00214e-13
+
+    FFTPACK
+      Direct
+        Time:  1.425e-05 s
+      Inverse
+        Time:  0.000231966 s
+      Error: 1.00214e-13
+
+
+Dimensions: 257 257 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.00458631 s
+      Inverse
+        Time:  0.00492435 s
+      Error: 1.05915e-11
+
+    MKL
+      Direct
+        Time:  0.00280364 s
+      Inverse
+        Time:  0.00275099 s
+      Error: 1.05915e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.00653837 s
+      Inverse
+        Time:  0.00709603 s
+      Error: 1.59175e-11
+
+    MKL
+      Direct
+        Time:  0.00307818 s
+      Inverse
+        Time:  0.00340346 s
+      Error: 1.59175e-11
+
+Dimensions: 257 257 257 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.69877 s
+      Inverse
+        Time:  1.73463 s
+      Error: 1.78873e-09
+
+    MKL
+      Direct
+        Time:  0.878502 s
+      Inverse
+        Time:  0.879043 s
+      Error: 1.78873e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.62955 s
+      Inverse
+        Time:  2.7158 s
+      Error: 2.83164e-09
+
+    MKL
+      Direct
+        Time:  1.27987 s
+      Inverse
+        Time:  1.27826 s
+      Error: 2.83164e-09
+
+Application 34832788 resources: utime ~13s, stime ~2s, Rss ~3202136, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 257 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.3937e-05 s
+      Inverse
+        Time:  1.244e-05 s
+      Error: 5.66034e-14
+
+    GSL
+      Direct
+        Time:  0.000141768 s
+      Inverse
+        Time:  0.00014481 s
+      Error: 9.94579e-13
+
+    MKL
+      Direct
+        Time:  4.1441e-05 s
+      Inverse
+        Time:  8.808e-06 s
+      Error: 9.94579e-13
+
+    FFTPACK
+      Direct
+        Time:  0.000103901 s
+      Inverse
+        Time:  7.8534e-05 s
+      Error: 9.94579e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  1.5437e-05 s
+      Inverse
+        Time:  1.513e-05 s
+      Error: 7.20914e-14
+
+    GSL
+      Direct
+        Time:  1.3131e-05 s
+      Inverse
+        Time:  0.000248064 s
+      Error: 1.00214e-13
+
+    MKL
+      Direct
+        Time:  1.6681e-05 s
+      Inverse
+        Time:  0.000208918 s
+      Error: 1.00214e-13
+
+    FFTPACK
+      Direct
+        Time:  1.3861e-05 s
+      Inverse
+        Time:  0.000214747 s
+      Error: 1.00214e-13
+
+
+Dimensions: 257 257 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.00458901 s
+      Inverse
+        Time:  0.00484315 s
+      Error: 1.05915e-11
+
+    MKL
+      Direct
+        Time:  0.00272901 s
+      Inverse
+        Time:  0.00281421 s
+      Error: 1.05915e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.00648732 s
+      Inverse
+        Time:  0.00691608 s
+      Error: 1.59175e-11
+
+    MKL
+      Direct
+        Time:  0.00296655 s
+      Inverse
+        Time:  0.00332853 s
+      Error: 1.59175e-11
+
+Dimensions: 257 257 257 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.65676 s
+      Inverse
+        Time:  1.73436 s
+      Error: 1.78873e-09
+
+    MKL
+      Direct
+        Time:  0.877439 s
+      Inverse
+        Time:  0.878507 s
+      Error: 1.78873e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.68436 s
+      Inverse
+        Time:  2.71262 s
+      Error: 2.83164e-09
+
+    MKL
+      Direct
+        Time:  1.27918 s
+      Inverse
+        Time:  1.27731 s
+      Error: 2.83164e-09
+
+Application 34832814 resources: utime ~13s, stime ~2s, Rss ~3202136, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 257 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.4297e-05 s
+      Inverse
+        Time:  1.2506e-05 s
+      Error: 5.66034e-14
+
+    GSL
+      Direct
+        Time:  0.000153616 s
+      Inverse
+        Time:  0.000149111 s
+      Error: 9.94579e-13
+
+    MKL
+      Direct
+        Time:  4.0605e-05 s
+      Inverse
+        Time:  1.0699e-05 s
+      Error: 9.94579e-13
+
+    FFTPACK
+      Direct
+        Time:  9.6725e-05 s
+      Inverse
+        Time:  0.000112859 s
+      Error: 9.94579e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.5496e-05 s
+      Inverse
+        Time:  1.501e-05 s
+      Error: 7.20914e-14
+
+    GSL
+      Direct
+        Time:  1.6987e-05 s
+      Inverse
+        Time:  0.000286858 s
+      Error: 1.00214e-13
+
+    MKL
+      Direct
+        Time:  1.3214e-05 s
+      Inverse
+        Time:  0.000203572 s
+      Error: 1.00214e-13
+
+    FFTPACK
+      Direct
+        Time:  1.3622e-05 s
+      Inverse
+        Time:  0.000219847 s
+      Error: 1.00214e-13
+
+
+Dimensions: 257 257 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.00457618 s
+      Inverse
+        Time:  0.00483949 s
+      Error: 1.05915e-11
+
+    MKL
+      Direct
+        Time:  0.00270595 s
+      Inverse
+        Time:  0.00277712 s
+      Error: 1.05915e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.00648007 s
+      Inverse
+        Time:  0.00700242 s
+      Error: 1.59175e-11
+
+    MKL
+      Direct
+        Time:  0.00295421 s
+      Inverse
+        Time:  0.00329358 s
+      Error: 1.59175e-11
+
+Dimensions: 257 257 257 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.65678 s
+      Inverse
+        Time:  1.73413 s
+      Error: 1.78873e-09
+
+    MKL
+      Direct
+        Time:  0.876603 s
+      Inverse
+        Time:  0.876981 s
+      Error: 1.78873e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.6299 s
+      Inverse
+        Time:  2.71599 s
+      Error: 2.83164e-09
+
+    MKL
+      Direct
+        Time:  1.30553 s
+      Inverse
+        Time:  1.27382 s
+      Error: 2.83164e-09
+
+Application 34832839 resources: utime ~13s, stime ~2s, Rss ~3202136, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 257 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.4364e-05 s
+      Inverse
+        Time:  1.2526e-05 s
+      Error: 5.66034e-14
+
+    GSL
+      Direct
+        Time:  0.000147485 s
+      Inverse
+        Time:  0.000145083 s
+      Error: 9.94579e-13
+
+    MKL
+      Direct
+        Time:  4.0091e-05 s
+      Inverse
+        Time:  1.1057e-05 s
+      Error: 9.94579e-13
+
+    FFTPACK
+      Direct
+        Time:  0.00010234 s
+      Inverse
+        Time:  9.7124e-05 s
+      Error: 9.94579e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  1.5167e-05 s
+      Inverse
+        Time:  2.333e-05 s
+      Error: 7.20914e-14
+
+    GSL
+      Direct
+        Time:  1.2853e-05 s
+      Inverse
+        Time:  0.000256059 s
+      Error: 1.00214e-13
+
+    MKL
+      Direct
+        Time:  1.3573e-05 s
+      Inverse
+        Time:  0.000207817 s
+      Error: 1.00214e-13
+
+    FFTPACK
+      Direct
+        Time:  1.385e-05 s
+      Inverse
+        Time:  0.000213171 s
+      Error: 1.00214e-13
+
+
+Dimensions: 257 257 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.00458069 s
+      Inverse
+        Time:  0.00483553 s
+      Error: 1.05915e-11
+
+    MKL
+      Direct
+        Time:  0.00272935 s
+      Inverse
+        Time:  0.00281225 s
+      Error: 1.05915e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.00646256 s
+      Inverse
+        Time:  0.00708192 s
+      Error: 1.59175e-11
+
+    MKL
+      Direct
+        Time:  0.00307913 s
+      Inverse
+        Time:  0.00337025 s
+      Error: 1.59175e-11
+
+Dimensions: 257 257 257 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.65706 s
+      Inverse
+        Time:  1.73478 s
+      Error: 1.78873e-09
+
+    MKL
+      Direct
+        Time:  0.878093 s
+      Inverse
+        Time:  0.878524 s
+      Error: 1.78873e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.63002 s
+      Inverse
+        Time:  2.71623 s
+      Error: 2.83164e-09
+
+    MKL
+      Direct
+        Time:  1.27924 s
+      Inverse
+        Time:  1.27852 s
+      Error: 2.83164e-09
+
+Application 34832863 resources: utime ~13s, stime ~2s, Rss ~3202136, inblocks ~1383, outblocks ~2500
+================
+----------------
+N threads: 1
+
+Dimensions: 509 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  3.1846e-05 s
+      Inverse
+        Time:  3.125e-05 s
+      Error: 1.29416e-13
+
+    GSL
+      Direct
+        Time:  0.000500574 s
+      Inverse
+        Time:  0.000523734 s
+      Error: 3.85844e-12
+
+    MKL
+      Direct
+        Time:  4.4262e-05 s
+      Inverse
+        Time:  2.0627e-05 s
+      Error: 3.85844e-12
+
+    FFTPACK
+      Direct
+        Time:  0.000313933 s
+      Inverse
+        Time:  0.000249303 s
+      Error: 3.85844e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  3.0061e-05 s
+      Inverse
+        Time:  3.1617e-05 s
+      Error: 2.41383e-13
+
+    GSL
+      Direct
+        Time:  3.1592e-05 s
+      Inverse
+        Time:  0.000923323 s
+      Error: 2.80852e-13
+
+    MKL
+      Direct
+        Time:  2.9108e-05 s
+      Inverse
+        Time:  0.000811064 s
+      Error: 2.80852e-13
+
+    FFTPACK
+      Direct
+        Time:  5.3246e-05 s
+      Inverse
+        Time:  0.000811688 s
+      Error: 2.80852e-13
+
+
+Dimensions: 509 509 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.0229423 s
+      Inverse
+        Time:  0.0238004 s
+      Error: 5.39455e-11
+
+    MKL
+      Direct
+        Time:  0.0091988 s
+      Inverse
+        Time:  0.0092672 s
+      Error: 5.39455e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0295161 s
+      Inverse
+        Time:  0.0314187 s
+      Error: 9.89324e-11
+
+    MKL
+      Direct
+        Time:  0.0102486 s
+      Inverse
+        Time:  0.011618 s
+      Error: 9.89324e-11
+
+Dimensions: 509 509 509 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  15.9818 s
+      Inverse
+        Time:  16.5963 s
+      Error: 1.90616e-08
+
+    MKL
+      Direct
+        Time:  6.16001 s
+      Inverse
+        Time:  6.24009 s
+      Error: 1.90616e-08
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  22.8438 s
+      Inverse
+        Time:  24.3546 s
+      Error: 3.41705e-08
+
+    MKL
+      Direct
+        Time:  8.79966 s
+      Inverse
+        Time:  8.86599 s
+      Error: 3.41705e-08
+
+Application 34832885 resources: utime ~111s, stime ~16s, Rss ~24748396, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 509 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  3.0274e-05 s
+      Inverse
+        Time:  5.0157e-05 s
+      Error: 1.29416e-13
+
+    GSL
+      Direct
+        Time:  0.000480031 s
+      Inverse
+        Time:  0.00052203 s
+      Error: 3.85844e-12
+
+    MKL
+      Direct
+        Time:  4.5675e-05 s
+      Inverse
+        Time:  1.2725e-05 s
+      Error: 3.85844e-12
+
+    FFTPACK
+      Direct
+        Time:  0.000290873 s
+      Inverse
+        Time:  0.000243558 s
+      Error: 3.85844e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.9706e-05 s
+      Inverse
+        Time:  3.0924e-05 s
+      Error: 2.41383e-13
+
+    GSL
+      Direct
+        Time:  3.1693e-05 s
+      Inverse
+        Time:  0.000832936 s
+      Error: 2.80852e-13
+
+    MKL
+      Direct
+        Time:  2.8992e-05 s
+      Inverse
+        Time:  0.000853749 s
+      Error: 2.80852e-13
+
+    FFTPACK
+      Direct
+        Time:  4.0606e-05 s
+      Inverse
+        Time:  0.00087269 s
+      Error: 2.80852e-13
+
+
+Dimensions: 509 509 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.0226963 s
+      Inverse
+        Time:  0.0237911 s
+      Error: 5.39455e-11
+
+    MKL
+      Direct
+        Time:  0.00917319 s
+      Inverse
+        Time:  0.0093445 s
+      Error: 5.39455e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0290992 s
+      Inverse
+        Time:  0.0310979 s
+      Error: 9.89324e-11
+
+    MKL
+      Direct
+        Time:  0.0101634 s
+      Inverse
+        Time:  0.0115212 s
+      Error: 9.89324e-11
+
+Dimensions: 509 509 509 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  16.0458 s
+      Inverse
+        Time:  16.5374 s
+      Error: 1.90616e-08
+
+    MKL
+      Direct
+        Time:  6.2117 s
+      Inverse
+        Time:  6.1629 s
+      Error: 1.90616e-08
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  22.8463 s
+      Inverse
+        Time:  24.3459 s
+      Error: 3.41705e-08
+
+    MKL
+      Direct
+        Time:  8.79157 s
+      Inverse
+        Time:  8.87652 s
+      Error: 3.41705e-08
+
+Application 34833040 resources: utime ~111s, stime ~16s, Rss ~24748396, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 509 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  3.0333e-05 s
+      Inverse
+        Time:  3.0996e-05 s
+      Error: 1.29416e-13
+
+    GSL
+      Direct
+        Time:  0.000480406 s
+      Inverse
+        Time:  0.000520831 s
+      Error: 3.85844e-12
+
+    MKL
+      Direct
+        Time:  4.4768e-05 s
+      Inverse
+        Time:  1.3182e-05 s
+      Error: 3.85844e-12
+
+    FFTPACK
+      Direct
+        Time:  0.000274969 s
+      Inverse
+        Time:  0.000243595 s
+      Error: 3.85844e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.9938e-05 s
+      Inverse
+        Time:  3.1296e-05 s
+      Error: 2.41383e-13
+
+    GSL
+      Direct
+        Time:  3.1075e-05 s
+      Inverse
+        Time:  0.000861142 s
+      Error: 2.80852e-13
+
+    MKL
+      Direct
+        Time:  2.9796e-05 s
+      Inverse
+        Time:  0.000845605 s
+      Error: 2.80852e-13
+
+    FFTPACK
+      Direct
+        Time:  4.2216e-05 s
+      Inverse
+        Time:  0.000829933 s
+      Error: 2.80852e-13
+
+
+Dimensions: 509 509 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.0226591 s
+      Inverse
+        Time:  0.0233221 s
+      Error: 5.39455e-11
+
+    MKL
+      Direct
+        Time:  0.00898967 s
+      Inverse
+        Time:  0.00916047 s
+      Error: 5.39455e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0291238 s
+      Inverse
+        Time:  0.0311841 s
+      Error: 9.89324e-11
+
+    MKL
+      Direct
+        Time:  0.0101775 s
+      Inverse
+        Time:  0.0114954 s
+      Error: 9.89324e-11
+
+Dimensions: 509 509 509 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  15.9773 s
+      Inverse
+        Time:  16.5821 s
+      Error: 1.90616e-08
+
+    MKL
+      Direct
+        Time:  6.15333 s
+      Inverse
+        Time:  6.17262 s
+      Error: 1.90616e-08
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  22.8464 s
+      Inverse
+        Time:  24.3561 s
+      Error: 3.41705e-08
+
+    MKL
+      Direct
+        Time:  8.8449 s
+      Inverse
+        Time:  8.80403 s
+      Error: 3.41705e-08
+
+Application 34833220 resources: utime ~111s, stime ~16s, Rss ~24748396, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 509 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  3.2418e-05 s
+      Inverse
+        Time:  3.104e-05 s
+      Error: 1.29416e-13
+
+    GSL
+      Direct
+        Time:  0.000498417 s
+      Inverse
+        Time:  0.000521948 s
+      Error: 3.85844e-12
+
+    MKL
+      Direct
+        Time:  4.4005e-05 s
+      Inverse
+        Time:  1.2576e-05 s
+      Error: 3.85844e-12
+
+    FFTPACK
+      Direct
+        Time:  0.000292819 s
+      Inverse
+        Time:  0.000248859 s
+      Error: 3.85844e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  3.0359e-05 s
+      Inverse
+        Time:  3.7761e-05 s
+      Error: 2.41383e-13
+
+    GSL
+      Direct
+        Time:  2.9291e-05 s
+      Inverse
+        Time:  0.000864575 s
+      Error: 2.80852e-13
+
+    MKL
+      Direct
+        Time:  2.9039e-05 s
+      Inverse
+        Time:  0.000795903 s
+      Error: 2.80852e-13
+
+    FFTPACK
+      Direct
+        Time:  4.096e-05 s
+      Inverse
+        Time:  0.000888384 s
+      Error: 2.80852e-13
+
+
+Dimensions: 509 509 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.0227916 s
+      Inverse
+        Time:  0.023704 s
+      Error: 5.39455e-11
+
+    MKL
+      Direct
+        Time:  0.00900036 s
+      Inverse
+        Time:  0.00928963 s
+      Error: 5.39455e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0293206 s
+      Inverse
+        Time:  0.0314061 s
+      Error: 9.89324e-11
+
+    MKL
+      Direct
+        Time:  0.0102443 s
+      Inverse
+        Time:  0.0116087 s
+      Error: 9.89324e-11
+
+Dimensions: 509 509 509 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  16.0128 s
+      Inverse
+        Time:  16.6136 s
+      Error: 1.90616e-08
+
+    MKL
+      Direct
+        Time:  6.14312 s
+      Inverse
+        Time:  6.16012 s
+      Error: 1.90616e-08
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  22.7744 s
+      Inverse
+        Time:  24.3315 s
+      Error: 3.41705e-08
+
+    MKL
+      Direct
+        Time:  8.78781 s
+      Inverse
+        Time:  8.79545 s
+      Error: 3.41705e-08
+
+Application 34833367 resources: utime ~111s, stime ~16s, Rss ~24748396, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 509 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  3.1561e-05 s
+      Inverse
+        Time:  3.1873e-05 s
+      Error: 1.29416e-13
+
+    GSL
+      Direct
+        Time:  0.000513797 s
+      Inverse
+        Time:  0.000506847 s
+      Error: 3.85844e-12
+
+    MKL
+      Direct
+        Time:  4.3116e-05 s
+      Inverse
+        Time:  1.253e-05 s
+      Error: 3.85844e-12
+
+    FFTPACK
+      Direct
+        Time:  0.00032908 s
+      Inverse
+        Time:  0.000251756 s
+      Error: 3.85844e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.9806e-05 s
+      Inverse
+        Time:  3.1118e-05 s
+      Error: 2.41383e-13
+
+    GSL
+      Direct
+        Time:  3.3588e-05 s
+      Inverse
+        Time:  0.000833959 s
+      Error: 2.80852e-13
+
+    MKL
+      Direct
+        Time:  2.8997e-05 s
+      Inverse
+        Time:  0.000827459 s
+      Error: 2.80852e-13
+
+    FFTPACK
+      Direct
+        Time:  4.2249e-05 s
+      Inverse
+        Time:  0.000842593 s
+      Error: 2.80852e-13
+
+
+Dimensions: 509 509 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.0226294 s
+      Inverse
+        Time:  0.0232273 s
+      Error: 5.39455e-11
+
+    MKL
+      Direct
+        Time:  0.00904241 s
+      Inverse
+        Time:  0.009174 s
+      Error: 5.39455e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0291342 s
+      Inverse
+        Time:  0.0310913 s
+      Error: 9.89324e-11
+
+    MKL
+      Direct
+        Time:  0.0101833 s
+      Inverse
+        Time:  0.0115019 s
+      Error: 9.89324e-11
+
+Dimensions: 509 509 509 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  15.9877 s
+      Inverse
+        Time:  16.6245 s
+      Error: 1.90616e-08
+
+    MKL
+      Direct
+        Time:  6.14642 s
+      Inverse
+        Time:  6.22929 s
+      Error: 1.90616e-08
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  22.8479 s
+      Inverse
+        Time:  24.3303 s
+      Error: 3.41705e-08
+
+    MKL
+      Direct
+        Time:  8.78797 s
+      Inverse
+        Time:  8.86597 s
+      Error: 3.41705e-08
+
+Application 34833525 resources: utime ~111s, stime ~16s, Rss ~24748396, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 509 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  3.0242e-05 s
+      Inverse
+        Time:  3.1482e-05 s
+      Error: 1.29416e-13
+
+    GSL
+      Direct
+        Time:  0.000481899 s
+      Inverse
+        Time:  0.000509155 s
+      Error: 3.85844e-12
+
+    MKL
+      Direct
+        Time:  4.6503e-05 s
+      Inverse
+        Time:  1.3041e-05 s
+      Error: 3.85844e-12
+
+    FFTPACK
+      Direct
+        Time:  0.000274847 s
+      Inverse
+        Time:  0.000249984 s
+      Error: 3.85844e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  4.3819e-05 s
+      Inverse
+        Time:  3.061e-05 s
+      Error: 2.41383e-13
+
+    GSL
+      Direct
+        Time:  4.7201e-05 s
+      Inverse
+        Time:  0.000894332 s
+      Error: 2.80852e-13
+
+    MKL
+      Direct
+        Time:  2.8262e-05 s
+      Inverse
+        Time:  0.000775516 s
+      Error: 2.80852e-13
+
+    FFTPACK
+      Direct
+        Time:  4.0162e-05 s
+      Inverse
+        Time:  0.000787903 s
+      Error: 2.80852e-13
+
+
+Dimensions: 509 509 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.0223573 s
+      Inverse
+        Time:  0.0229219 s
+      Error: 5.39455e-11
+
+    MKL
+      Direct
+        Time:  0.00888704 s
+      Inverse
+        Time:  0.00909644 s
+      Error: 5.39455e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0289659 s
+      Inverse
+        Time:  0.0308186 s
+      Error: 9.89324e-11
+
+    MKL
+      Direct
+        Time:  0.0100796 s
+      Inverse
+        Time:  0.0113813 s
+      Error: 9.89324e-11
+
+Dimensions: 509 509 509 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  15.9988 s
+      Inverse
+        Time:  16.5356 s
+      Error: 1.90616e-08
+
+    MKL
+      Direct
+        Time:  6.20774 s
+      Inverse
+        Time:  6.15352 s
+      Error: 1.90616e-08
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  22.8604 s
+      Inverse
+        Time:  24.3389 s
+      Error: 3.41705e-08
+
+    MKL
+      Direct
+        Time:  8.79785 s
+      Inverse
+        Time:  8.83787 s
+      Error: 3.41705e-08
+
+Application 34833675 resources: utime ~111s, stime ~16s, Rss ~24748396, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 509 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  3.0667e-05 s
+      Inverse
+        Time:  3.099e-05 s
+      Error: 1.29416e-13
+
+    GSL
+      Direct
+        Time:  0.000503471 s
+      Inverse
+        Time:  0.000519641 s
+      Error: 3.85844e-12
+
+    MKL
+      Direct
+        Time:  4.5161e-05 s
+      Inverse
+        Time:  1.2517e-05 s
+      Error: 3.85844e-12
+
+    FFTPACK
+      Direct
+        Time:  0.000274962 s
+      Inverse
+        Time:  0.000244126 s
+      Error: 3.85844e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.9631e-05 s
+      Inverse
+        Time:  3.1074e-05 s
+      Error: 2.41383e-13
+
+    GSL
+      Direct
+        Time:  3.1773e-05 s
+      Inverse
+        Time:  0.000887419 s
+      Error: 2.80852e-13
+
+    MKL
+      Direct
+        Time:  2.922e-05 s
+      Inverse
+        Time:  0.000882279 s
+      Error: 2.80852e-13
+
+    FFTPACK
+      Direct
+        Time:  4.6596e-05 s
+      Inverse
+        Time:  0.000814094 s
+      Error: 2.80852e-13
+
+
+Dimensions: 509 509 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.0226434 s
+      Inverse
+        Time:  0.0232542 s
+      Error: 5.39455e-11
+
+    MKL
+      Direct
+        Time:  0.00899533 s
+      Inverse
+        Time:  0.00918326 s
+      Error: 5.39455e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0290958 s
+      Inverse
+        Time:  0.0310645 s
+      Error: 9.89324e-11
+
+    MKL
+      Direct
+        Time:  0.0102074 s
+      Inverse
+        Time:  0.0114619 s
+      Error: 9.89324e-11
+
+Dimensions: 509 509 509 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  16.0016 s
+      Inverse
+        Time:  16.6169 s
+      Error: 1.90616e-08
+
+    MKL
+      Direct
+        Time:  6.14735 s
+      Inverse
+        Time:  6.15916 s
+      Error: 1.90616e-08
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  22.8351 s
+      Inverse
+        Time:  24.3415 s
+      Error: 3.41705e-08
+
+    MKL
+      Direct
+        Time:  8.85323 s
+      Inverse
+        Time:  8.79827 s
+      Error: 3.41705e-08
+
+Application 34833832 resources: utime ~112s, stime ~15s, Rss ~24748396, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 509 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  3.1316e-05 s
+      Inverse
+        Time:  3.2126e-05 s
+      Error: 1.29416e-13
+
+    GSL
+      Direct
+        Time:  0.000481372 s
+      Inverse
+        Time:  0.000522035 s
+      Error: 3.85844e-12
+
+    MKL
+      Direct
+        Time:  4.382e-05 s
+      Inverse
+        Time:  1.2518e-05 s
+      Error: 3.85844e-12
+
+    FFTPACK
+      Direct
+        Time:  0.000273065 s
+      Inverse
+        Time:  0.000242778 s
+      Error: 3.85844e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.9588e-05 s
+      Inverse
+        Time:  3.1105e-05 s
+      Error: 2.41383e-13
+
+    GSL
+      Direct
+        Time:  2.8287e-05 s
+      Inverse
+        Time:  0.000844958 s
+      Error: 2.80852e-13
+
+    MKL
+      Direct
+        Time:  3.4008e-05 s
+      Inverse
+        Time:  0.000829529 s
+      Error: 2.80852e-13
+
+    FFTPACK
+      Direct
+        Time:  5.5084e-05 s
+      Inverse
+        Time:  0.000868177 s
+      Error: 2.80852e-13
+
+
+Dimensions: 509 509 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.0225622 s
+      Inverse
+        Time:  0.0232185 s
+      Error: 5.39455e-11
+
+    MKL
+      Direct
+        Time:  0.00894065 s
+      Inverse
+        Time:  0.00920875 s
+      Error: 5.39455e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0291768 s
+      Inverse
+        Time:  0.0311537 s
+      Error: 9.89324e-11
+
+    MKL
+      Direct
+        Time:  0.0101682 s
+      Inverse
+        Time:  0.0115017 s
+      Error: 9.89324e-11
+
+Dimensions: 509 509 509 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  15.9411 s
+      Inverse
+        Time:  16.613 s
+      Error: 1.90616e-08
+
+    MKL
+      Direct
+        Time:  6.14852 s
+      Inverse
+        Time:  6.1623 s
+      Error: 1.90616e-08
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  22.8434 s
+      Inverse
+        Time:  24.3418 s
+      Error: 3.41705e-08
+
+    MKL
+      Direct
+        Time:  8.79079 s
+      Inverse
+        Time:  8.79826 s
+      Error: 3.41705e-08
+
+Application 34834003 resources: utime ~111s, stime ~16s, Rss ~24748396, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 509 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  3.2843e-05 s
+      Inverse
+        Time:  3.392e-05 s
+      Error: 1.29416e-13
+
+    GSL
+      Direct
+        Time:  0.000507642 s
+      Inverse
+        Time:  0.000522555 s
+      Error: 3.85844e-12
+
+    MKL
+      Direct
+        Time:  4.4223e-05 s
+      Inverse
+        Time:  1.2568e-05 s
+      Error: 3.85844e-12
+
+    FFTPACK
+      Direct
+        Time:  0.000291296 s
+      Inverse
+        Time:  0.000233762 s
+      Error: 3.85844e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  3.1561e-05 s
+      Inverse
+        Time:  3.3095e-05 s
+      Error: 2.41383e-13
+
+    GSL
+      Direct
+        Time:  2.9573e-05 s
+      Inverse
+        Time:  0.000846742 s
+      Error: 2.80852e-13
+
+    MKL
+      Direct
+        Time:  2.8914e-05 s
+      Inverse
+        Time:  0.000808594 s
+      Error: 2.80852e-13
+
+    FFTPACK
+      Direct
+        Time:  4.0808e-05 s
+      Inverse
+        Time:  0.000853814 s
+      Error: 2.80852e-13
+
+
+Dimensions: 509 509 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.0228345 s
+      Inverse
+        Time:  0.0235115 s
+      Error: 5.39455e-11
+
+    MKL
+      Direct
+        Time:  0.00907454 s
+      Inverse
+        Time:  0.00926929 s
+      Error: 5.39455e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0294454 s
+      Inverse
+        Time:  0.0314481 s
+      Error: 9.89324e-11
+
+    MKL
+      Direct
+        Time:  0.0102681 s
+      Inverse
+        Time:  0.0116306 s
+      Error: 9.89324e-11
+
+Dimensions: 509 509 509 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  15.9735 s
+      Inverse
+        Time:  16.6053 s
+      Error: 1.90616e-08
+
+    MKL
+      Direct
+        Time:  6.15131 s
+      Inverse
+        Time:  6.24163 s
+      Error: 1.90616e-08
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  22.8594 s
+      Inverse
+        Time:  24.3385 s
+      Error: 3.41705e-08
+
+    MKL
+      Direct
+        Time:  8.78916 s
+      Inverse
+        Time:  8.8696 s
+      Error: 3.41705e-08
+
+Application 34834158 resources: utime ~111s, stime ~16s, Rss ~24748396, inblocks ~1383, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 509 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  3.25e-05 s
+      Inverse
+        Time:  3.1964e-05 s
+      Error: 1.29416e-13
+
+    GSL
+      Direct
+        Time:  0.000480973 s
+      Inverse
+        Time:  0.000544177 s
+      Error: 3.85844e-12
+
+    MKL
+      Direct
+        Time:  4.2909e-05 s
+      Inverse
+        Time:  1.2559e-05 s
+      Error: 3.85844e-12
+
+    FFTPACK
+      Direct
+        Time:  0.000292785 s
+      Inverse
+        Time:  0.000229197 s
+      Error: 3.85844e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.9773e-05 s
+      Inverse
+        Time:  3.0964e-05 s
+      Error: 2.41383e-13
+
+    GSL
+      Direct
+        Time:  3.6973e-05 s
+      Inverse
+        Time:  0.000835289 s
+      Error: 2.80852e-13
+
+    MKL
+      Direct
+        Time:  2.899e-05 s
+      Inverse
+        Time:  0.000822132 s
+      Error: 2.80852e-13
+
+    FFTPACK
+      Direct
+        Time:  6.2994e-05 s
+      Inverse
+        Time:  0.000852725 s
+      Error: 2.80852e-13
+
+
+Dimensions: 509 509 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.0226414 s
+      Inverse
+        Time:  0.0235453 s
+      Error: 5.39455e-11
+
+    MKL
+      Direct
+        Time:  0.00901105 s
+      Inverse
+        Time:  0.00915429 s
+      Error: 5.39455e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.029096 s
+      Inverse
+        Time:  0.0310397 s
+      Error: 9.89324e-11
+
+    MKL
+      Direct
+        Time:  0.0102452 s
+      Inverse
+        Time:  0.0114728 s
+      Error: 9.89324e-11
+
+Dimensions: 509 509 509 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  16.0122 s
+      Inverse
+        Time:  16.5778 s
+      Error: 1.90616e-08
+
+    MKL
+      Direct
+        Time:  6.22368 s
+      Inverse
+        Time:  6.16657 s
+      Error: 1.90616e-08
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  22.8522 s
+      Inverse
+        Time:  24.3524 s
+      Error: 3.41705e-08
+
+    MKL
+      Direct
+        Time:  8.82152 s
+      Inverse
+        Time:  8.8185 s
+      Error: 3.41705e-08
+
+Application 34834348 resources: utime ~111s, stime ~16s, Rss ~24748396, inblocks ~1383, outblocks ~2500
