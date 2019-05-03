@@ -11,7 +11,6 @@ f.close()
 
 keys_list=[]
 parameters_list=[]
-parameter=int(0)
 
 for line in lines:
   if len(line)<1:
@@ -20,12 +19,15 @@ for line in lines:
     continue
   elements=line.split()
   key=elements[1]
-  parameter=elements[2]
+  parameter=int(elements[2])
   keys_list.append(key)
   parameters_list.append(parameter)
 
-keys_list_unique=set(keys_list)
-parameters_list_unique=set(parameters_list)
+keys_list_unique=sorted(set(keys_list))
+parameters_list_unique=sorted(set(parameters_list))
+
+print keys_list_unique
+print parameters_list_unique
 
 data={}
 averages={}
