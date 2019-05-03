@@ -1,0 +1,6436 @@
+
+================
+----------------
+N threads: 1
+
+Dimensions: 512 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.1293e-05 s
+      Inverse
+        Time:  6.552e-06 s
+@ 1DFFTWR 512 6.552e-06
+      Error: 4.38261e-14
+
+    GSL
+      Direct
+        Time:  2.7225e-05 s
+@ 1DGSLR 512 2.7225e-05
+      Inverse
+        Time:  3.0061e-05 s
+      Error: 5.69128e-14
+
+    MKL
+      Direct
+        Time:  1.6959e-05 s
+@ 1DMKLR 512 1.6959e-05
+      Inverse
+        Time:  3.326e-06 s
+      Error: 5.69128e-14
+
+    FFTPACK
+      Direct
+        Time:  1.6106e-05 s
+@ 1DFFTPACKR 512 1.6106e-05
+      Inverse
+        Time:  5.138e-06 s
+      Error: 5.69128e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  1.1288e-05 s
+@ 1DFFTWC 512 1.1288e-05
+      Inverse
+        Time:  1.0499e-05 s
+      Error: 7.23598e-14
+
+    GSL
+      Direct
+        Time:  8.438e-06 s
+@ 1DGSLC 512 8.438e-06
+      Inverse
+        Time:  4.5302e-05 s
+      Error: 1.19321e-13
+
+    MKL
+      Direct
+        Time:  7.626e-06 s
+@ 1DMKLC 512 7.626e-06
+      Inverse
+        Time:  1.0505e-05 s
+      Error: 1.19321e-13
+
+    FFTPACK
+      Direct
+        Time:  7.645e-06 s
+@ 1DFFTPACKC 512 7.645e-06
+      Inverse
+        Time:  1.0502e-05 s
+      Error: 1.19321e-13
+
+
+Dimensions: 512 512 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.00521735 s
+@ 2DFFTWR 512 0.00521735
+      Inverse
+        Time:  0.00625554 s
+      Error: 2.08798e-11
+
+    MKL
+      Direct
+        Time:  0.00347102 s
+      Inverse
+        Time:  0.00351689 s
+@ 2DMKLR 512 0.00351689
+      Error: 2.08798e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0135269 s
+@ 2DFFTWC 512 0.0135269
+      Inverse
+        Time:  0.0152721 s
+      Error: 3.24709e-11
+
+    MKL
+      Direct
+        Time:  0.00375131 s
+      Inverse
+        Time:  0.00521022 s
+@ 2DMKLC 512 0.00521022
+      Error: 3.24709e-11
+
+Dimensions: 512 512 512 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  5.53539 s
+@ 3DFFTWR 512 5.53539
+      Inverse
+        Time:  6.0685 s
+      Error: 7.82227e-09
+
+    MKL
+      Direct
+        Time:  2.54406 s
+@ 3DMKLR 512 2.54406
+      Inverse
+        Time:  2.54092 s
+      Error: 7.82227e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  39.9496 s
+@ 3DFFTWC 512 39.9496
+      Inverse
+        Time:  38.7958 s
+      Error: 1.28485e-08
+
+    MKL
+      Direct
+        Time:  6.33915 s
+      Inverse
+        Time:  6.36429 s
+@ 3DMKLC 512 6.36429
+      Error: 1.28485e-08
+
+Application 34923920 resources: utime ~110s, stime ~17s, Rss ~25188112, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 512 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.1468e-05 s
+      Inverse
+        Time:  6.681e-06 s
+@ 1DFFTWR 512 6.681e-06
+      Error: 4.38261e-14
+
+    GSL
+      Direct
+        Time:  2.6815e-05 s
+@ 1DGSLR 512 2.6815e-05
+      Inverse
+        Time:  2.9761e-05 s
+      Error: 5.69128e-14
+
+    MKL
+      Direct
+        Time:  1.5867e-05 s
+@ 1DMKLR 512 1.5867e-05
+      Inverse
+        Time:  3.307e-06 s
+      Error: 5.69128e-14
+
+    FFTPACK
+      Direct
+        Time:  1.981e-05 s
+@ 1DFFTPACKR 512 1.981e-05
+      Inverse
+        Time:  4.91e-06 s
+      Error: 5.69128e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  1.1419e-05 s
+@ 1DFFTWC 512 1.1419e-05
+      Inverse
+        Time:  1.4922e-05 s
+      Error: 7.23598e-14
+
+    GSL
+      Direct
+        Time:  7.447e-06 s
+@ 1DGSLC 512 7.447e-06
+      Inverse
+        Time:  3.9993e-05 s
+      Error: 1.19321e-13
+
+    MKL
+      Direct
+        Time:  7.92e-06 s
+@ 1DMKLC 512 7.92e-06
+      Inverse
+        Time:  1.0835e-05 s
+      Error: 1.19321e-13
+
+    FFTPACK
+      Direct
+        Time:  7.881e-06 s
+@ 1DFFTPACKC 512 7.881e-06
+      Inverse
+        Time:  1.0757e-05 s
+      Error: 1.19321e-13
+
+
+Dimensions: 512 512 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.00521656 s
+@ 2DFFTWR 512 0.00521656
+      Inverse
+        Time:  0.00611181 s
+      Error: 2.08798e-11
+
+    MKL
+      Direct
+        Time:  0.00347368 s
+      Inverse
+        Time:  0.00351945 s
+@ 2DMKLR 512 0.00351945
+      Error: 2.08798e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0135808 s
+@ 2DFFTWC 512 0.0135808
+      Inverse
+        Time:  0.0152163 s
+      Error: 3.24709e-11
+
+    MKL
+      Direct
+        Time:  0.00375431 s
+      Inverse
+        Time:  0.00520195 s
+@ 2DMKLC 512 0.00520195
+      Error: 3.24709e-11
+
+Dimensions: 512 512 512 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  5.48349 s
+@ 3DFFTWR 512 5.48349
+      Inverse
+        Time:  6.04758 s
+      Error: 7.82227e-09
+
+    MKL
+      Direct
+        Time:  2.51477 s
+@ 3DMKLR 512 2.51477
+      Inverse
+        Time:  2.51757 s
+      Error: 7.82227e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  40.0012 s
+@ 3DFFTWC 512 40.0012
+      Inverse
+        Time:  40.4939 s
+      Error: 1.28485e-08
+
+    MKL
+      Direct
+        Time:  6.30917 s
+      Inverse
+        Time:  6.33888 s
+@ 3DMKLC 512 6.33888
+      Error: 1.28485e-08
+
+Application 34924109 resources: utime ~111s, stime ~16s, Rss ~25188112, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 512 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.1372e-05 s
+      Inverse
+        Time:  6.268e-06 s
+@ 1DFFTWR 512 6.268e-06
+      Error: 4.38261e-14
+
+    GSL
+      Direct
+        Time:  2.7515e-05 s
+@ 1DGSLR 512 2.7515e-05
+      Inverse
+        Time:  3.3486e-05 s
+      Error: 5.69128e-14
+
+    MKL
+      Direct
+        Time:  1.6208e-05 s
+@ 1DMKLR 512 1.6208e-05
+      Inverse
+        Time:  4.587e-06 s
+      Error: 5.69128e-14
+
+    FFTPACK
+      Direct
+        Time:  1.5765e-05 s
+@ 1DFFTPACKR 512 1.5765e-05
+      Inverse
+        Time:  1.0594e-05 s
+      Error: 5.69128e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  1.3319e-05 s
+@ 1DFFTWC 512 1.3319e-05
+      Inverse
+        Time:  1.4048e-05 s
+      Error: 7.23598e-14
+
+    GSL
+      Direct
+        Time:  1.1488e-05 s
+@ 1DGSLC 512 1.1488e-05
+      Inverse
+        Time:  6.115e-05 s
+      Error: 1.19321e-13
+
+    MKL
+      Direct
+        Time:  7.462e-06 s
+@ 1DMKLC 512 7.462e-06
+      Inverse
+        Time:  1.7712e-05 s
+      Error: 1.19321e-13
+
+    FFTPACK
+      Direct
+        Time:  7.458e-06 s
+@ 1DFFTPACKC 512 7.458e-06
+      Inverse
+        Time:  2.1059e-05 s
+      Error: 1.19321e-13
+
+
+Dimensions: 512 512 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.00523274 s
+@ 2DFFTWR 512 0.00523274
+      Inverse
+        Time:  0.00610824 s
+      Error: 2.08798e-11
+
+    MKL
+      Direct
+        Time:  0.00350169 s
+      Inverse
+        Time:  0.00351023 s
+@ 2DMKLR 512 0.00351023
+      Error: 2.08798e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0134457 s
+@ 2DFFTWC 512 0.0134457
+      Inverse
+        Time:  0.0151173 s
+      Error: 3.24709e-11
+
+    MKL
+      Direct
+        Time:  0.00369643 s
+      Inverse
+        Time:  0.00515574 s
+@ 2DMKLC 512 0.00515574
+      Error: 3.24709e-11
+
+Dimensions: 512 512 512 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  5.50252 s
+@ 3DFFTWR 512 5.50252
+      Inverse
+        Time:  6.06556 s
+      Error: 7.82227e-09
+
+    MKL
+      Direct
+        Time:  2.52618 s
+@ 3DMKLR 512 2.52618
+      Inverse
+        Time:  2.57586 s
+      Error: 7.82227e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  39.6752 s
+@ 3DFFTWC 512 39.6752
+      Inverse
+        Time:  39.2933 s
+      Error: 1.28485e-08
+
+    MKL
+      Direct
+        Time:  6.3186 s
+      Inverse
+        Time:  6.37403 s
+@ 3DMKLC 512 6.37403
+      Error: 1.28485e-08
+
+Application 34924313 resources: utime ~110s, stime ~16s, Rss ~25188112, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 512 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.1572e-05 s
+      Inverse
+        Time:  6.38e-06 s
+@ 1DFFTWR 512 6.38e-06
+      Error: 4.38261e-14
+
+    GSL
+      Direct
+        Time:  2.5787e-05 s
+@ 1DGSLR 512 2.5787e-05
+      Inverse
+        Time:  2.9369e-05 s
+      Error: 5.69128e-14
+
+    MKL
+      Direct
+        Time:  1.5509e-05 s
+@ 1DMKLR 512 1.5509e-05
+      Inverse
+        Time:  3.396e-06 s
+      Error: 5.69128e-14
+
+    FFTPACK
+      Direct
+        Time:  1.4879e-05 s
+@ 1DFFTPACKR 512 1.4879e-05
+      Inverse
+        Time:  4.754e-06 s
+      Error: 5.69128e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  1.2258e-05 s
+@ 1DFFTWC 512 1.2258e-05
+      Inverse
+        Time:  1.5549e-05 s
+      Error: 7.23598e-14
+
+    GSL
+      Direct
+        Time:  1.1095e-05 s
+@ 1DGSLC 512 1.1095e-05
+      Inverse
+        Time:  4.1787e-05 s
+      Error: 1.19321e-13
+
+    MKL
+      Direct
+        Time:  7.681e-06 s
+@ 1DMKLC 512 7.681e-06
+      Inverse
+        Time:  1.235e-05 s
+      Error: 1.19321e-13
+
+    FFTPACK
+      Direct
+        Time:  7.512e-06 s
+@ 1DFFTPACKC 512 7.512e-06
+      Inverse
+        Time:  1.4468e-05 s
+      Error: 1.19321e-13
+
+
+Dimensions: 512 512 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.00522423 s
+@ 2DFFTWR 512 0.00522423
+      Inverse
+        Time:  0.00613418 s
+      Error: 2.08798e-11
+
+    MKL
+      Direct
+        Time:  0.00358113 s
+      Inverse
+        Time:  0.00360123 s
+@ 2DMKLR 512 0.00360123
+      Error: 2.08798e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0134165 s
+@ 2DFFTWC 512 0.0134165
+      Inverse
+        Time:  0.0152208 s
+      Error: 3.24709e-11
+
+    MKL
+      Direct
+        Time:  0.0037162 s
+      Inverse
+        Time:  0.00514891 s
+@ 2DMKLC 512 0.00514891
+      Error: 3.24709e-11
+
+Dimensions: 512 512 512 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  5.50118 s
+@ 3DFFTWR 512 5.50118
+      Inverse
+        Time:  6.08799 s
+      Error: 7.82227e-09
+
+    MKL
+      Direct
+        Time:  2.52551 s
+@ 3DMKLR 512 2.52551
+      Inverse
+        Time:  2.53263 s
+      Error: 7.82227e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  37.7907 s
+@ 3DFFTWC 512 37.7907
+      Inverse
+        Time:  40.4867 s
+      Error: 1.28485e-08
+
+    MKL
+      Direct
+        Time:  6.33994 s
+      Inverse
+        Time:  6.34783 s
+@ 3DMKLC 512 6.34783
+      Error: 1.28485e-08
+
+Application 34924546 resources: utime ~109s, stime ~16s, Rss ~25188112, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 512 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.0796e-05 s
+      Inverse
+        Time:  6.923e-06 s
+@ 1DFFTWR 512 6.923e-06
+      Error: 4.38261e-14
+
+    GSL
+      Direct
+        Time:  2.7326e-05 s
+@ 1DGSLR 512 2.7326e-05
+      Inverse
+        Time:  3.852e-05 s
+      Error: 5.69128e-14
+
+    MKL
+      Direct
+        Time:  1.5912e-05 s
+@ 1DMKLR 512 1.5912e-05
+      Inverse
+        Time:  3.431e-06 s
+      Error: 5.69128e-14
+
+    FFTPACK
+      Direct
+        Time:  1.541e-05 s
+@ 1DFFTPACKR 512 1.541e-05
+      Inverse
+        Time:  4.7e-06 s
+      Error: 5.69128e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  1.1341e-05 s
+@ 1DFFTWC 512 1.1341e-05
+      Inverse
+        Time:  1.493e-05 s
+      Error: 7.23598e-14
+
+    GSL
+      Direct
+        Time:  7.199e-06 s
+@ 1DGSLC 512 7.199e-06
+      Inverse
+        Time:  4.9365e-05 s
+      Error: 1.19321e-13
+
+    MKL
+      Direct
+        Time:  7.635e-06 s
+@ 1DMKLC 512 7.635e-06
+      Inverse
+        Time:  1.0458e-05 s
+      Error: 1.19321e-13
+
+    FFTPACK
+      Direct
+        Time:  7.812e-06 s
+@ 1DFFTPACKC 512 7.812e-06
+      Inverse
+        Time:  2.4554e-05 s
+      Error: 1.19321e-13
+
+
+Dimensions: 512 512 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.005256 s
+@ 2DFFTWR 512 0.005256
+      Inverse
+        Time:  0.00605557 s
+      Error: 2.08798e-11
+
+    MKL
+      Direct
+        Time:  0.00349926 s
+      Inverse
+        Time:  0.00355045 s
+@ 2DMKLR 512 0.00355045
+      Error: 2.08798e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0134358 s
+@ 2DFFTWC 512 0.0134358
+      Inverse
+        Time:  0.0151188 s
+      Error: 3.24709e-11
+
+    MKL
+      Direct
+        Time:  0.00371558 s
+      Inverse
+        Time:  0.00514629 s
+@ 2DMKLC 512 0.00514629
+      Error: 3.24709e-11
+
+Dimensions: 512 512 512 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  5.49956 s
+@ 3DFFTWR 512 5.49956
+      Inverse
+        Time:  6.06126 s
+      Error: 7.82227e-09
+
+    MKL
+      Direct
+        Time:  2.51122 s
+@ 3DMKLR 512 2.51122
+      Inverse
+        Time:  2.51915 s
+      Error: 7.82227e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  39.9372 s
+@ 3DFFTWC 512 39.9372
+      Inverse
+        Time:  38.6987 s
+      Error: 1.28485e-08
+
+    MKL
+      Direct
+        Time:  6.3491 s
+      Inverse
+        Time:  6.33119 s
+@ 3DMKLC 512 6.33119
+      Error: 1.28485e-08
+
+Application 34924724 resources: utime ~110s, stime ~16s, Rss ~25188112, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 512 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.1136e-05 s
+      Inverse
+        Time:  6.534e-06 s
+@ 1DFFTWR 512 6.534e-06
+      Error: 4.38261e-14
+
+    GSL
+      Direct
+        Time:  2.7256e-05 s
+@ 1DGSLR 512 2.7256e-05
+      Inverse
+        Time:  3.774e-05 s
+      Error: 5.69128e-14
+
+    MKL
+      Direct
+        Time:  3.1708e-05 s
+@ 1DMKLR 512 3.1708e-05
+      Inverse
+        Time:  3.586e-06 s
+      Error: 5.69128e-14
+
+    FFTPACK
+      Direct
+        Time:  1.4652e-05 s
+@ 1DFFTPACKR 512 1.4652e-05
+      Inverse
+        Time:  4.986e-06 s
+      Error: 5.69128e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.4904e-05 s
+@ 1DFFTWC 512 2.4904e-05
+      Inverse
+        Time:  1.031e-05 s
+      Error: 7.23598e-14
+
+    GSL
+      Direct
+        Time:  8.397e-06 s
+@ 1DGSLC 512 8.397e-06
+      Inverse
+        Time:  4.7319e-05 s
+      Error: 1.19321e-13
+
+    MKL
+      Direct
+        Time:  7.69e-06 s
+@ 1DMKLC 512 7.69e-06
+      Inverse
+        Time:  1.0538e-05 s
+      Error: 1.19321e-13
+
+    FFTPACK
+      Direct
+        Time:  7.57e-06 s
+@ 1DFFTPACKC 512 7.57e-06
+      Inverse
+        Time:  1.0514e-05 s
+      Error: 1.19321e-13
+
+
+Dimensions: 512 512 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.00522253 s
+@ 2DFFTWR 512 0.00522253
+      Inverse
+        Time:  0.00627309 s
+      Error: 2.08798e-11
+
+    MKL
+      Direct
+        Time:  0.00341168 s
+      Inverse
+        Time:  0.00354221 s
+@ 2DMKLR 512 0.00354221
+      Error: 2.08798e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0136005 s
+@ 2DFFTWC 512 0.0136005
+      Inverse
+        Time:  0.0152542 s
+      Error: 3.24709e-11
+
+    MKL
+      Direct
+        Time:  0.00366474 s
+      Inverse
+        Time:  0.00511224 s
+@ 2DMKLC 512 0.00511224
+      Error: 3.24709e-11
+
+Dimensions: 512 512 512 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  5.51218 s
+@ 3DFFTWR 512 5.51218
+      Inverse
+        Time:  6.04935 s
+      Error: 7.82227e-09
+
+    MKL
+      Direct
+        Time:  2.51537 s
+@ 3DMKLR 512 2.51537
+      Inverse
+        Time:  2.52558 s
+      Error: 7.82227e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  38.121 s
+@ 3DFFTWC 512 38.121
+      Inverse
+        Time:  40.4947 s
+      Error: 1.28485e-08
+
+    MKL
+      Direct
+        Time:  6.30987 s
+      Inverse
+        Time:  6.34051 s
+@ 3DMKLC 512 6.34051
+      Error: 1.28485e-08
+
+Application 34924840 resources: utime ~110s, stime ~16s, Rss ~25188112, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 512 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.1676e-05 s
+      Inverse
+        Time:  6.163e-06 s
+@ 1DFFTWR 512 6.163e-06
+      Error: 4.38261e-14
+
+    GSL
+      Direct
+        Time:  2.693e-05 s
+@ 1DGSLR 512 2.693e-05
+      Inverse
+        Time:  2.9152e-05 s
+      Error: 5.69128e-14
+
+    MKL
+      Direct
+        Time:  1.6388e-05 s
+@ 1DMKLR 512 1.6388e-05
+      Inverse
+        Time:  3.338e-06 s
+      Error: 5.69128e-14
+
+    FFTPACK
+      Direct
+        Time:  1.5013e-05 s
+@ 1DFFTPACKR 512 1.5013e-05
+      Inverse
+        Time:  4.765e-06 s
+      Error: 5.69128e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  1.4301e-05 s
+@ 1DFFTWC 512 1.4301e-05
+      Inverse
+        Time:  1.0184e-05 s
+      Error: 7.23598e-14
+
+    GSL
+      Direct
+        Time:  8.373e-06 s
+@ 1DGSLC 512 8.373e-06
+      Inverse
+        Time:  5.106e-05 s
+      Error: 1.19321e-13
+
+    MKL
+      Direct
+        Time:  7.603e-06 s
+@ 1DMKLC 512 7.603e-06
+      Inverse
+        Time:  1.0613e-05 s
+      Error: 1.19321e-13
+
+    FFTPACK
+      Direct
+        Time:  7.583e-06 s
+@ 1DFFTPACKC 512 7.583e-06
+      Inverse
+        Time:  1.0541e-05 s
+      Error: 1.19321e-13
+
+
+Dimensions: 512 512 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.00519049 s
+@ 2DFFTWR 512 0.00519049
+      Inverse
+        Time:  0.00622426 s
+      Error: 2.08798e-11
+
+    MKL
+      Direct
+        Time:  0.00354925 s
+      Inverse
+        Time:  0.00359256 s
+@ 2DMKLR 512 0.00359256
+      Error: 2.08798e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0135389 s
+@ 2DFFTWC 512 0.0135389
+      Inverse
+        Time:  0.0153106 s
+      Error: 3.24709e-11
+
+    MKL
+      Direct
+        Time:  0.00365212 s
+      Inverse
+        Time:  0.00512717 s
+@ 2DMKLC 512 0.00512717
+      Error: 3.24709e-11
+
+Dimensions: 512 512 512 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  5.51443 s
+@ 3DFFTWR 512 5.51443
+      Inverse
+        Time:  6.06581 s
+      Error: 7.82227e-09
+
+    MKL
+      Direct
+        Time:  2.53714 s
+@ 3DMKLR 512 2.53714
+      Inverse
+        Time:  2.54119 s
+      Error: 7.82227e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  40.0505 s
+@ 3DFFTWC 512 40.0505
+      Inverse
+        Time:  39.2817 s
+      Error: 1.28485e-08
+
+    MKL
+      Direct
+        Time:  6.32604 s
+      Inverse
+        Time:  6.32891 s
+@ 3DMKLC 512 6.32891
+      Error: 1.28485e-08
+
+Application 34924957 resources: utime ~110s, stime ~16s, Rss ~25188112, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 512 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.6381e-05 s
+      Inverse
+        Time:  6.263e-06 s
+@ 1DFFTWR 512 6.263e-06
+      Error: 4.38261e-14
+
+    GSL
+      Direct
+        Time:  2.6485e-05 s
+@ 1DGSLR 512 2.6485e-05
+      Inverse
+        Time:  2.968e-05 s
+      Error: 5.69128e-14
+
+    MKL
+      Direct
+        Time:  1.6923e-05 s
+@ 1DMKLR 512 1.6923e-05
+      Inverse
+        Time:  3.368e-06 s
+      Error: 5.69128e-14
+
+    FFTPACK
+      Direct
+        Time:  1.5013e-05 s
+@ 1DFFTPACKR 512 1.5013e-05
+      Inverse
+        Time:  4.836e-06 s
+      Error: 5.69128e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  1.1239e-05 s
+@ 1DFFTWC 512 1.1239e-05
+      Inverse
+        Time:  1.6801e-05 s
+      Error: 7.23598e-14
+
+    GSL
+      Direct
+        Time:  7.291e-06 s
+@ 1DGSLC 512 7.291e-06
+      Inverse
+        Time:  5.47e-05 s
+      Error: 1.19321e-13
+
+    MKL
+      Direct
+        Time:  7.656e-06 s
+@ 1DMKLC 512 7.656e-06
+      Inverse
+        Time:  1.4885e-05 s
+      Error: 1.19321e-13
+
+    FFTPACK
+      Direct
+        Time:  7.623e-06 s
+@ 1DFFTPACKC 512 7.623e-06
+      Inverse
+        Time:  1.4187e-05 s
+      Error: 1.19321e-13
+
+
+Dimensions: 512 512 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.00511872 s
+@ 2DFFTWR 512 0.00511872
+      Inverse
+        Time:  0.00613707 s
+      Error: 2.08798e-11
+
+    MKL
+      Direct
+        Time:  0.00351888 s
+      Inverse
+        Time:  0.00355659 s
+@ 2DMKLR 512 0.00355659
+      Error: 2.08798e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0134677 s
+@ 2DFFTWC 512 0.0134677
+      Inverse
+        Time:  0.0151444 s
+      Error: 3.24709e-11
+
+    MKL
+      Direct
+        Time:  0.00366316 s
+      Inverse
+        Time:  0.00509701 s
+@ 2DMKLC 512 0.00509701
+      Error: 3.24709e-11
+
+Dimensions: 512 512 512 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  5.51304 s
+@ 3DFFTWR 512 5.51304
+      Inverse
+        Time:  6.06076 s
+      Error: 7.82227e-09
+
+    MKL
+      Direct
+        Time:  2.53216 s
+@ 3DMKLR 512 2.53216
+      Inverse
+        Time:  2.57388 s
+      Error: 7.82227e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  39.911 s
+@ 3DFFTWC 512 39.911
+      Inverse
+        Time:  40.705 s
+      Error: 1.28485e-08
+
+    MKL
+      Direct
+        Time:  6.33613 s
+      Inverse
+        Time:  6.3914 s
+@ 3DMKLC 512 6.3914
+      Error: 1.28485e-08
+
+Application 34925079 resources: utime ~112s, stime ~16s, Rss ~25188112, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 512 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.1613e-05 s
+      Inverse
+        Time:  6.576e-06 s
+@ 1DFFTWR 512 6.576e-06
+      Error: 4.38261e-14
+
+    GSL
+      Direct
+        Time:  2.669e-05 s
+@ 1DGSLR 512 2.669e-05
+      Inverse
+        Time:  3.6618e-05 s
+      Error: 5.69128e-14
+
+    MKL
+      Direct
+        Time:  1.6008e-05 s
+@ 1DMKLR 512 1.6008e-05
+      Inverse
+        Time:  3.35e-06 s
+      Error: 5.69128e-14
+
+    FFTPACK
+      Direct
+        Time:  1.5539e-05 s
+@ 1DFFTPACKR 512 1.5539e-05
+      Inverse
+        Time:  4.872e-06 s
+      Error: 5.69128e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  1.1543e-05 s
+@ 1DFFTWC 512 1.1543e-05
+      Inverse
+        Time:  1.4456e-05 s
+      Error: 7.23598e-14
+
+    GSL
+      Direct
+        Time:  8.397e-06 s
+@ 1DGSLC 512 8.397e-06
+      Inverse
+        Time:  5.2317e-05 s
+      Error: 1.19321e-13
+
+    MKL
+      Direct
+        Time:  7.664e-06 s
+@ 1DMKLC 512 7.664e-06
+      Inverse
+        Time:  1.055e-05 s
+      Error: 1.19321e-13
+
+    FFTPACK
+      Direct
+        Time:  1.7505e-05 s
+@ 1DFFTPACKC 512 1.7505e-05
+      Inverse
+        Time:  1.127e-05 s
+      Error: 1.19321e-13
+
+
+Dimensions: 512 512 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.00535183 s
+@ 2DFFTWR 512 0.00535183
+      Inverse
+        Time:  0.00605319 s
+      Error: 2.08798e-11
+
+    MKL
+      Direct
+        Time:  0.00348099 s
+      Inverse
+        Time:  0.00355357 s
+@ 2DMKLR 512 0.00355357
+      Error: 2.08798e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0135923 s
+@ 2DFFTWC 512 0.0135923
+      Inverse
+        Time:  0.0152439 s
+      Error: 3.24709e-11
+
+    MKL
+      Direct
+        Time:  0.00372588 s
+      Inverse
+        Time:  0.00516803 s
+@ 2DMKLC 512 0.00516803
+      Error: 3.24709e-11
+
+Dimensions: 512 512 512 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  5.49246 s
+@ 3DFFTWR 512 5.49246
+      Inverse
+        Time:  6.06975 s
+      Error: 7.82227e-09
+
+    MKL
+      Direct
+        Time:  2.51984 s
+@ 3DMKLR 512 2.51984
+      Inverse
+        Time:  2.52489 s
+      Error: 7.82227e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  39.9661 s
+@ 3DFFTWC 512 39.9661
+      Inverse
+        Time:  40.4126 s
+      Error: 1.28485e-08
+
+    MKL
+      Direct
+        Time:  6.37601 s
+      Inverse
+        Time:  6.31466 s
+@ 3DMKLC 512 6.31466
+      Error: 1.28485e-08
+
+Application 34925227 resources: utime ~111s, stime ~16s, Rss ~25188112, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 512 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.1221e-05 s
+      Inverse
+        Time:  6.25e-06 s
+@ 1DFFTWR 512 6.25e-06
+      Error: 4.38261e-14
+
+    GSL
+      Direct
+        Time:  2.5666e-05 s
+@ 1DGSLR 512 2.5666e-05
+      Inverse
+        Time:  2.9354e-05 s
+      Error: 5.69128e-14
+
+    MKL
+      Direct
+        Time:  1.6015e-05 s
+@ 1DMKLR 512 1.6015e-05
+      Inverse
+        Time:  3.323e-06 s
+      Error: 5.69128e-14
+
+    FFTPACK
+      Direct
+        Time:  1.4907e-05 s
+@ 1DFFTPACKR 512 1.4907e-05
+      Inverse
+        Time:  4.961e-06 s
+      Error: 5.69128e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.1701e-05 s
+@ 1DFFTWC 512 2.1701e-05
+      Inverse
+        Time:  2.4258e-05 s
+      Error: 7.23598e-14
+
+    GSL
+      Direct
+        Time:  1.0912e-05 s
+@ 1DGSLC 512 1.0912e-05
+      Inverse
+        Time:  4.5707e-05 s
+      Error: 1.19321e-13
+
+    MKL
+      Direct
+        Time:  7.585e-06 s
+@ 1DMKLC 512 7.585e-06
+      Inverse
+        Time:  1.6732e-05 s
+      Error: 1.19321e-13
+
+    FFTPACK
+      Direct
+        Time:  7.878e-06 s
+@ 1DFFTPACKC 512 7.878e-06
+      Inverse
+        Time:  1.1208e-05 s
+      Error: 1.19321e-13
+
+
+Dimensions: 512 512 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.00532738 s
+@ 2DFFTWR 512 0.00532738
+      Inverse
+        Time:  0.00611936 s
+      Error: 2.08798e-11
+
+    MKL
+      Direct
+        Time:  0.00352095 s
+      Inverse
+        Time:  0.00356956 s
+@ 2DMKLR 512 0.00356956
+      Error: 2.08798e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0135109 s
+@ 2DFFTWC 512 0.0135109
+      Inverse
+        Time:  0.0152541 s
+      Error: 3.24709e-11
+
+    MKL
+      Direct
+        Time:  0.00373785 s
+      Inverse
+        Time:  0.00517793 s
+@ 2DMKLC 512 0.00517793
+      Error: 3.24709e-11
+
+Dimensions: 512 512 512 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  5.51047 s
+@ 3DFFTWR 512 5.51047
+      Inverse
+        Time:  6.04715 s
+      Error: 7.82227e-09
+
+    MKL
+      Direct
+        Time:  2.51586 s
+@ 3DMKLR 512 2.51586
+      Inverse
+        Time:  2.52239 s
+      Error: 7.82227e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  37.843 s
+@ 3DFFTWC 512 37.843
+      Inverse
+        Time:  40.6265 s
+      Error: 1.28485e-08
+
+    MKL
+      Direct
+        Time:  6.30922 s
+      Inverse
+        Time:  6.32214 s
+@ 3DMKLC 512 6.32214
+      Error: 1.28485e-08
+
+Application 34925345 resources: utime ~110s, stime ~16s, Rss ~25188112, inblocks ~1384, outblocks ~2500
+================
+----------------
+N threads: 1
+
+Dimensions: 1024 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.9116e-05 s
+      Inverse
+        Time:  2.0785e-05 s
+@ 1DFFTWR 1024 2.0785e-05
+      Error: 8.79227e-14
+
+    GSL
+      Direct
+        Time:  3.532e-05 s
+@ 1DGSLR 1024 3.532e-05
+      Inverse
+        Time:  3.8396e-05 s
+      Error: 9.16489e-14
+
+    MKL
+      Direct
+        Time:  2.0687e-05 s
+@ 1DMKLR 1024 2.0687e-05
+      Inverse
+        Time:  8.795e-06 s
+      Error: 9.16489e-14
+
+    FFTPACK
+      Direct
+        Time:  2.9523e-05 s
+@ 1DFFTPACKR 1024 2.9523e-05
+      Inverse
+        Time:  1.1667e-05 s
+      Error: 9.16489e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.2398e-05 s
+@ 1DFFTWC 1024 2.2398e-05
+      Inverse
+        Time:  2.8326e-05 s
+      Error: 1.59853e-13
+
+    GSL
+      Direct
+        Time:  1.5323e-05 s
+@ 1DGSLC 1024 1.5323e-05
+      Inverse
+        Time:  5.5868e-05 s
+      Error: 2.24158e-13
+
+    MKL
+      Direct
+        Time:  1.5692e-05 s
+@ 1DMKLC 1024 1.5692e-05
+      Inverse
+        Time:  2.5443e-05 s
+      Error: 2.24158e-13
+
+    FFTPACK
+      Direct
+        Time:  1.5612e-05 s
+@ 1DFFTPACKC 1024 1.5612e-05
+      Inverse
+        Time:  2.3697e-05 s
+      Error: 2.24158e-13
+
+
+Dimensions: 1024 1024 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.0264285 s
+@ 2DFFTWR 1024 0.0264285
+      Inverse
+        Time:  0.0300231 s
+      Error: 8.33003e-11
+
+    MKL
+      Direct
+        Time:  0.0150058 s
+      Inverse
+        Time:  0.0156211 s
+@ 2DMKLR 1024 0.0156211
+      Error: 8.33003e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0673226 s
+@ 2DFFTWC 1024 0.0673226
+      Inverse
+        Time:  0.0725966 s
+      Error: 1.41842e-10
+
+    MKL
+      Direct
+        Time:  0.0199781 s
+      Inverse
+        Time:  0.0258214 s
+@ 2DMKLC 1024 0.0258214
+      Error: 1.41842e-10
+
+Dimensions: 1024 1024 1024 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  65.4519 s
+@ 3DFFTWR 1024 65.4519
+      Inverse
+Application 34925444 exit signals: Segmentation fault
+Application 34925444 resources: utime ~73s, stime ~26s, Rss ~58787884, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 1024 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.9074e-05 s
+      Inverse
+        Time:  2.116e-05 s
+@ 1DFFTWR 1024 2.116e-05
+      Error: 8.79227e-14
+
+    GSL
+      Direct
+        Time:  3.5145e-05 s
+@ 1DGSLR 1024 3.5145e-05
+      Inverse
+        Time:  4.5662e-05 s
+      Error: 9.16489e-14
+
+    MKL
+      Direct
+        Time:  3.6695e-05 s
+@ 1DMKLR 1024 3.6695e-05
+      Inverse
+        Time:  9.123e-06 s
+      Error: 9.16489e-14
+
+    FFTPACK
+      Direct
+        Time:  2.0677e-05 s
+@ 1DFFTPACKR 1024 2.0677e-05
+      Inverse
+        Time:  1.1662e-05 s
+      Error: 9.16489e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.7308e-05 s
+@ 1DFFTWC 1024 2.7308e-05
+      Inverse
+        Time:  2.8117e-05 s
+      Error: 1.59853e-13
+
+    GSL
+      Direct
+        Time:  1.5262e-05 s
+@ 1DGSLC 1024 1.5262e-05
+      Inverse
+        Time:  5.647e-05 s
+      Error: 2.24158e-13
+
+    MKL
+      Direct
+        Time:  1.5581e-05 s
+@ 1DMKLC 1024 1.5581e-05
+      Inverse
+        Time:  2.5814e-05 s
+      Error: 2.24158e-13
+
+    FFTPACK
+      Direct
+        Time:  1.5587e-05 s
+@ 1DFFTPACKC 1024 1.5587e-05
+      Inverse
+        Time:  2.3477e-05 s
+      Error: 2.24158e-13
+
+
+Dimensions: 1024 1024 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.0262117 s
+@ 2DFFTWR 1024 0.0262117
+      Inverse
+        Time:  0.0300623 s
+      Error: 8.33003e-11
+
+    MKL
+      Direct
+        Time:  0.0154849 s
+      Inverse
+        Time:  0.0157936 s
+@ 2DMKLR 1024 0.0157936
+      Error: 8.33003e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.067677 s
+@ 2DFFTWC 1024 0.067677
+      Inverse
+        Time:  0.0731603 s
+      Error: 1.41842e-10
+
+    MKL
+      Direct
+        Time:  0.0200985 s
+      Inverse
+        Time:  0.0259897 s
+@ 2DMKLC 1024 0.0259897
+      Error: 1.41842e-10
+
+Dimensions: 1024 1024 1024 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  65.4047 s
+@ 3DFFTWR 1024 65.4047
+      Inverse
+Application 34925561 exit signals: Segmentation fault
+Application 34925561 resources: utime ~73s, stime ~27s, Rss ~58787884, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 1024 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.85e-05 s
+      Inverse
+        Time:  2.0305e-05 s
+@ 1DFFTWR 1024 2.0305e-05
+      Error: 8.79227e-14
+
+    GSL
+      Direct
+        Time:  3.5109e-05 s
+@ 1DGSLR 1024 3.5109e-05
+      Inverse
+        Time:  3.6912e-05 s
+      Error: 9.16489e-14
+
+    MKL
+      Direct
+        Time:  3.837e-05 s
+@ 1DMKLR 1024 3.837e-05
+      Inverse
+        Time:  8.834e-06 s
+      Error: 9.16489e-14
+
+    FFTPACK
+      Direct
+        Time:  2.1278e-05 s
+@ 1DFFTPACKR 1024 2.1278e-05
+      Inverse
+        Time:  1.152e-05 s
+      Error: 9.16489e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.1572e-05 s
+@ 1DFFTWC 1024 2.1572e-05
+      Inverse
+        Time:  2.8141e-05 s
+      Error: 1.59853e-13
+
+    GSL
+      Direct
+        Time:  1.5458e-05 s
+@ 1DGSLC 1024 1.5458e-05
+      Inverse
+        Time:  5.5604e-05 s
+      Error: 2.24158e-13
+
+    MKL
+      Direct
+        Time:  1.5662e-05 s
+@ 1DMKLC 1024 1.5662e-05
+      Inverse
+        Time:  2.2414e-05 s
+      Error: 2.24158e-13
+
+    FFTPACK
+      Direct
+        Time:  1.5599e-05 s
+@ 1DFFTPACKC 1024 1.5599e-05
+      Inverse
+        Time:  2.0744e-05 s
+      Error: 2.24158e-13
+
+
+Dimensions: 1024 1024 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.0267702 s
+@ 2DFFTWR 1024 0.0267702
+      Inverse
+        Time:  0.0305141 s
+      Error: 8.33003e-11
+
+    MKL
+      Direct
+        Time:  0.0158197 s
+      Inverse
+        Time:  0.0156615 s
+@ 2DMKLR 1024 0.0156615
+      Error: 8.33003e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0675188 s
+@ 2DFFTWC 1024 0.0675188
+      Inverse
+        Time:  0.0736893 s
+      Error: 1.41842e-10
+
+    MKL
+      Direct
+        Time:  0.0201776 s
+      Inverse
+        Time:  0.0258053 s
+@ 2DMKLC 1024 0.0258053
+      Error: 1.41842e-10
+
+Dimensions: 1024 1024 1024 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  64.8298 s
+@ 3DFFTWR 1024 64.8298
+      Inverse
+Application 34925688 exit signals: Segmentation fault
+Application 34925688 resources: utime ~73s, stime ~27s, Rss ~58787884, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 1024 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.9754e-05 s
+      Inverse
+        Time:  2.0553e-05 s
+@ 1DFFTWR 1024 2.0553e-05
+      Error: 8.79227e-14
+
+    GSL
+      Direct
+        Time:  4.2911e-05 s
+@ 1DGSLR 1024 4.2911e-05
+      Inverse
+        Time:  4.4862e-05 s
+      Error: 9.16489e-14
+
+    MKL
+      Direct
+        Time:  1.9873e-05 s
+@ 1DMKLR 1024 1.9873e-05
+      Inverse
+        Time:  8.943e-06 s
+      Error: 9.16489e-14
+
+    FFTPACK
+      Direct
+        Time:  2.0584e-05 s
+@ 1DFFTPACKR 1024 2.0584e-05
+      Inverse
+        Time:  1.3241e-05 s
+      Error: 9.16489e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.1514e-05 s
+@ 1DFFTWC 1024 2.1514e-05
+      Inverse
+        Time:  2.7614e-05 s
+      Error: 1.59853e-13
+
+    GSL
+      Direct
+        Time:  1.8915e-05 s
+@ 1DGSLC 1024 1.8915e-05
+      Inverse
+        Time:  5.6663e-05 s
+      Error: 2.24158e-13
+
+    MKL
+      Direct
+        Time:  1.5591e-05 s
+@ 1DMKLC 1024 1.5591e-05
+      Inverse
+        Time:  2.2453e-05 s
+      Error: 2.24158e-13
+
+    FFTPACK
+      Direct
+        Time:  1.5602e-05 s
+@ 1DFFTPACKC 1024 1.5602e-05
+      Inverse
+        Time:  2.0705e-05 s
+      Error: 2.24158e-13
+
+
+Dimensions: 1024 1024 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.0263749 s
+@ 2DFFTWR 1024 0.0263749
+      Inverse
+        Time:  0.0300838 s
+      Error: 8.33003e-11
+
+    MKL
+      Direct
+        Time:  0.0154113 s
+      Inverse
+        Time:  0.0154623 s
+@ 2DMKLR 1024 0.0154623
+      Error: 8.33003e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0670713 s
+@ 2DFFTWC 1024 0.0670713
+      Inverse
+        Time:  0.0723289 s
+      Error: 1.41842e-10
+
+    MKL
+      Direct
+        Time:  0.020136 s
+      Inverse
+        Time:  0.0259811 s
+@ 2DMKLC 1024 0.0259811
+      Error: 1.41842e-10
+
+Dimensions: 1024 1024 1024 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  64.398 s
+@ 3DFFTWR 1024 64.398
+      Inverse
+Application 34925779 exit signals: Segmentation fault
+Application 34925779 resources: utime ~73s, stime ~26s, Rss ~58787884, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 1024 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.9035e-05 s
+      Inverse
+        Time:  2.1711e-05 s
+@ 1DFFTWR 1024 2.1711e-05
+      Error: 8.79227e-14
+
+    GSL
+      Direct
+        Time:  3.5764e-05 s
+@ 1DGSLR 1024 3.5764e-05
+      Inverse
+        Time:  4.6891e-05 s
+      Error: 9.16489e-14
+
+    MKL
+      Direct
+        Time:  2.0045e-05 s
+@ 1DMKLR 1024 2.0045e-05
+      Inverse
+        Time:  8.604e-06 s
+      Error: 9.16489e-14
+
+    FFTPACK
+      Direct
+        Time:  1.987e-05 s
+@ 1DFFTPACKR 1024 1.987e-05
+      Inverse
+        Time:  1.3152e-05 s
+      Error: 9.16489e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.1722e-05 s
+@ 1DFFTWC 1024 2.1722e-05
+      Inverse
+        Time:  3.1999e-05 s
+      Error: 1.59853e-13
+
+    GSL
+      Direct
+        Time:  1.5953e-05 s
+@ 1DGSLC 1024 1.5953e-05
+      Inverse
+        Time:  7.5398e-05 s
+      Error: 2.24158e-13
+
+    MKL
+      Direct
+        Time:  1.6755e-05 s
+@ 1DMKLC 1024 1.6755e-05
+      Inverse
+        Time:  3.9884e-05 s
+      Error: 2.24158e-13
+
+    FFTPACK
+      Direct
+        Time:  1.5633e-05 s
+@ 1DFFTPACKC 1024 1.5633e-05
+      Inverse
+        Time:  3.2682e-05 s
+      Error: 2.24158e-13
+
+
+Dimensions: 1024 1024 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.0260898 s
+@ 2DFFTWR 1024 0.0260898
+      Inverse
+        Time:  0.0298562 s
+      Error: 8.33003e-11
+
+    MKL
+      Direct
+        Time:  0.0155004 s
+      Inverse
+        Time:  0.015456 s
+@ 2DMKLR 1024 0.015456
+      Error: 8.33003e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0673481 s
+@ 2DFFTWC 1024 0.0673481
+      Inverse
+        Time:  0.0724356 s
+      Error: 1.41842e-10
+
+    MKL
+      Direct
+        Time:  0.0199939 s
+      Inverse
+        Time:  0.0259334 s
+@ 2DMKLC 1024 0.0259334
+      Error: 1.41842e-10
+
+Dimensions: 1024 1024 1024 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  64.4204 s
+@ 3DFFTWR 1024 64.4204
+      Inverse
+Application 34925894 exit signals: Segmentation fault
+Application 34925894 resources: utime ~72s, stime ~26s, Rss ~58787884, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 1024 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  2.0421e-05 s
+      Inverse
+        Time:  2.1747e-05 s
+@ 1DFFTWR 1024 2.1747e-05
+      Error: 8.79227e-14
+
+    GSL
+      Direct
+        Time:  3.6242e-05 s
+@ 1DGSLR 1024 3.6242e-05
+      Inverse
+        Time:  4.4666e-05 s
+      Error: 9.16489e-14
+
+    MKL
+      Direct
+        Time:  2.3315e-05 s
+@ 1DMKLR 1024 2.3315e-05
+      Inverse
+        Time:  8.462e-06 s
+      Error: 9.16489e-14
+
+    FFTPACK
+      Direct
+        Time:  2.2159e-05 s
+@ 1DFFTPACKR 1024 2.2159e-05
+      Inverse
+        Time:  1.237e-05 s
+      Error: 9.16489e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.2231e-05 s
+@ 1DFFTWC 1024 2.2231e-05
+      Inverse
+        Time:  3.0007e-05 s
+      Error: 1.59853e-13
+
+    GSL
+      Direct
+        Time:  2.0282e-05 s
+@ 1DGSLC 1024 2.0282e-05
+      Inverse
+        Time:  5.7198e-05 s
+      Error: 2.24158e-13
+
+    MKL
+      Direct
+        Time:  1.5582e-05 s
+@ 1DMKLC 1024 1.5582e-05
+      Inverse
+        Time:  2.5256e-05 s
+      Error: 2.24158e-13
+
+    FFTPACK
+      Direct
+        Time:  1.5613e-05 s
+@ 1DFFTPACKC 1024 1.5613e-05
+      Inverse
+        Time:  2.3078e-05 s
+      Error: 2.24158e-13
+
+
+Dimensions: 1024 1024 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.0264812 s
+@ 2DFFTWR 1024 0.0264812
+      Inverse
+        Time:  0.029894 s
+      Error: 8.33003e-11
+
+    MKL
+      Direct
+        Time:  0.0154949 s
+      Inverse
+        Time:  0.0155186 s
+@ 2DMKLR 1024 0.0155186
+      Error: 8.33003e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0673337 s
+@ 2DFFTWC 1024 0.0673337
+      Inverse
+        Time:  0.0721916 s
+      Error: 1.41842e-10
+
+    MKL
+      Direct
+        Time:  0.0202406 s
+      Inverse
+        Time:  0.0258652 s
+@ 2DMKLC 1024 0.0258652
+      Error: 1.41842e-10
+
+Dimensions: 1024 1024 1024 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  65.1924 s
+@ 3DFFTWR 1024 65.1924
+      Inverse
+Application 34926025 exit signals: Segmentation fault
+Application 34926025 resources: utime ~73s, stime ~26s, Rss ~58787884, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 1024 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.9335e-05 s
+      Inverse
+        Time:  2.1839e-05 s
+@ 1DFFTWR 1024 2.1839e-05
+      Error: 8.79227e-14
+
+    GSL
+      Direct
+        Time:  5.1159e-05 s
+@ 1DGSLR 1024 5.1159e-05
+      Inverse
+        Time:  4.484e-05 s
+      Error: 9.16489e-14
+
+    MKL
+      Direct
+        Time:  2.0893e-05 s
+@ 1DMKLR 1024 2.0893e-05
+      Inverse
+        Time:  8.754e-06 s
+      Error: 9.16489e-14
+
+    FFTPACK
+      Direct
+        Time:  2.0471e-05 s
+@ 1DFFTPACKR 1024 2.0471e-05
+      Inverse
+        Time:  1.1385e-05 s
+      Error: 9.16489e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  3.2149e-05 s
+@ 1DFFTWC 1024 3.2149e-05
+      Inverse
+        Time:  4.172e-05 s
+      Error: 1.59853e-13
+
+    GSL
+      Direct
+        Time:  1.9047e-05 s
+@ 1DGSLC 1024 1.9047e-05
+      Inverse
+        Time:  5.1944e-05 s
+      Error: 2.24158e-13
+
+    MKL
+      Direct
+        Time:  1.5641e-05 s
+@ 1DMKLC 1024 1.5641e-05
+      Inverse
+        Time:  2.0949e-05 s
+      Error: 2.24158e-13
+
+    FFTPACK
+      Direct
+        Time:  1.5532e-05 s
+@ 1DFFTPACKC 1024 1.5532e-05
+      Inverse
+        Time:  2.0891e-05 s
+      Error: 2.24158e-13
+
+
+Dimensions: 1024 1024 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.0265066 s
+@ 2DFFTWR 1024 0.0265066
+      Inverse
+        Time:  0.0302079 s
+      Error: 8.33003e-11
+
+    MKL
+      Direct
+        Time:  0.0156296 s
+      Inverse
+        Time:  0.0159282 s
+@ 2DMKLR 1024 0.0159282
+      Error: 8.33003e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0672494 s
+@ 2DFFTWC 1024 0.0672494
+      Inverse
+        Time:  0.0724772 s
+      Error: 1.41842e-10
+
+    MKL
+      Direct
+        Time:  0.0200441 s
+      Inverse
+        Time:  0.0257932 s
+@ 2DMKLC 1024 0.0257932
+      Error: 1.41842e-10
+
+Dimensions: 1024 1024 1024 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  65.0354 s
+@ 3DFFTWR 1024 65.0354
+      Inverse
+Application 34926170 exit signals: Segmentation fault
+Application 34926170 resources: utime ~73s, stime ~27s, Rss ~58787884, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 1024 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.9166e-05 s
+      Inverse
+        Time:  2.1286e-05 s
+@ 1DFFTWR 1024 2.1286e-05
+      Error: 8.79227e-14
+
+    GSL
+      Direct
+        Time:  3.3915e-05 s
+@ 1DGSLR 1024 3.3915e-05
+      Inverse
+        Time:  3.7004e-05 s
+      Error: 9.16489e-14
+
+    MKL
+      Direct
+        Time:  2.2234e-05 s
+@ 1DMKLR 1024 2.2234e-05
+      Inverse
+        Time:  8.602e-06 s
+      Error: 9.16489e-14
+
+    FFTPACK
+      Direct
+        Time:  2.0277e-05 s
+@ 1DFFTPACKR 1024 2.0277e-05
+      Inverse
+        Time:  1.0941e-05 s
+      Error: 9.16489e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  3.5576e-05 s
+@ 1DFFTWC 1024 3.5576e-05
+      Inverse
+        Time:  2.9104e-05 s
+      Error: 1.59853e-13
+
+    GSL
+      Direct
+        Time:  1.5321e-05 s
+@ 1DGSLC 1024 1.5321e-05
+      Inverse
+        Time:  5.8891e-05 s
+      Error: 2.24158e-13
+
+    MKL
+      Direct
+        Time:  1.5623e-05 s
+@ 1DMKLC 1024 1.5623e-05
+      Inverse
+        Time:  2.2363e-05 s
+      Error: 2.24158e-13
+
+    FFTPACK
+      Direct
+        Time:  1.8458e-05 s
+@ 1DFFTPACKC 1024 1.8458e-05
+      Inverse
+        Time:  2.0756e-05 s
+      Error: 2.24158e-13
+
+
+Dimensions: 1024 1024 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.0264173 s
+@ 2DFFTWR 1024 0.0264173
+      Inverse
+        Time:  0.0299615 s
+      Error: 8.33003e-11
+
+    MKL
+      Direct
+        Time:  0.0154476 s
+      Inverse
+        Time:  0.0153896 s
+@ 2DMKLR 1024 0.0153896
+      Error: 8.33003e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0676053 s
+@ 2DFFTWC 1024 0.0676053
+      Inverse
+        Time:  0.072632 s
+      Error: 1.41842e-10
+
+    MKL
+      Direct
+        Time:  0.0198886 s
+      Inverse
+        Time:  0.0259051 s
+@ 2DMKLC 1024 0.0259051
+      Error: 1.41842e-10
+
+Dimensions: 1024 1024 1024 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  64.9851 s
+@ 3DFFTWR 1024 64.9851
+      Inverse
+Application 34926309 exit signals: Segmentation fault
+Application 34926309 resources: utime ~73s, stime ~27s, Rss ~58787884, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 1024 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.8477e-05 s
+      Inverse
+        Time:  1.9901e-05 s
+@ 1DFFTWR 1024 1.9901e-05
+      Error: 8.79227e-14
+
+    GSL
+      Direct
+        Time:  3.4221e-05 s
+@ 1DGSLR 1024 3.4221e-05
+      Inverse
+        Time:  3.8351e-05 s
+      Error: 9.16489e-14
+
+    MKL
+      Direct
+        Time:  2.0557e-05 s
+@ 1DMKLR 1024 2.0557e-05
+      Inverse
+        Time:  8.891e-06 s
+      Error: 9.16489e-14
+
+    FFTPACK
+      Direct
+        Time:  3.5035e-05 s
+@ 1DFFTPACKR 1024 3.5035e-05
+      Inverse
+        Time:  1.098e-05 s
+      Error: 9.16489e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.1693e-05 s
+@ 1DFFTWC 1024 2.1693e-05
+      Inverse
+        Time:  2.7986e-05 s
+      Error: 1.59853e-13
+
+    GSL
+      Direct
+        Time:  1.524e-05 s
+@ 1DGSLC 1024 1.524e-05
+      Inverse
+        Time:  5.6237e-05 s
+      Error: 2.24158e-13
+
+    MKL
+      Direct
+        Time:  1.5688e-05 s
+@ 1DMKLC 1024 1.5688e-05
+      Inverse
+        Time:  2.4955e-05 s
+      Error: 2.24158e-13
+
+    FFTPACK
+      Direct
+        Time:  1.5606e-05 s
+@ 1DFFTPACKC 1024 1.5606e-05
+      Inverse
+        Time:  3.2216e-05 s
+      Error: 2.24158e-13
+
+
+Dimensions: 1024 1024 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.0261466 s
+@ 2DFFTWR 1024 0.0261466
+      Inverse
+        Time:  0.0298977 s
+      Error: 8.33003e-11
+
+    MKL
+      Direct
+        Time:  0.0156036 s
+      Inverse
+        Time:  0.015659 s
+@ 2DMKLR 1024 0.015659
+      Error: 8.33003e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0676961 s
+@ 2DFFTWC 1024 0.0676961
+      Inverse
+        Time:  0.0723823 s
+      Error: 1.41842e-10
+
+    MKL
+      Direct
+        Time:  0.020047 s
+      Inverse
+        Time:  0.0257988 s
+@ 2DMKLC 1024 0.0257988
+      Error: 1.41842e-10
+
+Dimensions: 1024 1024 1024 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  64.9366 s
+@ 3DFFTWR 1024 64.9366
+      Inverse
+Application 34926407 exit signals: Segmentation fault
+Application 34926407 resources: utime ~73s, stime ~26s, Rss ~58787884, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 1024 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  1.9021e-05 s
+      Inverse
+        Time:  2.1209e-05 s
+@ 1DFFTWR 1024 2.1209e-05
+      Error: 8.79227e-14
+
+    GSL
+      Direct
+        Time:  3.4414e-05 s
+@ 1DGSLR 1024 3.4414e-05
+      Inverse
+        Time:  3.7662e-05 s
+      Error: 9.16489e-14
+
+    MKL
+      Direct
+        Time:  1.9967e-05 s
+@ 1DMKLR 1024 1.9967e-05
+      Inverse
+        Time:  8.87e-06 s
+      Error: 9.16489e-14
+
+    FFTPACK
+      Direct
+        Time:  3.5104e-05 s
+@ 1DFFTPACKR 1024 3.5104e-05
+      Inverse
+        Time:  2.4712e-05 s
+      Error: 9.16489e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  2.283e-05 s
+@ 1DFFTWC 1024 2.283e-05
+      Inverse
+        Time:  2.7611e-05 s
+      Error: 1.59853e-13
+
+    GSL
+      Direct
+        Time:  1.5312e-05 s
+@ 1DGSLC 1024 1.5312e-05
+      Inverse
+        Time:  5.4851e-05 s
+      Error: 2.24158e-13
+
+    MKL
+      Direct
+        Time:  1.5672e-05 s
+@ 1DMKLC 1024 1.5672e-05
+      Inverse
+        Time:  4.0569e-05 s
+      Error: 2.24158e-13
+
+    FFTPACK
+      Direct
+        Time:  1.7111e-05 s
+@ 1DFFTPACKC 1024 1.7111e-05
+      Inverse
+        Time:  3.6495e-05 s
+      Error: 2.24158e-13
+
+
+Dimensions: 1024 1024 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.0261542 s
+@ 2DFFTWR 1024 0.0261542
+      Inverse
+        Time:  0.0300579 s
+      Error: 8.33003e-11
+
+    MKL
+      Direct
+        Time:  0.0157893 s
+      Inverse
+        Time:  0.0158483 s
+@ 2DMKLR 1024 0.0158483
+      Error: 8.33003e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.0670187 s
+@ 2DFFTWC 1024 0.0670187
+      Inverse
+        Time:  0.0726602 s
+      Error: 1.41842e-10
+
+    MKL
+      Direct
+        Time:  0.0199981 s
+      Inverse
+        Time:  0.0259101 s
+@ 2DMKLC 1024 0.0259101
+      Error: 1.41842e-10
+
+Dimensions: 1024 1024 1024 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  65.5299 s
+@ 3DFFTWR 1024 65.5299
+      Inverse
+Application 34926506 exit signals: Segmentation fault
+Application 34926506 resources: utime ~74s, stime ~26s, Rss ~58787884, inblocks ~1384, outblocks ~2500
+================
+----------------
+N threads: 1
+
+Dimensions: 2048 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  3.4834e-05 s
+      Inverse
+        Time:  4.1729e-05 s
+@ 1DFFTWR 2048 4.1729e-05
+      Error: 1.92131e-13
+
+    GSL
+      Direct
+        Time:  4.7797e-05 s
+@ 1DGSLR 2048 4.7797e-05
+      Inverse
+        Time:  5.6111e-05 s
+      Error: 2.34493e-13
+
+    MKL
+      Direct
+        Time:  3.94e-05 s
+@ 1DMKLR 2048 3.94e-05
+      Inverse
+        Time:  3.2114e-05 s
+      Error: 2.34493e-13
+
+    FFTPACK
+      Direct
+        Time:  3.2755e-05 s
+@ 1DFFTPACKR 2048 3.2755e-05
+      Inverse
+        Time:  3.555e-05 s
+      Error: 2.34493e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  4.8431e-05 s
+@ 1DFFTWC 2048 4.8431e-05
+      Inverse
+        Time:  6.7093e-05 s
+      Error: 3.3742e-13
+
+    GSL
+      Direct
+        Time:  3.5283e-05 s
+@ 1DGSLC 2048 3.5283e-05
+      Inverse
+        Time:  8.5763e-05 s
+      Error: 6.43252e-13
+
+    MKL
+      Direct
+        Time:  3.2264e-05 s
+@ 1DMKLC 2048 3.2264e-05
+      Inverse
+        Time:  4.4134e-05 s
+      Error: 6.43252e-13
+
+    FFTPACK
+      Direct
+        Time:  3.367e-05 s
+@ 1DFFTPACKC 2048 3.367e-05
+      Inverse
+        Time:  4.4976e-05 s
+      Error: 6.43252e-13
+
+
+Dimensions: 2048 2048 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.126049 s
+@ 2DFFTWR 2048 0.126049
+      Inverse
+        Time:  0.142098 s
+      Error: 3.47663e-10
+
+    MKL
+      Direct
+        Time:  0.0801458 s
+      Inverse
+        Time:  0.0817404 s
+@ 2DMKLR 2048 0.0817404
+      Error: 3.47663e-10
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.540437 s
+@ 2DFFTWC 2048 0.540437
+      Inverse
+        Time:  0.582172 s
+      Error: 6.17579e-10
+
+    MKL
+      Direct
+        Time:  0.144791 s
+      Inverse
+        Time:  0.144392 s
+@ 2DMKLC 2048 0.144392
+      Error: 6.17579e-10
+
+Dimensions: 2048 2048 2048 
+N coils: 1
+
+  R <-> HC
+
+Application 34926642 exit signals: Aborted
+Application 34926642 resources: utime ~2s, stime ~1s, Rss ~804956, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 2048 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  3.3158e-05 s
+      Inverse
+        Time:  4.4598e-05 s
+@ 1DFFTWR 2048 4.4598e-05
+      Error: 1.92131e-13
+
+    GSL
+      Direct
+        Time:  4.9198e-05 s
+@ 1DGSLR 2048 4.9198e-05
+      Inverse
+        Time:  7.0899e-05 s
+      Error: 2.34493e-13
+
+    MKL
+      Direct
+        Time:  3.7758e-05 s
+@ 1DMKLR 2048 3.7758e-05
+      Inverse
+        Time:  3.187e-05 s
+      Error: 2.34493e-13
+
+    FFTPACK
+      Direct
+        Time:  3.9033e-05 s
+@ 1DFFTPACKR 2048 3.9033e-05
+      Inverse
+        Time:  3.0847e-05 s
+      Error: 2.34493e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  4.6828e-05 s
+@ 1DFFTWC 2048 4.6828e-05
+      Inverse
+        Time:  6.0399e-05 s
+      Error: 3.3742e-13
+
+    GSL
+      Direct
+        Time:  4.7761e-05 s
+@ 1DGSLC 2048 4.7761e-05
+      Inverse
+        Time:  8.8149e-05 s
+      Error: 6.43252e-13
+
+    MKL
+      Direct
+        Time:  3.2717e-05 s
+@ 1DMKLC 2048 3.2717e-05
+      Inverse
+        Time:  4.3888e-05 s
+      Error: 6.43252e-13
+
+    FFTPACK
+      Direct
+        Time:  3.2662e-05 s
+@ 1DFFTPACKC 2048 3.2662e-05
+      Inverse
+        Time:  4.3748e-05 s
+      Error: 6.43252e-13
+
+
+Dimensions: 2048 2048 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.126331 s
+@ 2DFFTWR 2048 0.126331
+      Inverse
+        Time:  0.141781 s
+      Error: 3.47663e-10
+
+    MKL
+      Direct
+        Time:  0.0797045 s
+      Inverse
+        Time:  0.0814659 s
+@ 2DMKLR 2048 0.0814659
+      Error: 3.47663e-10
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.539778 s
+@ 2DFFTWC 2048 0.539778
+      Inverse
+        Time:  0.581766 s
+      Error: 6.17579e-10
+
+    MKL
+      Direct
+        Time:  0.143277 s
+      Inverse
+        Time:  0.144163 s
+@ 2DMKLC 2048 0.144163
+      Error: 6.17579e-10
+
+Dimensions: 2048 2048 2048 
+N coils: 1
+
+  R <-> HC
+
+Application 34926647 exit signals: Aborted
+Application 34926647 resources: utime ~2s, stime ~1s, Rss ~804956, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 2048 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  3.3642e-05 s
+      Inverse
+        Time:  4.4265e-05 s
+@ 1DFFTWR 2048 4.4265e-05
+      Error: 1.92131e-13
+
+    GSL
+      Direct
+        Time:  4.9348e-05 s
+@ 1DGSLR 2048 4.9348e-05
+      Inverse
+        Time:  5.5255e-05 s
+      Error: 2.34493e-13
+
+    MKL
+      Direct
+        Time:  3.8635e-05 s
+@ 1DMKLR 2048 3.8635e-05
+      Inverse
+        Time:  3.0434e-05 s
+      Error: 2.34493e-13
+
+    FFTPACK
+      Direct
+        Time:  3.1693e-05 s
+@ 1DFFTPACKR 2048 3.1693e-05
+      Inverse
+        Time:  4.242e-05 s
+      Error: 2.34493e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  5.5091e-05 s
+@ 1DFFTWC 2048 5.5091e-05
+      Inverse
+        Time:  8.0011e-05 s
+      Error: 3.3742e-13
+
+    GSL
+      Direct
+        Time:  3.1742e-05 s
+@ 1DGSLC 2048 3.1742e-05
+      Inverse
+        Time:  7.9978e-05 s
+      Error: 6.43252e-13
+
+    MKL
+      Direct
+        Time:  4.8395e-05 s
+@ 1DMKLC 2048 4.8395e-05
+      Inverse
+        Time:  4.7089e-05 s
+      Error: 6.43252e-13
+
+    FFTPACK
+      Direct
+        Time:  3.1895e-05 s
+@ 1DFFTPACKC 2048 3.1895e-05
+      Inverse
+        Time:  4.6725e-05 s
+      Error: 6.43252e-13
+
+
+Dimensions: 2048 2048 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.127307 s
+@ 2DFFTWR 2048 0.127307
+      Inverse
+        Time:  0.143561 s
+      Error: 3.47663e-10
+
+    MKL
+      Direct
+        Time:  0.0801324 s
+      Inverse
+        Time:  0.0813471 s
+@ 2DMKLR 2048 0.0813471
+      Error: 3.47663e-10
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.538043 s
+@ 2DFFTWC 2048 0.538043
+      Inverse
+        Time:  0.582322 s
+      Error: 6.17579e-10
+
+    MKL
+      Direct
+        Time:  0.146463 s
+      Inverse
+        Time:  0.143643 s
+@ 2DMKLC 2048 0.143643
+      Error: 6.17579e-10
+
+Dimensions: 2048 2048 2048 
+N coils: 1
+
+  R <-> HC
+
+Application 34926663 exit signals: Aborted
+Application 34926663 resources: utime ~2s, stime ~1s, Rss ~804956, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 2048 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  3.383e-05 s
+      Inverse
+        Time:  4.32e-05 s
+@ 1DFFTWR 2048 4.32e-05
+      Error: 1.92131e-13
+
+    GSL
+      Direct
+        Time:  4.6665e-05 s
+@ 1DGSLR 2048 4.6665e-05
+      Inverse
+        Time:  6.2476e-05 s
+      Error: 2.34493e-13
+
+    MKL
+      Direct
+        Time:  3.8883e-05 s
+@ 1DMKLR 2048 3.8883e-05
+      Inverse
+        Time:  3.229e-05 s
+      Error: 2.34493e-13
+
+    FFTPACK
+      Direct
+        Time:  3.9951e-05 s
+@ 1DFFTPACKR 2048 3.9951e-05
+      Inverse
+        Time:  3.9694e-05 s
+      Error: 2.34493e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  5.088e-05 s
+@ 1DFFTWC 2048 5.088e-05
+      Inverse
+        Time:  5.391e-05 s
+      Error: 3.3742e-13
+
+    GSL
+      Direct
+        Time:  3.2195e-05 s
+@ 1DGSLC 2048 3.2195e-05
+      Inverse
+        Time:  8.1163e-05 s
+      Error: 6.43252e-13
+
+    MKL
+      Direct
+        Time:  3.283e-05 s
+@ 1DMKLC 2048 3.283e-05
+      Inverse
+        Time:  4.3956e-05 s
+      Error: 6.43252e-13
+
+    FFTPACK
+      Direct
+        Time:  3.2628e-05 s
+@ 1DFFTPACKC 2048 3.2628e-05
+      Inverse
+        Time:  4.3666e-05 s
+      Error: 6.43252e-13
+
+
+Dimensions: 2048 2048 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.127051 s
+@ 2DFFTWR 2048 0.127051
+      Inverse
+        Time:  0.142002 s
+      Error: 3.47663e-10
+
+    MKL
+      Direct
+        Time:  0.079695 s
+      Inverse
+        Time:  0.0811912 s
+@ 2DMKLR 2048 0.0811912
+      Error: 3.47663e-10
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.540237 s
+@ 2DFFTWC 2048 0.540237
+      Inverse
+        Time:  0.582597 s
+      Error: 6.17579e-10
+
+    MKL
+      Direct
+        Time:  0.143858 s
+      Inverse
+        Time:  0.143263 s
+@ 2DMKLC 2048 0.143263
+      Error: 6.17579e-10
+
+Dimensions: 2048 2048 2048 
+N coils: 1
+
+  R <-> HC
+
+Application 34926672 exit signals: Aborted
+Application 34926672 resources: utime ~2s, stime ~1s, Rss ~804956, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 2048 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  3.253e-05 s
+      Inverse
+        Time:  4.2352e-05 s
+@ 1DFFTWR 2048 4.2352e-05
+      Error: 1.92131e-13
+
+    GSL
+      Direct
+        Time:  4.7327e-05 s
+@ 1DGSLR 2048 4.7327e-05
+      Inverse
+        Time:  5.5191e-05 s
+      Error: 2.34493e-13
+
+    MKL
+      Direct
+        Time:  3.8506e-05 s
+@ 1DMKLR 2048 3.8506e-05
+      Inverse
+        Time:  4.0672e-05 s
+      Error: 2.34493e-13
+
+    FFTPACK
+      Direct
+        Time:  3.1424e-05 s
+@ 1DFFTPACKR 2048 3.1424e-05
+      Inverse
+        Time:  6.0731e-05 s
+      Error: 2.34493e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  4.3223e-05 s
+@ 1DFFTWC 2048 4.3223e-05
+      Inverse
+        Time:  9.1891e-05 s
+      Error: 3.3742e-13
+
+    GSL
+      Direct
+        Time:  3.1808e-05 s
+@ 1DGSLC 2048 3.1808e-05
+      Inverse
+        Time:  8.677e-05 s
+      Error: 6.43252e-13
+
+    MKL
+      Direct
+        Time:  3.1751e-05 s
+@ 1DMKLC 2048 3.1751e-05
+      Inverse
+        Time:  4.6702e-05 s
+      Error: 6.43252e-13
+
+    FFTPACK
+      Direct
+        Time:  3.1853e-05 s
+@ 1DFFTPACKC 2048 3.1853e-05
+      Inverse
+        Time:  4.7133e-05 s
+      Error: 6.43252e-13
+
+
+Dimensions: 2048 2048 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.126446 s
+@ 2DFFTWR 2048 0.126446
+      Inverse
+        Time:  0.142507 s
+      Error: 3.47663e-10
+
+    MKL
+      Direct
+        Time:  0.0797289 s
+      Inverse
+        Time:  0.0814778 s
+@ 2DMKLR 2048 0.0814778
+      Error: 3.47663e-10
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.536036 s
+@ 2DFFTWC 2048 0.536036
+      Inverse
+        Time:  0.57738 s
+      Error: 6.17579e-10
+
+    MKL
+      Direct
+        Time:  0.14457 s
+      Inverse
+        Time:  0.145351 s
+@ 2DMKLC 2048 0.145351
+      Error: 6.17579e-10
+
+Dimensions: 2048 2048 2048 
+N coils: 1
+
+  R <-> HC
+
+Application 34926677 exit signals: Aborted
+Application 34926677 resources: utime ~2s, stime ~1s, Rss ~804956, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 2048 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  3.3286e-05 s
+      Inverse
+        Time:  4.1786e-05 s
+@ 1DFFTWR 2048 4.1786e-05
+      Error: 1.92131e-13
+
+    GSL
+      Direct
+        Time:  4.6793e-05 s
+@ 1DGSLR 2048 4.6793e-05
+      Inverse
+        Time:  7.0276e-05 s
+      Error: 2.34493e-13
+
+    MKL
+      Direct
+        Time:  5.6222e-05 s
+@ 1DMKLR 2048 5.6222e-05
+      Inverse
+        Time:  2.1115e-05 s
+      Error: 2.34493e-13
+
+    FFTPACK
+      Direct
+        Time:  3.1483e-05 s
+@ 1DFFTPACKR 2048 3.1483e-05
+      Inverse
+        Time:  3.4358e-05 s
+      Error: 2.34493e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  4.0914e-05 s
+@ 1DFFTWC 2048 4.0914e-05
+      Inverse
+        Time:  4.9598e-05 s
+      Error: 3.3742e-13
+
+    GSL
+      Direct
+        Time:  3.2252e-05 s
+@ 1DGSLC 2048 3.2252e-05
+      Inverse
+        Time:  8.1252e-05 s
+      Error: 6.43252e-13
+
+    MKL
+      Direct
+        Time:  3.2858e-05 s
+@ 1DMKLC 2048 3.2858e-05
+      Inverse
+        Time:  4.3873e-05 s
+      Error: 6.43252e-13
+
+    FFTPACK
+      Direct
+        Time:  4.2615e-05 s
+@ 1DFFTPACKC 2048 4.2615e-05
+      Inverse
+        Time:  4.3863e-05 s
+      Error: 6.43252e-13
+
+
+Dimensions: 2048 2048 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.124272 s
+@ 2DFFTWR 2048 0.124272
+      Inverse
+        Time:  0.140993 s
+      Error: 3.47663e-10
+
+    MKL
+      Direct
+        Time:  0.0791633 s
+      Inverse
+        Time:  0.0806536 s
+@ 2DMKLR 2048 0.0806536
+      Error: 3.47663e-10
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.540104 s
+@ 2DFFTWC 2048 0.540104
+      Inverse
+        Time:  0.581138 s
+      Error: 6.17579e-10
+
+    MKL
+      Direct
+        Time:  0.143032 s
+      Inverse
+        Time:  0.144632 s
+@ 2DMKLC 2048 0.144632
+      Error: 6.17579e-10
+
+Dimensions: 2048 2048 2048 
+N coils: 1
+
+  R <-> HC
+
+Application 34926685 exit signals: Aborted
+Application 34926685 resources: utime ~2s, stime ~1s, Rss ~804956, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 2048 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  3.2504e-05 s
+      Inverse
+        Time:  4.3268e-05 s
+@ 1DFFTWR 2048 4.3268e-05
+      Error: 1.92131e-13
+
+    GSL
+      Direct
+        Time:  4.6679e-05 s
+@ 1DGSLR 2048 4.6679e-05
+      Inverse
+        Time:  7.8032e-05 s
+      Error: 2.34493e-13
+
+    MKL
+      Direct
+        Time:  4.7975e-05 s
+@ 1DMKLR 2048 4.7975e-05
+      Inverse
+        Time:  2.4243e-05 s
+      Error: 2.34493e-13
+
+    FFTPACK
+      Direct
+        Time:  4.0971e-05 s
+@ 1DFFTPACKR 2048 4.0971e-05
+      Inverse
+        Time:  4.0572e-05 s
+      Error: 2.34493e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  4.9552e-05 s
+@ 1DFFTWC 2048 4.9552e-05
+      Inverse
+        Time:  5.6996e-05 s
+      Error: 3.3742e-13
+
+    GSL
+      Direct
+        Time:  3.255e-05 s
+@ 1DGSLC 2048 3.255e-05
+      Inverse
+        Time:  8.0516e-05 s
+      Error: 6.43252e-13
+
+    MKL
+      Direct
+        Time:  3.2833e-05 s
+@ 1DMKLC 2048 3.2833e-05
+      Inverse
+        Time:  4.388e-05 s
+      Error: 6.43252e-13
+
+    FFTPACK
+      Direct
+        Time:  3.2768e-05 s
+@ 1DFFTPACKC 2048 3.2768e-05
+      Inverse
+        Time:  4.6757e-05 s
+      Error: 6.43252e-13
+
+
+Dimensions: 2048 2048 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.125813 s
+@ 2DFFTWR 2048 0.125813
+      Inverse
+        Time:  0.141977 s
+      Error: 3.47663e-10
+
+    MKL
+      Direct
+        Time:  0.0793749 s
+      Inverse
+        Time:  0.0810414 s
+@ 2DMKLR 2048 0.0810414
+      Error: 3.47663e-10
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.539743 s
+@ 2DFFTWC 2048 0.539743
+      Inverse
+        Time:  0.582211 s
+      Error: 6.17579e-10
+
+    MKL
+      Direct
+        Time:  0.145148 s
+      Inverse
+        Time:  0.148764 s
+@ 2DMKLC 2048 0.148764
+      Error: 6.17579e-10
+
+Dimensions: 2048 2048 2048 
+N coils: 1
+
+  R <-> HC
+
+Application 34926695 exit signals: Aborted
+Application 34926695 resources: utime ~2s, stime ~1s, Rss ~804956, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 2048 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  3.2498e-05 s
+      Inverse
+        Time:  4.2913e-05 s
+@ 1DFFTWR 2048 4.2913e-05
+      Error: 1.92131e-13
+
+    GSL
+      Direct
+        Time:  4.6313e-05 s
+@ 1DGSLR 2048 4.6313e-05
+      Inverse
+        Time:  5.4945e-05 s
+      Error: 2.34493e-13
+
+    MKL
+      Direct
+        Time:  3.8412e-05 s
+@ 1DMKLR 2048 3.8412e-05
+      Inverse
+        Time:  3.8925e-05 s
+      Error: 2.34493e-13
+
+    FFTPACK
+      Direct
+        Time:  3.1719e-05 s
+@ 1DFFTPACKR 2048 3.1719e-05
+      Inverse
+        Time:  5.5384e-05 s
+      Error: 2.34493e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  6.1068e-05 s
+@ 1DFFTWC 2048 6.1068e-05
+      Inverse
+        Time:  8.027e-05 s
+      Error: 3.3742e-13
+
+    GSL
+      Direct
+        Time:  3.1594e-05 s
+@ 1DGSLC 2048 3.1594e-05
+      Inverse
+        Time:  7.9596e-05 s
+      Error: 6.43252e-13
+
+    MKL
+      Direct
+        Time:  3.1511e-05 s
+@ 1DMKLC 2048 3.1511e-05
+      Inverse
+        Time:  4.4401e-05 s
+      Error: 6.43252e-13
+
+    FFTPACK
+      Direct
+        Time:  3.4126e-05 s
+@ 1DFFTPACKC 2048 3.4126e-05
+      Inverse
+        Time:  5.6862e-05 s
+      Error: 6.43252e-13
+
+
+Dimensions: 2048 2048 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.126326 s
+@ 2DFFTWR 2048 0.126326
+      Inverse
+        Time:  0.142293 s
+      Error: 3.47663e-10
+
+    MKL
+      Direct
+        Time:  0.079545 s
+      Inverse
+        Time:  0.0809355 s
+@ 2DMKLR 2048 0.0809355
+      Error: 3.47663e-10
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.536658 s
+@ 2DFFTWC 2048 0.536658
+      Inverse
+        Time:  0.576337 s
+      Error: 6.17579e-10
+
+    MKL
+      Direct
+        Time:  0.145322 s
+      Inverse
+        Time:  0.155574 s
+@ 2DMKLC 2048 0.155574
+      Error: 6.17579e-10
+
+Dimensions: 2048 2048 2048 
+N coils: 1
+
+  R <-> HC
+
+Application 34926704 exit signals: Aborted
+Application 34926704 resources: utime ~2s, stime ~1s, Rss ~804956, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 2048 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  3.7205e-05 s
+      Inverse
+        Time:  4.3107e-05 s
+@ 1DFFTWR 2048 4.3107e-05
+      Error: 1.92131e-13
+
+    GSL
+      Direct
+        Time:  4.7591e-05 s
+@ 1DGSLR 2048 4.7591e-05
+      Inverse
+        Time:  5.9906e-05 s
+      Error: 2.34493e-13
+
+    MKL
+      Direct
+        Time:  5.8292e-05 s
+@ 1DMKLR 2048 5.8292e-05
+      Inverse
+        Time:  5.1909e-05 s
+      Error: 2.34493e-13
+
+    FFTPACK
+      Direct
+        Time:  3.2942e-05 s
+@ 1DFFTPACKR 2048 3.2942e-05
+      Inverse
+        Time:  4.8602e-05 s
+      Error: 2.34493e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  4.2549e-05 s
+@ 1DFFTWC 2048 4.2549e-05
+      Inverse
+        Time:  5.3224e-05 s
+      Error: 3.3742e-13
+
+    GSL
+      Direct
+        Time:  3.2348e-05 s
+@ 1DGSLC 2048 3.2348e-05
+      Inverse
+        Time:  8.0624e-05 s
+      Error: 6.43252e-13
+
+    MKL
+      Direct
+        Time:  3.2857e-05 s
+@ 1DMKLC 2048 3.2857e-05
+      Inverse
+        Time:  4.7592e-05 s
+      Error: 6.43252e-13
+
+    FFTPACK
+      Direct
+        Time:  3.241e-05 s
+@ 1DFFTPACKC 2048 3.241e-05
+      Inverse
+        Time:  4.3437e-05 s
+      Error: 6.43252e-13
+
+
+Dimensions: 2048 2048 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.125298 s
+@ 2DFFTWR 2048 0.125298
+      Inverse
+        Time:  0.142097 s
+      Error: 3.47663e-10
+
+    MKL
+      Direct
+        Time:  0.0794992 s
+      Inverse
+        Time:  0.0811618 s
+@ 2DMKLR 2048 0.0811618
+      Error: 3.47663e-10
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.539345 s
+@ 2DFFTWC 2048 0.539345
+      Inverse
+        Time:  0.581069 s
+      Error: 6.17579e-10
+
+    MKL
+      Direct
+        Time:  0.145059 s
+      Inverse
+        Time:  0.144878 s
+@ 2DMKLC 2048 0.144878
+      Error: 6.17579e-10
+
+Dimensions: 2048 2048 2048 
+N coils: 1
+
+  R <-> HC
+
+Application 34926718 exit signals: Aborted
+Application 34926718 resources: utime ~2s, stime ~1s, Rss ~804956, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 2048 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  3.3026e-05 s
+      Inverse
+        Time:  4.1597e-05 s
+@ 1DFFTWR 2048 4.1597e-05
+      Error: 1.92131e-13
+
+    GSL
+      Direct
+        Time:  4.6667e-05 s
+@ 1DGSLR 2048 4.6667e-05
+      Inverse
+        Time:  5.5954e-05 s
+      Error: 2.34493e-13
+
+    MKL
+      Direct
+        Time:  3.8366e-05 s
+@ 1DMKLR 2048 3.8366e-05
+      Inverse
+        Time:  4.3396e-05 s
+      Error: 2.34493e-13
+
+    FFTPACK
+      Direct
+        Time:  3.2613e-05 s
+@ 1DFFTPACKR 2048 3.2613e-05
+      Inverse
+        Time:  4.7136e-05 s
+      Error: 2.34493e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  4.2459e-05 s
+@ 1DFFTWC 2048 4.2459e-05
+      Inverse
+        Time:  5.7848e-05 s
+      Error: 3.3742e-13
+
+    GSL
+      Direct
+        Time:  3.2156e-05 s
+@ 1DGSLC 2048 3.2156e-05
+      Inverse
+        Time:  8.0147e-05 s
+      Error: 6.43252e-13
+
+    MKL
+      Direct
+        Time:  3.2519e-05 s
+@ 1DMKLC 2048 3.2519e-05
+      Inverse
+        Time:  4.3687e-05 s
+      Error: 6.43252e-13
+
+    FFTPACK
+      Direct
+        Time:  3.2364e-05 s
+@ 1DFFTPACKC 2048 3.2364e-05
+      Inverse
+        Time:  4.3635e-05 s
+      Error: 6.43252e-13
+
+
+Dimensions: 2048 2048 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.126333 s
+@ 2DFFTWR 2048 0.126333
+      Inverse
+        Time:  0.143385 s
+      Error: 3.47663e-10
+
+    MKL
+      Direct
+        Time:  0.0800261 s
+      Inverse
+        Time:  0.0813995 s
+@ 2DMKLR 2048 0.0813995
+      Error: 3.47663e-10
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.538621 s
+@ 2DFFTWC 2048 0.538621
+      Inverse
+        Time:  0.57792 s
+      Error: 6.17579e-10
+
+    MKL
+      Direct
+        Time:  0.146546 s
+      Inverse
+        Time:  0.143683 s
+@ 2DMKLC 2048 0.143683
+      Error: 6.17579e-10
+
+Dimensions: 2048 2048 2048 
+N coils: 1
+
+  R <-> HC
+
+Application 34926728 exit signals: Aborted
+Application 34926728 resources: utime ~2s, stime ~1s, Rss ~804956, inblocks ~1384, outblocks ~2500
+================
+----------------
+N threads: 1
+
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  6.7041e-05 s
+      Inverse
+        Time:  9.4705e-05 s
+@ 1DFFTWR 4096 9.4705e-05
+      Error: 3.85032e-13
+
+    GSL
+      Direct
+        Time:  7.9925e-05 s
+@ 1DGSLR 4096 7.9925e-05
+      Inverse
+        Time:  9.832e-05 s
+      Error: 4.52166e-13
+
+    MKL
+      Direct
+        Time:  6.6625e-05 s
+@ 1DMKLR 4096 6.6625e-05
+      Inverse
+        Time:  5.426e-05 s
+      Error: 4.52166e-13
+
+    FFTPACK
+      Direct
+        Time:  5.7991e-05 s
+@ 1DFFTPACKR 4096 5.7991e-05
+      Inverse
+        Time:  6.9721e-05 s
+      Error: 4.52166e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  9.5909e-05 s
+@ 1DFFTWC 4096 9.5909e-05
+      Inverse
+        Time:  0.000110705 s
+      Error: 7.20951e-13
+
+    GSL
+      Direct
+        Time:  9.0395e-05 s
+@ 1DGSLC 4096 9.0395e-05
+      Inverse
+        Time:  0.000116957 s
+      Error: 1.00547e-12
+
+    MKL
+      Direct
+        Time:  8.1314e-05 s
+@ 1DMKLC 4096 8.1314e-05
+      Inverse
+        Time:  8.6324e-05 s
+      Error: 1.00547e-12
+
+    FFTPACK
+      Direct
+        Time:  8.2501e-05 s
+@ 1DFFTPACKC 4096 8.2501e-05
+      Inverse
+        Time:  8.621e-05 s
+      Error: 1.00547e-12
+
+
+Dimensions: 4096 4096 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.719333 s
+@ 2DFFTWR 4096 0.719333
+      Inverse
+        Time:  0.7961 s
+      Error: 1.5498e-09
+
+    MKL
+      Direct
+        Time:  0.304316 s
+      Inverse
+        Time:  0.305394 s
+@ 2DMKLR 4096 0.305394
+      Error: 1.5498e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  3.14727 s
+@ 2DFFTWC 4096 3.14727
+      Inverse
+        Time:  3.13208 s
+      Error: 2.67499e-09
+
+    MKL
+      Direct
+        Time:  0.497772 s
+      Inverse
+        Time:  0.494895 s
+@ 2DMKLC 4096 0.494895
+      Error: 2.67499e-09
+
+Dimensions: 4096 4096 4096 
+N coils: 1
+
+  R <-> HC
+
+Application 34926736 exit signals: Aborted
+Application 34926736 resources: utime ~10s, stime ~2s, Rss ~3165300, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  6.8158e-05 s
+      Inverse
+        Time:  8.4496e-05 s
+@ 1DFFTWR 4096 8.4496e-05
+      Error: 3.85032e-13
+
+    GSL
+      Direct
+        Time:  8.0605e-05 s
+@ 1DGSLR 4096 8.0605e-05
+      Inverse
+        Time:  9.9247e-05 s
+      Error: 4.52166e-13
+
+    MKL
+      Direct
+        Time:  5.9461e-05 s
+@ 1DMKLR 4096 5.9461e-05
+      Inverse
+        Time:  6.8388e-05 s
+      Error: 4.52166e-13
+
+    FFTPACK
+      Direct
+        Time:  6.3738e-05 s
+@ 1DFFTPACKR 4096 6.3738e-05
+      Inverse
+        Time:  7.5507e-05 s
+      Error: 4.52166e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.000112887 s
+@ 1DFFTWC 4096 0.000112887
+      Inverse
+        Time:  0.000121449 s
+      Error: 7.20951e-13
+
+    GSL
+      Direct
+        Time:  7.3414e-05 s
+@ 1DGSLC 4096 7.3414e-05
+      Inverse
+        Time:  0.000114867 s
+      Error: 1.00547e-12
+
+    MKL
+      Direct
+        Time:  7.3992e-05 s
+@ 1DMKLC 4096 7.3992e-05
+      Inverse
+        Time:  8.3728e-05 s
+      Error: 1.00547e-12
+
+    FFTPACK
+      Direct
+        Time:  7.3279e-05 s
+@ 1DFFTPACKC 4096 7.3279e-05
+      Inverse
+        Time:  0.0001033 s
+      Error: 1.00547e-12
+
+
+Dimensions: 4096 4096 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.718461 s
+@ 2DFFTWR 4096 0.718461
+      Inverse
+        Time:  0.795774 s
+      Error: 1.5498e-09
+
+    MKL
+      Direct
+        Time:  0.304636 s
+      Inverse
+        Time:  0.304169 s
+@ 2DMKLR 4096 0.304169
+      Error: 1.5498e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  3.12823 s
+@ 2DFFTWC 4096 3.12823
+      Inverse
+        Time:  3.12974 s
+      Error: 2.67499e-09
+
+    MKL
+      Direct
+        Time:  0.49703 s
+      Inverse
+        Time:  0.494697 s
+@ 2DMKLC 4096 0.494697
+      Error: 2.67499e-09
+
+Dimensions: 4096 4096 4096 
+N coils: 1
+
+  R <-> HC
+
+Application 34926744 exit signals: Aborted
+Application 34926744 resources: utime ~10s, stime ~2s, Rss ~3165300, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  6.8756e-05 s
+      Inverse
+        Time:  8.72e-05 s
+@ 1DFFTWR 4096 8.72e-05
+      Error: 3.85032e-13
+
+    GSL
+      Direct
+        Time:  7.9708e-05 s
+@ 1DGSLR 4096 7.9708e-05
+      Inverse
+        Time:  9.6118e-05 s
+      Error: 4.52166e-13
+
+    MKL
+      Direct
+        Time:  5.8373e-05 s
+@ 1DMKLR 4096 5.8373e-05
+      Inverse
+        Time:  4.5851e-05 s
+      Error: 4.52166e-13
+
+    FFTPACK
+      Direct
+        Time:  5.6111e-05 s
+@ 1DFFTPACKR 4096 5.6111e-05
+      Inverse
+        Time:  5.689e-05 s
+      Error: 4.52166e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.00011999 s
+@ 1DFFTWC 4096 0.00011999
+      Inverse
+        Time:  0.000145159 s
+      Error: 7.20951e-13
+
+    GSL
+      Direct
+        Time:  7.55e-05 s
+@ 1DGSLC 4096 7.55e-05
+      Inverse
+        Time:  0.000119236 s
+      Error: 1.00547e-12
+
+    MKL
+      Direct
+        Time:  7.5933e-05 s
+@ 1DMKLC 4096 7.5933e-05
+      Inverse
+        Time:  8.5919e-05 s
+      Error: 1.00547e-12
+
+    FFTPACK
+      Direct
+        Time:  7.5719e-05 s
+@ 1DFFTPACKC 4096 7.5719e-05
+      Inverse
+        Time:  8.5824e-05 s
+      Error: 1.00547e-12
+
+
+Dimensions: 4096 4096 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.718827 s
+@ 2DFFTWR 4096 0.718827
+      Inverse
+        Time:  0.793682 s
+      Error: 1.5498e-09
+
+    MKL
+      Direct
+        Time:  0.303174 s
+      Inverse
+        Time:  0.305452 s
+@ 2DMKLR 4096 0.305452
+      Error: 1.5498e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  3.12632 s
+@ 2DFFTWC 4096 3.12632
+      Inverse
+        Time:  3.12727 s
+      Error: 2.67499e-09
+
+    MKL
+      Direct
+        Time:  0.497848 s
+      Inverse
+        Time:  0.495126 s
+@ 2DMKLC 4096 0.495126
+      Error: 2.67499e-09
+
+Dimensions: 4096 4096 4096 
+N coils: 1
+
+  R <-> HC
+
+Application 34926755 exit signals: Aborted
+Application 34926755 resources: utime ~10s, stime ~2s, Rss ~3165300, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  7.0826e-05 s
+      Inverse
+        Time:  8.3956e-05 s
+@ 1DFFTWR 4096 8.3956e-05
+      Error: 3.85032e-13
+
+    GSL
+      Direct
+        Time:  7.9939e-05 s
+@ 1DGSLR 4096 7.9939e-05
+      Inverse
+        Time:  9.4428e-05 s
+      Error: 4.52166e-13
+
+    MKL
+      Direct
+        Time:  5.9355e-05 s
+@ 1DMKLR 4096 5.9355e-05
+      Inverse
+        Time:  7.6657e-05 s
+      Error: 4.52166e-13
+
+    FFTPACK
+      Direct
+        Time:  5.8408e-05 s
+@ 1DFFTPACKR 4096 5.8408e-05
+      Inverse
+        Time:  7.6438e-05 s
+      Error: 4.52166e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  9.5142e-05 s
+@ 1DFFTWC 4096 9.5142e-05
+      Inverse
+        Time:  0.000152769 s
+      Error: 7.20951e-13
+
+    GSL
+      Direct
+        Time:  8.4445e-05 s
+@ 1DGSLC 4096 8.4445e-05
+      Inverse
+        Time:  0.000115438 s
+      Error: 1.00547e-12
+
+    MKL
+      Direct
+        Time:  8.8859e-05 s
+@ 1DMKLC 4096 8.8859e-05
+      Inverse
+        Time:  0.000108632 s
+      Error: 1.00547e-12
+
+    FFTPACK
+      Direct
+        Time:  7.3795e-05 s
+@ 1DFFTPACKC 4096 7.3795e-05
+      Inverse
+        Time:  8.3685e-05 s
+      Error: 1.00547e-12
+
+
+Dimensions: 4096 4096 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.718438 s
+@ 2DFFTWR 4096 0.718438
+      Inverse
+        Time:  0.792933 s
+      Error: 1.5498e-09
+
+    MKL
+      Direct
+        Time:  0.303135 s
+      Inverse
+        Time:  0.303664 s
+@ 2DMKLR 4096 0.303664
+      Error: 1.5498e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  3.13173 s
+@ 2DFFTWC 4096 3.13173
+      Inverse
+        Time:  3.15421 s
+      Error: 2.67499e-09
+
+    MKL
+      Direct
+        Time:  0.496867 s
+      Inverse
+        Time:  0.496963 s
+@ 2DMKLC 4096 0.496963
+      Error: 2.67499e-09
+
+Dimensions: 4096 4096 4096 
+N coils: 1
+
+  R <-> HC
+
+Application 34926768 exit signals: Aborted
+Application 34926768 resources: utime ~10s, stime ~2s, Rss ~3165300, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  6.7664e-05 s
+      Inverse
+        Time:  8.454e-05 s
+@ 1DFFTWR 4096 8.454e-05
+      Error: 3.85032e-13
+
+    GSL
+      Direct
+        Time:  9.7343e-05 s
+@ 1DGSLR 4096 9.7343e-05
+      Inverse
+        Time:  0.000105373 s
+      Error: 4.52166e-13
+
+    MKL
+      Direct
+        Time:  6.8901e-05 s
+@ 1DMKLR 4096 6.8901e-05
+      Inverse
+        Time:  6.412e-05 s
+      Error: 4.52166e-13
+
+    FFTPACK
+      Direct
+        Time:  5.9529e-05 s
+@ 1DFFTPACKR 4096 5.9529e-05
+      Inverse
+        Time:  7.455e-05 s
+      Error: 4.52166e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.000106037 s
+@ 1DFFTWC 4096 0.000106037
+      Inverse
+        Time:  0.000111903 s
+      Error: 7.20951e-13
+
+    GSL
+      Direct
+        Time:  7.5432e-05 s
+@ 1DGSLC 4096 7.5432e-05
+      Inverse
+        Time:  0.00011701 s
+      Error: 1.00547e-12
+
+    MKL
+      Direct
+        Time:  9.059e-05 s
+@ 1DMKLC 4096 9.059e-05
+      Inverse
+        Time:  0.00010823 s
+      Error: 1.00547e-12
+
+    FFTPACK
+      Direct
+        Time:  7.5558e-05 s
+@ 1DFFTPACKC 4096 7.5558e-05
+      Inverse
+        Time:  8.6082e-05 s
+      Error: 1.00547e-12
+
+
+Dimensions: 4096 4096 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.718338 s
+@ 2DFFTWR 4096 0.718338
+      Inverse
+        Time:  0.789162 s
+      Error: 1.5498e-09
+
+    MKL
+      Direct
+        Time:  0.303277 s
+      Inverse
+        Time:  0.303297 s
+@ 2DMKLR 4096 0.303297
+      Error: 1.5498e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  3.12724 s
+@ 2DFFTWC 4096 3.12724
+      Inverse
+        Time:  3.12963 s
+      Error: 2.67499e-09
+
+    MKL
+      Direct
+        Time:  0.49754 s
+      Inverse
+        Time:  0.496399 s
+@ 2DMKLC 4096 0.496399
+      Error: 2.67499e-09
+
+Dimensions: 4096 4096 4096 
+N coils: 1
+
+  R <-> HC
+
+Application 34926784 exit signals: Aborted
+Application 34926784 resources: utime ~10s, stime ~2s, Rss ~3165300, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  6.8293e-05 s
+      Inverse
+        Time:  8.4801e-05 s
+@ 1DFFTWR 4096 8.4801e-05
+      Error: 3.85032e-13
+
+    GSL
+      Direct
+        Time:  8.2181e-05 s
+@ 1DGSLR 4096 8.2181e-05
+      Inverse
+        Time:  0.00011331 s
+      Error: 4.52166e-13
+
+    MKL
+      Direct
+        Time:  6.001e-05 s
+@ 1DMKLR 4096 6.001e-05
+      Inverse
+        Time:  4.6254e-05 s
+      Error: 4.52166e-13
+
+    FFTPACK
+      Direct
+        Time:  7.6729e-05 s
+@ 1DFFTPACKR 4096 7.6729e-05
+      Inverse
+        Time:  7.4441e-05 s
+      Error: 4.52166e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.000109832 s
+@ 1DFFTWC 4096 0.000109832
+      Inverse
+        Time:  0.000111866 s
+      Error: 7.20951e-13
+
+    GSL
+      Direct
+        Time:  7.5515e-05 s
+@ 1DGSLC 4096 7.5515e-05
+      Inverse
+        Time:  0.000116875 s
+      Error: 1.00547e-12
+
+    MKL
+      Direct
+        Time:  7.5864e-05 s
+@ 1DMKLC 4096 7.5864e-05
+      Inverse
+        Time:  8.5941e-05 s
+      Error: 1.00547e-12
+
+    FFTPACK
+      Direct
+        Time:  7.552e-05 s
+@ 1DFFTPACKC 4096 7.552e-05
+      Inverse
+        Time:  9.6562e-05 s
+      Error: 1.00547e-12
+
+
+Dimensions: 4096 4096 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.722417 s
+@ 2DFFTWR 4096 0.722417
+      Inverse
+        Time:  0.798076 s
+      Error: 1.5498e-09
+
+    MKL
+      Direct
+        Time:  0.306676 s
+      Inverse
+        Time:  0.306785 s
+@ 2DMKLR 4096 0.306785
+      Error: 1.5498e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  3.1288 s
+@ 2DFFTWC 4096 3.1288
+      Inverse
+        Time:  3.1328 s
+      Error: 2.67499e-09
+
+    MKL
+      Direct
+        Time:  0.500835 s
+      Inverse
+        Time:  0.497703 s
+@ 2DMKLC 4096 0.497703
+      Error: 2.67499e-09
+
+Dimensions: 4096 4096 4096 
+N coils: 1
+
+  R <-> HC
+
+Application 34926800 exit signals: Aborted
+Application 34926800 resources: utime ~9s, stime ~2s, Rss ~3165300, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  7.1173e-05 s
+      Inverse
+        Time:  8.3e-05 s
+@ 1DFFTWR 4096 8.3e-05
+      Error: 3.85032e-13
+
+    GSL
+      Direct
+        Time:  8.3937e-05 s
+@ 1DGSLR 4096 8.3937e-05
+      Inverse
+        Time:  9.4806e-05 s
+      Error: 4.52166e-13
+
+    MKL
+      Direct
+        Time:  7.4143e-05 s
+@ 1DMKLR 4096 7.4143e-05
+      Inverse
+        Time:  5.5758e-05 s
+      Error: 4.52166e-13
+
+    FFTPACK
+      Direct
+        Time:  6.0214e-05 s
+@ 1DFFTPACKR 4096 6.0214e-05
+      Inverse
+        Time:  5.9106e-05 s
+      Error: 4.52166e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  9.5618e-05 s
+@ 1DFFTWC 4096 9.5618e-05
+      Inverse
+        Time:  0.000123845 s
+      Error: 7.20951e-13
+
+    GSL
+      Direct
+        Time:  7.3264e-05 s
+@ 1DGSLC 4096 7.3264e-05
+      Inverse
+        Time:  0.000115204 s
+      Error: 1.00547e-12
+
+    MKL
+      Direct
+        Time:  7.6311e-05 s
+@ 1DMKLC 4096 7.6311e-05
+      Inverse
+        Time:  8.6165e-05 s
+      Error: 1.00547e-12
+
+    FFTPACK
+      Direct
+        Time:  7.3612e-05 s
+@ 1DFFTPACKC 4096 7.3612e-05
+      Inverse
+        Time:  0.00010471 s
+      Error: 1.00547e-12
+
+
+Dimensions: 4096 4096 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.724213 s
+@ 2DFFTWR 4096 0.724213
+      Inverse
+        Time:  0.795288 s
+      Error: 1.5498e-09
+
+    MKL
+      Direct
+        Time:  0.304019 s
+      Inverse
+        Time:  0.30423 s
+@ 2DMKLR 4096 0.30423
+      Error: 1.5498e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  3.12774 s
+@ 2DFFTWC 4096 3.12774
+      Inverse
+        Time:  3.15726 s
+      Error: 2.67499e-09
+
+    MKL
+      Direct
+        Time:  0.496006 s
+      Inverse
+        Time:  0.495504 s
+@ 2DMKLC 4096 0.495504
+      Error: 2.67499e-09
+
+Dimensions: 4096 4096 4096 
+N coils: 1
+
+  R <-> HC
+
+Application 34926835 exit signals: Aborted
+Application 34926835 resources: utime ~10s, stime ~2s, Rss ~3165300, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  6.6494e-05 s
+      Inverse
+        Time:  8.2217e-05 s
+@ 1DFFTWR 4096 8.2217e-05
+      Error: 3.85032e-13
+
+    GSL
+      Direct
+        Time:  9.729e-05 s
+@ 1DGSLR 4096 9.729e-05
+      Inverse
+        Time:  0.000102963 s
+      Error: 4.52166e-13
+
+    MKL
+      Direct
+        Time:  8.0096e-05 s
+@ 1DMKLR 4096 8.0096e-05
+      Inverse
+        Time:  6.7328e-05 s
+      Error: 4.52166e-13
+
+    FFTPACK
+      Direct
+        Time:  5.784e-05 s
+@ 1DFFTPACKR 4096 5.784e-05
+      Inverse
+        Time:  7.477e-05 s
+      Error: 4.52166e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  9.402e-05 s
+@ 1DFFTWC 4096 9.402e-05
+      Inverse
+        Time:  0.00013374 s
+      Error: 7.20951e-13
+
+    GSL
+      Direct
+        Time:  7.9499e-05 s
+@ 1DGSLC 4096 7.9499e-05
+      Inverse
+        Time:  0.000125206 s
+      Error: 1.00547e-12
+
+    MKL
+      Direct
+        Time:  9.2833e-05 s
+@ 1DMKLC 4096 9.2833e-05
+      Inverse
+        Time:  8.8633e-05 s
+      Error: 1.00547e-12
+
+    FFTPACK
+      Direct
+        Time:  8.0577e-05 s
+@ 1DFFTPACKC 4096 8.0577e-05
+      Inverse
+        Time:  8.344e-05 s
+      Error: 1.00547e-12
+
+
+Dimensions: 4096 4096 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.720103 s
+@ 2DFFTWR 4096 0.720103
+      Inverse
+        Time:  0.794273 s
+      Error: 1.5498e-09
+
+    MKL
+      Direct
+        Time:  0.302409 s
+      Inverse
+        Time:  0.305121 s
+@ 2DMKLR 4096 0.305121
+      Error: 1.5498e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  3.12962 s
+@ 2DFFTWC 4096 3.12962
+      Inverse
+        Time:  3.13063 s
+      Error: 2.67499e-09
+
+    MKL
+      Direct
+        Time:  0.495671 s
+      Inverse
+        Time:  0.49594 s
+@ 2DMKLC 4096 0.49594
+      Error: 2.67499e-09
+
+Dimensions: 4096 4096 4096 
+N coils: 1
+
+  R <-> HC
+
+Application 34926868 exit signals: Aborted
+Application 34926868 resources: utime ~10s, stime ~2s, Rss ~3165300, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  7.0162e-05 s
+      Inverse
+        Time:  9.8701e-05 s
+@ 1DFFTWR 4096 9.8701e-05
+      Error: 3.85032e-13
+
+    GSL
+      Direct
+        Time:  8.4921e-05 s
+@ 1DGSLR 4096 8.4921e-05
+      Inverse
+        Time:  9.8077e-05 s
+      Error: 4.52166e-13
+
+    MKL
+      Direct
+        Time:  5.8413e-05 s
+@ 1DMKLR 4096 5.8413e-05
+      Inverse
+        Time:  4.6023e-05 s
+      Error: 4.52166e-13
+
+    FFTPACK
+      Direct
+        Time:  5.8186e-05 s
+@ 1DFFTPACKR 4096 5.8186e-05
+      Inverse
+        Time:  7.7362e-05 s
+      Error: 4.52166e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.000116888 s
+@ 1DFFTWC 4096 0.000116888
+      Inverse
+        Time:  0.000141638 s
+      Error: 7.20951e-13
+
+    GSL
+      Direct
+        Time:  7.5389e-05 s
+@ 1DGSLC 4096 7.5389e-05
+      Inverse
+        Time:  0.000130182 s
+      Error: 1.00547e-12
+
+    MKL
+      Direct
+        Time:  7.5807e-05 s
+@ 1DMKLC 4096 7.5807e-05
+      Inverse
+        Time:  8.6205e-05 s
+      Error: 1.00547e-12
+
+    FFTPACK
+      Direct
+        Time:  7.5525e-05 s
+@ 1DFFTPACKC 4096 7.5525e-05
+      Inverse
+        Time:  9.6916e-05 s
+      Error: 1.00547e-12
+
+
+Dimensions: 4096 4096 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.72313 s
+@ 2DFFTWR 4096 0.72313
+      Inverse
+        Time:  0.797225 s
+      Error: 1.5498e-09
+
+    MKL
+      Direct
+        Time:  0.305406 s
+      Inverse
+        Time:  0.306629 s
+@ 2DMKLR 4096 0.306629
+      Error: 1.5498e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  3.13265 s
+@ 2DFFTWC 4096 3.13265
+      Inverse
+        Time:  3.13383 s
+      Error: 2.67499e-09
+
+    MKL
+      Direct
+        Time:  0.499485 s
+      Inverse
+        Time:  0.498229 s
+@ 2DMKLC 4096 0.498229
+      Error: 2.67499e-09
+
+Dimensions: 4096 4096 4096 
+N coils: 1
+
+  R <-> HC
+
+Application 34926885 exit signals: Aborted
+Application 34926885 resources: utime ~9s, stime ~2s, Rss ~3165300, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  6.7519e-05 s
+      Inverse
+        Time:  8.3906e-05 s
+@ 1DFFTWR 4096 8.3906e-05
+      Error: 3.85032e-13
+
+    GSL
+      Direct
+        Time:  9.3782e-05 s
+@ 1DGSLR 4096 9.3782e-05
+      Inverse
+        Time:  9.642e-05 s
+      Error: 4.52166e-13
+
+    MKL
+      Direct
+        Time:  6.9798e-05 s
+@ 1DMKLR 4096 6.9798e-05
+      Inverse
+        Time:  4.5659e-05 s
+      Error: 4.52166e-13
+
+    FFTPACK
+      Direct
+        Time:  5.9976e-05 s
+@ 1DFFTPACKR 4096 5.9976e-05
+      Inverse
+        Time:  7.4969e-05 s
+      Error: 4.52166e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  9.7832e-05 s
+@ 1DFFTWC 4096 9.7832e-05
+      Inverse
+        Time:  0.000113946 s
+      Error: 7.20951e-13
+
+    GSL
+      Direct
+        Time:  7.5863e-05 s
+@ 1DGSLC 4096 7.5863e-05
+      Inverse
+        Time:  0.00012041 s
+      Error: 1.00547e-12
+
+    MKL
+      Direct
+        Time:  7.5884e-05 s
+@ 1DMKLC 4096 7.5884e-05
+      Inverse
+        Time:  8.5985e-05 s
+      Error: 1.00547e-12
+
+    FFTPACK
+      Direct
+        Time:  9.6004e-05 s
+@ 1DFFTPACKC 4096 9.6004e-05
+      Inverse
+        Time:  8.5808e-05 s
+      Error: 1.00547e-12
+
+
+Dimensions: 4096 4096 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.72074 s
+@ 2DFFTWR 4096 0.72074
+      Inverse
+        Time:  0.794854 s
+      Error: 1.5498e-09
+
+    MKL
+      Direct
+        Time:  0.303166 s
+      Inverse
+        Time:  0.30475 s
+@ 2DMKLR 4096 0.30475
+      Error: 1.5498e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  3.1327 s
+@ 2DFFTWC 4096 3.1327
+      Inverse
+        Time:  3.13108 s
+      Error: 2.67499e-09
+
+    MKL
+      Direct
+        Time:  0.502458 s
+      Inverse
+        Time:  0.516365 s
+@ 2DMKLC 4096 0.516365
+      Error: 2.67499e-09
+
+Dimensions: 4096 4096 4096 
+N coils: 1
+
+  R <-> HC
+
+Application 34926896 exit signals: Aborted
+Application 34926896 resources: utime ~10s, stime ~2s, Rss ~3165300, inblocks ~1384, outblocks ~2500
+================
+----------------
+N threads: 1
+
+Dimensions: 8192 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.000137653 s
+      Inverse
+        Time:  0.000167589 s
+@ 1DFFTWR 8192 0.000167589
+      Error: 1.29882e-12
+
+    GSL
+      Direct
+        Time:  0.000189741 s
+@ 1DGSLR 8192 0.000189741
+      Inverse
+        Time:  0.000207722 s
+      Error: 9.31616e-13
+
+    MKL
+      Direct
+        Time:  0.000114818 s
+@ 1DMKLR 8192 0.000114818
+      Inverse
+        Time:  9.553e-05 s
+      Error: 9.31616e-13
+
+    FFTPACK
+      Direct
+        Time:  0.000121226 s
+@ 1DFFTPACKR 8192 0.000121226
+      Inverse
+        Time:  0.000132096 s
+      Error: 9.31616e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.000191312 s
+@ 1DFFTWC 8192 0.000191312
+      Inverse
+        Time:  0.000236067 s
+      Error: 1.71464e-12
+
+    GSL
+      Direct
+        Time:  0.000198721 s
+@ 1DGSLC 8192 0.000198721
+      Inverse
+        Time:  0.000326929 s
+      Error: 3.05314e-12
+
+    MKL
+      Direct
+        Time:  0.00016612 s
+@ 1DMKLC 8192 0.00016612
+      Inverse
+        Time:  0.000201371 s
+      Error: 3.05314e-12
+
+    FFTPACK
+      Direct
+        Time:  0.000166103 s
+@ 1DFFTPACKC 8192 0.000166103
+      Inverse
+        Time:  0.000206187 s
+      Error: 3.05314e-12
+
+
+Dimensions: 8192 8192 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  2.87113 s
+@ 2DFFTWR 8192 2.87113
+      Inverse
+        Time:  3.06521 s
+      Error: 7.50253e-09
+
+    MKL
+      Direct
+        Time:  1.31231 s
+      Inverse
+        Time:  1.31056 s
+@ 2DMKLR 8192 1.31056
+      Error: 7.50253e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  13.1357 s
+@ 2DFFTWC 8192 13.1357
+      Inverse
+        Time:  13.3128 s
+      Error: 1.28328e-08
+
+    MKL
+      Direct
+        Time:  2.44879 s
+      Inverse
+        Time:  2.48589 s
+@ 2DMKLC 8192 2.48589
+      Error: 1.28328e-08
+
+Dimensions: 8192 8192 8192 
+N coils: 1
+
+  R <-> HC
+
+Application 34926923 exit signals: Aborted
+Application 34926923 resources: utime ~40s, stime ~8s, Rss ~12603700, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 8192 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.000136855 s
+      Inverse
+        Time:  0.000171711 s
+@ 1DFFTWR 8192 0.000171711
+      Error: 1.29882e-12
+
+    GSL
+      Direct
+        Time:  0.000183752 s
+@ 1DGSLR 8192 0.000183752
+      Inverse
+        Time:  0.000207773 s
+      Error: 9.31616e-13
+
+    MKL
+      Direct
+        Time:  9.2278e-05 s
+@ 1DMKLR 8192 9.2278e-05
+      Inverse
+        Time:  9.9795e-05 s
+      Error: 9.31616e-13
+
+    FFTPACK
+      Direct
+        Time:  0.000118124 s
+@ 1DFFTPACKR 8192 0.000118124
+      Inverse
+        Time:  0.00013128 s
+      Error: 9.31616e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.000206364 s
+@ 1DFFTWC 8192 0.000206364
+      Inverse
+        Time:  0.000286617 s
+      Error: 1.71464e-12
+
+    GSL
+      Direct
+        Time:  0.000177654 s
+@ 1DGSLC 8192 0.000177654
+      Inverse
+        Time:  0.000289788 s
+      Error: 3.05314e-12
+
+    MKL
+      Direct
+        Time:  0.000166793 s
+@ 1DMKLC 8192 0.000166793
+      Inverse
+        Time:  0.000197911 s
+      Error: 3.05314e-12
+
+    FFTPACK
+      Direct
+        Time:  0.000177304 s
+@ 1DFFTPACKC 8192 0.000177304
+      Inverse
+        Time:  0.000197747 s
+      Error: 3.05314e-12
+
+
+Dimensions: 8192 8192 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  2.8133 s
+@ 2DFFTWR 8192 2.8133
+      Inverse
+        Time:  3.06445 s
+      Error: 7.50253e-09
+
+    MKL
+      Direct
+        Time:  1.30889 s
+      Inverse
+        Time:  1.30745 s
+@ 2DMKLR 8192 1.30745
+      Error: 7.50253e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  13.1181 s
+@ 2DFFTWC 8192 13.1181
+      Inverse
+        Time:  13.3103 s
+      Error: 1.28328e-08
+
+    MKL
+      Direct
+        Time:  2.49594 s
+      Inverse
+        Time:  2.44482 s
+@ 2DMKLC 8192 2.44482
+      Error: 1.28328e-08
+
+Dimensions: 8192 8192 8192 
+N coils: 1
+
+  R <-> HC
+
+Application 34926987 exit signals: Aborted
+Application 34926987 resources: utime ~40s, stime ~8s, Rss ~12603700, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 8192 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.000155144 s
+      Inverse
+        Time:  0.000162713 s
+@ 1DFFTWR 8192 0.000162713
+      Error: 1.29882e-12
+
+    GSL
+      Direct
+        Time:  0.000185232 s
+@ 1DGSLR 8192 0.000185232
+      Inverse
+        Time:  0.000207528 s
+      Error: 9.31616e-13
+
+    MKL
+      Direct
+        Time:  0.000111885 s
+@ 1DMKLR 8192 0.000111885
+      Inverse
+        Time:  9.1184e-05 s
+      Error: 9.31616e-13
+
+    FFTPACK
+      Direct
+        Time:  0.000133865 s
+@ 1DFFTPACKR 8192 0.000133865
+      Inverse
+        Time:  0.000129094 s
+      Error: 9.31616e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.00018988 s
+@ 1DFFTWC 8192 0.00018988
+      Inverse
+        Time:  0.000261568 s
+      Error: 1.71464e-12
+
+    GSL
+      Direct
+        Time:  0.000190103 s
+@ 1DGSLC 8192 0.000190103
+      Inverse
+        Time:  0.000313008 s
+      Error: 3.05314e-12
+
+    MKL
+      Direct
+        Time:  0.000180492 s
+@ 1DMKLC 8192 0.000180492
+      Inverse
+        Time:  0.000211885 s
+      Error: 3.05314e-12
+
+    FFTPACK
+      Direct
+        Time:  0.000166613 s
+@ 1DFFTPACKC 8192 0.000166613
+      Inverse
+        Time:  0.000198417 s
+      Error: 3.05314e-12
+
+
+Dimensions: 8192 8192 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  2.81862 s
+@ 2DFFTWR 8192 2.81862
+      Inverse
+        Time:  3.07059 s
+      Error: 7.50253e-09
+
+    MKL
+      Direct
+        Time:  1.31223 s
+      Inverse
+        Time:  1.31212 s
+@ 2DMKLR 8192 1.31212
+      Error: 7.50253e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  13.1497 s
+@ 2DFFTWC 8192 13.1497
+      Inverse
+        Time:  13.3527 s
+      Error: 1.28328e-08
+
+    MKL
+      Direct
+        Time:  2.45032 s
+      Inverse
+        Time:  2.45149 s
+@ 2DMKLC 8192 2.45149
+      Error: 1.28328e-08
+
+Dimensions: 8192 8192 8192 
+N coils: 1
+
+  R <-> HC
+
+Application 34927049 exit signals: Aborted
+Application 34927049 resources: utime ~40s, stime ~8s, Rss ~12603700, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 8192 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.000142698 s
+      Inverse
+        Time:  0.000189285 s
+@ 1DFFTWR 8192 0.000189285
+      Error: 1.29882e-12
+
+    GSL
+      Direct
+        Time:  0.00017181 s
+@ 1DGSLR 8192 0.00017181
+      Inverse
+        Time:  0.000209102 s
+      Error: 9.31616e-13
+
+    MKL
+      Direct
+        Time:  0.000109556 s
+@ 1DMKLR 8192 0.000109556
+      Inverse
+        Time:  0.000117484 s
+      Error: 9.31616e-13
+
+    FFTPACK
+      Direct
+        Time:  0.000118426 s
+@ 1DFFTPACKR 8192 0.000118426
+      Inverse
+        Time:  0.000136458 s
+      Error: 9.31616e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.000190016 s
+@ 1DFFTWC 8192 0.000190016
+      Inverse
+        Time:  0.000226327 s
+      Error: 1.71464e-12
+
+    GSL
+      Direct
+        Time:  0.00016614 s
+@ 1DGSLC 8192 0.00016614
+      Inverse
+        Time:  0.000316021 s
+      Error: 3.05314e-12
+
+    MKL
+      Direct
+        Time:  0.000221872 s
+@ 1DMKLC 8192 0.000221872
+      Inverse
+        Time:  0.000212891 s
+      Error: 3.05314e-12
+
+    FFTPACK
+      Direct
+        Time:  0.000176019 s
+@ 1DFFTPACKC 8192 0.000176019
+      Inverse
+        Time:  0.000199195 s
+      Error: 3.05314e-12
+
+
+Dimensions: 8192 8192 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  2.81763 s
+@ 2DFFTWR 8192 2.81763
+      Inverse
+        Time:  3.07214 s
+      Error: 7.50253e-09
+
+    MKL
+      Direct
+        Time:  1.31252 s
+      Inverse
+        Time:  1.31343 s
+@ 2DMKLR 8192 1.31343
+      Error: 7.50253e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  13.1202 s
+@ 2DFFTWC 8192 13.1202
+      Inverse
+        Time:  13.3558 s
+      Error: 1.28328e-08
+
+    MKL
+      Direct
+        Time:  2.45234 s
+      Inverse
+        Time:  2.45156 s
+@ 2DMKLC 8192 2.45156
+      Error: 1.28328e-08
+
+Dimensions: 8192 8192 8192 
+N coils: 1
+
+  R <-> HC
+
+Application 34927103 exit signals: Aborted
+Application 34927103 resources: utime ~40s, stime ~8s, Rss ~12603700, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 8192 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.000145585 s
+      Inverse
+        Time:  0.000162733 s
+@ 1DFFTWR 8192 0.000162733
+      Error: 1.29882e-12
+
+    GSL
+      Direct
+        Time:  0.00020508 s
+@ 1DGSLR 8192 0.00020508
+      Inverse
+        Time:  0.00020881 s
+      Error: 9.31616e-13
+
+    MKL
+      Direct
+        Time:  9.293e-05 s
+@ 1DMKLR 8192 9.293e-05
+      Inverse
+        Time:  9.1932e-05 s
+      Error: 9.31616e-13
+
+    FFTPACK
+      Direct
+        Time:  0.000137076 s
+@ 1DFFTPACKR 8192 0.000137076
+      Inverse
+        Time:  0.000132921 s
+      Error: 9.31616e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.000221674 s
+@ 1DFFTWC 8192 0.000221674
+      Inverse
+        Time:  0.000294658 s
+      Error: 1.71464e-12
+
+    GSL
+      Direct
+        Time:  0.000177747 s
+@ 1DGSLC 8192 0.000177747
+      Inverse
+        Time:  0.000286452 s
+      Error: 3.05314e-12
+
+    MKL
+      Direct
+        Time:  0.000166453 s
+@ 1DMKLC 8192 0.000166453
+      Inverse
+        Time:  0.00021758 s
+      Error: 3.05314e-12
+
+    FFTPACK
+      Direct
+        Time:  0.000172084 s
+@ 1DFFTPACKC 8192 0.000172084
+      Inverse
+        Time:  0.000224841 s
+      Error: 3.05314e-12
+
+
+Dimensions: 8192 8192 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  2.81912 s
+@ 2DFFTWR 8192 2.81912
+      Inverse
+        Time:  3.08692 s
+      Error: 7.50253e-09
+
+    MKL
+      Direct
+        Time:  1.3495 s
+      Inverse
+        Time:  1.31273 s
+@ 2DMKLR 8192 1.31273
+      Error: 7.50253e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  13.1099 s
+@ 2DFFTWC 8192 13.1099
+      Inverse
+        Time:  13.3427 s
+      Error: 1.28328e-08
+
+    MKL
+      Direct
+        Time:  2.45304 s
+      Inverse
+        Time:  2.45061 s
+@ 2DMKLC 8192 2.45061
+      Error: 1.28328e-08
+
+Dimensions: 8192 8192 8192 
+N coils: 1
+
+  R <-> HC
+
+Application 34927142 exit signals: Aborted
+Application 34927142 resources: utime ~40s, stime ~9s, Rss ~12603700, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 8192 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.000138804 s
+      Inverse
+        Time:  0.000181315 s
+@ 1DFFTWR 8192 0.000181315
+      Error: 1.29882e-12
+
+    GSL
+      Direct
+        Time:  0.000199477 s
+@ 1DGSLR 8192 0.000199477
+      Inverse
+        Time:  0.000208665 s
+      Error: 9.31616e-13
+
+    MKL
+      Direct
+        Time:  9.264e-05 s
+@ 1DMKLR 8192 9.264e-05
+      Inverse
+        Time:  9.2207e-05 s
+      Error: 9.31616e-13
+
+    FFTPACK
+      Direct
+        Time:  0.000132666 s
+@ 1DFFTPACKR 8192 0.000132666
+      Inverse
+        Time:  0.000157961 s
+      Error: 9.31616e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.000206644 s
+@ 1DFFTWC 8192 0.000206644
+      Inverse
+        Time:  0.000233108 s
+      Error: 1.71464e-12
+
+    GSL
+      Direct
+        Time:  0.000166488 s
+@ 1DGSLC 8192 0.000166488
+      Inverse
+        Time:  0.00027624 s
+      Error: 3.05314e-12
+
+    MKL
+      Direct
+        Time:  0.000168211 s
+@ 1DMKLC 8192 0.000168211
+      Inverse
+        Time:  0.000199157 s
+      Error: 3.05314e-12
+
+    FFTPACK
+      Direct
+        Time:  0.000176143 s
+@ 1DFFTPACKC 8192 0.000176143
+      Inverse
+        Time:  0.000261868 s
+      Error: 3.05314e-12
+
+
+Dimensions: 8192 8192 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  2.81674 s
+@ 2DFFTWR 8192 2.81674
+      Inverse
+        Time:  3.08471 s
+      Error: 7.50253e-09
+
+    MKL
+      Direct
+        Time:  1.31038 s
+      Inverse
+        Time:  1.31017 s
+@ 2DMKLR 8192 1.31017
+      Error: 7.50253e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  13.1242 s
+@ 2DFFTWC 8192 13.1242
+      Inverse
+        Time:  13.3427 s
+      Error: 1.28328e-08
+
+    MKL
+      Direct
+        Time:  2.4853 s
+      Inverse
+        Time:  2.48018 s
+@ 2DMKLC 8192 2.48018
+      Error: 1.28328e-08
+
+Dimensions: 8192 8192 8192 
+N coils: 1
+
+  R <-> HC
+
+Application 34927194 exit signals: Aborted
+Application 34927194 resources: utime ~41s, stime ~8s, Rss ~12603700, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 8192 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.000138988 s
+      Inverse
+        Time:  0.000162218 s
+@ 1DFFTWR 8192 0.000162218
+      Error: 1.29882e-12
+
+    GSL
+      Direct
+        Time:  0.000212246 s
+@ 1DGSLR 8192 0.000212246
+      Inverse
+        Time:  0.000216641 s
+      Error: 9.31616e-13
+
+    MKL
+      Direct
+        Time:  9.1618e-05 s
+@ 1DMKLR 8192 9.1618e-05
+      Inverse
+        Time:  0.000100338 s
+      Error: 9.31616e-13
+
+    FFTPACK
+      Direct
+        Time:  0.000161661 s
+@ 1DFFTPACKR 8192 0.000161661
+      Inverse
+        Time:  0.000146342 s
+      Error: 9.31616e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.000201491 s
+@ 1DFFTWC 8192 0.000201491
+      Inverse
+        Time:  0.000238493 s
+      Error: 1.71464e-12
+
+    GSL
+      Direct
+        Time:  0.000166347 s
+@ 1DGSLC 8192 0.000166347
+      Inverse
+        Time:  0.00027584 s
+      Error: 3.05314e-12
+
+    MKL
+      Direct
+        Time:  0.000171187 s
+@ 1DMKLC 8192 0.000171187
+      Inverse
+        Time:  0.000198518 s
+      Error: 3.05314e-12
+
+    FFTPACK
+      Direct
+        Time:  0.000166342 s
+@ 1DFFTPACKC 8192 0.000166342
+      Inverse
+        Time:  0.000245197 s
+      Error: 3.05314e-12
+
+
+Dimensions: 8192 8192 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  2.84063 s
+@ 2DFFTWR 8192 2.84063
+      Inverse
+        Time:  3.05893 s
+      Error: 7.50253e-09
+
+    MKL
+      Direct
+        Time:  1.3048 s
+      Inverse
+        Time:  1.30859 s
+@ 2DMKLR 8192 1.30859
+      Error: 7.50253e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  13.1044 s
+@ 2DFFTWC 8192 13.1044
+      Inverse
+        Time:  13.3575 s
+      Error: 1.28328e-08
+
+    MKL
+      Direct
+        Time:  2.46042 s
+      Inverse
+        Time:  2.4541 s
+@ 2DMKLC 8192 2.4541
+      Error: 1.28328e-08
+
+Dimensions: 8192 8192 8192 
+N coils: 1
+
+  R <-> HC
+
+Application 34927258 exit signals: Aborted
+Application 34927258 resources: utime ~40s, stime ~8s, Rss ~12603700, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 8192 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.000148453 s
+      Inverse
+        Time:  0.000163677 s
+@ 1DFFTWR 8192 0.000163677
+      Error: 1.29882e-12
+
+    GSL
+      Direct
+        Time:  0.000184312 s
+@ 1DGSLR 8192 0.000184312
+      Inverse
+        Time:  0.000210047 s
+      Error: 9.31616e-13
+
+    MKL
+      Direct
+        Time:  9.238e-05 s
+@ 1DMKLR 8192 9.238e-05
+      Inverse
+        Time:  9.2689e-05 s
+      Error: 9.31616e-13
+
+    FFTPACK
+      Direct
+        Time:  0.000129461 s
+@ 1DFFTPACKR 8192 0.000129461
+      Inverse
+        Time:  0.000128616 s
+      Error: 9.31616e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.000224287 s
+@ 1DFFTWC 8192 0.000224287
+      Inverse
+        Time:  0.00023169 s
+      Error: 1.71464e-12
+
+    GSL
+      Direct
+        Time:  0.000166686 s
+@ 1DGSLC 8192 0.000166686
+      Inverse
+        Time:  0.000276242 s
+      Error: 3.05314e-12
+
+    MKL
+      Direct
+        Time:  0.000180199 s
+@ 1DMKLC 8192 0.000180199
+      Inverse
+        Time:  0.000197654 s
+      Error: 3.05314e-12
+
+    FFTPACK
+      Direct
+        Time:  0.000176801 s
+@ 1DFFTPACKC 8192 0.000176801
+      Inverse
+        Time:  0.000222739 s
+      Error: 3.05314e-12
+
+
+Dimensions: 8192 8192 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  2.81602 s
+@ 2DFFTWR 8192 2.81602
+      Inverse
+        Time:  3.06628 s
+      Error: 7.50253e-09
+
+    MKL
+      Direct
+        Time:  1.31362 s
+      Inverse
+        Time:  1.31045 s
+@ 2DMKLR 8192 1.31045
+      Error: 7.50253e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  13.1295 s
+@ 2DFFTWC 8192 13.1295
+      Inverse
+        Time:  13.3136 s
+      Error: 1.28328e-08
+
+    MKL
+      Direct
+        Time:  2.4594 s
+      Inverse
+        Time:  2.45512 s
+@ 2DMKLC 8192 2.45512
+      Error: 1.28328e-08
+
+Dimensions: 8192 8192 8192 
+N coils: 1
+
+  R <-> HC
+
+Application 34927335 exit signals: Aborted
+Application 34927335 resources: utime ~41s, stime ~8s, Rss ~12603700, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 8192 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.000137533 s
+      Inverse
+        Time:  0.000164061 s
+@ 1DFFTWR 8192 0.000164061
+      Error: 1.29882e-12
+
+    GSL
+      Direct
+        Time:  0.000189538 s
+@ 1DGSLR 8192 0.000189538
+      Inverse
+        Time:  0.000208707 s
+      Error: 9.31616e-13
+
+    MKL
+      Direct
+        Time:  9.2792e-05 s
+@ 1DMKLR 8192 9.2792e-05
+      Inverse
+        Time:  9.9199e-05 s
+      Error: 9.31616e-13
+
+    FFTPACK
+      Direct
+        Time:  0.000114718 s
+@ 1DFFTPACKR 8192 0.000114718
+      Inverse
+        Time:  0.000138237 s
+      Error: 9.31616e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.00018943 s
+@ 1DFFTWC 8192 0.00018943
+      Inverse
+        Time:  0.000225446 s
+      Error: 1.71464e-12
+
+    GSL
+      Direct
+        Time:  0.000177291 s
+@ 1DGSLC 8192 0.000177291
+      Inverse
+        Time:  0.00028072 s
+      Error: 3.05314e-12
+
+    MKL
+      Direct
+        Time:  0.000180236 s
+@ 1DMKLC 8192 0.000180236
+      Inverse
+        Time:  0.000197953 s
+      Error: 3.05314e-12
+
+    FFTPACK
+      Direct
+        Time:  0.000192613 s
+@ 1DFFTPACKC 8192 0.000192613
+      Inverse
+        Time:  0.000206165 s
+      Error: 3.05314e-12
+
+
+Dimensions: 8192 8192 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  2.81268 s
+@ 2DFFTWR 8192 2.81268
+      Inverse
+        Time:  3.06251 s
+      Error: 7.50253e-09
+
+    MKL
+      Direct
+        Time:  1.3049 s
+      Inverse
+        Time:  1.30581 s
+@ 2DMKLR 8192 1.30581
+      Error: 7.50253e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  13.1253 s
+@ 2DFFTWC 8192 13.1253
+      Inverse
+        Time:  13.1524 s
+      Error: 1.28328e-08
+
+    MKL
+      Direct
+        Time:  2.44548 s
+      Inverse
+        Time:  2.44593 s
+@ 2DMKLC 8192 2.44593
+      Error: 1.28328e-08
+
+Dimensions: 8192 8192 8192 
+N coils: 1
+
+  R <-> HC
+
+Application 34927394 exit signals: Aborted
+Application 34927394 resources: utime ~40s, stime ~8s, Rss ~12603700, inblocks ~1384, outblocks ~2500
+----------------
+N threads: 1
+
+Dimensions: 8192 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  0.000138061 s
+      Inverse
+        Time:  0.000172409 s
+@ 1DFFTWR 8192 0.000172409
+      Error: 1.29882e-12
+
+    GSL
+      Direct
+        Time:  0.000188611 s
+@ 1DGSLR 8192 0.000188611
+      Inverse
+        Time:  0.000206859 s
+      Error: 9.31616e-13
+
+    MKL
+      Direct
+        Time:  9.1657e-05 s
+@ 1DMKLR 8192 9.1657e-05
+      Inverse
+        Time:  0.000124783 s
+      Error: 9.31616e-13
+
+    FFTPACK
+      Direct
+        Time:  0.000119023 s
+@ 1DFFTPACKR 8192 0.000119023
+      Inverse
+        Time:  0.000136852 s
+      Error: 9.31616e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  0.000195134 s
+@ 1DFFTWC 8192 0.000195134
+      Inverse
+        Time:  0.000242342 s
+      Error: 1.71464e-12
+
+    GSL
+      Direct
+        Time:  0.000183367 s
+@ 1DGSLC 8192 0.000183367
+      Inverse
+        Time:  0.000317606 s
+      Error: 3.05314e-12
+
+    MKL
+      Direct
+        Time:  0.00018361 s
+@ 1DMKLC 8192 0.00018361
+      Inverse
+        Time:  0.000217533 s
+      Error: 3.05314e-12
+
+    FFTPACK
+      Direct
+        Time:  0.000179595 s
+@ 1DFFTPACKC 8192 0.000179595
+      Inverse
+        Time:  0.000198497 s
+      Error: 3.05314e-12
+
+
+Dimensions: 8192 8192 
+N coils: 1
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Time:  2.81783 s
+@ 2DFFTWR 8192 2.81783
+      Inverse
+        Time:  3.06626 s
+      Error: 7.50253e-09
+
+    MKL
+      Direct
+        Time:  1.31238 s
+      Inverse
+        Time:  1.30836 s
+@ 2DMKLR 8192 1.30836
+      Error: 7.50253e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Time:  13.135 s
+@ 2DFFTWC 8192 13.135
+      Inverse
+        Time:  13.3148 s
+      Error: 1.28328e-08
+
+    MKL
+      Direct
+        Time:  2.44901 s
+      Inverse
+        Time:  2.49144 s
+@ 2DMKLC 8192 2.49144
+      Error: 1.28328e-08
+
+Dimensions: 8192 8192 8192 
+N coils: 1
+
+  R <-> HC
+
+Application 34927449 exit signals: Aborted
+Application 34927449 resources: utime ~40s, stime ~8s, Rss ~12603700, inblocks ~1384, outblocks ~2500

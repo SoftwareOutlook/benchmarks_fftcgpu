@@ -26,9 +26,6 @@ for line in lines:
 keys_list_unique=sorted(set(keys_list))
 parameters_list_unique=sorted(set(parameters_list))
 
-print keys_list_unique
-print parameters_list_unique
-
 data={}
 averages={}
 for key in keys_list_unique:
@@ -52,11 +49,14 @@ for line in lines:
 for key in data:
   for parameter in data[key]:
     n=0
+    print key + " " + str(parameter)
     for result in data[key][parameter]:
       n=n+1
-      averages[key][parameter]=averages[key][parameter]+result     
-    averages[key][parameter]=averages[key][parameter]/n
-
+      averages[key][parameter]=averages[key][parameter]+result
+    if n>0:     
+      averages[key][parameter]=averages[key][parameter]/n
+    else:
+      averages[key][parameter]=0
 print '# N',
 for key in keys_list_unique:
   print key,
