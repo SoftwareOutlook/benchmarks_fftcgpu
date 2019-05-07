@@ -1,0 +1,228 @@
+reset
+set terminal pdf
+set xlabel "N"
+set ylabel "Time (s)"
+set key right bottom
+set logscale xy
+set format y "10^{%L}"
+
+set output "1d-fftw-r.pdf"
+set title "Performance as a function of size - FFTW, 1D, Real"
+plot "pow2-1d.dat"    using 1:2 with linespoints lc rgb "blue"  pt 7 ps 0.5 dashtype 1 title "Powers of 2",\
+     "prodint-1d.dat" using 1:2 with linespoints lc rgb "blue"  pt 2 ps 0.5 dashtype 2 title "Prod. int.",\
+     "primes-1d.dat"  using 1:2 with linespoints lc rgb "blue"  pt 1 ps 0.5 dashtype 4 title "Primes"
+
+set output "1d-fftw-c.pdf"
+set title "Performance as a function of size - FFTW, 1D, Complex"
+plot "pow2-1d.dat"    using 1:6 with linespoints lc rgb "blue"  pt 7 ps 0.5 dashtype 1 title "Powers of 2",\
+     "prodint-1d.dat" using 1:6 with linespoints lc rgb "blue"  pt 2 ps 0.5 dashtype 2 title "Prod. int.",\
+     "primes-1d.dat"  using 1:6 with linespoints lc rgb "blue"  pt 1 ps 0.5 dashtype 4 title "Primes"
+
+set output "1d-mkl-r.pdf"
+set title "Performance as a function of size - MKL, 1D, Real"
+plot "pow2-1d.dat"    using 1:3 with linespoints lc rgb "red"   pt 7 ps 0.5 dashtype 1 title "Powers of 2",\
+     "prodint-1d.dat" using 1:3 with linespoints lc rgb "red"   pt 2 ps 0.5 dashtype 2 title "Prod. int.",\
+     "primes-1d.dat"  using 1:3 with linespoints lc rgb "red"   pt 1 ps 0.5 dashtype 4 title "Primes"
+
+set output "1d-mkl-c.pdf"
+set title "Performance as a function of size - MKL, 1D, Complex"
+plot "pow2-1d.dat"    using 1:7 with linespoints lc rgb "red"   pt 7 ps 0.5 dashtype 1 title "Powers of 2",\
+     "prodint-1d.dat" using 1:7 with linespoints lc rgb "red"   pt 2 ps 0.5 dashtype 2 title "Prod. int.",\
+     "primes-1d.dat"  using 1:7 with linespoints lc rgb "red"   pt 1 ps 0.5 dashtype 4 title "Primes"
+
+set output "1d-gsl-r.pdf"
+set title "Performance as a function of size - GSL, 1D, Real"
+plot "pow2-1d.dat"    using 1:4 with linespoints lc rgb "green" pt 7 ps 0.5 dashtype 1 title "Powers of 2",\
+     "prodint-1d.dat" using 1:4 with linespoints lc rgb "green" pt 2 ps 0.5 dashtype 2 title "Prod. int.",\
+     "primes-1d.dat"  using 1:4 with linespoints lc rgb "green" pt 1 ps 0.5 dashtype 4 title "Primes"
+
+set output "1d-gsl-c.pdf"
+set title "Performance as a function of size - GSL, 1D, Complex"
+plot "pow2-1d.dat"    using 1:8 with linespoints lc rgb "green" pt 7 ps 0.5 dashtype 1 title "Powers of 2",\
+     "prodint-1d.dat" using 1:8 with linespoints lc rgb "green" pt 2 ps 0.5 dashtype 2 title "Prod. int.",\
+     "primes-1d.dat"  using 1:8 with linespoints lc rgb "green" pt 1 ps 0.5 dashtype 4 title "Primes"
+
+set output "1d-fftpack-r.pdf"
+set title "Performance as a function of size - FFTPACK, 1D, Real"
+plot "pow2-1d.dat"    using 1:5 with linespoints lc rgb "cyan"  pt 7 ps 0.5 dashtype 1 title "Powers of 2",\
+     "prodint-1d.dat" using 1:5 with linespoints lc rgb "cyan"  pt 2 ps 0.5 dashtype 2 title "Prod. int.",\
+     "primes-1d.dat"  using 1:5 with linespoints lc rgb "cyan"  pt 1 ps 0.5 dashtype 4 title "Primes"
+
+set output "1d-fftpack-c.pdf"
+set title "Performance as a function of size - FFTPACK, 1D, Complex"
+plot "pow2-1d.dat"    using 1:9 with linespoints lc rgb "cyan"  pt 7 ps 0.5 dashtype 1 title "Powers of 2",\
+     "prodint-1d.dat" using 1:9 with linespoints lc rgb "cyan"  pt 2 ps 0.5 dashtype 2 title "Prod. int.",\
+     "primes-1d.dat"  using 1:9 with linespoints lc rgb "cyan"  pt 1 ps 0.5 dashtype 4 title "Primes"
+
+set output "1d-pow2-r.pdf"
+set title "Performance as a function of size - 1D, 2^j, Real"
+plot "pow2-1d.dat"    using 1:2 with linespoints lc rgb "blue"  pt 7 ps 0.5 dashtype 1 title "FFTW ",\
+     "pow2-1d.dat"    using 1:3 with linespoints lc rgb "red"   pt 7 ps 0.5 dashtype 1 title "MKL",\
+     "pow2-1d.dat"    using 1:4 with linespoints lc rgb "green" pt 7 ps 0.5 dashtype 1 title "GSL",\
+     "pow2-1d.dat"    using 1:5 with linespoints lc rgb "cyan"  pt 7 ps 0.5 dashtype 1 title "FFTPACK"
+
+set output "1d-pow2-c.pdf"
+set title "Performance as a function of size - 1D, 2^j, Complex"
+plot "pow2-1d.dat"    using 1:6 with linespoints lc rgb "blue"  pt 7 ps 0.5 dashtype 1 title "FFTW ",\
+     "pow2-1d.dat"    using 1:7 with linespoints lc rgb "red"   pt 7 ps 0.5 dashtype 1 title "MKL",\
+     "pow2-1d.dat"    using 1:8 with linespoints lc rgb "green" pt 7 ps 0.5 dashtype 1 title "GSL",\
+     "pow2-1d.dat"    using 1:9 with linespoints lc rgb "cyan"  pt 7 ps 0.5 dashtype 1 title "FFTPACK"
+
+set output "1d-r.pdf"
+set title "Performance as a function of size - 1D, Real"
+plot "pow2-1d.dat"    using 1:2 with linespoints lc rgb "blue"  pt 7 ps 0.5 dashtype 1 title "FFTW - Powers of 2",\
+     "prodint-1d.dat" using 1:2 with linespoints lc rgb "blue"  pt 2 ps 0.5 dashtype 2 title "FFTW - Prod. int.",\
+     "primes-1d.dat"  using 1:2 with linespoints lc rgb "blue"  pt 1 ps 0.5 dashtype 4 title "FFTW - Primes",\
+     "pow2-1d.dat"    using 1:3 with linespoints lc rgb "red"   pt 7 ps 0.5 dashtype 1 title "MKL - Powers of 2",\
+     "prodint-1d.dat" using 1:3 with linespoints lc rgb "red"   pt 2 ps 0.5 dashtype 2 title "MKL - Prod. int.",\
+     "primes-1d.dat"  using 1:3 with linespoints lc rgb "red"   pt 1 ps 0.5 dashtype 4 title "MKL - Primes",\
+     "pow2-1d.dat"    using 1:4 with linespoints lc rgb "green" pt 7 ps 0.5 dashtype 1 title "GSL - Powers of 2",\
+     "prodint-1d.dat" using 1:4 with linespoints lc rgb "green" pt 2 ps 0.5 dashtype 2 title "GSL - Prod. int.",\
+     "primes-1d.dat"  using 1:4 with linespoints lc rgb "green" pt 1 ps 0.5 dashtype 4 title "GSL - Primes",\
+     "pow2-1d.dat"    using 1:5 with linespoints lc rgb "cyan"  pt 7 ps 0.5 dashtype 1 title "FFTPACK - Powers of 2",\
+     "prodint-1d.dat" using 1:5 with linespoints lc rgb "cyan"  pt 2 ps 0.5 dashtype 2 title "FFTPACK - Prod. int.",\
+     "primes-1d.dat"  using 1:5 with linespoints lc rgb "cyan"  pt 1 ps 0.5 dashtype 4 title "FFTPACK - Primes"
+
+set output "1d-c.pdf
+set title "Performance as a function of size - 1D, Complex
+plot "pow2-1d.dat"    using 1:6 with linespoints lc rgb "blue"  pt 7 ps 0.5 dashtype 1 title "FFTW - Powers of 2",\
+     "prodint-1d.dat" using 1:6 with linespoints lc rgb "blue"  pt 2 ps 0.5 dashtype 2 title "FFTW - Prod. int.",\
+     "primes-1d.dat"  using 1:6 with linespoints lc rgb "blue"  pt 1 ps 0.5 dashtype 4 title "FFTW - Primes",\
+     "pow2-1d.dat"    using 1:7 with linespoints lc rgb "red"   pt 7 ps 0.5 dashtype 1 title "MKL - Powers of 2",\
+     "prodint-1d.dat" using 1:7 with linespoints lc rgb "red"   pt 2 ps 0.5 dashtype 2 title "MKL - Prod. int.",\
+     "primes-1d.dat"  using 1:7 with linespoints lc rgb "red"   pt 1 ps 0.5 dashtype 4 title "MKL - Primes",\
+     "pow2-1d.dat"    using 1:8 with linespoints lc rgb "green" pt 7 ps 0.5 dashtype 1 title "GSL - Powers of 2",\
+     "prodint-1d.dat" using 1:8 with linespoints lc rgb "green" pt 2 ps 0.5 dashtype 2 title "GSL - Prod. int.",\
+     "primes-1d.dat"  using 1:8 with linespoints lc rgb "green" pt 1 ps 0.5 dashtype 4 title "GSL - Primes",\
+     "pow2-1d.dat"    using 1:9 with linespoints lc rgb "cyan"  pt 7 ps 0.5 dashtype 1 title "FFTPACK - Powers of 2",\
+     "prodint-1d.dat" using 1:9 with linespoints lc rgb "cyan"  pt 2 ps 0.5 dashtype 2 title "FFTPACK - Prod. int.",\
+     "primes-1d.dat"  using 1:9 with linespoints lc rgb "cyan"  pt 1 ps 0.5 dashtype 4 title "FFTPACK - Primes"
+
+
+
+
+
+
+set output "2d-fftw-r.pdf"
+set title "Performance as a function of size - FFTW, 2D, Real"
+plot "pow2-2d.dat"    using 1:2 with linespoints lc rgb "blue"  pt 7 ps 0.5 dashtype 1 title "Powers of 2",\
+     "prodint-2d.dat" using 1:2 with linespoints lc rgb "blue"  pt 2 ps 0.5 dashtype 2 title "Prod. int.",\
+     "primes-2d.dat"  using 1:2 with linespoints lc rgb "blue"  pt 1 ps 0.5 dashtype 4 title "Primes"
+
+set output "2d-fftw-c.pdf"
+set title "Performance as a function of size - FFTW, 2D, Complex"
+plot "pow2-2d.dat"    using 1:4 with linespoints lc rgb "blue"  pt 7 ps 0.5 dashtype 1 title "Powers of 2",\
+     "prodint-2d.dat" using 1:4 with linespoints lc rgb "blue"  pt 2 ps 0.5 dashtype 2 title "Prod. int.",\
+     "primes-2d.dat"  using 1:4 with linespoints lc rgb "blue"  pt 1 ps 0.5 dashtype 4 title "Primes"
+
+set output "2d-mkl-r.pdf"
+set title "Performance as a function of size - MKL, 2D, Real"
+plot "pow2-2d.dat"    using 1:3 with linespoints lc rgb "red"   pt 7 ps 0.5 dashtype 1 title "Powers of 2",\
+     "prodint-2d.dat" using 1:3 with linespoints lc rgb "red"   pt 2 ps 0.5 dashtype 2 title "Prod. int.",\
+     "primes-2d.dat"  using 1:3 with linespoints lc rgb "red"   pt 1 ps 0.5 dashtype 4 title "Primes"
+
+set output "2d-mkl-c.pdf"
+set title "Performance as a function of size - MKL, 2D, Complex"
+plot "pow2-2d.dat"    using 1:5 with linespoints lc rgb "red"   pt 7 ps 0.5 dashtype 1 title "Powers of 2",\
+     "prodint-2d.dat" using 1:5 with linespoints lc rgb "red"   pt 2 ps 0.5 dashtype 2 title "Prod. int.",\
+     "primes-2d.dat"  using 1:5 with linespoints lc rgb "red"   pt 1 ps 0.5 dashtype 4 title "Primes"
+
+set output "2d-pow2-r.pdf"
+set title "Performance as a function of size - 2D, 2^j, Real"
+plot "pow2-2d.dat"    using 1:2 with linespoints lc rgb "blue"  pt 7 ps 0.5 dashtype 1 title "FFTW ",\
+     "pow2-2d.dat"    using 1:3 with linespoints lc rgb "red"   pt 7 ps 0.5 dashtype 1 title "MKL"
+
+set output "2d-pow2-c.pdf"
+set title "Performance as a function of size - 2D, 2^j, Complex"
+plot "pow2-1d.dat"    using 1:4 with linespoints lc rgb "blue"  pt 7 ps 0.5 dashtype 1 title "FFTW ",\
+     "pow2-1d.dat"    using 1:5 with linespoints lc rgb "red"   pt 7 ps 0.5 dashtype 1 title "MKL"
+
+set output "2d-r.pdf"
+set title "Performance as a function of size - 2D, Real"
+plot "pow2-2d.dat"    using 1:2 with linespoints lc rgb "blue"  pt 7 ps 0.5 dashtype 1 title "FFTW - Powers of 2",\
+     "prodint-2d.dat" using 1:2 with linespoints lc rgb "blue"  pt 2 ps 0.5 dashtype 2 title "FFTW - Prod. int.",\
+     "primes-2d.dat"  using 1:2 with linespoints lc rgb "blue"  pt 1 ps 0.5 dashtype 4 title "FFTW - Primes",\
+     "pow2-2d.dat"    using 1:3 with linespoints lc rgb "red"   pt 7 ps 0.5 dashtype 1 title "MKL - Powers of 2",\
+     "prodint-2d.dat" using 1:3 with linespoints lc rgb "red"   pt 2 ps 0.5 dashtype 2 title "MKL - Prod. int.",\
+     "primes-2d.dat"  using 1:3 with linespoints lc rgb "red"   pt 1 ps 0.5 dashtype 4 title "MKL - Primes"
+
+set output "2d-c.pdf
+set title "Performance as a function of size - 2D, Complex
+plot "pow2-2d.dat"    using 1:4 with linespoints lc rgb "blue"  pt 7 ps 0.5 dashtype 1 title "FFTW - Powers of 2",\
+     "prodint-2d.dat" using 1:4 with linespoints lc rgb "blue"  pt 2 ps 0.5 dashtype 2 title "FFTW - Prod. int.",\
+     "primes-2d.dat"  using 1:4 with linespoints lc rgb "blue"  pt 1 ps 0.5 dashtype 4 title "FFTW - Primes",\
+     "pow2-2d.dat"    using 1:5 with linespoints lc rgb "red"   pt 7 ps 0.5 dashtype 1 title "MKL - Powers of 2",\
+     "prodint-2d.dat" using 1:5 with linespoints lc rgb "red"   pt 2 ps 0.5 dashtype 2 title "MKL - Prod. int.",\
+     "primes-2d.dat"  using 1:5 with linespoints lc rgb "red"   pt 1 ps 0.5 dashtype 4 title "MKL - Primes"
+    
+
+
+
+
+
+set output "3d-fftw-r.pdf"
+set title "Performance as a function of size - FFTW, 3D, Real"
+plot "pow2-3d.dat"    using 1:2 with linespoints lc rgb "blue"  pt 7 ps 0.5 dashtype 1 title "Powers of 2",\
+     "prodint-3d.dat" using 1:2 with linespoints lc rgb "blue"  pt 2 ps 0.5 dashtype 2 title "Prod. int.",\
+     "primes-3d.dat"  using 1:2 with linespoints lc rgb "blue"  pt 1 ps 0.5 dashtype 4 title "Primes"
+
+set output "3d-fftw-c.pdf"
+set title "Performance as a function of size - FFTW, 3D, Complex"
+plot "pow2-3d.dat"    using 1:4 with linespoints lc rgb "blue"  pt 7 ps 0.5 dashtype 1 title "Powers of 2",\
+     "prodint-3d.dat" using 1:4 with linespoints lc rgb "blue"  pt 2 ps 0.5 dashtype 2 title "Prod. int.",\
+     "primes-3d.dat"  using 1:4 with linespoints lc rgb "blue"  pt 1 ps 0.5 dashtype 4 title "Primes"
+
+set output "3d-mkl-r.pdf"
+set title "Performance as a function of size - MKL, 3D, Real"
+plot "pow2-3d.dat"    using 1:3 with linespoints lc rgb "red"   pt 7 ps 0.5 dashtype 1 title "Powers of 2",\
+     "prodint-3d.dat" using 1:3 with linespoints lc rgb "red"   pt 2 ps 0.5 dashtype 2 title "Prod. int.",\
+     "primes-3d.dat"  using 1:3 with linespoints lc rgb "red"   pt 1 ps 0.5 dashtype 4 title "Primes"
+
+set output "3d-mkl-c.pdf"
+set title "Performance as a function of size - MKL, 3D, Complex"
+plot "pow2-3d.dat"    using 1:5 with linespoints lc rgb "red"   pt 7 ps 0.5 dashtype 1 title "Powers of 2",\
+     "prodint-3d.dat" using 1:5 with linespoints lc rgb "red"   pt 2 ps 0.5 dashtype 2 title "Prod. int.",\
+     "primes-3d.dat"  using 1:5 with linespoints lc rgb "red"   pt 1 ps 0.5 dashtype 4 title "Primes"
+
+set output "3d-pow2-r.pdf"
+set title "Performance as a function of size - 3D, 2^j, Real"
+plot "pow2-3d.dat"    using 1:2 with linespoints lc rgb "blue"  pt 7 ps 0.5 dashtype 1 title "FFTW ",\
+     "pow2-3d.dat"    using 1:3 with linespoints lc rgb "red"   pt 7 ps 0.5 dashtype 1 title "MKL"
+
+set output "3d-pow2-c.pdf"
+set title "Performance as a function of size - 3D, 2^j, Complex"
+plot "pow2-3d.dat"    using 1:4 with linespoints lc rgb "blue"  pt 7 ps 0.5 dashtype 1 title "FFTW ",\
+     "pow2-3d.dat"    using 1:5 with linespoints lc rgb "red"   pt 7 ps 0.5 dashtype 1 title "MKL"
+
+set output "3d-r.pdf"
+set title "Performance as a function of size - 3D, Real"
+plot "pow2-3d.dat"    using 1:2 with linespoints lc rgb "blue"  pt 7 ps 0.5 dashtype 1 title "FFTW - Powers of 2",\
+     "prodint-3d.dat" using 1:2 with linespoints lc rgb "blue"  pt 2 ps 0.5 dashtype 2 title "FFTW - Prod. int.",\
+     "primes-3d.dat"  using 1:2 with linespoints lc rgb "blue"  pt 1 ps 0.5 dashtype 4 title "FFTW - Primes",\
+     "pow2-3d.dat"    using 1:3 with linespoints lc rgb "red"   pt 7 ps 0.5 dashtype 1 title "MKL - Powers of 2",\
+     "prodint-3d.dat" using 1:3 with linespoints lc rgb "red"   pt 2 ps 0.5 dashtype 2 title "MKL - Prod. int.",\
+     "primes-3d.dat"  using 1:3 with linespoints lc rgb "red"   pt 1 ps 0.5 dashtype 4 title "MKL - Primes"
+
+set output "3d-c.pdf
+set title "Performance as a function of size - 3D, Complex"
+plot "pow2-3d.dat"    using 1:4 with linespoints lc rgb "blue"  pt 7 ps 0.5 dashtype 1 title "FFTW - Powers of 2",\
+     "prodint-3d.dat" using 1:4 with linespoints lc rgb "blue"  pt 2 ps 0.5 dashtype 2 title "FFTW - Prod. int.",\
+     "primes-3d.dat"  using 1:4 with linespoints lc rgb "blue"  pt 1 ps 0.5 dashtype 4 title "FFTW - Primes",\
+     "pow2-3d.dat"    using 1:5 with linespoints lc rgb "red"   pt 7 ps 0.5 dashtype 1 title "MKL - Powers of 2",\
+     "prodint-3d.dat" using 1:5 with linespoints lc rgb "red"   pt 2 ps 0.5 dashtype 2 title "MKL - Prod. int.",\
+     "primes-3d.dat"  using 1:5 with linespoints lc rgb "red"   pt 1 ps 0.5 dashtype 4 title "MKL - Primes"
+
+
+
+
+set output "3d-flatness-pow2-r.pdf"
+set title "Performance as a function of flatness - 3D (N_y=N_z), 2^j, Real"
+set xlabel "Flatness (N_y/N_x)"
+plot "flatness.dat" using 1:2 with linespoints lc rgb "blue"  pt 7 ps 0.5 dashtype 1 title "FFTW",\
+     "flatness.dat" using 1:4 with linespoints lc rgb "red"  pt 7 ps 0.5 dashtype 1 title "MKL"
+
+set output "3d-flatness-pow2-c.pdf"
+set title "Performance as a function of flatness - 3D (N_y=N_z), 2^j, Complex"
+set xlabel "Flatness (N_y/N_x)"
+plot "flatness.dat" using 1:6 with linespoints lc rgb "blue"  pt 7 ps 0.5 dashtype 1 title "FFTW",\
+     "flatness.dat" using 1:8 with linespoints lc rgb "red"  pt 7 ps 0.5 dashtype 1 title "MKL"

@@ -42,6 +42,15 @@ FFTPACK {\scriptsize (CASA wrapper)} &  R$\to$H,\ \ \  C$\to$C,\ \ \ \  H$\to$R 
 \caption{Overview of the FFT libraries considered. R stands for real, C, for complex, and HC, for half-complex.}
 \label{ffttable}
 \end{table}
+\section{Benchmark}
+\begin{figure}[H]
+\captionsetup{width=0.6\textwidth}
+\centering
+\includegraphics[height=4cm]{benchmark.pdf}
+\caption{Benchmark}
+\label{benchmark}
+\end{figure}
+
 \section{Performance}
 
 The performance measured for the transform, using FFTW and MKL, with a single thread, of a cube of complex values appears in Fig. \ref{perf3d}. Carrying out the transform in a single dimension allows us to benchmark GSL and FFTPACK\footnote{We have used the C++ wrapper of FFTPACK provided by CASA, the radioastronomy package \cite{casa} since FFTPACK is written in FORTRAN. Using the CASA header files and linking to its libraries is not supported. As a consequence, this was quite difficult to set up on Archer and required to use the libraries provided by an old version of Debian, to match the libraries available on the system.} as well as is illustrated in Fig. \ref{perf1d}.\\
@@ -49,11 +58,298 @@ The performance measured for the transform, using FFTW and MKL, with a single th
 According to our measurements, MKL performs the most efficiently. We have taken measurements for cube sides that are a power of 2, a product of small integers and primes. As expected, the performance is worse with primes than with powers of 2 or products of small integers. We also notice that the performance with primes is significantly worse in the cases of GSL and FFTPACK. We have observed that the flatness of the domain does not affect significantly the performance. For example, a flattened or elongated cuboid will yield a performance close to a cube containing the same number of elements.\\
 
 Finally, we assess how the performance scales with an increasing number of threads. In this case, FFTW scales better but starts from a lower performance (Fig. \ref{perfmt}).
+\subsection{1 dimension}
+\subsubsection{FFTW}
+{\bf Real}
 \begin{figure}[H]
 \captionsetup{width=0.6\textwidth}
 \centering
-\includegraphics[height=8cm]{graphs/performance3dc/performance3dc.pdf}
-\caption{Execution time as a function of the side of a cube of complex values (1 thread). The side of the cube can be a power of 2, a product of small integers or a prime number.}
+\includegraphics[height=8cm]{graphs/performance/1d-fftw-r.pdf}
+\caption{Execution time as a function of the number of points (1 dimension, FFTW, real, 1 thread)}
+\label{1DFFTWR}
+\end{figure}
+{\bf Complex}
+\begin{figure}[H]
+\captionsetup{width=0.6\textwidth}
+\centering
+\includegraphics[height=8cm]{graphs/performance/1d-fftw-c.pdf}
+\caption{Execution time as a function of the number of points (1 dimension, FFTW, complex, 1 thread)}
+\label{1DFFTWC}
+\end{figure}   
+\subsubsection{MKL}
+{\bf Real}
+\begin{figure}[H]
+\captionsetup{width=0.6\textwidth}
+\centering
+\includegraphics[height=8cm]{graphs/performance/1d-mkl-r.pdf}
+\caption{Execution time as a function of the number of points (1 dimension, MKL, real, 1 thread)}
+\label{1DMKLR}
+\end{figure}
+{\bf Complex}
+\begin{figure}[H]
+\captionsetup{width=0.6\textwidth}
+\centering
+\includegraphics[height=8cm]{graphs/performance/1d-mkl-c.pdf}
+\caption{Execution time as a function of the number of points (1 dimension, MKL, complex, 1 thread)}
+\label{1DMKLC}
+\end{figure}   
+\subsubsection{GSL}
+{\bf Real}
+\begin{figure}[H]
+\captionsetup{width=0.6\textwidth}
+\centering
+\includegraphics[height=8cm]{graphs/performance/1d-gsl-r.pdf}
+\caption{Execution time as a function of the number of points (1 dimension, GSL, real, 1 thread)}
+\label{1DGSLR}
+\end{figure}
+{\bf Complex}
+\begin{figure}[H]
+\captionsetup{width=0.6\textwidth}
+\centering
+\includegraphics[height=8cm]{graphs/performance/1d-gsl-c.pdf}
+\caption{Execution time as a function of the number of points (1 dimension, GSL, complex, 1 thread)}
+\label{1DGSLC}
+\end{figure}   
+\subsubsection{FFTPACK}
+{\bf Real}
+\begin{figure}[H]
+\captionsetup{width=0.6\textwidth}
+\centering
+\includegraphics[height=8cm]{graphs/performance/1d-fftpack-r.pdf}
+\caption{Execution time as a function of the number of points (1 dimension, FFTPACK, real, 1 thread)}
+\label{1DFFTPACK}
+\end{figure}
+{\bf Complex}
+\begin{figure}[H]
+\captionsetup{width=0.6\textwidth}
+\centering
+\includegraphics[height=8cm]{graphs/performance/1d-fftpack-c.pdf}
+\caption{Execution time as a function of the number of points (1 dimension, FFTPACK, complex, 1 thread)}
+\label{1DFFTPACKC}
+\end{figure}
+\subsubsection{Comparison (powers of 2)}
+{\bf Real}
+\begin{figure}[H]
+\captionsetup{width=0.6\textwidth}
+\centering
+\includegraphics[height=8cm]{graphs/performance/1d-pow2-r.pdf}
+\caption{Execution time as a function of the number of points (1 dimension, powers of 2, real, 1 thread)}
+\label{1DPOW2R}
+\end{figure}
+{\bf Complex}
+\begin{figure}[H]
+\captionsetup{width=0.6\textwidth}
+\centering
+\includegraphics[height=8cm]{graphs/performance/1d-pow2-c.pdf}
+\caption{Execution time as a function of the number of points (1 dimension, powers of 2, complex, 1 thread)}
+\label{1DPOW2C}
+\end{figure}
+\subsubsection{Comparison}
+{\bf Real}
+\begin{figure}[H]
+\captionsetup{width=0.6\textwidth}
+\centering
+\includegraphics[height=8cm]{graphs/performance/1d-r.pdf}
+\caption{Execution time as a function of the number of points (1 dimension, real, 1 thread)}
+\label{1DR}
+\end{figure}
+{\bf Complex}
+\begin{figure}[H]
+\captionsetup{width=0.6\textwidth}
+\centering
+\includegraphics[height=8cm]{graphs/performance/1d-c.pdf}
+\caption{Execution time as a function of the number of points (1 dimension, complex, 1 thread)}
+\label{1DC}
+\end{figure}
+
+\subsection{2 dimensions}
+\subsubsection{FFTW}
+{\bf Real}
+\begin{figure}[H]
+\captionsetup{width=0.6\textwidth}
+\centering
+\includegraphics[height=8cm]{graphs/performance/2d-fftw-r.pdf}
+\caption{Execution time as a function of the number of square side (2 dimensions, FFTW, real, 1 thread)}
+\label{2DFFTWR}
+\end{figure}
+{\bf Complex}
+\begin{figure}[H]
+\captionsetup{width=0.6\textwidth}
+\centering
+\includegraphics[height=8cm]{graphs/performance/2d-fftw-c.pdf}
+\caption{Execution time as a function of the number of square side (2 dimensions, FFTW, complex, 1 thread)}
+\label{2DFFTWC}
+\end{figure}   
+\subsubsection{MKL}
+{\bf Real}
+\begin{figure}[H]
+\captionsetup{width=0.6\textwidth}
+\centering
+\includegraphics[height=8cm]{graphs/performance/2d-mkl-r.pdf}
+\caption{Execution time as a function of the number of square side (2 dimensions, MKL, real, 1 thread)}
+\label{2DMKLR}
+\end{figure}
+{\bf Complex}
+\begin{figure}[H]
+\captionsetup{width=0.6\textwidth}
+\centering
+\includegraphics[height=8cm]{graphs/performance/2d-mkl-c.pdf}
+\caption{Execution time as a function of the number of square side (2 dimensions, MKL, complex, 1 thread)}
+\label{2DMKLC}
+\end{figure}
+
+\subsubsection{Comparison (powers of 2)}
+{\bf Real}
+\begin{figure}[H]
+\captionsetup{width=0.6\textwidth}
+\centering
+\includegraphics[height=8cm]{graphs/performance/2d-pow2-r.pdf}
+\caption{Execution time as a function of the number of square side (2 dimensions, powers of 2, real, 1 thread)}
+\label{2DPOW2R}
+\end{figure}
+{\bf Complex}
+\begin{figure}[H]
+\captionsetup{width=0.6\textwidth}
+\centering
+\includegraphics[height=8cm]{graphs/performance/2d-pow2-c.pdf}
+\caption{Execution time as a function of the number of square side (2 dimensions, powers of 2, complex, 1 thread)}
+\label{2DPOW2C}
+\end{figure}   
+
+
+\subsubsection{Comparison}
+{\bf Real}
+\begin{figure}[H]
+\captionsetup{width=0.6\textwidth}
+\centering
+\includegraphics[height=8cm]{graphs/performance/2d-r.pdf}
+\caption{Execution time as a function of the number of square side (2 dimensions, real, 1 thread)}
+\label{2DR}
+\end{figure}
+{\bf Complex}
+\begin{figure}[H]
+\captionsetup{width=0.6\textwidth}
+\centering
+\includegraphics[height=8cm]{graphs/performance/2d-c.pdf}
+\caption{Execution time as a function of the number of square side (2 dimensions, complex, 1 thread)}
+\label{2DC}
+\end{figure}   
+
+
+
+
+
+
+
+
+
+
+
+\subsection{3 dimensions}
+\subsubsection{FFTW}
+{\bf Real}
+\begin{figure}[H]
+\captionsetup{width=0.6\textwidth}
+\centering
+\includegraphics[height=8cm]{graphs/performance/3d-fftw-r.pdf}
+\caption{Execution time as a function of the number of cube side (3 dimensions, FFTW, real, 1 thread)}
+\end{figure}
+{\bf Complex}
+\begin{figure}[H]
+\captionsetup{width=0.6\textwidth}
+\centering
+\includegraphics[height=8cm]{graphs/performance/2d-c.pdf}
+\caption{Execution time as a function of square side (2 dimensions, complex, 1 thread)}
+\label{2DC}
+\end{figure}
+{\bf Complex}
+\begin{figure}[H]
+\captionsetup{width=0.6\textwidth}
+\centering
+\includegraphics[height=8cm]{graphs/performance/3d-fftw-c.pdf}
+\caption{Execution time as a function of the number of cube side (3 dimensions, FFTW, complex, 1 thread)}
+\label{3DFFTWC}
+\end{figure}   
+\subsubsection{MKL}
+{\bf Real}
+\begin{figure}[H]
+\captionsetup{width=0.6\textwidth}
+\centering
+\includegraphics[height=8cm]{graphs/performance/3d-mkl-r.pdf}
+\caption{Execution time as a function of the number of cube side (3 dimensions, MKL, real, 1 thread)}
+\label{3DMKLR}
+\end{figure}
+{\bf Complex}
+\begin{figure}[H]
+\captionsetup{width=0.6\textwidth}
+\centering
+\includegraphics[height=8cm]{graphs/performance/3d-mkl-c.pdf}
+\caption{Execution time as a function of the number of cube side (3 dimensions, MKL, complex, 1 thread)}
+\label{3DMKLC}
+\end{figure}
+
+
+\subsubsection{Comparison (powers of 2)}
+{\bf Real}
+\begin{figure}[H]
+\captionsetup{width=0.6\textwidth}
+\centering
+\includegraphics[height=8cm]{graphs/performance/3d-pow2-r.pdf}
+\caption{Execution time as a function of the number of cube side (3 dimensions, powers of 2, real, 1 thread)}
+\label{3DPOW2R}
+\end{figure}
+{\bf Complex}
+\begin{figure}[H]
+\captionsetup{width=0.6\textwidth}
+\centering
+\includegraphics[height=8cm]{graphs/performance/3d-pow2-c.pdf}
+\caption{Execution time as a function of the number of cube side (3 dimensions, powers of 2, complex, 1 thread)}
+\label{3DPOW2C}
+\end{figure}   
+
+
+\subsubsection{Comparison}
+{\bf Real}
+\begin{figure}[H]
+\captionsetup{width=0.6\textwidth}
+\centering
+\includegraphics[height=8cm]{graphs/performance/3d-r.pdf}
+\caption{Execution time as a function of the number of cube side (3 dimensions, real, 1 thread)}
+\label{3DR}
+\end{figure}
+{\bf Complex}
+\begin{figure}[H]
+\captionsetup{width=0.6\textwidth}
+\centering
+\includegraphics[height=8cm]{graphs/performance/3d-c.pdf}
+\caption{Execution time as a function of the number of cube side (3 dimensions, complex, 1 thread)}
+\label{3DC}
+\end{figure}   
+  
+
+
+\subsection{Flatness}
+{\bf Real}
+\begin{figure}[H]
+\captionsetup{width=0.6\textwidth}
+\centering
+\includegraphics[height=8cm]{graphs/performance/3d-flatness-pow2-r.pdf}
+\caption{Execution time as a function of the flatness ($N_y/N_x$) for $N_y=N_z$ of the domain  (3 dimensions, powers of 2, real, 1 thread)}
+\label{FLATNESSR}
+\end{figure}   
+{\bf Complex}
+\begin{figure}[H]
+\captionsetup{width=0.6\textwidth}
+\centering
+\includegraphics[height=8cm]{graphs/performance/3d-flatness-pow2-c.pdf}
+\caption{Execution time as a function of the flatness ($N_y/N_x$) for $N_y=N_z$ of the domain  (3 dimensions, powers of 2, complex, 1 thread)}
+\label{FLATNESSC}
+\end{figure}   
+\begin{figure}[H]
+\captionsetup{width=0.6\textwidth}
+\centering
+\includegraphics[height=8cm]{graphs/performance/1d-fftw-r.pdf}
+\caption{Execution time as a function of the side of the number of points.}
 \label{perf3d}
 \end{figure}
 
@@ -64,14 +360,6 @@ Finally, we assess how the performance scales with an increasing number of threa
 \caption{Execution time as a function of the number of points, in one dimension and with real values (1 thread). The number of points can be a power of 2, a product of small integers or a prime number.}
 \label{perf1d}
 \end{figure}
-
-\begin{figure}[H]
-\captionsetup{width=0.6\textwidth}
-\centering
-\includegraphics[height=8cm]{graphs/multithreading/multithreading.pdf}
-\caption{Effect of the multithreading of the performance for a cube of $512^3$ complex values.}
-\label{perfmt}
-\end{figure}  
 
 \begin{figure}[H]
 \captionsetup{width=0.6\textwidth}
