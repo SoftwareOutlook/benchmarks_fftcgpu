@@ -1,4 +1,5 @@
 import sys
+import math 
 
 if len(sys.argv)<=1:
   exit()
@@ -28,13 +29,15 @@ parameters_list_unique=sorted(set(parameters_list))
 
 data={}
 averages={}
+sigma={}
 for key in keys_list_unique:
   data[key]={}
   averages[key]={}
+  sigma[key]={}
   for parameter in parameters_list_unique:
     data[key][parameter]=[];
     averages[key][parameter]=0
-
+    sigma[key][parameter]=0
 for line in lines:
   if len(line)<1:
     continue
@@ -49,7 +52,6 @@ for line in lines:
 for key in data:
   for parameter in data[key]:
     n=0
-    print key + " " + str(parameter)
     for result in data[key][parameter]:
       n=n+1
       averages[key][parameter]=averages[key][parameter]+result
@@ -57,14 +59,26 @@ for key in data:
       averages[key][parameter]=averages[key][parameter]/n
     else:
       averages[key][parameter]=0
+
+for key in data:
+  for parameter in data[key]:
+    n=0
+    for result in data[key][parameter]:
+      n=n+1
+      sigma[key][parameter]=sigma[key][parameter]+(result-averages[key][parameter])**2
+    if n>1:     
+      sigma[key][parameter]=math.sqrt(sigma[key][parameter]/(n-1))
+    else:
+      sigma[key][parameter]=0
+
 print '# N',
 for key in keys_list_unique:
-  print key,
+  print key+'_AVG '+key+'_STD',
 print ''
 
 for parameter in parameters_list_unique:
   print parameter, 
   for key in keys_list_unique:
-     print averages[key][parameter],    
+     print str(averages[key][parameter])+' '+str(sigma[key][parameter]),   
   print ''
 
