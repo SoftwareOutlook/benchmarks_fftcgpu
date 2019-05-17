@@ -2,242 +2,442 @@
 
 export OMP_PROC_BIND=spread
 
-PROG=/home/pgambron/GPU/cuda/test
-#PROG=/home/pgambron/GPU/kokkos/test
-#PROG=/home/pgambron/GPU/opencl/test
-#PROG=/home/pgambron/GPU/openacc/test
-#PROG=/home/pgambron/GPU/openmp/test
+N_RUNS=10
 
-echo "===================================="
-echo $PROG
-echo
+PROGRAMS=(/home/pgambron/GPU/cuda/test /home/pgambron/GPU/opencl/test /home/pgambron/GPU/openacc/test)
+PROGRAMSPROD=(/home/pgambron/GPU/kokkos/test /home/pgambron/GPU/openmp/test)
 
+POWERS2_3D=(32 64 128 256 512)
+PRODUCT_INTEGERS_3D=(30 70 105 210 420)
+PRIMES_3D=(31 61 127 257 509)  
 
-# 3D
+POWERS2_2D=(512 1024 2048 4096 8192)
+PRODUCT_INTEGERS_2D=(504 1029 2058 4116 8232)
+PRIMES_2D=(509 1021 2027 4049 8123)  
 
-# CCP PET/MR
-# N ~ 256, N_COILS ~ 32
+POWERS2_1D=(256 1024 4096 16384 65536 262144 1048576 4194304 16777216 67108864) 
+PRODUCT_INTEGERS_1D=(210 1260 4410 15750 66150 257250 1080450 4321800 15435000 64827000)
+PRIMES_1D=(257 1021 4093 16381 65521 262139 1048573 4194301 16777213 67108859)
 
-# power of 2
-$PROG 256 256 256 32 
+echo "PRODUCT"
+echo "======="
+echo ""
 
-# product of small primes 2*3*5*7=210
-$PROG 210 210 210 32
-# product of small primes 2**2*3**2*7
-$PROG 252 252 252 32 
-# prime numbers 257 
-$PROG 257 257 257 32 
+N_COILS=1
 
-
-
-# Regular tests
-# powers of 2
-# square
-$PROG 32 32 32 1 
-$PROG 64 64 64 1 
-$PROG 128 128 128 1 
-$PROG 256 256 256 1 
-$PROG 512 512 512 1   
-
-#flattened
-# ratio 16
-$PROG 32768 8 8 1 
-$PROG 65536 16 16 1 
-$PROG 131072 32 32 1   
-
-
-#product of small integers
-#2^i*3^j*5^k*7*l
-#1 1 1 1   210
-#2 1 1 1   420
-#2 2 1 1   1260
-#2 1 2 1   2100
-#1 2 1 2   4410
-#2 2 1 2   8820
-#1 2 3 1   15750
-#2 2 3 1   31500
-
-#square
-$PROG 30 30 30 1
-$PROG 70 70 70 1
-$PROG 105 105 105 1
-$PROG 210 210 210 1 
-$PROG 420 420 420 1 
-
-#flattened
-#ratio 2*5=14
-$PROG 41160 15 15 1 
-$PROG 82320 30 30 1 
+for PROG in ${PROGRAMSPROD[@]}
+do
+  echo "===================================="
+  echo "===================================="
+  echo "===================================="
+  echo $PROG 
+  echo "===="
+  for N in ${POWERS2_1D[@]}
+  do
+    echo "===================================="
+    echo "===================================="
+    for ((I_RUN=0; I_RUN<${N_RUNS}; I_RUN++))
+    do
+	echo "===================================="
+	$PROG $N $N_COILS
+    done
+  done	
+done
 
 
-# primes
-# 11 13 127 257 509 1021 2053 4093 8191 16381 32771
-# square
+echo "FFT - POW 2 - 1D"
+echo "================"
+echo ""
 
-$PROG 31 31 31 1
-$PROG 61 61 61 1
-$PROG 127 127 127 1 
-$PROG 257 257 257 1 
-$PROG 509 509 509 1   
+N_COILS=1
 
-# flattened
-$PROG 32771 7 7 1 
-$PROG 65537 17 17 1 
-$PROG 131071 31 31 1 
-
-
-
-# 2D
-
-# CCP PET/MR
-# N ~ 256, N_COILS ~ 32
-
-# power of 2
-$PROG 256 256 1 32  
-
-# product of small primes 2*3*5*7=210
-$PROG 210 210 1 32  
-
-# prime numbers 257 
-$PROG 257 257 1 32  
+for PROG in ${PROGRAMS[@]}
+do
+  echo "===================================="
+  echo "===================================="
+  echo "===================================="
+  echo $PROG 
+  echo "===="
+  for N in ${POWERS2_1D[@]}
+  do
+    echo "===================================="
+    echo "===================================="
+    for ((I_RUN=0; I_RUN<${N_RUNS}; I_RUN++))
+    do
+	echo "===================================="
+	$PROG $N 1 1 $N_COILS
+    done
+  done	
+done
 
 
+echo "FFT - PROD INT - 1D"
+echo "==================="
+echo ""
 
-# Regular tests
-# powers of 2
-# square
-$PROG 128 128 1 1 
-$PROG 256 256 1 1 
-$PROG 512 512 1 1   
-$PROG 1024 1024 1   
-$PROG 2048 2048 1 1  
-$PROG 4096 4096 1 1  
-$PROG 8192 8192 1 1  
+N_COILS=1
 
-
-#flattened
-# ratio 64*64=4096
-$PROG 32768 8 1 1 
-$PROG 65536 16 1 1 
-$PROG 131072 32 1 1  
-$PROG 262144 64 1 1  
-$PROG 524288 128 1 1  
-
-#product of small integers
-#2^i*3^j*5^k*7*l
-#1 1 1 1   210
-#2 1 1 1   420
-#2 2 1 1   1260
-#2 1 2 1   2100
-#1 2 1 2   4410
-#2 2 1 2   8820
-#1 2 3 1   15750
-#2 2 3 1   31500
-
-#square
-$PROG 210 210 1 1 
-$PROG 420 420 1 1 
-$PROG 1260 1260 1 1 
-$PROG 4410 4410 1 1 
-$PROG 8820 8820 1 1 
-
-#flattened
-#ratio 3*5*5*7*7=3675
-$PROG 55125 15 1 1 
-$PROG 110250 30 1 1 
-$PROG 220500 60 1 1 
-$PROG 441000 120 1 1 
+for PROG in ${PROGRAMS[@]}
+do
+  echo "===================================="
+  echo "===================================="
+  echo "===================================="
+  echo $PROG 
+  echo "===="
+  for N in ${PRODUCT_INTEGERS_1D[@]}
+  do
+    echo "===================================="
+    echo "===================================="
+    for ((I_RUN=0; I_RUN<${N_RUNS}; I_RUN++))
+    do
+	echo "===================================="
+	$PROG $N 1 1 $N_COILS
+    done
+  done	
+done
 
 
-# primes
-# 11 13 127 257 509 1021 2053 4093 8191 16381 32771
-# square
-$PROG 127 127 1 1 
-$PROG 257 257 1 1 
-$PROG 509 509 1 1 
-$PROG 1021 1021 1 1 
-$PROG 2053 2053 1 1 
-$PROG 4093 4093 1 1 
-$PROG 8191 8191 1 1 
+echo "FFT - PROD INT - 1D"
+echo "==================="
+echo ""
 
+N_COILS=1
 
-# flattened
-$PROG 65563 17 1 1 
-$PROG 131071 31 1 1 
-$PROG 262147 61 1 1 
-$PROG 524287 127 1 1 
+for PROG in ${PROGRAMS[@]}
+do
+  echo "===================================="
+  echo "===================================="
+  echo "===================================="
+  echo $PROG 
+  echo "===="
+  for N in ${PRIMES_1D[@]}
+  do
+    echo "===================================="
+    echo "===================================="
+    for ((I_RUN=0; I_RUN<${N_RUNS}; I_RUN++))
+    do
+	echo "===================================="
+	$PROG $N 1 1 $N_COILS
+    done
+  done	
+done
 
 
 
+echo "FFT - POW 2 - 2D"
+echo "================"
+echo ""
+
+N_COILS=1
+
+for PROG in ${PROGRAMS[@]}
+do
+  echo "===================================="
+  echo "===================================="
+  echo "===================================="
+  echo $PROG 
+  echo "===="
+  for N in ${POWERS2_2D[@]}
+  do
+    echo "===================================="
+    echo "===================================="
+    for ((I_RUN=0; I_RUN<${N_RUNS}; I_RUN++))
+    do
+	echo "===================================="
+	$PROG $N $N 1 $N_COILS
+    done
+  done	
+done
+
+
+echo "FFT - PROD INT - 2D"
+echo "==================="
+echo ""
+
+N_COILS=1
+
+for PROG in ${PROGRAMS[@]}
+do
+  echo "===================================="
+  echo "===================================="
+  echo "===================================="
+  echo $PROG 
+  echo "===="
+  for N in ${PRODUCT_INTEGERS_2D[@]}
+  do
+    echo "===================================="
+    echo "===================================="
+    for ((I_RUN=0; I_RUN<${N_RUNS}; I_RUN++))
+    do
+	echo "===================================="
+	$PROG $N $N 1 $N_COILS
+    done
+  done	
+done
+
+
+echo "FFT - PRIMES 2D"
+echo "==================="
+echo ""
+
+N_COILS=1
+
+for PROG in ${PROGRAMS[@]}
+do
+  echo "===================================="
+  echo "===================================="
+  echo "===================================="
+  echo $PROG 
+  echo "===="
+  for N in ${PRIMES_2D[@]}
+  do
+    echo "===================================="
+    echo "===================================="
+    for ((I_RUN=0; I_RUN<${N_RUNS}; I_RUN++))
+    do
+	echo "===================================="
+	$PROG $N $N 1 $N_COILS
+    done
+  done	
+done
 
 
 
+echo "FFT - POW 2 - 3D"
+echo "================"
+echo ""
+
+N_COILS=1
+
+for PROG in ${PROGRAMS[@]}
+do
+  echo "===================================="
+  echo "===================================="
+  echo "===================================="
+  echo $PROG 
+  echo "===="
+  for N in ${POWERS2_3D[@]}
+  do
+    echo "===================================="
+    echo "===================================="
+    for ((I_RUN=0; I_RUN<${N_RUNS}; I_RUN++))
+    do
+	echo "===================================="
+	$PROG $N $N $N $N_COILS
+    done
+  done	
+done
 
 
-# 1D
+echo "FFT - PROD INT - 3D"
+echo "==================="
+echo ""
 
-# CCP PET/MR
-# N ~ 256, N_COILS ~ 32
+N_COILS=1
 
-# power of 2
-$PROG 256 1 1 32  
-
-# product of small primes 2*3*5*7=210
-$PROG 210 1 1 32  
-
-# prime numbers 257 
-$PROG 257 1 1 32  
-
-
-
-# Regular tests
-# powers of 2
-# square
-$PROG 256 1 1 1 
-$PROG 1024 1 1 1   
-$PROG 4096 1 1 1   
-$PROG 16384 1 1 1   
-$PROG 65536 1 1 1   
-$PROG 262144 1 1 1   
-$PROG 1048576 1 1 1  
-$PROG 4194304 1 1 1  
-$PROG 16777216 1 1 1  
-$PROG 67108864 1 1 1  
+for PROG in ${PROGRAMS[@]}
+do
+  echo "===================================="
+  echo "===================================="
+  echo "===================================="
+  echo $PROG 
+  echo "===="
+  for N in ${PRODUCT_INTEGERS_3D[@]}
+  do
+    echo "===================================="
+    echo "===================================="
+    for ((I_RUN=0; I_RUN<${N_RUNS}; I_RUN++))
+    do
+	echo "===================================="
+	$PROG $N $N $N $N_COILS
+    done
+  done	
+done
 
 
-#product of small integers
-#2^i*3^j*5^k*7*l
-#1 1 1 1   210
-#2 1 1 1   420
-#2 2 1 1   1260
-#2 1 2 1   2100
-#1 2 1 2   4410
-#2 2 1 2   8820
-#1 2 3 1   15750
-#2 2 3 1   31500
+echo "FFT - PRIMES 3D"
+echo "==============="
+echo ""
+
+N_COILS=1
+
+for PROG in ${PROGRAMS[@]}
+do
+  echo "===================================="
+  echo "===================================="
+  echo "===================================="
+  echo $PROG 
+  echo "===="
+  for N in ${PRIMES_3D[@]}
+  do
+    echo "===================================="
+    echo "===================================="
+    for ((I_RUN=0; I_RUN<${N_RUNS}; I_RUN++))
+    do
+	echo "===================================="
+	$PROG $N $N $N $N_COILS
+    done
+  done	
+done
 
 
-$PROG 210 1 1 1 
-$PROG 1260 1 1 1 
-$PROG 4410 1 1 1 
-$PROG 15750 1 1 1 
-$PROG 66150 1 1 1 
-$PROG 257250 1 1 1 
-$PROG 1080450 1 1 1 
-$PROG 4321800 1 1 1 
-$PROG 15435000 1 1 1 
-$PROG 64827000 1 1 1 
+echo "CCP PETMR"
+echo "========="
+echo ""
+CCPPETMR=(252 256 257)
+N_COILS=32
+for PROG in ${PROGRAMS[@]}
+do
+  echo "===================================="
+  echo "===================================="
+  echo "===================================="
+  echo $PROG 
+  echo "===="
+  for N in ${CCPPETMR[@]}
+  do
+    echo "===================================="
+    echo "===================================="
+    for ((I_RUN=0; I_RUN<${N_RUNS}; I_RUN++))
+    do
+	echo "===================================="
+	$PROG $N $N 1 $N_COILS
+    done
+  done	
+done
 
 
-#primes
-$PROG 257 1 1 1
-$PROG 1021 1 1 1 
-$PROG 4093 1 1 1 
-$PROG 16381 1 1 1 
-$PROG 65521 1 1 1 
-$PROG 262139 1 1 1 
-$PROG 1048573 1 1 1 
-$PROG 4194301 1 1 1 
-$PROG 16777213 1 1 1 
-$PROG 67108859 1 1 1 
 
+echo "FLATNESS"
+echo "========"
+echo ""
+N_COILS=1
+
+NX=512 
+NY=512
+NZ=512
+for PROG in ${PROGRAMS[@]}
+do
+   echo "================" 
+   for ((I_RUN=0; I_RUN<$N_RUNS; I_RUN++))
+   do
+     echo "----------------"
+     aprun -n 1 -N 1 -d 24 $PROG $NX $NY $NZ $N_COILS
+   done
+done
+
+NX=256
+NY=256
+NZ=2048
+for PROG in ${PROGRAMS[@]}
+do
+  echo "================"  
+  for ((I_RUN=0; I_RUN<$N_RUNS; I_RUN++))
+  do
+    echo "----------------" 
+    aprun -n 1 -N 1 -d 24 $PROG $NX $NY $NZ $N_COILS
+  done
+done
+
+NX=128
+NY=128
+NZ=8192
+for PROG in ${PROGRAMS[@]}
+do
+  echo "================"
+  for ((I_RUN=0; I_RUN<$N_RUNS; I_RUN++))
+  do
+    echo "----------------"
+    aprun -n 1 -N 1 -d 24 $PROG $NX $NY $NZ $N_COILS 
+  done
+done
+
+NX=64
+NY=64
+NZ=32768
+for PROG in ${PROGRAMS[@]}
+do
+  echo "================" 
+  for ((I_RUN=0; I_RUN<$N_RUNS; I_RUN++))
+  do
+    echo "----------------"
+    aprun -n 1 -N 1 -d 24 $PROG $NX $NY $NZ $N_COILS 
+  done
+done
+
+NX=32
+NY=32
+NZ=131072
+for PROG in ${PROGRAMS[@]}
+do
+  echo "================"  
+  for ((I_RUN=0; I_RUN<$N_RUNS; I_RUN++))
+  do
+    echo "----------------" 
+    aprun -n 1 -N 1 -d 24 $PROG $NX $NY $NZ $N_COILS 
+  done
+done
+
+NX=16
+NY=16
+NZ=524288
+for PROG in ${PROGRAMS[@]}
+do
+  echo "================"  
+  for ((I_RUN=0; I_RUN<$N_RUNS; I_RUN++))
+  do
+    echo "----------------"
+    aprun -n 1 -N 1 -d 24 $PROG $NX $NY $NZ $N_COILS 
+  done
+done
+
+NX=8
+NY=8
+NZ=2097152
+for PROG in ${PROGRAMS[@]}
+do
+  echo "================" >> $FILE 
+  for ((I_RUN=0; I_RUN<$N_RUNS; I_RUN++))
+  do
+    echo "----------------"
+    aprun -n 1 -N 1 -d 24 $PROG $NX $NY $NZ $N_COILS 
+  done
+done
+
+NX=4
+NY=4
+NZ=8388608
+for PROG in ${PROGRAMS[@]}
+do
+  echo "================"  
+  for ((I_RUN=0; I_RUN<$N_RUNS; I_RUN++))
+  do
+    echo "----------------" 
+    aprun -n 1 -N 1 -d 24 $PROG $NX $NY $NZ $N_COILS 
+  done
+done
+
+NX=2
+NY=2
+NZ=33554432
+for PROG in ${PROGRAMS[@]}
+do
+  echo "================"  
+  for ((I_RUN=0; I_RUN<$N_RUNS; I_RUN++))
+  do
+    echo "----------------"
+    aprun -n 1 -N 1 -d 24 $PROG $NX $NY $NZ $N_COILS 
+  done
+done
+
+NX=1
+NY=1
+NZ=134217728
+for PROG in ${PROGRAMS[@]}
+do
+  echo "================" 
+  for ((I_RUN=0; I_RUN<$N_RUNS; I_RUN++))
+  do
+    echo "----------------"
+    aprun -n 1 -N 1 -d 24 $PROG $NX $NY $NZ $N_COILS 
+  done
+done
