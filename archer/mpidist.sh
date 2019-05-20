@@ -6,7 +6,7 @@
 #
 # bolt is written by EPCC (http://www.epcc.ed.ac.uk)
 #
-#PBS -l select=1
+#PBS -l select=8
 #PBS -N benchmark-FFT
 #PBS -A c01-hec
 #PBS -l walltime=16:0:0
