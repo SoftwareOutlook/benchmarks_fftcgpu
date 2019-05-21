@@ -14,7 +14,6 @@
 # Switch to current working directory
 cd $PBS_O_WORKDIR
 
-
 export PMI_NO_FORK=1
 export KMP_AFFINITY=disabled
 source ${DATA}/FFTC/init-archer.sh
@@ -37,17 +36,19 @@ POWERS2_1D=(256 1024 4096 16384 65536 262144 1048576 4194304 16777216 67108864)
 PRODUCT_INTEGERS_1D=(210 1260 4410 15750 66150 257250 1080450 4321800 15435000 64827000)
 PRIMES_1D=(257 1021 4093 16381 65521 262139 1048573 4194301 16777213 67108859)
 
-export OMP_NUM_THREADS=1
 
-FILE=results/primes-3d.txt
+
+MPI=(1 2 4 8 16 24)
+N=256
+FILE=results/mpi-local.txt
 echo "" > $FILE
-for N in ${PRIMES_3D[@]}
+export OMP_NUM_THREADS=1
+for N_PROCESSES in ${MPI[@]}
 do
-  echo "================" >> $FILE 
+  echo "================" >> $FILE    
   for ((I_RUN=0; I_RUN<$N_RUNS; I_RUN++))
   do
     echo "----------------" >> $FILE
-    aprun -n 1 -N 1 -d 24 $PROG $N $N $N $N_COILS >> $FILE
+    aprun -n $N_PROCESSES -N $N_PROCESSES -d 1 $PROG $N $N $N $N_COILS >> $FILE
   done
 done
-
