@@ -14,8 +14,7 @@
 # Switch to current working directory
 cd $PBS_O_WORKDIR
 
-
-
+export PMI_NO_FORK=1
 export KMP_AFFINITY=disabled
 source ${DATA}/FFTC/init-archer.sh
 PROG=${DATA}/FFTC/test
