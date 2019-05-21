@@ -64,6 +64,17 @@ do
   aprun -n $N_PROCESSES -N $N_PROCESSES -d $N_THREADS $PROG $N $N $N $N_COILS >> $FILE
 done
 
+N_PROCESSES=3
+N_THREADS=8
+echo "================" >> $FILE   
+export OMP_NUM_THREADS=$N_THREADS 
+for ((I_RUN=0; I_RUN<$N_RUNS; I_RUN++))
+do
+  echo "----------------" >> $FILE
+  aprun -n $N_PROCESSES -N $N_PROCESSES -d $N_THREADS $PROG $N $N $N $N_COILS >> $FILE
+done
+
+
 N_PROCESSES=4
 N_THREADS=6
 echo "================" >> $FILE   
