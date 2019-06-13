@@ -1,0 +1,10224 @@
+====================================
+====================================
+====================================
+/home/pgambron/GPU/opencl/test
+====
+====================================
+====================================
+====================================
+Dimensions: 256 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.000220373 s
+@ PRODUCT1DROPENCL 256 0.000220373
+
+      OpenCL (4 queues)
+        Time:  0.000307925 s
+@ PRODUCT1DROPENCLQUEUES 256 0.000307925
+
+    FFT
+      clFFT
+        Direct
+          Time:  6.5785e-05 s
+@ FFT1DROPENCL 256 6.5785e-05
+        Inverse
+          Time:  6.3958e-05 s
+        Error: 98.087
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.0002191 s
+@ PRODUCT1DCOPENCL 256 0.0002191
+
+      OpenCL (4 queues)
+        Time:  0.000378126 s
+@ PRODUCT1DCOPENCLQUEUES 256 0.000378126
+
+    FFT
+      OpenCL
+        Direct
+          Time:  6.6396e-05 s
+@ FFT1DCOPENCL 256 6.6396e-05
+        Inverse
+          Time:  6.5846e-05 s
+        Error: 135.234
+
+
+Dimensions: 256 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  7.2521e-05 s
+@ FFT2DROPENCL 256 7.2521e-05
+        Inverse
+          Time:  6.7516e-05 s
+        Error: 98.087
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00024601 s
+
+      OpenCL (4 queues)
+        Time:  0.000408489 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  6.6472e-05 s
+@ FFT2DCOPENCL 256 6.6472e-05
+        Inverse
+          Time:  6.734e-05 s
+        Error: 135.234
+
+
+Dimensions: 256 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  7.8666e-05 s
+@ FFT3DROPENCL 256 7.8666e-05
+        Inverse
+          Time:  7.8856e-05 s
+        Error: 98.087
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  6.7825e-05 s
+@ FFT3DCOPENCL 256 6.7825e-05
+        Inverse
+          Time:  6.864e-05 s
+        Error: 135.234
+
+
+====================================
+Dimensions: 256 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.000215026 s
+@ PRODUCT1DROPENCL 256 0.000215026
+
+      OpenCL (4 queues)
+        Time:  0.00030574 s
+@ PRODUCT1DROPENCLQUEUES 256 0.00030574
+
+    FFT
+      clFFT
+        Direct
+          Time:  6.6955e-05 s
+@ FFT1DROPENCL 256 6.6955e-05
+        Inverse
+          Time:  6.5303e-05 s
+        Error: 98.087
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000227582 s
+@ PRODUCT1DCOPENCL 256 0.000227582
+
+      OpenCL (4 queues)
+        Time:  0.00039232 s
+@ PRODUCT1DCOPENCLQUEUES 256 0.00039232
+
+    FFT
+      OpenCL
+        Direct
+          Time:  6.6606e-05 s
+@ FFT1DCOPENCL 256 6.6606e-05
+        Inverse
+          Time:  6.5217e-05 s
+        Error: 135.234
+
+
+Dimensions: 256 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  7.1354e-05 s
+@ FFT2DROPENCL 256 7.1354e-05
+        Inverse
+          Time:  7.1896e-05 s
+        Error: 98.087
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000227878 s
+
+      OpenCL (4 queues)
+        Time:  0.000397315 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  6.872e-05 s
+@ FFT2DCOPENCL 256 6.872e-05
+        Inverse
+          Time:  6.8189e-05 s
+        Error: 135.234
+
+
+Dimensions: 256 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  7.9871e-05 s
+@ FFT3DROPENCL 256 7.9871e-05
+        Inverse
+          Time:  8.0472e-05 s
+        Error: 98.087
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  6.7821e-05 s
+@ FFT3DCOPENCL 256 6.7821e-05
+        Inverse
+          Time:  7.0348e-05 s
+        Error: 135.234
+
+
+====================================
+Dimensions: 256 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.000220736 s
+@ PRODUCT1DROPENCL 256 0.000220736
+
+      OpenCL (4 queues)
+        Time:  0.000699629 s
+@ PRODUCT1DROPENCLQUEUES 256 0.000699629
+
+    FFT
+      clFFT
+        Direct
+          Time:  6.7915e-05 s
+@ FFT1DROPENCL 256 6.7915e-05
+        Inverse
+          Time:  6.4351e-05 s
+        Error: 98.087
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000222684 s
+@ PRODUCT1DCOPENCL 256 0.000222684
+
+      OpenCL (4 queues)
+        Time:  0.000373286 s
+@ PRODUCT1DCOPENCLQUEUES 256 0.000373286
+
+    FFT
+      OpenCL
+        Direct
+          Time:  6.9139e-05 s
+@ FFT1DCOPENCL 256 6.9139e-05
+        Inverse
+          Time:  6.6102e-05 s
+        Error: 135.234
+
+
+Dimensions: 256 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  6.9896e-05 s
+@ FFT2DROPENCL 256 6.9896e-05
+        Inverse
+          Time:  7.0156e-05 s
+        Error: 98.087
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000227276 s
+
+      OpenCL (4 queues)
+        Time:  0.000389773 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  7.0333e-05 s
+@ FFT2DCOPENCL 256 7.0333e-05
+        Inverse
+          Time:  6.7295e-05 s
+        Error: 135.234
+
+
+Dimensions: 256 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  8.3351e-05 s
+@ FFT3DROPENCL 256 8.3351e-05
+        Inverse
+          Time:  8.14e-05 s
+        Error: 98.087
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  6.8665e-05 s
+@ FFT3DCOPENCL 256 6.8665e-05
+        Inverse
+          Time:  6.7351e-05 s
+        Error: 135.234
+
+
+====================================
+Dimensions: 256 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.000210515 s
+@ PRODUCT1DROPENCL 256 0.000210515
+
+      OpenCL (4 queues)
+        Time:  0.00033048 s
+@ PRODUCT1DROPENCLQUEUES 256 0.00033048
+
+    FFT
+      clFFT
+        Direct
+          Time:  6.8328e-05 s
+@ FFT1DROPENCL 256 6.8328e-05
+        Inverse
+          Time:  6.3527e-05 s
+        Error: 98.087
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000216922 s
+@ PRODUCT1DCOPENCL 256 0.000216922
+
+      OpenCL (4 queues)
+        Time:  0.000369499 s
+@ PRODUCT1DCOPENCLQUEUES 256 0.000369499
+
+    FFT
+      OpenCL
+        Direct
+          Time:  6.421e-05 s
+@ FFT1DCOPENCL 256 6.421e-05
+        Inverse
+          Time:  6.5224e-05 s
+        Error: 135.234
+
+
+Dimensions: 256 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  7.1572e-05 s
+@ FFT2DROPENCL 256 7.1572e-05
+        Inverse
+          Time:  6.8325e-05 s
+        Error: 98.087
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000221795 s
+
+      OpenCL (4 queues)
+        Time:  0.000405201 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  8.3811e-05 s
+@ FFT2DCOPENCL 256 8.3811e-05
+        Inverse
+          Time:  7.6021e-05 s
+        Error: 135.234
+
+
+Dimensions: 256 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  7.9828e-05 s
+@ FFT3DROPENCL 256 7.9828e-05
+        Inverse
+          Time:  7.8387e-05 s
+        Error: 98.087
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  6.9169e-05 s
+@ FFT3DCOPENCL 256 6.9169e-05
+        Inverse
+          Time:  6.8599e-05 s
+        Error: 135.234
+
+
+====================================
+Dimensions: 256 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.000205063 s
+@ PRODUCT1DROPENCL 256 0.000205063
+
+      OpenCL (4 queues)
+        Time:  0.000315696 s
+@ PRODUCT1DROPENCLQUEUES 256 0.000315696
+
+    FFT
+      clFFT
+        Direct
+          Time:  6.7e-05 s
+@ FFT1DROPENCL 256 6.7e-05
+        Inverse
+          Time:  6.4841e-05 s
+        Error: 98.087
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000219315 s
+@ PRODUCT1DCOPENCL 256 0.000219315
+
+      OpenCL (4 queues)
+        Time:  0.000800601 s
+@ PRODUCT1DCOPENCLQUEUES 256 0.000800601
+
+    FFT
+      OpenCL
+        Direct
+          Time:  6.3333e-05 s
+@ FFT1DCOPENCL 256 6.3333e-05
+        Inverse
+          Time:  6.7955e-05 s
+        Error: 135.234
+
+
+Dimensions: 256 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  7.1505e-05 s
+@ FFT2DROPENCL 256 7.1505e-05
+        Inverse
+          Time:  7.0055e-05 s
+        Error: 98.087
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000228137 s
+
+      OpenCL (4 queues)
+        Time:  0.000398093 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  6.48e-05 s
+@ FFT2DCOPENCL 256 6.48e-05
+        Inverse
+          Time:  6.7777e-05 s
+        Error: 135.234
+
+
+Dimensions: 256 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  8.0542e-05 s
+@ FFT3DROPENCL 256 8.0542e-05
+        Inverse
+          Time:  8.0207e-05 s
+        Error: 98.087
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  6.7084e-05 s
+@ FFT3DCOPENCL 256 6.7084e-05
+        Inverse
+          Time:  6.815e-05 s
+        Error: 135.234
+
+
+====================================
+Dimensions: 256 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.00021642 s
+@ PRODUCT1DROPENCL 256 0.00021642
+
+      OpenCL (4 queues)
+        Time:  0.000360239 s
+@ PRODUCT1DROPENCLQUEUES 256 0.000360239
+
+    FFT
+      clFFT
+        Direct
+          Time:  7.8362e-05 s
+@ FFT1DROPENCL 256 7.8362e-05
+        Inverse
+          Time:  6.5365e-05 s
+        Error: 98.087
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000221152 s
+@ PRODUCT1DCOPENCL 256 0.000221152
+
+      OpenCL (4 queues)
+        Time:  0.000370065 s
+@ PRODUCT1DCOPENCLQUEUES 256 0.000370065
+
+    FFT
+      OpenCL
+        Direct
+          Time:  6.4504e-05 s
+@ FFT1DCOPENCL 256 6.4504e-05
+        Inverse
+          Time:  6.7438e-05 s
+        Error: 135.234
+
+
+Dimensions: 256 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  7.1191e-05 s
+@ FFT2DROPENCL 256 7.1191e-05
+        Inverse
+          Time:  7.3975e-05 s
+        Error: 98.087
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00131346 s
+
+      OpenCL (4 queues)
+        Time:  0.000397179 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  6.5545e-05 s
+@ FFT2DCOPENCL 256 6.5545e-05
+        Inverse
+          Time:  6.6374e-05 s
+        Error: 135.234
+
+
+Dimensions: 256 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  7.8032e-05 s
+@ FFT3DROPENCL 256 7.8032e-05
+        Inverse
+          Time:  7.9344e-05 s
+        Error: 98.087
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  6.7829e-05 s
+@ FFT3DCOPENCL 256 6.7829e-05
+        Inverse
+          Time:  6.8146e-05 s
+        Error: 135.234
+
+
+====================================
+Dimensions: 256 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.000213595 s
+@ PRODUCT1DROPENCL 256 0.000213595
+
+      OpenCL (4 queues)
+        Time:  0.000302261 s
+@ PRODUCT1DROPENCLQUEUES 256 0.000302261
+
+    FFT
+      clFFT
+        Direct
+          Time:  7.0203e-05 s
+@ FFT1DROPENCL 256 7.0203e-05
+        Inverse
+          Time:  6.3595e-05 s
+        Error: 98.087
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000235309 s
+@ PRODUCT1DCOPENCL 256 0.000235309
+
+      OpenCL (4 queues)
+        Time:  0.00219095 s
+@ PRODUCT1DCOPENCLQUEUES 256 0.00219095
+
+    FFT
+      OpenCL
+        Direct
+          Time:  6.7244e-05 s
+@ FFT1DCOPENCL 256 6.7244e-05
+        Inverse
+          Time:  6.5529e-05 s
+        Error: 135.234
+
+
+Dimensions: 256 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  7.3543e-05 s
+@ FFT2DROPENCL 256 7.3543e-05
+        Inverse
+          Time:  7.6045e-05 s
+        Error: 98.087
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000216507 s
+
+      OpenCL (4 queues)
+        Time:  0.000410615 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  6.7136e-05 s
+@ FFT2DCOPENCL 256 6.7136e-05
+        Inverse
+          Time:  6.6742e-05 s
+        Error: 135.234
+
+
+Dimensions: 256 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  7.9033e-05 s
+@ FFT3DROPENCL 256 7.9033e-05
+        Inverse
+          Time:  8.047e-05 s
+        Error: 98.087
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  6.8005e-05 s
+@ FFT3DCOPENCL 256 6.8005e-05
+        Inverse
+          Time:  6.773e-05 s
+        Error: 135.234
+
+
+====================================
+Dimensions: 256 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.000210503 s
+@ PRODUCT1DROPENCL 256 0.000210503
+
+      OpenCL (4 queues)
+        Time:  0.000299083 s
+@ PRODUCT1DROPENCLQUEUES 256 0.000299083
+
+    FFT
+      clFFT
+        Direct
+          Time:  6.7319e-05 s
+@ FFT1DROPENCL 256 6.7319e-05
+        Inverse
+          Time:  6.3857e-05 s
+        Error: 98.087
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000216531 s
+@ PRODUCT1DCOPENCL 256 0.000216531
+
+      OpenCL (4 queues)
+        Time:  0.000371429 s
+@ PRODUCT1DCOPENCLQUEUES 256 0.000371429
+
+    FFT
+      OpenCL
+        Direct
+          Time:  6.8372e-05 s
+@ FFT1DCOPENCL 256 6.8372e-05
+        Inverse
+          Time:  6.6981e-05 s
+        Error: 135.234
+
+
+Dimensions: 256 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  7.0144e-05 s
+@ FFT2DROPENCL 256 7.0144e-05
+        Inverse
+          Time:  6.9998e-05 s
+        Error: 98.087
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000228223 s
+
+      OpenCL (4 queues)
+        Time:  0.0017626 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  6.5438e-05 s
+@ FFT2DCOPENCL 256 6.5438e-05
+        Inverse
+          Time:  6.7843e-05 s
+        Error: 135.234
+
+
+Dimensions: 256 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  8.1518e-05 s
+@ FFT3DROPENCL 256 8.1518e-05
+        Inverse
+          Time:  7.7777e-05 s
+        Error: 98.087
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  7.3008e-05 s
+@ FFT3DCOPENCL 256 7.3008e-05
+        Inverse
+          Time:  6.6996e-05 s
+        Error: 135.234
+
+
+====================================
+Dimensions: 256 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.000216362 s
+@ PRODUCT1DROPENCL 256 0.000216362
+
+      OpenCL (4 queues)
+        Time:  0.00196954 s
+@ PRODUCT1DROPENCLQUEUES 256 0.00196954
+
+    FFT
+      clFFT
+        Direct
+          Time:  7.1754e-05 s
+@ FFT1DROPENCL 256 7.1754e-05
+        Inverse
+          Time:  6.6478e-05 s
+        Error: 98.087
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000233776 s
+@ PRODUCT1DCOPENCL 256 0.000233776
+
+      OpenCL (4 queues)
+        Time:  0.000364781 s
+@ PRODUCT1DCOPENCLQUEUES 256 0.000364781
+
+    FFT
+      OpenCL
+        Direct
+          Time:  6.7078e-05 s
+@ FFT1DCOPENCL 256 6.7078e-05
+        Inverse
+          Time:  6.9431e-05 s
+        Error: 135.234
+
+
+Dimensions: 256 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  7.2202e-05 s
+@ FFT2DROPENCL 256 7.2202e-05
+        Inverse
+          Time:  6.8862e-05 s
+        Error: 98.087
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000216178 s
+
+      OpenCL (4 queues)
+        Time:  0.000395679 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  6.7989e-05 s
+@ FFT2DCOPENCL 256 6.7989e-05
+        Inverse
+          Time:  6.8699e-05 s
+        Error: 135.234
+
+
+Dimensions: 256 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  8.217e-05 s
+@ FFT3DROPENCL 256 8.217e-05
+        Inverse
+          Time:  7.955e-05 s
+        Error: 98.087
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  7.0065e-05 s
+@ FFT3DCOPENCL 256 7.0065e-05
+        Inverse
+          Time:  6.9912e-05 s
+        Error: 135.234
+
+
+====================================
+Dimensions: 256 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.000221052 s
+@ PRODUCT1DROPENCL 256 0.000221052
+
+      OpenCL (4 queues)
+        Time:  0.000311591 s
+@ PRODUCT1DROPENCLQUEUES 256 0.000311591
+
+    FFT
+      clFFT
+        Direct
+          Time:  6.9339e-05 s
+@ FFT1DROPENCL 256 6.9339e-05
+        Inverse
+          Time:  6.2969e-05 s
+        Error: 98.087
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000212378 s
+@ PRODUCT1DCOPENCL 256 0.000212378
+
+      OpenCL (4 queues)
+        Time:  0.000368092 s
+@ PRODUCT1DCOPENCLQUEUES 256 0.000368092
+
+    FFT
+      OpenCL
+        Direct
+          Time:  7.2017e-05 s
+@ FFT1DCOPENCL 256 7.2017e-05
+        Inverse
+          Time:  6.525e-05 s
+        Error: 135.234
+
+
+Dimensions: 256 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  7.1452e-05 s
+@ FFT2DROPENCL 256 7.1452e-05
+        Inverse
+          Time:  6.8068e-05 s
+        Error: 98.087
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000232672 s
+
+      OpenCL (4 queues)
+        Time:  0.000387301 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  6.7075e-05 s
+@ FFT2DCOPENCL 256 6.7075e-05
+        Inverse
+          Time:  6.7552e-05 s
+        Error: 135.234
+
+
+Dimensions: 256 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  8.1045e-05 s
+@ FFT3DROPENCL 256 8.1045e-05
+        Inverse
+          Time:  8.0585e-05 s
+        Error: 98.087
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  6.8586e-05 s
+@ FFT3DCOPENCL 256 6.8586e-05
+        Inverse
+          Time:  6.7463e-05 s
+        Error: 135.234
+
+
+====================================
+====================================
+====================================
+Dimensions: 1024 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.00023488 s
+@ PRODUCT1DROPENCL 1024 0.00023488
+
+      OpenCL (4 queues)
+        Time:  0.000307206 s
+@ PRODUCT1DROPENCLQUEUES 1024 0.000307206
+
+    FFT
+      clFFT
+        Direct
+          Time:  9.1766e-05 s
+@ FFT1DROPENCL 1024 9.1766e-05
+        Inverse
+          Time:  9.5898e-05 s
+        Error: 394.509
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000230456 s
+@ PRODUCT1DCOPENCL 1024 0.000230456
+
+      OpenCL (4 queues)
+        Time:  0.00038402 s
+@ PRODUCT1DCOPENCLQUEUES 1024 0.00038402
+
+    FFT
+      OpenCL
+        Direct
+          Time:  8.9329e-05 s
+@ FFT1DCOPENCL 1024 8.9329e-05
+        Inverse
+          Time:  9.5218e-05 s
+        Error: 542.528
+
+
+Dimensions: 1024 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  9.9238e-05 s
+@ FFT2DROPENCL 1024 9.9238e-05
+        Inverse
+          Time:  9.6857e-05 s
+        Error: 394.509
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000258522 s
+
+      OpenCL (4 queues)
+        Time:  0.000409162 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  9.339e-05 s
+@ FFT2DCOPENCL 1024 9.339e-05
+        Inverse
+          Time:  0.00010118 s
+        Error: 542.528
+
+
+Dimensions: 1024 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000104266 s
+@ FFT3DROPENCL 1024 0.000104266
+        Inverse
+          Time:  0.000105666 s
+        Error: 394.509
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  9.344e-05 s
+@ FFT3DCOPENCL 1024 9.344e-05
+        Inverse
+          Time:  9.9929e-05 s
+        Error: 542.528
+
+
+====================================
+Dimensions: 1024 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.000235638 s
+@ PRODUCT1DROPENCL 1024 0.000235638
+
+      OpenCL (4 queues)
+        Time:  0.000313074 s
+@ PRODUCT1DROPENCLQUEUES 1024 0.000313074
+
+    FFT
+      clFFT
+        Direct
+          Time:  9.2036e-05 s
+@ FFT1DROPENCL 1024 9.2036e-05
+        Inverse
+          Time:  9.576e-05 s
+        Error: 394.509
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000229903 s
+@ PRODUCT1DCOPENCL 1024 0.000229903
+
+      OpenCL (4 queues)
+        Time:  0.000383543 s
+@ PRODUCT1DCOPENCLQUEUES 1024 0.000383543
+
+    FFT
+      OpenCL
+        Direct
+          Time:  9.1339e-05 s
+@ FFT1DCOPENCL 1024 9.1339e-05
+        Inverse
+          Time:  9.2843e-05 s
+        Error: 542.528
+
+
+Dimensions: 1024 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  9.5802e-05 s
+@ FFT2DROPENCL 1024 9.5802e-05
+        Inverse
+          Time:  9.7069e-05 s
+        Error: 394.509
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000240064 s
+
+      OpenCL (4 queues)
+        Time:  0.000407011 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  9.6991e-05 s
+@ FFT2DCOPENCL 1024 9.6991e-05
+        Inverse
+          Time:  9.6907e-05 s
+        Error: 542.528
+
+
+Dimensions: 1024 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000104305 s
+@ FFT3DROPENCL 1024 0.000104305
+        Inverse
+          Time:  0.000106766 s
+        Error: 394.509
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  9.2832e-05 s
+@ FFT3DCOPENCL 1024 9.2832e-05
+        Inverse
+          Time:  9.7294e-05 s
+        Error: 542.528
+
+
+====================================
+Dimensions: 1024 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.000223308 s
+@ PRODUCT1DROPENCL 1024 0.000223308
+
+      OpenCL (4 queues)
+        Time:  0.000317537 s
+@ PRODUCT1DROPENCLQUEUES 1024 0.000317537
+
+    FFT
+      clFFT
+        Direct
+          Time:  9.2885e-05 s
+@ FFT1DROPENCL 1024 9.2885e-05
+        Inverse
+          Time:  9.4752e-05 s
+        Error: 394.509
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000235705 s
+@ PRODUCT1DCOPENCL 1024 0.000235705
+
+      OpenCL (4 queues)
+        Time:  0.000385086 s
+@ PRODUCT1DCOPENCLQUEUES 1024 0.000385086
+
+    FFT
+      OpenCL
+        Direct
+          Time:  9.1016e-05 s
+@ FFT1DCOPENCL 1024 9.1016e-05
+        Inverse
+          Time:  9.3725e-05 s
+        Error: 542.528
+
+
+Dimensions: 1024 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  9.793e-05 s
+@ FFT2DROPENCL 1024 9.793e-05
+        Inverse
+          Time:  9.8618e-05 s
+        Error: 394.509
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000251574 s
+
+      OpenCL (4 queues)
+        Time:  0.000407679 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  9.2154e-05 s
+@ FFT2DCOPENCL 1024 9.2154e-05
+        Inverse
+          Time:  9.6177e-05 s
+        Error: 542.528
+
+
+Dimensions: 1024 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000103996 s
+@ FFT3DROPENCL 1024 0.000103996
+        Inverse
+          Time:  0.000104723 s
+        Error: 394.509
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  9.4723e-05 s
+@ FFT3DCOPENCL 1024 9.4723e-05
+        Inverse
+          Time:  9.9877e-05 s
+        Error: 542.528
+
+
+====================================
+Dimensions: 1024 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.000233534 s
+@ PRODUCT1DROPENCL 1024 0.000233534
+
+      OpenCL (4 queues)
+        Time:  0.000311826 s
+@ PRODUCT1DROPENCLQUEUES 1024 0.000311826
+
+    FFT
+      clFFT
+        Direct
+          Time:  9.2421e-05 s
+@ FFT1DROPENCL 1024 9.2421e-05
+        Inverse
+          Time:  9.5698e-05 s
+        Error: 394.509
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000232199 s
+@ PRODUCT1DCOPENCL 1024 0.000232199
+
+      OpenCL (4 queues)
+        Time:  0.00093231 s
+@ PRODUCT1DCOPENCLQUEUES 1024 0.00093231
+
+    FFT
+      OpenCL
+        Direct
+          Time:  9.1651e-05 s
+@ FFT1DCOPENCL 1024 9.1651e-05
+        Inverse
+          Time:  9.2808e-05 s
+        Error: 542.528
+
+
+Dimensions: 1024 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000101349 s
+@ FFT2DROPENCL 1024 0.000101349
+        Inverse
+          Time:  9.7951e-05 s
+        Error: 394.509
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000252116 s
+
+      OpenCL (4 queues)
+        Time:  0.000405401 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  9.8232e-05 s
+@ FFT2DCOPENCL 1024 9.8232e-05
+        Inverse
+          Time:  9.6935e-05 s
+        Error: 542.528
+
+
+Dimensions: 1024 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000106645 s
+@ FFT3DROPENCL 1024 0.000106645
+        Inverse
+          Time:  0.000107301 s
+        Error: 394.509
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  9.582e-05 s
+@ FFT3DCOPENCL 1024 9.582e-05
+        Inverse
+          Time:  9.7998e-05 s
+        Error: 542.528
+
+
+====================================
+Dimensions: 1024 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.000228259 s
+@ PRODUCT1DROPENCL 1024 0.000228259
+
+      OpenCL (4 queues)
+        Time:  0.000856651 s
+@ PRODUCT1DROPENCLQUEUES 1024 0.000856651
+
+    FFT
+      clFFT
+        Direct
+          Time:  9.0992e-05 s
+@ FFT1DROPENCL 1024 9.0992e-05
+        Inverse
+          Time:  9.5839e-05 s
+        Error: 394.509
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000229052 s
+@ PRODUCT1DCOPENCL 1024 0.000229052
+
+      OpenCL (4 queues)
+        Time:  0.00037734 s
+@ PRODUCT1DCOPENCLQUEUES 1024 0.00037734
+
+    FFT
+      OpenCL
+        Direct
+          Time:  9.1779e-05 s
+@ FFT1DCOPENCL 1024 9.1779e-05
+        Inverse
+          Time:  9.2325e-05 s
+        Error: 542.528
+
+
+Dimensions: 1024 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  9.8758e-05 s
+@ FFT2DROPENCL 1024 9.8758e-05
+        Inverse
+          Time:  0.000102227 s
+        Error: 394.509
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000231783 s
+
+      OpenCL (4 queues)
+        Time:  0.000430944 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  9.2933e-05 s
+@ FFT2DCOPENCL 1024 9.2933e-05
+        Inverse
+          Time:  9.5034e-05 s
+        Error: 542.528
+
+
+Dimensions: 1024 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000105898 s
+@ FFT3DROPENCL 1024 0.000105898
+        Inverse
+          Time:  0.000106107 s
+        Error: 394.509
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  9.4838e-05 s
+@ FFT3DCOPENCL 1024 9.4838e-05
+        Inverse
+          Time:  0.0001013 s
+        Error: 542.528
+
+
+====================================
+Dimensions: 1024 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.000237323 s
+@ PRODUCT1DROPENCL 1024 0.000237323
+
+      OpenCL (4 queues)
+        Time:  0.000314293 s
+@ PRODUCT1DROPENCLQUEUES 1024 0.000314293
+
+    FFT
+      clFFT
+        Direct
+          Time:  9.2254e-05 s
+@ FFT1DROPENCL 1024 9.2254e-05
+        Inverse
+          Time:  9.4157e-05 s
+        Error: 394.509
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000227584 s
+@ PRODUCT1DCOPENCL 1024 0.000227584
+
+      OpenCL (4 queues)
+        Time:  0.000393394 s
+@ PRODUCT1DCOPENCLQUEUES 1024 0.000393394
+
+    FFT
+      OpenCL
+        Direct
+          Time:  8.9105e-05 s
+@ FFT1DCOPENCL 1024 8.9105e-05
+        Inverse
+          Time:  9.3267e-05 s
+        Error: 542.528
+
+
+Dimensions: 1024 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  9.7413e-05 s
+@ FFT2DROPENCL 1024 9.7413e-05
+        Inverse
+          Time:  9.6265e-05 s
+        Error: 394.509
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000243974 s
+
+      OpenCL (4 queues)
+        Time:  0.000390539 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  9.339e-05 s
+@ FFT2DCOPENCL 1024 9.339e-05
+        Inverse
+          Time:  9.6214e-05 s
+        Error: 542.528
+
+
+Dimensions: 1024 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000104351 s
+@ FFT3DROPENCL 1024 0.000104351
+        Inverse
+          Time:  0.000106085 s
+        Error: 394.509
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  9.9534e-05 s
+@ FFT3DCOPENCL 1024 9.9534e-05
+        Inverse
+          Time:  9.9128e-05 s
+        Error: 542.528
+
+
+====================================
+Dimensions: 1024 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.000226295 s
+@ PRODUCT1DROPENCL 1024 0.000226295
+
+      OpenCL (4 queues)
+        Time:  0.000316273 s
+@ PRODUCT1DROPENCLQUEUES 1024 0.000316273
+
+    FFT
+      clFFT
+        Direct
+          Time:  9.2519e-05 s
+@ FFT1DROPENCL 1024 9.2519e-05
+        Inverse
+          Time:  9.4826e-05 s
+        Error: 394.509
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000233169 s
+@ PRODUCT1DCOPENCL 1024 0.000233169
+
+      OpenCL (4 queues)
+        Time:  0.000383878 s
+@ PRODUCT1DCOPENCLQUEUES 1024 0.000383878
+
+    FFT
+      OpenCL
+        Direct
+          Time:  9.138e-05 s
+@ FFT1DCOPENCL 1024 9.138e-05
+        Inverse
+          Time:  9.3995e-05 s
+        Error: 542.528
+
+
+Dimensions: 1024 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  9.9e-05 s
+@ FFT2DROPENCL 1024 9.9e-05
+        Inverse
+          Time:  0.000101113 s
+        Error: 394.509
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000248347 s
+
+      OpenCL (4 queues)
+        Time:  0.000419191 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  9.6152e-05 s
+@ FFT2DCOPENCL 1024 9.6152e-05
+        Inverse
+          Time:  9.5377e-05 s
+        Error: 542.528
+
+
+Dimensions: 1024 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000105069 s
+@ FFT3DROPENCL 1024 0.000105069
+        Inverse
+          Time:  0.000106993 s
+        Error: 394.509
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  9.4145e-05 s
+@ FFT3DCOPENCL 1024 9.4145e-05
+        Inverse
+          Time:  9.7366e-05 s
+        Error: 542.528
+
+
+====================================
+Dimensions: 1024 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.000218155 s
+@ PRODUCT1DROPENCL 1024 0.000218155
+
+      OpenCL (4 queues)
+        Time:  0.000317377 s
+@ PRODUCT1DROPENCLQUEUES 1024 0.000317377
+
+    FFT
+      clFFT
+        Direct
+          Time:  9.069e-05 s
+@ FFT1DROPENCL 1024 9.069e-05
+        Inverse
+          Time:  9.4685e-05 s
+        Error: 394.509
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000229065 s
+@ PRODUCT1DCOPENCL 1024 0.000229065
+
+      OpenCL (4 queues)
+        Time:  0.000380862 s
+@ PRODUCT1DCOPENCLQUEUES 1024 0.000380862
+
+    FFT
+      OpenCL
+        Direct
+          Time:  9.5408e-05 s
+@ FFT1DCOPENCL 1024 9.5408e-05
+        Inverse
+          Time:  9.4371e-05 s
+        Error: 542.528
+
+
+Dimensions: 1024 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  9.8858e-05 s
+@ FFT2DROPENCL 1024 9.8858e-05
+        Inverse
+          Time:  9.8569e-05 s
+        Error: 394.509
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000229751 s
+
+      OpenCL (4 queues)
+        Time:  0.000400418 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  9.257e-05 s
+@ FFT2DCOPENCL 1024 9.257e-05
+        Inverse
+          Time:  9.7581e-05 s
+        Error: 542.528
+
+
+Dimensions: 1024 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000105585 s
+@ FFT3DROPENCL 1024 0.000105585
+        Inverse
+          Time:  0.000104495 s
+        Error: 394.509
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  9.3818e-05 s
+@ FFT3DCOPENCL 1024 9.3818e-05
+        Inverse
+          Time:  9.9806e-05 s
+        Error: 542.528
+
+
+====================================
+Dimensions: 1024 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.000215822 s
+@ PRODUCT1DROPENCL 1024 0.000215822
+
+      OpenCL (4 queues)
+        Time:  0.000305776 s
+@ PRODUCT1DROPENCLQUEUES 1024 0.000305776
+
+    FFT
+      clFFT
+        Direct
+          Time:  9.2348e-05 s
+@ FFT1DROPENCL 1024 9.2348e-05
+        Inverse
+          Time:  9.3309e-05 s
+        Error: 394.509
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000229444 s
+@ PRODUCT1DCOPENCL 1024 0.000229444
+
+      OpenCL (4 queues)
+        Time:  0.000370747 s
+@ PRODUCT1DCOPENCLQUEUES 1024 0.000370747
+
+    FFT
+      OpenCL
+        Direct
+          Time:  8.8545e-05 s
+@ FFT1DCOPENCL 1024 8.8545e-05
+        Inverse
+          Time:  9.2678e-05 s
+        Error: 542.528
+
+
+Dimensions: 1024 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  9.8233e-05 s
+@ FFT2DROPENCL 1024 9.8233e-05
+        Inverse
+          Time:  9.6301e-05 s
+        Error: 394.509
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000244226 s
+
+      OpenCL (4 queues)
+        Time:  0.00179562 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  9.2839e-05 s
+@ FFT2DCOPENCL 1024 9.2839e-05
+        Inverse
+          Time:  0.000101522 s
+        Error: 542.528
+
+
+Dimensions: 1024 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000102895 s
+@ FFT3DROPENCL 1024 0.000102895
+        Inverse
+          Time:  0.000105744 s
+        Error: 394.509
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000116851 s
+@ FFT3DCOPENCL 1024 0.000116851
+        Inverse
+          Time:  9.9552e-05 s
+        Error: 542.528
+
+
+====================================
+Dimensions: 1024 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.000229082 s
+@ PRODUCT1DROPENCL 1024 0.000229082
+
+      OpenCL (4 queues)
+        Time:  0.000315443 s
+@ PRODUCT1DROPENCLQUEUES 1024 0.000315443
+
+    FFT
+      clFFT
+        Direct
+          Time:  9.6113e-05 s
+@ FFT1DROPENCL 1024 9.6113e-05
+        Inverse
+          Time:  9.4029e-05 s
+        Error: 394.509
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000226274 s
+@ PRODUCT1DCOPENCL 1024 0.000226274
+
+      OpenCL (4 queues)
+        Time:  0.000379146 s
+@ PRODUCT1DCOPENCLQUEUES 1024 0.000379146
+
+    FFT
+      OpenCL
+        Direct
+          Time:  9.1629e-05 s
+@ FFT1DCOPENCL 1024 9.1629e-05
+        Inverse
+          Time:  9.6579e-05 s
+        Error: 542.528
+
+
+Dimensions: 1024 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  9.9942e-05 s
+@ FFT2DROPENCL 1024 9.9942e-05
+        Inverse
+          Time:  9.789e-05 s
+        Error: 394.509
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000247246 s
+
+      OpenCL (4 queues)
+        Time:  0.000403183 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  9.3592e-05 s
+@ FFT2DCOPENCL 1024 9.3592e-05
+        Inverse
+          Time:  9.5928e-05 s
+        Error: 542.528
+
+
+Dimensions: 1024 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000106036 s
+@ FFT3DROPENCL 1024 0.000106036
+        Inverse
+          Time:  0.000104862 s
+        Error: 394.509
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  9.5275e-05 s
+@ FFT3DCOPENCL 1024 9.5275e-05
+        Inverse
+          Time:  0.000101562 s
+        Error: 542.528
+
+
+====================================
+====================================
+====================================
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.000291213 s
+@ PRODUCT1DROPENCL 4096 0.000291213
+
+      OpenCL (4 queues)
+        Time:  0.000351005 s
+@ PRODUCT1DROPENCLQUEUES 4096 0.000351005
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000125924 s
+@ FFT1DROPENCL 4096 0.000125924
+        Inverse
+          Time:  0.000141335 s
+        Error: 1580.38
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000298163 s
+@ PRODUCT1DCOPENCL 4096 0.000298163
+
+      OpenCL (4 queues)
+        Time:  0.000459141 s
+@ PRODUCT1DCOPENCLQUEUES 4096 0.000459141
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000136492 s
+@ FFT1DCOPENCL 4096 0.000136492
+        Inverse
+          Time:  0.000144814 s
+        Error: 2171.7
+
+
+Dimensions: 4096 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000156106 s
+@ FFT2DROPENCL 4096 0.000156106
+        Inverse
+          Time:  0.000154711 s
+        Error: 1580.38
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000302366 s
+
+      OpenCL (4 queues)
+        Time:  0.000468996 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000135075 s
+@ FFT2DCOPENCL 4096 0.000135075
+        Inverse
+          Time:  0.000144925 s
+        Error: 2171.7
+
+
+Dimensions: 4096 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000165505 s
+@ FFT3DROPENCL 4096 0.000165505
+        Inverse
+          Time:  0.000171914 s
+        Error: 1580.38
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000140701 s
+@ FFT3DCOPENCL 4096 0.000140701
+        Inverse
+          Time:  0.000158902 s
+        Error: 2171.7
+
+
+====================================
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.000286362 s
+@ PRODUCT1DROPENCL 4096 0.000286362
+
+      OpenCL (4 queues)
+        Time:  0.000356871 s
+@ PRODUCT1DROPENCLQUEUES 4096 0.000356871
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00012391 s
+@ FFT1DROPENCL 4096 0.00012391
+        Inverse
+          Time:  0.000141876 s
+        Error: 1580.38
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000287261 s
+@ PRODUCT1DCOPENCL 4096 0.000287261
+
+      OpenCL (4 queues)
+        Time:  0.000445879 s
+@ PRODUCT1DCOPENCLQUEUES 4096 0.000445879
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000128958 s
+@ FFT1DCOPENCL 4096 0.000128958
+        Inverse
+          Time:  0.000140812 s
+        Error: 2171.7
+
+
+Dimensions: 4096 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000144135 s
+@ FFT2DROPENCL 4096 0.000144135
+        Inverse
+          Time:  0.000157031 s
+        Error: 1580.38
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000307575 s
+
+      OpenCL (4 queues)
+        Time:  0.000489818 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000133301 s
+@ FFT2DCOPENCL 4096 0.000133301
+        Inverse
+          Time:  0.000142842 s
+        Error: 2171.7
+
+
+Dimensions: 4096 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000155901 s
+@ FFT3DROPENCL 4096 0.000155901
+        Inverse
+          Time:  0.000165526 s
+        Error: 1580.38
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000138533 s
+@ FFT3DCOPENCL 4096 0.000138533
+        Inverse
+          Time:  0.000153174 s
+        Error: 2171.7
+
+
+====================================
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.000285473 s
+@ PRODUCT1DROPENCL 4096 0.000285473
+
+      OpenCL (4 queues)
+        Time:  0.000348703 s
+@ PRODUCT1DROPENCLQUEUES 4096 0.000348703
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000122322 s
+@ FFT1DROPENCL 4096 0.000122322
+        Inverse
+          Time:  0.000134167 s
+        Error: 1580.38
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000287709 s
+@ PRODUCT1DCOPENCL 4096 0.000287709
+
+      OpenCL (4 queues)
+        Time:  0.000463227 s
+@ PRODUCT1DCOPENCLQUEUES 4096 0.000463227
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000130353 s
+@ FFT1DCOPENCL 4096 0.000130353
+        Inverse
+          Time:  0.000139797 s
+        Error: 2171.7
+
+
+Dimensions: 4096 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000141803 s
+@ FFT2DROPENCL 4096 0.000141803
+        Inverse
+          Time:  0.000151531 s
+        Error: 1580.38
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00133067 s
+
+      OpenCL (4 queues)
+        Time:  0.00046436 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000142715 s
+@ FFT2DCOPENCL 4096 0.000142715
+        Inverse
+          Time:  0.000146664 s
+        Error: 2171.7
+
+
+Dimensions: 4096 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000156596 s
+@ FFT3DROPENCL 4096 0.000156596
+        Inverse
+          Time:  0.000167709 s
+        Error: 1580.38
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000148268 s
+@ FFT3DCOPENCL 4096 0.000148268
+        Inverse
+          Time:  0.000151766 s
+        Error: 2171.7
+
+
+====================================
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.000291803 s
+@ PRODUCT1DROPENCL 4096 0.000291803
+
+      OpenCL (4 queues)
+        Time:  0.000343881 s
+@ PRODUCT1DROPENCLQUEUES 4096 0.000343881
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000124048 s
+@ FFT1DROPENCL 4096 0.000124048
+        Inverse
+          Time:  0.000137551 s
+        Error: 1580.38
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000298182 s
+@ PRODUCT1DCOPENCL 4096 0.000298182
+
+      OpenCL (4 queues)
+        Time:  0.000445218 s
+@ PRODUCT1DCOPENCLQUEUES 4096 0.000445218
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000132235 s
+@ FFT1DCOPENCL 4096 0.000132235
+        Inverse
+          Time:  0.000143134 s
+        Error: 2171.7
+
+
+Dimensions: 4096 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000142368 s
+@ FFT2DROPENCL 4096 0.000142368
+        Inverse
+          Time:  0.000152911 s
+        Error: 1580.38
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000313152 s
+
+      OpenCL (4 queues)
+        Time:  0.000491636 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000133928 s
+@ FFT2DCOPENCL 4096 0.000133928
+        Inverse
+          Time:  0.000145927 s
+        Error: 2171.7
+
+
+Dimensions: 4096 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000158637 s
+@ FFT3DROPENCL 4096 0.000158637
+        Inverse
+          Time:  0.000168756 s
+        Error: 1580.38
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000137317 s
+@ FFT3DCOPENCL 4096 0.000137317
+        Inverse
+          Time:  0.000153511 s
+        Error: 2171.7
+
+
+====================================
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.000285832 s
+@ PRODUCT1DROPENCL 4096 0.000285832
+
+      OpenCL (4 queues)
+        Time:  0.000372719 s
+@ PRODUCT1DROPENCLQUEUES 4096 0.000372719
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000127158 s
+@ FFT1DROPENCL 4096 0.000127158
+        Inverse
+          Time:  0.000145434 s
+        Error: 1580.38
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000301025 s
+@ PRODUCT1DCOPENCL 4096 0.000301025
+
+      OpenCL (4 queues)
+        Time:  0.000440406 s
+@ PRODUCT1DCOPENCLQUEUES 4096 0.000440406
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000133184 s
+@ FFT1DCOPENCL 4096 0.000133184
+        Inverse
+          Time:  0.000141483 s
+        Error: 2171.7
+
+
+Dimensions: 4096 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000141484 s
+@ FFT2DROPENCL 4096 0.000141484
+        Inverse
+          Time:  0.000153888 s
+        Error: 1580.38
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000317769 s
+
+      OpenCL (4 queues)
+        Time:  0.000464148 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00013298 s
+@ FFT2DCOPENCL 4096 0.00013298
+        Inverse
+          Time:  0.000146897 s
+        Error: 2171.7
+
+
+Dimensions: 4096 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000158954 s
+@ FFT3DROPENCL 4096 0.000158954
+        Inverse
+          Time:  0.000168636 s
+        Error: 1580.38
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000140039 s
+@ FFT3DCOPENCL 4096 0.000140039
+        Inverse
+          Time:  0.000151952 s
+        Error: 2171.7
+
+
+====================================
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.000292046 s
+@ PRODUCT1DROPENCL 4096 0.000292046
+
+      OpenCL (4 queues)
+        Time:  0.00034768 s
+@ PRODUCT1DROPENCLQUEUES 4096 0.00034768
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000127885 s
+@ FFT1DROPENCL 4096 0.000127885
+        Inverse
+          Time:  0.000139761 s
+        Error: 1580.38
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000297108 s
+@ PRODUCT1DCOPENCL 4096 0.000297108
+
+      OpenCL (4 queues)
+        Time:  0.000472443 s
+@ PRODUCT1DCOPENCLQUEUES 4096 0.000472443
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000131843 s
+@ FFT1DCOPENCL 4096 0.000131843
+        Inverse
+          Time:  0.000142766 s
+        Error: 2171.7
+
+
+Dimensions: 4096 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000143613 s
+@ FFT2DROPENCL 4096 0.000143613
+        Inverse
+          Time:  0.000168108 s
+        Error: 1580.38
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000307116 s
+
+      OpenCL (4 queues)
+        Time:  0.00153022 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000136918 s
+@ FFT2DCOPENCL 4096 0.000136918
+        Inverse
+          Time:  0.000148855 s
+        Error: 2171.7
+
+
+Dimensions: 4096 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000160788 s
+@ FFT3DROPENCL 4096 0.000160788
+        Inverse
+          Time:  0.000168911 s
+        Error: 1580.38
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000140002 s
+@ FFT3DCOPENCL 4096 0.000140002
+        Inverse
+          Time:  0.00015677 s
+        Error: 2171.7
+
+
+====================================
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.000296729 s
+@ PRODUCT1DROPENCL 4096 0.000296729
+
+      OpenCL (4 queues)
+        Time:  0.00035209 s
+@ PRODUCT1DROPENCLQUEUES 4096 0.00035209
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000134005 s
+@ FFT1DROPENCL 4096 0.000134005
+        Inverse
+          Time:  0.000141718 s
+        Error: 1580.38
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00031857 s
+@ PRODUCT1DCOPENCL 4096 0.00031857
+
+      OpenCL (4 queues)
+        Time:  0.000444825 s
+@ PRODUCT1DCOPENCLQUEUES 4096 0.000444825
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000130166 s
+@ FFT1DCOPENCL 4096 0.000130166
+        Inverse
+          Time:  0.000147238 s
+        Error: 2171.7
+
+
+Dimensions: 4096 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000141768 s
+@ FFT2DROPENCL 4096 0.000141768
+        Inverse
+          Time:  0.000155924 s
+        Error: 1580.38
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000294833 s
+
+      OpenCL (4 queues)
+        Time:  0.000463545 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000133861 s
+@ FFT2DCOPENCL 4096 0.000133861
+        Inverse
+          Time:  0.000146457 s
+        Error: 2171.7
+
+
+Dimensions: 4096 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000158844 s
+@ FFT3DROPENCL 4096 0.000158844
+        Inverse
+          Time:  0.000166933 s
+        Error: 1580.38
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00013465 s
+@ FFT3DCOPENCL 4096 0.00013465
+        Inverse
+          Time:  0.000153326 s
+        Error: 2171.7
+
+
+====================================
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.000289098 s
+@ PRODUCT1DROPENCL 4096 0.000289098
+
+      OpenCL (4 queues)
+        Time:  0.000348044 s
+@ PRODUCT1DROPENCLQUEUES 4096 0.000348044
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000137006 s
+@ FFT1DROPENCL 4096 0.000137006
+        Inverse
+          Time:  0.000134917 s
+        Error: 1580.38
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000293142 s
+@ PRODUCT1DCOPENCL 4096 0.000293142
+
+      OpenCL (4 queues)
+        Time:  0.000447656 s
+@ PRODUCT1DCOPENCLQUEUES 4096 0.000447656
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000129172 s
+@ FFT1DCOPENCL 4096 0.000129172
+        Inverse
+          Time:  0.000139899 s
+        Error: 2171.7
+
+
+Dimensions: 4096 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000138889 s
+@ FFT2DROPENCL 4096 0.000138889
+        Inverse
+          Time:  0.000150592 s
+        Error: 1580.38
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000304415 s
+
+      OpenCL (4 queues)
+        Time:  0.00047867 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0001331 s
+@ FFT2DCOPENCL 4096 0.0001331
+        Inverse
+          Time:  0.000144131 s
+        Error: 2171.7
+
+
+Dimensions: 4096 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000157794 s
+@ FFT3DROPENCL 4096 0.000157794
+        Inverse
+          Time:  0.000167373 s
+        Error: 1580.38
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000138626 s
+@ FFT3DCOPENCL 4096 0.000138626
+        Inverse
+          Time:  0.00014956 s
+        Error: 2171.7
+
+
+====================================
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.000310159 s
+@ PRODUCT1DROPENCL 4096 0.000310159
+
+      OpenCL (4 queues)
+        Time:  0.000583551 s
+@ PRODUCT1DROPENCLQUEUES 4096 0.000583551
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000124619 s
+@ FFT1DROPENCL 4096 0.000124619
+        Inverse
+          Time:  0.000134611 s
+        Error: 1580.38
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000290553 s
+@ PRODUCT1DCOPENCL 4096 0.000290553
+
+      OpenCL (4 queues)
+        Time:  0.000473687 s
+@ PRODUCT1DCOPENCLQUEUES 4096 0.000473687
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000128458 s
+@ FFT1DCOPENCL 4096 0.000128458
+        Inverse
+          Time:  0.000147094 s
+        Error: 2171.7
+
+
+Dimensions: 4096 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000145107 s
+@ FFT2DROPENCL 4096 0.000145107
+        Inverse
+          Time:  0.000160304 s
+        Error: 1580.38
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00198615 s
+
+      OpenCL (4 queues)
+        Time:  0.000480238 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00013537 s
+@ FFT2DCOPENCL 4096 0.00013537
+        Inverse
+          Time:  0.000144066 s
+        Error: 2171.7
+
+
+Dimensions: 4096 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000166457 s
+@ FFT3DROPENCL 4096 0.000166457
+        Inverse
+          Time:  0.000166962 s
+        Error: 1580.38
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000137525 s
+@ FFT3DCOPENCL 4096 0.000137525
+        Inverse
+          Time:  0.000156679 s
+        Error: 2171.7
+
+
+====================================
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.000291414 s
+@ PRODUCT1DROPENCL 4096 0.000291414
+
+      OpenCL (4 queues)
+        Time:  0.000348284 s
+@ PRODUCT1DROPENCLQUEUES 4096 0.000348284
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000126004 s
+@ FFT1DROPENCL 4096 0.000126004
+        Inverse
+          Time:  0.000134622 s
+        Error: 1580.38
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000290733 s
+@ PRODUCT1DCOPENCL 4096 0.000290733
+
+      OpenCL (4 queues)
+        Time:  0.000448149 s
+@ PRODUCT1DCOPENCLQUEUES 4096 0.000448149
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000128624 s
+@ FFT1DCOPENCL 4096 0.000128624
+        Inverse
+          Time:  0.000141388 s
+        Error: 2171.7
+
+
+Dimensions: 4096 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000143338 s
+@ FFT2DROPENCL 4096 0.000143338
+        Inverse
+          Time:  0.000151752 s
+        Error: 1580.38
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00029573 s
+
+      OpenCL (4 queues)
+        Time:  0.000488943 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000134206 s
+@ FFT2DCOPENCL 4096 0.000134206
+        Inverse
+          Time:  0.000146829 s
+        Error: 2171.7
+
+
+Dimensions: 4096 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000155053 s
+@ FFT3DROPENCL 4096 0.000155053
+        Inverse
+          Time:  0.000169089 s
+        Error: 1580.38
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000137339 s
+@ FFT3DCOPENCL 4096 0.000137339
+        Inverse
+          Time:  0.000149349 s
+        Error: 2171.7
+
+
+====================================
+====================================
+====================================
+Dimensions: 16384 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.000496275 s
+@ PRODUCT1DROPENCL 16384 0.000496275
+
+      OpenCL (4 queues)
+        Time:  0.000501989 s
+@ PRODUCT1DROPENCLQUEUES 16384 0.000501989
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000256008 s
+@ FFT1DROPENCL 16384 0.000256008
+        Inverse
+          Time:  0.00031518 s
+        Error: 6324.36
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000480196 s
+@ PRODUCT1DCOPENCL 16384 0.000480196
+
+      OpenCL (4 queues)
+        Time:  0.000698537 s
+@ PRODUCT1DCOPENCLQUEUES 16384 0.000698537
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000269861 s
+@ FFT1DCOPENCL 16384 0.000269861
+        Inverse
+          Time:  0.000297121 s
+        Error: 8688.4
+
+
+Dimensions: 16384 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000293757 s
+@ FFT2DROPENCL 16384 0.000293757
+        Inverse
+          Time:  0.000313341 s
+        Error: 6324.36
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000488034 s
+
+      OpenCL (4 queues)
+        Time:  0.000743867 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00028053 s
+@ FFT2DCOPENCL 16384 0.00028053
+        Inverse
+          Time:  0.000311951 s
+        Error: 8688.4
+
+
+Dimensions: 16384 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000315477 s
+@ FFT3DROPENCL 16384 0.000315477
+        Inverse
+          Time:  0.00033108 s
+        Error: 6324.36
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00029152 s
+@ FFT3DCOPENCL 16384 0.00029152
+        Inverse
+          Time:  0.000334398 s
+        Error: 8688.4
+
+
+====================================
+Dimensions: 16384 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.000516453 s
+@ PRODUCT1DROPENCL 16384 0.000516453
+
+      OpenCL (4 queues)
+        Time:  0.000489077 s
+@ PRODUCT1DROPENCLQUEUES 16384 0.000489077
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000265568 s
+@ FFT1DROPENCL 16384 0.000265568
+        Inverse
+          Time:  0.00032584 s
+        Error: 6324.36
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000479099 s
+@ PRODUCT1DCOPENCL 16384 0.000479099
+
+      OpenCL (4 queues)
+        Time:  0.000705336 s
+@ PRODUCT1DCOPENCLQUEUES 16384 0.000705336
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000269787 s
+@ FFT1DCOPENCL 16384 0.000269787
+        Inverse
+          Time:  0.000302404 s
+        Error: 8688.4
+
+
+Dimensions: 16384 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000290211 s
+@ FFT2DROPENCL 16384 0.000290211
+        Inverse
+          Time:  0.000318871 s
+        Error: 6324.36
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00049441 s
+
+      OpenCL (4 queues)
+        Time:  0.00072481 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00028164 s
+@ FFT2DCOPENCL 16384 0.00028164
+        Inverse
+          Time:  0.000324339 s
+        Error: 8688.4
+
+
+Dimensions: 16384 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000316839 s
+@ FFT3DROPENCL 16384 0.000316839
+        Inverse
+          Time:  0.000336707 s
+        Error: 6324.36
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00029218 s
+@ FFT3DCOPENCL 16384 0.00029218
+        Inverse
+          Time:  0.000340665 s
+        Error: 8688.4
+
+
+====================================
+Dimensions: 16384 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.000527664 s
+@ PRODUCT1DROPENCL 16384 0.000527664
+
+      OpenCL (4 queues)
+        Time:  0.000500785 s
+@ PRODUCT1DROPENCLQUEUES 16384 0.000500785
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000263048 s
+@ FFT1DROPENCL 16384 0.000263048
+        Inverse
+          Time:  0.000309194 s
+        Error: 6324.36
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000473779 s
+@ PRODUCT1DCOPENCL 16384 0.000473779
+
+      OpenCL (4 queues)
+        Time:  0.000709866 s
+@ PRODUCT1DCOPENCLQUEUES 16384 0.000709866
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000280376 s
+@ FFT1DCOPENCL 16384 0.000280376
+        Inverse
+          Time:  0.000304154 s
+        Error: 8688.4
+
+
+Dimensions: 16384 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000294887 s
+@ FFT2DROPENCL 16384 0.000294887
+        Inverse
+          Time:  0.000318019 s
+        Error: 6324.36
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000508218 s
+
+      OpenCL (4 queues)
+        Time:  0.000736121 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000283833 s
+@ FFT2DCOPENCL 16384 0.000283833
+        Inverse
+          Time:  0.000317156 s
+        Error: 8688.4
+
+
+Dimensions: 16384 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000320744 s
+@ FFT3DROPENCL 16384 0.000320744
+        Inverse
+          Time:  0.000338699 s
+        Error: 6324.36
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000299846 s
+@ FFT3DCOPENCL 16384 0.000299846
+        Inverse
+          Time:  0.00034727 s
+        Error: 8688.4
+
+
+====================================
+Dimensions: 16384 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.000511599 s
+@ PRODUCT1DROPENCL 16384 0.000511599
+
+      OpenCL (4 queues)
+        Time:  0.0004929 s
+@ PRODUCT1DROPENCLQUEUES 16384 0.0004929
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000257097 s
+@ FFT1DROPENCL 16384 0.000257097
+        Inverse
+          Time:  0.000306704 s
+        Error: 6324.36
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000465463 s
+@ PRODUCT1DCOPENCL 16384 0.000465463
+
+      OpenCL (4 queues)
+        Time:  0.000705498 s
+@ PRODUCT1DCOPENCLQUEUES 16384 0.000705498
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000275495 s
+@ FFT1DCOPENCL 16384 0.000275495
+        Inverse
+          Time:  0.000301543 s
+        Error: 8688.4
+
+
+Dimensions: 16384 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000288252 s
+@ FFT2DROPENCL 16384 0.000288252
+        Inverse
+          Time:  0.000320034 s
+        Error: 6324.36
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000492097 s
+
+      OpenCL (4 queues)
+        Time:  0.000721197 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000282107 s
+@ FFT2DCOPENCL 16384 0.000282107
+        Inverse
+          Time:  0.000311423 s
+        Error: 8688.4
+
+
+Dimensions: 16384 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000318304 s
+@ FFT3DROPENCL 16384 0.000318304
+        Inverse
+          Time:  0.000336575 s
+        Error: 6324.36
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000293878 s
+@ FFT3DCOPENCL 16384 0.000293878
+        Inverse
+          Time:  0.00034064 s
+        Error: 8688.4
+
+
+====================================
+Dimensions: 16384 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.000501329 s
+@ PRODUCT1DROPENCL 16384 0.000501329
+
+      OpenCL (4 queues)
+        Time:  0.00174158 s
+@ PRODUCT1DROPENCLQUEUES 16384 0.00174158
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000256582 s
+@ FFT1DROPENCL 16384 0.000256582
+        Inverse
+          Time:  0.000306562 s
+        Error: 6324.36
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000482101 s
+@ PRODUCT1DCOPENCL 16384 0.000482101
+
+      OpenCL (4 queues)
+        Time:  0.000695507 s
+@ PRODUCT1DCOPENCLQUEUES 16384 0.000695507
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000271077 s
+@ FFT1DCOPENCL 16384 0.000271077
+        Inverse
+          Time:  0.000294759 s
+        Error: 8688.4
+
+
+Dimensions: 16384 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000292606 s
+@ FFT2DROPENCL 16384 0.000292606
+        Inverse
+          Time:  0.000312614 s
+        Error: 6324.36
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000489135 s
+
+      OpenCL (4 queues)
+        Time:  0.000738399 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00030388 s
+@ FFT2DCOPENCL 16384 0.00030388
+        Inverse
+          Time:  0.00032083 s
+        Error: 8688.4
+
+
+Dimensions: 16384 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000339405 s
+@ FFT3DROPENCL 16384 0.000339405
+        Inverse
+          Time:  0.000331217 s
+        Error: 6324.36
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000294931 s
+@ FFT3DCOPENCL 16384 0.000294931
+        Inverse
+          Time:  0.000333482 s
+        Error: 8688.4
+
+
+====================================
+Dimensions: 16384 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.000504781 s
+@ PRODUCT1DROPENCL 16384 0.000504781
+
+      OpenCL (4 queues)
+        Time:  0.000496321 s
+@ PRODUCT1DROPENCLQUEUES 16384 0.000496321
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000258237 s
+@ FFT1DROPENCL 16384 0.000258237
+        Inverse
+          Time:  0.000308285 s
+        Error: 6324.36
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000490215 s
+@ PRODUCT1DCOPENCL 16384 0.000490215
+
+      OpenCL (4 queues)
+        Time:  0.000704418 s
+@ PRODUCT1DCOPENCLQUEUES 16384 0.000704418
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00027093 s
+@ FFT1DCOPENCL 16384 0.00027093
+        Inverse
+          Time:  0.00030026 s
+        Error: 8688.4
+
+
+Dimensions: 16384 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000289077 s
+@ FFT2DROPENCL 16384 0.000289077
+        Inverse
+          Time:  0.000323026 s
+        Error: 6324.36
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00150467 s
+
+      OpenCL (4 queues)
+        Time:  0.000713043 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000279519 s
+@ FFT2DCOPENCL 16384 0.000279519
+        Inverse
+          Time:  0.000313339 s
+        Error: 8688.4
+
+
+Dimensions: 16384 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000317783 s
+@ FFT3DROPENCL 16384 0.000317783
+        Inverse
+          Time:  0.000336409 s
+        Error: 6324.36
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000292594 s
+@ FFT3DCOPENCL 16384 0.000292594
+        Inverse
+          Time:  0.000342053 s
+        Error: 8688.4
+
+
+====================================
+Dimensions: 16384 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.000508491 s
+@ PRODUCT1DROPENCL 16384 0.000508491
+
+      OpenCL (4 queues)
+        Time:  0.00049384 s
+@ PRODUCT1DROPENCLQUEUES 16384 0.00049384
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000261024 s
+@ FFT1DROPENCL 16384 0.000261024
+        Inverse
+          Time:  0.000320887 s
+        Error: 6324.36
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00047706 s
+@ PRODUCT1DCOPENCL 16384 0.00047706
+
+      OpenCL (4 queues)
+        Time:  0.000687288 s
+@ PRODUCT1DCOPENCLQUEUES 16384 0.000687288
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000272622 s
+@ FFT1DCOPENCL 16384 0.000272622
+        Inverse
+          Time:  0.000302981 s
+        Error: 8688.4
+
+
+Dimensions: 16384 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000289538 s
+@ FFT2DROPENCL 16384 0.000289538
+        Inverse
+          Time:  0.000328646 s
+        Error: 6324.36
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000526773 s
+
+      OpenCL (4 queues)
+        Time:  0.000734547 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000281308 s
+@ FFT2DCOPENCL 16384 0.000281308
+        Inverse
+          Time:  0.000310685 s
+        Error: 8688.4
+
+
+Dimensions: 16384 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000321672 s
+@ FFT3DROPENCL 16384 0.000321672
+        Inverse
+          Time:  0.000329445 s
+        Error: 6324.36
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000290677 s
+@ FFT3DCOPENCL 16384 0.000290677
+        Inverse
+          Time:  0.000342873 s
+        Error: 8688.4
+
+
+====================================
+Dimensions: 16384 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.00051859 s
+@ PRODUCT1DROPENCL 16384 0.00051859
+
+      OpenCL (4 queues)
+        Time:  0.000508589 s
+@ PRODUCT1DROPENCLQUEUES 16384 0.000508589
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000263516 s
+@ FFT1DROPENCL 16384 0.000263516
+        Inverse
+          Time:  0.000307508 s
+        Error: 6324.36
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000486234 s
+@ PRODUCT1DCOPENCL 16384 0.000486234
+
+      OpenCL (4 queues)
+        Time:  0.000701974 s
+@ PRODUCT1DCOPENCLQUEUES 16384 0.000701974
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000287339 s
+@ FFT1DCOPENCL 16384 0.000287339
+        Inverse
+          Time:  0.000300795 s
+        Error: 8688.4
+
+
+Dimensions: 16384 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000291896 s
+@ FFT2DROPENCL 16384 0.000291896
+        Inverse
+          Time:  0.000317401 s
+        Error: 6324.36
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000781947 s
+
+      OpenCL (4 queues)
+        Time:  0.000731138 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000288107 s
+@ FFT2DCOPENCL 16384 0.000288107
+        Inverse
+          Time:  0.000316806 s
+        Error: 8688.4
+
+
+Dimensions: 16384 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000316921 s
+@ FFT3DROPENCL 16384 0.000316921
+        Inverse
+          Time:  0.000331012 s
+        Error: 6324.36
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000291829 s
+@ FFT3DCOPENCL 16384 0.000291829
+        Inverse
+          Time:  0.000341432 s
+        Error: 8688.4
+
+
+====================================
+Dimensions: 16384 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.000522092 s
+@ PRODUCT1DROPENCL 16384 0.000522092
+
+      OpenCL (4 queues)
+        Time:  0.000502892 s
+@ PRODUCT1DROPENCLQUEUES 16384 0.000502892
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000269452 s
+@ FFT1DROPENCL 16384 0.000269452
+        Inverse
+          Time:  0.000329329 s
+        Error: 6324.36
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000475188 s
+@ PRODUCT1DCOPENCL 16384 0.000475188
+
+      OpenCL (4 queues)
+        Time:  0.000696762 s
+@ PRODUCT1DCOPENCLQUEUES 16384 0.000696762
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000283781 s
+@ FFT1DCOPENCL 16384 0.000283781
+        Inverse
+          Time:  0.000303511 s
+        Error: 8688.4
+
+
+Dimensions: 16384 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000301739 s
+@ FFT2DROPENCL 16384 0.000301739
+        Inverse
+          Time:  0.000317959 s
+        Error: 6324.36
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000487846 s
+
+      OpenCL (4 queues)
+        Time:  0.000728967 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000283471 s
+@ FFT2DCOPENCL 16384 0.000283471
+        Inverse
+          Time:  0.000321228 s
+        Error: 8688.4
+
+
+Dimensions: 16384 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000462614 s
+@ FFT3DROPENCL 16384 0.000462614
+        Inverse
+          Time:  0.000331489 s
+        Error: 6324.36
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000303019 s
+@ FFT3DCOPENCL 16384 0.000303019
+        Inverse
+          Time:  0.000341105 s
+        Error: 8688.4
+
+
+====================================
+Dimensions: 16384 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.00051176 s
+@ PRODUCT1DROPENCL 16384 0.00051176
+
+      OpenCL (4 queues)
+        Time:  0.000501335 s
+@ PRODUCT1DROPENCLQUEUES 16384 0.000501335
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000260766 s
+@ FFT1DROPENCL 16384 0.000260766
+        Inverse
+          Time:  0.000310088 s
+        Error: 6324.36
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.000486053 s
+@ PRODUCT1DCOPENCL 16384 0.000486053
+
+      OpenCL (4 queues)
+        Time:  0.000689593 s
+@ PRODUCT1DCOPENCLQUEUES 16384 0.000689593
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000274792 s
+@ FFT1DCOPENCL 16384 0.000274792
+        Inverse
+          Time:  0.00030739 s
+        Error: 8688.4
+
+
+Dimensions: 16384 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000290783 s
+@ FFT2DROPENCL 16384 0.000290783
+        Inverse
+          Time:  0.00031912 s
+        Error: 6324.36
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00050352 s
+
+      OpenCL (4 queues)
+        Time:  0.00072554 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000284501 s
+@ FFT2DCOPENCL 16384 0.000284501
+        Inverse
+          Time:  0.000325992 s
+        Error: 8688.4
+
+
+Dimensions: 16384 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000318262 s
+@ FFT3DROPENCL 16384 0.000318262
+        Inverse
+          Time:  0.000336577 s
+        Error: 6324.36
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00029638 s
+@ FFT3DCOPENCL 16384 0.00029638
+        Inverse
+          Time:  0.000338657 s
+        Error: 8688.4
+
+
+====================================
+====================================
+====================================
+Dimensions: 65536 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.00142507 s
+@ PRODUCT1DROPENCL 65536 0.00142507
+
+      OpenCL (4 queues)
+        Time:  0.00101673 s
+@ PRODUCT1DROPENCLQUEUES 65536 0.00101673
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000712265 s
+@ FFT1DROPENCL 65536 0.000712265
+        Inverse
+          Time:  0.000893003 s
+        Error: 25300.3
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00141376 s
+@ PRODUCT1DCOPENCL 65536 0.00141376
+
+      OpenCL (4 queues)
+        Time:  0.00165758 s
+@ PRODUCT1DCOPENCLQUEUES 65536 0.00165758
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00099332 s
+@ FFT1DCOPENCL 65536 0.00099332
+        Inverse
+          Time:  0.00109261 s
+        Error: 34755.2
+
+
+Dimensions: 65536 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000975184 s
+@ FFT2DROPENCL 65536 0.000975184
+        Inverse
+          Time:  0.00108124 s
+        Error: 25300.3
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00264605 s
+
+      OpenCL (4 queues)
+        Time:  0.00169862 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00103239 s
+@ FFT2DCOPENCL 65536 0.00103239
+        Inverse
+          Time:  0.00114142 s
+        Error: 34755.2
+
+
+Dimensions: 65536 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00107396 s
+@ FFT3DROPENCL 65536 0.00107396
+        Inverse
+          Time:  0.00113534 s
+        Error: 25300.3
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00106443 s
+@ FFT3DCOPENCL 65536 0.00106443
+        Inverse
+          Time:  0.00123497 s
+        Error: 34755.2
+
+
+====================================
+Dimensions: 65536 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.00142022 s
+@ PRODUCT1DROPENCL 65536 0.00142022
+
+      OpenCL (4 queues)
+        Time:  0.00136209 s
+@ PRODUCT1DROPENCLQUEUES 65536 0.00136209
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000898221 s
+@ FFT1DROPENCL 65536 0.000898221
+        Inverse
+          Time:  0.000898589 s
+        Error: 25300.3
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00142194 s
+@ PRODUCT1DCOPENCL 65536 0.00142194
+
+      OpenCL (4 queues)
+        Time:  0.00163762 s
+@ PRODUCT1DCOPENCLQUEUES 65536 0.00163762
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000993092 s
+@ FFT1DCOPENCL 65536 0.000993092
+        Inverse
+          Time:  0.00105792 s
+        Error: 34755.2
+
+
+Dimensions: 65536 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000956404 s
+@ FFT2DROPENCL 65536 0.000956404
+        Inverse
+          Time:  0.00106651 s
+        Error: 25300.3
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00141413 s
+
+      OpenCL (4 queues)
+        Time:  0.00170176 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00101521 s
+@ FFT2DCOPENCL 65536 0.00101521
+        Inverse
+          Time:  0.00112353 s
+        Error: 34755.2
+
+
+Dimensions: 65536 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00104401 s
+@ FFT3DROPENCL 65536 0.00104401
+        Inverse
+          Time:  0.00111403 s
+        Error: 25300.3
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00107118 s
+@ FFT3DCOPENCL 65536 0.00107118
+        Inverse
+          Time:  0.00131943 s
+        Error: 34755.2
+
+
+====================================
+Dimensions: 65536 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.00143389 s
+@ PRODUCT1DROPENCL 65536 0.00143389
+
+      OpenCL (4 queues)
+        Time:  0.000999979 s
+@ PRODUCT1DROPENCLQUEUES 65536 0.000999979
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000709462 s
+@ FFT1DROPENCL 65536 0.000709462
+        Inverse
+          Time:  0.000885142 s
+        Error: 25300.3
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00139062 s
+@ PRODUCT1DCOPENCL 65536 0.00139062
+
+      OpenCL (4 queues)
+        Time:  0.00161187 s
+@ PRODUCT1DCOPENCLQUEUES 65536 0.00161187
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00098949 s
+@ FFT1DCOPENCL 65536 0.00098949
+        Inverse
+          Time:  0.00108181 s
+        Error: 34755.2
+
+
+Dimensions: 65536 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00095027 s
+@ FFT2DROPENCL 65536 0.00095027
+        Inverse
+          Time:  0.00106108 s
+        Error: 25300.3
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00137843 s
+
+      OpenCL (4 queues)
+        Time:  0.00165687 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00106432 s
+@ FFT2DCOPENCL 65536 0.00106432
+        Inverse
+          Time:  0.00117185 s
+        Error: 34755.2
+
+
+Dimensions: 65536 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00106846 s
+@ FFT3DROPENCL 65536 0.00106846
+        Inverse
+          Time:  0.00110977 s
+        Error: 25300.3
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00106222 s
+@ FFT3DCOPENCL 65536 0.00106222
+        Inverse
+          Time:  0.00120055 s
+        Error: 34755.2
+
+
+====================================
+Dimensions: 65536 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.0014135 s
+@ PRODUCT1DROPENCL 65536 0.0014135
+
+      OpenCL (4 queues)
+        Time:  0.00100172 s
+@ PRODUCT1DROPENCLQUEUES 65536 0.00100172
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000739201 s
+@ FFT1DROPENCL 65536 0.000739201
+        Inverse
+          Time:  0.000922138 s
+        Error: 25300.3
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00139218 s
+@ PRODUCT1DCOPENCL 65536 0.00139218
+
+      OpenCL (4 queues)
+        Time:  0.00162339 s
+@ PRODUCT1DCOPENCLQUEUES 65536 0.00162339
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000968398 s
+@ FFT1DCOPENCL 65536 0.000968398
+        Inverse
+          Time:  0.00106931 s
+        Error: 34755.2
+
+
+Dimensions: 65536 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000950433 s
+@ FFT2DROPENCL 65536 0.000950433
+        Inverse
+          Time:  0.00109009 s
+        Error: 25300.3
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00142268 s
+
+      OpenCL (4 queues)
+        Time:  0.00165286 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00101337 s
+@ FFT2DCOPENCL 65536 0.00101337
+        Inverse
+          Time:  0.00114277 s
+        Error: 34755.2
+
+
+Dimensions: 65536 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00126929 s
+@ FFT3DROPENCL 65536 0.00126929
+        Inverse
+          Time:  0.00117101 s
+        Error: 25300.3
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00105094 s
+@ FFT3DCOPENCL 65536 0.00105094
+        Inverse
+          Time:  0.00121879 s
+        Error: 34755.2
+
+
+====================================
+Dimensions: 65536 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.00141293 s
+@ PRODUCT1DROPENCL 65536 0.00141293
+
+      OpenCL (4 queues)
+        Time:  0.00216431 s
+@ PRODUCT1DROPENCLQUEUES 65536 0.00216431
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000713699 s
+@ FFT1DROPENCL 65536 0.000713699
+        Inverse
+          Time:  0.000882484 s
+        Error: 25300.3
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00138213 s
+@ PRODUCT1DCOPENCL 65536 0.00138213
+
+      OpenCL (4 queues)
+        Time:  0.00162696 s
+@ PRODUCT1DCOPENCLQUEUES 65536 0.00162696
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00098983 s
+@ FFT1DCOPENCL 65536 0.00098983
+        Inverse
+          Time:  0.00106248 s
+        Error: 34755.2
+
+
+Dimensions: 65536 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00095905 s
+@ FFT2DROPENCL 65536 0.00095905
+        Inverse
+          Time:  0.00106221 s
+        Error: 25300.3
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00140075 s
+
+      OpenCL (4 queues)
+        Time:  0.00166294 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0010291 s
+@ FFT2DCOPENCL 65536 0.0010291
+        Inverse
+          Time:  0.00115511 s
+        Error: 34755.2
+
+
+Dimensions: 65536 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00104357 s
+@ FFT3DROPENCL 65536 0.00104357
+        Inverse
+          Time:  0.00111283 s
+        Error: 25300.3
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00106565 s
+@ FFT3DCOPENCL 65536 0.00106565
+        Inverse
+          Time:  0.00124036 s
+        Error: 34755.2
+
+
+====================================
+Dimensions: 65536 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.00245584 s
+@ PRODUCT1DROPENCL 65536 0.00245584
+
+      OpenCL (4 queues)
+        Time:  0.00101647 s
+@ PRODUCT1DROPENCLQUEUES 65536 0.00101647
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000696712 s
+@ FFT1DROPENCL 65536 0.000696712
+        Inverse
+          Time:  0.000909641 s
+        Error: 25300.3
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00143493 s
+@ PRODUCT1DCOPENCL 65536 0.00143493
+
+      OpenCL (4 queues)
+        Time:  0.00218063 s
+@ PRODUCT1DCOPENCLQUEUES 65536 0.00218063
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000993121 s
+@ FFT1DCOPENCL 65536 0.000993121
+        Inverse
+          Time:  0.00109377 s
+        Error: 34755.2
+
+
+Dimensions: 65536 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000962618 s
+@ FFT2DROPENCL 65536 0.000962618
+        Inverse
+          Time:  0.00111233 s
+        Error: 25300.3
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00143786 s
+
+      OpenCL (4 queues)
+        Time:  0.00190084 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00238795 s
+@ FFT2DCOPENCL 65536 0.00238795
+        Inverse
+          Time:  0.00113433 s
+        Error: 34755.2
+
+
+Dimensions: 65536 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00107139 s
+@ FFT3DROPENCL 65536 0.00107139
+        Inverse
+          Time:  0.00112203 s
+        Error: 25300.3
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00106613 s
+@ FFT3DCOPENCL 65536 0.00106613
+        Inverse
+          Time:  0.00124341 s
+        Error: 34755.2
+
+
+====================================
+Dimensions: 65536 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.00143155 s
+@ PRODUCT1DROPENCL 65536 0.00143155
+
+      OpenCL (4 queues)
+        Time:  0.00101841 s
+@ PRODUCT1DROPENCLQUEUES 65536 0.00101841
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000715449 s
+@ FFT1DROPENCL 65536 0.000715449
+        Inverse
+          Time:  0.000927978 s
+        Error: 25300.3
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00143603 s
+@ PRODUCT1DCOPENCL 65536 0.00143603
+
+      OpenCL (4 queues)
+        Time:  0.00163839 s
+@ PRODUCT1DCOPENCLQUEUES 65536 0.00163839
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00102554 s
+@ FFT1DCOPENCL 65536 0.00102554
+        Inverse
+          Time:  0.00109515 s
+        Error: 34755.2
+
+
+Dimensions: 65536 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000968443 s
+@ FFT2DROPENCL 65536 0.000968443
+        Inverse
+          Time:  0.00107351 s
+        Error: 25300.3
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00141385 s
+
+      OpenCL (4 queues)
+        Time:  0.00168325 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00102835 s
+@ FFT2DCOPENCL 65536 0.00102835
+        Inverse
+          Time:  0.00114564 s
+        Error: 34755.2
+
+
+Dimensions: 65536 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0016309 s
+@ FFT3DROPENCL 65536 0.0016309
+        Inverse
+          Time:  0.00112928 s
+        Error: 25300.3
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00105911 s
+@ FFT3DCOPENCL 65536 0.00105911
+        Inverse
+          Time:  0.00155684 s
+        Error: 34755.2
+
+
+====================================
+Dimensions: 65536 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.00146395 s
+@ PRODUCT1DROPENCL 65536 0.00146395
+
+      OpenCL (4 queues)
+        Time:  0.00100233 s
+@ PRODUCT1DROPENCLQUEUES 65536 0.00100233
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000697354 s
+@ FFT1DROPENCL 65536 0.000697354
+        Inverse
+          Time:  0.00090755 s
+        Error: 25300.3
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00140866 s
+@ PRODUCT1DCOPENCL 65536 0.00140866
+
+      OpenCL (4 queues)
+        Time:  0.00162705 s
+@ PRODUCT1DCOPENCLQUEUES 65536 0.00162705
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00100738 s
+@ FFT1DCOPENCL 65536 0.00100738
+        Inverse
+          Time:  0.00107383 s
+        Error: 34755.2
+
+
+Dimensions: 65536 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000983287 s
+@ FFT2DROPENCL 65536 0.000983287
+        Inverse
+          Time:  0.00109519 s
+        Error: 25300.3
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00139631 s
+
+      OpenCL (4 queues)
+        Time:  0.00171673 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00102664 s
+@ FFT2DCOPENCL 65536 0.00102664
+        Inverse
+          Time:  0.00114507 s
+        Error: 34755.2
+
+
+Dimensions: 65536 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00105831 s
+@ FFT3DROPENCL 65536 0.00105831
+        Inverse
+          Time:  0.00111997 s
+        Error: 25300.3
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0010761 s
+@ FFT3DCOPENCL 65536 0.0010761
+        Inverse
+          Time:  0.00123059 s
+        Error: 34755.2
+
+
+====================================
+Dimensions: 65536 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.0014294 s
+@ PRODUCT1DROPENCL 65536 0.0014294
+
+      OpenCL (4 queues)
+        Time:  0.00103313 s
+@ PRODUCT1DROPENCLQUEUES 65536 0.00103313
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000724317 s
+@ FFT1DROPENCL 65536 0.000724317
+        Inverse
+          Time:  0.000900217 s
+        Error: 25300.3
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00142485 s
+@ PRODUCT1DCOPENCL 65536 0.00142485
+
+      OpenCL (4 queues)
+        Time:  0.00161646 s
+@ PRODUCT1DCOPENCLQUEUES 65536 0.00161646
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000989455 s
+@ FFT1DCOPENCL 65536 0.000989455
+        Inverse
+          Time:  0.00108426 s
+        Error: 34755.2
+
+
+Dimensions: 65536 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000955941 s
+@ FFT2DROPENCL 65536 0.000955941
+        Inverse
+          Time:  0.00182273 s
+        Error: 25300.3
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00142624 s
+
+      OpenCL (4 queues)
+        Time:  0.00166887 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00102785 s
+@ FFT2DCOPENCL 65536 0.00102785
+        Inverse
+          Time:  0.00115224 s
+        Error: 34755.2
+
+
+Dimensions: 65536 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00104247 s
+@ FFT3DROPENCL 65536 0.00104247
+        Inverse
+          Time:  0.00110925 s
+        Error: 25300.3
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00107696 s
+@ FFT3DCOPENCL 65536 0.00107696
+        Inverse
+          Time:  0.00123937 s
+        Error: 34755.2
+
+
+====================================
+Dimensions: 65536 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.00142915 s
+@ PRODUCT1DROPENCL 65536 0.00142915
+
+      OpenCL (4 queues)
+        Time:  0.00100847 s
+@ PRODUCT1DROPENCLQUEUES 65536 0.00100847
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.000697961 s
+@ FFT1DROPENCL 65536 0.000697961
+        Inverse
+          Time:  0.000894458 s
+        Error: 25300.3
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00142268 s
+@ PRODUCT1DCOPENCL 65536 0.00142268
+
+      OpenCL (4 queues)
+        Time:  0.00161115 s
+@ PRODUCT1DCOPENCLQUEUES 65536 0.00161115
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.000987183 s
+@ FFT1DCOPENCL 65536 0.000987183
+        Inverse
+          Time:  0.0010768 s
+        Error: 34755.2
+
+
+Dimensions: 65536 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00095867 s
+@ FFT2DROPENCL 65536 0.00095867
+        Inverse
+          Time:  0.00106709 s
+        Error: 25300.3
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.0014111 s
+
+      OpenCL (4 queues)
+        Time:  0.00167133 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0010241 s
+@ FFT2DCOPENCL 65536 0.0010241
+        Inverse
+          Time:  0.00112406 s
+        Error: 34755.2
+
+
+Dimensions: 65536 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0014059 s
+@ FFT3DROPENCL 65536 0.0014059
+        Inverse
+          Time:  0.00110675 s
+        Error: 25300.3
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0010691 s
+@ FFT3DCOPENCL 65536 0.0010691
+        Inverse
+          Time:  0.00123156 s
+        Error: 34755.2
+
+
+====================================
+====================================
+====================================
+Dimensions: 262144 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.0050921 s
+@ PRODUCT1DROPENCL 262144 0.0050921
+
+      OpenCL (4 queues)
+        Time:  0.00318132 s
+@ PRODUCT1DROPENCLQUEUES 262144 0.00318132
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00218158 s
+@ FFT1DROPENCL 262144 0.00218158
+        Inverse
+          Time:  0.00288899 s
+        Error: 101204
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00455552 s
+@ PRODUCT1DCOPENCL 262144 0.00455552
+
+      OpenCL (4 queues)
+        Time:  0.00519398 s
+@ PRODUCT1DCOPENCLQUEUES 262144 0.00519398
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00295413 s
+@ FFT1DCOPENCL 262144 0.00295413
+        Inverse
+          Time:  0.0033806 s
+        Error: 139022
+
+
+Dimensions: 262144 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00313688 s
+@ FFT2DROPENCL 262144 0.00313688
+        Inverse
+          Time:  0.00351161 s
+        Error: 101204
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.004594 s
+
+      OpenCL (4 queues)
+        Time:  0.00519787 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00310473 s
+@ FFT2DCOPENCL 262144 0.00310473
+        Inverse
+          Time:  0.00352557 s
+        Error: 139022
+
+
+Dimensions: 262144 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00340707 s
+@ FFT3DROPENCL 262144 0.00340707
+        Inverse
+          Time:  0.00369712 s
+        Error: 101204
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00315329 s
+@ FFT3DCOPENCL 262144 0.00315329
+        Inverse
+          Time:  0.00384531 s
+        Error: 139022
+
+
+====================================
+Dimensions: 262144 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.00515438 s
+@ PRODUCT1DROPENCL 262144 0.00515438
+
+      OpenCL (4 queues)
+        Time:  0.003159 s
+@ PRODUCT1DROPENCLQUEUES 262144 0.003159
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00220343 s
+@ FFT1DROPENCL 262144 0.00220343
+        Inverse
+          Time:  0.00291454 s
+        Error: 101204
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00452006 s
+@ PRODUCT1DCOPENCL 262144 0.00452006
+
+      OpenCL (4 queues)
+        Time:  0.00520572 s
+@ PRODUCT1DCOPENCLQUEUES 262144 0.00520572
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00290125 s
+@ FFT1DCOPENCL 262144 0.00290125
+        Inverse
+          Time:  0.0032797 s
+        Error: 139022
+
+
+Dimensions: 262144 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00309611 s
+@ FFT2DROPENCL 262144 0.00309611
+        Inverse
+          Time:  0.00353944 s
+        Error: 101204
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00453631 s
+
+      OpenCL (4 queues)
+        Time:  0.00523881 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00316973 s
+@ FFT2DCOPENCL 262144 0.00316973
+        Inverse
+          Time:  0.00350787 s
+        Error: 139022
+
+
+Dimensions: 262144 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0034425 s
+@ FFT3DROPENCL 262144 0.0034425
+        Inverse
+          Time:  0.00380124 s
+        Error: 101204
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00327702 s
+@ FFT3DCOPENCL 262144 0.00327702
+        Inverse
+          Time:  0.00385723 s
+        Error: 139022
+
+
+====================================
+Dimensions: 262144 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.00509428 s
+@ PRODUCT1DROPENCL 262144 0.00509428
+
+      OpenCL (4 queues)
+        Time:  0.00331467 s
+@ PRODUCT1DROPENCLQUEUES 262144 0.00331467
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00218956 s
+@ FFT1DROPENCL 262144 0.00218956
+        Inverse
+          Time:  0.00289208 s
+        Error: 101204
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00463583 s
+@ PRODUCT1DCOPENCL 262144 0.00463583
+
+      OpenCL (4 queues)
+        Time:  0.00534003 s
+@ PRODUCT1DCOPENCLQUEUES 262144 0.00534003
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00294542 s
+@ FFT1DCOPENCL 262144 0.00294542
+        Inverse
+          Time:  0.00332593 s
+        Error: 139022
+
+
+Dimensions: 262144 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00320129 s
+@ FFT2DROPENCL 262144 0.00320129
+        Inverse
+          Time:  0.00354844 s
+        Error: 101204
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00458871 s
+
+      OpenCL (4 queues)
+        Time:  0.00527669 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00309934 s
+@ FFT2DCOPENCL 262144 0.00309934
+        Inverse
+          Time:  0.0035503 s
+        Error: 139022
+
+
+Dimensions: 262144 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00382234 s
+@ FFT3DROPENCL 262144 0.00382234
+        Inverse
+          Time:  0.00369916 s
+        Error: 101204
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0032041 s
+@ FFT3DCOPENCL 262144 0.0032041
+        Inverse
+          Time:  0.00387131 s
+        Error: 139022
+
+
+====================================
+Dimensions: 262144 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.006863 s
+@ PRODUCT1DROPENCL 262144 0.006863
+
+      OpenCL (4 queues)
+        Time:  0.0032301 s
+@ PRODUCT1DROPENCLQUEUES 262144 0.0032301
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00219087 s
+@ FFT1DROPENCL 262144 0.00219087
+        Inverse
+          Time:  0.00290809 s
+        Error: 101204
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00462227 s
+@ PRODUCT1DCOPENCL 262144 0.00462227
+
+      OpenCL (4 queues)
+        Time:  0.00531136 s
+@ PRODUCT1DCOPENCLQUEUES 262144 0.00531136
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00295825 s
+@ FFT1DCOPENCL 262144 0.00295825
+        Inverse
+          Time:  0.00343904 s
+        Error: 139022
+
+
+Dimensions: 262144 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00802651 s
+@ FFT2DROPENCL 262144 0.00802651
+        Inverse
+          Time:  0.00355599 s
+        Error: 101204
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.0046359 s
+
+      OpenCL (4 queues)
+        Time:  0.0052861 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00306592 s
+@ FFT2DCOPENCL 262144 0.00306592
+        Inverse
+          Time:  0.00347045 s
+        Error: 139022
+
+
+Dimensions: 262144 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00518402 s
+@ FFT3DROPENCL 262144 0.00518402
+        Inverse
+          Time:  0.00368457 s
+        Error: 101204
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00322135 s
+@ FFT3DCOPENCL 262144 0.00322135
+        Inverse
+          Time:  0.00388554 s
+        Error: 139022
+
+
+====================================
+Dimensions: 262144 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.00505375 s
+@ PRODUCT1DROPENCL 262144 0.00505375
+
+      OpenCL (4 queues)
+        Time:  0.00316998 s
+@ PRODUCT1DROPENCLQUEUES 262144 0.00316998
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00220483 s
+@ FFT1DROPENCL 262144 0.00220483
+        Inverse
+          Time:  0.00293197 s
+        Error: 101204
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.004541 s
+@ PRODUCT1DCOPENCL 262144 0.004541
+
+      OpenCL (4 queues)
+        Time:  0.00666484 s
+@ PRODUCT1DCOPENCLQUEUES 262144 0.00666484
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0028837 s
+@ FFT1DCOPENCL 262144 0.0028837
+        Inverse
+          Time:  0.00330155 s
+        Error: 139022
+
+
+Dimensions: 262144 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00311929 s
+@ FFT2DROPENCL 262144 0.00311929
+        Inverse
+          Time:  0.00353388 s
+        Error: 101204
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00456136 s
+
+      OpenCL (4 queues)
+        Time:  0.00521283 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00301649 s
+@ FFT2DCOPENCL 262144 0.00301649
+        Inverse
+          Time:  0.00349768 s
+        Error: 139022
+
+
+Dimensions: 262144 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00337824 s
+@ FFT3DROPENCL 262144 0.00337824
+        Inverse
+          Time:  0.00371725 s
+        Error: 101204
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00316801 s
+@ FFT3DCOPENCL 262144 0.00316801
+        Inverse
+          Time:  0.00382704 s
+        Error: 139022
+
+
+====================================
+Dimensions: 262144 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.00511704 s
+@ PRODUCT1DROPENCL 262144 0.00511704
+
+      OpenCL (4 queues)
+        Time:  0.00317263 s
+@ PRODUCT1DROPENCLQUEUES 262144 0.00317263
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00218341 s
+@ FFT1DROPENCL 262144 0.00218341
+        Inverse
+          Time:  0.00291441 s
+        Error: 101204
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00456584 s
+@ PRODUCT1DCOPENCL 262144 0.00456584
+
+      OpenCL (4 queues)
+        Time:  0.00518537 s
+@ PRODUCT1DCOPENCLQUEUES 262144 0.00518537
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00292126 s
+@ FFT1DCOPENCL 262144 0.00292126
+        Inverse
+          Time:  0.00337275 s
+        Error: 139022
+
+
+Dimensions: 262144 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00317877 s
+@ FFT2DROPENCL 262144 0.00317877
+        Inverse
+          Time:  0.00353033 s
+        Error: 101204
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00449357 s
+
+      OpenCL (4 queues)
+        Time:  0.00521906 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00305205 s
+@ FFT2DCOPENCL 262144 0.00305205
+        Inverse
+          Time:  0.00352568 s
+        Error: 139022
+
+
+Dimensions: 262144 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0033964 s
+@ FFT3DROPENCL 262144 0.0033964
+        Inverse
+          Time:  0.0036686 s
+        Error: 101204
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0032322 s
+@ FFT3DCOPENCL 262144 0.0032322
+        Inverse
+          Time:  0.00387316 s
+        Error: 139022
+
+
+====================================
+Dimensions: 262144 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.00504253 s
+@ PRODUCT1DROPENCL 262144 0.00504253
+
+      OpenCL (4 queues)
+        Time:  0.0031674 s
+@ PRODUCT1DROPENCLQUEUES 262144 0.0031674
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00216842 s
+@ FFT1DROPENCL 262144 0.00216842
+        Inverse
+          Time:  0.00290041 s
+        Error: 101204
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00464315 s
+@ PRODUCT1DCOPENCL 262144 0.00464315
+
+      OpenCL (4 queues)
+        Time:  0.00521462 s
+@ PRODUCT1DCOPENCLQUEUES 262144 0.00521462
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0028921 s
+@ FFT1DCOPENCL 262144 0.0028921
+        Inverse
+          Time:  0.00331233 s
+        Error: 139022
+
+
+Dimensions: 262144 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00308719 s
+@ FFT2DROPENCL 262144 0.00308719
+        Inverse
+          Time:  0.00353928 s
+        Error: 101204
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00451824 s
+
+      OpenCL (4 queues)
+        Time:  0.00530949 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00303713 s
+@ FFT2DCOPENCL 262144 0.00303713
+        Inverse
+          Time:  0.00345887 s
+        Error: 139022
+
+
+Dimensions: 262144 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00344301 s
+@ FFT3DROPENCL 262144 0.00344301
+        Inverse
+          Time:  0.00367437 s
+        Error: 101204
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00317636 s
+@ FFT3DCOPENCL 262144 0.00317636
+        Inverse
+          Time:  0.00382482 s
+        Error: 139022
+
+
+====================================
+Dimensions: 262144 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.00518183 s
+@ PRODUCT1DROPENCL 262144 0.00518183
+
+      OpenCL (4 queues)
+        Time:  0.00316381 s
+@ PRODUCT1DROPENCLQUEUES 262144 0.00316381
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00222554 s
+@ FFT1DROPENCL 262144 0.00222554
+        Inverse
+          Time:  0.00289143 s
+        Error: 101204
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00456368 s
+@ PRODUCT1DCOPENCL 262144 0.00456368
+
+      OpenCL (4 queues)
+        Time:  0.00524377 s
+@ PRODUCT1DCOPENCLQUEUES 262144 0.00524377
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00294467 s
+@ FFT1DCOPENCL 262144 0.00294467
+        Inverse
+          Time:  0.00343866 s
+        Error: 139022
+
+
+Dimensions: 262144 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00309166 s
+@ FFT2DROPENCL 262144 0.00309166
+        Inverse
+          Time:  0.00352959 s
+        Error: 101204
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00450106 s
+
+      OpenCL (4 queues)
+        Time:  0.0052308 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00304517 s
+@ FFT2DCOPENCL 262144 0.00304517
+        Inverse
+          Time:  0.00351755 s
+        Error: 139022
+
+
+Dimensions: 262144 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00344567 s
+@ FFT3DROPENCL 262144 0.00344567
+        Inverse
+          Time:  0.00371624 s
+        Error: 101204
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00315419 s
+@ FFT3DCOPENCL 262144 0.00315419
+        Inverse
+          Time:  0.00469122 s
+        Error: 139022
+
+
+====================================
+Dimensions: 262144 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.00518731 s
+@ PRODUCT1DROPENCL 262144 0.00518731
+
+      OpenCL (4 queues)
+        Time:  0.00338779 s
+@ PRODUCT1DROPENCLQUEUES 262144 0.00338779
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00215206 s
+@ FFT1DROPENCL 262144 0.00215206
+        Inverse
+          Time:  0.00288353 s
+        Error: 101204
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00454998 s
+@ PRODUCT1DCOPENCL 262144 0.00454998
+
+      OpenCL (4 queues)
+        Time:  0.00517863 s
+@ PRODUCT1DCOPENCLQUEUES 262144 0.00517863
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00291625 s
+@ FFT1DCOPENCL 262144 0.00291625
+        Inverse
+          Time:  0.00339599 s
+        Error: 139022
+
+
+Dimensions: 262144 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0031168 s
+@ FFT2DROPENCL 262144 0.0031168
+        Inverse
+          Time:  0.00353686 s
+        Error: 101204
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00461897 s
+
+      OpenCL (4 queues)
+        Time:  0.00518477 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00308643 s
+@ FFT2DCOPENCL 262144 0.00308643
+        Inverse
+          Time:  0.00355328 s
+        Error: 139022
+
+
+Dimensions: 262144 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00341355 s
+@ FFT3DROPENCL 262144 0.00341355
+        Inverse
+          Time:  0.0036695 s
+        Error: 101204
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0032017 s
+@ FFT3DCOPENCL 262144 0.0032017
+        Inverse
+          Time:  0.00381987 s
+        Error: 139022
+
+
+====================================
+Dimensions: 262144 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.00504418 s
+@ PRODUCT1DROPENCL 262144 0.00504418
+
+      OpenCL (4 queues)
+        Time:  0.00314527 s
+@ PRODUCT1DROPENCLQUEUES 262144 0.00314527
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00214544 s
+@ FFT1DROPENCL 262144 0.00214544
+        Inverse
+          Time:  0.00291397 s
+        Error: 101204
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00447677 s
+@ PRODUCT1DCOPENCL 262144 0.00447677
+
+      OpenCL (4 queues)
+        Time:  0.0051368 s
+@ PRODUCT1DCOPENCLQUEUES 262144 0.0051368
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0028377 s
+@ FFT1DCOPENCL 262144 0.0028377
+        Inverse
+          Time:  0.00328682 s
+        Error: 139022
+
+
+Dimensions: 262144 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00342306 s
+@ FFT2DROPENCL 262144 0.00342306
+        Inverse
+          Time:  0.0035013 s
+        Error: 101204
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.00445472 s
+
+      OpenCL (4 queues)
+        Time:  0.00513978 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00307961 s
+@ FFT2DCOPENCL 262144 0.00307961
+        Inverse
+          Time:  0.00348055 s
+        Error: 139022
+
+
+Dimensions: 262144 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00338719 s
+@ FFT3DROPENCL 262144 0.00338719
+        Inverse
+          Time:  0.00368751 s
+        Error: 101204
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.00314501 s
+@ FFT3DCOPENCL 262144 0.00314501
+        Inverse
+          Time:  0.00379291 s
+        Error: 139022
+
+
+====================================
+====================================
+====================================
+Dimensions: 1048576 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.0189671 s
+@ PRODUCT1DROPENCL 1048576 0.0189671
+
+      OpenCL (4 queues)
+        Time:  0.0102609 s
+@ PRODUCT1DROPENCLQUEUES 1048576 0.0102609
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00722363 s
+@ FFT1DROPENCL 1048576 0.00722363
+        Inverse
+          Time:  0.00996344 s
+        Error: 404820
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.0153659 s
+@ PRODUCT1DCOPENCL 1048576 0.0153659
+
+      OpenCL (4 queues)
+        Time:  0.0233322 s
+@ PRODUCT1DCOPENCLQUEUES 1048576 0.0233322
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0106117 s
+@ FFT1DCOPENCL 1048576 0.0106117
+        Inverse
+          Time:  0.0122516 s
+        Error: 556091
+
+
+Dimensions: 1048576 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0114823 s
+@ FFT2DROPENCL 1048576 0.0114823
+        Inverse
+          Time:  0.0133417 s
+        Error: 404820
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.0152683 s
+
+      OpenCL (4 queues)
+        Time:  0.0181377 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0112792 s
+@ FFT2DCOPENCL 1048576 0.0112792
+        Inverse
+          Time:  0.01258 s
+        Error: 556091
+
+
+Dimensions: 1048576 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0126701 s
+@ FFT3DROPENCL 1048576 0.0126701
+        Inverse
+          Time:  0.0137902 s
+        Error: 404820
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0115602 s
+@ FFT3DCOPENCL 1048576 0.0115602
+        Inverse
+          Time:  0.0138675 s
+        Error: 556091
+
+
+====================================
+Dimensions: 1048576 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.0190578 s
+@ PRODUCT1DROPENCL 1048576 0.0190578
+
+      OpenCL (4 queues)
+        Time:  0.0100533 s
+@ PRODUCT1DROPENCLQUEUES 1048576 0.0100533
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00722641 s
+@ FFT1DROPENCL 1048576 0.00722641
+        Inverse
+          Time:  0.00998629 s
+        Error: 404820
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.0150943 s
+@ PRODUCT1DCOPENCL 1048576 0.0150943
+
+      OpenCL (4 queues)
+        Time:  0.0246581 s
+@ PRODUCT1DCOPENCLQUEUES 1048576 0.0246581
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0105146 s
+@ FFT1DCOPENCL 1048576 0.0105146
+        Inverse
+          Time:  0.0121289 s
+        Error: 556091
+
+
+Dimensions: 1048576 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0119968 s
+@ FFT2DROPENCL 1048576 0.0119968
+        Inverse
+          Time:  0.0132002 s
+        Error: 404820
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.0149994 s
+
+      OpenCL (4 queues)
+        Time:  0.0168073 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0108079 s
+@ FFT2DCOPENCL 1048576 0.0108079
+        Inverse
+          Time:  0.0123982 s
+        Error: 556091
+
+
+Dimensions: 1048576 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0140724 s
+@ FFT3DROPENCL 1048576 0.0140724
+        Inverse
+          Time:  0.0137464 s
+        Error: 404820
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0114208 s
+@ FFT3DCOPENCL 1048576 0.0114208
+        Inverse
+          Time:  0.0138179 s
+        Error: 556091
+
+
+====================================
+Dimensions: 1048576 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.0183137 s
+@ PRODUCT1DROPENCL 1048576 0.0183137
+
+      OpenCL (4 queues)
+        Time:  0.0100957 s
+@ PRODUCT1DROPENCLQUEUES 1048576 0.0100957
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00834859 s
+@ FFT1DROPENCL 1048576 0.00834859
+        Inverse
+          Time:  0.00989731 s
+        Error: 404820
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.016149 s
+@ PRODUCT1DCOPENCL 1048576 0.016149
+
+      OpenCL (4 queues)
+        Time:  0.0231394 s
+@ PRODUCT1DCOPENCLQUEUES 1048576 0.0231394
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0107265 s
+@ FFT1DCOPENCL 1048576 0.0107265
+        Inverse
+          Time:  0.0133645 s
+        Error: 556091
+
+
+Dimensions: 1048576 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0115102 s
+@ FFT2DROPENCL 1048576 0.0115102
+        Inverse
+          Time:  0.0133251 s
+        Error: 404820
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.0149692 s
+
+      OpenCL (4 queues)
+        Time:  0.0171304 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0113763 s
+@ FFT2DCOPENCL 1048576 0.0113763
+        Inverse
+          Time:  0.0125408 s
+        Error: 556091
+
+
+Dimensions: 1048576 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0126704 s
+@ FFT3DROPENCL 1048576 0.0126704
+        Inverse
+          Time:  0.0138461 s
+        Error: 404820
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0114506 s
+@ FFT3DCOPENCL 1048576 0.0114506
+        Inverse
+          Time:  0.0139079 s
+        Error: 556091
+
+
+====================================
+Dimensions: 1048576 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.0183761 s
+@ PRODUCT1DROPENCL 1048576 0.0183761
+
+      OpenCL (4 queues)
+        Time:  0.0100163 s
+@ PRODUCT1DROPENCLQUEUES 1048576 0.0100163
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00719484 s
+@ FFT1DROPENCL 1048576 0.00719484
+        Inverse
+          Time:  0.0116088 s
+        Error: 404820
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.0149985 s
+@ PRODUCT1DCOPENCL 1048576 0.0149985
+
+      OpenCL (4 queues)
+        Time:  0.0247368 s
+@ PRODUCT1DCOPENCLQUEUES 1048576 0.0247368
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0105838 s
+@ FFT1DCOPENCL 1048576 0.0105838
+        Inverse
+          Time:  0.0121227 s
+        Error: 556091
+
+
+Dimensions: 1048576 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0114961 s
+@ FFT2DROPENCL 1048576 0.0114961
+        Inverse
+          Time:  0.0132326 s
+        Error: 404820
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.0150127 s
+
+      OpenCL (4 queues)
+        Time:  0.0177406 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0111253 s
+@ FFT2DCOPENCL 1048576 0.0111253
+        Inverse
+          Time:  0.0125264 s
+        Error: 556091
+
+
+Dimensions: 1048576 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0141921 s
+@ FFT3DROPENCL 1048576 0.0141921
+        Inverse
+          Time:  0.0137678 s
+        Error: 404820
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0114138 s
+@ FFT3DCOPENCL 1048576 0.0114138
+        Inverse
+          Time:  0.014236 s
+        Error: 556091
+
+
+====================================
+Dimensions: 1048576 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.0188586 s
+@ PRODUCT1DROPENCL 1048576 0.0188586
+
+      OpenCL (4 queues)
+        Time:  0.0102947 s
+@ PRODUCT1DROPENCLQUEUES 1048576 0.0102947
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00718377 s
+@ FFT1DROPENCL 1048576 0.00718377
+        Inverse
+          Time:  0.00995012 s
+        Error: 404820
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.0153767 s
+@ PRODUCT1DCOPENCL 1048576 0.0153767
+
+      OpenCL (4 queues)
+        Time:  0.0233686 s
+@ PRODUCT1DCOPENCLQUEUES 1048576 0.0233686
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0110851 s
+@ FFT1DCOPENCL 1048576 0.0110851
+        Inverse
+          Time:  0.0122174 s
+        Error: 556091
+
+
+Dimensions: 1048576 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0124195 s
+@ FFT2DROPENCL 1048576 0.0124195
+        Inverse
+          Time:  0.0135739 s
+        Error: 404820
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.0154752 s
+
+      OpenCL (4 queues)
+        Time:  0.0171367 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0113224 s
+@ FFT2DCOPENCL 1048576 0.0113224
+        Inverse
+          Time:  0.0131115 s
+        Error: 556091
+
+
+Dimensions: 1048576 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0131116 s
+@ FFT3DROPENCL 1048576 0.0131116
+        Inverse
+          Time:  0.014361 s
+        Error: 404820
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0115536 s
+@ FFT3DCOPENCL 1048576 0.0115536
+        Inverse
+          Time:  0.0142592 s
+        Error: 556091
+
+
+====================================
+Dimensions: 1048576 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.0186952 s
+@ PRODUCT1DROPENCL 1048576 0.0186952
+
+      OpenCL (4 queues)
+        Time:  0.0101968 s
+@ PRODUCT1DROPENCLQUEUES 1048576 0.0101968
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0085869 s
+@ FFT1DROPENCL 1048576 0.0085869
+        Inverse
+          Time:  0.00989219 s
+        Error: 404820
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.0174147 s
+@ PRODUCT1DCOPENCL 1048576 0.0174147
+
+      OpenCL (4 queues)
+        Time:  0.023283 s
+@ PRODUCT1DCOPENCLQUEUES 1048576 0.023283
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0105536 s
+@ FFT1DCOPENCL 1048576 0.0105536
+        Inverse
+          Time:  0.0122063 s
+        Error: 556091
+
+
+Dimensions: 1048576 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0115323 s
+@ FFT2DROPENCL 1048576 0.0115323
+        Inverse
+          Time:  0.0133473 s
+        Error: 404820
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.015116 s
+
+      OpenCL (4 queues)
+        Time:  0.0168139 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.011179 s
+@ FFT2DCOPENCL 1048576 0.011179
+        Inverse
+          Time:  0.0125527 s
+        Error: 556091
+
+
+Dimensions: 1048576 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0125544 s
+@ FFT3DROPENCL 1048576 0.0125544
+        Inverse
+          Time:  0.0139031 s
+        Error: 404820
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0115066 s
+@ FFT3DCOPENCL 1048576 0.0115066
+        Inverse
+          Time:  0.0139044 s
+        Error: 556091
+
+
+====================================
+Dimensions: 1048576 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.0186853 s
+@ PRODUCT1DROPENCL 1048576 0.0186853
+
+      OpenCL (4 queues)
+        Time:  0.0102592 s
+@ PRODUCT1DROPENCLQUEUES 1048576 0.0102592
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00728543 s
+@ FFT1DROPENCL 1048576 0.00728543
+        Inverse
+          Time:  0.0100209 s
+        Error: 404820
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.0158518 s
+@ PRODUCT1DCOPENCL 1048576 0.0158518
+
+      OpenCL (4 queues)
+        Time:  0.0235006 s
+@ PRODUCT1DCOPENCLQUEUES 1048576 0.0235006
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0105835 s
+@ FFT1DCOPENCL 1048576 0.0105835
+        Inverse
+          Time:  0.0122244 s
+        Error: 556091
+
+
+Dimensions: 1048576 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0117763 s
+@ FFT2DROPENCL 1048576 0.0117763
+        Inverse
+          Time:  0.013451 s
+        Error: 404820
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.0154131 s
+
+      OpenCL (4 queues)
+        Time:  0.0171418 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0119435 s
+@ FFT2DCOPENCL 1048576 0.0119435
+        Inverse
+          Time:  0.013454 s
+        Error: 556091
+
+
+Dimensions: 1048576 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0127861 s
+@ FFT3DROPENCL 1048576 0.0127861
+        Inverse
+          Time:  0.0148748 s
+        Error: 404820
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0115243 s
+@ FFT3DCOPENCL 1048576 0.0115243
+        Inverse
+          Time:  0.0138573 s
+        Error: 556091
+
+
+====================================
+Dimensions: 1048576 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.018691 s
+@ PRODUCT1DROPENCL 1048576 0.018691
+
+      OpenCL (4 queues)
+        Time:  0.0103793 s
+@ PRODUCT1DROPENCLQUEUES 1048576 0.0103793
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00721631 s
+@ FFT1DROPENCL 1048576 0.00721631
+        Inverse
+          Time:  0.0100034 s
+        Error: 404820
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.0160588 s
+@ PRODUCT1DCOPENCL 1048576 0.0160588
+
+      OpenCL (4 queues)
+        Time:  0.0232564 s
+@ PRODUCT1DCOPENCLQUEUES 1048576 0.0232564
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0108193 s
+@ FFT1DCOPENCL 1048576 0.0108193
+        Inverse
+          Time:  0.0120019 s
+        Error: 556091
+
+
+Dimensions: 1048576 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0115631 s
+@ FFT2DROPENCL 1048576 0.0115631
+        Inverse
+          Time:  0.014313 s
+        Error: 404820
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.0165898 s
+
+      OpenCL (4 queues)
+        Time:  0.0167228 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0111495 s
+@ FFT2DCOPENCL 1048576 0.0111495
+        Inverse
+          Time:  0.0127988 s
+        Error: 556091
+
+
+Dimensions: 1048576 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0127042 s
+@ FFT3DROPENCL 1048576 0.0127042
+        Inverse
+          Time:  0.0139183 s
+        Error: 404820
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0116393 s
+@ FFT3DCOPENCL 1048576 0.0116393
+        Inverse
+          Time:  0.0142987 s
+        Error: 556091
+
+
+====================================
+Dimensions: 1048576 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.0184204 s
+@ PRODUCT1DROPENCL 1048576 0.0184204
+
+      OpenCL (4 queues)
+        Time:  0.0102228 s
+@ PRODUCT1DROPENCLQUEUES 1048576 0.0102228
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00722091 s
+@ FFT1DROPENCL 1048576 0.00722091
+        Inverse
+          Time:  0.00998459 s
+        Error: 404820
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.0152726 s
+@ PRODUCT1DCOPENCL 1048576 0.0152726
+
+      OpenCL (4 queues)
+        Time:  0.0231842 s
+@ PRODUCT1DCOPENCLQUEUES 1048576 0.0231842
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0108826 s
+@ FFT1DCOPENCL 1048576 0.0108826
+        Inverse
+          Time:  0.0121535 s
+        Error: 556091
+
+
+Dimensions: 1048576 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0115 s
+@ FFT2DROPENCL 1048576 0.0115
+        Inverse
+          Time:  0.0133238 s
+        Error: 404820
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.0150998 s
+
+      OpenCL (4 queues)
+        Time:  0.0167903 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0111383 s
+@ FFT2DCOPENCL 1048576 0.0111383
+        Inverse
+          Time:  0.0127299 s
+        Error: 556091
+
+
+Dimensions: 1048576 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0125603 s
+@ FFT3DROPENCL 1048576 0.0125603
+        Inverse
+          Time:  0.0138716 s
+        Error: 404820
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0113968 s
+@ FFT3DCOPENCL 1048576 0.0113968
+        Inverse
+          Time:  0.0140596 s
+        Error: 556091
+
+
+====================================
+Dimensions: 1048576 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.0185433 s
+@ PRODUCT1DROPENCL 1048576 0.0185433
+
+      OpenCL (4 queues)
+        Time:  0.0101763 s
+@ PRODUCT1DROPENCLQUEUES 1048576 0.0101763
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.00722231 s
+@ FFT1DROPENCL 1048576 0.00722231
+        Inverse
+          Time:  0.00995797 s
+        Error: 404820
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.0152909 s
+@ PRODUCT1DCOPENCL 1048576 0.0152909
+
+      OpenCL (4 queues)
+        Time:  0.0231073 s
+@ PRODUCT1DCOPENCLQUEUES 1048576 0.0231073
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0106317 s
+@ FFT1DCOPENCL 1048576 0.0106317
+        Inverse
+          Time:  0.0121641 s
+        Error: 556091
+
+
+Dimensions: 1048576 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0114465 s
+@ FFT2DROPENCL 1048576 0.0114465
+        Inverse
+          Time:  0.0139464 s
+        Error: 404820
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.0162569 s
+
+      OpenCL (4 queues)
+        Time:  0.0167295 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.010931 s
+@ FFT2DCOPENCL 1048576 0.010931
+        Inverse
+          Time:  0.0124705 s
+        Error: 556091
+
+
+Dimensions: 1048576 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0137764 s
+@ FFT3DROPENCL 1048576 0.0137764
+        Inverse
+          Time:  0.0138619 s
+        Error: 404820
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0113682 s
+@ FFT3DCOPENCL 1048576 0.0113682
+        Inverse
+          Time:  0.0154428 s
+        Error: 556091
+
+
+====================================
+====================================
+====================================
+Dimensions: 4194304 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.0734565 s
+@ PRODUCT1DROPENCL 4194304 0.0734565
+
+      OpenCL (4 queues)
+        Time:  0.0663679 s
+@ PRODUCT1DROPENCLQUEUES 4194304 0.0663679
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0360393 s
+@ FFT1DROPENCL 4194304 0.0360393
+        Inverse
+          Time:  0.046904 s
+        Error: 1.61928e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.112542 s
+@ PRODUCT1DCOPENCL 4194304 0.112542
+
+      OpenCL (4 queues)
+        Time:  0.113053 s
+@ PRODUCT1DCOPENCLQUEUES 4194304 0.113053
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0555324 s
+@ FFT1DCOPENCL 4194304 0.0555324
+        Inverse
+          Time:  0.0626282 s
+        Error: 2.22437e+06
+
+
+Dimensions: 4194304 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0655193 s
+@ FFT2DROPENCL 4194304 0.0655193
+        Inverse
+          Time:  0.0776558 s
+        Error: 1.61928e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.11167 s
+
+      OpenCL (4 queues)
+        Time:  0.113561 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.057256 s
+@ FFT2DCOPENCL 4194304 0.057256
+        Inverse
+          Time:  0.0675727 s
+        Error: 2.22437e+06
+
+
+Dimensions: 4194304 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0712822 s
+@ FFT3DROPENCL 4194304 0.0712822
+        Inverse
+          Time:  0.0807682 s
+        Error: 1.61928e+06
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0611411 s
+@ FFT3DCOPENCL 4194304 0.0611411
+        Inverse
+          Time:  0.0732029 s
+        Error: 2.22437e+06
+
+
+====================================
+Dimensions: 4194304 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.0724905 s
+@ PRODUCT1DROPENCL 4194304 0.0724905
+
+      OpenCL (4 queues)
+        Time:  0.0664564 s
+@ PRODUCT1DROPENCLQUEUES 4194304 0.0664564
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0363996 s
+@ FFT1DROPENCL 4194304 0.0363996
+        Inverse
+          Time:  0.047777 s
+        Error: 1.61928e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.111353 s
+@ PRODUCT1DCOPENCL 4194304 0.111353
+
+      OpenCL (4 queues)
+        Time:  0.112893 s
+@ PRODUCT1DCOPENCLQUEUES 4194304 0.112893
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0566968 s
+@ FFT1DCOPENCL 4194304 0.0566968
+        Inverse
+          Time:  0.0657298 s
+        Error: 2.22437e+06
+
+
+Dimensions: 4194304 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0667517 s
+@ FFT2DROPENCL 4194304 0.0667517
+        Inverse
+          Time:  0.0788742 s
+        Error: 1.61928e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.112424 s
+
+      OpenCL (4 queues)
+        Time:  0.113254 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0583771 s
+@ FFT2DCOPENCL 4194304 0.0583771
+        Inverse
+          Time:  0.0689184 s
+        Error: 2.22437e+06
+
+
+Dimensions: 4194304 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0710044 s
+@ FFT3DROPENCL 4194304 0.0710044
+        Inverse
+          Time:  0.0813224 s
+        Error: 1.61928e+06
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0605704 s
+@ FFT3DCOPENCL 4194304 0.0605704
+        Inverse
+          Time:  0.0727264 s
+        Error: 2.22437e+06
+
+
+====================================
+Dimensions: 4194304 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.0728357 s
+@ PRODUCT1DROPENCL 4194304 0.0728357
+
+      OpenCL (4 queues)
+        Time:  0.0670652 s
+@ PRODUCT1DROPENCLQUEUES 4194304 0.0670652
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0368874 s
+@ FFT1DROPENCL 4194304 0.0368874
+        Inverse
+          Time:  0.0478858 s
+        Error: 1.61928e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.115018 s
+@ PRODUCT1DCOPENCL 4194304 0.115018
+
+      OpenCL (4 queues)
+        Time:  0.114015 s
+@ PRODUCT1DCOPENCLQUEUES 4194304 0.114015
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.058215 s
+@ FFT1DCOPENCL 4194304 0.058215
+        Inverse
+          Time:  0.0647152 s
+        Error: 2.22437e+06
+
+
+Dimensions: 4194304 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0665665 s
+@ FFT2DROPENCL 4194304 0.0665665
+        Inverse
+          Time:  0.0800433 s
+        Error: 1.61928e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.110555 s
+
+      OpenCL (4 queues)
+        Time:  0.112833 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0577407 s
+@ FFT2DCOPENCL 4194304 0.0577407
+        Inverse
+          Time:  0.0671582 s
+        Error: 2.22437e+06
+
+
+Dimensions: 4194304 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0715005 s
+@ FFT3DROPENCL 4194304 0.0715005
+        Inverse
+          Time:  0.0818635 s
+        Error: 1.61928e+06
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0607075 s
+@ FFT3DCOPENCL 4194304 0.0607075
+        Inverse
+          Time:  0.0722595 s
+        Error: 2.22437e+06
+
+
+====================================
+Dimensions: 4194304 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.0734223 s
+@ PRODUCT1DROPENCL 4194304 0.0734223
+
+      OpenCL (4 queues)
+        Time:  0.0678646 s
+@ PRODUCT1DROPENCLQUEUES 4194304 0.0678646
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0362798 s
+@ FFT1DROPENCL 4194304 0.0362798
+        Inverse
+          Time:  0.0477057 s
+        Error: 1.61928e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.112361 s
+@ PRODUCT1DCOPENCL 4194304 0.112361
+
+      OpenCL (4 queues)
+        Time:  0.113809 s
+@ PRODUCT1DCOPENCLQUEUES 4194304 0.113809
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0574371 s
+@ FFT1DCOPENCL 4194304 0.0574371
+        Inverse
+          Time:  0.0643002 s
+        Error: 2.22437e+06
+
+
+Dimensions: 4194304 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0673434 s
+@ FFT2DROPENCL 4194304 0.0673434
+        Inverse
+          Time:  0.0794101 s
+        Error: 1.61928e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.112614 s
+
+      OpenCL (4 queues)
+        Time:  0.114736 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.059036 s
+@ FFT2DCOPENCL 4194304 0.059036
+        Inverse
+          Time:  0.0670822 s
+        Error: 2.22437e+06
+
+
+Dimensions: 4194304 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0716799 s
+@ FFT3DROPENCL 4194304 0.0716799
+        Inverse
+          Time:  0.0813416 s
+        Error: 1.61928e+06
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0612916 s
+@ FFT3DCOPENCL 4194304 0.0612916
+        Inverse
+          Time:  0.0733229 s
+        Error: 2.22437e+06
+
+
+====================================
+Dimensions: 4194304 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.0731582 s
+@ PRODUCT1DROPENCL 4194304 0.0731582
+
+      OpenCL (4 queues)
+        Time:  0.0685674 s
+@ PRODUCT1DROPENCLQUEUES 4194304 0.0685674
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0363318 s
+@ FFT1DROPENCL 4194304 0.0363318
+        Inverse
+          Time:  0.0476895 s
+        Error: 1.61928e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.112135 s
+@ PRODUCT1DCOPENCL 4194304 0.112135
+
+      OpenCL (4 queues)
+        Time:  0.113568 s
+@ PRODUCT1DCOPENCLQUEUES 4194304 0.113568
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0576932 s
+@ FFT1DCOPENCL 4194304 0.0576932
+        Inverse
+          Time:  0.064697 s
+        Error: 2.22437e+06
+
+
+Dimensions: 4194304 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0670275 s
+@ FFT2DROPENCL 4194304 0.0670275
+        Inverse
+          Time:  0.0795318 s
+        Error: 1.61928e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.112319 s
+
+      OpenCL (4 queues)
+        Time:  0.113995 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0586089 s
+@ FFT2DCOPENCL 4194304 0.0586089
+        Inverse
+          Time:  0.0675344 s
+        Error: 2.22437e+06
+
+
+Dimensions: 4194304 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0713855 s
+@ FFT3DROPENCL 4194304 0.0713855
+        Inverse
+          Time:  0.0822152 s
+        Error: 1.61928e+06
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0612073 s
+@ FFT3DCOPENCL 4194304 0.0612073
+        Inverse
+          Time:  0.0733296 s
+        Error: 2.22437e+06
+
+
+====================================
+Dimensions: 4194304 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.0729865 s
+@ PRODUCT1DROPENCL 4194304 0.0729865
+
+      OpenCL (4 queues)
+        Time:  0.0669069 s
+@ PRODUCT1DROPENCLQUEUES 4194304 0.0669069
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0363376 s
+@ FFT1DROPENCL 4194304 0.0363376
+        Inverse
+          Time:  0.0489114 s
+        Error: 1.61928e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.112317 s
+@ PRODUCT1DCOPENCL 4194304 0.112317
+
+      OpenCL (4 queues)
+        Time:  0.113733 s
+@ PRODUCT1DCOPENCLQUEUES 4194304 0.113733
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0575746 s
+@ FFT1DCOPENCL 4194304 0.0575746
+        Inverse
+          Time:  0.0646952 s
+        Error: 2.22437e+06
+
+
+Dimensions: 4194304 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0671004 s
+@ FFT2DROPENCL 4194304 0.0671004
+        Inverse
+          Time:  0.0791227 s
+        Error: 1.61928e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.112743 s
+
+      OpenCL (4 queues)
+        Time:  0.113673 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0590097 s
+@ FFT2DCOPENCL 4194304 0.0590097
+        Inverse
+          Time:  0.0674562 s
+        Error: 2.22437e+06
+
+
+Dimensions: 4194304 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.071324 s
+@ FFT3DROPENCL 4194304 0.071324
+        Inverse
+          Time:  0.0811562 s
+        Error: 1.61928e+06
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0607869 s
+@ FFT3DCOPENCL 4194304 0.0607869
+        Inverse
+          Time:  0.0734134 s
+        Error: 2.22437e+06
+
+
+====================================
+Dimensions: 4194304 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.0727745 s
+@ PRODUCT1DROPENCL 4194304 0.0727745
+
+      OpenCL (4 queues)
+        Time:  0.0667824 s
+@ PRODUCT1DROPENCLQUEUES 4194304 0.0667824
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0365295 s
+@ FFT1DROPENCL 4194304 0.0365295
+        Inverse
+          Time:  0.0493383 s
+        Error: 1.61928e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.111958 s
+@ PRODUCT1DCOPENCL 4194304 0.111958
+
+      OpenCL (4 queues)
+        Time:  0.113577 s
+@ PRODUCT1DCOPENCLQUEUES 4194304 0.113577
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0571181 s
+@ FFT1DCOPENCL 4194304 0.0571181
+        Inverse
+          Time:  0.0649608 s
+        Error: 2.22437e+06
+
+
+Dimensions: 4194304 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0668307 s
+@ FFT2DROPENCL 4194304 0.0668307
+        Inverse
+          Time:  0.0800719 s
+        Error: 1.61928e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.112195 s
+
+      OpenCL (4 queues)
+        Time:  0.113007 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0586895 s
+@ FFT2DCOPENCL 4194304 0.0586895
+        Inverse
+          Time:  0.067256 s
+        Error: 2.22437e+06
+
+
+Dimensions: 4194304 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0714653 s
+@ FFT3DROPENCL 4194304 0.0714653
+        Inverse
+          Time:  0.0816524 s
+        Error: 1.61928e+06
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0614586 s
+@ FFT3DCOPENCL 4194304 0.0614586
+        Inverse
+          Time:  0.0725435 s
+        Error: 2.22437e+06
+
+
+====================================
+Dimensions: 4194304 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.0729683 s
+@ PRODUCT1DROPENCL 4194304 0.0729683
+
+      OpenCL (4 queues)
+        Time:  0.067393 s
+@ PRODUCT1DROPENCLQUEUES 4194304 0.067393
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0363512 s
+@ FFT1DROPENCL 4194304 0.0363512
+        Inverse
+          Time:  0.0472946 s
+        Error: 1.61928e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.112606 s
+@ PRODUCT1DCOPENCL 4194304 0.112606
+
+      OpenCL (4 queues)
+        Time:  0.113521 s
+@ PRODUCT1DCOPENCLQUEUES 4194304 0.113521
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0575091 s
+@ FFT1DCOPENCL 4194304 0.0575091
+        Inverse
+          Time:  0.0648434 s
+        Error: 2.22437e+06
+
+
+Dimensions: 4194304 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0674164 s
+@ FFT2DROPENCL 4194304 0.0674164
+        Inverse
+          Time:  0.0796161 s
+        Error: 1.61928e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.11269 s
+
+      OpenCL (4 queues)
+        Time:  0.113662 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0583179 s
+@ FFT2DCOPENCL 4194304 0.0583179
+        Inverse
+          Time:  0.0667256 s
+        Error: 2.22437e+06
+
+
+Dimensions: 4194304 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0713148 s
+@ FFT3DROPENCL 4194304 0.0713148
+        Inverse
+          Time:  0.0810998 s
+        Error: 1.61928e+06
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0608296 s
+@ FFT3DCOPENCL 4194304 0.0608296
+        Inverse
+          Time:  0.0729878 s
+        Error: 2.22437e+06
+
+
+====================================
+Dimensions: 4194304 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.073187 s
+@ PRODUCT1DROPENCL 4194304 0.073187
+
+      OpenCL (4 queues)
+        Time:  0.0676308 s
+@ PRODUCT1DROPENCLQUEUES 4194304 0.0676308
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0361089 s
+@ FFT1DROPENCL 4194304 0.0361089
+        Inverse
+          Time:  0.0486737 s
+        Error: 1.61928e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.1127 s
+@ PRODUCT1DCOPENCL 4194304 0.1127
+
+      OpenCL (4 queues)
+        Time:  0.113828 s
+@ PRODUCT1DCOPENCLQUEUES 4194304 0.113828
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0572315 s
+@ FFT1DCOPENCL 4194304 0.0572315
+        Inverse
+          Time:  0.0642347 s
+        Error: 2.22437e+06
+
+
+Dimensions: 4194304 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0671271 s
+@ FFT2DROPENCL 4194304 0.0671271
+        Inverse
+          Time:  0.0791035 s
+        Error: 1.61928e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.112304 s
+
+      OpenCL (4 queues)
+        Time:  0.115202 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0589452 s
+@ FFT2DCOPENCL 4194304 0.0589452
+        Inverse
+          Time:  0.0669478 s
+        Error: 2.22437e+06
+
+
+Dimensions: 4194304 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0712946 s
+@ FFT3DROPENCL 4194304 0.0712946
+        Inverse
+          Time:  0.0811803 s
+        Error: 1.61928e+06
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0611174 s
+@ FFT3DCOPENCL 4194304 0.0611174
+        Inverse
+          Time:  0.0735212 s
+        Error: 2.22437e+06
+
+
+====================================
+Dimensions: 4194304 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.0731539 s
+@ PRODUCT1DROPENCL 4194304 0.0731539
+
+      OpenCL (4 queues)
+        Time:  0.0670133 s
+@ PRODUCT1DROPENCLQUEUES 4194304 0.0670133
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0363111 s
+@ FFT1DROPENCL 4194304 0.0363111
+        Inverse
+          Time:  0.0477016 s
+        Error: 1.61928e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.112435 s
+@ PRODUCT1DCOPENCL 4194304 0.112435
+
+      OpenCL (4 queues)
+        Time:  0.113687 s
+@ PRODUCT1DCOPENCLQUEUES 4194304 0.113687
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0574682 s
+@ FFT1DCOPENCL 4194304 0.0574682
+        Inverse
+          Time:  0.065082 s
+        Error: 2.22437e+06
+
+
+Dimensions: 4194304 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0669068 s
+@ FFT2DROPENCL 4194304 0.0669068
+        Inverse
+          Time:  0.0795722 s
+        Error: 1.61928e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.113153 s
+
+      OpenCL (4 queues)
+        Time:  0.11332 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.0595773 s
+@ FFT2DCOPENCL 4194304 0.0595773
+        Inverse
+          Time:  0.0673277 s
+        Error: 2.22437e+06
+
+
+Dimensions: 4194304 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0719614 s
+@ FFT3DROPENCL 4194304 0.0719614
+        Inverse
+          Time:  0.0812073 s
+        Error: 1.61928e+06
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.0607418 s
+@ FFT3DCOPENCL 4194304 0.0607418
+        Inverse
+          Time:  0.0739853 s
+        Error: 2.22437e+06
+
+
+====================================
+====================================
+====================================
+Dimensions: 16777216 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.28267 s
+@ PRODUCT1DROPENCL 16777216 0.28267
+
+      OpenCL (4 queues)
+        Time:  0.257579 s
+@ PRODUCT1DROPENCLQUEUES 16777216 0.257579
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.126021 s
+@ FFT1DROPENCL 16777216 0.126021
+        Inverse
+          Time:  0.170644 s
+        Error: 6.29146e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.439152 s
+@ PRODUCT1DCOPENCL 16777216 0.439152
+
+      OpenCL (4 queues)
+        Time:  0.440113 s
+@ PRODUCT1DCOPENCLQUEUES 16777216 0.440113
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.221798 s
+@ FFT1DCOPENCL 16777216 0.221798
+        Inverse
+          Time:  0.248359 s
+        Error: 8.89746e+06
+
+
+Dimensions: 16777216 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.236118 s
+@ FFT2DROPENCL 16777216 0.236118
+        Inverse
+          Time:  0.283701 s
+        Error: 6.29146e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.440658 s
+
+      OpenCL (4 queues)
+        Time:  0.440046 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.228055 s
+@ FFT2DCOPENCL 16777216 0.228055
+        Inverse
+          Time:  0.263665 s
+        Error: 8.89746e+06
+
+
+Dimensions: 16777216 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.251685 s
+@ FFT3DROPENCL 16777216 0.251685
+        Inverse
+          Time:  0.294212 s
+        Error: 6.29146e+06
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.236271 s
+@ FFT3DCOPENCL 16777216 0.236271
+        Inverse
+          Time:  0.284846 s
+        Error: 8.89746e+06
+
+
+====================================
+Dimensions: 16777216 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.283286 s
+@ PRODUCT1DROPENCL 16777216 0.283286
+
+      OpenCL (4 queues)
+        Time:  0.260519 s
+@ PRODUCT1DROPENCLQUEUES 16777216 0.260519
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.126932 s
+@ FFT1DROPENCL 16777216 0.126932
+        Inverse
+          Time:  0.17 s
+        Error: 6.29146e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.437392 s
+@ PRODUCT1DCOPENCL 16777216 0.437392
+
+      OpenCL (4 queues)
+        Time:  0.438873 s
+@ PRODUCT1DCOPENCLQUEUES 16777216 0.438873
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.219904 s
+@ FFT1DCOPENCL 16777216 0.219904
+        Inverse
+          Time:  0.247014 s
+        Error: 8.89746e+06
+
+
+Dimensions: 16777216 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.236226 s
+@ FFT2DROPENCL 16777216 0.236226
+        Inverse
+          Time:  0.284095 s
+        Error: 6.29146e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.438999 s
+
+      OpenCL (4 queues)
+        Time:  0.440878 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.231249 s
+@ FFT2DCOPENCL 16777216 0.231249
+        Inverse
+          Time:  0.25971 s
+        Error: 8.89746e+06
+
+
+Dimensions: 16777216 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.251692 s
+@ FFT3DROPENCL 16777216 0.251692
+        Inverse
+          Time:  0.293581 s
+        Error: 6.29146e+06
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.241662 s
+@ FFT3DCOPENCL 16777216 0.241662
+        Inverse
+          Time:  0.285059 s
+        Error: 8.89746e+06
+
+
+====================================
+Dimensions: 16777216 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.286042 s
+@ PRODUCT1DROPENCL 16777216 0.286042
+
+      OpenCL (4 queues)
+        Time:  0.260487 s
+@ PRODUCT1DROPENCLQUEUES 16777216 0.260487
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.127869 s
+@ FFT1DROPENCL 16777216 0.127869
+        Inverse
+          Time:  0.171483 s
+        Error: 6.29146e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.442439 s
+@ PRODUCT1DCOPENCL 16777216 0.442439
+
+      OpenCL (4 queues)
+        Time:  0.443662 s
+@ PRODUCT1DCOPENCLQUEUES 16777216 0.443662
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.227601 s
+@ FFT1DCOPENCL 16777216 0.227601
+        Inverse
+          Time:  0.247599 s
+        Error: 8.89746e+06
+
+
+Dimensions: 16777216 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.238405 s
+@ FFT2DROPENCL 16777216 0.238405
+        Inverse
+          Time:  0.28602 s
+        Error: 6.29146e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.443087 s
+
+      OpenCL (4 queues)
+        Time:  0.445501 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.229677 s
+@ FFT2DCOPENCL 16777216 0.229677
+        Inverse
+          Time:  0.264554 s
+        Error: 8.89746e+06
+
+
+Dimensions: 16777216 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.253828 s
+@ FFT3DROPENCL 16777216 0.253828
+        Inverse
+          Time:  0.295794 s
+        Error: 6.29146e+06
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.239981 s
+@ FFT3DCOPENCL 16777216 0.239981
+        Inverse
+          Time:  0.284872 s
+        Error: 8.89746e+06
+
+
+====================================
+Dimensions: 16777216 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.283252 s
+@ PRODUCT1DROPENCL 16777216 0.283252
+
+      OpenCL (4 queues)
+        Time:  0.257255 s
+@ PRODUCT1DROPENCLQUEUES 16777216 0.257255
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.125641 s
+@ FFT1DROPENCL 16777216 0.125641
+        Inverse
+          Time:  0.170621 s
+        Error: 6.29146e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.4375 s
+@ PRODUCT1DCOPENCL 16777216 0.4375
+
+      OpenCL (4 queues)
+        Time:  0.438259 s
+@ PRODUCT1DCOPENCLQUEUES 16777216 0.438259
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.223772 s
+@ FFT1DCOPENCL 16777216 0.223772
+        Inverse
+          Time:  0.2495 s
+        Error: 8.89746e+06
+
+
+Dimensions: 16777216 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.235742 s
+@ FFT2DROPENCL 16777216 0.235742
+        Inverse
+          Time:  0.284973 s
+        Error: 6.29146e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.43965 s
+
+      OpenCL (4 queues)
+        Time:  0.439281 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.227035 s
+@ FFT2DCOPENCL 16777216 0.227035
+        Inverse
+          Time:  0.263766 s
+        Error: 8.89746e+06
+
+
+Dimensions: 16777216 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.251969 s
+@ FFT3DROPENCL 16777216 0.251969
+        Inverse
+          Time:  0.293292 s
+        Error: 6.29146e+06
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.239324 s
+@ FFT3DCOPENCL 16777216 0.239324
+        Inverse
+          Time:  0.284667 s
+        Error: 8.89746e+06
+
+
+====================================
+Dimensions: 16777216 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.282623 s
+@ PRODUCT1DROPENCL 16777216 0.282623
+
+      OpenCL (4 queues)
+        Time:  0.256227 s
+@ PRODUCT1DROPENCLQUEUES 16777216 0.256227
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.126069 s
+@ FFT1DROPENCL 16777216 0.126069
+        Inverse
+          Time:  0.170664 s
+        Error: 6.29146e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.436803 s
+@ PRODUCT1DCOPENCL 16777216 0.436803
+
+      OpenCL (4 queues)
+        Time:  0.438654 s
+@ PRODUCT1DCOPENCLQUEUES 16777216 0.438654
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.221785 s
+@ FFT1DCOPENCL 16777216 0.221785
+        Inverse
+          Time:  0.245185 s
+        Error: 8.89746e+06
+
+
+Dimensions: 16777216 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.235853 s
+@ FFT2DROPENCL 16777216 0.235853
+        Inverse
+          Time:  0.285767 s
+        Error: 6.29146e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.437417 s
+
+      OpenCL (4 queues)
+        Time:  0.439586 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.228957 s
+@ FFT2DCOPENCL 16777216 0.228957
+        Inverse
+          Time:  0.262226 s
+        Error: 8.89746e+06
+
+
+Dimensions: 16777216 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.252003 s
+@ FFT3DROPENCL 16777216 0.252003
+        Inverse
+          Time:  0.293462 s
+        Error: 6.29146e+06
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.23677 s
+@ FFT3DCOPENCL 16777216 0.23677
+        Inverse
+          Time:  0.283844 s
+        Error: 8.89746e+06
+
+
+====================================
+Dimensions: 16777216 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.2859 s
+@ PRODUCT1DROPENCL 16777216 0.2859
+
+      OpenCL (4 queues)
+        Time:  0.26071 s
+@ PRODUCT1DROPENCLQUEUES 16777216 0.26071
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.126858 s
+@ FFT1DROPENCL 16777216 0.126858
+        Inverse
+          Time:  0.170844 s
+        Error: 6.29146e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.445631 s
+@ PRODUCT1DCOPENCL 16777216 0.445631
+
+      OpenCL (4 queues)
+        Time:  0.445115 s
+@ PRODUCT1DCOPENCLQUEUES 16777216 0.445115
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.225262 s
+@ FFT1DCOPENCL 16777216 0.225262
+        Inverse
+          Time:  0.252168 s
+        Error: 8.89746e+06
+
+
+Dimensions: 16777216 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.237783 s
+@ FFT2DROPENCL 16777216 0.237783
+        Inverse
+          Time:  0.286355 s
+        Error: 6.29146e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.443648 s
+
+      OpenCL (4 queues)
+        Time:  0.445202 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.232574 s
+@ FFT2DCOPENCL 16777216 0.232574
+        Inverse
+          Time:  0.265716 s
+        Error: 8.89746e+06
+
+
+Dimensions: 16777216 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.2547 s
+@ FFT3DROPENCL 16777216 0.2547
+        Inverse
+          Time:  0.294696 s
+        Error: 6.29146e+06
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.238985 s
+@ FFT3DCOPENCL 16777216 0.238985
+        Inverse
+          Time:  0.285234 s
+        Error: 8.89746e+06
+
+
+====================================
+Dimensions: 16777216 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.288534 s
+@ PRODUCT1DROPENCL 16777216 0.288534
+
+      OpenCL (4 queues)
+        Time:  0.26222 s
+@ PRODUCT1DROPENCLQUEUES 16777216 0.26222
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.128062 s
+@ FFT1DROPENCL 16777216 0.128062
+        Inverse
+          Time:  0.172037 s
+        Error: 6.29146e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.444291 s
+@ PRODUCT1DCOPENCL 16777216 0.444291
+
+      OpenCL (4 queues)
+        Time:  0.445861 s
+@ PRODUCT1DCOPENCLQUEUES 16777216 0.445861
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.225917 s
+@ FFT1DCOPENCL 16777216 0.225917
+        Inverse
+          Time:  0.249502 s
+        Error: 8.89746e+06
+
+
+Dimensions: 16777216 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.237758 s
+@ FFT2DROPENCL 16777216 0.237758
+        Inverse
+          Time:  0.285687 s
+        Error: 6.29146e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.444374 s
+
+      OpenCL (4 queues)
+        Time:  0.447579 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.232765 s
+@ FFT2DCOPENCL 16777216 0.232765
+        Inverse
+          Time:  0.264331 s
+        Error: 8.89746e+06
+
+
+Dimensions: 16777216 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.253502 s
+@ FFT3DROPENCL 16777216 0.253502
+        Inverse
+          Time:  0.296289 s
+        Error: 6.29146e+06
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.239935 s
+@ FFT3DCOPENCL 16777216 0.239935
+        Inverse
+          Time:  0.285393 s
+        Error: 8.89746e+06
+
+
+====================================
+Dimensions: 16777216 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.285944 s
+@ PRODUCT1DROPENCL 16777216 0.285944
+
+      OpenCL (4 queues)
+        Time:  0.261949 s
+@ PRODUCT1DROPENCLQUEUES 16777216 0.261949
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.127872 s
+@ FFT1DROPENCL 16777216 0.127872
+        Inverse
+          Time:  0.171837 s
+        Error: 6.29146e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.443643 s
+@ PRODUCT1DCOPENCL 16777216 0.443643
+
+      OpenCL (4 queues)
+        Time:  0.44483 s
+@ PRODUCT1DCOPENCLQUEUES 16777216 0.44483
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.224179 s
+@ FFT1DCOPENCL 16777216 0.224179
+        Inverse
+          Time:  0.251045 s
+        Error: 8.89746e+06
+
+
+Dimensions: 16777216 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.23775 s
+@ FFT2DROPENCL 16777216 0.23775
+        Inverse
+          Time:  0.286605 s
+        Error: 6.29146e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.444474 s
+
+      OpenCL (4 queues)
+        Time:  0.445668 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.234737 s
+@ FFT2DCOPENCL 16777216 0.234737
+        Inverse
+          Time:  0.263643 s
+        Error: 8.89746e+06
+
+
+Dimensions: 16777216 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.255026 s
+@ FFT3DROPENCL 16777216 0.255026
+        Inverse
+          Time:  0.296389 s
+        Error: 6.29146e+06
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.240459 s
+@ FFT3DCOPENCL 16777216 0.240459
+        Inverse
+          Time:  0.287798 s
+        Error: 8.89746e+06
+
+
+====================================
+Dimensions: 16777216 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.285411 s
+@ PRODUCT1DROPENCL 16777216 0.285411
+
+      OpenCL (4 queues)
+        Time:  0.261096 s
+@ PRODUCT1DROPENCLQUEUES 16777216 0.261096
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.128788 s
+@ FFT1DROPENCL 16777216 0.128788
+        Inverse
+          Time:  0.171941 s
+        Error: 6.29146e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.442579 s
+@ PRODUCT1DCOPENCL 16777216 0.442579
+
+      OpenCL (4 queues)
+        Time:  0.44286 s
+@ PRODUCT1DCOPENCLQUEUES 16777216 0.44286
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.224536 s
+@ FFT1DCOPENCL 16777216 0.224536
+        Inverse
+          Time:  0.248535 s
+        Error: 8.89746e+06
+
+
+Dimensions: 16777216 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.237027 s
+@ FFT2DROPENCL 16777216 0.237027
+        Inverse
+          Time:  0.287281 s
+        Error: 6.29146e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.442201 s
+
+      OpenCL (4 queues)
+        Time:  0.442763 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.231862 s
+@ FFT2DCOPENCL 16777216 0.231862
+        Inverse
+          Time:  0.263787 s
+        Error: 8.89746e+06
+
+
+Dimensions: 16777216 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.25398 s
+@ FFT3DROPENCL 16777216 0.25398
+        Inverse
+          Time:  0.29516 s
+        Error: 6.29146e+06
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.239869 s
+@ FFT3DCOPENCL 16777216 0.239869
+        Inverse
+          Time:  0.284644 s
+        Error: 8.89746e+06
+
+
+====================================
+Dimensions: 16777216 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  0.279935 s
+@ PRODUCT1DROPENCL 16777216 0.279935
+
+      OpenCL (4 queues)
+        Time:  0.255149 s
+@ PRODUCT1DROPENCLQUEUES 16777216 0.255149
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.125081 s
+@ FFT1DROPENCL 16777216 0.125081
+        Inverse
+          Time:  0.16929 s
+        Error: 6.29146e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.433544 s
+@ PRODUCT1DCOPENCL 16777216 0.433544
+
+      OpenCL (4 queues)
+        Time:  0.438329 s
+@ PRODUCT1DCOPENCLQUEUES 16777216 0.438329
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.218024 s
+@ FFT1DCOPENCL 16777216 0.218024
+        Inverse
+          Time:  0.247983 s
+        Error: 8.89746e+06
+
+
+Dimensions: 16777216 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.234577 s
+@ FFT2DROPENCL 16777216 0.234577
+        Inverse
+          Time:  0.282987 s
+        Error: 6.29146e+06
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  0.433189 s
+
+      OpenCL (4 queues)
+        Time:  0.435432 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.227413 s
+@ FFT2DCOPENCL 16777216 0.227413
+        Inverse
+          Time:  0.257195 s
+        Error: 8.89746e+06
+
+
+Dimensions: 16777216 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.251214 s
+@ FFT3DROPENCL 16777216 0.251214
+        Inverse
+          Time:  0.291886 s
+        Error: 6.29146e+06
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.237697 s
+@ FFT3DCOPENCL 16777216 0.237697
+        Inverse
+          Time:  0.282006 s
+        Error: 8.89746e+06
+
+
+====================================
+====================================
+====================================
+Dimensions: 67108864 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  1.14025 s
+@ PRODUCT1DROPENCL 67108864 1.14025
+
+      OpenCL (4 queues)
+        Time:  1.04843 s
+@ PRODUCT1DROPENCLQUEUES 67108864 1.04843
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.510835 s
+@ FFT1DROPENCL 67108864 0.510835
+        Inverse
+          Time:  0.684049 s
+        Error: 2.51658e+07
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  1.76671 s
+@ PRODUCT1DCOPENCL 67108864 1.76671
+
+      OpenCL (4 queues)
+        Time:  1.77041 s
+@ PRODUCT1DCOPENCLQUEUES 67108864 1.77041
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.885524 s
+@ FFT1DCOPENCL 67108864 0.885524
+        Inverse
+          Time:  1.00336 s
+        Error: 3.55898e+07
+
+
+Dimensions: 67108864 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.947691 s
+@ FFT2DROPENCL 67108864 0.947691
+        Inverse
+          Time:  1.14632 s
+        Error: 2.51658e+07
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  1.76487 s
+
+      OpenCL (4 queues)
+        Time:  1.78091 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.917044 s
+@ FFT2DCOPENCL 67108864 0.917044
+        Inverse
+          Time:  1.05029 s
+        Error: 3.55898e+07
+
+
+Dimensions: 67108864 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  1.01309 s
+@ FFT3DROPENCL 67108864 1.01309
+        Inverse
+          Time:  1.18828 s
+        Error: 2.51658e+07
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.947861 s
+@ FFT3DCOPENCL 67108864 0.947861
+        Inverse
+          Time:  1.13629 s
+        Error: 3.55898e+07
+
+
+====================================
+Dimensions: 67108864 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  1.13779 s
+@ PRODUCT1DROPENCL 67108864 1.13779
+
+      OpenCL (4 queues)
+        Time:  1.03928 s
+@ PRODUCT1DROPENCLQUEUES 67108864 1.03928
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.509441 s
+@ FFT1DROPENCL 67108864 0.509441
+        Inverse
+          Time:  0.680597 s
+        Error: 2.51658e+07
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  1.73561 s
+@ PRODUCT1DCOPENCL 67108864 1.73561
+
+      OpenCL (4 queues)
+        Time:  1.72826 s
+@ PRODUCT1DCOPENCLQUEUES 67108864 1.72826
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.884439 s
+@ FFT1DCOPENCL 67108864 0.884439
+        Inverse
+          Time:  0.985062 s
+        Error: 3.55898e+07
+
+
+Dimensions: 67108864 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.930657 s
+@ FFT2DROPENCL 67108864 0.930657
+        Inverse
+          Time:  1.12784 s
+        Error: 2.51658e+07
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  1.73947 s
+
+      OpenCL (4 queues)
+        Time:  1.75345 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.899934 s
+@ FFT2DCOPENCL 67108864 0.899934
+        Inverse
+          Time:  1.02539 s
+        Error: 3.55898e+07
+
+
+Dimensions: 67108864 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  1.00428 s
+@ FFT3DROPENCL 67108864 1.00428
+        Inverse
+          Time:  1.17025 s
+        Error: 2.51658e+07
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.943101 s
+@ FFT3DCOPENCL 67108864 0.943101
+        Inverse
+          Time:  1.11576 s
+        Error: 3.55898e+07
+
+
+====================================
+Dimensions: 67108864 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  1.1175 s
+@ PRODUCT1DROPENCL 67108864 1.1175
+
+      OpenCL (4 queues)
+        Time:  1.02284 s
+@ PRODUCT1DROPENCLQUEUES 67108864 1.02284
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.50302 s
+@ FFT1DROPENCL 67108864 0.50302
+        Inverse
+          Time:  0.673967 s
+        Error: 2.51658e+07
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  1.74 s
+@ PRODUCT1DCOPENCL 67108864 1.74
+
+      OpenCL (4 queues)
+        Time:  1.73605 s
+@ PRODUCT1DCOPENCLQUEUES 67108864 1.73605
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.862882 s
+@ FFT1DCOPENCL 67108864 0.862882
+        Inverse
+          Time:  0.979117 s
+        Error: 3.55898e+07
+
+
+Dimensions: 67108864 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.933773 s
+@ FFT2DROPENCL 67108864 0.933773
+        Inverse
+          Time:  1.13122 s
+        Error: 2.51658e+07
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  1.74605 s
+
+      OpenCL (4 queues)
+        Time:  1.74811 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.924188 s
+@ FFT2DCOPENCL 67108864 0.924188
+        Inverse
+          Time:  1.0367 s
+        Error: 3.55898e+07
+
+
+Dimensions: 67108864 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  1.00345 s
+@ FFT3DROPENCL 67108864 1.00345
+        Inverse
+          Time:  1.17216 s
+        Error: 2.51658e+07
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.934757 s
+@ FFT3DCOPENCL 67108864 0.934757
+        Inverse
+          Time:  1.11416 s
+        Error: 3.55898e+07
+
+
+====================================
+Dimensions: 67108864 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  1.13108 s
+@ PRODUCT1DROPENCL 67108864 1.13108
+
+      OpenCL (4 queues)
+        Time:  1.03523 s
+@ PRODUCT1DROPENCLQUEUES 67108864 1.03523
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.506389 s
+@ FFT1DROPENCL 67108864 0.506389
+        Inverse
+          Time:  0.682551 s
+        Error: 2.51658e+07
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  1.76809 s
+@ PRODUCT1DCOPENCL 67108864 1.76809
+
+      OpenCL (4 queues)
+        Time:  1.77425 s
+@ PRODUCT1DCOPENCLQUEUES 67108864 1.77425
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.87382 s
+@ FFT1DCOPENCL 67108864 0.87382
+        Inverse
+          Time:  0.989826 s
+        Error: 3.55898e+07
+
+
+Dimensions: 67108864 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.946046 s
+@ FFT2DROPENCL 67108864 0.946046
+        Inverse
+          Time:  1.143 s
+        Error: 2.51658e+07
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  1.76238 s
+
+      OpenCL (4 queues)
+        Time:  1.7559 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.92264 s
+@ FFT2DCOPENCL 67108864 0.92264
+        Inverse
+          Time:  1.03213 s
+        Error: 3.55898e+07
+
+
+Dimensions: 67108864 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  1.00828 s
+@ FFT3DROPENCL 67108864 1.00828
+        Inverse
+          Time:  1.17694 s
+        Error: 2.51658e+07
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.942839 s
+@ FFT3DCOPENCL 67108864 0.942839
+        Inverse
+          Time:  1.12508 s
+        Error: 3.55898e+07
+
+
+====================================
+Dimensions: 67108864 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  1.13549 s
+@ PRODUCT1DROPENCL 67108864 1.13549
+
+      OpenCL (4 queues)
+        Time:  1.03949 s
+@ PRODUCT1DROPENCLQUEUES 67108864 1.03949
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.512266 s
+@ FFT1DROPENCL 67108864 0.512266
+        Inverse
+          Time:  0.686967 s
+        Error: 2.51658e+07
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  1.77361 s
+@ PRODUCT1DCOPENCL 67108864 1.77361
+
+      OpenCL (4 queues)
+        Time:  1.76298 s
+@ PRODUCT1DCOPENCLQUEUES 67108864 1.76298
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.888842 s
+@ FFT1DCOPENCL 67108864 0.888842
+        Inverse
+          Time:  0.991811 s
+        Error: 3.55898e+07
+
+
+Dimensions: 67108864 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.946332 s
+@ FFT2DROPENCL 67108864 0.946332
+        Inverse
+          Time:  1.14469 s
+        Error: 2.51658e+07
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  1.76904 s
+
+      OpenCL (4 queues)
+        Time:  1.77449 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.940374 s
+@ FFT2DCOPENCL 67108864 0.940374
+        Inverse
+          Time:  1.04736 s
+        Error: 3.55898e+07
+
+
+Dimensions: 67108864 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  1.01301 s
+@ FFT3DROPENCL 67108864 1.01301
+        Inverse
+          Time:  1.18092 s
+        Error: 2.51658e+07
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.951292 s
+@ FFT3DCOPENCL 67108864 0.951292
+        Inverse
+          Time:  1.13654 s
+        Error: 3.55898e+07
+
+
+====================================
+Dimensions: 67108864 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  1.12423 s
+@ PRODUCT1DROPENCL 67108864 1.12423
+
+      OpenCL (4 queues)
+        Time:  1.03263 s
+@ PRODUCT1DROPENCLQUEUES 67108864 1.03263
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.503098 s
+@ FFT1DROPENCL 67108864 0.503098
+        Inverse
+          Time:  0.67727 s
+        Error: 2.51658e+07
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  1.74938 s
+@ PRODUCT1DCOPENCL 67108864 1.74938
+
+      OpenCL (4 queues)
+        Time:  1.74806 s
+@ PRODUCT1DCOPENCLQUEUES 67108864 1.74806
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.88181 s
+@ FFT1DCOPENCL 67108864 0.88181
+        Inverse
+          Time:  0.978773 s
+        Error: 3.55898e+07
+
+
+Dimensions: 67108864 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.945389 s
+@ FFT2DROPENCL 67108864 0.945389
+        Inverse
+          Time:  1.14135 s
+        Error: 2.51658e+07
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  1.75201 s
+
+      OpenCL (4 queues)
+        Time:  1.75078 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.918848 s
+@ FFT2DCOPENCL 67108864 0.918848
+        Inverse
+          Time:  1.03781 s
+        Error: 3.55898e+07
+
+
+Dimensions: 67108864 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  1.00793 s
+@ FFT3DROPENCL 67108864 1.00793
+        Inverse
+          Time:  1.17538 s
+        Error: 2.51658e+07
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.954451 s
+@ FFT3DCOPENCL 67108864 0.954451
+        Inverse
+          Time:  1.12594 s
+        Error: 3.55898e+07
+
+
+====================================
+Dimensions: 67108864 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  1.14172 s
+@ PRODUCT1DROPENCL 67108864 1.14172
+
+      OpenCL (4 queues)
+        Time:  1.05087 s
+@ PRODUCT1DROPENCLQUEUES 67108864 1.05087
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.513595 s
+@ FFT1DROPENCL 67108864 0.513595
+        Inverse
+          Time:  0.686361 s
+        Error: 2.51658e+07
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  1.77721 s
+@ PRODUCT1DCOPENCL 67108864 1.77721
+
+      OpenCL (4 queues)
+        Time:  1.78788 s
+@ PRODUCT1DCOPENCLQUEUES 67108864 1.78788
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.886456 s
+@ FFT1DCOPENCL 67108864 0.886456
+        Inverse
+          Time:  0.984751 s
+        Error: 3.55898e+07
+
+
+Dimensions: 67108864 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.948848 s
+@ FFT2DROPENCL 67108864 0.948848
+        Inverse
+          Time:  1.14467 s
+        Error: 2.51658e+07
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  1.77706 s
+
+      OpenCL (4 queues)
+        Time:  1.7842 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.915319 s
+@ FFT2DCOPENCL 67108864 0.915319
+        Inverse
+          Time:  1.04312 s
+        Error: 3.55898e+07
+
+
+Dimensions: 67108864 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  1.01413 s
+@ FFT3DROPENCL 67108864 1.01413
+        Inverse
+          Time:  1.1766 s
+        Error: 2.51658e+07
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.952733 s
+@ FFT3DCOPENCL 67108864 0.952733
+        Inverse
+          Time:  1.12976 s
+        Error: 3.55898e+07
+
+
+====================================
+Dimensions: 67108864 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  1.12408 s
+@ PRODUCT1DROPENCL 67108864 1.12408
+
+      OpenCL (4 queues)
+        Time:  1.03036 s
+@ PRODUCT1DROPENCLQUEUES 67108864 1.03036
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.505851 s
+@ FFT1DROPENCL 67108864 0.505851
+        Inverse
+          Time:  0.673014 s
+        Error: 2.51658e+07
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  1.75937 s
+@ PRODUCT1DCOPENCL 67108864 1.75937
+
+      OpenCL (4 queues)
+        Time:  1.75821 s
+@ PRODUCT1DCOPENCLQUEUES 67108864 1.75821
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.893228 s
+@ FFT1DCOPENCL 67108864 0.893228
+        Inverse
+          Time:  1.00827 s
+        Error: 3.55898e+07
+
+
+Dimensions: 67108864 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.936533 s
+@ FFT2DROPENCL 67108864 0.936533
+        Inverse
+          Time:  1.13093 s
+        Error: 2.51658e+07
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  1.75974 s
+
+      OpenCL (4 queues)
+        Time:  1.76737 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.915446 s
+@ FFT2DCOPENCL 67108864 0.915446
+        Inverse
+          Time:  1.03036 s
+        Error: 3.55898e+07
+
+
+Dimensions: 67108864 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  1.00707 s
+@ FFT3DROPENCL 67108864 1.00707
+        Inverse
+          Time:  1.1691 s
+        Error: 2.51658e+07
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.941425 s
+@ FFT3DCOPENCL 67108864 0.941425
+        Inverse
+          Time:  1.1209 s
+        Error: 3.55898e+07
+
+
+====================================
+Dimensions: 67108864 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  1.12157 s
+@ PRODUCT1DROPENCL 67108864 1.12157
+
+      OpenCL (4 queues)
+        Time:  1.02985 s
+@ PRODUCT1DROPENCLQUEUES 67108864 1.02985
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.503235 s
+@ FFT1DROPENCL 67108864 0.503235
+        Inverse
+          Time:  0.681707 s
+        Error: 2.51658e+07
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  1.75088 s
+@ PRODUCT1DCOPENCL 67108864 1.75088
+
+      OpenCL (4 queues)
+        Time:  1.74877 s
+@ PRODUCT1DCOPENCLQUEUES 67108864 1.74877
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.873948 s
+@ FFT1DCOPENCL 67108864 0.873948
+        Inverse
+          Time:  0.984382 s
+        Error: 3.55898e+07
+
+
+Dimensions: 67108864 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.935523 s
+@ FFT2DROPENCL 67108864 0.935523
+        Inverse
+          Time:  1.135 s
+        Error: 2.51658e+07
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  1.75683 s
+
+      OpenCL (4 queues)
+        Time:  1.76435 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.907272 s
+@ FFT2DCOPENCL 67108864 0.907272
+        Inverse
+          Time:  1.02779 s
+        Error: 3.55898e+07
+
+
+Dimensions: 67108864 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  1.00588 s
+@ FFT3DROPENCL 67108864 1.00588
+        Inverse
+          Time:  1.1759 s
+        Error: 2.51658e+07
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.941609 s
+@ FFT3DCOPENCL 67108864 0.941609
+        Inverse
+          Time:  1.12404 s
+        Error: 3.55898e+07
+
+
+====================================
+Dimensions: 67108864 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      OpenCL (1 queues)
+        Time:  1.12334 s
+@ PRODUCT1DROPENCL 67108864 1.12334
+
+      OpenCL (4 queues)
+        Time:  1.02854 s
+@ PRODUCT1DROPENCLQUEUES 67108864 1.02854
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.509132 s
+@ FFT1DROPENCL 67108864 0.509132
+        Inverse
+          Time:  0.677407 s
+        Error: 2.51658e+07
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  1.75085 s
+@ PRODUCT1DCOPENCL 67108864 1.75085
+
+      OpenCL (4 queues)
+        Time:  1.75236 s
+@ PRODUCT1DCOPENCLQUEUES 67108864 1.75236
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.872632 s
+@ FFT1DCOPENCL 67108864 0.872632
+        Inverse
+          Time:  0.976634 s
+        Error: 3.55898e+07
+
+
+Dimensions: 67108864 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.936729 s
+@ FFT2DROPENCL 67108864 0.936729
+        Inverse
+          Time:  1.13774 s
+        Error: 2.51658e+07
+
+  C <-> C
+
+      OpenCL (1 queues)
+        Time:  1.75797 s
+
+      OpenCL (4 queues)
+        Time:  1.7605 s
+
+    FFT
+      clFFT
+        Direct
+          Time:  0.917281 s
+@ FFT2DCOPENCL 67108864 0.917281
+        Inverse
+          Time:  1.03486 s
+        Error: 3.55898e+07
+
+
+Dimensions: 67108864 1 1 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenCL
+        Direct
+          Time:  1.00728 s
+@ FFT3DROPENCL 67108864 1.00728
+        Inverse
+          Time:  1.1735 s
+        Error: 2.51658e+07
+
+  C <-> C
+
+    FFT
+      OpenCL
+        Direct
+          Time:  0.937803 s
+@ FFT3DCOPENCL 67108864 0.937803
+        Inverse
+          Time:  1.11512 s
+        Error: 3.55898e+07
+

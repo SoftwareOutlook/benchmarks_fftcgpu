@@ -312,132 +312,120 @@ echo "========"
 echo ""
 N_COILS=1
 
-NX=512 
-NY=512
-NZ=512
+NX=256 
+NY=256
+NZ=256
 for PROG in ${PROGRAMS[@]}
 do
    echo "================" 
    for ((I_RUN=0; I_RUN<$N_RUNS; I_RUN++))
    do
      echo "----------------"
-     aprun -n 1 -N 1 -d 24 $PROG $NX $NY $NZ $N_COILS
+     $PROG $NX $NY $NZ $N_COILS
    done
 done
 
-NX=256
-NY=256
-NZ=2048
+NX=128
+NY=128
+NZ=1024
 for PROG in ${PROGRAMS[@]}
 do
   echo "================"  
   for ((I_RUN=0; I_RUN<$N_RUNS; I_RUN++))
   do
     echo "----------------" 
-    aprun -n 1 -N 1 -d 24 $PROG $NX $NY $NZ $N_COILS
+    $PROG $NX $NY $NZ $N_COILS
   done
 done
 
-NX=128
-NY=128
-NZ=8192
+NX=64
+NY=64
+NZ=4096
 for PROG in ${PROGRAMS[@]}
 do
   echo "================"
   for ((I_RUN=0; I_RUN<$N_RUNS; I_RUN++))
   do
     echo "----------------"
-    aprun -n 1 -N 1 -d 24 $PROG $NX $NY $NZ $N_COILS 
+    $PROG $NX $NY $NZ $N_COILS 
   done
 done
 
-NX=64
-NY=64
-NZ=32768
+NX=32
+NY=32
+NZ=16384
 for PROG in ${PROGRAMS[@]}
 do
   echo "================" 
   for ((I_RUN=0; I_RUN<$N_RUNS; I_RUN++))
   do
     echo "----------------"
-    aprun -n 1 -N 1 -d 24 $PROG $NX $NY $NZ $N_COILS 
+    $PROG $NX $NY $NZ $N_COILS 
   done
 done
 
-NX=32
-NY=32
-NZ=131072
+NX=16
+NY=16
+NZ=65536
 for PROG in ${PROGRAMS[@]}
 do
   echo "================"  
   for ((I_RUN=0; I_RUN<$N_RUNS; I_RUN++))
   do
     echo "----------------" 
-    aprun -n 1 -N 1 -d 24 $PROG $NX $NY $NZ $N_COILS 
+    $PROG $NX $NY $NZ $N_COILS 
   done
 done
 
-NX=16
-NY=16
-NZ=524288
+NX=8
+NY=8
+NZ=262144
 for PROG in ${PROGRAMS[@]}
 do
   echo "================"  
   for ((I_RUN=0; I_RUN<$N_RUNS; I_RUN++))
   do
     echo "----------------"
-    aprun -n 1 -N 1 -d 24 $PROG $NX $NY $NZ $N_COILS 
+    $PROG $NX $NY $NZ $N_COILS 
   done
 done
 
-NX=8
-NY=8
-NZ=2097152
+NX=4
+NY=4
+NZ=1048576
 for PROG in ${PROGRAMS[@]}
 do
   echo "================" >> $FILE 
   for ((I_RUN=0; I_RUN<$N_RUNS; I_RUN++))
   do
     echo "----------------"
-    aprun -n 1 -N 1 -d 24 $PROG $NX $NY $NZ $N_COILS 
+    $PROG $NX $NY $NZ $N_COILS 
   done
 done
 
-NX=4
-NY=4
-NZ=8388608
+NX=2
+NY=2
+NZ=4194304
 for PROG in ${PROGRAMS[@]}
 do
   echo "================"  
   for ((I_RUN=0; I_RUN<$N_RUNS; I_RUN++))
   do
     echo "----------------" 
-    aprun -n 1 -N 1 -d 24 $PROG $NX $NY $NZ $N_COILS 
+    $PROG $NX $NY $NZ $N_COILS 
   done
 done
 
-NX=2
-NY=2
-NZ=33554432
+NX=1
+NY=1
+NZ=16777216
 for PROG in ${PROGRAMS[@]}
 do
   echo "================"  
   for ((I_RUN=0; I_RUN<$N_RUNS; I_RUN++))
   do
     echo "----------------"
-    aprun -n 1 -N 1 -d 24 $PROG $NX $NY $NZ $N_COILS 
+    $PROG $NX $NY $NZ $N_COILS 
   done
 done
 
-NX=1
-NY=1
-NZ=134217728
-for PROG in ${PROGRAMS[@]}
-do
-  echo "================" 
-  for ((I_RUN=0; I_RUN<$N_RUNS; I_RUN++))
-  do
-    echo "----------------"
-    aprun -n 1 -N 1 -d 24 $PROG $NX $NY $NZ $N_COILS 
-  done
-done
