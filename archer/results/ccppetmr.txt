@@ -1,0 +1,7024 @@
+
+================
+----------------
+N threads: 1
+
+Dimensions: 252 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.00032438 s
+@ 1DFFTWRINIT 252 0.00032438
+        Time:  7.6473e-05 s
+@ 1DFFTWR 252 7.6473e-05
+      Inverse
+        Init. time:  0.000257522 s
+@ 1DFFTWRINVINIT 252 0.000257522
+        Time:  9.0064e-05 s
+@ 1DFFTWRINV 252 9.0064e-05
+      Error: 2.00359e-14
+
+    GSL
+      Direct
+        Init. time:  0.000561363 s
+@ 1DGSLRINIT 252 0.000561363
+        Time:  0.000220776 s
+@ 1DGSLR 252 0.000220776
+      Inverse
+        Init. time:  7.3592e-05 s
+@ 1DGSLRINVINIT 252 7.3592e-05
+        Time:  0.000173778 s
+@ 1DGSLRINV 252 0.000173778
+      Error: 6.80126e-14
+
+    MKL
+      Direct
+        Init. time:  0.0154812 s
+@ 1DMKLRINIT 252 0.0154812
+        Time:  9.8342e-05 s
+@ 1DMKLR 252 9.8342e-05
+      Inverse
+        Init. time:  1.5754e-05 s
+@ 1DMKLRINVINIT 252 1.5754e-05
+        Time:  5.4043e-05 s
+@ 1DMKLRINV 252 5.4043e-05
+      Error: 6.80126e-14
+
+    FFTPACK
+      Direct
+        Init. time:  0.00108365 s
+@ 1DFFTPACKRINIT 252 0.00108365
+        Time:  0.000142469 s
+@ 1DFFTPACKR 252 0.000142469
+      Inverse
+        Init. time:  7.712e-06 s
+@ 1DFFTPACKRINVINIT 252 7.712e-06
+        Time:  8.5855e-05 s
+@ 1DFFTPACKRINV 252 8.5855e-05
+      Error: 6.80126e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  6.6072e-05 s
+@ 1DFFTWCINIT 252 6.6072e-05
+        Time:  0.000118052 s
+@ 1DFFTWC 252 0.000118052
+      Inverse
+        Init. time:  5.5137e-05 s
+@ 1DFFTWCINVINIT 252 5.5137e-05
+        Time:  0.000161817 s
+@ 1DFFTWCINV 252 0.000161817
+      Error: 4.02047e-14
+
+    GSL
+      Direct
+        Init. time:  1.6758e-05 s
+@ 1DGSLCINIT 252 1.6758e-05
+        Time:  0.000130682 s
+@ 1DGSLC 252 0.000130682
+      Inverse
+        Init. time:  1.3411e-05 s
+@ 1DGSLCINVINIT 252 1.3411e-05
+        Time:  0.000222119 s
+@ 1DGSLCINV 252 0.000222119
+      Error: 4.96132e-14
+
+    MKL
+      Direct
+        Init. time:  6.5688e-05 s
+@ 1DMKLCINIT 252 6.5688e-05
+        Time:  0.000118039 s
+@ 1DMKLC 252 0.000118039
+      Inverse
+        Init. time:  1.7651e-05 s
+@ 1DMKLCINV 252 1.7651e-05
+        Time:  0.000179091 s
+@ 1DMKLCINV 252 0.000179091
+      Error: 4.96132e-14
+
+    FFTPACK
+      Direct
+        Init. time:  9.8084e-05 s
+@ 1DFFTPACKCINIT 252 9.8084e-05
+        Time:  0.000118409 s
+@ 1DFFTPACKC 252 0.000118409
+      Inverse
+        Init. time:  1.2014e-05 s
+@ 1DFFTPACKCINVINIT 252 1.2014e-05
+        Time:  0.000215425 s
+@ 1DFFTPACKCINV 252 0.000215425
+      Error: 4.96132e-14
+
+
+Dimensions: 252 252 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.00033251 s
+@ 2DFFTWRINIT 252 0.00033251
+        Time:  0.0304918 s
+@ 2DFFTWR 252 0.0304918
+      Inverse
+        Init. time:  0.000291066 s
+@ 2DFFTWRINVINIT 252 0.000291066
+        Time:  0.036311 s
+@ 2DFFTWRINV 252 0.036311
+      Error: 5.30607e-12
+
+    MKL
+      Direct
+        Init. time:  0.000136905 s
+@ 2DMKLRINIT 252 0.000136905
+        Time:  0.0158393 s
+@ 2DMKLR 252 0.0158393
+      Inverse
+        Init. time:  7.4862e-05 s
+@ 2DMKLRINIT 252 7.4862e-05
+        Time:  0.0159419 s
+@ 2DMKLR 252 0.0159419
+      Error: 5.30607e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000354731 s
+@ 2DFFTWCINIT 252 0.000354731
+        Time:  0.0544986 s
+@ 2DFFTWC 252 0.0544986
+      Inverse
+        Init. time:  0.000339569 s
+@ 2DFFTWCINVINIT 252 0.000339569
+        Time:  0.0658297 s
+@ 2DFFTWCINV 252 0.0658297
+      Error: 8.62259e-12
+
+    MKL
+      Direct
+        Init. time:  6.2049e-05 s
+@ 2DMKLCINIT 252 6.2049e-05
+        Time:  0.0241921 s
+@ 2DMKLC 252 0.0241921
+      Inverse
+        Init. time:  5.6602e-05 s
+@ 2DMKLCINVINIT 252 5.6602e-05
+        Time:  0.0247353 s
+@ 2DMKLCINV 252 0.0247353
+      Error: 8.62259e-12
+
+Dimensions: 252 252 252 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000438567 s
+@ 3DFFTWRINIT 252 0.000438567
+        Time:  12.6937 s
+@ 3DFFTWR 252 12.6937
+      Inverse
+        Init. time:  0.000446022 s
+@ 3DFFTWRINVINIT 252 0.000446022
+        Time:  15.5518 s
+@ 3DFFTWRINV 252 15.5518
+      Error: 1.08683e-09
+
+    MKL
+      Direct
+@ 3DMKLRINIT 252 15.5518
+        Init. time:  19.9482 s
+        Time:  6.60521 s
+@ 3DMKLR 252 6.60521
+      Inverse
+        Init. time:  0.000154657 s
+@ 3DMKLRINVINIT 252 0.000154657
+        Time:  6.64533 s
+@ 3DMKLRINV 252 6.64533
+      Error: 1.08683e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000412907 s
+@ 3DFFTWCINIT 252 0.000412907
+        Time:  23.5278 s
+@ 3DFFTWC 252 23.5278
+      Inverse
+        Init. time:  0.000394947 s
+@ 3DFFTWCINVINIT 252 0.000394947
+        Time:  25.7597 s
+@ 3DFFTWCINV 252 25.7597
+      Error: 1.69125e-09
+
+    MKL
+      Direct
+        Init. time:  8.0157e-05 s
+@ 3DMKLCINIT 252 8.0157e-05
+        Time:  11.191 s
+@ 3DMKLC 252 11.191
+      Inverse
+        Init. time:  8.9054e-05 s
+@ 3DMKLCINVINIT 252 8.9054e-05
+        Time:  11.1706 s
+@ 3DMKLCINV 252 11.1706
+      Error: 1.69125e-09
+
+Application 35440900 resources: utime ~146s, stime ~41s, Rss ~30150668, inblocks ~1389, outblocks ~2521
+----------------
+N threads: 1
+
+Dimensions: 252 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000341883 s
+@ 1DFFTWRINIT 252 0.000341883
+        Time:  8.2078e-05 s
+@ 1DFFTWR 252 8.2078e-05
+      Inverse
+        Init. time:  0.000250274 s
+@ 1DFFTWRINVINIT 252 0.000250274
+        Time:  9.3236e-05 s
+@ 1DFFTWRINV 252 9.3236e-05
+      Error: 2.00359e-14
+
+    GSL
+      Direct
+        Init. time:  0.000527918 s
+@ 1DGSLRINIT 252 0.000527918
+        Time:  0.000197987 s
+@ 1DGSLR 252 0.000197987
+      Inverse
+        Init. time:  7.7707e-05 s
+@ 1DGSLRINVINIT 252 7.7707e-05
+        Time:  0.000189078 s
+@ 1DGSLRINV 252 0.000189078
+      Error: 6.80126e-14
+
+    MKL
+      Direct
+        Init. time:  0.01354 s
+@ 1DMKLRINIT 252 0.01354
+        Time:  7.8354e-05 s
+@ 1DMKLR 252 7.8354e-05
+      Inverse
+        Init. time:  1.5346e-05 s
+@ 1DMKLRINVINIT 252 1.5346e-05
+        Time:  5.2538e-05 s
+@ 1DMKLRINV 252 5.2538e-05
+      Error: 6.80126e-14
+
+    FFTPACK
+      Direct
+        Init. time:  0.00374108 s
+@ 1DFFTPACKRINIT 252 0.00374108
+        Time:  0.000133863 s
+@ 1DFFTPACKR 252 0.000133863
+      Inverse
+        Init. time:  8.036e-06 s
+@ 1DFFTPACKRINVINIT 252 8.036e-06
+        Time:  9.938e-05 s
+@ 1DFFTPACKRINV 252 9.938e-05
+      Error: 6.80126e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  7.099e-05 s
+@ 1DFFTWCINIT 252 7.099e-05
+        Time:  0.000118562 s
+@ 1DFFTWC 252 0.000118562
+      Inverse
+        Init. time:  5.1818e-05 s
+@ 1DFFTWCINVINIT 252 5.1818e-05
+        Time:  0.000160477 s
+@ 1DFFTWCINV 252 0.000160477
+      Error: 4.02047e-14
+
+    GSL
+      Direct
+        Init. time:  1.6848e-05 s
+@ 1DGSLCINIT 252 1.6848e-05
+        Time:  0.000125619 s
+@ 1DGSLC 252 0.000125619
+      Inverse
+        Init. time:  1.5172e-05 s
+@ 1DGSLCINVINIT 252 1.5172e-05
+        Time:  0.00026151 s
+@ 1DGSLCINV 252 0.00026151
+      Error: 4.96132e-14
+
+    MKL
+      Direct
+        Init. time:  7.6631e-05 s
+@ 1DMKLCINIT 252 7.6631e-05
+        Time:  0.000121944 s
+@ 1DMKLC 252 0.000121944
+      Inverse
+        Init. time:  1.8248e-05 s
+@ 1DMKLCINV 252 1.8248e-05
+        Time:  0.000182994 s
+@ 1DMKLCINV 252 0.000182994
+      Error: 4.96132e-14
+
+    FFTPACK
+      Direct
+        Init. time:  7.6892e-05 s
+@ 1DFFTPACKCINIT 252 7.6892e-05
+        Time:  0.000124875 s
+@ 1DFFTPACKC 252 0.000124875
+      Inverse
+        Init. time:  1.1608e-05 s
+@ 1DFFTPACKCINVINIT 252 1.1608e-05
+        Time:  0.000187979 s
+@ 1DFFTPACKCINV 252 0.000187979
+      Error: 4.96132e-14
+
+
+Dimensions: 252 252 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000340966 s
+@ 2DFFTWRINIT 252 0.000340966
+        Time:  0.0309325 s
+@ 2DFFTWR 252 0.0309325
+      Inverse
+        Init. time:  0.000276509 s
+@ 2DFFTWRINVINIT 252 0.000276509
+        Time:  0.0365622 s
+@ 2DFFTWRINV 252 0.0365622
+      Error: 5.30607e-12
+
+    MKL
+      Direct
+        Init. time:  0.000139895 s
+@ 2DMKLRINIT 252 0.000139895
+        Time:  0.0160905 s
+@ 2DMKLR 252 0.0160905
+      Inverse
+        Init. time:  7.0427e-05 s
+@ 2DMKLRINIT 252 7.0427e-05
+        Time:  0.0161039 s
+@ 2DMKLR 252 0.0161039
+      Error: 5.30607e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000367821 s
+@ 2DFFTWCINIT 252 0.000367821
+        Time:  0.0550976 s
+@ 2DFFTWC 252 0.0550976
+      Inverse
+        Init. time:  0.000342005 s
+@ 2DFFTWCINVINIT 252 0.000342005
+        Time:  0.065809 s
+@ 2DFFTWCINV 252 0.065809
+      Error: 8.62259e-12
+
+    MKL
+      Direct
+        Init. time:  6.1933e-05 s
+@ 2DMKLCINIT 252 6.1933e-05
+        Time:  0.0241706 s
+@ 2DMKLC 252 0.0241706
+      Inverse
+        Init. time:  5.6816e-05 s
+@ 2DMKLCINVINIT 252 5.6816e-05
+        Time:  0.024693 s
+@ 2DMKLCINV 252 0.024693
+      Error: 8.62259e-12
+
+Dimensions: 252 252 252 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000424558 s
+@ 3DFFTWRINIT 252 0.000424558
+        Time:  12.7194 s
+@ 3DFFTWR 252 12.7194
+      Inverse
+        Init. time:  0.000444502 s
+@ 3DFFTWRINVINIT 252 0.000444502
+        Time:  15.5513 s
+@ 3DFFTWRINV 252 15.5513
+      Error: 1.08683e-09
+
+    MKL
+      Direct
+@ 3DMKLRINIT 252 15.5513
+        Init. time:  19.943 s
+        Time:  6.60509 s
+@ 3DMKLR 252 6.60509
+      Inverse
+        Init. time:  0.000155262 s
+@ 3DMKLRINVINIT 252 0.000155262
+        Time:  6.60049 s
+@ 3DMKLRINV 252 6.60049
+      Error: 1.08683e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000411741 s
+@ 3DFFTWCINIT 252 0.000411741
+        Time:  23.1883 s
+@ 3DFFTWC 252 23.1883
+      Inverse
+        Init. time:  0.000393386 s
+@ 3DFFTWCINVINIT 252 0.000393386
+        Time:  25.7497 s
+@ 3DFFTWCINV 252 25.7497
+      Error: 1.69125e-09
+
+    MKL
+      Direct
+        Init. time:  7.7165e-05 s
+@ 3DMKLCINIT 252 7.7165e-05
+        Time:  11.1597 s
+@ 3DMKLC 252 11.1597
+      Inverse
+        Init. time:  8.3258e-05 s
+@ 3DMKLCINVINIT 252 8.3258e-05
+        Time:  11.2112 s
+@ 3DMKLCINV 252 11.2112
+      Error: 1.69125e-09
+
+Application 35441460 resources: utime ~146s, stime ~40s, Rss ~30150668, inblocks ~1389, outblocks ~2521
+----------------
+N threads: 1
+
+Dimensions: 252 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000328771 s
+@ 1DFFTWRINIT 252 0.000328771
+        Time:  9.7007e-05 s
+@ 1DFFTWR 252 9.7007e-05
+      Inverse
+        Init. time:  0.00029231 s
+@ 1DFFTWRINVINIT 252 0.00029231
+        Time:  0.000110761 s
+@ 1DFFTWRINV 252 0.000110761
+      Error: 2.00359e-14
+
+    GSL
+      Direct
+        Init. time:  0.000756303 s
+@ 1DGSLRINIT 252 0.000756303
+        Time:  0.000239593 s
+@ 1DGSLR 252 0.000239593
+      Inverse
+        Init. time:  0.000115183 s
+@ 1DGSLRINVINIT 252 0.000115183
+        Time:  0.00020326 s
+@ 1DGSLRINV 252 0.00020326
+      Error: 6.80126e-14
+
+    MKL
+      Direct
+        Init. time:  0.0137678 s
+@ 1DMKLRINIT 252 0.0137678
+        Time:  9.682e-05 s
+@ 1DMKLR 252 9.682e-05
+      Inverse
+        Init. time:  2.0059e-05 s
+@ 1DMKLRINVINIT 252 2.0059e-05
+        Time:  6.8095e-05 s
+@ 1DMKLRINV 252 6.8095e-05
+      Error: 6.80126e-14
+
+    FFTPACK
+      Direct
+        Init. time:  0.000884608 s
+@ 1DFFTPACKRINIT 252 0.000884608
+        Time:  0.000192378 s
+@ 1DFFTPACKR 252 0.000192378
+      Inverse
+        Init. time:  1.0438e-05 s
+@ 1DFFTPACKRINVINIT 252 1.0438e-05
+        Time:  0.000112499 s
+@ 1DFFTPACKRINV 252 0.000112499
+      Error: 6.80126e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  9.0071e-05 s
+@ 1DFFTWCINIT 252 9.0071e-05
+        Time:  0.000164694 s
+@ 1DFFTWC 252 0.000164694
+      Inverse
+        Init. time:  8.8119e-05 s
+@ 1DFFTWCINVINIT 252 8.8119e-05
+        Time:  0.000214554 s
+@ 1DFFTWCINV 252 0.000214554
+      Error: 4.02047e-14
+
+    GSL
+      Direct
+        Init. time:  1.9951e-05 s
+@ 1DGSLCINIT 252 1.9951e-05
+        Time:  0.000137968 s
+@ 1DGSLC 252 0.000137968
+      Inverse
+        Init. time:  1.7184e-05 s
+@ 1DGSLCINVINIT 252 1.7184e-05
+        Time:  0.000257541 s
+@ 1DGSLCINV 252 0.000257541
+      Error: 4.96132e-14
+
+    MKL
+      Direct
+        Init. time:  9.4289e-05 s
+@ 1DMKLCINIT 252 9.4289e-05
+        Time:  0.000135253 s
+@ 1DMKLC 252 0.000135253
+      Inverse
+        Init. time:  2.5713e-05 s
+@ 1DMKLCINV 252 2.5713e-05
+        Time:  0.000206882 s
+@ 1DMKLCINV 252 0.000206882
+      Error: 4.96132e-14
+
+    FFTPACK
+      Direct
+        Init. time:  0.000109097 s
+@ 1DFFTPACKCINIT 252 0.000109097
+        Time:  0.00013746 s
+@ 1DFFTPACKC 252 0.00013746
+      Inverse
+        Init. time:  1.6044e-05 s
+@ 1DFFTPACKCINVINIT 252 1.6044e-05
+        Time:  0.000194987 s
+@ 1DFFTPACKCINV 252 0.000194987
+      Error: 4.96132e-14
+
+
+Dimensions: 252 252 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000377135 s
+@ 2DFFTWRINIT 252 0.000377135
+        Time:  0.0306329 s
+@ 2DFFTWR 252 0.0306329
+      Inverse
+        Init. time:  0.000292872 s
+@ 2DFFTWRINVINIT 252 0.000292872
+        Time:  0.0361712 s
+@ 2DFFTWRINV 252 0.0361712
+      Error: 5.30607e-12
+
+    MKL
+      Direct
+        Init. time:  0.000166296 s
+@ 2DMKLRINIT 252 0.000166296
+        Time:  0.0159448 s
+@ 2DMKLR 252 0.0159448
+      Inverse
+        Init. time:  9.9719e-05 s
+@ 2DMKLRINIT 252 9.9719e-05
+        Time:  0.015952 s
+@ 2DMKLR 252 0.015952
+      Error: 5.30607e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.00038514 s
+@ 2DFFTWCINIT 252 0.00038514
+        Time:  0.054777 s
+@ 2DFFTWC 252 0.054777
+      Inverse
+        Init. time:  0.000365308 s
+@ 2DFFTWCINVINIT 252 0.000365308
+        Time:  0.0655191 s
+@ 2DFFTWCINV 252 0.0655191
+      Error: 8.62259e-12
+
+    MKL
+      Direct
+        Init. time:  7.4605e-05 s
+@ 2DMKLCINIT 252 7.4605e-05
+        Time:  0.0239537 s
+@ 2DMKLC 252 0.0239537
+      Inverse
+        Init. time:  6.6858e-05 s
+@ 2DMKLCINVINIT 252 6.6858e-05
+        Time:  0.0245028 s
+@ 2DMKLCINV 252 0.0245028
+      Error: 8.62259e-12
+
+Dimensions: 252 252 252 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000458435 s
+@ 3DFFTWRINIT 252 0.000458435
+        Time:  12.7163 s
+@ 3DFFTWR 252 12.7163
+      Inverse
+        Init. time:  0.000456051 s
+@ 3DFFTWRINVINIT 252 0.000456051
+        Time:  15.4953 s
+@ 3DFFTWRINV 252 15.4953
+      Error: 1.08683e-09
+
+    MKL
+      Direct
+@ 3DMKLRINIT 252 15.4953
+        Init. time:  19.8903 s
+        Time:  6.64428 s
+@ 3DMKLR 252 6.64428
+      Inverse
+        Init. time:  0.000181301 s
+@ 3DMKLRINVINIT 252 0.000181301
+        Time:  6.59366 s
+@ 3DMKLRINV 252 6.59366
+      Error: 1.08683e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.00042541 s
+@ 3DFFTWCINIT 252 0.00042541
+        Time:  23.1817 s
+@ 3DFFTWC 252 23.1817
+      Inverse
+        Init. time:  0.000422743 s
+@ 3DFFTWCINVINIT 252 0.000422743
+        Time:  25.7345 s
+@ 3DFFTWCINV 252 25.7345
+      Error: 1.69125e-09
+
+    MKL
+      Direct
+        Init. time:  0.000107615 s
+@ 3DMKLCINIT 252 0.000107615
+        Time:  11.13 s
+@ 3DMKLC 252 11.13
+      Inverse
+        Init. time:  0.000128921 s
+@ 3DMKLCINVINIT 252 0.000128921
+        Time:  11.18 s
+@ 3DMKLCINV 252 11.18
+      Error: 1.69125e-09
+
+Application 35441952 resources: utime ~145s, stime ~41s, Rss ~30150668, inblocks ~1389, outblocks ~2521
+----------------
+N threads: 1
+
+Dimensions: 252 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000320383 s
+@ 1DFFTWRINIT 252 0.000320383
+        Time:  7.9843e-05 s
+@ 1DFFTWR 252 7.9843e-05
+      Inverse
+        Init. time:  0.000257332 s
+@ 1DFFTWRINVINIT 252 0.000257332
+        Time:  9.3634e-05 s
+@ 1DFFTWRINV 252 9.3634e-05
+      Error: 2.00359e-14
+
+    GSL
+      Direct
+        Init. time:  0.000570136 s
+@ 1DGSLRINIT 252 0.000570136
+        Time:  0.000219408 s
+@ 1DGSLR 252 0.000219408
+      Inverse
+        Init. time:  7.8976e-05 s
+@ 1DGSLRINVINIT 252 7.8976e-05
+        Time:  0.000172949 s
+@ 1DGSLRINV 252 0.000172949
+      Error: 6.80126e-14
+
+    MKL
+      Direct
+        Init. time:  0.0136331 s
+@ 1DMKLRINIT 252 0.0136331
+        Time:  8.9893e-05 s
+@ 1DMKLR 252 8.9893e-05
+      Inverse
+        Init. time:  1.5568e-05 s
+@ 1DMKLRINVINIT 252 1.5568e-05
+        Time:  4.8153e-05 s
+@ 1DMKLRINV 252 4.8153e-05
+      Error: 6.80126e-14
+
+    FFTPACK
+      Direct
+        Init. time:  0.001144 s
+@ 1DFFTPACKRINIT 252 0.001144
+        Time:  0.00015933 s
+@ 1DFFTPACKR 252 0.00015933
+      Inverse
+        Init. time:  8.002e-06 s
+@ 1DFFTPACKRINVINIT 252 8.002e-06
+        Time:  8.803e-05 s
+@ 1DFFTPACKRINV 252 8.803e-05
+      Error: 6.80126e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  6.4999e-05 s
+@ 1DFFTWCINIT 252 6.4999e-05
+        Time:  0.000118311 s
+@ 1DFFTWC 252 0.000118311
+      Inverse
+        Init. time:  5.5093e-05 s
+@ 1DFFTWCINVINIT 252 5.5093e-05
+        Time:  0.000162011 s
+@ 1DFFTWCINV 252 0.000162011
+      Error: 4.02047e-14
+
+    GSL
+      Direct
+        Init. time:  1.7408e-05 s
+@ 1DGSLCINIT 252 1.7408e-05
+        Time:  0.000118144 s
+@ 1DGSLC 252 0.000118144
+      Inverse
+        Init. time:  1.3544e-05 s
+@ 1DGSLCINVINIT 252 1.3544e-05
+        Time:  0.000246461 s
+@ 1DGSLCINV 252 0.000246461
+      Error: 4.96132e-14
+
+    MKL
+      Direct
+        Init. time:  8.806e-05 s
+@ 1DMKLCINIT 252 8.806e-05
+        Time:  0.000118904 s
+@ 1DMKLC 252 0.000118904
+      Inverse
+        Init. time:  1.7502e-05 s
+@ 1DMKLCINV 252 1.7502e-05
+        Time:  0.000180021 s
+@ 1DMKLCINV 252 0.000180021
+      Error: 4.96132e-14
+
+    FFTPACK
+      Direct
+        Init. time:  8.42e-05 s
+@ 1DFFTPACKCINIT 252 8.42e-05
+        Time:  0.000122458 s
+@ 1DFFTPACKC 252 0.000122458
+      Inverse
+        Init. time:  1.1691e-05 s
+@ 1DFFTPACKCINVINIT 252 1.1691e-05
+        Time:  0.000180436 s
+@ 1DFFTPACKCINV 252 0.000180436
+      Error: 4.96132e-14
+
+
+Dimensions: 252 252 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000343739 s
+@ 2DFFTWRINIT 252 0.000343739
+        Time:  0.0307015 s
+@ 2DFFTWR 252 0.0307015
+      Inverse
+        Init. time:  0.000278601 s
+@ 2DFFTWRINVINIT 252 0.000278601
+        Time:  0.0365247 s
+@ 2DFFTWRINV 252 0.0365247
+      Error: 5.30607e-12
+
+    MKL
+      Direct
+        Init. time:  0.000136828 s
+@ 2DMKLRINIT 252 0.000136828
+        Time:  0.0161131 s
+@ 2DMKLR 252 0.0161131
+      Inverse
+        Init. time:  7.2862e-05 s
+@ 2DMKLRINIT 252 7.2862e-05
+        Time:  0.0161711 s
+@ 2DMKLR 252 0.0161711
+      Error: 5.30607e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000373102 s
+@ 2DFFTWCINIT 252 0.000373102
+        Time:  0.055313 s
+@ 2DFFTWC 252 0.055313
+      Inverse
+        Init. time:  0.000340992 s
+@ 2DFFTWCINVINIT 252 0.000340992
+        Time:  0.0660164 s
+@ 2DFFTWCINV 252 0.0660164
+      Error: 8.62259e-12
+
+    MKL
+      Direct
+        Init. time:  6.1696e-05 s
+@ 2DMKLCINIT 252 6.1696e-05
+        Time:  0.0241801 s
+@ 2DMKLC 252 0.0241801
+      Inverse
+        Init. time:  5.8015e-05 s
+@ 2DMKLCINVINIT 252 5.8015e-05
+        Time:  0.0247675 s
+@ 2DMKLCINV 252 0.0247675
+      Error: 8.62259e-12
+
+Dimensions: 252 252 252 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000439468 s
+@ 3DFFTWRINIT 252 0.000439468
+        Time:  12.693 s
+@ 3DFFTWR 252 12.693
+      Inverse
+        Init. time:  0.000441194 s
+@ 3DFFTWRINVINIT 252 0.000441194
+        Time:  15.5553 s
+@ 3DFFTWRINV 252 15.5553
+      Error: 1.08683e-09
+
+    MKL
+      Direct
+@ 3DMKLRINIT 252 15.5553
+        Init. time:  19.9602 s
+        Time:  6.60237 s
+@ 3DMKLR 252 6.60237
+      Inverse
+        Init. time:  0.000162771 s
+@ 3DMKLRINVINIT 252 0.000162771
+        Time:  6.64754 s
+@ 3DMKLRINV 252 6.64754
+      Error: 1.08683e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000395605 s
+@ 3DFFTWCINIT 252 0.000395605
+        Time:  23.1943 s
+@ 3DFFTWC 252 23.1943
+      Inverse
+        Init. time:  0.000391939 s
+@ 3DFFTWCINVINIT 252 0.000391939
+        Time:  25.7583 s
+@ 3DFFTWCINV 252 25.7583
+      Error: 1.69125e-09
+
+    MKL
+      Direct
+        Init. time:  7.9758e-05 s
+@ 3DMKLCINIT 252 7.9758e-05
+        Time:  11.1933 s
+@ 3DMKLC 252 11.1933
+      Inverse
+        Init. time:  8.2726e-05 s
+@ 3DMKLCINVINIT 252 8.2726e-05
+        Time:  11.1687 s
+@ 3DMKLCINV 252 11.1687
+      Error: 1.69125e-09
+
+Application 35442420 resources: utime ~146s, stime ~41s, Rss ~30150668, inblocks ~1389, outblocks ~2521
+----------------
+N threads: 1
+
+Dimensions: 252 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000335385 s
+@ 1DFFTWRINIT 252 0.000335385
+        Time:  8.9069e-05 s
+@ 1DFFTWR 252 8.9069e-05
+      Inverse
+        Init. time:  0.000261901 s
+@ 1DFFTWRINVINIT 252 0.000261901
+        Time:  8.9915e-05 s
+@ 1DFFTWRINV 252 8.9915e-05
+      Error: 2.00359e-14
+
+    GSL
+      Direct
+        Init. time:  0.000465517 s
+@ 1DGSLRINIT 252 0.000465517
+        Time:  0.000201004 s
+@ 1DGSLR 252 0.000201004
+      Inverse
+        Init. time:  8.6312e-05 s
+@ 1DGSLRINVINIT 252 8.6312e-05
+        Time:  0.000173097 s
+@ 1DGSLRINV 252 0.000173097
+      Error: 6.80126e-14
+
+    MKL
+      Direct
+        Init. time:  0.0133262 s
+@ 1DMKLRINIT 252 0.0133262
+        Time:  7.7171e-05 s
+@ 1DMKLR 252 7.7171e-05
+      Inverse
+        Init. time:  1.5122e-05 s
+@ 1DMKLRINVINIT 252 1.5122e-05
+        Time:  4.7195e-05 s
+@ 1DMKLRINV 252 4.7195e-05
+      Error: 6.80126e-14
+
+    FFTPACK
+      Direct
+        Init. time:  0.00093594 s
+@ 1DFFTPACKRINIT 252 0.00093594
+        Time:  0.000137326 s
+@ 1DFFTPACKR 252 0.000137326
+      Inverse
+        Init. time:  7.673e-06 s
+@ 1DFFTPACKRINVINIT 252 7.673e-06
+        Time:  0.000110275 s
+@ 1DFFTPACKRINV 252 0.000110275
+      Error: 6.80126e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  6.4671e-05 s
+@ 1DFFTWCINIT 252 6.4671e-05
+        Time:  0.000118991 s
+@ 1DFFTWC 252 0.000118991
+      Inverse
+        Init. time:  5.4004e-05 s
+@ 1DFFTWCINVINIT 252 5.4004e-05
+        Time:  0.000161827 s
+@ 1DFFTWCINV 252 0.000161827
+      Error: 4.02047e-14
+
+    GSL
+      Direct
+        Init. time:  1.7097e-05 s
+@ 1DGSLCINIT 252 1.7097e-05
+        Time:  0.000125314 s
+@ 1DGSLC 252 0.000125314
+      Inverse
+        Init. time:  1.4927e-05 s
+@ 1DGSLCINVINIT 252 1.4927e-05
+        Time:  0.000242933 s
+@ 1DGSLCINV 252 0.000242933
+      Error: 4.96132e-14
+
+    MKL
+      Direct
+        Init. time:  6.6344e-05 s
+@ 1DMKLCINIT 252 6.6344e-05
+        Time:  0.000119209 s
+@ 1DMKLC 252 0.000119209
+      Inverse
+        Init. time:  3.0263e-05 s
+@ 1DMKLCINV 252 3.0263e-05
+        Time:  0.000177651 s
+@ 1DMKLCINV 252 0.000177651
+      Error: 4.96132e-14
+
+    FFTPACK
+      Direct
+        Init. time:  9.4656e-05 s
+@ 1DFFTPACKCINIT 252 9.4656e-05
+        Time:  0.000122267 s
+@ 1DFFTPACKC 252 0.000122267
+      Inverse
+        Init. time:  1.1513e-05 s
+@ 1DFFTPACKCINVINIT 252 1.1513e-05
+        Time:  0.000179964 s
+@ 1DFFTPACKCINV 252 0.000179964
+      Error: 4.96132e-14
+
+
+Dimensions: 252 252 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000343601 s
+@ 2DFFTWRINIT 252 0.000343601
+        Time:  0.0312756 s
+@ 2DFFTWR 252 0.0312756
+      Inverse
+        Init. time:  0.000275623 s
+@ 2DFFTWRINVINIT 252 0.000275623
+        Time:  0.036622 s
+@ 2DFFTWRINV 252 0.036622
+      Error: 5.30607e-12
+
+    MKL
+      Direct
+        Init. time:  0.000139091 s
+@ 2DMKLRINIT 252 0.000139091
+        Time:  0.0160919 s
+@ 2DMKLR 252 0.0160919
+      Inverse
+        Init. time:  8.3385e-05 s
+@ 2DMKLRINIT 252 8.3385e-05
+        Time:  0.0162691 s
+@ 2DMKLR 252 0.0162691
+      Error: 5.30607e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000367186 s
+@ 2DFFTWCINIT 252 0.000367186
+        Time:  0.0551401 s
+@ 2DFFTWC 252 0.0551401
+      Inverse
+        Init. time:  0.00035042 s
+@ 2DFFTWCINVINIT 252 0.00035042
+        Time:  0.0658604 s
+@ 2DFFTWCINV 252 0.0658604
+      Error: 8.62259e-12
+
+    MKL
+      Direct
+        Init. time:  6.013e-05 s
+@ 2DMKLCINIT 252 6.013e-05
+        Time:  0.0241567 s
+@ 2DMKLC 252 0.0241567
+      Inverse
+        Init. time:  5.5847e-05 s
+@ 2DMKLCINVINIT 252 5.5847e-05
+        Time:  0.02467 s
+@ 2DMKLCINV 252 0.02467
+      Error: 8.62259e-12
+
+Dimensions: 252 252 252 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000424116 s
+@ 3DFFTWRINIT 252 0.000424116
+        Time:  12.7042 s
+@ 3DFFTWR 252 12.7042
+      Inverse
+        Init. time:  0.000447051 s
+@ 3DFFTWRINVINIT 252 0.000447051
+        Time:  15.5523 s
+@ 3DFFTWRINV 252 15.5523
+      Error: 1.08683e-09
+
+    MKL
+      Direct
+@ 3DMKLRINIT 252 15.5523
+        Init. time:  19.9513 s
+        Time:  6.60549 s
+@ 3DMKLR 252 6.60549
+      Inverse
+        Init. time:  0.000149898 s
+@ 3DMKLRINVINIT 252 0.000149898
+        Time:  6.60033 s
+@ 3DMKLRINV 252 6.60033
+      Error: 1.08683e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000396146 s
+@ 3DFFTWCINIT 252 0.000396146
+        Time:  23.2 s
+@ 3DFFTWC 252 23.2
+      Inverse
+        Init. time:  0.000393543 s
+@ 3DFFTWCINVINIT 252 0.000393543
+        Time:  25.7499 s
+@ 3DFFTWCINV 252 25.7499
+      Error: 1.69125e-09
+
+    MKL
+      Direct
+        Init. time:  8.0412e-05 s
+@ 3DMKLCINIT 252 8.0412e-05
+        Time:  11.1577 s
+@ 3DMKLC 252 11.1577
+      Inverse
+        Init. time:  8.6927e-05 s
+@ 3DMKLCINVINIT 252 8.6927e-05
+        Time:  11.1955 s
+@ 3DMKLCINV 252 11.1955
+      Error: 1.69125e-09
+
+Application 35442877 resources: utime ~146s, stime ~41s, Rss ~30150668, inblocks ~1389, outblocks ~2521
+----------------
+N threads: 1
+
+Dimensions: 252 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000330696 s
+@ 1DFFTWRINIT 252 0.000330696
+        Time:  9.6155e-05 s
+@ 1DFFTWR 252 9.6155e-05
+      Inverse
+        Init. time:  0.000301949 s
+@ 1DFFTWRINVINIT 252 0.000301949
+        Time:  0.000107767 s
+@ 1DFFTWRINV 252 0.000107767
+      Error: 2.00359e-14
+
+    GSL
+      Direct
+        Init. time:  0.000460436 s
+@ 1DGSLRINIT 252 0.000460436
+        Time:  0.000220014 s
+@ 1DGSLR 252 0.000220014
+      Inverse
+        Init. time:  0.000123064 s
+@ 1DGSLRINVINIT 252 0.000123064
+        Time:  0.000191869 s
+@ 1DGSLRINV 252 0.000191869
+      Error: 6.80126e-14
+
+    MKL
+      Direct
+        Init. time:  0.0127467 s
+@ 1DMKLRINIT 252 0.0127467
+        Time:  9.6693e-05 s
+@ 1DMKLR 252 9.6693e-05
+      Inverse
+        Init. time:  2.0077e-05 s
+@ 1DMKLRINVINIT 252 2.0077e-05
+        Time:  7.0541e-05 s
+@ 1DMKLRINV 252 7.0541e-05
+      Error: 6.80126e-14
+
+    FFTPACK
+      Direct
+        Init. time:  0.00080433 s
+@ 1DFFTPACKRINIT 252 0.00080433
+        Time:  0.000155694 s
+@ 1DFFTPACKR 252 0.000155694
+      Inverse
+        Init. time:  1.0122e-05 s
+@ 1DFFTPACKRINVINIT 252 1.0122e-05
+        Time:  0.000114854 s
+@ 1DFFTPACKRINV 252 0.000114854
+      Error: 6.80126e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000110543 s
+@ 1DFFTWCINIT 252 0.000110543
+        Time:  0.000138895 s
+@ 1DFFTWC 252 0.000138895
+      Inverse
+        Init. time:  0.000101399 s
+@ 1DFFTWCINVINIT 252 0.000101399
+        Time:  0.000192066 s
+@ 1DFFTWCINV 252 0.000192066
+      Error: 4.02047e-14
+
+    GSL
+      Direct
+        Init. time:  2.0316e-05 s
+@ 1DGSLCINIT 252 2.0316e-05
+        Time:  0.000140129 s
+@ 1DGSLC 252 0.000140129
+      Inverse
+        Init. time:  1.7951e-05 s
+@ 1DGSLCINVINIT 252 1.7951e-05
+        Time:  0.000245317 s
+@ 1DGSLCINV 252 0.000245317
+      Error: 4.96132e-14
+
+    MKL
+      Direct
+        Init. time:  9.3871e-05 s
+@ 1DMKLCINIT 252 9.3871e-05
+        Time:  0.000136949 s
+@ 1DMKLC 252 0.000136949
+      Inverse
+        Init. time:  2.4807e-05 s
+@ 1DMKLCINV 252 2.4807e-05
+        Time:  0.00018794 s
+@ 1DMKLCINV 252 0.00018794
+      Error: 4.96132e-14
+
+    FFTPACK
+      Direct
+        Init. time:  0.000123509 s
+@ 1DFFTPACKCINIT 252 0.000123509
+        Time:  0.000132533 s
+@ 1DFFTPACKC 252 0.000132533
+      Inverse
+        Init. time:  1.6087e-05 s
+@ 1DFFTPACKCINVINIT 252 1.6087e-05
+        Time:  0.000195227 s
+@ 1DFFTPACKCINV 252 0.000195227
+      Error: 4.96132e-14
+
+
+Dimensions: 252 252 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000362907 s
+@ 2DFFTWRINIT 252 0.000362907
+        Time:  0.0308208 s
+@ 2DFFTWR 252 0.0308208
+      Inverse
+        Init. time:  0.000312625 s
+@ 2DFFTWRINVINIT 252 0.000312625
+        Time:  0.0365149 s
+@ 2DFFTWRINV 252 0.0365149
+      Error: 5.30607e-12
+
+    MKL
+      Direct
+        Init. time:  0.000183651 s
+@ 2DMKLRINIT 252 0.000183651
+        Time:  0.0160638 s
+@ 2DMKLR 252 0.0160638
+      Inverse
+        Init. time:  0.000113051 s
+@ 2DMKLRINIT 252 0.000113051
+        Time:  0.0161481 s
+@ 2DMKLR 252 0.0161481
+      Error: 5.30607e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.0003811 s
+@ 2DFFTWCINIT 252 0.0003811
+        Time:  0.0553777 s
+@ 2DFFTWC 252 0.0553777
+      Inverse
+        Init. time:  0.00037038 s
+@ 2DFFTWCINVINIT 252 0.00037038
+        Time:  0.0661515 s
+@ 2DFFTWCINV 252 0.0661515
+      Error: 8.62259e-12
+
+    MKL
+      Direct
+        Init. time:  7.6605e-05 s
+@ 2DMKLCINIT 252 7.6605e-05
+        Time:  0.024157 s
+@ 2DMKLC 252 0.024157
+      Inverse
+        Init. time:  6.7237e-05 s
+@ 2DMKLCINVINIT 252 6.7237e-05
+        Time:  0.0246468 s
+@ 2DMKLCINV 252 0.0246468
+      Error: 8.62259e-12
+
+Dimensions: 252 252 252 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000459764 s
+@ 3DFFTWRINIT 252 0.000459764
+        Time:  12.7141 s
+@ 3DFFTWR 252 12.7141
+      Inverse
+        Init. time:  0.000456057 s
+@ 3DFFTWRINVINIT 252 0.000456057
+        Time:  15.4937 s
+@ 3DFFTWRINV 252 15.4937
+      Error: 1.08683e-09
+
+    MKL
+      Direct
+@ 3DMKLRINIT 252 15.4937
+        Init. time:  19.888 s
+        Time:  6.62768 s
+@ 3DMKLR 252 6.62768
+      Inverse
+        Init. time:  0.000186759 s
+@ 3DMKLRINVINIT 252 0.000186759
+        Time:  6.59377 s
+@ 3DMKLRINV 252 6.59377
+      Error: 1.08683e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000431432 s
+@ 3DFFTWCINIT 252 0.000431432
+        Time:  23.1658 s
+@ 3DFFTWC 252 23.1658
+      Inverse
+        Init. time:  0.000421213 s
+@ 3DFFTWCINVINIT 252 0.000421213
+        Time:  25.7298 s
+@ 3DFFTWCINV 252 25.7298
+      Error: 1.69125e-09
+
+    MKL
+      Direct
+        Init. time:  0.000123679 s
+@ 3DMKLCINIT 252 0.000123679
+        Time:  11.1606 s
+@ 3DMKLC 252 11.1606
+      Inverse
+        Init. time:  0.000127326 s
+@ 3DMKLCINVINIT 252 0.000127326
+        Time:  11.1728 s
+@ 3DMKLCINV 252 11.1728
+      Error: 1.69125e-09
+
+Application 35443348 resources: utime ~146s, stime ~40s, Rss ~30150668, inblocks ~1389, outblocks ~2521
+----------------
+N threads: 1
+
+Dimensions: 252 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000340835 s
+@ 1DFFTWRINIT 252 0.000340835
+        Time:  7.6003e-05 s
+@ 1DFFTWR 252 7.6003e-05
+      Inverse
+        Init. time:  0.000256653 s
+@ 1DFFTWRINVINIT 252 0.000256653
+        Time:  9.3675e-05 s
+@ 1DFFTWRINV 252 9.3675e-05
+      Error: 2.00359e-14
+
+    GSL
+      Direct
+        Init. time:  0.000480654 s
+@ 1DGSLRINIT 252 0.000480654
+        Time:  0.000219102 s
+@ 1DGSLR 252 0.000219102
+      Inverse
+        Init. time:  7.6072e-05 s
+@ 1DGSLRINVINIT 252 7.6072e-05
+        Time:  0.000189198 s
+@ 1DGSLRINV 252 0.000189198
+      Error: 6.80126e-14
+
+    MKL
+      Direct
+        Init. time:  0.0142487 s
+@ 1DMKLRINIT 252 0.0142487
+        Time:  9.2657e-05 s
+@ 1DMKLR 252 9.2657e-05
+      Inverse
+        Init. time:  1.5095e-05 s
+@ 1DMKLRINVINIT 252 1.5095e-05
+        Time:  5.1229e-05 s
+@ 1DMKLRINV 252 5.1229e-05
+      Error: 6.80126e-14
+
+    FFTPACK
+      Direct
+        Init. time:  0.00377502 s
+@ 1DFFTPACKRINIT 252 0.00377502
+        Time:  0.000135406 s
+@ 1DFFTPACKR 252 0.000135406
+      Inverse
+        Init. time:  7.763e-06 s
+@ 1DFFTPACKRINVINIT 252 7.763e-06
+        Time:  8.7919e-05 s
+@ 1DFFTPACKRINV 252 8.7919e-05
+      Error: 6.80126e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  6.5542e-05 s
+@ 1DFFTWCINIT 252 6.5542e-05
+        Time:  0.00011841 s
+@ 1DFFTWC 252 0.00011841
+      Inverse
+        Init. time:  5.1934e-05 s
+@ 1DFFTWCINVINIT 252 5.1934e-05
+        Time:  0.000164141 s
+@ 1DFFTWCINV 252 0.000164141
+      Error: 4.02047e-14
+
+    GSL
+      Direct
+        Init. time:  1.7077e-05 s
+@ 1DGSLCINIT 252 1.7077e-05
+        Time:  0.000118446 s
+@ 1DGSLC 252 0.000118446
+      Inverse
+        Init. time:  1.3065e-05 s
+@ 1DGSLCINVINIT 252 1.3065e-05
+        Time:  0.000243173 s
+@ 1DGSLCINV 252 0.000243173
+      Error: 4.96132e-14
+
+    MKL
+      Direct
+        Init. time:  7.3448e-05 s
+@ 1DMKLCINIT 252 7.3448e-05
+        Time:  0.000136723 s
+@ 1DMKLC 252 0.000136723
+      Inverse
+        Init. time:  1.8435e-05 s
+@ 1DMKLCINV 252 1.8435e-05
+        Time:  0.000181052 s
+@ 1DMKLCINV 252 0.000181052
+      Error: 4.96132e-14
+
+    FFTPACK
+      Direct
+        Init. time:  8.1405e-05 s
+@ 1DFFTPACKCINIT 252 8.1405e-05
+        Time:  0.000122211 s
+@ 1DFFTPACKC 252 0.000122211
+      Inverse
+        Init. time:  1.1812e-05 s
+@ 1DFFTPACKCINVINIT 252 1.1812e-05
+        Time:  0.000183273 s
+@ 1DFFTPACKCINV 252 0.000183273
+      Error: 4.96132e-14
+
+
+Dimensions: 252 252 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000343273 s
+@ 2DFFTWRINIT 252 0.000343273
+        Time:  0.030983 s
+@ 2DFFTWR 252 0.030983
+      Inverse
+        Init. time:  0.000272803 s
+@ 2DFFTWRINVINIT 252 0.000272803
+        Time:  0.0365265 s
+@ 2DFFTWRINV 252 0.0365265
+      Error: 5.30607e-12
+
+    MKL
+      Direct
+        Init. time:  0.000140755 s
+@ 2DMKLRINIT 252 0.000140755
+        Time:  0.0160884 s
+@ 2DMKLR 252 0.0160884
+      Inverse
+        Init. time:  7.2592e-05 s
+@ 2DMKLRINIT 252 7.2592e-05
+        Time:  0.0161745 s
+@ 2DMKLR 252 0.0161745
+      Error: 5.30607e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000352319 s
+@ 2DFFTWCINIT 252 0.000352319
+        Time:  0.0551019 s
+@ 2DFFTWC 252 0.0551019
+      Inverse
+        Init. time:  0.000339668 s
+@ 2DFFTWCINVINIT 252 0.000339668
+        Time:  0.0658852 s
+@ 2DFFTWCINV 252 0.0658852
+      Error: 8.62259e-12
+
+    MKL
+      Direct
+        Init. time:  6.1606e-05 s
+@ 2DMKLCINIT 252 6.1606e-05
+        Time:  0.0241771 s
+@ 2DMKLC 252 0.0241771
+      Inverse
+        Init. time:  5.5503e-05 s
+@ 2DMKLCINVINIT 252 5.5503e-05
+        Time:  0.024701 s
+@ 2DMKLCINV 252 0.024701
+      Error: 8.62259e-12
+
+Dimensions: 252 252 252 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000437657 s
+@ 3DFFTWRINIT 252 0.000437657
+        Time:  12.6936 s
+@ 3DFFTWR 252 12.6936
+      Inverse
+        Init. time:  0.000435992 s
+@ 3DFFTWRINVINIT 252 0.000435992
+        Time:  15.546 s
+@ 3DFFTWRINV 252 15.546
+      Error: 1.08683e-09
+
+    MKL
+      Direct
+@ 3DMKLRINIT 252 15.546
+        Init. time:  19.9728 s
+        Time:  6.60446 s
+@ 3DMKLR 252 6.60446
+      Inverse
+        Init. time:  0.000152312 s
+@ 3DMKLRINVINIT 252 0.000152312
+        Time:  6.64156 s
+@ 3DMKLRINV 252 6.64156
+      Error: 1.08683e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000401363 s
+@ 3DFFTWCINIT 252 0.000401363
+        Time:  23.2067 s
+@ 3DFFTWC 252 23.2067
+      Inverse
+        Init. time:  0.000393719 s
+@ 3DFFTWCINVINIT 252 0.000393719
+        Time:  25.7616 s
+@ 3DFFTWCINV 252 25.7616
+      Error: 1.69125e-09
+
+    MKL
+      Direct
+        Init. time:  8.0329e-05 s
+@ 3DMKLCINIT 252 8.0329e-05
+        Time:  11.199 s
+@ 3DMKLC 252 11.199
+      Inverse
+        Init. time:  8.8312e-05 s
+@ 3DMKLCINVINIT 252 8.8312e-05
+        Time:  11.1861 s
+@ 3DMKLCINV 252 11.1861
+      Error: 1.69125e-09
+
+Application 35443818 resources: utime ~146s, stime ~41s, Rss ~30150668, inblocks ~1389, outblocks ~2521
+----------------
+N threads: 1
+
+Dimensions: 252 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000348021 s
+@ 1DFFTWRINIT 252 0.000348021
+        Time:  0.000114636 s
+@ 1DFFTWR 252 0.000114636
+      Inverse
+        Init. time:  0.00030022 s
+@ 1DFFTWRINVINIT 252 0.00030022
+        Time:  0.000112229 s
+@ 1DFFTWRINV 252 0.000112229
+      Error: 2.00359e-14
+
+    GSL
+      Direct
+        Init. time:  0.000740725 s
+@ 1DGSLRINIT 252 0.000740725
+        Time:  0.000242767 s
+@ 1DGSLR 252 0.000242767
+      Inverse
+        Init. time:  0.000118146 s
+@ 1DGSLRINVINIT 252 0.000118146
+        Time:  0.000195793 s
+@ 1DGSLRINV 252 0.000195793
+      Error: 6.80126e-14
+
+    MKL
+      Direct
+        Init. time:  0.014335 s
+@ 1DMKLRINIT 252 0.014335
+        Time:  9.6504e-05 s
+@ 1DMKLR 252 9.6504e-05
+      Inverse
+        Init. time:  1.9831e-05 s
+@ 1DMKLRINVINIT 252 1.9831e-05
+        Time:  7.6369e-05 s
+@ 1DMKLRINV 252 7.6369e-05
+      Error: 6.80126e-14
+
+    FFTPACK
+      Direct
+        Init. time:  0.000821574 s
+@ 1DFFTPACKRINIT 252 0.000821574
+        Time:  0.000170648 s
+@ 1DFFTPACKR 252 0.000170648
+      Inverse
+        Init. time:  1.007e-05 s
+@ 1DFFTPACKRINVINIT 252 1.007e-05
+        Time:  0.000116987 s
+@ 1DFFTPACKRINV 252 0.000116987
+      Error: 6.80126e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000100988 s
+@ 1DFFTWCINIT 252 0.000100988
+        Time:  0.000142807 s
+@ 1DFFTWC 252 0.000142807
+      Inverse
+        Init. time:  0.00010269 s
+@ 1DFFTWCINVINIT 252 0.00010269
+        Time:  0.000193119 s
+@ 1DFFTWCINV 252 0.000193119
+      Error: 4.02047e-14
+
+    GSL
+      Direct
+        Init. time:  2.2177e-05 s
+@ 1DGSLCINIT 252 2.2177e-05
+        Time:  0.000134004 s
+@ 1DGSLC 252 0.000134004
+      Inverse
+        Init. time:  2.5397e-05 s
+@ 1DGSLCINVINIT 252 2.5397e-05
+        Time:  0.000266414 s
+@ 1DGSLCINV 252 0.000266414
+      Error: 4.96132e-14
+
+    MKL
+      Direct
+        Init. time:  0.000100843 s
+@ 1DMKLCINIT 252 0.000100843
+        Time:  0.000169356 s
+@ 1DMKLC 252 0.000169356
+      Inverse
+        Init. time:  2.5242e-05 s
+@ 1DMKLCINV 252 2.5242e-05
+        Time:  0.000189279 s
+@ 1DMKLCINV 252 0.000189279
+      Error: 4.96132e-14
+
+    FFTPACK
+      Direct
+        Init. time:  0.000105353 s
+@ 1DFFTPACKCINIT 252 0.000105353
+        Time:  0.000139476 s
+@ 1DFFTPACKC 252 0.000139476
+      Inverse
+        Init. time:  1.6298e-05 s
+@ 1DFFTPACKCINVINIT 252 1.6298e-05
+        Time:  0.000195688 s
+@ 1DFFTPACKCINV 252 0.000195688
+      Error: 4.96132e-14
+
+
+Dimensions: 252 252 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000363373 s
+@ 2DFFTWRINIT 252 0.000363373
+        Time:  0.0310734 s
+@ 2DFFTWR 252 0.0310734
+      Inverse
+        Init. time:  0.000293291 s
+@ 2DFFTWRINVINIT 252 0.000293291
+        Time:  0.0368003 s
+@ 2DFFTWRINV 252 0.0368003
+      Error: 5.30607e-12
+
+    MKL
+      Direct
+        Init. time:  0.000166106 s
+@ 2DMKLRINIT 252 0.000166106
+        Time:  0.0162514 s
+@ 2DMKLR 252 0.0162514
+      Inverse
+        Init. time:  0.000100132 s
+@ 2DMKLRINIT 252 0.000100132
+        Time:  0.0163568 s
+@ 2DMKLR 252 0.0163568
+      Error: 5.30607e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.00038136 s
+@ 2DFFTWCINIT 252 0.00038136
+        Time:  0.0556846 s
+@ 2DFFTWC 252 0.0556846
+      Inverse
+        Init. time:  0.000366673 s
+@ 2DFFTWCINVINIT 252 0.000366673
+        Time:  0.0667456 s
+@ 2DFFTWCINV 252 0.0667456
+      Error: 8.62259e-12
+
+    MKL
+      Direct
+        Init. time:  7.7263e-05 s
+@ 2DMKLCINIT 252 7.7263e-05
+        Time:  0.0243354 s
+@ 2DMKLC 252 0.0243354
+      Inverse
+        Init. time:  7.4217e-05 s
+@ 2DMKLCINVINIT 252 7.4217e-05
+        Time:  0.0248302 s
+@ 2DMKLCINV 252 0.0248302
+      Error: 8.62259e-12
+
+Dimensions: 252 252 252 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000459954 s
+@ 3DFFTWRINIT 252 0.000459954
+        Time:  12.7186 s
+@ 3DFFTWR 252 12.7186
+      Inverse
+        Init. time:  0.000459605 s
+@ 3DFFTWRINVINIT 252 0.000459605
+        Time:  15.5456 s
+@ 3DFFTWRINV 252 15.5456
+      Error: 1.08683e-09
+
+    MKL
+      Direct
+@ 3DMKLRINIT 252 15.5456
+        Init. time:  19.953 s
+        Time:  6.59829 s
+@ 3DMKLR 252 6.59829
+      Inverse
+        Init. time:  0.000189332 s
+@ 3DMKLRINVINIT 252 0.000189332
+        Time:  6.59393 s
+@ 3DMKLRINV 252 6.59393
+      Error: 1.08683e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000430135 s
+@ 3DFFTWCINIT 252 0.000430135
+        Time:  23.1934 s
+@ 3DFFTWC 252 23.1934
+      Inverse
+        Init. time:  0.000419861 s
+@ 3DFFTWCINVINIT 252 0.000419861
+        Time:  25.7496 s
+@ 3DFFTWCINV 252 25.7496
+      Error: 1.69125e-09
+
+    MKL
+      Direct
+        Init. time:  0.000121853 s
+@ 3DMKLCINIT 252 0.000121853
+        Time:  11.1349 s
+@ 3DMKLC 252 11.1349
+      Inverse
+        Init. time:  0.000128342 s
+@ 3DMKLCINVINIT 252 0.000128342
+        Time:  11.2027 s
+@ 3DMKLCINV 252 11.2027
+      Error: 1.69125e-09
+
+Application 35444282 resources: utime ~146s, stime ~40s, Rss ~30150668, inblocks ~1389, outblocks ~2521
+----------------
+N threads: 1
+
+Dimensions: 252 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000320644 s
+@ 1DFFTWRINIT 252 0.000320644
+        Time:  8.0115e-05 s
+@ 1DFFTWR 252 8.0115e-05
+      Inverse
+        Init. time:  0.000257271 s
+@ 1DFFTWRINVINIT 252 0.000257271
+        Time:  8.9116e-05 s
+@ 1DFFTWRINV 252 8.9116e-05
+      Error: 2.00359e-14
+
+    GSL
+      Direct
+        Init. time:  0.000503921 s
+@ 1DGSLRINIT 252 0.000503921
+        Time:  0.000210952 s
+@ 1DGSLR 252 0.000210952
+      Inverse
+        Init. time:  7.7728e-05 s
+@ 1DGSLRINVINIT 252 7.7728e-05
+        Time:  0.00017235 s
+@ 1DGSLRINV 252 0.00017235
+      Error: 6.80126e-14
+
+    MKL
+      Direct
+        Init. time:  0.013543 s
+@ 1DMKLRINIT 252 0.013543
+        Time:  8.7678e-05 s
+@ 1DMKLR 252 8.7678e-05
+      Inverse
+        Init. time:  1.5189e-05 s
+@ 1DMKLRINVINIT 252 1.5189e-05
+        Time:  5.1184e-05 s
+@ 1DMKLRINV 252 5.1184e-05
+      Error: 6.80126e-14
+
+    FFTPACK
+      Direct
+        Init. time:  0.000857517 s
+@ 1DFFTPACKRINIT 252 0.000857517
+        Time:  0.00013589 s
+@ 1DFFTPACKR 252 0.00013589
+      Inverse
+        Init. time:  7.993e-06 s
+@ 1DFFTPACKRINVINIT 252 7.993e-06
+        Time:  0.000102914 s
+@ 1DFFTPACKRINV 252 0.000102914
+      Error: 6.80126e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  6.8838e-05 s
+@ 1DFFTWCINIT 252 6.8838e-05
+        Time:  0.000134137 s
+@ 1DFFTWC 252 0.000134137
+      Inverse
+        Init. time:  5.3637e-05 s
+@ 1DFFTWCINVINIT 252 5.3637e-05
+        Time:  0.00018415 s
+@ 1DFFTWCINV 252 0.00018415
+      Error: 4.02047e-14
+
+    GSL
+      Direct
+        Init. time:  1.6797e-05 s
+@ 1DGSLCINIT 252 1.6797e-05
+        Time:  0.000121348 s
+@ 1DGSLC 252 0.000121348
+      Inverse
+        Init. time:  1.3017e-05 s
+@ 1DGSLCINVINIT 252 1.3017e-05
+        Time:  0.000229261 s
+@ 1DGSLCINV 252 0.000229261
+      Error: 4.96132e-14
+
+    MKL
+      Direct
+        Init. time:  6.6816e-05 s
+@ 1DMKLCINIT 252 6.6816e-05
+        Time:  0.000121805 s
+@ 1DMKLC 252 0.000121805
+      Inverse
+        Init. time:  1.8039e-05 s
+@ 1DMKLCINV 252 1.8039e-05
+        Time:  0.000189474 s
+@ 1DMKLCINV 252 0.000189474
+      Error: 4.96132e-14
+
+    FFTPACK
+      Direct
+        Init. time:  8.8211e-05 s
+@ 1DFFTPACKCINIT 252 8.8211e-05
+        Time:  0.000115652 s
+@ 1DFFTPACKC 252 0.000115652
+      Inverse
+        Init. time:  1.171e-05 s
+@ 1DFFTPACKCINVINIT 252 1.171e-05
+        Time:  0.000181716 s
+@ 1DFFTPACKCINV 252 0.000181716
+      Error: 4.96132e-14
+
+
+Dimensions: 252 252 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000332162 s
+@ 2DFFTWRINIT 252 0.000332162
+        Time:  0.0309014 s
+@ 2DFFTWR 252 0.0309014
+      Inverse
+        Init. time:  0.000274611 s
+@ 2DFFTWRINVINIT 252 0.000274611
+        Time:  0.0364582 s
+@ 2DFFTWRINV 252 0.0364582
+      Error: 5.30607e-12
+
+    MKL
+      Direct
+        Init. time:  0.00013947 s
+@ 2DMKLRINIT 252 0.00013947
+        Time:  0.0161294 s
+@ 2DMKLR 252 0.0161294
+      Inverse
+        Init. time:  8.4263e-05 s
+@ 2DMKLRINIT 252 8.4263e-05
+        Time:  0.0161362 s
+@ 2DMKLR 252 0.0161362
+      Error: 5.30607e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000375357 s
+@ 2DFFTWCINIT 252 0.000375357
+        Time:  0.0551531 s
+@ 2DFFTWC 252 0.0551531
+      Inverse
+        Init. time:  0.000343648 s
+@ 2DFFTWCINVINIT 252 0.000343648
+        Time:  0.0658995 s
+@ 2DFFTWCINV 252 0.0658995
+      Error: 8.62259e-12
+
+    MKL
+      Direct
+        Init. time:  6.0101e-05 s
+@ 2DMKLCINIT 252 6.0101e-05
+        Time:  0.0242054 s
+@ 2DMKLC 252 0.0242054
+      Inverse
+        Init. time:  5.6447e-05 s
+@ 2DMKLCINVINIT 252 5.6447e-05
+        Time:  0.0246861 s
+@ 2DMKLCINV 252 0.0246861
+      Error: 8.62259e-12
+
+Dimensions: 252 252 252 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000516781 s
+@ 3DFFTWRINIT 252 0.000516781
+        Time:  12.7274 s
+@ 3DFFTWR 252 12.7274
+      Inverse
+        Init. time:  0.000439002 s
+@ 3DFFTWRINVINIT 252 0.000439002
+        Time:  15.5094 s
+@ 3DFFTWRINV 252 15.5094
+      Error: 1.08683e-09
+
+    MKL
+      Direct
+@ 3DMKLRINIT 252 15.5094
+        Init. time:  19.9119 s
+        Time:  6.64186 s
+@ 3DMKLR 252 6.64186
+      Inverse
+        Init. time:  0.000138637 s
+@ 3DMKLRINVINIT 252 0.000138637
+        Time:  6.60024 s
+@ 3DMKLRINV 252 6.60024
+      Error: 1.08683e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000398356 s
+@ 3DFFTWCINIT 252 0.000398356
+        Time:  23.191 s
+@ 3DFFTWC 252 23.191
+      Inverse
+        Init. time:  0.000393836 s
+@ 3DFFTWCINVINIT 252 0.000393836
+        Time:  25.7391 s
+@ 3DFFTWCINV 252 25.7391
+      Error: 1.69125e-09
+
+    MKL
+      Direct
+        Init. time:  8.0655e-05 s
+@ 3DMKLCINIT 252 8.0655e-05
+        Time:  11.1525 s
+@ 3DMKLC 252 11.1525
+      Inverse
+        Init. time:  9.3212e-05 s
+@ 3DMKLCINVINIT 252 9.3212e-05
+        Time:  11.1835 s
+@ 3DMKLCINV 252 11.1835
+      Error: 1.69125e-09
+
+Application 35444745 resources: utime ~146s, stime ~41s, Rss ~30150668, inblocks ~1389, outblocks ~2521
+----------------
+N threads: 1
+
+Dimensions: 252 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000336916 s
+@ 1DFFTWRINIT 252 0.000336916
+        Time:  9.8795e-05 s
+@ 1DFFTWR 252 9.8795e-05
+      Inverse
+        Init. time:  0.000305639 s
+@ 1DFFTWRINVINIT 252 0.000305639
+        Time:  0.000114073 s
+@ 1DFFTWRINV 252 0.000114073
+      Error: 2.00359e-14
+
+    GSL
+      Direct
+        Init. time:  0.000633289 s
+@ 1DGSLRINIT 252 0.000633289
+        Time:  0.000240216 s
+@ 1DGSLR 252 0.000240216
+      Inverse
+        Init. time:  0.000118932 s
+@ 1DGSLRINVINIT 252 0.000118932
+        Time:  0.000192127 s
+@ 1DGSLRINV 252 0.000192127
+      Error: 6.80126e-14
+
+    MKL
+      Direct
+        Init. time:  0.0141158 s
+@ 1DMKLRINIT 252 0.0141158
+        Time:  9.7138e-05 s
+@ 1DMKLR 252 9.7138e-05
+      Inverse
+        Init. time:  1.9654e-05 s
+@ 1DMKLRINVINIT 252 1.9654e-05
+        Time:  7.685e-05 s
+@ 1DMKLRINV 252 7.685e-05
+      Error: 6.80126e-14
+
+    FFTPACK
+      Direct
+        Init. time:  0.000856166 s
+@ 1DFFTPACKRINIT 252 0.000856166
+        Time:  0.000202659 s
+@ 1DFFTPACKR 252 0.000202659
+      Inverse
+        Init. time:  1.0496e-05 s
+@ 1DFFTPACKRINVINIT 252 1.0496e-05
+        Time:  0.000117718 s
+@ 1DFFTPACKRINV 252 0.000117718
+      Error: 6.80126e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  8.3741e-05 s
+@ 1DFFTWCINIT 252 8.3741e-05
+        Time:  0.000134984 s
+@ 1DFFTWC 252 0.000134984
+      Inverse
+        Init. time:  8.7766e-05 s
+@ 1DFFTWCINVINIT 252 8.7766e-05
+        Time:  0.00019463 s
+@ 1DFFTWCINV 252 0.00019463
+      Error: 4.02047e-14
+
+    GSL
+      Direct
+        Init. time:  2.2463e-05 s
+@ 1DGSLCINIT 252 2.2463e-05
+        Time:  0.000140388 s
+@ 1DGSLC 252 0.000140388
+      Inverse
+        Init. time:  1.79e-05 s
+@ 1DGSLCINVINIT 252 1.79e-05
+        Time:  0.000248604 s
+@ 1DGSLCINV 252 0.000248604
+      Error: 4.96132e-14
+
+    MKL
+      Direct
+        Init. time:  9.6799e-05 s
+@ 1DMKLCINIT 252 9.6799e-05
+        Time:  0.000134076 s
+@ 1DMKLC 252 0.000134076
+      Inverse
+        Init. time:  2.5636e-05 s
+@ 1DMKLCINV 252 2.5636e-05
+        Time:  0.000194499 s
+@ 1DMKLCINV 252 0.000194499
+      Error: 4.96132e-14
+
+    FFTPACK
+      Direct
+        Init. time:  0.000119951 s
+@ 1DFFTPACKCINIT 252 0.000119951
+        Time:  0.000154034 s
+@ 1DFFTPACKC 252 0.000154034
+      Inverse
+        Init. time:  1.7333e-05 s
+@ 1DFFTPACKCINVINIT 252 1.7333e-05
+        Time:  0.000219089 s
+@ 1DFFTPACKCINV 252 0.000219089
+      Error: 4.96132e-14
+
+
+Dimensions: 252 252 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000365591 s
+@ 2DFFTWRINIT 252 0.000365591
+        Time:  0.0308376 s
+@ 2DFFTWR 252 0.0308376
+      Inverse
+        Init. time:  0.000291252 s
+@ 2DFFTWRINVINIT 252 0.000291252
+        Time:  0.0365349 s
+@ 2DFFTWRINV 252 0.0365349
+      Error: 5.30607e-12
+
+    MKL
+      Direct
+        Init. time:  0.000177545 s
+@ 2DMKLRINIT 252 0.000177545
+        Time:  0.0161015 s
+@ 2DMKLR 252 0.0161015
+      Inverse
+        Init. time:  9.9063e-05 s
+@ 2DMKLRINIT 252 9.9063e-05
+        Time:  0.0161755 s
+@ 2DMKLR 252 0.0161755
+      Error: 5.30607e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.00038024 s
+@ 2DFFTWCINIT 252 0.00038024
+        Time:  0.0552706 s
+@ 2DFFTWC 252 0.0552706
+      Inverse
+        Init. time:  0.000369904 s
+@ 2DFFTWCINVINIT 252 0.000369904
+        Time:  0.066142 s
+@ 2DFFTWCINV 252 0.066142
+      Error: 8.62259e-12
+
+    MKL
+      Direct
+        Init. time:  7.7274e-05 s
+@ 2DMKLCINIT 252 7.7274e-05
+        Time:  0.0241516 s
+@ 2DMKLC 252 0.0241516
+      Inverse
+        Init. time:  7.0645e-05 s
+@ 2DMKLCINVINIT 252 7.0645e-05
+        Time:  0.0247858 s
+@ 2DMKLCINV 252 0.0247858
+      Error: 8.62259e-12
+
+Dimensions: 252 252 252 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000460335 s
+@ 3DFFTWRINIT 252 0.000460335
+        Time:  12.6875 s
+@ 3DFFTWR 252 12.6875
+      Inverse
+        Init. time:  0.000458433 s
+@ 3DFFTWRINVINIT 252 0.000458433
+        Time:  15.5591 s
+@ 3DFFTWRINV 252 15.5591
+      Error: 1.08683e-09
+
+    MKL
+      Direct
+@ 3DMKLRINIT 252 15.5591
+        Init. time:  20.0077 s
+        Time:  6.59907 s
+@ 3DMKLR 252 6.59907
+      Inverse
+        Init. time:  0.000186938 s
+@ 3DMKLRINVINIT 252 0.000186938
+        Time:  6.63613 s
+@ 3DMKLRINV 252 6.63613
+      Error: 1.08683e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000428431 s
+@ 3DFFTWCINIT 252 0.000428431
+        Time:  23.1832 s
+@ 3DFFTWC 252 23.1832
+      Inverse
+        Init. time:  0.000427284 s
+@ 3DFFTWCINVINIT 252 0.000427284
+        Time:  25.7376 s
+@ 3DFFTWCINV 252 25.7376
+      Error: 1.69125e-09
+
+    MKL
+      Direct
+        Init. time:  0.000124897 s
+@ 3DMKLCINIT 252 0.000124897
+        Time:  11.1784 s
+@ 3DMKLC 252 11.1784
+      Inverse
+        Init. time:  0.000131337 s
+@ 3DMKLCINVINIT 252 0.000131337
+        Time:  11.1656 s
+@ 3DMKLCINV 252 11.1656
+      Error: 1.69125e-09
+
+Application 35445201 resources: utime ~146s, stime ~42s, Rss ~30150668, inblocks ~1389, outblocks ~2521
+================
+----------------
+N threads: 1
+
+Dimensions: 256 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000344795 s
+@ 1DFFTWRINIT 256 0.000344795
+        Time:  8.1524e-05 s
+@ 1DFFTWR 256 8.1524e-05
+      Inverse
+        Init. time:  0.000291863 s
+@ 1DFFTWRINVINIT 256 0.000291863
+        Time:  7.0952e-05 s
+@ 1DFFTWRINV 256 7.0952e-05
+      Error: 2.75335e-14
+
+    GSL
+      Direct
+        Init. time:  0.000409039 s
+@ 1DGSLRINIT 256 0.000409039
+        Time:  9.618e-05 s
+@ 1DGSLR 256 9.618e-05
+      Inverse
+        Init. time:  7.2174e-05 s
+@ 1DGSLRINVINIT 256 7.2174e-05
+        Time:  0.000101338 s
+@ 1DGSLRINV 256 0.000101338
+      Error: 2.29261e-14
+
+    MKL
+      Direct
+        Init. time:  0.0132378 s
+@ 1DMKLRINIT 256 0.0132378
+        Time:  7.9423e-05 s
+@ 1DMKLR 256 7.9423e-05
+      Inverse
+        Init. time:  1.2781e-05 s
+@ 1DMKLRINVINIT 256 1.2781e-05
+        Time:  4.6799e-05 s
+@ 1DMKLRINV 256 4.6799e-05
+      Error: 2.29261e-14
+
+    FFTPACK
+      Direct
+        Init. time:  0.000923531 s
+@ 1DFFTPACKRINIT 256 0.000923531
+        Time:  7.3204e-05 s
+@ 1DFFTPACKR 256 7.3204e-05
+      Inverse
+        Init. time:  7.732e-06 s
+@ 1DFFTPACKRINVINIT 256 7.732e-06
+        Time:  6.3564e-05 s
+@ 1DFFTPACKRINV 256 6.3564e-05
+      Error: 2.29261e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  2.9302e-05 s
+@ 1DFFTWCINIT 256 2.9302e-05
+        Time:  0.000102889 s
+@ 1DFFTWC 256 0.000102889
+      Inverse
+        Init. time:  2.3747e-05 s
+@ 1DFFTWCINVINIT 256 2.3747e-05
+        Time:  0.000148204 s
+@ 1DFFTWCINV 256 0.000148204
+      Error: 3.0082e-14
+
+    GSL
+      Direct
+        Init. time:  2.5471e-05 s
+@ 1DGSLCINIT 256 2.5471e-05
+        Time:  0.000102478 s
+@ 1DGSLC 256 0.000102478
+      Inverse
+        Init. time:  1.4731e-05 s
+@ 1DGSLCINVINIT 256 1.4731e-05
+        Time:  0.000180318 s
+@ 1DGSLCINV 256 0.000180318
+      Error: 4.54296e-14
+
+    MKL
+      Direct
+        Init. time:  7.7485e-05 s
+@ 1DMKLCINIT 256 7.7485e-05
+        Time:  9.8119e-05 s
+@ 1DMKLC 256 9.8119e-05
+      Inverse
+        Init. time:  3.1961e-05 s
+@ 1DMKLCINV 256 3.1961e-05
+        Time:  0.000136594 s
+@ 1DMKLCINV 256 0.000136594
+      Error: 4.54296e-14
+
+    FFTPACK
+      Direct
+        Init. time:  4.174e-05 s
+@ 1DFFTPACKCINIT 256 4.174e-05
+        Time:  9.6024e-05 s
+@ 1DFFTPACKC 256 9.6024e-05
+      Inverse
+        Init. time:  1.1585e-05 s
+@ 1DFFTPACKCINVINIT 256 1.1585e-05
+        Time:  0.000148795 s
+@ 1DFFTPACKCINV 256 0.000148795
+      Error: 4.54296e-14
+
+
+Dimensions: 256 256 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000249812 s
+@ 2DFFTWRINIT 256 0.000249812
+        Time:  0.0254188 s
+@ 2DFFTWR 256 0.0254188
+      Inverse
+        Init. time:  0.00020009 s
+@ 2DFFTWRINVINIT 256 0.00020009
+        Time:  0.0299095 s
+@ 2DFFTWRINV 256 0.0299095
+      Error: 5.08199e-12
+
+    MKL
+      Direct
+        Init. time:  0.000152027 s
+@ 2DMKLRINIT 256 0.000152027
+        Time:  0.0155523 s
+@ 2DMKLR 256 0.0155523
+      Inverse
+        Init. time:  7.117e-05 s
+@ 2DMKLRINIT 256 7.117e-05
+        Time:  0.0155549 s
+@ 2DMKLR 256 0.0155549
+      Error: 5.08199e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000287048 s
+@ 2DFFTWCINIT 256 0.000287048
+        Time:  0.0680276 s
+@ 2DFFTWC 256 0.0680276
+      Inverse
+        Init. time:  0.000274814 s
+@ 2DFFTWCINVINIT 256 0.000274814
+        Time:  0.0791348 s
+@ 2DFFTWCINV 256 0.0791348
+      Error: 8.67986e-12
+
+    MKL
+      Direct
+        Init. time:  5.9684e-05 s
+@ 2DMKLCINIT 256 5.9684e-05
+        Time:  0.0236449 s
+@ 2DMKLC 256 0.0236449
+      Inverse
+        Init. time:  5.2259e-05 s
+@ 2DMKLCINVINIT 256 5.2259e-05
+        Time:  0.025408 s
+@ 2DMKLCINV 256 0.025408
+      Error: 8.67986e-12
+
+Dimensions: 256 256 256 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000324567 s
+@ 3DFFTWRINIT 256 0.000324567
+        Time:  14.3341 s
+@ 3DFFTWR 256 14.3341
+      Inverse
+        Init. time:  0.000322019 s
+@ 3DFFTWRINVINIT 256 0.000322019
+        Time:  17.2624 s
+@ 3DFFTWRINV 256 17.2624
+      Error: 9.65398e-10
+
+    MKL
+      Direct
+@ 3DMKLRINIT 256 17.2624
+        Init. time:  21.8853 s
+        Time:  6.90842 s
+@ 3DMKLR 256 6.90842
+      Inverse
+        Init. time:  0.00015311 s
+@ 3DMKLRINVINIT 256 0.00015311
+        Time:  6.89576 s
+@ 3DMKLRINV 256 6.89576
+      Error: 9.65398e-10
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000292038 s
+@ 3DFFTWCINIT 256 0.000292038
+        Time:  65.8958 s
+@ 3DFFTWC 256 65.8958
+      Inverse
+        Init. time:  0.000332746 s
+@ 3DFFTWCINVINIT 256 0.000332746
+        Time:  68.6943 s
+@ 3DFFTWCINV 256 68.6943
+      Error: 1.59042e-09
+
+    MKL
+      Direct
+        Init. time:  8.027e-05 s
+@ 3DMKLCINIT 256 8.027e-05
+        Time:  13.8596 s
+@ 3DMKLC 256 13.8596
+      Inverse
+        Init. time:  8.0931e-05 s
+@ 3DMKLCINVINIT 256 8.0931e-05
+        Time:  16.673 s
+@ 3DMKLCINV 256 16.673
+      Error: 1.59042e-09
+
+Application 35445673 resources: utime ~245s, stime ~46s, Rss ~31608552, inblocks ~1389, outblocks ~2521
+----------------
+N threads: 1
+
+Dimensions: 256 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000367735 s
+@ 1DFFTWRINIT 256 0.000367735
+        Time:  7.327e-05 s
+@ 1DFFTWR 256 7.327e-05
+      Inverse
+        Init. time:  0.000297057 s
+@ 1DFFTWRINVINIT 256 0.000297057
+        Time:  7.7055e-05 s
+@ 1DFFTWRINV 256 7.7055e-05
+      Error: 2.75335e-14
+
+    GSL
+      Direct
+        Init. time:  0.000448405 s
+@ 1DGSLRINIT 256 0.000448405
+        Time:  0.000103637 s
+@ 1DGSLR 256 0.000103637
+      Inverse
+        Init. time:  7.8449e-05 s
+@ 1DGSLRINVINIT 256 7.8449e-05
+        Time:  0.000104684 s
+@ 1DGSLRINV 256 0.000104684
+      Error: 2.29261e-14
+
+    MKL
+      Direct
+        Init. time:  0.0142966 s
+@ 1DMKLRINIT 256 0.0142966
+        Time:  7.7148e-05 s
+@ 1DMKLR 256 7.7148e-05
+      Inverse
+        Init. time:  2.7982e-05 s
+@ 1DMKLRINVINIT 256 2.7982e-05
+        Time:  4.2811e-05 s
+@ 1DMKLRINV 256 4.2811e-05
+      Error: 2.29261e-14
+
+    FFTPACK
+      Direct
+        Init. time:  0.000771291 s
+@ 1DFFTPACKRINIT 256 0.000771291
+        Time:  7.1787e-05 s
+@ 1DFFTPACKR 256 7.1787e-05
+      Inverse
+        Init. time:  8.147e-06 s
+@ 1DFFTPACKRINVINIT 256 8.147e-06
+        Time:  6.502e-05 s
+@ 1DFFTPACKRINV 256 6.502e-05
+      Error: 2.29261e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  2.9993e-05 s
+@ 1DFFTWCINIT 256 2.9993e-05
+        Time:  0.000107307 s
+@ 1DFFTWC 256 0.000107307
+      Inverse
+        Init. time:  2.8269e-05 s
+@ 1DFFTWCINVINIT 256 2.8269e-05
+        Time:  0.000151488 s
+@ 1DFFTWCINV 256 0.000151488
+      Error: 3.0082e-14
+
+    GSL
+      Direct
+        Init. time:  1.7391e-05 s
+@ 1DGSLCINIT 256 1.7391e-05
+        Time:  9.9636e-05 s
+@ 1DGSLC 256 9.9636e-05
+      Inverse
+        Init. time:  1.3581e-05 s
+@ 1DGSLCINVINIT 256 1.3581e-05
+        Time:  0.000187303 s
+@ 1DGSLCINV 256 0.000187303
+      Error: 4.54296e-14
+
+    MKL
+      Direct
+        Init. time:  7.3878e-05 s
+@ 1DMKLCINIT 256 7.3878e-05
+        Time:  0.000123915 s
+@ 1DMKLC 256 0.000123915
+      Inverse
+        Init. time:  3.1588e-05 s
+@ 1DMKLCINV 256 3.1588e-05
+        Time:  0.00014078 s
+@ 1DMKLCINV 256 0.00014078
+      Error: 4.54296e-14
+
+    FFTPACK
+      Direct
+        Init. time:  3.4863e-05 s
+@ 1DFFTPACKCINIT 256 3.4863e-05
+        Time:  0.00011163 s
+@ 1DFFTPACKC 256 0.00011163
+      Inverse
+        Init. time:  1.1885e-05 s
+@ 1DFFTPACKCINVINIT 256 1.1885e-05
+        Time:  0.000160177 s
+@ 1DFFTPACKCINV 256 0.000160177
+      Error: 4.54296e-14
+
+
+Dimensions: 256 256 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000225924 s
+@ 2DFFTWRINIT 256 0.000225924
+        Time:  0.0254467 s
+@ 2DFFTWR 256 0.0254467
+      Inverse
+        Init. time:  0.00019828 s
+@ 2DFFTWRINVINIT 256 0.00019828
+        Time:  0.0300821 s
+@ 2DFFTWRINV 256 0.0300821
+      Error: 5.08199e-12
+
+    MKL
+      Direct
+        Init. time:  0.00015776 s
+@ 2DMKLRINIT 256 0.00015776
+        Time:  0.0155809 s
+@ 2DMKLR 256 0.0155809
+      Inverse
+        Init. time:  6.8761e-05 s
+@ 2DMKLRINIT 256 6.8761e-05
+        Time:  0.0157383 s
+@ 2DMKLR 256 0.0157383
+      Error: 5.08199e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000270365 s
+@ 2DFFTWCINIT 256 0.000270365
+        Time:  0.0686231 s
+@ 2DFFTWC 256 0.0686231
+      Inverse
+        Init. time:  0.00027024 s
+@ 2DFFTWCINVINIT 256 0.00027024
+        Time:  0.0797209 s
+@ 2DFFTWCINV 256 0.0797209
+      Error: 8.67986e-12
+
+    MKL
+      Direct
+        Init. time:  5.8717e-05 s
+@ 2DMKLCINIT 256 5.8717e-05
+        Time:  0.0238397 s
+@ 2DMKLC 256 0.0238397
+      Inverse
+        Init. time:  5.2207e-05 s
+@ 2DMKLCINVINIT 256 5.2207e-05
+        Time:  0.0256568 s
+@ 2DMKLCINV 256 0.0256568
+      Error: 8.67986e-12
+
+Dimensions: 256 256 256 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000323086 s
+@ 3DFFTWRINIT 256 0.000323086
+        Time:  14.3558 s
+@ 3DFFTWR 256 14.3558
+      Inverse
+        Init. time:  0.000326391 s
+@ 3DFFTWRINVINIT 256 0.000326391
+        Time:  17.2197 s
+@ 3DFFTWRINV 256 17.2197
+      Error: 9.65398e-10
+
+    MKL
+      Direct
+@ 3DMKLRINIT 256 17.2197
+        Init. time:  21.8884 s
+        Time:  6.90808 s
+@ 3DMKLR 256 6.90808
+      Inverse
+        Init. time:  0.000149674 s
+@ 3DMKLRINVINIT 256 0.000149674
+        Time:  6.89889 s
+@ 3DMKLRINV 256 6.89889
+      Error: 9.65398e-10
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000294381 s
+@ 3DFFTWCINIT 256 0.000294381
+        Time:  66.0535 s
+@ 3DFFTWC 256 66.0535
+      Inverse
+        Init. time:  0.000316498 s
+@ 3DFFTWCINVINIT 256 0.000316498
+        Time:  68.8055 s
+@ 3DFFTWCINV 256 68.8055
+      Error: 1.59042e-09
+
+    MKL
+      Direct
+        Init. time:  8.139e-05 s
+@ 3DMKLCINIT 256 8.139e-05
+        Time:  15.6211 s
+@ 3DMKLC 256 15.6211
+      Inverse
+        Init. time:  8.5027e-05 s
+@ 3DMKLCINVINIT 256 8.5027e-05
+        Time:  14.5933 s
+@ 3DMKLCINV 256 14.5933
+      Error: 1.59042e-09
+
+Application 35446389 resources: utime ~245s, stime ~45s, Rss ~31608552, inblocks ~1389, outblocks ~2521
+----------------
+N threads: 1
+
+Dimensions: 256 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000345244 s
+@ 1DFFTWRINIT 256 0.000345244
+        Time:  7.131e-05 s
+@ 1DFFTWR 256 7.131e-05
+      Inverse
+        Init. time:  0.0002885 s
+@ 1DFFTWRINVINIT 256 0.0002885
+        Time:  7.0694e-05 s
+@ 1DFFTWRINV 256 7.0694e-05
+      Error: 2.75335e-14
+
+    GSL
+      Direct
+        Init. time:  0.000477904 s
+@ 1DGSLRINIT 256 0.000477904
+        Time:  9.2849e-05 s
+@ 1DGSLR 256 9.2849e-05
+      Inverse
+        Init. time:  7.4611e-05 s
+@ 1DGSLRINVINIT 256 7.4611e-05
+        Time:  0.000102509 s
+@ 1DGSLRINV 256 0.000102509
+      Error: 2.29261e-14
+
+    MKL
+      Direct
+        Init. time:  0.0138017 s
+@ 1DMKLRINIT 256 0.0138017
+        Time:  8.1421e-05 s
+@ 1DMKLR 256 8.1421e-05
+      Inverse
+        Init. time:  1.2767e-05 s
+@ 1DMKLRINVINIT 256 1.2767e-05
+        Time:  5.0622e-05 s
+@ 1DMKLRINV 256 5.0622e-05
+      Error: 2.29261e-14
+
+    FFTPACK
+      Direct
+        Init. time:  0.00123665 s
+@ 1DFFTPACKRINIT 256 0.00123665
+        Time:  8.3462e-05 s
+@ 1DFFTPACKR 256 8.3462e-05
+      Inverse
+        Init. time:  7.599e-06 s
+@ 1DFFTPACKRINVINIT 256 7.599e-06
+        Time:  6.2754e-05 s
+@ 1DFFTPACKRINV 256 6.2754e-05
+      Error: 2.29261e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  3.3953e-05 s
+@ 1DFFTWCINIT 256 3.3953e-05
+        Time:  0.000103822 s
+@ 1DFFTWC 256 0.000103822
+      Inverse
+        Init. time:  2.7993e-05 s
+@ 1DFFTWCINVINIT 256 2.7993e-05
+        Time:  0.000146793 s
+@ 1DFFTWCINV 256 0.000146793
+      Error: 3.0082e-14
+
+    GSL
+      Direct
+        Init. time:  2.1582e-05 s
+@ 1DGSLCINIT 256 2.1582e-05
+        Time:  0.000104664 s
+@ 1DGSLC 256 0.000104664
+      Inverse
+        Init. time:  1.5448e-05 s
+@ 1DGSLCINVINIT 256 1.5448e-05
+        Time:  0.000178107 s
+@ 1DGSLCINV 256 0.000178107
+      Error: 4.54296e-14
+
+    MKL
+      Direct
+        Init. time:  6.269e-05 s
+@ 1DMKLCINIT 256 6.269e-05
+        Time:  0.000110374 s
+@ 1DMKLC 256 0.000110374
+      Inverse
+        Init. time:  1.5125e-05 s
+@ 1DMKLCINV 256 1.5125e-05
+        Time:  0.000152473 s
+@ 1DMKLCINV 256 0.000152473
+      Error: 4.54296e-14
+
+    FFTPACK
+      Direct
+        Init. time:  3.7753e-05 s
+@ 1DFFTPACKCINIT 256 3.7753e-05
+        Time:  0.000134082 s
+@ 1DFFTPACKC 256 0.000134082
+      Inverse
+        Init. time:  1.2182e-05 s
+@ 1DFFTPACKCINVINIT 256 1.2182e-05
+        Time:  0.000148983 s
+@ 1DFFTPACKCINV 256 0.000148983
+      Error: 4.54296e-14
+
+
+Dimensions: 256 256 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000242828 s
+@ 2DFFTWRINIT 256 0.000242828
+        Time:  0.0254608 s
+@ 2DFFTWR 256 0.0254608
+      Inverse
+        Init. time:  0.000198766 s
+@ 2DFFTWRINVINIT 256 0.000198766
+        Time:  0.0300803 s
+@ 2DFFTWRINV 256 0.0300803
+      Error: 5.08199e-12
+
+    MKL
+      Direct
+        Init. time:  0.000145079 s
+@ 2DMKLRINIT 256 0.000145079
+        Time:  0.0156314 s
+@ 2DMKLR 256 0.0156314
+      Inverse
+        Init. time:  7.0076e-05 s
+@ 2DMKLRINIT 256 7.0076e-05
+        Time:  0.0157643 s
+@ 2DMKLR 256 0.0157643
+      Error: 5.08199e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000284773 s
+@ 2DFFTWCINIT 256 0.000284773
+        Time:  0.0685742 s
+@ 2DFFTWC 256 0.0685742
+      Inverse
+        Init. time:  0.000272137 s
+@ 2DFFTWCINVINIT 256 0.000272137
+        Time:  0.0795559 s
+@ 2DFFTWCINV 256 0.0795559
+      Error: 8.67986e-12
+
+    MKL
+      Direct
+        Init. time:  5.9564e-05 s
+@ 2DMKLCINIT 256 5.9564e-05
+        Time:  0.0238752 s
+@ 2DMKLC 256 0.0238752
+      Inverse
+        Init. time:  5.1578e-05 s
+@ 2DMKLCINVINIT 256 5.1578e-05
+        Time:  0.0255895 s
+@ 2DMKLCINV 256 0.0255895
+      Error: 8.67986e-12
+
+Dimensions: 256 256 256 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000325718 s
+@ 3DFFTWRINIT 256 0.000325718
+        Time:  14.3372 s
+@ 3DFFTWR 256 14.3372
+      Inverse
+        Init. time:  0.000327963 s
+@ 3DFFTWRINVINIT 256 0.000327963
+        Time:  17.2017 s
+@ 3DFFTWRINV 256 17.2017
+      Error: 9.65398e-10
+
+    MKL
+      Direct
+@ 3DMKLRINIT 256 17.2017
+        Init. time:  21.7931 s
+        Time:  6.94971 s
+@ 3DMKLR 256 6.94971
+      Inverse
+        Init. time:  0.000150134 s
+@ 3DMKLRINVINIT 256 0.000150134
+        Time:  6.89451 s
+@ 3DMKLRINV 256 6.89451
+      Error: 9.65398e-10
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000295362 s
+@ 3DFFTWCINIT 256 0.000295362
+        Time:  65.8298 s
+@ 3DFFTWC 256 65.8298
+      Inverse
+        Init. time:  0.000313732 s
+@ 3DFFTWCINVINIT 256 0.000313732
+        Time:  68.7706 s
+@ 3DFFTWCINV 256 68.7706
+      Error: 1.59042e-09
+
+    MKL
+      Direct
+        Init. time:  8.0647e-05 s
+@ 3DMKLCINIT 256 8.0647e-05
+        Time:  15.5807 s
+@ 3DMKLC 256 15.5807
+      Inverse
+        Init. time:  8.1377e-05 s
+@ 3DMKLCINVINIT 256 8.1377e-05
+        Time:  14.5284 s
+@ 3DMKLCINV 256 14.5284
+      Error: 1.59042e-09
+
+Application 35447137 resources: utime ~245s, stime ~45s, Rss ~31608552, inblocks ~1389, outblocks ~2521
+----------------
+N threads: 1
+
+Dimensions: 256 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000347084 s
+@ 1DFFTWRINIT 256 0.000347084
+        Time:  7.5198e-05 s
+@ 1DFFTWR 256 7.5198e-05
+      Inverse
+        Init. time:  0.00028927 s
+@ 1DFFTWRINVINIT 256 0.00028927
+        Time:  7.6646e-05 s
+@ 1DFFTWRINV 256 7.6646e-05
+      Error: 2.75335e-14
+
+    GSL
+      Direct
+        Init. time:  0.000485891 s
+@ 1DGSLRINIT 256 0.000485891
+        Time:  0.000105593 s
+@ 1DGSLR 256 0.000105593
+      Inverse
+        Init. time:  8.3202e-05 s
+@ 1DGSLRINVINIT 256 8.3202e-05
+        Time:  0.000101623 s
+@ 1DGSLRINV 256 0.000101623
+      Error: 2.29261e-14
+
+    MKL
+      Direct
+        Init. time:  0.0140277 s
+@ 1DMKLRINIT 256 0.0140277
+        Time:  7.1772e-05 s
+@ 1DMKLR 256 7.1772e-05
+      Inverse
+        Init. time:  1.2932e-05 s
+@ 1DMKLRINVINIT 256 1.2932e-05
+        Time:  4.2991e-05 s
+@ 1DMKLRINV 256 4.2991e-05
+      Error: 2.29261e-14
+
+    FFTPACK
+      Direct
+        Init. time:  0.00112149 s
+@ 1DFFTPACKRINIT 256 0.00112149
+        Time:  7.1025e-05 s
+@ 1DFFTPACKR 256 7.1025e-05
+      Inverse
+        Init. time:  1.7986e-05 s
+@ 1DFFTPACKRINVINIT 256 1.7986e-05
+        Time:  6.1859e-05 s
+@ 1DFFTPACKRINV 256 6.1859e-05
+      Error: 2.29261e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  3.0573e-05 s
+@ 1DFFTWCINIT 256 3.0573e-05
+        Time:  0.000121265 s
+@ 1DFFTWC 256 0.000121265
+      Inverse
+        Init. time:  2.8481e-05 s
+@ 1DFFTWCINVINIT 256 2.8481e-05
+        Time:  0.000150789 s
+@ 1DFFTWCINV 256 0.000150789
+      Error: 3.0082e-14
+
+    GSL
+      Direct
+        Init. time:  1.7456e-05 s
+@ 1DGSLCINIT 256 1.7456e-05
+        Time:  0.000105921 s
+@ 1DGSLC 256 0.000105921
+      Inverse
+        Init. time:  2.8468e-05 s
+@ 1DGSLCINVINIT 256 2.8468e-05
+        Time:  0.00017486 s
+@ 1DGSLCINV 256 0.00017486
+      Error: 4.54296e-14
+
+    MKL
+      Direct
+        Init. time:  6.9857e-05 s
+@ 1DMKLCINIT 256 6.9857e-05
+        Time:  0.000117576 s
+@ 1DMKLC 256 0.000117576
+      Inverse
+        Init. time:  1.8111e-05 s
+@ 1DMKLCINV 256 1.8111e-05
+        Time:  0.000166011 s
+@ 1DMKLCINV 256 0.000166011
+      Error: 4.54296e-14
+
+    FFTPACK
+      Direct
+        Init. time:  4.1392e-05 s
+@ 1DFFTPACKCINIT 256 4.1392e-05
+        Time:  0.000109655 s
+@ 1DFFTPACKC 256 0.000109655
+      Inverse
+        Init. time:  2.4022e-05 s
+@ 1DFFTPACKCINVINIT 256 2.4022e-05
+        Time:  0.00014447 s
+@ 1DFFTPACKCINV 256 0.00014447
+      Error: 4.54296e-14
+
+
+Dimensions: 256 256 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000239913 s
+@ 2DFFTWRINIT 256 0.000239913
+        Time:  0.0254422 s
+@ 2DFFTWR 256 0.0254422
+      Inverse
+        Init. time:  0.00020077 s
+@ 2DFFTWRINVINIT 256 0.00020077
+        Time:  0.0298794 s
+@ 2DFFTWRINV 256 0.0298794
+      Error: 5.08199e-12
+
+    MKL
+      Direct
+        Init. time:  0.000144986 s
+@ 2DMKLRINIT 256 0.000144986
+        Time:  0.0154278 s
+@ 2DMKLR 256 0.0154278
+      Inverse
+        Init. time:  6.8925e-05 s
+@ 2DMKLRINIT 256 6.8925e-05
+        Time:  0.0155916 s
+@ 2DMKLR 256 0.0155916
+      Error: 5.08199e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000281713 s
+@ 2DFFTWCINIT 256 0.000281713
+        Time:  0.0679589 s
+@ 2DFFTWC 256 0.0679589
+      Inverse
+        Init. time:  0.000269585 s
+@ 2DFFTWCINVINIT 256 0.000269585
+        Time:  0.0786326 s
+@ 2DFFTWCINV 256 0.0786326
+      Error: 8.67986e-12
+
+    MKL
+      Direct
+        Init. time:  6.0349e-05 s
+@ 2DMKLCINIT 256 6.0349e-05
+        Time:  0.0236532 s
+@ 2DMKLC 256 0.0236532
+      Inverse
+        Init. time:  5.3414e-05 s
+@ 2DMKLCINVINIT 256 5.3414e-05
+        Time:  0.0253733 s
+@ 2DMKLCINV 256 0.0253733
+      Error: 8.67986e-12
+
+Dimensions: 256 256 256 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000326085 s
+@ 3DFFTWRINIT 256 0.000326085
+        Time:  14.2912 s
+@ 3DFFTWR 256 14.2912
+      Inverse
+        Init. time:  0.00032427 s
+@ 3DFFTWRINVINIT 256 0.00032427
+        Time:  17.213 s
+@ 3DFFTWRINV 256 17.213
+      Error: 9.65398e-10
+
+    MKL
+      Direct
+@ 3DMKLRINIT 256 17.213
+        Init. time:  21.8026 s
+        Time:  6.90783 s
+@ 3DMKLR 256 6.90783
+      Inverse
+        Init. time:  0.000150465 s
+@ 3DMKLRINVINIT 256 0.000150465
+        Time:  6.9349 s
+@ 3DMKLRINV 256 6.9349
+      Error: 9.65398e-10
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000296593 s
+@ 3DFFTWCINIT 256 0.000296593
+        Time:  66.0094 s
+@ 3DFFTWC 256 66.0094
+      Inverse
+        Init. time:  0.000315407 s
+@ 3DFFTWCINVINIT 256 0.000315407
+        Time:  68.7369 s
+@ 3DFFTWCINV 256 68.7369
+      Error: 1.59042e-09
+
+    MKL
+      Direct
+        Init. time:  8.0551e-05 s
+@ 3DMKLCINIT 256 8.0551e-05
+        Time:  13.8498 s
+@ 3DMKLC 256 13.8498
+      Inverse
+        Init. time:  0.000102124 s
+@ 3DMKLCINVINIT 256 0.000102124
+        Time:  16.6586 s
+@ 3DMKLCINV 256 16.6586
+      Error: 1.59042e-09
+
+Application 35447851 resources: utime ~245s, stime ~45s, Rss ~31608552, inblocks ~1389, outblocks ~2521
+----------------
+N threads: 1
+
+Dimensions: 256 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000363684 s
+@ 1DFFTWRINIT 256 0.000363684
+        Time:  9.1077e-05 s
+@ 1DFFTWR 256 9.1077e-05
+      Inverse
+        Init. time:  0.000323496 s
+@ 1DFFTWRINVINIT 256 0.000323496
+        Time:  9.1567e-05 s
+@ 1DFFTWRINV 256 9.1567e-05
+      Error: 2.75335e-14
+
+    GSL
+      Direct
+        Init. time:  0.00251804 s
+@ 1DGSLRINIT 256 0.00251804
+        Time:  0.000116577 s
+@ 1DGSLR 256 0.000116577
+      Inverse
+        Init. time:  0.000135019 s
+@ 1DGSLRINVINIT 256 0.000135019
+        Time:  0.000114931 s
+@ 1DGSLRINV 256 0.000114931
+      Error: 2.29261e-14
+
+    MKL
+      Direct
+        Init. time:  0.019652 s
+@ 1DMKLRINIT 256 0.019652
+        Time:  0.000107249 s
+@ 1DMKLR 256 0.000107249
+      Inverse
+        Init. time:  1.6971e-05 s
+@ 1DMKLRINVINIT 256 1.6971e-05
+        Time:  7.3495e-05 s
+@ 1DMKLRINV 256 7.3495e-05
+      Error: 2.29261e-14
+
+    FFTPACK
+      Direct
+        Init. time:  0.000985429 s
+@ 1DFFTPACKRINIT 256 0.000985429
+        Time:  9.1885e-05 s
+@ 1DFFTPACKR 256 9.1885e-05
+      Inverse
+        Init. time:  9.732e-06 s
+@ 1DFFTPACKRINVINIT 256 9.732e-06
+        Time:  9.7344e-05 s
+@ 1DFFTPACKRINV 256 9.7344e-05
+      Error: 2.29261e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  4.767e-05 s
+@ 1DFFTWCINIT 256 4.767e-05
+        Time:  0.000128494 s
+@ 1DFFTWC 256 0.000128494
+      Inverse
+        Init. time:  3.3131e-05 s
+@ 1DFFTWCINVINIT 256 3.3131e-05
+        Time:  0.00015782 s
+@ 1DFFTWCINV 256 0.00015782
+      Error: 3.0082e-14
+
+    GSL
+      Direct
+        Init. time:  2.2842e-05 s
+@ 1DGSLCINIT 256 2.2842e-05
+        Time:  0.000118613 s
+@ 1DGSLC 256 0.000118613
+      Inverse
+        Init. time:  1.8434e-05 s
+@ 1DGSLCINVINIT 256 1.8434e-05
+        Time:  0.000210215 s
+@ 1DGSLCINV 256 0.000210215
+      Error: 4.54296e-14
+
+    MKL
+      Direct
+        Init. time:  9.7284e-05 s
+@ 1DMKLCINIT 256 9.7284e-05
+        Time:  0.000115976 s
+@ 1DMKLC 256 0.000115976
+      Inverse
+        Init. time:  2.3965e-05 s
+@ 1DMKLCINV 256 2.3965e-05
+        Time:  0.000174993 s
+@ 1DMKLCINV 256 0.000174993
+      Error: 4.54296e-14
+
+    FFTPACK
+      Direct
+        Init. time:  5.7045e-05 s
+@ 1DFFTPACKCINIT 256 5.7045e-05
+        Time:  0.000153487 s
+@ 1DFFTPACKC 256 0.000153487
+      Inverse
+        Init. time:  1.6482e-05 s
+@ 1DFFTPACKCINVINIT 256 1.6482e-05
+        Time:  0.000167787 s
+@ 1DFFTPACKCINV 256 0.000167787
+      Error: 4.54296e-14
+
+
+Dimensions: 256 256 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000260819 s
+@ 2DFFTWRINIT 256 0.000260819
+        Time:  0.0254524 s
+@ 2DFFTWR 256 0.0254524
+      Inverse
+        Init. time:  0.000217665 s
+@ 2DFFTWRINVINIT 256 0.000217665
+        Time:  0.0296613 s
+@ 2DFFTWRINV 256 0.0296613
+      Error: 5.08199e-12
+
+    MKL
+      Direct
+        Init. time:  0.000156101 s
+@ 2DMKLRINIT 256 0.000156101
+        Time:  0.0153636 s
+@ 2DMKLR 256 0.0153636
+      Inverse
+        Init. time:  0.000100208 s
+@ 2DMKLRINIT 256 0.000100208
+        Time:  0.0154169 s
+@ 2DMKLR 256 0.0154169
+      Error: 5.08199e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000309529 s
+@ 2DFFTWCINIT 256 0.000309529
+        Time:  0.0679906 s
+@ 2DFFTWC 256 0.0679906
+      Inverse
+        Init. time:  0.000301603 s
+@ 2DFFTWCINVINIT 256 0.000301603
+        Time:  0.0786584 s
+@ 2DFFTWCINV 256 0.0786584
+      Error: 8.67986e-12
+
+    MKL
+      Direct
+        Init. time:  7.6478e-05 s
+@ 2DMKLCINIT 256 7.6478e-05
+        Time:  0.0234777 s
+@ 2DMKLC 256 0.0234777
+      Inverse
+        Init. time:  6.4925e-05 s
+@ 2DMKLCINVINIT 256 6.4925e-05
+        Time:  0.0251399 s
+@ 2DMKLCINV 256 0.0251399
+      Error: 8.67986e-12
+
+Dimensions: 256 256 256 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000344336 s
+@ 3DFFTWRINIT 256 0.000344336
+        Time:  14.2918 s
+@ 3DFFTWR 256 14.2918
+      Inverse
+        Init. time:  0.000350853 s
+@ 3DFFTWRINVINIT 256 0.000350853
+        Time:  17.2047 s
+@ 3DFFTWRINV 256 17.2047
+      Error: 9.65398e-10
+
+    MKL
+      Direct
+@ 3DMKLRINIT 256 17.2047
+        Init. time:  21.7988 s
+        Time:  6.90313 s
+@ 3DMKLR 256 6.90313
+      Inverse
+        Init. time:  0.000178514 s
+@ 3DMKLRINVINIT 256 0.000178514
+        Time:  6.93461 s
+@ 3DMKLRINV 256 6.93461
+      Error: 9.65398e-10
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000325342 s
+@ 3DFFTWCINIT 256 0.000325342
+        Time:  65.8427 s
+@ 3DFFTWC 256 65.8427
+      Inverse
+        Init. time:  0.000340613 s
+@ 3DFFTWCINVINIT 256 0.000340613
+        Time:  68.6362 s
+@ 3DFFTWCINV 256 68.6362
+      Error: 1.59042e-09
+
+    MKL
+      Direct
+        Init. time:  0.000123868 s
+@ 3DMKLCINIT 256 0.000123868
+        Time:  15.5861 s
+@ 3DMKLC 256 15.5861
+      Inverse
+        Init. time:  0.00013183 s
+@ 3DMKLCINVINIT 256 0.00013183
+        Time:  14.4854 s
+@ 3DMKLCINV 256 14.4854
+      Error: 1.59042e-09
+
+Application 35448564 resources: utime ~245s, stime ~45s, Rss ~31608552, inblocks ~1389, outblocks ~2521
+----------------
+N threads: 1
+
+Dimensions: 256 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.00036942 s
+@ 1DFFTWRINIT 256 0.00036942
+        Time:  8.3836e-05 s
+@ 1DFFTWR 256 8.3836e-05
+      Inverse
+        Init. time:  0.000289988 s
+@ 1DFFTWRINVINIT 256 0.000289988
+        Time:  7.4393e-05 s
+@ 1DFFTWRINV 256 7.4393e-05
+      Error: 2.75335e-14
+
+    GSL
+      Direct
+        Init. time:  0.000444979 s
+@ 1DGSLRINIT 256 0.000444979
+        Time:  9.5335e-05 s
+@ 1DGSLR 256 9.5335e-05
+      Inverse
+        Init. time:  8.4889e-05 s
+@ 1DGSLRINVINIT 256 8.4889e-05
+        Time:  0.000118066 s
+@ 1DGSLRINV 256 0.000118066
+      Error: 2.29261e-14
+
+    MKL
+      Direct
+        Init. time:  0.0131606 s
+@ 1DMKLRINIT 256 0.0131606
+        Time:  6.7173e-05 s
+@ 1DMKLR 256 6.7173e-05
+      Inverse
+        Init. time:  1.2669e-05 s
+@ 1DMKLRINVINIT 256 1.2669e-05
+        Time:  4.2754e-05 s
+@ 1DMKLRINV 256 4.2754e-05
+      Error: 2.29261e-14
+
+    FFTPACK
+      Direct
+        Init. time:  0.000824849 s
+@ 1DFFTPACKRINIT 256 0.000824849
+        Time:  8.2803e-05 s
+@ 1DFFTPACKR 256 8.2803e-05
+      Inverse
+        Init. time:  7.983e-06 s
+@ 1DFFTPACKRINVINIT 256 7.983e-06
+        Time:  7.473e-05 s
+@ 1DFFTPACKRINV 256 7.473e-05
+      Error: 2.29261e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  3.5041e-05 s
+@ 1DFFTWCINIT 256 3.5041e-05
+        Time:  0.000106813 s
+@ 1DFFTWC 256 0.000106813
+      Inverse
+        Init. time:  2.3436e-05 s
+@ 1DFFTWCINVINIT 256 2.3436e-05
+        Time:  0.000150034 s
+@ 1DFFTWCINV 256 0.000150034
+      Error: 3.0082e-14
+
+    GSL
+      Direct
+        Init. time:  2.1552e-05 s
+@ 1DGSLCINIT 256 2.1552e-05
+        Time:  9.6209e-05 s
+@ 1DGSLC 256 9.6209e-05
+      Inverse
+        Init. time:  1.347e-05 s
+@ 1DGSLCINVINIT 256 1.347e-05
+        Time:  0.00018571 s
+@ 1DGSLCINV 256 0.00018571
+      Error: 4.54296e-14
+
+    MKL
+      Direct
+        Init. time:  7.7066e-05 s
+@ 1DMKLCINIT 256 7.7066e-05
+        Time:  0.00010592 s
+@ 1DMKLC 256 0.00010592
+      Inverse
+        Init. time:  1.7183e-05 s
+@ 1DMKLCINV 256 1.7183e-05
+        Time:  0.000145312 s
+@ 1DMKLCINV 256 0.000145312
+      Error: 4.54296e-14
+
+    FFTPACK
+      Direct
+        Init. time:  3.9675e-05 s
+@ 1DFFTPACKCINIT 256 3.9675e-05
+        Time:  0.000106421 s
+@ 1DFFTPACKC 256 0.000106421
+      Inverse
+        Init. time:  1.1902e-05 s
+@ 1DFFTPACKCINVINIT 256 1.1902e-05
+        Time:  0.000144295 s
+@ 1DFFTPACKCINV 256 0.000144295
+      Error: 4.54296e-14
+
+
+Dimensions: 256 256 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000249374 s
+@ 2DFFTWRINIT 256 0.000249374
+        Time:  0.0251019 s
+@ 2DFFTWR 256 0.0251019
+      Inverse
+        Init. time:  0.000200766 s
+@ 2DFFTWRINVINIT 256 0.000200766
+        Time:  0.0299603 s
+@ 2DFFTWRINV 256 0.0299603
+      Error: 5.08199e-12
+
+    MKL
+      Direct
+        Init. time:  0.000153558 s
+@ 2DMKLRINIT 256 0.000153558
+        Time:  0.0154627 s
+@ 2DMKLR 256 0.0154627
+      Inverse
+        Init. time:  7.9747e-05 s
+@ 2DMKLRINIT 256 7.9747e-05
+        Time:  0.0155279 s
+@ 2DMKLR 256 0.0155279
+      Error: 5.08199e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000272284 s
+@ 2DFFTWCINIT 256 0.000272284
+        Time:  0.0680611 s
+@ 2DFFTWC 256 0.0680611
+      Inverse
+        Init. time:  0.000274777 s
+@ 2DFFTWCINVINIT 256 0.000274777
+        Time:  0.0788962 s
+@ 2DFFTWCINV 256 0.0788962
+      Error: 8.67986e-12
+
+    MKL
+      Direct
+        Init. time:  6.0251e-05 s
+@ 2DMKLCINIT 256 6.0251e-05
+        Time:  0.0236466 s
+@ 2DMKLC 256 0.0236466
+      Inverse
+        Init. time:  5.2558e-05 s
+@ 2DMKLCINVINIT 256 5.2558e-05
+        Time:  0.0254073 s
+@ 2DMKLCINV 256 0.0254073
+      Error: 8.67986e-12
+
+Dimensions: 256 256 256 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.00031025 s
+@ 3DFFTWRINIT 256 0.00031025
+        Time:  14.3215 s
+@ 3DFFTWR 256 14.3215
+      Inverse
+        Init. time:  0.000323432 s
+@ 3DFFTWRINVINIT 256 0.000323432
+        Time:  17.243 s
+@ 3DFFTWRINV 256 17.243
+      Error: 9.65398e-10
+
+    MKL
+      Direct
+@ 3DMKLRINIT 256 17.243
+        Init. time:  21.842 s
+        Time:  6.90757 s
+@ 3DMKLR 256 6.90757
+      Inverse
+        Init. time:  0.000149673 s
+@ 3DMKLRINVINIT 256 0.000149673
+        Time:  6.90025 s
+@ 3DMKLRINV 256 6.90025
+      Error: 9.65398e-10
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000293669 s
+@ 3DFFTWCINIT 256 0.000293669
+        Time:  65.9978 s
+@ 3DFFTWC 256 65.9978
+      Inverse
+        Init. time:  0.000309732 s
+@ 3DFFTWCINVINIT 256 0.000309732
+        Time:  68.6743 s
+@ 3DFFTWCINV 256 68.6743
+      Error: 1.59042e-09
+
+    MKL
+      Direct
+        Init. time:  8.0482e-05 s
+@ 3DMKLCINIT 256 8.0482e-05
+        Time:  15.2214 s
+@ 3DMKLC 256 15.2214
+      Inverse
+        Init. time:  7.9978e-05 s
+@ 3DMKLCINVINIT 256 7.9978e-05
+        Time:  14.8164 s
+@ 3DMKLCINV 256 14.8164
+      Error: 1.59042e-09
+
+Application 35449261 resources: utime ~245s, stime ~45s, Rss ~31608552, inblocks ~1389, outblocks ~2521
+----------------
+N threads: 1
+
+Dimensions: 256 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.00036822 s
+@ 1DFFTWRINIT 256 0.00036822
+        Time:  7.0859e-05 s
+@ 1DFFTWR 256 7.0859e-05
+      Inverse
+        Init. time:  0.000289127 s
+@ 1DFFTWRINVINIT 256 0.000289127
+        Time:  7.1498e-05 s
+@ 1DFFTWRINV 256 7.1498e-05
+      Error: 2.75335e-14
+
+    GSL
+      Direct
+        Init. time:  0.000480116 s
+@ 1DGSLRINIT 256 0.000480116
+        Time:  0.000102076 s
+@ 1DGSLR 256 0.000102076
+      Inverse
+        Init. time:  7.9502e-05 s
+@ 1DGSLRINVINIT 256 7.9502e-05
+        Time:  0.000103114 s
+@ 1DGSLRINV 256 0.000103114
+      Error: 2.29261e-14
+
+    MKL
+      Direct
+        Init. time:  0.0140304 s
+@ 1DMKLRINIT 256 0.0140304
+        Time:  8.1461e-05 s
+@ 1DMKLR 256 8.1461e-05
+      Inverse
+        Init. time:  1.2529e-05 s
+@ 1DMKLRINVINIT 256 1.2529e-05
+        Time:  5.4265e-05 s
+@ 1DMKLRINV 256 5.4265e-05
+      Error: 2.29261e-14
+
+    FFTPACK
+      Direct
+        Init. time:  0.000897109 s
+@ 1DFFTPACKRINIT 256 0.000897109
+        Time:  7.2197e-05 s
+@ 1DFFTPACKR 256 7.2197e-05
+      Inverse
+        Init. time:  7.885e-06 s
+@ 1DFFTPACKRINVINIT 256 7.885e-06
+        Time:  6.5027e-05 s
+@ 1DFFTPACKRINV 256 6.5027e-05
+      Error: 2.29261e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  3.4729e-05 s
+@ 1DFFTWCINIT 256 3.4729e-05
+        Time:  0.000103946 s
+@ 1DFFTWC 256 0.000103946
+      Inverse
+        Init. time:  2.7749e-05 s
+@ 1DFFTWCINVINIT 256 2.7749e-05
+        Time:  0.000146246 s
+@ 1DFFTWCINV 256 0.000146246
+      Error: 3.0082e-14
+
+    GSL
+      Direct
+        Init. time:  1.7388e-05 s
+@ 1DGSLCINIT 256 1.7388e-05
+        Time:  0.000104391 s
+@ 1DGSLC 256 0.000104391
+      Inverse
+        Init. time:  1.5056e-05 s
+@ 1DGSLCINVINIT 256 1.5056e-05
+        Time:  0.000181382 s
+@ 1DGSLCINV 256 0.000181382
+      Error: 4.54296e-14
+
+    MKL
+      Direct
+        Init. time:  6.9581e-05 s
+@ 1DMKLCINIT 256 6.9581e-05
+        Time:  0.000107469 s
+@ 1DMKLC 256 0.000107469
+      Inverse
+        Init. time:  2.1255e-05 s
+@ 1DMKLCINV 256 2.1255e-05
+        Time:  0.000149805 s
+@ 1DMKLCINV 256 0.000149805
+      Error: 4.54296e-14
+
+    FFTPACK
+      Direct
+        Init. time:  4.8542e-05 s
+@ 1DFFTPACKCINIT 256 4.8542e-05
+        Time:  0.000121098 s
+@ 1DFFTPACKC 256 0.000121098
+      Inverse
+        Init. time:  1.2158e-05 s
+@ 1DFFTPACKCINVINIT 256 1.2158e-05
+        Time:  0.000163267 s
+@ 1DFFTPACKCINV 256 0.000163267
+      Error: 4.54296e-14
+
+
+Dimensions: 256 256 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000236867 s
+@ 2DFFTWRINIT 256 0.000236867
+        Time:  0.025575 s
+@ 2DFFTWR 256 0.025575
+      Inverse
+        Init. time:  0.000199328 s
+@ 2DFFTWRINVINIT 256 0.000199328
+        Time:  0.029858 s
+@ 2DFFTWRINV 256 0.029858
+      Error: 5.08199e-12
+
+    MKL
+      Direct
+        Init. time:  0.000146084 s
+@ 2DMKLRINIT 256 0.000146084
+        Time:  0.0154652 s
+@ 2DMKLR 256 0.0154652
+      Inverse
+        Init. time:  7.8541e-05 s
+@ 2DMKLRINIT 256 7.8541e-05
+        Time:  0.0155782 s
+@ 2DMKLR 256 0.0155782
+      Error: 5.08199e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000284206 s
+@ 2DFFTWCINIT 256 0.000284206
+        Time:  0.0679552 s
+@ 2DFFTWC 256 0.0679552
+      Inverse
+        Init. time:  0.000287395 s
+@ 2DFFTWCINVINIT 256 0.000287395
+        Time:  0.0789731 s
+@ 2DFFTWCINV 256 0.0789731
+      Error: 8.67986e-12
+
+    MKL
+      Direct
+        Init. time:  6.0904e-05 s
+@ 2DMKLCINIT 256 6.0904e-05
+        Time:  0.023641 s
+@ 2DMKLC 256 0.023641
+      Inverse
+        Init. time:  6.0948e-05 s
+@ 2DMKLCINVINIT 256 6.0948e-05
+        Time:  0.0253888 s
+@ 2DMKLCINV 256 0.0253888
+      Error: 8.67986e-12
+
+Dimensions: 256 256 256 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000312608 s
+@ 3DFFTWRINIT 256 0.000312608
+        Time:  14.3433 s
+@ 3DFFTWR 256 14.3433
+      Inverse
+        Init. time:  0.000323901 s
+@ 3DFFTWRINVINIT 256 0.000323901
+        Time:  17.2167 s
+@ 3DFFTWRINV 256 17.2167
+      Error: 9.65398e-10
+
+    MKL
+      Direct
+@ 3DMKLRINIT 256 17.2167
+        Init. time:  21.8525 s
+        Time:  6.90859 s
+@ 3DMKLR 256 6.90859
+      Inverse
+        Init. time:  0.00014985 s
+@ 3DMKLRINVINIT 256 0.00014985
+        Time:  6.89599 s
+@ 3DMKLRINV 256 6.89599
+      Error: 9.65398e-10
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000294302 s
+@ 3DFFTWCINIT 256 0.000294302
+        Time:  66.0434 s
+@ 3DFFTWC 256 66.0434
+      Inverse
+        Init. time:  0.000313743 s
+@ 3DFFTWCINVINIT 256 0.000313743
+        Time:  68.7614 s
+@ 3DFFTWCINV 256 68.7614
+      Error: 1.59042e-09
+
+    MKL
+      Direct
+        Init. time:  8.0715e-05 s
+@ 3DMKLCINIT 256 8.0715e-05
+        Time:  15.6168 s
+@ 3DMKLC 256 15.6168
+      Inverse
+        Init. time:  8.0367e-05 s
+@ 3DMKLCINVINIT 256 8.0367e-05
+        Time:  14.5467 s
+@ 3DMKLCINV 256 14.5467
+      Error: 1.59042e-09
+
+Application 35449927 resources: utime ~245s, stime ~45s, Rss ~31608552, inblocks ~1389, outblocks ~2521
+----------------
+N threads: 1
+
+Dimensions: 256 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000375383 s
+@ 1DFFTWRINIT 256 0.000375383
+        Time:  9.5389e-05 s
+@ 1DFFTWR 256 9.5389e-05
+      Inverse
+        Init. time:  0.000345425 s
+@ 1DFFTWRINVINIT 256 0.000345425
+        Time:  9.1031e-05 s
+@ 1DFFTWRINV 256 9.1031e-05
+      Error: 2.75335e-14
+
+    GSL
+      Direct
+        Init. time:  0.000520416 s
+@ 1DGSLRINIT 256 0.000520416
+        Time:  0.000116763 s
+@ 1DGSLR 256 0.000116763
+      Inverse
+        Init. time:  0.000127052 s
+@ 1DGSLRINVINIT 256 0.000127052
+        Time:  0.000115374 s
+@ 1DGSLRINV 256 0.000115374
+      Error: 2.29261e-14
+
+    MKL
+      Direct
+        Init. time:  0.0170377 s
+@ 1DMKLRINIT 256 0.0170377
+        Time:  8.7106e-05 s
+@ 1DMKLR 256 8.7106e-05
+      Inverse
+        Init. time:  1.6409e-05 s
+@ 1DMKLRINVINIT 256 1.6409e-05
+        Time:  6.8825e-05 s
+@ 1DMKLRINV 256 6.8825e-05
+      Error: 2.29261e-14
+
+    FFTPACK
+      Direct
+        Init. time:  0.000919585 s
+@ 1DFFTPACKRINIT 256 0.000919585
+        Time:  9.4464e-05 s
+@ 1DFFTPACKR 256 9.4464e-05
+      Inverse
+        Init. time:  1.049e-05 s
+@ 1DFFTPACKRINVINIT 256 1.049e-05
+        Time:  0.000114717 s
+@ 1DFFTPACKRINV 256 0.000114717
+      Error: 2.29261e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  7.2184e-05 s
+@ 1DFFTWCINIT 256 7.2184e-05
+        Time:  0.000148244 s
+@ 1DFFTWC 256 0.000148244
+      Inverse
+        Init. time:  3.6708e-05 s
+@ 1DFFTWCINVINIT 256 3.6708e-05
+        Time:  0.000202969 s
+@ 1DFFTWCINV 256 0.000202969
+      Error: 3.0082e-14
+
+    GSL
+      Direct
+        Init. time:  2.0706e-05 s
+@ 1DGSLCINIT 256 2.0706e-05
+        Time:  0.000129595 s
+@ 1DGSLC 256 0.000129595
+      Inverse
+        Init. time:  1.8128e-05 s
+@ 1DGSLCINVINIT 256 1.8128e-05
+        Time:  0.000192942 s
+@ 1DGSLCINV 256 0.000192942
+      Error: 4.54296e-14
+
+    MKL
+      Direct
+        Init. time:  0.000102882 s
+@ 1DMKLCINIT 256 0.000102882
+        Time:  0.000110575 s
+@ 1DMKLC 256 0.000110575
+      Inverse
+        Init. time:  2.114e-05 s
+@ 1DMKLCINV 256 2.114e-05
+        Time:  0.000149343 s
+@ 1DMKLCINV 256 0.000149343
+      Error: 4.54296e-14
+
+    FFTPACK
+      Direct
+        Init. time:  5.5107e-05 s
+@ 1DFFTPACKCINIT 256 5.5107e-05
+        Time:  0.000122719 s
+@ 1DFFTPACKC 256 0.000122719
+      Inverse
+        Init. time:  1.6058e-05 s
+@ 1DFFTPACKCINVINIT 256 1.6058e-05
+        Time:  0.00016366 s
+@ 1DFFTPACKCINV 256 0.00016366
+      Error: 4.54296e-14
+
+
+Dimensions: 256 256 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000280955 s
+@ 2DFFTWRINIT 256 0.000280955
+        Time:  0.0251384 s
+@ 2DFFTWR 256 0.0251384
+      Inverse
+        Init. time:  0.000214102 s
+@ 2DFFTWRINVINIT 256 0.000214102
+        Time:  0.0296562 s
+@ 2DFFTWRINV 256 0.0296562
+      Error: 5.08199e-12
+
+    MKL
+      Direct
+        Init. time:  0.000157608 s
+@ 2DMKLRINIT 256 0.000157608
+        Time:  0.0153632 s
+@ 2DMKLR 256 0.0153632
+      Inverse
+        Init. time:  9.3841e-05 s
+@ 2DMKLRINIT 256 9.3841e-05
+        Time:  0.0154736 s
+@ 2DMKLR 256 0.0154736
+      Error: 5.08199e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.00030069 s
+@ 2DFFTWCINIT 256 0.00030069
+        Time:  0.0678336 s
+@ 2DFFTWC 256 0.0678336
+      Inverse
+        Init. time:  0.000304235 s
+@ 2DFFTWCINVINIT 256 0.000304235
+        Time:  0.078462 s
+@ 2DFFTWCINV 256 0.078462
+      Error: 8.67986e-12
+
+    MKL
+      Direct
+        Init. time:  7.1004e-05 s
+@ 2DMKLCINIT 256 7.1004e-05
+        Time:  0.0234757 s
+@ 2DMKLC 256 0.0234757
+      Inverse
+        Init. time:  6.8452e-05 s
+@ 2DMKLCINVINIT 256 6.8452e-05
+        Time:  0.0251782 s
+@ 2DMKLCINV 256 0.0251782
+      Error: 8.67986e-12
+
+Dimensions: 256 256 256 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000352476 s
+@ 3DFFTWRINIT 256 0.000352476
+        Time:  14.3133 s
+@ 3DFFTWR 256 14.3133
+      Inverse
+        Init. time:  0.000359301 s
+@ 3DFFTWRINVINIT 256 0.000359301
+        Time:  17.1632 s
+@ 3DFFTWRINV 256 17.1632
+      Error: 9.65398e-10
+
+    MKL
+      Direct
+@ 3DMKLRINIT 256 17.1632
+        Init. time:  21.7499 s
+        Time:  6.93488 s
+@ 3DMKLR 256 6.93488
+      Inverse
+        Init. time:  0.000186942 s
+@ 3DMKLRINVINIT 256 0.000186942
+        Time:  6.89245 s
+@ 3DMKLRINV 256 6.89245
+      Error: 9.65398e-10
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000325869 s
+@ 3DFFTWCINIT 256 0.000325869
+        Time:  65.9326 s
+@ 3DFFTWC 256 65.9326
+      Inverse
+        Init. time:  0.000341844 s
+@ 3DFFTWCINVINIT 256 0.000341844
+        Time:  68.7187 s
+@ 3DFFTWCINV 256 68.7187
+      Error: 1.59042e-09
+
+    MKL
+      Direct
+        Init. time:  0.000123925 s
+@ 3DMKLCINIT 256 0.000123925
+        Time:  15.5835 s
+@ 3DMKLC 256 15.5835
+      Inverse
+        Init. time:  0.000131852 s
+@ 3DMKLCINVINIT 256 0.000131852
+        Time:  14.4804 s
+@ 3DMKLCINV 256 14.4804
+      Error: 1.59042e-09
+
+Application 35450527 resources: utime ~245s, stime ~45s, Rss ~31608552, inblocks ~1389, outblocks ~2521
+----------------
+N threads: 1
+
+Dimensions: 256 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000373188 s
+@ 1DFFTWRINIT 256 0.000373188
+        Time:  8.5174e-05 s
+@ 1DFFTWR 256 8.5174e-05
+      Inverse
+        Init. time:  0.000288849 s
+@ 1DFFTWRINVINIT 256 0.000288849
+        Time:  7.1171e-05 s
+@ 1DFFTWRINV 256 7.1171e-05
+      Error: 2.75335e-14
+
+    GSL
+      Direct
+        Init. time:  0.000429411 s
+@ 1DGSLRINIT 256 0.000429411
+        Time:  0.000102232 s
+@ 1DGSLR 256 0.000102232
+      Inverse
+        Init. time:  8.2409e-05 s
+@ 1DGSLRINVINIT 256 8.2409e-05
+        Time:  0.000117359 s
+@ 1DGSLRINV 256 0.000117359
+      Error: 2.29261e-14
+
+    MKL
+      Direct
+        Init. time:  0.014048 s
+@ 1DMKLRINIT 256 0.014048
+        Time:  7.8364e-05 s
+@ 1DMKLR 256 7.8364e-05
+      Inverse
+        Init. time:  1.2765e-05 s
+@ 1DMKLRINVINIT 256 1.2765e-05
+        Time:  4.6248e-05 s
+@ 1DMKLRINV 256 4.6248e-05
+      Error: 2.29261e-14
+
+    FFTPACK
+      Direct
+        Init. time:  0.000818335 s
+@ 1DFFTPACKRINIT 256 0.000818335
+        Time:  8.1036e-05 s
+@ 1DFFTPACKR 256 8.1036e-05
+      Inverse
+        Init. time:  7.676e-06 s
+@ 1DFFTPACKRINVINIT 256 7.676e-06
+        Time:  6.4557e-05 s
+@ 1DFFTPACKRINV 256 6.4557e-05
+      Error: 2.29261e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  3.4635e-05 s
+@ 1DFFTWCINIT 256 3.4635e-05
+        Time:  0.000103728 s
+@ 1DFFTWC 256 0.000103728
+      Inverse
+        Init. time:  2.8219e-05 s
+@ 1DFFTWCINVINIT 256 2.8219e-05
+        Time:  0.000146603 s
+@ 1DFFTWCINV 256 0.000146603
+      Error: 3.0082e-14
+
+    GSL
+      Direct
+        Init. time:  1.738e-05 s
+@ 1DGSLCINIT 256 1.738e-05
+        Time:  0.000103181 s
+@ 1DGSLC 256 0.000103181
+      Inverse
+        Init. time:  1.3306e-05 s
+@ 1DGSLCINVINIT 256 1.3306e-05
+        Time:  0.00017783 s
+@ 1DGSLCINV 256 0.00017783
+      Error: 4.54296e-14
+
+    MKL
+      Direct
+        Init. time:  6.847e-05 s
+@ 1DMKLCINIT 256 6.847e-05
+        Time:  0.000100545 s
+@ 1DMKLC 256 0.000100545
+      Inverse
+        Init. time:  1.6718e-05 s
+@ 1DMKLCINV 256 1.6718e-05
+        Time:  0.000145319 s
+@ 1DMKLCINV 256 0.000145319
+      Error: 4.54296e-14
+
+    FFTPACK
+      Direct
+        Init. time:  4.0131e-05 s
+@ 1DFFTPACKCINIT 256 4.0131e-05
+        Time:  0.000107312 s
+@ 1DFFTPACKC 256 0.000107312
+      Inverse
+        Init. time:  1.2093e-05 s
+@ 1DFFTPACKCINVINIT 256 1.2093e-05
+        Time:  0.00014468 s
+@ 1DFFTPACKCINV 256 0.00014468
+      Error: 4.54296e-14
+
+
+Dimensions: 256 256 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000226966 s
+@ 2DFFTWRINIT 256 0.000226966
+        Time:  0.0255305 s
+@ 2DFFTWR 256 0.0255305
+      Inverse
+        Init. time:  0.000195266 s
+@ 2DFFTWRINVINIT 256 0.000195266
+        Time:  0.0298608 s
+@ 2DFFTWRINV 256 0.0298608
+      Error: 5.08199e-12
+
+    MKL
+      Direct
+        Init. time:  0.000141154 s
+@ 2DMKLRINIT 256 0.000141154
+        Time:  0.0154641 s
+@ 2DMKLR 256 0.0154641
+      Inverse
+        Init. time:  6.9761e-05 s
+@ 2DMKLRINIT 256 6.9761e-05
+        Time:  0.0156907 s
+@ 2DMKLR 256 0.0156907
+      Error: 5.08199e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000278886 s
+@ 2DFFTWCINIT 256 0.000278886
+        Time:  0.0682644 s
+@ 2DFFTWC 256 0.0682644
+      Inverse
+        Init. time:  0.000271041 s
+@ 2DFFTWCINVINIT 256 0.000271041
+        Time:  0.0789059 s
+@ 2DFFTWCINV 256 0.0789059
+      Error: 8.67986e-12
+
+    MKL
+      Direct
+        Init. time:  7.2948e-05 s
+@ 2DMKLCINIT 256 7.2948e-05
+        Time:  0.0236459 s
+@ 2DMKLC 256 0.0236459
+      Inverse
+        Init. time:  5.2325e-05 s
+@ 2DMKLCINVINIT 256 5.2325e-05
+        Time:  0.0253825 s
+@ 2DMKLCINV 256 0.0253825
+      Error: 8.67986e-12
+
+Dimensions: 256 256 256 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000328312 s
+@ 3DFFTWRINIT 256 0.000328312
+        Time:  14.295 s
+@ 3DFFTWR 256 14.295
+      Inverse
+        Init. time:  0.000327218 s
+@ 3DFFTWRINVINIT 256 0.000327218
+        Time:  17.2218 s
+@ 3DFFTWRINV 256 17.2218
+      Error: 9.65398e-10
+
+    MKL
+      Direct
+@ 3DMKLRINIT 256 17.2218
+        Init. time:  21.8114 s
+        Time:  6.94384 s
+@ 3DMKLR 256 6.94384
+      Inverse
+        Init. time:  0.000154988 s
+@ 3DMKLRINVINIT 256 0.000154988
+        Time:  6.89746 s
+@ 3DMKLRINV 256 6.89746
+      Error: 9.65398e-10
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000310732 s
+@ 3DFFTWCINIT 256 0.000310732
+        Time:  66.0561 s
+@ 3DFFTWC 256 66.0561
+      Inverse
+        Init. time:  0.000313355 s
+@ 3DFFTWCINVINIT 256 0.000313355
+        Time:  68.7097 s
+@ 3DFFTWCINV 256 68.7097
+      Error: 1.59042e-09
+
+    MKL
+      Direct
+        Init. time:  7.9217e-05 s
+@ 3DMKLCINIT 256 7.9217e-05
+        Time:  13.881 s
+@ 3DMKLC 256 13.881
+      Inverse
+        Init. time:  8.6065e-05 s
+@ 3DMKLCINVINIT 256 8.6065e-05
+        Time:  16.6208 s
+@ 3DMKLCINV 256 16.6208
+      Error: 1.59042e-09
+
+Application 35451114 resources: utime ~246s, stime ~44s, Rss ~31608552, inblocks ~1389, outblocks ~2521
+----------------
+N threads: 1
+
+Dimensions: 256 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000348394 s
+@ 1DFFTWRINIT 256 0.000348394
+        Time:  7.5034e-05 s
+@ 1DFFTWR 256 7.5034e-05
+      Inverse
+        Init. time:  0.000288733 s
+@ 1DFFTWRINVINIT 256 0.000288733
+        Time:  7.5772e-05 s
+@ 1DFFTWRINV 256 7.5772e-05
+      Error: 2.75335e-14
+
+    GSL
+      Direct
+        Init. time:  0.000462573 s
+@ 1DGSLRINIT 256 0.000462573
+        Time:  9.1888e-05 s
+@ 1DGSLR 256 9.1888e-05
+      Inverse
+        Init. time:  7.5331e-05 s
+@ 1DGSLRINVINIT 256 7.5331e-05
+        Time:  0.000100561 s
+@ 1DGSLRINV 256 0.000100561
+      Error: 2.29261e-14
+
+    MKL
+      Direct
+        Init. time:  0.0137251 s
+@ 1DMKLRINIT 256 0.0137251
+        Time:  8.0015e-05 s
+@ 1DMKLR 256 8.0015e-05
+      Inverse
+        Init. time:  1.3027e-05 s
+@ 1DMKLRINVINIT 256 1.3027e-05
+        Time:  4.6798e-05 s
+@ 1DMKLRINV 256 4.6798e-05
+      Error: 2.29261e-14
+
+    FFTPACK
+      Direct
+        Init. time:  0.000812026 s
+@ 1DFFTPACKRINIT 256 0.000812026
+        Time:  8.6133e-05 s
+@ 1DFFTPACKR 256 8.6133e-05
+      Inverse
+        Init. time:  7.925e-06 s
+@ 1DFFTPACKRINVINIT 256 7.925e-06
+        Time:  6.5375e-05 s
+@ 1DFFTPACKRINV 256 6.5375e-05
+      Error: 2.29261e-14
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  2.9673e-05 s
+@ 1DFFTWCINIT 256 2.9673e-05
+        Time:  0.000108899 s
+@ 1DFFTWC 256 0.000108899
+      Inverse
+        Init. time:  2.6738e-05 s
+@ 1DFFTWCINVINIT 256 2.6738e-05
+        Time:  0.000142899 s
+@ 1DFFTWCINV 256 0.000142899
+      Error: 3.0082e-14
+
+    GSL
+      Direct
+        Init. time:  1.8004e-05 s
+@ 1DGSLCINIT 256 1.8004e-05
+        Time:  9.694e-05 s
+@ 1DGSLC 256 9.694e-05
+      Inverse
+        Init. time:  1.3549e-05 s
+@ 1DGSLCINVINIT 256 1.3549e-05
+        Time:  0.000207494 s
+@ 1DGSLCINV 256 0.000207494
+      Error: 4.54296e-14
+
+    MKL
+      Direct
+        Init. time:  6.4118e-05 s
+@ 1DMKLCINIT 256 6.4118e-05
+        Time:  0.000122956 s
+@ 1DMKLC 256 0.000122956
+      Inverse
+        Init. time:  1.7804e-05 s
+@ 1DMKLCINV 256 1.7804e-05
+        Time:  0.000136536 s
+@ 1DMKLCINV 256 0.000136536
+      Error: 4.54296e-14
+
+    FFTPACK
+      Direct
+        Init. time:  3.2802e-05 s
+@ 1DFFTPACKCINIT 256 3.2802e-05
+        Time:  0.000107862 s
+@ 1DFFTPACKC 256 0.000107862
+      Inverse
+        Init. time:  1.1867e-05 s
+@ 1DFFTPACKCINVINIT 256 1.1867e-05
+        Time:  0.000136627 s
+@ 1DFFTPACKCINV 256 0.000136627
+      Error: 4.54296e-14
+
+
+Dimensions: 256 256 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000243516 s
+@ 2DFFTWRINIT 256 0.000243516
+        Time:  0.0254616 s
+@ 2DFFTWR 256 0.0254616
+      Inverse
+        Init. time:  0.000197101 s
+@ 2DFFTWRINVINIT 256 0.000197101
+        Time:  0.0298608 s
+@ 2DFFTWRINV 256 0.0298608
+      Error: 5.08199e-12
+
+    MKL
+      Direct
+        Init. time:  0.000149694 s
+@ 2DMKLRINIT 256 0.000149694
+        Time:  0.0155614 s
+@ 2DMKLR 256 0.0155614
+      Inverse
+        Init. time:  6.9315e-05 s
+@ 2DMKLRINIT 256 6.9315e-05
+        Time:  0.0156127 s
+@ 2DMKLR 256 0.0156127
+      Error: 5.08199e-12
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000273222 s
+@ 2DFFTWCINIT 256 0.000273222
+        Time:  0.0682724 s
+@ 2DFFTWC 256 0.0682724
+      Inverse
+        Init. time:  0.000273103 s
+@ 2DFFTWCINVINIT 256 0.000273103
+        Time:  0.0791461 s
+@ 2DFFTWCINV 256 0.0791461
+      Error: 8.67986e-12
+
+    MKL
+      Direct
+        Init. time:  5.8587e-05 s
+@ 2DMKLCINIT 256 5.8587e-05
+        Time:  0.0236507 s
+@ 2DMKLC 256 0.0236507
+      Inverse
+        Init. time:  5.3652e-05 s
+@ 2DMKLCINVINIT 256 5.3652e-05
+        Time:  0.0253921 s
+@ 2DMKLCINV 256 0.0253921
+      Error: 8.67986e-12
+
+Dimensions: 256 256 256 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.00031206 s
+@ 3DFFTWRINIT 256 0.00031206
+        Time:  14.2961 s
+@ 3DFFTWR 256 14.2961
+      Inverse
+        Init. time:  0.000325649 s
+@ 3DFFTWRINVINIT 256 0.000325649
+        Time:  17.2393 s
+@ 3DFFTWRINV 256 17.2393
+      Error: 9.65398e-10
+
+    MKL
+      Direct
+@ 3DMKLRINIT 256 17.2393
+        Init. time:  21.8367 s
+        Time:  6.90835 s
+@ 3DMKLR 256 6.90835
+      Inverse
+        Init. time:  0.000154988 s
+@ 3DMKLRINVINIT 256 0.000154988
+        Time:  6.94138 s
+@ 3DMKLRINV 256 6.94138
+      Error: 9.65398e-10
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.00029639 s
+@ 3DFFTWCINIT 256 0.00029639
+        Time:  66.0101 s
+@ 3DFFTWC 256 66.0101
+      Inverse
+        Init. time:  0.000307035 s
+@ 3DFFTWCINVINIT 256 0.000307035
+        Time:  68.7418 s
+@ 3DFFTWCINV 256 68.7418
+      Error: 1.59042e-09
+
+    MKL
+      Direct
+        Init. time:  8.0172e-05 s
+@ 3DMKLCINIT 256 8.0172e-05
+        Time:  15.5553 s
+@ 3DMKLC 256 15.5553
+      Inverse
+        Init. time:  8.5105e-05 s
+@ 3DMKLCINVINIT 256 8.5105e-05
+        Time:  14.5532 s
+@ 3DMKLCINV 256 14.5532
+      Error: 1.59042e-09
+
+Application 35451698 resources: utime ~245s, stime ~45s, Rss ~31608552, inblocks ~1389, outblocks ~2521
+================
+----------------
+N threads: 1
+
+Dimensions: 257 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000525668 s
+@ 1DFFTWRINIT 257 0.000525668
+        Time:  0.000364826 s
+@ 1DFFTWR 257 0.000364826
+      Inverse
+        Init. time:  0.000498849 s
+@ 1DFFTWRINVINIT 257 0.000498849
+        Time:  0.000368546 s
+@ 1DFFTWRINV 257 0.000368546
+      Error: 5.66034e-14
+
+    GSL
+      Direct
+        Init. time:  0.000533304 s
+@ 1DGSLRINIT 257 0.000533304
+        Time:  0.00364873 s
+@ 1DGSLR 257 0.00364873
+      Inverse
+        Init. time:  2.9016e-05 s
+@ 1DGSLRINVINIT 257 2.9016e-05
+        Time:  0.00404305 s
+@ 1DGSLRINV 257 0.00404305
+      Error: 9.94579e-13
+
+    MKL
+      Direct
+        Init. time:  0.0164248 s
+@ 1DMKLRINIT 257 0.0164248
+        Time:  0.000265028 s
+@ 1DMKLR 257 0.000265028
+      Inverse
+        Init. time:  4.9815e-05 s
+@ 1DMKLRINVINIT 257 4.9815e-05
+        Time:  0.000211241 s
+@ 1DMKLRINV 257 0.000211241
+      Error: 9.94579e-13
+
+    FFTPACK
+      Direct
+        Init. time:  0.0122879 s
+@ 1DFFTPACKRINIT 257 0.0122879
+        Time:  0.00204254 s
+@ 1DFFTPACKR 257 0.00204254
+      Inverse
+        Init. time:  2.263e-06 s
+@ 1DFFTPACKRINVINIT 257 2.263e-06
+        Time:  0.00181617 s
+@ 1DFFTPACKRINV 257 0.00181617
+      Error: 9.94579e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000231399 s
+@ 1DFFTWCINIT 257 0.000231399
+        Time:  0.000407159 s
+@ 1DFFTWC 257 0.000407159
+      Inverse
+        Init. time:  0.00011994 s
+@ 1DFFTWCINVINIT 257 0.00011994
+        Time:  0.000470131 s
+@ 1DFFTWCINV 257 0.000470131
+      Error: 7.20914e-14
+
+    GSL
+      Direct
+        Init. time:  1.528e-05 s
+@ 1DGSLCINIT 257 1.528e-05
+        Time:  0.000417378 s
+@ 1DGSLC 257 0.000417378
+      Inverse
+        Init. time:  1.4225e-05 s
+@ 1DGSLCINVINIT 257 1.4225e-05
+        Time:  0.00674651 s
+@ 1DGSLCINV 257 0.00674651
+      Error: 1.00214e-13
+
+    MKL
+      Direct
+        Init. time:  0.000112378 s
+@ 1DMKLCINIT 257 0.000112378
+        Time:  0.000422408 s
+@ 1DMKLC 257 0.000422408
+      Inverse
+        Init. time:  7.9417e-05 s
+@ 1DMKLCINV 257 7.9417e-05
+        Time:  0.00665498 s
+@ 1DMKLCINV 257 0.00665498
+      Error: 1.00214e-13
+
+    FFTPACK
+      Direct
+        Init. time:  7.9734e-05 s
+@ 1DFFTPACKCINIT 257 7.9734e-05
+        Time:  0.000402797 s
+@ 1DFFTPACKC 257 0.000402797
+      Inverse
+        Init. time:  8.918e-06 s
+@ 1DFFTPACKCINVINIT 257 8.918e-06
+        Time:  0.00670476 s
+@ 1DFFTPACKCINV 257 0.00670476
+      Error: 1.00214e-13
+
+
+Dimensions: 257 257 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.00070914 s
+@ 2DFFTWRINIT 257 0.00070914
+        Time:  0.128815 s
+@ 2DFFTWR 257 0.128815
+      Inverse
+        Init. time:  0.000621507 s
+@ 2DFFTWRINVINIT 257 0.000621507
+        Time:  0.13427 s
+@ 2DFFTWRINV 257 0.13427
+      Error: 1.05915e-11
+
+    MKL
+      Direct
+        Init. time:  0.00016736 s
+@ 2DMKLRINIT 257 0.00016736
+        Time:  0.0713656 s
+@ 2DMKLR 257 0.0713656
+      Inverse
+        Init. time:  9.6311e-05 s
+@ 2DMKLRINIT 257 9.6311e-05
+        Time:  0.0721052 s
+@ 2DMKLR 257 0.0721052
+      Error: 1.05915e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000623322 s
+@ 2DFFTWCINIT 257 0.000623322
+        Time:  0.189154 s
+@ 2DFFTWC 257 0.189154
+      Inverse
+        Init. time:  0.000617818 s
+@ 2DFFTWCINVINIT 257 0.000617818
+        Time:  0.201253 s
+@ 2DFFTWCINV 257 0.201253
+      Error: 1.59175e-11
+
+    MKL
+      Direct
+        Init. time:  0.000125983 s
+@ 2DMKLCINIT 257 0.000125983
+        Time:  0.0948716 s
+@ 2DMKLC 257 0.0948716
+      Inverse
+        Init. time:  8.322e-05 s
+@ 2DMKLCINVINIT 257 8.322e-05
+        Time:  0.0956197 s
+@ 2DMKLCINV 257 0.0956197
+      Error: 1.59175e-11
+
+Dimensions: 257 257 257 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000943302 s
+@ 3DFFTWRINIT 257 0.000943302
+        Time:  50.1231 s
+@ 3DFFTWR 257 50.1231
+      Inverse
+        Init. time:  0.000933024 s
+@ 3DFFTWRINVINIT 257 0.000933024
+        Time:  51.8325 s
+@ 3DFFTWRINV 257 51.8325
+      Error: 1.78873e-09
+
+    MKL
+      Direct
+@ 3DMKLRINIT 257 51.8325
+        Init. time:  56.5353 s
+        Time:  25.3847 s
+@ 3DMKLR 257 25.3847
+      Inverse
+        Init. time:  0.000178792 s
+@ 3DMKLRINVINIT 257 0.000178792
+        Time:  25.4487 s
+@ 3DMKLRINV 257 25.4487
+      Error: 1.78873e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000693308 s
+@ 3DFFTWCINIT 257 0.000693308
+        Time:  78.8426 s
+@ 3DFFTWC 257 78.8426
+      Inverse
+        Init. time:  0.000690347 s
+@ 3DFFTWCINVINIT 257 0.000690347
+        Time:  86.3103 s
+@ 3DFFTWCINV 257 86.3103
+      Error: 2.83164e-09
+
+    MKL
+      Direct
+        Init. time:  0.000186909 s
+@ 3DMKLCINIT 257 0.000186909
+        Time:  39.9109 s
+@ 3DMKLC 257 39.9109
+      Inverse
+        Init. time:  0.000189995 s
+@ 3DMKLCINVINIT 257 0.000189995
+        Time:  39.7692 s
+@ 3DMKLCINV 257 39.7692
+      Error: 2.83164e-09
+
+Application 35452302 resources: utime ~433s, stime ~45s, Rss ~31980520, inblocks ~1389, outblocks ~2521
+----------------
+N threads: 1
+
+Dimensions: 257 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000524309 s
+@ 1DFFTWRINIT 257 0.000524309
+        Time:  0.000401573 s
+@ 1DFFTWR 257 0.000401573
+      Inverse
+        Init. time:  0.000487189 s
+@ 1DFFTWRINVINIT 257 0.000487189
+        Time:  0.00038095 s
+@ 1DFFTWRINV 257 0.00038095
+      Error: 5.66034e-14
+
+    GSL
+      Direct
+        Init. time:  0.000395632 s
+@ 1DGSLRINIT 257 0.000395632
+        Time:  0.00366691 s
+@ 1DGSLR 257 0.00366691
+      Inverse
+        Init. time:  2.87e-05 s
+@ 1DGSLRINVINIT 257 2.87e-05
+        Time:  0.00407525 s
+@ 1DGSLRINV 257 0.00407525
+      Error: 9.94579e-13
+
+    MKL
+      Direct
+        Init. time:  0.0145173 s
+@ 1DMKLRINIT 257 0.0145173
+        Time:  0.00028755 s
+@ 1DMKLR 257 0.00028755
+      Inverse
+        Init. time:  5.2334e-05 s
+@ 1DMKLRINVINIT 257 5.2334e-05
+        Time:  0.000230744 s
+@ 1DMKLRINV 257 0.000230744
+      Error: 9.94579e-13
+
+    FFTPACK
+      Direct
+        Init. time:  0.000908211 s
+@ 1DFFTPACKRINIT 257 0.000908211
+        Time:  0.00190288 s
+@ 1DFFTPACKR 257 0.00190288
+      Inverse
+        Init. time:  2.042e-06 s
+@ 1DFFTPACKRINVINIT 257 2.042e-06
+        Time:  0.00193725 s
+@ 1DFFTPACKRINV 257 0.00193725
+      Error: 9.94579e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000212859 s
+@ 1DFFTWCINIT 257 0.000212859
+        Time:  0.000406551 s
+@ 1DFFTWC 257 0.000406551
+      Inverse
+        Init. time:  0.000120042 s
+@ 1DFFTWCINVINIT 257 0.000120042
+        Time:  0.000453832 s
+@ 1DFFTWCINV 257 0.000453832
+      Error: 7.20914e-14
+
+    GSL
+      Direct
+        Init. time:  1.6578e-05 s
+@ 1DGSLCINIT 257 1.6578e-05
+        Time:  0.000400213 s
+@ 1DGSLC 257 0.000400213
+      Inverse
+        Init. time:  1.6574e-05 s
+@ 1DGSLCINVINIT 257 1.6574e-05
+        Time:  0.00684382 s
+@ 1DGSLCINV 257 0.00684382
+      Error: 1.00214e-13
+
+    MKL
+      Direct
+        Init. time:  0.000113716 s
+@ 1DMKLCINIT 257 0.000113716
+        Time:  0.000393709 s
+@ 1DMKLC 257 0.000393709
+      Inverse
+        Init. time:  6.8461e-05 s
+@ 1DMKLCINV 257 6.8461e-05
+        Time:  0.00682731 s
+@ 1DMKLCINV 257 0.00682731
+      Error: 1.00214e-13
+
+    FFTPACK
+      Direct
+        Init. time:  6.8018e-05 s
+@ 1DFFTPACKCINIT 257 6.8018e-05
+        Time:  0.00040533 s
+@ 1DFFTPACKC 257 0.00040533
+      Inverse
+        Init. time:  8.882e-06 s
+@ 1DFFTPACKCINVINIT 257 8.882e-06
+        Time:  0.00684077 s
+@ 1DFFTPACKCINV 257 0.00684077
+      Error: 1.00214e-13
+
+
+Dimensions: 257 257 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000709322 s
+@ 2DFFTWRINIT 257 0.000709322
+        Time:  0.129691 s
+@ 2DFFTWR 257 0.129691
+      Inverse
+        Init. time:  0.000624272 s
+@ 2DFFTWRINVINIT 257 0.000624272
+        Time:  0.134569 s
+@ 2DFFTWRINV 257 0.134569
+      Error: 1.05915e-11
+
+    MKL
+      Direct
+        Init. time:  0.0001617 s
+@ 2DMKLRINIT 257 0.0001617
+        Time:  0.0726796 s
+@ 2DMKLR 257 0.0726796
+      Inverse
+        Init. time:  9.2572e-05 s
+@ 2DMKLRINIT 257 9.2572e-05
+        Time:  0.0719885 s
+@ 2DMKLR 257 0.0719885
+      Error: 1.05915e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000621243 s
+@ 2DFFTWCINIT 257 0.000621243
+        Time:  0.188959 s
+@ 2DFFTWC 257 0.188959
+      Inverse
+        Init. time:  0.000620022 s
+@ 2DFFTWCINVINIT 257 0.000620022
+        Time:  0.201399 s
+@ 2DFFTWCINV 257 0.201399
+      Error: 1.59175e-11
+
+    MKL
+      Direct
+        Init. time:  0.000108269 s
+@ 2DMKLCINIT 257 0.000108269
+        Time:  0.0944228 s
+@ 2DMKLC 257 0.0944228
+      Inverse
+        Init. time:  8.4382e-05 s
+@ 2DMKLCINVINIT 257 8.4382e-05
+        Time:  0.0952128 s
+@ 2DMKLCINV 257 0.0952128
+      Error: 1.59175e-11
+
+Dimensions: 257 257 257 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000956722 s
+@ 3DFFTWRINIT 257 0.000956722
+        Time:  50.1212 s
+@ 3DFFTWR 257 50.1212
+      Inverse
+        Init. time:  0.000927877 s
+@ 3DFFTWRINVINIT 257 0.000927877
+        Time:  51.8201 s
+@ 3DFFTWRINV 257 51.8201
+      Error: 1.78873e-09
+
+    MKL
+      Direct
+@ 3DMKLRINIT 257 51.8201
+        Init. time:  56.5322 s
+        Time:  25.2567 s
+@ 3DMKLR 257 25.2567
+      Inverse
+        Init. time:  0.000175888 s
+@ 3DMKLRINVINIT 257 0.000175888
+        Time:  25.3205 s
+@ 3DMKLRINV 257 25.3205
+      Error: 1.78873e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000685968 s
+@ 3DFFTWCINIT 257 0.000685968
+        Time:  78.8651 s
+@ 3DFFTWC 257 78.8651
+      Inverse
+        Init. time:  0.000684227 s
+@ 3DFFTWCINVINIT 257 0.000684227
+        Time:  86.2877 s
+@ 3DFFTWCINV 257 86.2877
+      Error: 2.83164e-09
+
+    MKL
+      Direct
+        Init. time:  0.000183146 s
+@ 3DMKLCINIT 257 0.000183146
+        Time:  39.6497 s
+@ 3DMKLC 257 39.6497
+      Inverse
+        Init. time:  0.000194899 s
+@ 3DMKLCINVINIT 257 0.000194899
+        Time:  39.7066 s
+@ 3DMKLCINV 257 39.7066
+      Error: 2.83164e-09
+
+Application 35453299 resources: utime ~433s, stime ~46s, Rss ~31980520, inblocks ~1389, outblocks ~2521
+----------------
+N threads: 1
+
+Dimensions: 257 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000539681 s
+@ 1DFFTWRINIT 257 0.000539681
+        Time:  0.000354227 s
+@ 1DFFTWR 257 0.000354227
+      Inverse
+        Init. time:  0.000472536 s
+@ 1DFFTWRINVINIT 257 0.000472536
+        Time:  0.000383011 s
+@ 1DFFTWRINV 257 0.000383011
+      Error: 5.66034e-14
+
+    GSL
+      Direct
+        Init. time:  0.000395448 s
+@ 1DGSLRINIT 257 0.000395448
+        Time:  0.0037136 s
+@ 1DGSLR 257 0.0037136
+      Inverse
+        Init. time:  2.8255e-05 s
+@ 1DGSLRINVINIT 257 2.8255e-05
+        Time:  0.00410854 s
+@ 1DGSLRINV 257 0.00410854
+      Error: 9.94579e-13
+
+    MKL
+      Direct
+        Init. time:  0.0142318 s
+@ 1DMKLRINIT 257 0.0142318
+        Time:  0.000282398 s
+@ 1DMKLR 257 0.000282398
+      Inverse
+        Init. time:  5.0368e-05 s
+@ 1DMKLRINVINIT 257 5.0368e-05
+        Time:  0.000208198 s
+@ 1DMKLRINV 257 0.000208198
+      Error: 9.94579e-13
+
+    FFTPACK
+      Direct
+        Init. time:  0.000924087 s
+@ 1DFFTPACKRINIT 257 0.000924087
+        Time:  0.00204259 s
+@ 1DFFTPACKR 257 0.00204259
+      Inverse
+        Init. time:  2.131e-06 s
+@ 1DFFTPACKRINVINIT 257 2.131e-06
+        Time:  0.00183062 s
+@ 1DFFTPACKRINV 257 0.00183062
+      Error: 9.94579e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.00021107 s
+@ 1DFFTWCINIT 257 0.00021107
+        Time:  0.000463086 s
+@ 1DFFTWC 257 0.000463086
+      Inverse
+        Init. time:  0.00012244 s
+@ 1DFFTWCINVINIT 257 0.00012244
+        Time:  0.000471747 s
+@ 1DFFTWCINV 257 0.000471747
+      Error: 7.20914e-14
+
+    GSL
+      Direct
+        Init. time:  1.4782e-05 s
+@ 1DGSLCINIT 257 1.4782e-05
+        Time:  0.000436608 s
+@ 1DGSLC 257 0.000436608
+      Inverse
+        Init. time:  1.4168e-05 s
+@ 1DGSLCINVINIT 257 1.4168e-05
+        Time:  0.00679956 s
+@ 1DGSLCINV 257 0.00679956
+      Error: 1.00214e-13
+
+    MKL
+      Direct
+        Init. time:  0.00010616 s
+@ 1DMKLCINIT 257 0.00010616
+        Time:  0.000420783 s
+@ 1DMKLC 257 0.000420783
+      Inverse
+        Init. time:  7.506e-05 s
+@ 1DMKLCINV 257 7.506e-05
+        Time:  0.00668191 s
+@ 1DMKLCINV 257 0.00668191
+      Error: 1.00214e-13
+
+    FFTPACK
+      Direct
+        Init. time:  9.6493e-05 s
+@ 1DFFTPACKCINIT 257 9.6493e-05
+        Time:  0.000443179 s
+@ 1DFFTPACKC 257 0.000443179
+      Inverse
+        Init. time:  9.185e-06 s
+@ 1DFFTPACKCINVINIT 257 9.185e-06
+        Time:  0.00679042 s
+@ 1DFFTPACKCINV 257 0.00679042
+      Error: 1.00214e-13
+
+
+Dimensions: 257 257 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000744561 s
+@ 2DFFTWRINIT 257 0.000744561
+        Time:  0.130151 s
+@ 2DFFTWR 257 0.130151
+      Inverse
+        Init. time:  0.000644181 s
+@ 2DFFTWRINVINIT 257 0.000644181
+        Time:  0.135853 s
+@ 2DFFTWRINV 257 0.135853
+      Error: 1.05915e-11
+
+    MKL
+      Direct
+        Init. time:  0.000171089 s
+@ 2DMKLRINIT 257 0.000171089
+        Time:  0.0718416 s
+@ 2DMKLR 257 0.0718416
+      Inverse
+        Init. time:  9.8379e-05 s
+@ 2DMKLRINIT 257 9.8379e-05
+        Time:  0.0714285 s
+@ 2DMKLR 257 0.0714285
+      Error: 1.05915e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.00063739 s
+@ 2DFFTWCINIT 257 0.00063739
+        Time:  0.190857 s
+@ 2DFFTWC 257 0.190857
+      Inverse
+        Init. time:  0.000630744 s
+@ 2DFFTWCINVINIT 257 0.000630744
+        Time:  0.201405 s
+@ 2DFFTWCINV 257 0.201405
+      Error: 1.59175e-11
+
+    MKL
+      Direct
+        Init. time:  0.000118381 s
+@ 2DMKLCINIT 257 0.000118381
+        Time:  0.0943198 s
+@ 2DMKLC 257 0.0943198
+      Inverse
+        Init. time:  7.987e-05 s
+@ 2DMKLCINVINIT 257 7.987e-05
+        Time:  0.0951279 s
+@ 2DMKLCINV 257 0.0951279
+      Error: 1.59175e-11
+
+Dimensions: 257 257 257 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000964061 s
+@ 3DFFTWRINIT 257 0.000964061
+        Time:  50.1484 s
+@ 3DFFTWR 257 50.1484
+      Inverse
+        Init. time:  0.000930197 s
+@ 3DFFTWRINVINIT 257 0.000930197
+        Time:  51.8387 s
+@ 3DFFTWRINV 257 51.8387
+      Error: 1.78873e-09
+
+    MKL
+      Direct
+@ 3DMKLRINIT 257 51.8387
+        Init. time:  56.5386 s
+        Time:  25.2659 s
+@ 3DMKLR 257 25.2659
+      Inverse
+        Init. time:  0.000181308 s
+@ 3DMKLRINVINIT 257 0.000181308
+        Time:  25.3394 s
+@ 3DMKLRINV 257 25.3394
+      Error: 1.78873e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000707988 s
+@ 3DFFTWCINIT 257 0.000707988
+        Time:  78.9693 s
+@ 3DFFTWC 257 78.9693
+      Inverse
+        Init. time:  0.000684222 s
+@ 3DFFTWCINVINIT 257 0.000684222
+        Time:  86.3051 s
+@ 3DFFTWCINV 257 86.3051
+      Error: 2.83164e-09
+
+    MKL
+      Direct
+        Init. time:  0.000188 s
+@ 3DMKLCINIT 257 0.000188
+        Time:  39.7007 s
+@ 3DMKLC 257 39.7007
+      Inverse
+        Init. time:  0.000229258 s
+@ 3DMKLCINVINIT 257 0.000229258
+        Time:  39.6161 s
+@ 3DMKLCINV 257 39.6161
+      Error: 2.83164e-09
+
+Application 35454366 resources: utime ~433s, stime ~46s, Rss ~31980520, inblocks ~1389, outblocks ~2521
+----------------
+N threads: 1
+
+Dimensions: 257 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000507946 s
+@ 1DFFTWRINIT 257 0.000507946
+        Time:  0.000346326 s
+@ 1DFFTWR 257 0.000346326
+      Inverse
+        Init. time:  0.000558451 s
+@ 1DFFTWRINVINIT 257 0.000558451
+        Time:  0.000359744 s
+@ 1DFFTWRINV 257 0.000359744
+      Error: 5.66034e-14
+
+    GSL
+      Direct
+        Init. time:  0.000573124 s
+@ 1DGSLRINIT 257 0.000573124
+        Time:  0.00360953 s
+@ 1DGSLR 257 0.00360953
+      Inverse
+        Init. time:  5.6755e-05 s
+@ 1DGSLRINVINIT 257 5.6755e-05
+        Time:  0.00403688 s
+@ 1DGSLRINV 257 0.00403688
+      Error: 9.94579e-13
+
+    MKL
+      Direct
+        Init. time:  0.0143609 s
+@ 1DMKLRINIT 257 0.0143609
+        Time:  0.000300657 s
+@ 1DMKLR 257 0.000300657
+      Inverse
+        Init. time:  7.3172e-05 s
+@ 1DMKLRINVINIT 257 7.3172e-05
+        Time:  0.000247954 s
+@ 1DMKLRINV 257 0.000247954
+      Error: 9.94579e-13
+
+    FFTPACK
+      Direct
+        Init. time:  0.000969662 s
+@ 1DFFTPACKRINIT 257 0.000969662
+        Time:  0.00187916 s
+@ 1DFFTPACKR 257 0.00187916
+      Inverse
+        Init. time:  2.505e-06 s
+@ 1DFFTPACKRINVINIT 257 2.505e-06
+        Time:  0.00194991 s
+@ 1DFFTPACKRINV 257 0.00194991
+      Error: 9.94579e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000236579 s
+@ 1DFFTWCINIT 257 0.000236579
+        Time:  0.000398628 s
+@ 1DFFTWC 257 0.000398628
+      Inverse
+        Init. time:  0.000158123 s
+@ 1DFFTWCINVINIT 257 0.000158123
+        Time:  0.000444536 s
+@ 1DFFTWCINV 257 0.000444536
+      Error: 7.20914e-14
+
+    GSL
+      Direct
+        Init. time:  1.9448e-05 s
+@ 1DGSLCINIT 257 1.9448e-05
+        Time:  0.000402069 s
+@ 1DGSLC 257 0.000402069
+      Inverse
+        Init. time:  1.9161e-05 s
+@ 1DGSLCINVINIT 257 1.9161e-05
+        Time:  0.00687665 s
+@ 1DGSLCINV 257 0.00687665
+      Error: 1.00214e-13
+
+    MKL
+      Direct
+        Init. time:  0.000139353 s
+@ 1DMKLCINIT 257 0.000139353
+        Time:  0.000398085 s
+@ 1DMKLC 257 0.000398085
+      Inverse
+        Init. time:  9.9929e-05 s
+@ 1DMKLCINV 257 9.9929e-05
+        Time:  0.00677185 s
+@ 1DMKLCINV 257 0.00677185
+      Error: 1.00214e-13
+
+    FFTPACK
+      Direct
+        Init. time:  0.000100924 s
+@ 1DFFTPACKCINIT 257 0.000100924
+        Time:  0.000396642 s
+@ 1DFFTPACKC 257 0.000396642
+      Inverse
+        Init. time:  1.2903e-05 s
+@ 1DFFTPACKCINVINIT 257 1.2903e-05
+        Time:  0.00676051 s
+@ 1DFFTPACKCINV 257 0.00676051
+      Error: 1.00214e-13
+
+
+Dimensions: 257 257 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000712651 s
+@ 2DFFTWRINIT 257 0.000712651
+        Time:  0.129811 s
+@ 2DFFTWR 257 0.129811
+      Inverse
+        Init. time:  0.00062627 s
+@ 2DFFTWRINVINIT 257 0.00062627
+        Time:  0.13529 s
+@ 2DFFTWRINV 257 0.13529
+      Error: 1.05915e-11
+
+    MKL
+      Direct
+        Init. time:  0.000176305 s
+@ 2DMKLRINIT 257 0.000176305
+        Time:  0.0728327 s
+@ 2DMKLR 257 0.0728327
+      Inverse
+        Init. time:  0.000114479 s
+@ 2DMKLRINIT 257 0.000114479
+        Time:  0.0719094 s
+@ 2DMKLR 257 0.0719094
+      Error: 1.05915e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000644321 s
+@ 2DFFTWCINIT 257 0.000644321
+        Time:  0.18869 s
+@ 2DFFTWC 257 0.18869
+      Inverse
+        Init. time:  0.000634634 s
+@ 2DFFTWCINVINIT 257 0.000634634
+        Time:  0.20102 s
+@ 2DFFTWCINV 257 0.20102
+      Error: 1.59175e-11
+
+    MKL
+      Direct
+        Init. time:  0.00014881 s
+@ 2DMKLCINIT 257 0.00014881
+        Time:  0.0939366 s
+@ 2DMKLC 257 0.0939366
+      Inverse
+        Init. time:  0.000130276 s
+@ 2DMKLCINVINIT 257 0.000130276
+        Time:  0.0950901 s
+@ 2DMKLCINV 257 0.0950901
+      Error: 1.59175e-11
+
+Dimensions: 257 257 257 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000971072 s
+@ 3DFFTWRINIT 257 0.000971072
+        Time:  50.1341 s
+@ 3DFFTWR 257 50.1341
+      Inverse
+        Init. time:  0.000951061 s
+@ 3DFFTWRINVINIT 257 0.000951061
+        Time:  51.8249 s
+@ 3DFFTWRINV 257 51.8249
+      Error: 1.78873e-09
+
+    MKL
+      Direct
+@ 3DMKLRINIT 257 51.8249
+        Init. time:  56.5139 s
+        Time:  25.3196 s
+@ 3DMKLR 257 25.3196
+      Inverse
+        Init. time:  0.000206143 s
+@ 3DMKLRINVINIT 257 0.000206143
+        Time:  25.4364 s
+@ 3DMKLRINV 257 25.4364
+      Error: 1.78873e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000715978 s
+@ 3DFFTWCINIT 257 0.000715978
+        Time:  78.8694 s
+@ 3DFFTWC 257 78.8694
+      Inverse
+        Init. time:  0.0007075 s
+@ 3DFFTWCINVINIT 257 0.0007075
+        Time:  86.3087 s
+@ 3DFFTWCINV 257 86.3087
+      Error: 2.83164e-09
+
+    MKL
+      Direct
+        Init. time:  0.000231884 s
+@ 3DMKLCINIT 257 0.000231884
+        Time:  39.7678 s
+@ 3DMKLC 257 39.7678
+      Inverse
+        Init. time:  0.000217596 s
+@ 3DMKLCINVINIT 257 0.000217596
+        Time:  39.6861 s
+@ 3DMKLCINV 257 39.6861
+      Error: 2.83164e-09
+
+Application 35455346 resources: utime ~433s, stime ~45s, Rss ~31980520, inblocks ~1389, outblocks ~2521
+----------------
+N threads: 1
+
+Dimensions: 257 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000531206 s
+@ 1DFFTWRINIT 257 0.000531206
+        Time:  0.000404735 s
+@ 1DFFTWR 257 0.000404735
+      Inverse
+        Init. time:  0.000473571 s
+@ 1DFFTWRINVINIT 257 0.000473571
+        Time:  0.00037376 s
+@ 1DFFTWRINV 257 0.00037376
+      Error: 5.66034e-14
+
+    GSL
+      Direct
+        Init. time:  0.000364896 s
+@ 1DGSLRINIT 257 0.000364896
+        Time:  0.00366416 s
+@ 1DGSLR 257 0.00366416
+      Inverse
+        Init. time:  2.8751e-05 s
+@ 1DGSLRINVINIT 257 2.8751e-05
+        Time:  0.00404818 s
+@ 1DGSLRINV 257 0.00404818
+      Error: 9.94579e-13
+
+    MKL
+      Direct
+        Init. time:  0.0141758 s
+@ 1DMKLRINIT 257 0.0141758
+        Time:  0.000291976 s
+@ 1DMKLR 257 0.000291976
+      Inverse
+        Init. time:  5.1966e-05 s
+@ 1DMKLRINVINIT 257 5.1966e-05
+        Time:  0.000228027 s
+@ 1DMKLRINV 257 0.000228027
+      Error: 9.94579e-13
+
+    FFTPACK
+      Direct
+        Init. time:  0.000779738 s
+@ 1DFFTPACKRINIT 257 0.000779738
+        Time:  0.00188832 s
+@ 1DFFTPACKR 257 0.00188832
+      Inverse
+        Init. time:  2.054e-06 s
+@ 1DFFTPACKRINVINIT 257 2.054e-06
+        Time:  0.00191414 s
+@ 1DFFTPACKRINV 257 0.00191414
+      Error: 9.94579e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000219811 s
+@ 1DFFTWCINIT 257 0.000219811
+        Time:  0.000405877 s
+@ 1DFFTWC 257 0.000405877
+      Inverse
+        Init. time:  0.000119816 s
+@ 1DFFTWCINVINIT 257 0.000119816
+        Time:  0.000443894 s
+@ 1DFFTWCINV 257 0.000443894
+      Error: 7.20914e-14
+
+    GSL
+      Direct
+        Init. time:  1.6589e-05 s
+@ 1DGSLCINIT 257 1.6589e-05
+        Time:  0.000406002 s
+@ 1DGSLC 257 0.000406002
+      Inverse
+        Init. time:  2.8185e-05 s
+@ 1DGSLCINVINIT 257 2.8185e-05
+        Time:  0.00679581 s
+@ 1DGSLCINV 257 0.00679581
+      Error: 1.00214e-13
+
+    MKL
+      Direct
+        Init. time:  0.000110782 s
+@ 1DMKLCINIT 257 0.000110782
+        Time:  0.00040746 s
+@ 1DMKLC 257 0.00040746
+      Inverse
+        Init. time:  8.0301e-05 s
+@ 1DMKLCINV 257 8.0301e-05
+        Time:  0.00675138 s
+@ 1DMKLCINV 257 0.00675138
+      Error: 1.00214e-13
+
+    FFTPACK
+      Direct
+        Init. time:  7.523e-05 s
+@ 1DFFTPACKCINIT 257 7.523e-05
+        Time:  0.000408571 s
+@ 1DFFTPACKC 257 0.000408571
+      Inverse
+        Init. time:  9.087e-06 s
+@ 1DFFTPACKCINVINIT 257 9.087e-06
+        Time:  0.00671576 s
+@ 1DFFTPACKCINV 257 0.00671576
+      Error: 1.00214e-13
+
+
+Dimensions: 257 257 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000697641 s
+@ 2DFFTWRINIT 257 0.000697641
+        Time:  0.129173 s
+@ 2DFFTWR 257 0.129173
+      Inverse
+        Init. time:  0.000622176 s
+@ 2DFFTWRINVINIT 257 0.000622176
+        Time:  0.134347 s
+@ 2DFFTWRINV 257 0.134347
+      Error: 1.05915e-11
+
+    MKL
+      Direct
+        Init. time:  0.00017294 s
+@ 2DMKLRINIT 257 0.00017294
+        Time:  0.0732808 s
+@ 2DMKLR 257 0.0732808
+      Inverse
+        Init. time:  8.7941e-05 s
+@ 2DMKLRINIT 257 8.7941e-05
+        Time:  0.0731261 s
+@ 2DMKLR 257 0.0731261
+      Error: 1.05915e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000641413 s
+@ 2DFFTWCINIT 257 0.000641413
+        Time:  0.188985 s
+@ 2DFFTWC 257 0.188985
+      Inverse
+        Init. time:  0.000622284 s
+@ 2DFFTWCINVINIT 257 0.000622284
+        Time:  0.201275 s
+@ 2DFFTWCINV 257 0.201275
+      Error: 1.59175e-11
+
+    MKL
+      Direct
+        Init. time:  0.000111077 s
+@ 2DMKLCINIT 257 0.000111077
+        Time:  0.094549 s
+@ 2DMKLC 257 0.094549
+      Inverse
+        Init. time:  8.5448e-05 s
+@ 2DMKLCINVINIT 257 8.5448e-05
+        Time:  0.0951347 s
+@ 2DMKLCINV 257 0.0951347
+      Error: 1.59175e-11
+
+Dimensions: 257 257 257 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000973607 s
+@ 3DFFTWRINIT 257 0.000973607
+        Time:  50.0796 s
+@ 3DFFTWR 257 50.0796
+      Inverse
+        Init. time:  0.000945247 s
+@ 3DFFTWRINVINIT 257 0.000945247
+        Time:  51.8538 s
+@ 3DFFTWRINV 257 51.8538
+      Error: 1.78873e-09
+
+    MKL
+      Direct
+@ 3DMKLRINIT 257 51.8538
+        Init. time:  56.5479 s
+        Time:  25.4878 s
+@ 3DMKLR 257 25.4878
+      Inverse
+        Init. time:  0.000173978 s
+@ 3DMKLRINVINIT 257 0.000173978
+        Time:  25.544 s
+@ 3DMKLRINV 257 25.544
+      Error: 1.78873e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000693039 s
+@ 3DFFTWCINIT 257 0.000693039
+        Time:  78.9583 s
+@ 3DFFTWC 257 78.9583
+      Inverse
+        Init. time:  0.000686478 s
+@ 3DFFTWCINVINIT 257 0.000686478
+        Time:  86.2552 s
+@ 3DFFTWCINV 257 86.2552
+      Error: 2.83164e-09
+
+    MKL
+      Direct
+        Init. time:  0.000185714 s
+@ 3DMKLCINIT 257 0.000185714
+        Time:  39.8132 s
+@ 3DMKLC 257 39.8132
+      Inverse
+        Init. time:  0.000201111 s
+@ 3DMKLCINVINIT 257 0.000201111
+        Time:  39.6518 s
+@ 3DMKLCINV 257 39.6518
+      Error: 2.83164e-09
+
+Application 35456289 resources: utime ~433s, stime ~46s, Rss ~31980520, inblocks ~1389, outblocks ~2521
+----------------
+N threads: 1
+
+Dimensions: 257 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000514377 s
+@ 1DFFTWRINIT 257 0.000514377
+        Time:  0.000368569 s
+@ 1DFFTWR 257 0.000368569
+      Inverse
+        Init. time:  0.000474105 s
+@ 1DFFTWRINVINIT 257 0.000474105
+        Time:  0.000381784 s
+@ 1DFFTWRINV 257 0.000381784
+      Error: 5.66034e-14
+
+    GSL
+      Direct
+        Init. time:  0.00369564 s
+@ 1DGSLRINIT 257 0.00369564
+        Time:  0.00359569 s
+@ 1DGSLR 257 0.00359569
+      Inverse
+        Init. time:  2.8412e-05 s
+@ 1DGSLRINVINIT 257 2.8412e-05
+        Time:  0.00400888 s
+@ 1DGSLRINV 257 0.00400888
+      Error: 9.94579e-13
+
+    MKL
+      Direct
+        Init. time:  0.0135804 s
+@ 1DMKLRINIT 257 0.0135804
+        Time:  0.000266127 s
+@ 1DMKLR 257 0.000266127
+      Inverse
+        Init. time:  4.9897e-05 s
+@ 1DMKLRINVINIT 257 4.9897e-05
+        Time:  0.000211896 s
+@ 1DMKLRINV 257 0.000211896
+      Error: 9.94579e-13
+
+    FFTPACK
+      Direct
+        Init. time:  0.00103694 s
+@ 1DFFTPACKRINIT 257 0.00103694
+        Time:  0.0018864 s
+@ 1DFFTPACKR 257 0.0018864
+      Inverse
+        Init. time:  1.5731e-05 s
+@ 1DFFTPACKRINVINIT 257 1.5731e-05
+        Time:  0.00189791 s
+@ 1DFFTPACKRINV 257 0.00189791
+      Error: 9.94579e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000217626 s
+@ 1DFFTWCINIT 257 0.000217626
+        Time:  0.000406165 s
+@ 1DFFTWC 257 0.000406165
+      Inverse
+        Init. time:  0.000119288 s
+@ 1DFFTWCINVINIT 257 0.000119288
+        Time:  0.000455729 s
+@ 1DFFTWCINV 257 0.000455729
+      Error: 7.20914e-14
+
+    GSL
+      Direct
+        Init. time:  1.6517e-05 s
+@ 1DGSLCINIT 257 1.6517e-05
+        Time:  0.000390628 s
+@ 1DGSLC 257 0.000390628
+      Inverse
+        Init. time:  1.4272e-05 s
+@ 1DGSLCINVINIT 257 1.4272e-05
+        Time:  0.00676916 s
+@ 1DGSLCINV 257 0.00676916
+      Error: 1.00214e-13
+
+    MKL
+      Direct
+        Init. time:  0.000122468 s
+@ 1DMKLCINIT 257 0.000122468
+        Time:  0.000404898 s
+@ 1DMKLC 257 0.000404898
+      Inverse
+        Init. time:  6.6723e-05 s
+@ 1DMKLCINV 257 6.6723e-05
+        Time:  0.00668703 s
+@ 1DMKLCINV 257 0.00668703
+      Error: 1.00214e-13
+
+    FFTPACK
+      Direct
+        Init. time:  7.7092e-05 s
+@ 1DFFTPACKCINIT 257 7.7092e-05
+        Time:  0.000404058 s
+@ 1DFFTPACKC 257 0.000404058
+      Inverse
+        Init. time:  8.906e-06 s
+@ 1DFFTPACKCINVINIT 257 8.906e-06
+        Time:  0.00668485 s
+@ 1DFFTPACKCINV 257 0.00668485
+      Error: 1.00214e-13
+
+
+Dimensions: 257 257 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000717346 s
+@ 2DFFTWRINIT 257 0.000717346
+        Time:  0.12895 s
+@ 2DFFTWR 257 0.12895
+      Inverse
+        Init. time:  0.000618718 s
+@ 2DFFTWRINVINIT 257 0.000618718
+        Time:  0.134697 s
+@ 2DFFTWRINV 257 0.134697
+      Error: 1.05915e-11
+
+    MKL
+      Direct
+        Init. time:  0.000161869 s
+@ 2DMKLRINIT 257 0.000161869
+        Time:  0.0726485 s
+@ 2DMKLR 257 0.0726485
+      Inverse
+        Init. time:  0.000102435 s
+@ 2DMKLRINIT 257 0.000102435
+        Time:  0.0721082 s
+@ 2DMKLR 257 0.0721082
+      Error: 1.05915e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000638197 s
+@ 2DFFTWCINIT 257 0.000638197
+        Time:  0.189008 s
+@ 2DFFTWC 257 0.189008
+      Inverse
+        Init. time:  0.000619735 s
+@ 2DFFTWCINVINIT 257 0.000619735
+        Time:  0.201204 s
+@ 2DFFTWCINV 257 0.201204
+      Error: 1.59175e-11
+
+    MKL
+      Direct
+        Init. time:  0.000125692 s
+@ 2DMKLCINIT 257 0.000125692
+        Time:  0.0942292 s
+@ 2DMKLC 257 0.0942292
+      Inverse
+        Init. time:  8.2448e-05 s
+@ 2DMKLCINVINIT 257 8.2448e-05
+        Time:  0.0949924 s
+@ 2DMKLCINV 257 0.0949924
+      Error: 1.59175e-11
+
+Dimensions: 257 257 257 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000958908 s
+@ 3DFFTWRINIT 257 0.000958908
+        Time:  50.1161 s
+@ 3DFFTWR 257 50.1161
+      Inverse
+        Init. time:  0.000945885 s
+@ 3DFFTWRINVINIT 257 0.000945885
+        Time:  51.7854 s
+@ 3DFFTWRINV 257 51.7854
+      Error: 1.78873e-09
+
+    MKL
+      Direct
+@ 3DMKLRINIT 257 51.7854
+        Init. time:  56.4755 s
+        Time:  25.2462 s
+@ 3DMKLR 257 25.2462
+      Inverse
+        Init. time:  0.000177316 s
+@ 3DMKLRINVINIT 257 0.000177316
+        Time:  25.3296 s
+@ 3DMKLRINV 257 25.3296
+      Error: 1.78873e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000686282 s
+@ 3DFFTWCINIT 257 0.000686282
+        Time:  78.8867 s
+@ 3DFFTWC 257 78.8867
+      Inverse
+        Init. time:  0.000686953 s
+@ 3DFFTWCINVINIT 257 0.000686953
+        Time:  86.3231 s
+@ 3DFFTWCINV 257 86.3231
+      Error: 2.83164e-09
+
+    MKL
+      Direct
+        Init. time:  0.000185547 s
+@ 3DMKLCINIT 257 0.000185547
+        Time:  39.6728 s
+@ 3DMKLC 257 39.6728
+      Inverse
+        Init. time:  0.000199979 s
+@ 3DMKLCINVINIT 257 0.000199979
+        Time:  39.8474 s
+@ 3DMKLCINV 257 39.8474
+      Error: 2.83164e-09
+
+Application 35457280 resources: utime ~433s, stime ~45s, Rss ~31980520, inblocks ~1389, outblocks ~2521
+----------------
+N threads: 1
+
+Dimensions: 257 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000512673 s
+@ 1DFFTWRINIT 257 0.000512673
+        Time:  0.000347352 s
+@ 1DFFTWR 257 0.000347352
+      Inverse
+        Init. time:  0.000478801 s
+@ 1DFFTWRINVINIT 257 0.000478801
+        Time:  0.000358919 s
+@ 1DFFTWRINV 257 0.000358919
+      Error: 5.66034e-14
+
+    GSL
+      Direct
+        Init. time:  0.000471859 s
+@ 1DGSLRINIT 257 0.000471859
+        Time:  0.00357624 s
+@ 1DGSLR 257 0.00357624
+      Inverse
+        Init. time:  5.4801e-05 s
+@ 1DGSLRINVINIT 257 5.4801e-05
+        Time:  0.00400219 s
+@ 1DGSLRINV 257 0.00400219
+      Error: 9.94579e-13
+
+    MKL
+      Direct
+        Init. time:  0.0136343 s
+@ 1DMKLRINIT 257 0.0136343
+        Time:  0.000290597 s
+@ 1DMKLR 257 0.000290597
+      Inverse
+        Init. time:  8.4656e-05 s
+@ 1DMKLRINVINIT 257 8.4656e-05
+        Time:  0.000241965 s
+@ 1DMKLRINV 257 0.000241965
+      Error: 9.94579e-13
+
+    FFTPACK
+      Direct
+        Init. time:  0.0010663 s
+@ 1DFFTPACKRINIT 257 0.0010663
+        Time:  0.00201872 s
+@ 1DFFTPACKR 257 0.00201872
+      Inverse
+        Init. time:  2.651e-06 s
+@ 1DFFTPACKRINVINIT 257 2.651e-06
+        Time:  0.00187934 s
+@ 1DFFTPACKRINV 257 0.00187934
+      Error: 9.94579e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000224848 s
+@ 1DFFTWCINIT 257 0.000224848
+        Time:  0.000397561 s
+@ 1DFFTWC 257 0.000397561
+      Inverse
+        Init. time:  0.000158922 s
+@ 1DFFTWCINVINIT 257 0.000158922
+        Time:  0.000488827 s
+@ 1DFFTWCINV 257 0.000488827
+      Error: 7.20914e-14
+
+    GSL
+      Direct
+        Init. time:  1.9869e-05 s
+@ 1DGSLCINIT 257 1.9869e-05
+        Time:  0.000420918 s
+@ 1DGSLC 257 0.000420918
+      Inverse
+        Init. time:  2.047e-05 s
+@ 1DGSLCINVINIT 257 2.047e-05
+        Time:  0.00674872 s
+@ 1DGSLCINV 257 0.00674872
+      Error: 1.00214e-13
+
+    MKL
+      Direct
+        Init. time:  0.000137643 s
+@ 1DMKLCINIT 257 0.000137643
+        Time:  0.000498244 s
+@ 1DMKLC 257 0.000498244
+      Inverse
+        Init. time:  0.000112025 s
+@ 1DMKLCINV 257 0.000112025
+        Time:  0.00664561 s
+@ 1DMKLCINV 257 0.00664561
+      Error: 1.00214e-13
+
+    FFTPACK
+      Direct
+        Init. time:  0.000117639 s
+@ 1DFFTPACKCINIT 257 0.000117639
+        Time:  0.00039677 s
+@ 1DFFTPACKC 257 0.00039677
+      Inverse
+        Init. time:  1.7151e-05 s
+@ 1DFFTPACKCINVINIT 257 1.7151e-05
+        Time:  0.0066958 s
+@ 1DFFTPACKCINV 257 0.0066958
+      Error: 1.00214e-13
+
+
+Dimensions: 257 257 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000746231 s
+@ 2DFFTWRINIT 257 0.000746231
+        Time:  0.129841 s
+@ 2DFFTWR 257 0.129841
+      Inverse
+        Init. time:  0.000625223 s
+@ 2DFFTWRINVINIT 257 0.000625223
+        Time:  0.135343 s
+@ 2DFFTWRINV 257 0.135343
+      Error: 1.05915e-11
+
+    MKL
+      Direct
+        Init. time:  0.000176346 s
+@ 2DMKLRINIT 257 0.000176346
+        Time:  0.072045 s
+@ 2DMKLR 257 0.072045
+      Inverse
+        Init. time:  0.000116717 s
+@ 2DMKLRINIT 257 0.000116717
+        Time:  0.0715568 s
+@ 2DMKLR 257 0.0715568
+      Error: 1.05915e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000634474 s
+@ 2DFFTWCINIT 257 0.000634474
+        Time:  0.188736 s
+@ 2DFFTWC 257 0.188736
+      Inverse
+        Init. time:  0.00063085 s
+@ 2DFFTWCINVINIT 257 0.00063085
+        Time:  0.201028 s
+@ 2DFFTWCINV 257 0.201028
+      Error: 1.59175e-11
+
+    MKL
+      Direct
+        Init. time:  0.00014776 s
+@ 2DMKLCINIT 257 0.00014776
+        Time:  0.0936416 s
+@ 2DMKLC 257 0.0936416
+      Inverse
+        Init. time:  0.000135982 s
+@ 2DMKLCINVINIT 257 0.000135982
+        Time:  0.0946423 s
+@ 2DMKLCINV 257 0.0946423
+      Error: 1.59175e-11
+
+Dimensions: 257 257 257 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000963279 s
+@ 3DFFTWRINIT 257 0.000963279
+        Time:  50.09 s
+@ 3DFFTWR 257 50.09
+      Inverse
+        Init. time:  0.000941771 s
+@ 3DFFTWRINVINIT 257 0.000941771
+        Time:  51.8151 s
+@ 3DFFTWRINV 257 51.8151
+      Error: 1.78873e-09
+
+    MKL
+      Direct
+@ 3DMKLRINIT 257 51.8151
+        Init. time:  56.5127 s
+        Time:  25.1832 s
+@ 3DMKLR 257 25.1832
+      Inverse
+        Init. time:  0.000215251 s
+@ 3DMKLRINVINIT 257 0.000215251
+        Time:  25.2728 s
+@ 3DMKLRINV 257 25.2728
+      Error: 1.78873e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000713177 s
+@ 3DFFTWCINIT 257 0.000713177
+        Time:  78.8485 s
+@ 3DFFTWC 257 78.8485
+      Inverse
+        Init. time:  0.000701449 s
+@ 3DFFTWCINVINIT 257 0.000701449
+        Time:  86.262 s
+@ 3DFFTWCINV 257 86.262
+      Error: 2.83164e-09
+
+    MKL
+      Direct
+        Init. time:  0.000217175 s
+@ 3DMKLCINIT 257 0.000217175
+        Time:  39.5858 s
+@ 3DMKLC 257 39.5858
+      Inverse
+        Init. time:  0.00022229 s
+@ 3DMKLCINVINIT 257 0.00022229
+        Time:  39.601 s
+@ 3DMKLCINV 257 39.601
+      Error: 2.83164e-09
+
+Application 35458256 resources: utime ~432s, stime ~46s, Rss ~31980520, inblocks ~1389, outblocks ~2521
+----------------
+N threads: 1
+
+Dimensions: 257 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000508577 s
+@ 1DFFTWRINIT 257 0.000508577
+        Time:  0.000383046 s
+@ 1DFFTWR 257 0.000383046
+      Inverse
+        Init. time:  0.000478563 s
+@ 1DFFTWRINVINIT 257 0.000478563
+        Time:  0.000359093 s
+@ 1DFFTWRINV 257 0.000359093
+      Error: 5.66034e-14
+
+    GSL
+      Direct
+        Init. time:  0.0005345 s
+@ 1DGSLRINIT 257 0.0005345
+        Time:  0.00360896 s
+@ 1DGSLR 257 0.00360896
+      Inverse
+        Init. time:  5.6151e-05 s
+@ 1DGSLRINVINIT 257 5.6151e-05
+        Time:  0.00403505 s
+@ 1DGSLRINV 257 0.00403505
+      Error: 9.94579e-13
+
+    MKL
+      Direct
+        Init. time:  0.013952 s
+@ 1DMKLRINIT 257 0.013952
+        Time:  0.000301197 s
+@ 1DMKLR 257 0.000301197
+      Inverse
+        Init. time:  7.6514e-05 s
+@ 1DMKLRINVINIT 257 7.6514e-05
+        Time:  0.000240686 s
+@ 1DMKLRINV 257 0.000240686
+      Error: 9.94579e-13
+
+    FFTPACK
+      Direct
+        Init. time:  0.00092055 s
+@ 1DFFTPACKRINIT 257 0.00092055
+        Time:  0.00195579 s
+@ 1DFFTPACKR 257 0.00195579
+      Inverse
+        Init. time:  2.679e-06 s
+@ 1DFFTPACKRINVINIT 257 2.679e-06
+        Time:  0.00188625 s
+@ 1DFFTPACKRINV 257 0.00188625
+      Error: 9.94579e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000222994 s
+@ 1DFFTWCINIT 257 0.000222994
+        Time:  0.00039696 s
+@ 1DFFTWC 257 0.00039696
+      Inverse
+        Init. time:  0.000157499 s
+@ 1DFFTWCINVINIT 257 0.000157499
+        Time:  0.000480593 s
+@ 1DFFTWCINV 257 0.000480593
+      Error: 7.20914e-14
+
+    GSL
+      Direct
+        Init. time:  2.0879e-05 s
+@ 1DGSLCINIT 257 2.0879e-05
+        Time:  0.000438717 s
+@ 1DGSLC 257 0.000438717
+      Inverse
+        Init. time:  1.9223e-05 s
+@ 1DGSLCINVINIT 257 1.9223e-05
+        Time:  0.00669754 s
+@ 1DGSLCINV 257 0.00669754
+      Error: 1.00214e-13
+
+    MKL
+      Direct
+        Init. time:  0.000135956 s
+@ 1DMKLCINIT 257 0.000135956
+        Time:  0.000453034 s
+@ 1DMKLC 257 0.000453034
+      Inverse
+        Init. time:  0.000126954 s
+@ 1DMKLCINV 257 0.000126954
+        Time:  0.00668811 s
+@ 1DMKLCINV 257 0.00668811
+      Error: 1.00214e-13
+
+    FFTPACK
+      Direct
+        Init. time:  9.5398e-05 s
+@ 1DFFTPACKCINIT 257 9.5398e-05
+        Time:  0.000407982 s
+@ 1DFFTPACKC 257 0.000407982
+      Inverse
+        Init. time:  1.301e-05 s
+@ 1DFFTPACKCINVINIT 257 1.301e-05
+        Time:  0.00674661 s
+@ 1DFFTPACKCINV 257 0.00674661
+      Error: 1.00214e-13
+
+
+Dimensions: 257 257 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000745078 s
+@ 2DFFTWRINIT 257 0.000745078
+        Time:  0.129734 s
+@ 2DFFTWR 257 0.129734
+      Inverse
+        Init. time:  0.000621178 s
+@ 2DFFTWRINVINIT 257 0.000621178
+        Time:  0.135658 s
+@ 2DFFTWRINV 257 0.135658
+      Error: 1.05915e-11
+
+    MKL
+      Direct
+        Init. time:  0.000172374 s
+@ 2DMKLRINIT 257 0.000172374
+        Time:  0.071929 s
+@ 2DMKLR 257 0.071929
+      Inverse
+        Init. time:  0.000113204 s
+@ 2DMKLRINIT 257 0.000113204
+        Time:  0.0714821 s
+@ 2DMKLR 257 0.0714821
+      Error: 1.05915e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000637728 s
+@ 2DFFTWCINIT 257 0.000637728
+        Time:  0.188797 s
+@ 2DFFTWC 257 0.188797
+      Inverse
+        Init. time:  0.000631883 s
+@ 2DFFTWCINVINIT 257 0.000631883
+        Time:  0.201262 s
+@ 2DFFTWCINV 257 0.201262
+      Error: 1.59175e-11
+
+    MKL
+      Direct
+        Init. time:  0.000146817 s
+@ 2DMKLCINIT 257 0.000146817
+        Time:  0.0936424 s
+@ 2DMKLC 257 0.0936424
+      Inverse
+        Init. time:  0.00013222 s
+@ 2DMKLCINVINIT 257 0.00013222
+        Time:  0.0947511 s
+@ 2DMKLCINV 257 0.0947511
+      Error: 1.59175e-11
+
+Dimensions: 257 257 257 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000957533 s
+@ 3DFFTWRINIT 257 0.000957533
+        Time:  50.1141 s
+@ 3DFFTWR 257 50.1141
+      Inverse
+        Init. time:  0.000938742 s
+@ 3DFFTWRINVINIT 257 0.000938742
+        Time:  51.8116 s
+@ 3DFFTWRINV 257 51.8116
+      Error: 1.78873e-09
+
+    MKL
+      Direct
+@ 3DMKLRINIT 257 51.8116
+        Init. time:  56.5096 s
+        Time:  25.1837 s
+@ 3DMKLR 257 25.1837
+      Inverse
+        Init. time:  0.000207323 s
+@ 3DMKLRINVINIT 257 0.000207323
+        Time:  25.2649 s
+@ 3DMKLRINV 257 25.2649
+      Error: 1.78873e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.00070534 s
+@ 3DFFTWCINIT 257 0.00070534
+        Time:  78.8387 s
+@ 3DFFTWC 257 78.8387
+      Inverse
+        Init. time:  0.000699801 s
+@ 3DFFTWCINVINIT 257 0.000699801
+        Time:  86.2208 s
+@ 3DFFTWCINV 257 86.2208
+      Error: 2.83164e-09
+
+    MKL
+      Direct
+        Init. time:  0.000220216 s
+@ 3DMKLCINIT 257 0.000220216
+        Time:  39.8391 s
+@ 3DMKLC 257 39.8391
+      Inverse
+        Init. time:  0.000217454 s
+@ 3DMKLCINVINIT 257 0.000217454
+        Time:  39.829 s
+@ 3DMKLCINV 257 39.829
+      Error: 2.83164e-09
+
+Application 35459305 resources: utime ~433s, stime ~45s, Rss ~31980520, inblocks ~1389, outblocks ~2521
+----------------
+N threads: 1
+
+Dimensions: 257 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.00051347 s
+@ 1DFFTWRINIT 257 0.00051347
+        Time:  0.00034586 s
+@ 1DFFTWR 257 0.00034586
+      Inverse
+        Init. time:  0.000478483 s
+@ 1DFFTWRINVINIT 257 0.000478483
+        Time:  0.000358602 s
+@ 1DFFTWRINV 257 0.000358602
+      Error: 5.66034e-14
+
+    GSL
+      Direct
+        Init. time:  0.000526971 s
+@ 1DGSLRINIT 257 0.000526971
+        Time:  0.00354152 s
+@ 1DGSLR 257 0.00354152
+      Inverse
+        Init. time:  5.8349e-05 s
+@ 1DGSLRINVINIT 257 5.8349e-05
+        Time:  0.00400182 s
+@ 1DGSLRINV 257 0.00400182
+      Error: 9.94579e-13
+
+    MKL
+      Direct
+        Init. time:  0.0134473 s
+@ 1DMKLRINIT 257 0.0134473
+        Time:  0.000288371 s
+@ 1DMKLR 257 0.000288371
+      Inverse
+        Init. time:  6.3204e-05 s
+@ 1DMKLRINVINIT 257 6.3204e-05
+        Time:  0.000243754 s
+@ 1DMKLRINV 257 0.000243754
+      Error: 9.94579e-13
+
+    FFTPACK
+      Direct
+        Init. time:  0.000838714 s
+@ 1DFFTPACKRINIT 257 0.000838714
+        Time:  0.00200026 s
+@ 1DFFTPACKR 257 0.00200026
+      Inverse
+        Init. time:  2.396e-06 s
+@ 1DFFTPACKRINVINIT 257 2.396e-06
+        Time:  0.00183374 s
+@ 1DFFTPACKRINV 257 0.00183374
+      Error: 9.94579e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000225184 s
+@ 1DFFTWCINIT 257 0.000225184
+        Time:  0.00045694 s
+@ 1DFFTWC 257 0.00045694
+      Inverse
+        Init. time:  0.000166841 s
+@ 1DFFTWCINVINIT 257 0.000166841
+        Time:  0.000464352 s
+@ 1DFFTWCINV 257 0.000464352
+      Error: 7.20914e-14
+
+    GSL
+      Direct
+        Init. time:  2.4079e-05 s
+@ 1DGSLCINIT 257 2.4079e-05
+        Time:  0.000411665 s
+@ 1DGSLC 257 0.000411665
+      Inverse
+        Init. time:  1.915e-05 s
+@ 1DGSLCINVINIT 257 1.915e-05
+        Time:  0.00675102 s
+@ 1DGSLCINV 257 0.00675102
+      Error: 1.00214e-13
+
+    MKL
+      Direct
+        Init. time:  0.000162178 s
+@ 1DMKLCINIT 257 0.000162178
+        Time:  0.000416503 s
+@ 1DMKLC 257 0.000416503
+      Inverse
+        Init. time:  0.000108352 s
+@ 1DMKLCINV 257 0.000108352
+        Time:  0.0066484 s
+@ 1DMKLCINV 257 0.0066484
+      Error: 1.00214e-13
+
+    FFTPACK
+      Direct
+        Init. time:  0.000113145 s
+@ 1DFFTPACKCINIT 257 0.000113145
+        Time:  0.000436629 s
+@ 1DFFTPACKC 257 0.000436629
+      Inverse
+        Init. time:  1.2776e-05 s
+@ 1DFFTPACKCINVINIT 257 1.2776e-05
+        Time:  0.00668388 s
+@ 1DFFTPACKCINV 257 0.00668388
+      Error: 1.00214e-13
+
+
+Dimensions: 257 257 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000722668 s
+@ 2DFFTWRINIT 257 0.000722668
+        Time:  0.12966 s
+@ 2DFFTWR 257 0.12966
+      Inverse
+        Init. time:  0.000617846 s
+@ 2DFFTWRINVINIT 257 0.000617846
+        Time:  0.135233 s
+@ 2DFFTWRINV 257 0.135233
+      Error: 1.05915e-11
+
+    MKL
+      Direct
+        Init. time:  0.000185017 s
+@ 2DMKLRINIT 257 0.000185017
+        Time:  0.0726515 s
+@ 2DMKLR 257 0.0726515
+      Inverse
+        Init. time:  0.000115895 s
+@ 2DMKLRINIT 257 0.000115895
+        Time:  0.0722702 s
+@ 2DMKLR 257 0.0722702
+      Error: 1.05915e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000649735 s
+@ 2DFFTWCINIT 257 0.000649735
+        Time:  0.188935 s
+@ 2DFFTWC 257 0.188935
+      Inverse
+        Init. time:  0.000634133 s
+@ 2DFFTWCINVINIT 257 0.000634133
+        Time:  0.201181 s
+@ 2DFFTWCINV 257 0.201181
+      Error: 1.59175e-11
+
+    MKL
+      Direct
+        Init. time:  0.000156761 s
+@ 2DMKLCINIT 257 0.000156761
+        Time:  0.0938612 s
+@ 2DMKLC 257 0.0938612
+      Inverse
+        Init. time:  0.000128583 s
+@ 2DMKLCINVINIT 257 0.000128583
+        Time:  0.0946733 s
+@ 2DMKLCINV 257 0.0946733
+      Error: 1.59175e-11
+
+Dimensions: 257 257 257 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000969092 s
+@ 3DFFTWRINIT 257 0.000969092
+        Time:  50.1035 s
+@ 3DFFTWR 257 50.1035
+      Inverse
+        Init. time:  0.00094926 s
+@ 3DFFTWRINVINIT 257 0.00094926
+        Time:  51.7973 s
+@ 3DFFTWRINV 257 51.7973
+      Error: 1.78873e-09
+
+    MKL
+      Direct
+@ 3DMKLRINIT 257 51.7973
+        Init. time:  56.5063 s
+        Time:  25.1934 s
+@ 3DMKLR 257 25.1934
+      Inverse
+        Init. time:  0.000211082 s
+@ 3DMKLRINVINIT 257 0.000211082
+        Time:  25.2599 s
+@ 3DMKLRINV 257 25.2599
+      Error: 1.78873e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000709736 s
+@ 3DFFTWCINIT 257 0.000709736
+        Time:  78.871 s
+@ 3DFFTWC 257 78.871
+      Inverse
+        Init. time:  0.000744712 s
+@ 3DFFTWCINVINIT 257 0.000744712
+        Time:  86.2395 s
+@ 3DFFTWCINV 257 86.2395
+      Error: 2.83164e-09
+
+    MKL
+      Direct
+        Init. time:  0.000216795 s
+@ 3DMKLCINIT 257 0.000216795
+        Time:  39.5479 s
+@ 3DMKLC 257 39.5479
+      Inverse
+        Init. time:  0.000205706 s
+@ 3DMKLCINVINIT 257 0.000205706
+        Time:  39.5133 s
+@ 3DMKLCINV 257 39.5133
+      Error: 2.83164e-09
+
+Application 35460264 resources: utime ~432s, stime ~46s, Rss ~31980520, inblocks ~1389, outblocks ~2521
+----------------
+N threads: 1
+
+Dimensions: 257 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000528955 s
+@ 1DFFTWRINIT 257 0.000528955
+        Time:  0.00036708 s
+@ 1DFFTWR 257 0.00036708
+      Inverse
+        Init. time:  0.000477317 s
+@ 1DFFTWRINVINIT 257 0.000477317
+        Time:  0.000359436 s
+@ 1DFFTWRINV 257 0.000359436
+      Error: 5.66034e-14
+
+    GSL
+      Direct
+        Init. time:  0.000610466 s
+@ 1DGSLRINIT 257 0.000610466
+        Time:  0.00359524 s
+@ 1DGSLR 257 0.00359524
+      Inverse
+        Init. time:  5.7331e-05 s
+@ 1DGSLRINVINIT 257 5.7331e-05
+        Time:  0.00400049 s
+@ 1DGSLRINV 257 0.00400049
+      Error: 9.94579e-13
+
+    MKL
+      Direct
+        Init. time:  0.0190066 s
+@ 1DMKLRINIT 257 0.0190066
+        Time:  0.000296739 s
+@ 1DMKLR 257 0.000296739
+      Inverse
+        Init. time:  8.4964e-05 s
+@ 1DMKLRINVINIT 257 8.4964e-05
+        Time:  0.000231421 s
+@ 1DMKLRINV 257 0.000231421
+      Error: 9.94579e-13
+
+    FFTPACK
+      Direct
+        Init. time:  0.000811703 s
+@ 1DFFTPACKRINIT 257 0.000811703
+        Time:  0.00195264 s
+@ 1DFFTPACKR 257 0.00195264
+      Inverse
+        Init. time:  2.586e-06 s
+@ 1DFFTPACKRINVINIT 257 2.586e-06
+        Time:  0.00188538 s
+@ 1DFFTPACKRINV 257 0.00188538
+      Error: 9.94579e-13
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000223468 s
+@ 1DFFTWCINIT 257 0.000223468
+        Time:  0.000398379 s
+@ 1DFFTWC 257 0.000398379
+      Inverse
+        Init. time:  0.000159462 s
+@ 1DFFTWCINVINIT 257 0.000159462
+        Time:  0.000467368 s
+@ 1DFFTWCINV 257 0.000467368
+      Error: 7.20914e-14
+
+    GSL
+      Direct
+        Init. time:  3.3913e-05 s
+@ 1DGSLCINIT 257 3.3913e-05
+        Time:  0.00043562 s
+@ 1DGSLC 257 0.00043562
+      Inverse
+        Init. time:  1.9314e-05 s
+@ 1DGSLCINVINIT 257 1.9314e-05
+        Time:  0.0067226 s
+@ 1DGSLCINV 257 0.0067226
+      Error: 1.00214e-13
+
+    MKL
+      Direct
+        Init. time:  0.000142452 s
+@ 1DMKLCINIT 257 0.000142452
+        Time:  0.000429153 s
+@ 1DMKLC 257 0.000429153
+      Inverse
+        Init. time:  0.000116288 s
+@ 1DMKLCINV 257 0.000116288
+        Time:  0.00665392 s
+@ 1DMKLCINV 257 0.00665392
+      Error: 1.00214e-13
+
+    FFTPACK
+      Direct
+        Init. time:  0.000106811 s
+@ 1DFFTPACKCINIT 257 0.000106811
+        Time:  0.000395837 s
+@ 1DFFTPACKC 257 0.000395837
+      Inverse
+        Init. time:  1.2744e-05 s
+@ 1DFFTPACKCINVINIT 257 1.2744e-05
+        Time:  0.0066967 s
+@ 1DFFTPACKCINV 257 0.0066967
+      Error: 1.00214e-13
+
+
+Dimensions: 257 257 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000745053 s
+@ 2DFFTWRINIT 257 0.000745053
+        Time:  0.128589 s
+@ 2DFFTWR 257 0.128589
+      Inverse
+        Init. time:  0.000632054 s
+@ 2DFFTWRINVINIT 257 0.000632054
+        Time:  0.1341 s
+@ 2DFFTWRINV 257 0.1341
+      Error: 1.05915e-11
+
+    MKL
+      Direct
+        Init. time:  0.000173182 s
+@ 2DMKLRINIT 257 0.000173182
+        Time:  0.0719594 s
+@ 2DMKLR 257 0.0719594
+      Inverse
+        Init. time:  0.00013774 s
+@ 2DMKLRINIT 257 0.00013774
+        Time:  0.0716033 s
+@ 2DMKLR 257 0.0716033
+      Error: 1.05915e-11
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000636184 s
+@ 2DFFTWCINIT 257 0.000636184
+        Time:  0.188779 s
+@ 2DFFTWC 257 0.188779
+      Inverse
+        Init. time:  0.000633402 s
+@ 2DFFTWCINVINIT 257 0.000633402
+        Time:  0.201307 s
+@ 2DFFTWCINV 257 0.201307
+      Error: 1.59175e-11
+
+    MKL
+      Direct
+        Init. time:  0.000144901 s
+@ 2DMKLCINIT 257 0.000144901
+        Time:  0.0935519 s
+@ 2DMKLC 257 0.0935519
+      Inverse
+        Init. time:  0.000131684 s
+@ 2DMKLCINVINIT 257 0.000131684
+        Time:  0.0949953 s
+@ 2DMKLCINV 257 0.0949953
+      Error: 1.59175e-11
+
+Dimensions: 257 257 257 
+N coils: 32
+
+  R <-> HC
+
+    FFTW
+      Direct
+        Init. time:  0.000963791 s
+@ 3DFFTWRINIT 257 0.000963791
+        Time:  50.1028 s
+@ 3DFFTWR 257 50.1028
+      Inverse
+        Init. time:  0.000962887 s
+@ 3DFFTWRINVINIT 257 0.000962887
+        Time:  51.8316 s
+@ 3DFFTWRINV 257 51.8316
+      Error: 1.78873e-09
+
+    MKL
+      Direct
+@ 3DMKLRINIT 257 51.8316
+        Init. time:  56.6256 s
+        Time:  25.205 s
+@ 3DMKLR 257 25.205
+      Inverse
+        Init. time:  0.000211532 s
+@ 3DMKLRINVINIT 257 0.000211532
+        Time:  25.2645 s
+@ 3DMKLRINV 257 25.2645
+      Error: 1.78873e-09
+
+  C <-> C
+
+    FFTW
+      Direct
+        Init. time:  0.000705714 s
+@ 3DFFTWCINIT 257 0.000705714
+        Time:  78.8406 s
+@ 3DFFTWC 257 78.8406
+      Inverse
+        Init. time:  0.000697409 s
+@ 3DFFTWCINVINIT 257 0.000697409
+        Time:  86.2955 s
+@ 3DFFTWCINV 257 86.2955
+      Error: 2.83164e-09
+
+    MKL
+      Direct
+        Init. time:  0.000216858 s
+@ 3DMKLCINIT 257 0.000216858
+        Time:  39.6044 s
+@ 3DMKLC 257 39.6044
+      Inverse
+        Init. time:  0.000229174 s
+@ 3DMKLCINVINIT 257 0.000229174
+        Time:  39.5255 s
+@ 3DMKLCINV 257 39.5255
+      Error: 2.83164e-09
+
+Application 35461244 resources: utime ~432s, stime ~47s, Rss ~31980520, inblocks ~1389, outblocks ~2521

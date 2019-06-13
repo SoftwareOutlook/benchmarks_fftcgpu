@@ -6,7 +6,7 @@
 #
 # bolt is written by EPCC (http://www.epcc.ed.ac.uk)
 #
-#PBS -l select=1
+#PBS -l select=8
 #PBS -N benchmark-FFT
 #PBS -A c01-hec
 #PBS -l walltime=16:0:0
@@ -38,18 +38,17 @@ PRODUCT_INTEGERS_1D=(210 1260 4410 15750 66150 257250 1080450 4321800 15435000 6
 PRIMES_1D=(257 1021 4093 16381 65521 262139 1048573 4194301 16777213 67108859)
 
 
-
-MULTITHREADING=(1 2 4 8 12 16 24)
-N=512
-FILE=results/multithreading.txt
+export OMP_NUM_THREADS=24
+N=256
+FILE=results/mpidist.txt
+MPI=(1 2 4 8)
 echo "" > $FILE
-for N_THREADS in ${MULTITHREADING[@]}
+for N_PROCESSES in ${MPI[@]}
 do
-  echo "================" >> $FILE   
-  export OMP_NUM_THREADS=$N_THREADS 
+  echo "================" >> $FILE    
   for ((I_RUN=0; I_RUN<$N_RUNS; I_RUN++))
   do
     echo "----------------" >> $FILE
-    aprun -n 1 -N 1 -d 24 $PROG $N $N $N $N_COILS >> $FILE
+    aprun -n $N_PROCESSES -N 1 -d 24 $PROG $N $N $N $N_COILS >> $FILE
   done
 done
