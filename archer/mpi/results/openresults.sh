@@ -1,0 +1,16 @@
+emacs fftw-constant-3d.txt&
+emacs fftw-mpi-1d.txt&
+emacs fftw-mpi-2d.txt&
+emacs fftw-mpi-3d.txt&
+emacs fftw-mpi-multithr-1d.txt&
+emacs fftw-mpi-multithr-2d.txt&
+emacs fftw-mpi-multithr-3d.txt&
+emacs fftw-mpi-multithr-constant-3d.txt&
+emacs fftw-mpi-scaling-3d-singlenode.txt&
+emacs mkl-constant-3d.txt&
+emacs mkl-mpi-1d.txt&
+emacs mkl-mpi-2d.txt&
+emacs mkl-mpi-3d.txt&
+emacs mkl-mpi-multithr-1d.txt&
+emacs mkl-mpi-multithr-2d.txt&
+emacs mkl-mpi-multithr-3d.txt&

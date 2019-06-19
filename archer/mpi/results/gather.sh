@@ -1,0 +1,16 @@
+python gatherresults.py fftw-constant-3d.txt               > fftw-constant-3d.dat
+python gatherresults.py fftw-mpi-1d.txt                    > fftw-mpi-1d.dat
+python gatherresults.py fftw-mpi-2d.txt                    > fftw-mpi-2d.dat
+python gatherresults.py fftw-mpi-3d.txt                    > fftw-mpi-3d.dat
+python gatherresults.py fftw-mpi-multithr-1d.txt           > fftw-mpi-multithr-1d.dat
+python gatherresults.py fftw-mpi-multithr-2d.txt           > fftw-mpi-multithr-2d.dat
+python gatherresults.py fftw-mpi-multithr-3d.txt           > fftw-mpi-multithr-3d.dat
+python gatherresults.py fftw-mpi-multithr-constant-3d.txt  > fftw-mpi-multithr-constant-3d.dat
+python gatherresults.py fftw-mpi-scaling-3d-singlenode.txt > fftw-mpi-scaling-3d-singlenode.dat
+python gatherresults.py mkl-constant-3d.txt                > mkl-constant-3d.dat
+python gatherresults.py mkl-mpi-1d.txt                     > mkl-mpi-1d.dat
+python gatherresults.py mkl-mpi-2d.txt                     > mkl-mpi-2d.dat
+python gatherresults.py mkl-mpi-3d.txt                     > mkl-mpi-3d.dat
+python gatherresults.py mkl-mpi-multithr-1d.txt            > mkl-mpi-multithr-1d.dat
+python gatherresults.py mkl-mpi-multithr-2d.txt            > mkl-mpi-multithr-2d.dat
+python gatherresults.py mkl-mpi-multithr-3d.txt            > mkl-mpi-multithr-3d.dat
