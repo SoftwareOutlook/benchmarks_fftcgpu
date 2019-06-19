@@ -14377,3 +14377,18 @@ N coils: 1
       Inverse
         Init. time:  0.122575 s
 @ 1DMKLCINV 1048573 0.122575
+        Time:  6081.999617 s
+@ 1DMKLCINV 1048573 6081.999617
+      Error: 0.000000
+
+    FFTPACK
+      Direct
+        Init. time:  0.035301 s
+@ 1DFFTPACKCINIT 1048573 0.035301
+        Time:  0.233465 s
+@ 1DFFTPACKC 1048573 0.233465
+      Inverse
+        Init. time:  0.039607 s
+@ 1DFFTPACKCINVINIT 1048573 0.039607
+Application 35971208 exit signals: Terminated
+Application 35971208 resources: utime ~21389s, stime ~1s, Rss ~619952, inblocks ~4768, outblocks ~2726

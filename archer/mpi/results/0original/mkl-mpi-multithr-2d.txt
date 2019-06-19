@@ -1,0 +1,2741 @@
+
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  5.6983e-05 s
+    @ MKL1DRINIT 1 6144 5.6983e-05
+    Computation:  0.430118
+    @ FFTW1DREXEC 1 6144 0.430118
+  C -> C
+    Initialisation:  0.00281449 s
+    @ MKL1DCINIT 1 6144 0.00281449
+    Computation:  0.000267629
+    @ FFTW1DCEXEC 1 6144 0.000267629
+2D
+  R -> HC
+    Initialisation:  0.000261544 s
+    @ MKL2DRINIT 1 6144 0.000261544
+    Computation:  0.247732
+    @ FFTW2DREXEC 1 6144 0.247732
+  C -> C
+    Initialisation:  0.000140452 s
+    @ MKL2DCINIT 1 6144 0.000140452
+    Computation:  1.00602
+    @ FFTW2DCEXEC 1 6144 1.00602
+3D
+  R -> HC
+    Initialisation:  0.000422532 s
+    @ MKL3DRINIT 1 6144 0.000422532
+    Computation:  0.61808
+    @ FFTW3DREXEC 1 6144 0.61808
+  C -> C
+    Initialisation:  0.000204135 s
+    @ MKL3DCINIT 1 6144 0.000204135
+    Computation:  1.0064
+    @ FFTW3DCEXEC 1 6144 1.0064
+Application 36220371 resources: utime ~4s, stime ~2s, Rss ~1941928, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  7.4328e-05 s
+    @ MKL1DRINIT 1 6144 7.4328e-05
+    Computation:  0.428342
+    @ FFTW1DREXEC 1 6144 0.428342
+  C -> C
+    Initialisation:  0.00269674 s
+    @ MKL1DCINIT 1 6144 0.00269674
+    Computation:  0.000285898
+    @ FFTW1DCEXEC 1 6144 0.000285898
+2D
+  R -> HC
+    Initialisation:  0.000248018 s
+    @ MKL2DRINIT 1 6144 0.000248018
+    Computation:  0.24653
+    @ FFTW2DREXEC 1 6144 0.24653
+  C -> C
+    Initialisation:  0.000171323 s
+    @ MKL2DCINIT 1 6144 0.000171323
+    Computation:  0.991314
+    @ FFTW2DCEXEC 1 6144 0.991314
+3D
+  R -> HC
+    Initialisation:  0.000314829 s
+    @ MKL3DRINIT 1 6144 0.000314829
+    Computation:  0.618944
+    @ FFTW3DREXEC 1 6144 0.618944
+  C -> C
+    Initialisation:  0.000199784 s
+    @ MKL3DCINIT 1 6144 0.000199784
+    Computation:  0.992288
+    @ FFTW3DCEXEC 1 6144 0.992288
+Application 36220373 resources: utime ~4s, stime ~2s, Rss ~1941928, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  5.704e-05 s
+    @ MKL1DRINIT 1 6144 5.704e-05
+    Computation:  0.430934
+    @ FFTW1DREXEC 1 6144 0.430934
+  C -> C
+    Initialisation:  0.00244494 s
+    @ MKL1DCINIT 1 6144 0.00244494
+    Computation:  0.000275058
+    @ FFTW1DCEXEC 1 6144 0.000275058
+2D
+  R -> HC
+    Initialisation:  0.000239375 s
+    @ MKL2DRINIT 1 6144 0.000239375
+    Computation:  0.247832
+    @ FFTW2DREXEC 1 6144 0.247832
+  C -> C
+    Initialisation:  0.000147167 s
+    @ MKL2DCINIT 1 6144 0.000147167
+    Computation:  1.00857
+    @ FFTW2DCEXEC 1 6144 1.00857
+3D
+  R -> HC
+    Initialisation:  0.000374106 s
+    @ MKL3DRINIT 1 6144 0.000374106
+    Computation:  0.617925
+    @ FFTW3DREXEC 1 6144 0.617925
+  C -> C
+    Initialisation:  0.000203015 s
+    @ MKL3DCINIT 1 6144 0.000203015
+    Computation:  1.00558
+    @ FFTW3DCEXEC 1 6144 1.00558
+Application 36220374 resources: utime ~4s, stime ~2s, Rss ~1941928, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  5.7958e-05 s
+    @ MKL1DRINIT 1 6144 5.7958e-05
+    Computation:  0.432014
+    @ FFTW1DREXEC 1 6144 0.432014
+  C -> C
+    Initialisation:  0.0029719 s
+    @ MKL1DCINIT 1 6144 0.0029719
+    Computation:  0.000297783
+    @ FFTW1DCEXEC 1 6144 0.000297783
+2D
+  R -> HC
+    Initialisation:  0.000257709 s
+    @ MKL2DRINIT 1 6144 0.000257709
+    Computation:  0.248238
+    @ FFTW2DREXEC 1 6144 0.248238
+  C -> C
+    Initialisation:  0.000154212 s
+    @ MKL2DCINIT 1 6144 0.000154212
+    Computation:  0.997116
+    @ FFTW2DCEXEC 1 6144 0.997116
+3D
+  R -> HC
+    Initialisation:  0.00039716 s
+    @ MKL3DRINIT 1 6144 0.00039716
+    Computation:  0.616993
+    @ FFTW3DREXEC 1 6144 0.616993
+  C -> C
+    Initialisation:  0.000224403 s
+    @ MKL3DCINIT 1 6144 0.000224403
+    Computation:  0.995249
+    @ FFTW3DCEXEC 1 6144 0.995249
+Application 36220376 resources: utime ~4s, stime ~2s, Rss ~1941928, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  5.6518e-05 s
+    @ MKL1DRINIT 1 6144 5.6518e-05
+    Computation:  0.431338
+    @ FFTW1DREXEC 1 6144 0.431338
+  C -> C
+    Initialisation:  0.00244642 s
+    @ MKL1DCINIT 1 6144 0.00244642
+    Computation:  0.000268263
+    @ FFTW1DCEXEC 1 6144 0.000268263
+2D
+  R -> HC
+    Initialisation:  0.000244243 s
+    @ MKL2DRINIT 1 6144 0.000244243
+    Computation:  0.24892
+    @ FFTW2DREXEC 1 6144 0.24892
+  C -> C
+    Initialisation:  0.000148094 s
+    @ MKL2DCINIT 1 6144 0.000148094
+    Computation:  1.0117
+    @ FFTW2DCEXEC 1 6144 1.0117
+3D
+  R -> HC
+    Initialisation:  0.000321661 s
+    @ MKL3DRINIT 1 6144 0.000321661
+    Computation:  0.624272
+    @ FFTW3DREXEC 1 6144 0.624272
+  C -> C
+    Initialisation:  0.000206009 s
+    @ MKL3DCINIT 1 6144 0.000206009
+    Computation:  1.0109
+    @ FFTW3DCEXEC 1 6144 1.0109
+Application 36220378 resources: utime ~4s, stime ~2s, Rss ~1941928, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  5.6714e-05 s
+    @ MKL1DRINIT 1 6144 5.6714e-05
+    Computation:  0.427918
+    @ FFTW1DREXEC 1 6144 0.427918
+  C -> C
+    Initialisation:  0.00283838 s
+    @ MKL1DCINIT 1 6144 0.00283838
+    Computation:  0.000297678
+    @ FFTW1DCEXEC 1 6144 0.000297678
+2D
+  R -> HC
+    Initialisation:  0.000250283 s
+    @ MKL2DRINIT 1 6144 0.000250283
+    Computation:  0.247023
+    @ FFTW2DREXEC 1 6144 0.247023
+  C -> C
+    Initialisation:  0.0001437 s
+    @ MKL2DCINIT 1 6144 0.0001437
+    Computation:  0.993437
+    @ FFTW2DCEXEC 1 6144 0.993437
+3D
+  R -> HC
+    Initialisation:  0.000412077 s
+    @ MKL3DRINIT 1 6144 0.000412077
+    Computation:  0.614462
+    @ FFTW3DREXEC 1 6144 0.614462
+  C -> C
+    Initialisation:  0.000212468 s
+    @ MKL3DCINIT 1 6144 0.000212468
+    Computation:  0.994182
+    @ FFTW3DCEXEC 1 6144 0.994182
+Application 36220380 resources: utime ~4s, stime ~2s, Rss ~1941928, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  5.6654e-05 s
+    @ MKL1DRINIT 1 6144 5.6654e-05
+    Computation:  0.428218
+    @ FFTW1DREXEC 1 6144 0.428218
+  C -> C
+    Initialisation:  0.00310664 s
+    @ MKL1DCINIT 1 6144 0.00310664
+    Computation:  0.000305394
+    @ FFTW1DCEXEC 1 6144 0.000305394
+2D
+  R -> HC
+    Initialisation:  0.000245181 s
+    @ MKL2DRINIT 1 6144 0.000245181
+    Computation:  0.247401
+    @ FFTW2DREXEC 1 6144 0.247401
+  C -> C
+    Initialisation:  0.000146833 s
+    @ MKL2DCINIT 1 6144 0.000146833
+    Computation:  1.00709
+    @ FFTW2DCEXEC 1 6144 1.00709
+3D
+  R -> HC
+    Initialisation:  0.000316817 s
+    @ MKL3DRINIT 1 6144 0.000316817
+    Computation:  0.620424
+    @ FFTW3DREXEC 1 6144 0.620424
+  C -> C
+    Initialisation:  0.000215459 s
+    @ MKL3DCINIT 1 6144 0.000215459
+    Computation:  1.00423
+    @ FFTW3DCEXEC 1 6144 1.00423
+Application 36220381 resources: utime ~4s, stime ~2s, Rss ~1941928, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  5.7327e-05 s
+    @ MKL1DRINIT 1 6144 5.7327e-05
+    Computation:  0.431756
+    @ FFTW1DREXEC 1 6144 0.431756
+  C -> C
+    Initialisation:  0.00317776 s
+    @ MKL1DCINIT 1 6144 0.00317776
+    Computation:  0.000370241
+    @ FFTW1DCEXEC 1 6144 0.000370241
+2D
+  R -> HC
+    Initialisation:  0.000281473 s
+    @ MKL2DRINIT 1 6144 0.000281473
+    Computation:  0.248193
+    @ FFTW2DREXEC 1 6144 0.248193
+  C -> C
+    Initialisation:  0.00014208 s
+    @ MKL2DCINIT 1 6144 0.00014208
+    Computation:  0.997573
+    @ FFTW2DCEXEC 1 6144 0.997573
+3D
+  R -> HC
+    Initialisation:  0.000395963 s
+    @ MKL3DRINIT 1 6144 0.000395963
+    Computation:  0.622066
+    @ FFTW3DREXEC 1 6144 0.622066
+  C -> C
+    Initialisation:  0.000198808 s
+    @ MKL3DCINIT 1 6144 0.000198808
+    Computation:  0.99762
+    @ FFTW3DCEXEC 1 6144 0.99762
+Application 36220383 resources: utime ~4s, stime ~2s, Rss ~1941928, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  5.8855e-05 s
+    @ MKL1DRINIT 1 6144 5.8855e-05
+    Computation:  0.435218
+    @ FFTW1DREXEC 1 6144 0.435218
+  C -> C
+    Initialisation:  0.00299423 s
+    @ MKL1DCINIT 1 6144 0.00299423
+    Computation:  0.000275134
+    @ FFTW1DCEXEC 1 6144 0.000275134
+2D
+  R -> HC
+    Initialisation:  0.000283372 s
+    @ MKL2DRINIT 1 6144 0.000283372
+    Computation:  0.24946
+    @ FFTW2DREXEC 1 6144 0.24946
+  C -> C
+    Initialisation:  0.000146746 s
+    @ MKL2DCINIT 1 6144 0.000146746
+    Computation:  1.0113
+    @ FFTW2DCEXEC 1 6144 1.0113
+3D
+  R -> HC
+    Initialisation:  0.000395713 s
+    @ MKL3DRINIT 1 6144 0.000395713
+    Computation:  0.622296
+    @ FFTW3DREXEC 1 6144 0.622296
+  C -> C
+    Initialisation:  0.000267261 s
+    @ MKL3DCINIT 1 6144 0.000267261
+    Computation:  1.01082
+    @ FFTW3DCEXEC 1 6144 1.01082
+Application 36220389 resources: utime ~4s, stime ~2s, Rss ~1941928, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  6.1725e-05 s
+    @ MKL1DRINIT 1 6144 6.1725e-05
+    Computation:  0.428242
+    @ FFTW1DREXEC 1 6144 0.428242
+  C -> C
+    Initialisation:  0.00306012 s
+    @ MKL1DCINIT 1 6144 0.00306012
+    Computation:  0.000301123
+    @ FFTW1DCEXEC 1 6144 0.000301123
+2D
+  R -> HC
+    Initialisation:  0.000269216 s
+    @ MKL2DRINIT 1 6144 0.000269216
+    Computation:  0.246858
+    @ FFTW2DREXEC 1 6144 0.246858
+  C -> C
+    Initialisation:  0.000144849 s
+    @ MKL2DCINIT 1 6144 0.000144849
+    Computation:  0.99318
+    @ FFTW2DCEXEC 1 6144 0.99318
+3D
+  R -> HC
+    Initialisation:  0.000315068 s
+    @ MKL3DRINIT 1 6144 0.000315068
+    Computation:  0.616005
+    @ FFTW3DREXEC 1 6144 0.616005
+  C -> C
+    Initialisation:  0.000253713 s
+    @ MKL3DCINIT 1 6144 0.000253713
+    Computation:  0.993339
+    @ FFTW3DCEXEC 1 6144 0.993339
+Application 36220393 resources: utime ~4s, stime ~2s, Rss ~1941928, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  7.5069e-05 s
+    @ MKL1DRINIT 1 6144 7.5069e-05
+    Computation:  0.430755
+    @ FFTW1DREXEC 1 6144 0.430755
+  C -> C
+    Initialisation:  0.00298755 s
+    @ MKL1DCINIT 1 6144 0.00298755
+    Computation:  0.0024832
+    @ FFTW1DCEXEC 1 6144 0.0024832
+2D
+  R -> HC
+    Initialisation:  0.000255206 s
+    @ MKL2DRINIT 1 6144 0.000255206
+    Computation:  0.258682
+    @ FFTW2DREXEC 1 6144 0.258682
+  C -> C
+    Initialisation:  0.000154966 s
+    @ MKL2DCINIT 1 6144 0.000154966
+    Computation:  1.28552
+    @ FFTW2DCEXEC 1 6144 1.28552
+3D
+  R -> HC
+    Initialisation:  0.00037283 s
+    @ MKL3DRINIT 1 6144 0.00037283
+    Computation:  0.670654
+    @ FFTW3DREXEC 1 6144 0.670654
+  C -> C
+    Initialisation:  0.000213644 s
+    @ MKL3DCINIT 1 6144 0.000213644
+    Computation:  1.2816
+    @ FFTW3DCEXEC 1 6144 1.2816
+Application 36220396 resources: utime ~5s, stime ~3s, Rss ~1942008, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  8.9647e-05 s
+    @ MKL1DRINIT 1 6144 8.9647e-05
+    Computation:  0.426482
+    @ FFTW1DREXEC 1 6144 0.426482
+  C -> C
+    Initialisation:  0.00236478 s
+    @ MKL1DCINIT 1 6144 0.00236478
+    Computation:  0.00257981
+    @ FFTW1DCEXEC 1 6144 0.00257981
+2D
+  R -> HC
+    Initialisation:  0.000287428 s
+    @ MKL2DRINIT 1 6144 0.000287428
+    Computation:  0.262487
+    @ FFTW2DREXEC 1 6144 0.262487
+  C -> C
+    Initialisation:  0.000164248 s
+    @ MKL2DCINIT 1 6144 0.000164248
+    Computation:  1.26537
+    @ FFTW2DCEXEC 1 6144 1.26537
+3D
+  R -> HC
+    Initialisation:  0.000349959 s
+    @ MKL3DRINIT 1 6144 0.000349959
+    Computation:  0.641932
+    @ FFTW3DREXEC 1 6144 0.641932
+  C -> C
+    Initialisation:  0.000283541 s
+    @ MKL3DCINIT 1 6144 0.000283541
+    Computation:  1.26467
+    @ FFTW3DCEXEC 1 6144 1.26467
+Application 36220399 resources: utime ~5s, stime ~3s, Rss ~1942008, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  7.1776e-05 s
+    @ MKL1DRINIT 1 6144 7.1776e-05
+    Computation:  0.431343
+    @ FFTW1DREXEC 1 6144 0.431343
+  C -> C
+    Initialisation:  0.00300812 s
+    @ MKL1DCINIT 1 6144 0.00300812
+    Computation:  0.00245003
+    @ FFTW1DCEXEC 1 6144 0.00245003
+2D
+  R -> HC
+    Initialisation:  0.000254981 s
+    @ MKL2DRINIT 1 6144 0.000254981
+    Computation:  0.259951
+    @ FFTW2DREXEC 1 6144 0.259951
+  C -> C
+    Initialisation:  0.000124661 s
+    @ MKL2DCINIT 1 6144 0.000124661
+    Computation:  1.28646
+    @ FFTW2DCEXEC 1 6144 1.28646
+3D
+  R -> HC
+    Initialisation:  0.000310447 s
+    @ MKL3DRINIT 1 6144 0.000310447
+    Computation:  0.655495
+    @ FFTW3DREXEC 1 6144 0.655495
+  C -> C
+    Initialisation:  0.000204487 s
+    @ MKL3DCINIT 1 6144 0.000204487
+    Computation:  1.28384
+    @ FFTW3DCEXEC 1 6144 1.28384
+Application 36220403 resources: utime ~5s, stime ~3s, Rss ~1942008, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  9.485e-05 s
+    @ MKL1DRINIT 1 6144 9.485e-05
+    Computation:  0.426694
+    @ FFTW1DREXEC 1 6144 0.426694
+  C -> C
+    Initialisation:  0.00289483 s
+    @ MKL1DCINIT 1 6144 0.00289483
+    Computation:  0.00255296
+    @ FFTW1DCEXEC 1 6144 0.00255296
+2D
+  R -> HC
+    Initialisation:  0.000309331 s
+    @ MKL2DRINIT 1 6144 0.000309331
+    Computation:  0.259041
+    @ FFTW2DREXEC 1 6144 0.259041
+  C -> C
+    Initialisation:  0.000126631 s
+    @ MKL2DCINIT 1 6144 0.000126631
+    Computation:  1.26167
+    @ FFTW2DCEXEC 1 6144 1.26167
+3D
+  R -> HC
+    Initialisation:  0.000346039 s
+    @ MKL3DRINIT 1 6144 0.000346039
+    Computation:  0.638149
+    @ FFTW3DREXEC 1 6144 0.638149
+  C -> C
+    Initialisation:  0.000224265 s
+    @ MKL3DCINIT 1 6144 0.000224265
+    Computation:  1.27009
+    @ FFTW3DCEXEC 1 6144 1.27009
+Application 36220404 resources: utime ~5s, stime ~3s, Rss ~1942008, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  7.2161e-05 s
+    @ MKL1DRINIT 1 6144 7.2161e-05
+    Computation:  0.430633
+    @ FFTW1DREXEC 1 6144 0.430633
+  C -> C
+    Initialisation:  0.00291049 s
+    @ MKL1DCINIT 1 6144 0.00291049
+    Computation:  0.00251782
+    @ FFTW1DCEXEC 1 6144 0.00251782
+2D
+  R -> HC
+    Initialisation:  0.000237674 s
+    @ MKL2DRINIT 1 6144 0.000237674
+    Computation:  0.2649
+    @ FFTW2DREXEC 1 6144 0.2649
+  C -> C
+    Initialisation:  0.000123899 s
+    @ MKL2DCINIT 1 6144 0.000123899
+    Computation:  1.29461
+    @ FFTW2DCEXEC 1 6144 1.29461
+3D
+  R -> HC
+    Initialisation:  0.000323969 s
+    @ MKL3DRINIT 1 6144 0.000323969
+    Computation:  0.672659
+    @ FFTW3DREXEC 1 6144 0.672659
+  C -> C
+    Initialisation:  0.000221056 s
+    @ MKL3DCINIT 1 6144 0.000221056
+    Computation:  1.28092
+    @ FFTW3DCEXEC 1 6144 1.28092
+Application 36220407 resources: utime ~5s, stime ~3s, Rss ~1942008, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  8.8866e-05 s
+    @ MKL1DRINIT 1 6144 8.8866e-05
+    Computation:  0.425975
+    @ FFTW1DREXEC 1 6144 0.425975
+  C -> C
+    Initialisation:  0.00255216 s
+    @ MKL1DCINIT 1 6144 0.00255216
+    Computation:  0.00247029
+    @ FFTW1DCEXEC 1 6144 0.00247029
+2D
+  R -> HC
+    Initialisation:  0.000253663 s
+    @ MKL2DRINIT 1 6144 0.000253663
+    Computation:  0.26287
+    @ FFTW2DREXEC 1 6144 0.26287
+  C -> C
+    Initialisation:  0.000136526 s
+    @ MKL2DCINIT 1 6144 0.000136526
+    Computation:  1.26474
+    @ FFTW2DCEXEC 1 6144 1.26474
+3D
+  R -> HC
+    Initialisation:  0.000432618 s
+    @ MKL3DRINIT 1 6144 0.000432618
+    Computation:  0.635516
+    @ FFTW3DREXEC 1 6144 0.635516
+  C -> C
+    Initialisation:  0.000192802 s
+    @ MKL3DCINIT 1 6144 0.000192802
+    Computation:  1.26435
+    @ FFTW3DCEXEC 1 6144 1.26435
+Application 36220409 resources: utime ~5s, stime ~3s, Rss ~1942008, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  7.26e-05 s
+    @ MKL1DRINIT 1 6144 7.26e-05
+    Computation:  0.431968
+    @ FFTW1DREXEC 1 6144 0.431968
+  C -> C
+    Initialisation:  0.00282175 s
+    @ MKL1DCINIT 1 6144 0.00282175
+    Computation:  0.00256765
+    @ FFTW1DCEXEC 1 6144 0.00256765
+2D
+  R -> HC
+    Initialisation:  0.000359195 s
+    @ MKL2DRINIT 1 6144 0.000359195
+    Computation:  0.265791
+    @ FFTW2DREXEC 1 6144 0.265791
+  C -> C
+    Initialisation:  0.000124596 s
+    @ MKL2DCINIT 1 6144 0.000124596
+    Computation:  1.29343
+    @ FFTW2DCEXEC 1 6144 1.29343
+3D
+  R -> HC
+    Initialisation:  0.00041288 s
+    @ MKL3DRINIT 1 6144 0.00041288
+    Computation:  0.661063
+    @ FFTW3DREXEC 1 6144 0.661063
+  C -> C
+    Initialisation:  0.000220633 s
+    @ MKL3DCINIT 1 6144 0.000220633
+    Computation:  1.28858
+    @ FFTW3DCEXEC 1 6144 1.28858
+Application 36220412 resources: utime ~5s, stime ~3s, Rss ~1942008, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  0.000104011 s
+    @ MKL1DRINIT 1 6144 0.000104011
+    Computation:  0.426317
+    @ FFTW1DREXEC 1 6144 0.426317
+  C -> C
+    Initialisation:  0.00277917 s
+    @ MKL1DCINIT 1 6144 0.00277917
+    Computation:  0.00244989
+    @ FFTW1DCEXEC 1 6144 0.00244989
+2D
+  R -> HC
+    Initialisation:  0.000253211 s
+    @ MKL2DRINIT 1 6144 0.000253211
+    Computation:  0.262811
+    @ FFTW2DREXEC 1 6144 0.262811
+  C -> C
+    Initialisation:  0.000158388 s
+    @ MKL2DCINIT 1 6144 0.000158388
+    Computation:  1.26663
+    @ FFTW2DCEXEC 1 6144 1.26663
+3D
+  R -> HC
+    Initialisation:  0.000328144 s
+    @ MKL3DRINIT 1 6144 0.000328144
+    Computation:  0.634969
+    @ FFTW3DREXEC 1 6144 0.634969
+  C -> C
+    Initialisation:  0.000192355 s
+    @ MKL3DCINIT 1 6144 0.000192355
+    Computation:  1.2648
+    @ FFTW3DCEXEC 1 6144 1.2648
+Application 36220413 resources: utime ~5s, stime ~3s, Rss ~1942008, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  7.2228e-05 s
+    @ MKL1DRINIT 1 6144 7.2228e-05
+    Computation:  0.431318
+    @ FFTW1DREXEC 1 6144 0.431318
+  C -> C
+    Initialisation:  0.00304859 s
+    @ MKL1DCINIT 1 6144 0.00304859
+    Computation:  0.00247431
+    @ FFTW1DCEXEC 1 6144 0.00247431
+2D
+  R -> HC
+    Initialisation:  0.000259568 s
+    @ MKL2DRINIT 1 6144 0.000259568
+    Computation:  0.260962
+    @ FFTW2DREXEC 1 6144 0.260962
+  C -> C
+    Initialisation:  0.000150305 s
+    @ MKL2DCINIT 1 6144 0.000150305
+    Computation:  1.28341
+    @ FFTW2DCEXEC 1 6144 1.28341
+3D
+  R -> HC
+    Initialisation:  0.000315878 s
+    @ MKL3DRINIT 1 6144 0.000315878
+    Computation:  0.64224
+    @ FFTW3DREXEC 1 6144 0.64224
+  C -> C
+    Initialisation:  0.00026376 s
+    @ MKL3DCINIT 1 6144 0.00026376
+    Computation:  1.28249
+    @ FFTW3DCEXEC 1 6144 1.28249
+Application 36220414 resources: utime ~5s, stime ~3s, Rss ~1942008, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  7.2084e-05 s
+    @ MKL1DRINIT 1 6144 7.2084e-05
+    Computation:  0.42787
+    @ FFTW1DREXEC 1 6144 0.42787
+  C -> C
+    Initialisation:  0.00335623 s
+    @ MKL1DCINIT 1 6144 0.00335623
+    Computation:  0.00249047
+    @ FFTW1DCEXEC 1 6144 0.00249047
+2D
+  R -> HC
+    Initialisation:  0.000275312 s
+    @ MKL2DRINIT 1 6144 0.000275312
+    Computation:  0.263355
+    @ FFTW2DREXEC 1 6144 0.263355
+  C -> C
+    Initialisation:  0.000192716 s
+    @ MKL2DCINIT 1 6144 0.000192716
+    Computation:  1.26506
+    @ FFTW2DCEXEC 1 6144 1.26506
+3D
+  R -> HC
+    Initialisation:  0.000384361 s
+    @ MKL3DRINIT 1 6144 0.000384361
+    Computation:  0.644594
+    @ FFTW3DREXEC 1 6144 0.644594
+  C -> C
+    Initialisation:  0.000244354 s
+    @ MKL3DCINIT 1 6144 0.000244354
+    Computation:  1.26593
+    @ FFTW3DCEXEC 1 6144 1.26593
+Application 36220420 resources: utime ~5s, stime ~3s, Rss ~1942008, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  7.4876e-05 s
+    @ MKL1DRINIT 1 6144 7.4876e-05
+    Computation:  0.435381
+    @ FFTW1DREXEC 1 6144 0.435381
+  C -> C
+    Initialisation:  0.00311915 s
+    @ MKL1DCINIT 1 6144 0.00311915
+    Computation:  0.00254848
+    @ FFTW1DCEXEC 1 6144 0.00254848
+2D
+  R -> HC
+    Initialisation:  0.000262221 s
+    @ MKL2DRINIT 1 6144 0.000262221
+    Computation:  0.185671
+    @ FFTW2DREXEC 1 6144 0.185671
+  C -> C
+    Initialisation:  0.000126732 s
+    @ MKL2DCINIT 1 6144 0.000126732
+    Computation:  1.00167
+    @ FFTW2DCEXEC 1 6144 1.00167
+3D
+  R -> HC
+    Initialisation:  0.00032153 s
+    @ MKL3DRINIT 1 6144 0.00032153
+    Computation:  0.419876
+    @ FFTW3DREXEC 1 6144 0.419876
+  C -> C
+    Initialisation:  0.000243744 s
+    @ MKL3DCINIT 1 6144 0.000243744
+    Computation:  1.01659
+    @ FFTW3DCEXEC 1 6144 1.01659
+Application 36220422 resources: utime ~10s, stime ~3s, Rss ~1942040, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  6.6453e-05 s
+    @ MKL1DRINIT 1 6144 6.6453e-05
+    Computation:  0.432083
+    @ FFTW1DREXEC 1 6144 0.432083
+  C -> C
+    Initialisation:  0.00320489 s
+    @ MKL1DCINIT 1 6144 0.00320489
+    Computation:  0.00263094
+    @ FFTW1DCEXEC 1 6144 0.00263094
+2D
+  R -> HC
+    Initialisation:  0.000304266 s
+    @ MKL2DRINIT 1 6144 0.000304266
+    Computation:  0.18377
+    @ FFTW2DREXEC 1 6144 0.18377
+  C -> C
+    Initialisation:  0.00014181 s
+    @ MKL2DCINIT 1 6144 0.00014181
+    Computation:  0.987023
+    @ FFTW2DCEXEC 1 6144 0.987023
+3D
+  R -> HC
+    Initialisation:  0.000321275 s
+    @ MKL3DRINIT 1 6144 0.000321275
+    Computation:  0.412341
+    @ FFTW3DREXEC 1 6144 0.412341
+  C -> C
+    Initialisation:  0.000252367 s
+    @ MKL3DCINIT 1 6144 0.000252367
+    Computation:  0.983437
+    @ FFTW3DCEXEC 1 6144 0.983437
+Application 36220424 resources: utime ~10s, stime ~3s, Rss ~1942040, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  6.5765e-05 s
+    @ MKL1DRINIT 1 6144 6.5765e-05
+    Computation:  0.431386
+    @ FFTW1DREXEC 1 6144 0.431386
+  C -> C
+    Initialisation:  0.00327422 s
+    @ MKL1DCINIT 1 6144 0.00327422
+    Computation:  0.00269561
+    @ FFTW1DCEXEC 1 6144 0.00269561
+2D
+  R -> HC
+    Initialisation:  0.000273188 s
+    @ MKL2DRINIT 1 6144 0.000273188
+    Computation:  0.18456
+    @ FFTW2DREXEC 1 6144 0.18456
+  C -> C
+    Initialisation:  0.00015518 s
+    @ MKL2DCINIT 1 6144 0.00015518
+    Computation:  0.996515
+    @ FFTW2DCEXEC 1 6144 0.996515
+3D
+  R -> HC
+    Initialisation:  0.000324029 s
+    @ MKL3DRINIT 1 6144 0.000324029
+    Computation:  0.419387
+    @ FFTW3DREXEC 1 6144 0.419387
+  C -> C
+    Initialisation:  0.00021896 s
+    @ MKL3DCINIT 1 6144 0.00021896
+    Computation:  0.991706
+    @ FFTW3DCEXEC 1 6144 0.991706
+Application 36220428 resources: utime ~10s, stime ~3s, Rss ~1942036, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  6.537e-05 s
+    @ MKL1DRINIT 1 6144 6.537e-05
+    Computation:  0.427076
+    @ FFTW1DREXEC 1 6144 0.427076
+  C -> C
+    Initialisation:  0.00269155 s
+    @ MKL1DCINIT 1 6144 0.00269155
+    Computation:  0.00256264
+    @ FFTW1DCEXEC 1 6144 0.00256264
+2D
+  R -> HC
+    Initialisation:  0.000283839 s
+    @ MKL2DRINIT 1 6144 0.000283839
+    Computation:  0.183198
+    @ FFTW2DREXEC 1 6144 0.183198
+  C -> C
+    Initialisation:  0.000122631 s
+    @ MKL2DCINIT 1 6144 0.000122631
+    Computation:  0.986087
+    @ FFTW2DCEXEC 1 6144 0.986087
+3D
+  R -> HC
+    Initialisation:  0.000315899 s
+    @ MKL3DRINIT 1 6144 0.000315899
+    Computation:  0.416071
+    @ FFTW3DREXEC 1 6144 0.416071
+  C -> C
+    Initialisation:  0.000224944 s
+    @ MKL3DCINIT 1 6144 0.000224944
+    Computation:  1.00343
+    @ FFTW3DCEXEC 1 6144 1.00343
+Application 36220430 resources: utime ~10s, stime ~3s, Rss ~1942040, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  6.4479e-05 s
+    @ MKL1DRINIT 1 6144 6.4479e-05
+    Computation:  0.430654
+    @ FFTW1DREXEC 1 6144 0.430654
+  C -> C
+    Initialisation:  0.00280249 s
+    @ MKL1DCINIT 1 6144 0.00280249
+    Computation:  0.0024976
+    @ FFTW1DCEXEC 1 6144 0.0024976
+2D
+  R -> HC
+    Initialisation:  0.000267451 s
+    @ MKL2DRINIT 1 6144 0.000267451
+    Computation:  0.184253
+    @ FFTW2DREXEC 1 6144 0.184253
+  C -> C
+    Initialisation:  0.000155593 s
+    @ MKL2DCINIT 1 6144 0.000155593
+    Computation:  0.98742
+    @ FFTW2DCEXEC 1 6144 0.98742
+3D
+  R -> HC
+    Initialisation:  0.000358224 s
+    @ MKL3DRINIT 1 6144 0.000358224
+    Computation:  0.415852
+    @ FFTW3DREXEC 1 6144 0.415852
+  C -> C
+    Initialisation:  0.000203464 s
+    @ MKL3DCINIT 1 6144 0.000203464
+    Computation:  1.01293
+    @ FFTW3DCEXEC 1 6144 1.01293
+Application 36220432 resources: utime ~10s, stime ~3s, Rss ~1942036, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  6.3822e-05 s
+    @ MKL1DRINIT 1 6144 6.3822e-05
+    Computation:  0.426342
+    @ FFTW1DREXEC 1 6144 0.426342
+  C -> C
+    Initialisation:  0.00315105 s
+    @ MKL1DCINIT 1 6144 0.00315105
+    Computation:  0.00251829
+    @ FFTW1DCEXEC 1 6144 0.00251829
+2D
+  R -> HC
+    Initialisation:  0.00027356 s
+    @ MKL2DRINIT 1 6144 0.00027356
+    Computation:  0.182659
+    @ FFTW2DREXEC 1 6144 0.182659
+  C -> C
+    Initialisation:  0.000121955 s
+    @ MKL2DCINIT 1 6144 0.000121955
+    Computation:  0.976687
+    @ FFTW2DCEXEC 1 6144 0.976687
+3D
+  R -> HC
+    Initialisation:  0.000334034 s
+    @ MKL3DRINIT 1 6144 0.000334034
+    Computation:  0.413174
+    @ FFTW3DREXEC 1 6144 0.413174
+  C -> C
+    Initialisation:  0.000202079 s
+    @ MKL3DCINIT 1 6144 0.000202079
+    Computation:  1.0014
+    @ FFTW3DCEXEC 1 6144 1.0014
+Application 36220436 resources: utime ~11s, stime ~3s, Rss ~1942044, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  6.6213e-05 s
+    @ MKL1DRINIT 1 6144 6.6213e-05
+    Computation:  0.43348
+    @ FFTW1DREXEC 1 6144 0.43348
+  C -> C
+    Initialisation:  0.00337939 s
+    @ MKL1DCINIT 1 6144 0.00337939
+    Computation:  0.00254652
+    @ FFTW1DCEXEC 1 6144 0.00254652
+2D
+  R -> HC
+    Initialisation:  0.000310179 s
+    @ MKL2DRINIT 1 6144 0.000310179
+    Computation:  0.189049
+    @ FFTW2DREXEC 1 6144 0.189049
+  C -> C
+    Initialisation:  0.000142987 s
+    @ MKL2DCINIT 1 6144 0.000142987
+    Computation:  0.994357
+    @ FFTW2DCEXEC 1 6144 0.994357
+3D
+  R -> HC
+    Initialisation:  0.000324783 s
+    @ MKL3DRINIT 1 6144 0.000324783
+    Computation:  0.421536
+    @ FFTW3DREXEC 1 6144 0.421536
+  C -> C
+    Initialisation:  0.000241313 s
+    @ MKL3DCINIT 1 6144 0.000241313
+    Computation:  1.01296
+    @ FFTW3DCEXEC 1 6144 1.01296
+Application 36220438 resources: utime ~10s, stime ~3s, Rss ~1942040, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  8.3956e-05 s
+    @ MKL1DRINIT 1 6144 8.3956e-05
+    Computation:  0.42738
+    @ FFTW1DREXEC 1 6144 0.42738
+  C -> C
+    Initialisation:  0.0029608 s
+    @ MKL1DCINIT 1 6144 0.0029608
+    Computation:  0.00260283
+    @ FFTW1DCEXEC 1 6144 0.00260283
+2D
+  R -> HC
+    Initialisation:  0.000307131 s
+    @ MKL2DRINIT 1 6144 0.000307131
+    Computation:  0.183066
+    @ FFTW2DREXEC 1 6144 0.183066
+  C -> C
+    Initialisation:  0.000236679 s
+    @ MKL2DCINIT 1 6144 0.000236679
+    Computation:  0.976312
+    @ FFTW2DCEXEC 1 6144 0.976312
+3D
+  R -> HC
+    Initialisation:  0.000431947 s
+    @ MKL3DRINIT 1 6144 0.000431947
+    Computation:  0.414578
+    @ FFTW3DREXEC 1 6144 0.414578
+  C -> C
+    Initialisation:  0.000175237 s
+    @ MKL3DCINIT 1 6144 0.000175237
+    Computation:  1.00224
+    @ FFTW3DCEXEC 1 6144 1.00224
+Application 36220440 resources: utime ~11s, stime ~3s, Rss ~1942048, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  6.5877e-05 s
+    @ MKL1DRINIT 1 6144 6.5877e-05
+    Computation:  0.431092
+    @ FFTW1DREXEC 1 6144 0.431092
+  C -> C
+    Initialisation:  0.00325687 s
+    @ MKL1DCINIT 1 6144 0.00325687
+    Computation:  0.0025459
+    @ FFTW1DCEXEC 1 6144 0.0025459
+2D
+  R -> HC
+    Initialisation:  0.000301054 s
+    @ MKL2DRINIT 1 6144 0.000301054
+    Computation:  0.183625
+    @ FFTW2DREXEC 1 6144 0.183625
+  C -> C
+    Initialisation:  0.000130707 s
+    @ MKL2DCINIT 1 6144 0.000130707
+    Computation:  0.994542
+    @ FFTW2DCEXEC 1 6144 0.994542
+3D
+  R -> HC
+    Initialisation:  0.000384303 s
+    @ MKL3DRINIT 1 6144 0.000384303
+    Computation:  0.420729
+    @ FFTW3DREXEC 1 6144 0.420729
+  C -> C
+    Initialisation:  0.000202831 s
+    @ MKL3DCINIT 1 6144 0.000202831
+    Computation:  1.00785
+    @ FFTW3DCEXEC 1 6144 1.00785
+Application 36220444 resources: utime ~10s, stime ~3s, Rss ~1942036, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  9.8505e-05 s
+    @ MKL1DRINIT 1 6144 9.8505e-05
+    Computation:  0.426353
+    @ FFTW1DREXEC 1 6144 0.426353
+  C -> C
+    Initialisation:  0.00320881 s
+    @ MKL1DCINIT 1 6144 0.00320881
+    Computation:  0.00250624
+    @ FFTW1DCEXEC 1 6144 0.00250624
+2D
+  R -> HC
+    Initialisation:  0.000301527 s
+    @ MKL2DRINIT 1 6144 0.000301527
+    Computation:  0.183184
+    @ FFTW2DREXEC 1 6144 0.183184
+  C -> C
+    Initialisation:  0.000123106 s
+    @ MKL2DCINIT 1 6144 0.000123106
+    Computation:  0.985711
+    @ FFTW2DCEXEC 1 6144 0.985711
+3D
+  R -> HC
+    Initialisation:  0.00038345 s
+    @ MKL3DRINIT 1 6144 0.00038345
+    Computation:  0.416904
+    @ FFTW3DREXEC 1 6144 0.416904
+  C -> C
+    Initialisation:  0.000208071 s
+    @ MKL3DCINIT 1 6144 0.000208071
+    Computation:  1.00106
+    @ FFTW3DCEXEC 1 6144 1.00106
+Application 36220448 resources: utime ~11s, stime ~3s, Rss ~1942036, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  7.09e-05 s
+    @ MKL1DRINIT 1 6144 7.09e-05
+    Computation:  0.4287
+    @ FFTW1DREXEC 1 6144 0.4287
+  C -> C
+    Initialisation:  0.00279563 s
+    @ MKL1DCINIT 1 6144 0.00279563
+    Computation:  0.00259872
+    @ FFTW1DCEXEC 1 6144 0.00259872
+2D
+  R -> HC
+    Initialisation:  0.000300345 s
+    @ MKL2DRINIT 1 6144 0.000300345
+    Computation:  0.152942
+    @ FFTW2DREXEC 1 6144 0.152942
+  C -> C
+    Initialisation:  0.000131651 s
+    @ MKL2DCINIT 1 6144 0.000131651
+    Computation:  0.895876
+    @ FFTW2DCEXEC 1 6144 0.895876
+3D
+  R -> HC
+    Initialisation:  0.000383568 s
+    @ MKL3DRINIT 1 6144 0.000383568
+    Computation:  0.330589
+    @ FFTW3DREXEC 1 6144 0.330589
+  C -> C
+    Initialisation:  0.000222862 s
+    @ MKL3DCINIT 1 6144 0.000222862
+    Computation:  0.900725
+    @ FFTW3DCEXEC 1 6144 0.900725
+Application 36220450 resources: utime ~16s, stime ~3s, Rss ~1942072, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  7.3628e-05 s
+    @ MKL1DRINIT 1 6144 7.3628e-05
+    Computation:  0.427311
+    @ FFTW1DREXEC 1 6144 0.427311
+  C -> C
+    Initialisation:  0.0024338 s
+    @ MKL1DCINIT 1 6144 0.0024338
+    Computation:  0.00264126
+    @ FFTW1DCEXEC 1 6144 0.00264126
+2D
+  R -> HC
+    Initialisation:  0.0002849 s
+    @ MKL2DRINIT 1 6144 0.0002849
+    Computation:  0.153141
+    @ FFTW2DREXEC 1 6144 0.153141
+  C -> C
+    Initialisation:  0.000127761 s
+    @ MKL2DCINIT 1 6144 0.000127761
+    Computation:  0.886925
+    @ FFTW2DCEXEC 1 6144 0.886925
+3D
+  R -> HC
+    Initialisation:  0.000365133 s
+    @ MKL3DRINIT 1 6144 0.000365133
+    Computation:  0.328359
+    @ FFTW3DREXEC 1 6144 0.328359
+  C -> C
+    Initialisation:  0.000212624 s
+    @ MKL3DCINIT 1 6144 0.000212624
+    Computation:  0.888261
+    @ FFTW3DCEXEC 1 6144 0.888261
+Application 36220453 resources: utime ~16s, stime ~3s, Rss ~1942068, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  7.0249e-05 s
+    @ MKL1DRINIT 1 6144 7.0249e-05
+    Computation:  0.428815
+    @ FFTW1DREXEC 1 6144 0.428815
+  C -> C
+    Initialisation:  0.00329021 s
+    @ MKL1DCINIT 1 6144 0.00329021
+    Computation:  0.0025854
+    @ FFTW1DCEXEC 1 6144 0.0025854
+2D
+  R -> HC
+    Initialisation:  0.00028248 s
+    @ MKL2DRINIT 1 6144 0.00028248
+    Computation:  0.152198
+    @ FFTW2DREXEC 1 6144 0.152198
+  C -> C
+    Initialisation:  0.000129132 s
+    @ MKL2DCINIT 1 6144 0.000129132
+    Computation:  0.895425
+    @ FFTW2DCEXEC 1 6144 0.895425
+3D
+  R -> HC
+    Initialisation:  0.000350912 s
+    @ MKL3DRINIT 1 6144 0.000350912
+    Computation:  0.330501
+    @ FFTW3DREXEC 1 6144 0.330501
+  C -> C
+    Initialisation:  0.000216607 s
+    @ MKL3DCINIT 1 6144 0.000216607
+    Computation:  0.901813
+    @ FFTW3DCEXEC 1 6144 0.901813
+Application 36220456 resources: utime ~16s, stime ~3s, Rss ~1942072, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  8.697e-05 s
+    @ MKL1DRINIT 1 6144 8.697e-05
+    Computation:  0.425551
+    @ FFTW1DREXEC 1 6144 0.425551
+  C -> C
+    Initialisation:  0.00340827 s
+    @ MKL1DCINIT 1 6144 0.00340827
+    Computation:  0.00253088
+    @ FFTW1DCEXEC 1 6144 0.00253088
+2D
+  R -> HC
+    Initialisation:  0.000264921 s
+    @ MKL2DRINIT 1 6144 0.000264921
+    Computation:  0.150121
+    @ FFTW2DREXEC 1 6144 0.150121
+  C -> C
+    Initialisation:  0.000167077 s
+    @ MKL2DCINIT 1 6144 0.000167077
+    Computation:  0.878697
+    @ FFTW2DCEXEC 1 6144 0.878697
+3D
+  R -> HC
+    Initialisation:  0.000353398 s
+    @ MKL3DRINIT 1 6144 0.000353398
+    Computation:  0.329793
+    @ FFTW3DREXEC 1 6144 0.329793
+  C -> C
+    Initialisation:  0.000214917 s
+    @ MKL3DCINIT 1 6144 0.000214917
+    Computation:  0.883075
+    @ FFTW3DCEXEC 1 6144 0.883075
+Application 36220458 resources: utime ~16s, stime ~3s, Rss ~1942064, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  7.1014e-05 s
+    @ MKL1DRINIT 1 6144 7.1014e-05
+    Computation:  0.430839
+    @ FFTW1DREXEC 1 6144 0.430839
+  C -> C
+    Initialisation:  0.00240826 s
+    @ MKL1DCINIT 1 6144 0.00240826
+    Computation:  0.00258381
+    @ FFTW1DCEXEC 1 6144 0.00258381
+2D
+  R -> HC
+    Initialisation:  0.000291648 s
+    @ MKL2DRINIT 1 6144 0.000291648
+    Computation:  0.151962
+    @ FFTW2DREXEC 1 6144 0.151962
+  C -> C
+    Initialisation:  0.000129452 s
+    @ MKL2DCINIT 1 6144 0.000129452
+    Computation:  0.900258
+    @ FFTW2DCEXEC 1 6144 0.900258
+3D
+  R -> HC
+    Initialisation:  0.000399909 s
+    @ MKL3DRINIT 1 6144 0.000399909
+    Computation:  0.334127
+    @ FFTW3DREXEC 1 6144 0.334127
+  C -> C
+    Initialisation:  0.00021915 s
+    @ MKL3DCINIT 1 6144 0.00021915
+    Computation:  0.915403
+    @ FFTW3DCEXEC 1 6144 0.915403
+Application 36220460 resources: utime ~16s, stime ~3s, Rss ~1942060, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  7.401e-05 s
+    @ MKL1DRINIT 1 6144 7.401e-05
+    Computation:  0.429022
+    @ FFTW1DREXEC 1 6144 0.429022
+  C -> C
+    Initialisation:  0.00270284 s
+    @ MKL1DCINIT 1 6144 0.00270284
+    Computation:  0.00247038
+    @ FFTW1DCEXEC 1 6144 0.00247038
+2D
+  R -> HC
+    Initialisation:  0.000280293 s
+    @ MKL2DRINIT 1 6144 0.000280293
+    Computation:  0.152064
+    @ FFTW2DREXEC 1 6144 0.152064
+  C -> C
+    Initialisation:  0.00013167 s
+    @ MKL2DCINIT 1 6144 0.00013167
+    Computation:  0.891345
+    @ FFTW2DCEXEC 1 6144 0.891345
+3D
+  R -> HC
+    Initialisation:  0.000365815 s
+    @ MKL3DRINIT 1 6144 0.000365815
+    Computation:  0.327612
+    @ FFTW3DREXEC 1 6144 0.327612
+  C -> C
+    Initialisation:  0.000239919 s
+    @ MKL3DCINIT 1 6144 0.000239919
+    Computation:  0.893108
+    @ FFTW3DCEXEC 1 6144 0.893108
+Application 36220464 resources: utime ~16s, stime ~3s, Rss ~1942068, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  7.2551e-05 s
+    @ MKL1DRINIT 1 6144 7.2551e-05
+    Computation:  0.434128
+    @ FFTW1DREXEC 1 6144 0.434128
+  C -> C
+    Initialisation:  0.00266609 s
+    @ MKL1DCINIT 1 6144 0.00266609
+    Computation:  0.00253616
+    @ FFTW1DCEXEC 1 6144 0.00253616
+2D
+  R -> HC
+    Initialisation:  0.000262352 s
+    @ MKL2DRINIT 1 6144 0.000262352
+    Computation:  0.155274
+    @ FFTW2DREXEC 1 6144 0.155274
+  C -> C
+    Initialisation:  0.000210585 s
+    @ MKL2DCINIT 1 6144 0.000210585
+    Computation:  0.903834
+    @ FFTW2DCEXEC 1 6144 0.903834
+3D
+  R -> HC
+    Initialisation:  0.000446718 s
+    @ MKL3DRINIT 1 6144 0.000446718
+    Computation:  0.334698
+    @ FFTW3DREXEC 1 6144 0.334698
+  C -> C
+    Initialisation:  0.000184365 s
+    @ MKL3DCINIT 1 6144 0.000184365
+    Computation:  0.905794
+    @ FFTW3DCEXEC 1 6144 0.905794
+Application 36220467 resources: utime ~16s, stime ~3s, Rss ~1942072, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  7.1241e-05 s
+    @ MKL1DRINIT 1 6144 7.1241e-05
+    Computation:  0.426922
+    @ FFTW1DREXEC 1 6144 0.426922
+  C -> C
+    Initialisation:  0.00328566 s
+    @ MKL1DCINIT 1 6144 0.00328566
+    Computation:  0.00254667
+    @ FFTW1DCEXEC 1 6144 0.00254667
+2D
+  R -> HC
+    Initialisation:  0.000279621 s
+    @ MKL2DRINIT 1 6144 0.000279621
+    Computation:  0.15345
+    @ FFTW2DREXEC 1 6144 0.15345
+  C -> C
+    Initialisation:  0.000129019 s
+    @ MKL2DCINIT 1 6144 0.000129019
+    Computation:  0.884521
+    @ FFTW2DCEXEC 1 6144 0.884521
+3D
+  R -> HC
+    Initialisation:  0.000354325 s
+    @ MKL3DRINIT 1 6144 0.000354325
+    Computation:  0.327814
+    @ FFTW3DREXEC 1 6144 0.327814
+  C -> C
+    Initialisation:  0.000225004 s
+    @ MKL3DCINIT 1 6144 0.000225004
+    Computation:  0.903846
+    @ FFTW3DCEXEC 1 6144 0.903846
+Application 36220469 resources: utime ~16s, stime ~3s, Rss ~1942068, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  7.1856e-05 s
+    @ MKL1DRINIT 1 6144 7.1856e-05
+    Computation:  0.433788
+    @ FFTW1DREXEC 1 6144 0.433788
+  C -> C
+    Initialisation:  0.00310286 s
+    @ MKL1DCINIT 1 6144 0.00310286
+    Computation:  0.00263198
+    @ FFTW1DCEXEC 1 6144 0.00263198
+2D
+  R -> HC
+    Initialisation:  0.000265615 s
+    @ MKL2DRINIT 1 6144 0.000265615
+    Computation:  0.154214
+    @ FFTW2DREXEC 1 6144 0.154214
+  C -> C
+    Initialisation:  0.000162428 s
+    @ MKL2DCINIT 1 6144 0.000162428
+    Computation:  0.902428
+    @ FFTW2DCEXEC 1 6144 0.902428
+3D
+  R -> HC
+    Initialisation:  0.000356335 s
+    @ MKL3DRINIT 1 6144 0.000356335
+    Computation:  0.335865
+    @ FFTW3DREXEC 1 6144 0.335865
+  C -> C
+    Initialisation:  0.000248452 s
+    @ MKL3DCINIT 1 6144 0.000248452
+    Computation:  0.90395
+    @ FFTW3DCEXEC 1 6144 0.90395
+Application 36220472 resources: utime ~16s, stime ~3s, Rss ~1942064, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  7.1095e-05 s
+    @ MKL1DRINIT 1 6144 7.1095e-05
+    Computation:  0.425748
+    @ FFTW1DREXEC 1 6144 0.425748
+  C -> C
+    Initialisation:  0.00309089 s
+    @ MKL1DCINIT 1 6144 0.00309089
+    Computation:  0.00257506
+    @ FFTW1DCEXEC 1 6144 0.00257506
+2D
+  R -> HC
+    Initialisation:  0.000279868 s
+    @ MKL2DRINIT 1 6144 0.000279868
+    Computation:  0.151145
+    @ FFTW2DREXEC 1 6144 0.151145
+  C -> C
+    Initialisation:  0.000215369 s
+    @ MKL2DCINIT 1 6144 0.000215369
+    Computation:  0.878397
+    @ FFTW2DCEXEC 1 6144 0.878397
+3D
+  R -> HC
+    Initialisation:  0.000420164 s
+    @ MKL3DRINIT 1 6144 0.000420164
+    Computation:  0.323367
+    @ FFTW3DREXEC 1 6144 0.323367
+  C -> C
+    Initialisation:  0.000186298 s
+    @ MKL3DCINIT 1 6144 0.000186298
+    Computation:  0.903372
+    @ FFTW3DCEXEC 1 6144 0.903372
+Application 36220474 resources: utime ~16s, stime ~3s, Rss ~1942072, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  7.7119e-05 s
+    @ MKL1DRINIT 1 6144 7.7119e-05
+    Computation:  0.434144
+    @ FFTW1DREXEC 1 6144 0.434144
+  C -> C
+    Initialisation:  0.00328595 s
+    @ MKL1DCINIT 1 6144 0.00328595
+    Computation:  0.00251094
+    @ FFTW1DCEXEC 1 6144 0.00251094
+2D
+  R -> HC
+    Initialisation:  0.000284763 s
+    @ MKL2DRINIT 1 6144 0.000284763
+    Computation:  0.127261
+    @ FFTW2DREXEC 1 6144 0.127261
+  C -> C
+    Initialisation:  0.000167561 s
+    @ MKL2DCINIT 1 6144 0.000167561
+    Computation:  0.813976
+    @ FFTW2DCEXEC 1 6144 0.813976
+3D
+  R -> HC
+    Initialisation:  0.000398618 s
+    @ MKL3DRINIT 1 6144 0.000398618
+    Computation:  0.25512
+    @ FFTW3DREXEC 1 6144 0.25512
+  C -> C
+    Initialisation:  0.00021637 s
+    @ MKL3DCINIT 1 6144 0.00021637
+    Computation:  0.831014
+    @ FFTW3DCEXEC 1 6144 0.831014
+Application 36220478 resources: utime ~31s, stime ~3s, Rss ~1942236, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  9.0087e-05 s
+    @ MKL1DRINIT 1 6144 9.0087e-05
+    Computation:  0.426116
+    @ FFTW1DREXEC 1 6144 0.426116
+  C -> C
+    Initialisation:  0.00300721 s
+    @ MKL1DCINIT 1 6144 0.00300721
+    Computation:  0.00260335
+    @ FFTW1DCEXEC 1 6144 0.00260335
+2D
+  R -> HC
+    Initialisation:  0.000343457 s
+    @ MKL2DRINIT 1 6144 0.000343457
+    Computation:  0.129594
+    @ FFTW2DREXEC 1 6144 0.129594
+  C -> C
+    Initialisation:  0.000146148 s
+    @ MKL2DCINIT 1 6144 0.000146148
+    Computation:  0.769638
+    @ FFTW2DCEXEC 1 6144 0.769638
+3D
+  R -> HC
+    Initialisation:  0.000352996 s
+    @ MKL3DRINIT 1 6144 0.000352996
+    Computation:  0.255234
+    @ FFTW3DREXEC 1 6144 0.255234
+  C -> C
+    Initialisation:  0.000213339 s
+    @ MKL3DCINIT 1 6144 0.000213339
+    Computation:  0.789631
+    @ FFTW3DCEXEC 1 6144 0.789631
+Application 36220479 resources: utime ~31s, stime ~3s, Rss ~1942236, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  9.7638e-05 s
+    @ MKL1DRINIT 1 6144 9.7638e-05
+    Computation:  0.429412
+    @ FFTW1DREXEC 1 6144 0.429412
+  C -> C
+    Initialisation:  0.00312288 s
+    @ MKL1DCINIT 1 6144 0.00312288
+    Computation:  0.0026464
+    @ FFTW1DCEXEC 1 6144 0.0026464
+2D
+  R -> HC
+    Initialisation:  0.000302436 s
+    @ MKL2DRINIT 1 6144 0.000302436
+    Computation:  0.126261
+    @ FFTW2DREXEC 1 6144 0.126261
+  C -> C
+    Initialisation:  0.000264916 s
+    @ MKL2DCINIT 1 6144 0.000264916
+    Computation:  0.813069
+    @ FFTW2DCEXEC 1 6144 0.813069
+3D
+  R -> HC
+    Initialisation:  0.000438512 s
+    @ MKL3DRINIT 1 6144 0.000438512
+    Computation:  0.254056
+    @ FFTW3DREXEC 1 6144 0.254056
+  C -> C
+    Initialisation:  0.000186289 s
+    @ MKL3DCINIT 1 6144 0.000186289
+    Computation:  0.833652
+    @ FFTW3DCEXEC 1 6144 0.833652
+Application 36220482 resources: utime ~32s, stime ~3s, Rss ~1942236, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  9.4717e-05 s
+    @ MKL1DRINIT 1 6144 9.4717e-05
+    Computation:  0.427275
+    @ FFTW1DREXEC 1 6144 0.427275
+  C -> C
+    Initialisation:  0.00334059 s
+    @ MKL1DCINIT 1 6144 0.00334059
+    Computation:  0.00259479
+    @ FFTW1DCEXEC 1 6144 0.00259479
+2D
+  R -> HC
+    Initialisation:  0.000294953 s
+    @ MKL2DRINIT 1 6144 0.000294953
+    Computation:  0.129312
+    @ FFTW2DREXEC 1 6144 0.129312
+  C -> C
+    Initialisation:  0.000135984 s
+    @ MKL2DCINIT 1 6144 0.000135984
+    Computation:  0.758773
+    @ FFTW2DCEXEC 1 6144 0.758773
+3D
+  R -> HC
+    Initialisation:  0.00035103 s
+    @ MKL3DRINIT 1 6144 0.00035103
+    Computation:  0.245975
+    @ FFTW3DREXEC 1 6144 0.245975
+  C -> C
+    Initialisation:  0.000237552 s
+    @ MKL3DCINIT 1 6144 0.000237552
+    Computation:  0.79376
+    @ FFTW3DCEXEC 1 6144 0.79376
+Application 36220483 resources: utime ~31s, stime ~3s, Rss ~1942236, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  7.6287e-05 s
+    @ MKL1DRINIT 1 6144 7.6287e-05
+    Computation:  0.432721
+    @ FFTW1DREXEC 1 6144 0.432721
+  C -> C
+    Initialisation:  0.00338682 s
+    @ MKL1DCINIT 1 6144 0.00338682
+    Computation:  0.00262834
+    @ FFTW1DCEXEC 1 6144 0.00262834
+2D
+  R -> HC
+    Initialisation:  0.000291669 s
+    @ MKL2DRINIT 1 6144 0.000291669
+    Computation:  0.131007
+    @ FFTW2DREXEC 1 6144 0.131007
+  C -> C
+    Initialisation:  0.000136001 s
+    @ MKL2DCINIT 1 6144 0.000136001
+    Computation:  0.817926
+    @ FFTW2DCEXEC 1 6144 0.817926
+3D
+  R -> HC
+    Initialisation:  0.000355272 s
+    @ MKL3DRINIT 1 6144 0.000355272
+    Computation:  0.24815
+    @ FFTW3DREXEC 1 6144 0.24815
+  C -> C
+    Initialisation:  0.000215956 s
+    @ MKL3DCINIT 1 6144 0.000215956
+    Computation:  0.838929
+    @ FFTW3DCEXEC 1 6144 0.838929
+Application 36220486 resources: utime ~31s, stime ~3s, Rss ~1942236, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  9.5899e-05 s
+    @ MKL1DRINIT 1 6144 9.5899e-05
+    Computation:  0.431
+    @ FFTW1DREXEC 1 6144 0.431
+  C -> C
+    Initialisation:  0.00304005 s
+    @ MKL1DCINIT 1 6144 0.00304005
+    Computation:  0.0025832
+    @ FFTW1DCEXEC 1 6144 0.0025832
+2D
+  R -> HC
+    Initialisation:  0.000311252 s
+    @ MKL2DRINIT 1 6144 0.000311252
+    Computation:  0.130548
+    @ FFTW2DREXEC 1 6144 0.130548
+  C -> C
+    Initialisation:  0.000153462 s
+    @ MKL2DCINIT 1 6144 0.000153462
+    Computation:  0.810873
+    @ FFTW2DCEXEC 1 6144 0.810873
+3D
+  R -> HC
+    Initialisation:  0.000371055 s
+    @ MKL3DRINIT 1 6144 0.000371055
+    Computation:  0.253755
+    @ FFTW3DREXEC 1 6144 0.253755
+  C -> C
+    Initialisation:  0.000241881 s
+    @ MKL3DCINIT 1 6144 0.000241881
+    Computation:  0.834671
+    @ FFTW3DCEXEC 1 6144 0.834671
+Application 36220489 resources: utime ~31s, stime ~3s, Rss ~1942236, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  7.6357e-05 s
+    @ MKL1DRINIT 1 6144 7.6357e-05
+    Computation:  0.435652
+    @ FFTW1DREXEC 1 6144 0.435652
+  C -> C
+    Initialisation:  0.00286445 s
+    @ MKL1DCINIT 1 6144 0.00286445
+    Computation:  0.00255373
+    @ FFTW1DCEXEC 1 6144 0.00255373
+2D
+  R -> HC
+    Initialisation:  0.000350173 s
+    @ MKL2DRINIT 1 6144 0.000350173
+    Computation:  0.12711
+    @ FFTW2DREXEC 1 6144 0.12711
+  C -> C
+    Initialisation:  0.00024628 s
+    @ MKL2DCINIT 1 6144 0.00024628
+    Computation:  0.812747
+    @ FFTW2DCEXEC 1 6144 0.812747
+3D
+  R -> HC
+    Initialisation:  0.000484426 s
+    @ MKL3DRINIT 1 6144 0.000484426
+    Computation:  0.246539
+    @ FFTW3DREXEC 1 6144 0.246539
+  C -> C
+    Initialisation:  0.000187851 s
+    @ MKL3DCINIT 1 6144 0.000187851
+    Computation:  0.835049
+    @ FFTW3DCEXEC 1 6144 0.835049
+Application 36220491 resources: utime ~31s, stime ~4s, Rss ~1942236, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  8.8648e-05 s
+    @ MKL1DRINIT 1 6144 8.8648e-05
+    Computation:  0.426174
+    @ FFTW1DREXEC 1 6144 0.426174
+  C -> C
+    Initialisation:  0.00261711 s
+    @ MKL1DCINIT 1 6144 0.00261711
+    Computation:  0.00253955
+    @ FFTW1DCEXEC 1 6144 0.00253955
+2D
+  R -> HC
+    Initialisation:  0.000280296 s
+    @ MKL2DRINIT 1 6144 0.000280296
+    Computation:  0.129568
+    @ FFTW2DREXEC 1 6144 0.129568
+  C -> C
+    Initialisation:  0.000222859 s
+    @ MKL2DCINIT 1 6144 0.000222859
+    Computation:  0.772406
+    @ FFTW2DCEXEC 1 6144 0.772406
+3D
+  R -> HC
+    Initialisation:  0.000430577 s
+    @ MKL3DRINIT 1 6144 0.000430577
+    Computation:  0.24704
+    @ FFTW3DREXEC 1 6144 0.24704
+  C -> C
+    Initialisation:  0.000187459 s
+    @ MKL3DCINIT 1 6144 0.000187459
+    Computation:  0.791296
+    @ FFTW3DCEXEC 1 6144 0.791296
+Application 36220495 resources: utime ~31s, stime ~4s, Rss ~1942236, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  7.6168e-05 s
+    @ MKL1DRINIT 1 6144 7.6168e-05
+    Computation:  0.435074
+    @ FFTW1DREXEC 1 6144 0.435074
+  C -> C
+    Initialisation:  0.00336973 s
+    @ MKL1DCINIT 1 6144 0.00336973
+    Computation:  0.00245311
+    @ FFTW1DCEXEC 1 6144 0.00245311
+2D
+  R -> HC
+    Initialisation:  0.000289902 s
+    @ MKL2DRINIT 1 6144 0.000289902
+    Computation:  0.127474
+    @ FFTW2DREXEC 1 6144 0.127474
+  C -> C
+    Initialisation:  0.000218102 s
+    @ MKL2DCINIT 1 6144 0.000218102
+    Computation:  0.818618
+    @ FFTW2DCEXEC 1 6144 0.818618
+3D
+  R -> HC
+    Initialisation:  0.000457663 s
+    @ MKL3DRINIT 1 6144 0.000457663
+    Computation:  0.254562
+    @ FFTW3DREXEC 1 6144 0.254562
+  C -> C
+    Initialisation:  0.000219041 s
+    @ MKL3DCINIT 1 6144 0.000219041
+    Computation:  0.83494
+    @ FFTW3DCEXEC 1 6144 0.83494
+Application 36220496 resources: utime ~31s, stime ~3s, Rss ~1942236, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  9.5292e-05 s
+    @ MKL1DRINIT 1 6144 9.5292e-05
+    Computation:  0.427266
+    @ FFTW1DREXEC 1 6144 0.427266
+  C -> C
+    Initialisation:  0.00245593 s
+    @ MKL1DCINIT 1 6144 0.00245593
+    Computation:  0.00255922
+    @ FFTW1DCEXEC 1 6144 0.00255922
+2D
+  R -> HC
+    Initialisation:  0.000307353 s
+    @ MKL2DRINIT 1 6144 0.000307353
+    Computation:  0.130028
+    @ FFTW2DREXEC 1 6144 0.130028
+  C -> C
+    Initialisation:  0.000159314 s
+    @ MKL2DCINIT 1 6144 0.000159314
+    Computation:  0.761416
+    @ FFTW2DCEXEC 1 6144 0.761416
+3D
+  R -> HC
+    Initialisation:  0.000379892 s
+    @ MKL3DRINIT 1 6144 0.000379892
+    Computation:  0.25693
+    @ FFTW3DREXEC 1 6144 0.25693
+  C -> C
+    Initialisation:  0.000216736 s
+    @ MKL3DCINIT 1 6144 0.000216736
+    Computation:  0.790043
+    @ FFTW3DCEXEC 1 6144 0.790043
+Application 36220498 resources: utime ~31s, stime ~3s, Rss ~1942236, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  9.0531e-05 s
+    @ MKL1DRINIT 1 6144 9.0531e-05
+    Computation:  0.432296
+    @ FFTW1DREXEC 1 6144 0.432296
+  C -> C
+    Initialisation:  0.00316187 s
+    @ MKL1DCINIT 1 6144 0.00316187
+    Computation:  0.00278535
+    @ FFTW1DCEXEC 1 6144 0.00278535
+2D
+  R -> HC
+    Initialisation:  0.000285529 s
+    @ MKL2DRINIT 1 6144 0.000285529
+    Computation:  0.116071
+    @ FFTW2DREXEC 1 6144 0.116071
+  C -> C
+    Initialisation:  0.000248456 s
+    @ MKL2DCINIT 1 6144 0.000248456
+    Computation:  0.750735
+    @ FFTW2DCEXEC 1 6144 0.750735
+3D
+  R -> HC
+    Initialisation:  0.000479724 s
+    @ MKL3DRINIT 1 6144 0.000479724
+    Computation:  0.208736
+    @ FFTW3DREXEC 1 6144 0.208736
+  C -> C
+    Initialisation:  0.000200144 s
+    @ MKL3DCINIT 1 6144 0.000200144
+    Computation:  0.805134
+    @ FFTW3DCEXEC 1 6144 0.805134
+Application 36220501 resources: utime ~66s, stime ~5s, Rss ~1942528, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  9.0199e-05 s
+    @ MKL1DRINIT 1 6144 9.0199e-05
+    Computation:  0.426136
+    @ FFTW1DREXEC 1 6144 0.426136
+  C -> C
+    Initialisation:  0.00305936 s
+    @ MKL1DCINIT 1 6144 0.00305936
+    Computation:  0.00274956
+    @ FFTW1DCEXEC 1 6144 0.00274956
+2D
+  R -> HC
+    Initialisation:  0.000301216 s
+    @ MKL2DRINIT 1 6144 0.000301216
+    Computation:  0.116777
+    @ FFTW2DREXEC 1 6144 0.116777
+  C -> C
+    Initialisation:  0.000253528 s
+    @ MKL2DCINIT 1 6144 0.000253528
+    Computation:  0.762809
+    @ FFTW2DCEXEC 1 6144 0.762809
+3D
+  R -> HC
+    Initialisation:  0.000467848 s
+    @ MKL3DRINIT 1 6144 0.000467848
+    Computation:  0.23815
+    @ FFTW3DREXEC 1 6144 0.23815
+  C -> C
+    Initialisation:  0.000202392 s
+    @ MKL3DCINIT 1 6144 0.000202392
+    Computation:  0.780244
+    @ FFTW3DCEXEC 1 6144 0.780244
+Application 36220502 resources: utime ~66s, stime ~5s, Rss ~1942528, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  9.0984e-05 s
+    @ MKL1DRINIT 1 6144 9.0984e-05
+    Computation:  0.43182
+    @ FFTW1DREXEC 1 6144 0.43182
+  C -> C
+    Initialisation:  0.00269161 s
+    @ MKL1DCINIT 1 6144 0.00269161
+    Computation:  0.00279655
+    @ FFTW1DCEXEC 1 6144 0.00279655
+2D
+  R -> HC
+    Initialisation:  0.000284707 s
+    @ MKL2DRINIT 1 6144 0.000284707
+    Computation:  0.116671
+    @ FFTW2DREXEC 1 6144 0.116671
+  C -> C
+    Initialisation:  0.000148133 s
+    @ MKL2DCINIT 1 6144 0.000148133
+    Computation:  0.785324
+    @ FFTW2DCEXEC 1 6144 0.785324
+3D
+  R -> HC
+    Initialisation:  0.00034563 s
+    @ MKL3DRINIT 1 6144 0.00034563
+    Computation:  0.21844
+    @ FFTW3DREXEC 1 6144 0.21844
+  C -> C
+    Initialisation:  0.000214564 s
+    @ MKL3DCINIT 1 6144 0.000214564
+    Computation:  0.784591
+    @ FFTW3DCEXEC 1 6144 0.784591
+Application 36220507 resources: utime ~65s, stime ~4s, Rss ~1942528, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  0.000104077 s
+    @ MKL1DRINIT 1 6144 0.000104077
+    Computation:  0.425957
+    @ FFTW1DREXEC 1 6144 0.425957
+  C -> C
+    Initialisation:  0.00336797 s
+    @ MKL1DCINIT 1 6144 0.00336797
+    Computation:  0.00272715
+    @ FFTW1DCEXEC 1 6144 0.00272715
+2D
+  R -> HC
+    Initialisation:  0.000307358 s
+    @ MKL2DRINIT 1 6144 0.000307358
+    Computation:  0.117175
+    @ FFTW2DREXEC 1 6144 0.117175
+  C -> C
+    Initialisation:  0.000228737 s
+    @ MKL2DCINIT 1 6144 0.000228737
+    Computation:  0.755374
+    @ FFTW2DCEXEC 1 6144 0.755374
+3D
+  R -> HC
+    Initialisation:  0.000463269 s
+    @ MKL3DRINIT 1 6144 0.000463269
+    Computation:  0.206204
+    @ FFTW3DREXEC 1 6144 0.206204
+  C -> C
+    Initialisation:  0.000196979 s
+    @ MKL3DCINIT 1 6144 0.000196979
+    Computation:  0.788964
+    @ FFTW3DCEXEC 1 6144 0.788964
+Application 36220509 resources: utime ~66s, stime ~4s, Rss ~1942528, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  0.000108566 s
+    @ MKL1DRINIT 1 6144 0.000108566
+    Computation:  0.43235
+    @ FFTW1DREXEC 1 6144 0.43235
+  C -> C
+    Initialisation:  0.00316061 s
+    @ MKL1DCINIT 1 6144 0.00316061
+    Computation:  0.00278639
+    @ FFTW1DCEXEC 1 6144 0.00278639
+2D
+  R -> HC
+    Initialisation:  0.000289032 s
+    @ MKL2DRINIT 1 6144 0.000289032
+    Computation:  0.114986
+    @ FFTW2DREXEC 1 6144 0.114986
+  C -> C
+    Initialisation:  0.000254489 s
+    @ MKL2DCINIT 1 6144 0.000254489
+    Computation:  0.748489
+    @ FFTW2DCEXEC 1 6144 0.748489
+3D
+  R -> HC
+    Initialisation:  0.000474579 s
+    @ MKL3DRINIT 1 6144 0.000474579
+    Computation:  0.237329
+    @ FFTW3DREXEC 1 6144 0.237329
+  C -> C
+    Initialisation:  0.000204299 s
+    @ MKL3DCINIT 1 6144 0.000204299
+    Computation:  0.791528
+    @ FFTW3DCEXEC 1 6144 0.791528
+Application 36220511 resources: utime ~65s, stime ~5s, Rss ~1942528, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  0.000110458 s
+    @ MKL1DRINIT 1 6144 0.000110458
+    Computation:  0.432978
+    @ FFTW1DREXEC 1 6144 0.432978
+  C -> C
+    Initialisation:  0.00352098 s
+    @ MKL1DCINIT 1 6144 0.00352098
+    Computation:  0.00271207
+    @ FFTW1DCEXEC 1 6144 0.00271207
+2D
+  R -> HC
+    Initialisation:  0.000312577 s
+    @ MKL2DRINIT 1 6144 0.000312577
+    Computation:  0.117976
+    @ FFTW2DREXEC 1 6144 0.117976
+  C -> C
+    Initialisation:  0.000246187 s
+    @ MKL2DCINIT 1 6144 0.000246187
+    Computation:  0.761207
+    @ FFTW2DCEXEC 1 6144 0.761207
+3D
+  R -> HC
+    Initialisation:  0.000467801 s
+    @ MKL3DRINIT 1 6144 0.000467801
+    Computation:  0.21142
+    @ FFTW3DREXEC 1 6144 0.21142
+  C -> C
+    Initialisation:  0.000195683 s
+    @ MKL3DCINIT 1 6144 0.000195683
+    Computation:  0.782563
+    @ FFTW3DCEXEC 1 6144 0.782563
+Application 36220512 resources: utime ~65s, stime ~5s, Rss ~1942528, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  0.000108735 s
+    @ MKL1DRINIT 1 6144 0.000108735
+    Computation:  0.435448
+    @ FFTW1DREXEC 1 6144 0.435448
+  C -> C
+    Initialisation:  0.00345529 s
+    @ MKL1DCINIT 1 6144 0.00345529
+    Computation:  0.00271921
+    @ FFTW1DCEXEC 1 6144 0.00271921
+2D
+  R -> HC
+    Initialisation:  0.00030594 s
+    @ MKL2DRINIT 1 6144 0.00030594
+    Computation:  0.119326
+    @ FFTW2DREXEC 1 6144 0.119326
+  C -> C
+    Initialisation:  0.000204574 s
+    @ MKL2DCINIT 1 6144 0.000204574
+    Computation:  0.779194
+    @ FFTW2DCEXEC 1 6144 0.779194
+3D
+  R -> HC
+    Initialisation:  0.000426312 s
+    @ MKL3DRINIT 1 6144 0.000426312
+    Computation:  0.214814
+    @ FFTW3DREXEC 1 6144 0.214814
+  C -> C
+    Initialisation:  0.00018529 s
+    @ MKL3DCINIT 1 6144 0.00018529
+    Computation:  0.791371
+    @ FFTW3DCEXEC 1 6144 0.791371
+Application 36220513 resources: utime ~64s, stime ~5s, Rss ~1942532, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  0.00010754 s
+    @ MKL1DRINIT 1 6144 0.00010754
+    Computation:  0.4288
+    @ FFTW1DREXEC 1 6144 0.4288
+  C -> C
+    Initialisation:  0.00307304 s
+    @ MKL1DCINIT 1 6144 0.00307304
+    Computation:  0.00278788
+    @ FFTW1DCEXEC 1 6144 0.00278788
+2D
+  R -> HC
+    Initialisation:  0.000298903 s
+    @ MKL2DRINIT 1 6144 0.000298903
+    Computation:  0.117031
+    @ FFTW2DREXEC 1 6144 0.117031
+  C -> C
+    Initialisation:  0.000254927 s
+    @ MKL2DCINIT 1 6144 0.000254927
+    Computation:  0.75376
+    @ FFTW2DCEXEC 1 6144 0.75376
+3D
+  R -> HC
+    Initialisation:  0.000461882 s
+    @ MKL3DRINIT 1 6144 0.000461882
+    Computation:  0.237402
+    @ FFTW3DREXEC 1 6144 0.237402
+  C -> C
+    Initialisation:  0.000294016 s
+    @ MKL3DCINIT 1 6144 0.000294016
+    Computation:  0.776059
+    @ FFTW3DCEXEC 1 6144 0.776059
+Application 36220522 resources: utime ~65s, stime ~5s, Rss ~1942528, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  0.000111262 s
+    @ MKL1DRINIT 1 6144 0.000111262
+    Computation:  0.435145
+    @ FFTW1DREXEC 1 6144 0.435145
+  C -> C
+    Initialisation:  0.00349764 s
+    @ MKL1DCINIT 1 6144 0.00349764
+    Computation:  0.00271164
+    @ FFTW1DCEXEC 1 6144 0.00271164
+2D
+  R -> HC
+    Initialisation:  0.000298678 s
+    @ MKL2DRINIT 1 6144 0.000298678
+    Computation:  0.118437
+    @ FFTW2DREXEC 1 6144 0.118437
+  C -> C
+    Initialisation:  0.000259051 s
+    @ MKL2DCINIT 1 6144 0.000259051
+    Computation:  0.771615
+    @ FFTW2DCEXEC 1 6144 0.771615
+3D
+  R -> HC
+    Initialisation:  0.00047401 s
+    @ MKL3DRINIT 1 6144 0.00047401
+    Computation:  0.211347
+    @ FFTW3DREXEC 1 6144 0.211347
+  C -> C
+    Initialisation:  0.000202141 s
+    @ MKL3DCINIT 1 6144 0.000202141
+    Computation:  0.80429
+    @ FFTW3DCEXEC 1 6144 0.80429
+Application 36220526 resources: utime ~64s, stime ~5s, Rss ~1942528, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  R -> HC
+    Initialisation:  0.000105916 s
+    @ MKL1DRINIT 1 6144 0.000105916
+    Computation:  0.426275
+    @ FFTW1DREXEC 1 6144 0.426275
+  C -> C
+    Initialisation:  0.00339219 s
+    @ MKL1DCINIT 1 6144 0.00339219
+    Computation:  0.00280953
+    @ FFTW1DCEXEC 1 6144 0.00280953
+2D
+  R -> HC
+    Initialisation:  0.000314749 s
+    @ MKL2DRINIT 1 6144 0.000314749
+    Computation:  0.116764
+    @ FFTW2DREXEC 1 6144 0.116764
+  C -> C
+    Initialisation:  0.000253609 s
+    @ MKL2DCINIT 1 6144 0.000253609
+    Computation:  0.761504
+    @ FFTW2DCEXEC 1 6144 0.761504
+3D
+  R -> HC
+    Initialisation:  0.000465454 s
+    @ MKL3DRINIT 1 6144 0.000465454
+    Computation:  0.205382
+    @ FFTW3DREXEC 1 6144 0.205382
+  C -> C
+    Initialisation:  0.000199691 s
+    @ MKL3DCINIT 1 6144 0.000199691
+    Computation:  0.787773
+    @ FFTW3DCEXEC 1 6144 0.787773
+Application 36220529 resources: utime ~66s, stime ~4s, Rss ~1942528, inblocks ~51953, outblocks ~125881
+----------------
+N processes: 2
+N threads: 2
+
+1D
+  R -> HC
+    Initialisation:  0.000122458 s
+    @ MKL1DRINIT 2 6144 0.000122458
+    Computation:  0.429841
+    @ FFTW1DREXEC 2 6144 0.429841
+  C -> C
+    Initialisation:  0.00347759 s
+    @ MKL1DCINIT 2 6144 0.00347759
+    Computation:  0.0570437
+    @ FFTW1DCEXEC 2 6144 0.0570437
+2D
+  R -> HC
+    Initialisation:  0.000269956 s
+    @ MKL2DRINIT 2 6144 0.000269956
+    Computation:  0.141224
+    @ FFTW2DREXEC 2 6144 0.141224
+Application 36220532 exit signals: Segmentation fault
+Application 36220532 resources: utime ~38s, stime ~4s, Rss ~1948312, inblocks ~104696, outblocks ~251759
+----------------
+N processes: 2
+N threads: 2
+
+1D
+  R -> HC
+    Initialisation:  0.000119196 s
+    @ MKL1DRINIT 2 6144 0.000119196
+    Computation:  0.430954
+    @ FFTW1DREXEC 2 6144 0.430954
+  C -> C
+    Initialisation:  0.00324588 s
+    @ MKL1DCINIT 2 6144 0.00324588
+    Computation:  0.00576976
+    @ FFTW1DCEXEC 2 6144 0.00576976
+2D
+  R -> HC
+    Initialisation:  0.000284225 s
+    @ MKL2DRINIT 2 6144 0.000284225
+    Computation:  0.125586
+    @ FFTW2DREXEC 2 6144 0.125586
+Application 36220533 exit signals: Segmentation fault
+Application 36220533 resources: utime ~36s, stime ~4s, Rss ~1948312, inblocks ~104504, outblocks ~251759
+----------------
+N processes: 2
+N threads: 2
+
+1D
+  R -> HC
+    Initialisation:  0.000119559 s
+    @ MKL1DRINIT 2 6144 0.000119559
+    Computation:  0.434784
+    @ FFTW1DREXEC 2 6144 0.434784
+  C -> C
+    Initialisation:  0.00326913 s
+    @ MKL1DCINIT 2 6144 0.00326913
+    Computation:  0.00705223
+    @ FFTW1DCEXEC 2 6144 0.00705223
+2D
+  R -> HC
+    Initialisation:  0.000262056 s
+    @ MKL2DRINIT 2 6144 0.000262056
+    Computation:  0.116763
+    @ FFTW2DREXEC 2 6144 0.116763
+Application 36220536 exit signals: Segmentation fault
+Application 36220536 resources: utime ~35s, stime ~4s, Rss ~1948312, inblocks ~104716, outblocks ~251759
+----------------
+N processes: 2
+N threads: 2
+
+1D
+  R -> HC
+    Initialisation:  0.000119063 s
+    @ MKL1DRINIT 2 6144 0.000119063
+    Computation:  0.425783
+    @ FFTW1DREXEC 2 6144 0.425783
+  C -> C
+    Initialisation:  0.00322364 s
+    @ MKL1DCINIT 2 6144 0.00322364
+    Computation:  0.00976219
+    @ FFTW1DCEXEC 2 6144 0.00976219
+2D
+  R -> HC
+    Initialisation:  0.000282941 s
+    @ MKL2DRINIT 2 6144 0.000282941
+    Computation:  0.125357
+    @ FFTW2DREXEC 2 6144 0.125357
+Application 36220539 exit signals: Segmentation fault
+Application 36220539 resources: utime ~36s, stime ~4s, Rss ~1948316, inblocks ~104522, outblocks ~251759
+----------------
+N processes: 2
+N threads: 2
+
+1D
+  R -> HC
+    Initialisation:  0.000121819 s
+    @ MKL1DRINIT 2 6144 0.000121819
+    Computation:  0.434582
+    @ FFTW1DREXEC 2 6144 0.434582
+  C -> C
+    Initialisation:  0.00271426 s
+    @ MKL1DCINIT 2 6144 0.00271426
+    Computation:  0.0060344
+    @ FFTW1DCEXEC 2 6144 0.0060344
+2D
+  R -> HC
+    Initialisation:  0.0002684 s
+    @ MKL2DRINIT 2 6144 0.0002684
+    Computation:  0.156874
+    @ FFTW2DREXEC 2 6144 0.156874
+Application 36220541 exit signals: Segmentation fault
+Application 36220541 resources: utime ~36s, stime ~4s, Rss ~1948312, inblocks ~104695, outblocks ~251759
+----------------
+N processes: 2
+N threads: 2
+
+1D
+  R -> HC
+    Initialisation:  0.000116492 s
+    @ MKL1DRINIT 2 6144 0.000116492
+    Computation:  0.430386
+    @ FFTW1DREXEC 2 6144 0.430386
+  C -> C
+    Initialisation:  0.00285826 s
+    @ MKL1DCINIT 2 6144 0.00285826
+    Computation:  0.00610477
+    @ FFTW1DCEXEC 2 6144 0.00610477
+2D
+  R -> HC
+    Initialisation:  0.000269073 s
+    @ MKL2DRINIT 2 6144 0.000269073
+    Computation:  0.116642
+    @ FFTW2DREXEC 2 6144 0.116642
+Application 36220543 exit signals: Segmentation fault
+Application 36220543 resources: utime ~36s, stime ~4s, Rss ~1948312, inblocks ~104505, outblocks ~251759
+----------------
+N processes: 2
+N threads: 2
+
+1D
+  R -> HC
+    Initialisation:  0.000120864 s
+    @ MKL1DRINIT 2 6144 0.000120864
+    Computation:  0.427402
+    @ FFTW1DREXEC 2 6144 0.427402
+  C -> C
+    Initialisation:  0.00330745 s
+    @ MKL1DCINIT 2 6144 0.00330745
+    Computation:  0.0292721
+    @ FFTW1DCEXEC 2 6144 0.0292721
+2D
+  R -> HC
+    Initialisation:  0.000269155 s
+    @ MKL2DRINIT 2 6144 0.000269155
+    Computation:  0.116043
+    @ FFTW2DREXEC 2 6144 0.116043
+Application 36220544 exit signals: Segmentation fault
+Application 36220544 resources: utime ~35s, stime ~4s, Rss ~1948316, inblocks ~104715, outblocks ~251759
+----------------
+N processes: 2
+N threads: 2
+
+1D
+  R -> HC
+    Initialisation:  0.000116158 s
+    @ MKL1DRINIT 2 6144 0.000116158
+    Computation:  0.425718
+    @ FFTW1DREXEC 2 6144 0.425718
+  C -> C
+    Initialisation:  0.00289876 s
+    @ MKL1DCINIT 2 6144 0.00289876
+    Computation:  0.0151907
+    @ FFTW1DCEXEC 2 6144 0.0151907
+2D
+  R -> HC
+    Initialisation:  0.000240782 s
+    @ MKL2DRINIT 2 6144 0.000240782
+    Computation:  0.126701
+    @ FFTW2DREXEC 2 6144 0.126701
+Application 36220546 exit signals: Segmentation fault
+Application 36220546 resources: utime ~36s, stime ~4s, Rss ~1948312, inblocks ~104503, outblocks ~251759
+----------------
+N processes: 2
+N threads: 2
+
+1D
+  R -> HC
+    Initialisation:  0.000118516 s
+    @ MKL1DRINIT 2 6144 0.000118516
+    Computation:  0.431252
+    @ FFTW1DREXEC 2 6144 0.431252
+  C -> C
+    Initialisation:  0.00342267 s
+    @ MKL1DCINIT 2 6144 0.00342267
+    Computation:  0.0111988
+    @ FFTW1DCEXEC 2 6144 0.0111988
+2D
+  R -> HC
+    Initialisation:  0.000249364 s
+    @ MKL2DRINIT 2 6144 0.000249364
+    Computation:  0.117848
+    @ FFTW2DREXEC 2 6144 0.117848
+Application 36220551 exit signals: Segmentation fault
+Application 36220551 resources: utime ~35s, stime ~4s, Rss ~1948312, inblocks ~104697, outblocks ~251759
+----------------
+N processes: 2
+N threads: 2
+
+1D
+  R -> HC
+    Initialisation:  0.000119388 s
+    @ MKL1DRINIT 2 6144 0.000119388
+    Computation:  0.430061
+    @ FFTW1DREXEC 2 6144 0.430061
+  C -> C
+    Initialisation:  0.00286466 s
+    @ MKL1DCINIT 2 6144 0.00286466
+    Computation:  0.00522525
+    @ FFTW1DCEXEC 2 6144 0.00522525
+2D
+  R -> HC
+    Initialisation:  0.000263085 s
+    @ MKL2DRINIT 2 6144 0.000263085
+    Computation:  0.121006
+    @ FFTW2DREXEC 2 6144 0.121006
+Application 36220557 exit signals: Segmentation fault
+Application 36220557 resources: utime ~36s, stime ~4s, Rss ~1948312, inblocks ~104504, outblocks ~251759
+----------------
+N processes: 4
+N threads: 4
+
+1D
+  R -> HC
+    Initialisation:  0.000120175 s
+    @ MKL1DRINIT 4 6144 0.000120175
+    Computation:  0.435185
+    @ FFTW1DREXEC 4 6144 0.435185
+  C -> C
+    Initialisation:  0.00295482 s
+    @ MKL1DCINIT 4 6144 0.00295482
+    Computation:  0.00365382
+    @ FFTW1DCEXEC 4 6144 0.00365382
+2D
+  R -> HC
+    Initialisation:  0.000320689 s
+    @ MKL2DRINIT 4 6144 0.000320689
+    Computation:  0.0597508
+    @ FFTW2DREXEC 4 6144 0.0597508
+Application 36220558 exit signals: Segmentation fault
+Application 36220558 resources: utime ~48s, stime ~8s, Rss ~1948312, inblocks ~210034, outblocks ~503517
+----------------
+N processes: 4
+N threads: 4
+
+1D
+  R -> HC
+    Initialisation:  0.000122497 s
+    @ MKL1DRINIT 4 6144 0.000122497
+    Computation:  0.43003
+    @ FFTW1DREXEC 4 6144 0.43003
+  C -> C
+    Initialisation:  0.00316322 s
+    @ MKL1DCINIT 4 6144 0.00316322
+    Computation:  0.00429705
+    @ FFTW1DCEXEC 4 6144 0.00429705
+2D
+  R -> HC
+    Initialisation:  0.00032429 s
+    @ MKL2DRINIT 4 6144 0.00032429
+    Computation:  0.116436
+    @ FFTW2DREXEC 4 6144 0.116436
+Application 36220559 exit signals: Segmentation fault
+Application 36220559 resources: utime ~56s, stime ~8s, Rss ~1948320, inblocks ~210037, outblocks ~503517
+----------------
+N processes: 4
+N threads: 4
+
+1D
+  R -> HC
+    Initialisation:  0.000120259 s
+    @ MKL1DRINIT 4 6144 0.000120259
+    Computation:  0.426994
+    @ FFTW1DREXEC 4 6144 0.426994
+  C -> C
+    Initialisation:  0.00285168 s
+    @ MKL1DCINIT 4 6144 0.00285168
+    Computation:  0.0845962
+    @ FFTW1DCEXEC 4 6144 0.0845962
+2D
+  R -> HC
+    Initialisation:  0.000296188 s
+    @ MKL2DRINIT 4 6144 0.000296188
+    Computation:  0.340114
+    @ FFTW2DREXEC 4 6144 0.340114
+Application 36220560 exit signals: Segmentation fault
+Application 36220560 resources: utime ~75s, stime ~8s, Rss ~1948312, inblocks ~210035, outblocks ~503517
+----------------
+N processes: 4
+N threads: 4
+
+1D
+  R -> HC
+    Initialisation:  0.000119887 s
+    @ MKL1DRINIT 4 6144 0.000119887
+    Computation:  0.432966
+    @ FFTW1DREXEC 4 6144 0.432966
+  C -> C
+    Initialisation:  0.00320908 s
+    @ MKL1DCINIT 4 6144 0.00320908
+    Computation:  0.00399551
+    @ FFTW1DCEXEC 4 6144 0.00399551
+2D
+  R -> HC
+    Initialisation:  0.000354495 s
+    @ MKL2DRINIT 4 6144 0.000354495
+    Computation:  0.0686254
+    @ FFTW2DREXEC 4 6144 0.0686254
+Application 36220566 exit signals: Segmentation fault
+Application 36220566 resources: utime ~51s, stime ~8s, Rss ~1948312, inblocks ~210073, outblocks ~503517
+----------------
+N processes: 4
+N threads: 4
+
+1D
+  R -> HC
+    Initialisation:  0.000119197 s
+    @ MKL1DRINIT 4 6144 0.000119197
+    Computation:  0.434145
+    @ FFTW1DREXEC 4 6144 0.434145
+  C -> C
+    Initialisation:  0.0028076 s
+    @ MKL1DCINIT 4 6144 0.0028076
+    Computation:  0.00324883
+    @ FFTW1DCEXEC 4 6144 0.00324883
+2D
+  R -> HC
+    Initialisation:  0.000339127 s
+    @ MKL2DRINIT 4 6144 0.000339127
+    Computation:  0.0598505
+    @ FFTW2DREXEC 4 6144 0.0598505
+Application 36220569 exit signals: Segmentation fault
+Application 36220569 resources: utime ~48s, stime ~8s, Rss ~1948312, inblocks ~210033, outblocks ~503517
+----------------
+N processes: 4
+N threads: 4
+
+1D
+  R -> HC
+    Initialisation:  0.00011998 s
+    @ MKL1DRINIT 4 6144 0.00011998
+    Computation:  0.4303
+    @ FFTW1DREXEC 4 6144 0.4303
+  C -> C
+    Initialisation:  0.00288444 s
+    @ MKL1DCINIT 4 6144 0.00288444
+    Computation:  0.0332089
+    @ FFTW1DCEXEC 4 6144 0.0332089
+2D
+  R -> HC
+    Initialisation:  0.000327447 s
+    @ MKL2DRINIT 4 6144 0.000327447
+    Computation:  0.0601958
+    @ FFTW2DREXEC 4 6144 0.0601958
+Application 36220570 exit signals: Segmentation fault
+Application 36220570 resources: utime ~49s, stime ~8s, Rss ~1948312, inblocks ~210036, outblocks ~503517
+----------------
+N processes: 4
+N threads: 4
+
+1D
+  R -> HC
+    Initialisation:  0.000120892 s
+    @ MKL1DRINIT 4 6144 0.000120892
+    Computation:  0.433869
+    @ FFTW1DREXEC 4 6144 0.433869
+  C -> C
+    Initialisation:  0.00291377 s
+    @ MKL1DCINIT 4 6144 0.00291377
+    Computation:  0.00505316
+    @ FFTW1DCEXEC 4 6144 0.00505316
+2D
+  R -> HC
+    Initialisation:  0.000369277 s
+    @ MKL2DRINIT 4 6144 0.000369277
+    Computation:  0.0666565
+    @ FFTW2DREXEC 4 6144 0.0666565
+Application 36220572 exit signals: Segmentation fault
+Application 36220572 resources: utime ~51s, stime ~8s, Rss ~1948320, inblocks ~210054, outblocks ~503517
+----------------
+N processes: 4
+N threads: 4
+
+1D
+  R -> HC
+    Initialisation:  0.000118722 s
+    @ MKL1DRINIT 4 6144 0.000118722
+    Computation:  0.431032
+    @ FFTW1DREXEC 4 6144 0.431032
+  C -> C
+    Initialisation:  0.00288929 s
+    @ MKL1DCINIT 4 6144 0.00288929
+    Computation:  0.0225254
+    @ FFTW1DCEXEC 4 6144 0.0225254
+2D
+  R -> HC
+    Initialisation:  0.000351597 s
+    @ MKL2DRINIT 4 6144 0.000351597
+    Computation:  0.0907727
+    @ FFTW2DREXEC 4 6144 0.0907727
+Application 36220575 exit signals: Segmentation fault
+Application 36220575 resources: utime ~52s, stime ~8s, Rss ~1948312, inblocks ~210032, outblocks ~503517
+----------------
+N processes: 4
+N threads: 4
+
+1D
+  R -> HC
+    Initialisation:  0.000123194 s
+    @ MKL1DRINIT 4 6144 0.000123194
+    Computation:  0.433937
+    @ FFTW1DREXEC 4 6144 0.433937
+  C -> C
+    Initialisation:  0.00287082 s
+    @ MKL1DCINIT 4 6144 0.00287082
+    Computation:  0.0396622
+    @ FFTW1DCEXEC 4 6144 0.0396622
+2D
+  R -> HC
+    Initialisation:  0.000311774 s
+    @ MKL2DRINIT 4 6144 0.000311774
+    Computation:  0.271077
+    @ FFTW2DREXEC 4 6144 0.271077
+Application 36220579 exit signals: Segmentation fault
+Application 36220579 resources: utime ~68s, stime ~8s, Rss ~1948316, inblocks ~210037, outblocks ~503517
+----------------
+N processes: 4
+N threads: 4
+
+1D
+  R -> HC
+    Initialisation:  0.000123819 s
+    @ MKL1DRINIT 4 6144 0.000123819
+    Computation:  0.428944
+    @ FFTW1DREXEC 4 6144 0.428944
+  C -> C
+    Initialisation:  0.00322878 s
+    @ MKL1DCINIT 4 6144 0.00322878
+    Computation:  0.0139502
+    @ FFTW1DCEXEC 4 6144 0.0139502
+2D
+  R -> HC
+    Initialisation:  0.000316342 s
+    @ MKL2DRINIT 4 6144 0.000316342
+    Computation:  0.0658711
+    @ FFTW2DREXEC 4 6144 0.0658711
+Application 36220580 exit signals: Segmentation fault
+Application 36220580 resources: utime ~50s, stime ~8s, Rss ~1948316, inblocks ~210035, outblocks ~503517
