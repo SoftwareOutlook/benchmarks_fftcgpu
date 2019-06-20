@@ -8,330 +8,250 @@ N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000350985
-    @ FFTW1DCINIT 1 0.000350985
-    Execution: 1 0.000146954
-    @ FFTW1DCEXEC 1 0.000146954
+    Initialisation: 1 0.000328597
+    @ FFTW1DCINIT 1 0.000328597
+    Execution: 1 0.000123538
+    @ FFTW1DCEXEC 1 0.000123538
 2D
   R -> HC
-    Initialisation: 1 0.00707455
-    @ FFTW2DRINIT 1 0.00707455
-    Execution: 1 0.495906
-    @ FFTW2DREXEC 1 0.495906
+    Initialisation: 1 0.00699238
+    @ FFTW2DRINIT 1 0.00699238
+    Execution: 1 0.49583
+    @ FFTW2DREXEC 1 0.49583
   C-> C
-    Initialisation: 1 0.00540662
-    @ FFTW2DCINIT 1 0.00540662
-    Execution: 1 1.74054
-    @ FFTW2DCEXEC 1 1.74054
+    Initialisation: 1 0.00562848
+    @ FFTW2DCINIT 1 0.00562848
+    Execution: 1 1.65151
+    @ FFTW2DCEXEC 1 1.65151
 3D
   R -> HC
-    Initialisation: 1 0.000493011
-    @FFTW3DRINIT 1 0.000493011
-    Execution: 1 1.61149
-    @ FFTW3DREXEC 1 1.61149
-  C -> C
-    Initialisation: 1 0.000280949
-    @ FFTW3DCINIT 1 0.000280949
-    Execution: 1 1.7068
-    @ FFTW3DCEXEC 1 1.7068
-Application 36218122 resources: utime ~6s, stime ~2s, Rss ~1184220, inblocks ~11311, outblocks ~28883
+Application 36240805 exit signals: Segmentation fault
+Application 36240805 resources: utime ~2s, stime ~1s, Rss ~1184152, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000349644
-    @ FFTW1DCINIT 1 0.000349644
-    Execution: 1 0.000154777
-    @ FFTW1DCEXEC 1 0.000154777
+    Initialisation: 1 0.000321764
+    @ FFTW1DCINIT 1 0.000321764
+    Execution: 1 0.000144873
+    @ FFTW1DCEXEC 1 0.000144873
 2D
   R -> HC
-    Initialisation: 1 0.00718457
-    @ FFTW2DRINIT 1 0.00718457
-    Execution: 1 0.498164
-    @ FFTW2DREXEC 1 0.498164
+    Initialisation: 1 0.0071433
+    @ FFTW2DRINIT 1 0.0071433
+    Execution: 1 0.496062
+    @ FFTW2DREXEC 1 0.496062
   C-> C
-    Initialisation: 1 0.00564713
-    @ FFTW2DCINIT 1 0.00564713
-    Execution: 1 1.64111
-    @ FFTW2DCEXEC 1 1.64111
+    Initialisation: 1 0.00531086
+    @ FFTW2DCINIT 1 0.00531086
+    Execution: 1 1.61228
+    @ FFTW2DCEXEC 1 1.61228
 3D
   R -> HC
-    Initialisation: 1 0.00049631
-    @FFTW3DRINIT 1 0.00049631
-    Execution: 1 1.58356
-    @ FFTW3DREXEC 1 1.58356
-  C -> C
-    Initialisation: 1 0.00033676
-    @ FFTW3DCINIT 1 0.00033676
-    Execution: 1 1.65538
-    @ FFTW3DCEXEC 1 1.65538
-Application 36218129 resources: utime ~5s, stime ~2s, Rss ~1184220, inblocks ~11311, outblocks ~28883
+Application 36240808 exit signals: Segmentation fault
+Application 36240808 resources: utime ~2s, stime ~1s, Rss ~1184152, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.00034262
-    @ FFTW1DCINIT 1 0.00034262
-    Execution: 1 0.000159407
-    @ FFTW1DCEXEC 1 0.000159407
+    Initialisation: 1 0.000323017
+    @ FFTW1DCINIT 1 0.000323017
+    Execution: 1 0.000109016
+    @ FFTW1DCEXEC 1 0.000109016
 2D
   R -> HC
-    Initialisation: 1 0.00713958
-    @ FFTW2DRINIT 1 0.00713958
-    Execution: 1 0.4958
-    @ FFTW2DREXEC 1 0.4958
+    Initialisation: 1 0.00703811
+    @ FFTW2DRINIT 1 0.00703811
+    Execution: 1 0.496184
+    @ FFTW2DREXEC 1 0.496184
   C-> C
-    Initialisation: 1 0.0053417
-    @ FFTW2DCINIT 1 0.0053417
-    Execution: 1 1.75773
-    @ FFTW2DCEXEC 1 1.75773
+    Initialisation: 1 0.00547511
+    @ FFTW2DCINIT 1 0.00547511
+    Execution: 1 1.64435
+    @ FFTW2DCEXEC 1 1.64435
 3D
   R -> HC
-    Initialisation: 1 0.000422229
-    @FFTW3DRINIT 1 0.000422229
-    Execution: 1 1.61755
-    @ FFTW3DREXEC 1 1.61755
-  C -> C
-    Initialisation: 1 0.000277467
-    @ FFTW3DCINIT 1 0.000277467
-    Execution: 1 1.73723
-    @ FFTW3DCEXEC 1 1.73723
-Application 36218136 resources: utime ~6s, stime ~2s, Rss ~1184220, inblocks ~11311, outblocks ~28883
+Application 36240810 exit signals: Segmentation fault
+Application 36240810 resources: utime ~2s, stime ~1s, Rss ~1184152, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000354549
-    @ FFTW1DCINIT 1 0.000354549
-    Execution: 1 0.00018136
-    @ FFTW1DCEXEC 1 0.00018136
+    Initialisation: 1 0.000321769
+    @ FFTW1DCINIT 1 0.000321769
+    Execution: 1 0.000122462
+    @ FFTW1DCEXEC 1 0.000122462
 2D
   R -> HC
-    Initialisation: 1 0.00720182
-    @ FFTW2DRINIT 1 0.00720182
-    Execution: 1 0.495594
-    @ FFTW2DREXEC 1 0.495594
+    Initialisation: 1 0.00712722
+    @ FFTW2DRINIT 1 0.00712722
+    Execution: 1 0.49659
+    @ FFTW2DREXEC 1 0.49659
   C-> C
-    Initialisation: 1 0.00550046
-    @ FFTW2DCINIT 1 0.00550046
-    Execution: 1 1.74117
-    @ FFTW2DCEXEC 1 1.74117
+    Initialisation: 1 0.00539778
+    @ FFTW2DCINIT 1 0.00539778
+    Execution: 1 1.61873
+    @ FFTW2DCEXEC 1 1.61873
 3D
   R -> HC
-    Initialisation: 1 0.000417226
-    @FFTW3DRINIT 1 0.000417226
-    Execution: 1 1.61382
-    @ FFTW3DREXEC 1 1.61382
-  C -> C
-    Initialisation: 1 0.00029399
-    @ FFTW3DCINIT 1 0.00029399
-    Execution: 1 1.72132
-    @ FFTW3DCEXEC 1 1.72132
-Application 36218142 resources: utime ~6s, stime ~2s, Rss ~1184220, inblocks ~11311, outblocks ~28883
+Application 36240814 exit signals: Segmentation fault
+Application 36240814 resources: utime ~2s, stime ~1s, Rss ~1184152, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000350767
-    @ FFTW1DCINIT 1 0.000350767
-    Execution: 1 0.000141757
-    @ FFTW1DCEXEC 1 0.000141757
+    Initialisation: 1 0.000328922
+    @ FFTW1DCINIT 1 0.000328922
+    Execution: 1 0.000109619
+    @ FFTW1DCEXEC 1 0.000109619
 2D
   R -> HC
-    Initialisation: 1 0.00699642
-    @ FFTW2DRINIT 1 0.00699642
-    Execution: 1 0.496706
-    @ FFTW2DREXEC 1 0.496706
+    Initialisation: 1 0.00718204
+    @ FFTW2DRINIT 1 0.00718204
+    Execution: 1 0.495712
+    @ FFTW2DREXEC 1 0.495712
   C-> C
-    Initialisation: 1 0.00550516
-    @ FFTW2DCINIT 1 0.00550516
-    Execution: 1 1.64664
-    @ FFTW2DCEXEC 1 1.64664
+    Initialisation: 1 0.00540607
+    @ FFTW2DCINIT 1 0.00540607
+    Execution: 1 1.64762
+    @ FFTW2DCEXEC 1 1.64762
 3D
   R -> HC
-    Initialisation: 1 0.000522558
-    @FFTW3DRINIT 1 0.000522558
-    Execution: 1 1.58178
-    @ FFTW3DREXEC 1 1.58178
-  C -> C
-    Initialisation: 1 0.00029373
-    @ FFTW3DCINIT 1 0.00029373
-    Execution: 1 1.65277
-    @ FFTW3DCEXEC 1 1.65277
-Application 36218149 resources: utime ~5s, stime ~2s, Rss ~1184220, inblocks ~11311, outblocks ~28883
+Application 36240816 exit signals: Segmentation fault
+Application 36240816 resources: utime ~2s, stime ~1s, Rss ~1184152, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000350089
-    @ FFTW1DCINIT 1 0.000350089
-    Execution: 1 0.000148658
-    @ FFTW1DCEXEC 1 0.000148658
+    Initialisation: 1 0.00032928
+    @ FFTW1DCINIT 1 0.00032928
+    Execution: 1 0.000134837
+    @ FFTW1DCEXEC 1 0.000134837
 2D
   R -> HC
-    Initialisation: 1 0.00691559
-    @ FFTW2DRINIT 1 0.00691559
-    Execution: 1 0.496019
-    @ FFTW2DREXEC 1 0.496019
+    Initialisation: 1 0.00704543
+    @ FFTW2DRINIT 1 0.00704543
+    Execution: 1 0.496065
+    @ FFTW2DREXEC 1 0.496065
   C-> C
-    Initialisation: 1 0.00528813
-    @ FFTW2DCINIT 1 0.00528813
-    Execution: 1 1.74217
-    @ FFTW2DCEXEC 1 1.74217
+    Initialisation: 1 0.00551009
+    @ FFTW2DCINIT 1 0.00551009
+    Execution: 1 1.6125
+    @ FFTW2DCEXEC 1 1.6125
 3D
   R -> HC
-    Initialisation: 1 0.000491169
-    @FFTW3DRINIT 1 0.000491169
-    Execution: 1 1.6115
-    @ FFTW3DREXEC 1 1.6115
-  C -> C
-    Initialisation: 1 0.000279147
-    @ FFTW3DCINIT 1 0.000279147
-    Execution: 1 1.72635
-    @ FFTW3DCEXEC 1 1.72635
-Application 36218155 resources: utime ~6s, stime ~2s, Rss ~1184220, inblocks ~11311, outblocks ~28883
+Application 36240818 exit signals: Segmentation fault
+Application 36240818 resources: utime ~2s, stime ~1s, Rss ~1184152, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000352603
-    @ FFTW1DCINIT 1 0.000352603
-    Execution: 1 0.000151936
-    @ FFTW1DCEXEC 1 0.000151936
+    Initialisation: 1 0.000322062
+    @ FFTW1DCINIT 1 0.000322062
+    Execution: 1 0.000109265
+    @ FFTW1DCEXEC 1 0.000109265
 2D
   R -> HC
-    Initialisation: 1 0.00696711
-    @ FFTW2DRINIT 1 0.00696711
-    Execution: 1 0.495412
-    @ FFTW2DREXEC 1 0.495412
+    Initialisation: 1 0.007087
+    @ FFTW2DRINIT 1 0.007087
+    Execution: 1 0.495744
+    @ FFTW2DREXEC 1 0.495744
   C-> C
-    Initialisation: 1 0.00548764
-    @ FFTW2DCINIT 1 0.00548764
-    Execution: 1 1.64243
-    @ FFTW2DCEXEC 1 1.64243
+    Initialisation: 1 0.00545522
+    @ FFTW2DCINIT 1 0.00545522
+    Execution: 1 1.63733
+    @ FFTW2DCEXEC 1 1.63733
 3D
   R -> HC
-    Initialisation: 1 0.000478149
-    @FFTW3DRINIT 1 0.000478149
-    Execution: 1 1.5771
-    @ FFTW3DREXEC 1 1.5771
-  C -> C
-    Initialisation: 1 0.000330803
-    @ FFTW3DCINIT 1 0.000330803
-    Execution: 1 1.60294
-    @ FFTW3DCEXEC 1 1.60294
-Application 36218160 resources: utime ~5s, stime ~2s, Rss ~1184220, inblocks ~11311, outblocks ~28883
+Application 36240821 exit signals: Segmentation fault
+Application 36240821 resources: utime ~2s, stime ~1s, Rss ~1184152, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000340982
-    @ FFTW1DCINIT 1 0.000340982
-    Execution: 1 0.000158192
-    @ FFTW1DCEXEC 1 0.000158192
+    Initialisation: 1 0.000316861
+    @ FFTW1DCINIT 1 0.000316861
+    Execution: 1 0.000123722
+    @ FFTW1DCEXEC 1 0.000123722
 2D
   R -> HC
-    Initialisation: 1 0.00700295
-    @ FFTW2DRINIT 1 0.00700295
-    Execution: 1 0.49571
-    @ FFTW2DREXEC 1 0.49571
+    Initialisation: 1 0.00699157
+    @ FFTW2DRINIT 1 0.00699157
+    Execution: 1 0.49584
+    @ FFTW2DREXEC 1 0.49584
   C-> C
-    Initialisation: 1 0.00543481
-    @ FFTW2DCINIT 1 0.00543481
-    Execution: 1 1.73148
-    @ FFTW2DCEXEC 1 1.73148
+    Initialisation: 1 0.00559329
+    @ FFTW2DCINIT 1 0.00559329
+    Execution: 1 1.61017
+    @ FFTW2DCEXEC 1 1.61017
 3D
   R -> HC
-    Initialisation: 1 0.000444696
-    @FFTW3DRINIT 1 0.000444696
-    Execution: 1 1.61126
-    @ FFTW3DREXEC 1 1.61126
-  C -> C
-    Initialisation: 1 0.000276987
-    @ FFTW3DCINIT 1 0.000276987
-    Execution: 1 1.72524
-    @ FFTW3DCEXEC 1 1.72524
-Application 36218164 resources: utime ~6s, stime ~2s, Rss ~1184220, inblocks ~11311, outblocks ~28883
+Application 36240824 exit signals: Segmentation fault
+Application 36240824 resources: utime ~2s, stime ~1s, Rss ~1184152, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000343737
-    @ FFTW1DCINIT 1 0.000343737
-    Execution: 1 0.000150842
-    @ FFTW1DCEXEC 1 0.000150842
+    Initialisation: 1 0.000317271
+    @ FFTW1DCINIT 1 0.000317271
+    Execution: 1 0.000135145
+    @ FFTW1DCEXEC 1 0.000135145
 2D
   R -> HC
-    Initialisation: 1 0.00714768
-    @ FFTW2DRINIT 1 0.00714768
-    Execution: 1 0.497267
-    @ FFTW2DREXEC 1 0.497267
+    Initialisation: 1 0.00707403
+    @ FFTW2DRINIT 1 0.00707403
+    Execution: 1 0.495842
+    @ FFTW2DREXEC 1 0.495842
   C-> C
-    Initialisation: 1 0.00530156
-    @ FFTW2DCINIT 1 0.00530156
-    Execution: 1 1.65576
-    @ FFTW2DCEXEC 1 1.65576
+    Initialisation: 1 0.00527248
+    @ FFTW2DCINIT 1 0.00527248
+    Execution: 1 1.6482
+    @ FFTW2DCEXEC 1 1.6482
 3D
   R -> HC
-    Initialisation: 1 0.000406444
-    @FFTW3DRINIT 1 0.000406444
-    Execution: 1 1.57939
-    @ FFTW3DREXEC 1 1.57939
-  C -> C
-    Initialisation: 1 0.00033216
-    @ FFTW3DCINIT 1 0.00033216
-    Execution: 1 1.66009
-    @ FFTW3DCEXEC 1 1.66009
-Application 36218169 resources: utime ~5s, stime ~2s, Rss ~1184220, inblocks ~11311, outblocks ~28883
+Application 36240827 exit signals: Segmentation fault
+Application 36240827 resources: utime ~2s, stime ~1s, Rss ~1184152, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000351046
-    @ FFTW1DCINIT 1 0.000351046
-    Execution: 1 0.000163112
-    @ FFTW1DCEXEC 1 0.000163112
+    Initialisation: 1 0.000326149
+    @ FFTW1DCINIT 1 0.000326149
+    Execution: 1 0.000120549
+    @ FFTW1DCEXEC 1 0.000120549
 2D
   R -> HC
-    Initialisation: 1 0.00714758
-    @ FFTW2DRINIT 1 0.00714758
-    Execution: 1 0.497302
-    @ FFTW2DREXEC 1 0.497302
+    Initialisation: 1 0.0070038
+    @ FFTW2DRINIT 1 0.0070038
+    Execution: 1 0.495946
+    @ FFTW2DREXEC 1 0.495946
   C-> C
-    Initialisation: 1 0.005482
-    @ FFTW2DCINIT 1 0.005482
-    Execution: 1 1.72587
-    @ FFTW2DCEXEC 1 1.72587
+    Initialisation: 1 0.00529901
+    @ FFTW2DCINIT 1 0.00529901
+    Execution: 1 1.61509
+    @ FFTW2DCEXEC 1 1.61509
 3D
   R -> HC
-    Initialisation: 1 0.00049845
-    @FFTW3DRINIT 1 0.00049845
-    Execution: 1 1.62697
-    @ FFTW3DREXEC 1 1.62697
-  C -> C
-    Initialisation: 1 0.000337362
-    @ FFTW3DCINIT 1 0.000337362
-    Execution: 1 1.75275
-    @ FFTW3DCEXEC 1 1.75275
-Application 36218175 resources: utime ~6s, stime ~2s, Rss ~1184220, inblocks ~11311, outblocks ~28883
+Application 36240829 exit signals: Segmentation fault
+Application 36240829 resources: utime ~2s, stime ~1s, Rss ~1184152, inblocks ~11310, outblocks ~28883
 ===========================\n
 1 process\n
 2 thread\n
@@ -341,330 +261,250 @@ N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000403005
-    @ FFTW1DCINIT 1 0.000403005
-    Execution: 1 0.000158244
-    @ FFTW1DCEXEC 1 0.000158244
+    Initialisation: 1 0.000397183
+    @ FFTW1DCINIT 1 0.000397183
+    Execution: 1 0.000107226
+    @ FFTW1DCEXEC 1 0.000107226
 2D
   R -> HC
-    Initialisation: 1 0.00720718
-    @ FFTW2DRINIT 1 0.00720718
-    Execution: 1 0.496005
-    @ FFTW2DREXEC 1 0.496005
+    Initialisation: 1 0.00708868
+    @ FFTW2DRINIT 1 0.00708868
+    Execution: 1 0.495405
+    @ FFTW2DREXEC 1 0.495405
   C-> C
-    Initialisation: 1 0.00548121
-    @ FFTW2DCINIT 1 0.00548121
-    Execution: 1 1.65286
-    @ FFTW2DCEXEC 1 1.65286
+    Initialisation: 1 0.00542943
+    @ FFTW2DCINIT 1 0.00542943
+    Execution: 1 1.64517
+    @ FFTW2DCEXEC 1 1.64517
 3D
   R -> HC
-    Initialisation: 1 0.000482244
-    @FFTW3DRINIT 1 0.000482244
-    Execution: 1 1.58568
-    @ FFTW3DREXEC 1 1.58568
-  C -> C
-    Initialisation: 1 0.000359016
-    @ FFTW3DCINIT 1 0.000359016
-    Execution: 1 1.62197
-    @ FFTW3DCEXEC 1 1.62197
-Application 36218182 resources: utime ~5s, stime ~2s, Rss ~1184296, inblocks ~11311, outblocks ~28883
+Application 36240830 exit signals: Segmentation fault
+Application 36240830 resources: utime ~2s, stime ~1s, Rss ~1184216, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000317421
-    @ FFTW1DCINIT 1 0.000317421
-    Execution: 1 0.000132624
-    @ FFTW1DCEXEC 1 0.000132624
+    Initialisation: 1 0.000399438
+    @ FFTW1DCINIT 1 0.000399438
+    Execution: 1 0.000151303
+    @ FFTW1DCEXEC 1 0.000151303
 2D
   R -> HC
-    Initialisation: 1 0.0072609
-    @ FFTW2DRINIT 1 0.0072609
-    Execution: 1 0.496066
-    @ FFTW2DREXEC 1 0.496066
+    Initialisation: 1 0.00708616
+    @ FFTW2DRINIT 1 0.00708616
+    Execution: 1 0.495584
+    @ FFTW2DREXEC 1 0.495584
   C-> C
-    Initialisation: 1 0.00551168
-    @ FFTW2DCINIT 1 0.00551168
-    Execution: 1 1.74587
-    @ FFTW2DCEXEC 1 1.74587
+    Initialisation: 1 0.00549661
+    @ FFTW2DCINIT 1 0.00549661
+    Execution: 1 1.61335
+    @ FFTW2DCEXEC 1 1.61335
 3D
   R -> HC
-    Initialisation: 1 0.000496368
-    @FFTW3DRINIT 1 0.000496368
-    Execution: 1 1.60356
-    @ FFTW3DREXEC 1 1.60356
-  C -> C
-    Initialisation: 1 0.000355387
-    @ FFTW3DCINIT 1 0.000355387
-    Execution: 1 1.73923
-    @ FFTW3DCEXEC 1 1.73923
-Application 36218188 resources: utime ~6s, stime ~2s, Rss ~1184296, inblocks ~11311, outblocks ~28883
+Application 36240834 exit signals: Segmentation fault
+Application 36240834 resources: utime ~2s, stime ~1s, Rss ~1184216, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000413495
-    @ FFTW1DCINIT 1 0.000413495
-    Execution: 1 0.000156276
-    @ FFTW1DCEXEC 1 0.000156276
+    Initialisation: 1 0.000394241
+    @ FFTW1DCINIT 1 0.000394241
+    Execution: 1 0.000102741
+    @ FFTW1DCEXEC 1 0.000102741
 2D
   R -> HC
-    Initialisation: 1 0.00724722
-    @ FFTW2DRINIT 1 0.00724722
-    Execution: 1 0.495517
-    @ FFTW2DREXEC 1 0.495517
+    Initialisation: 1 0.00727096
+    @ FFTW2DRINIT 1 0.00727096
+    Execution: 1 0.49519
+    @ FFTW2DREXEC 1 0.49519
   C-> C
-    Initialisation: 1 0.00544751
-    @ FFTW2DCINIT 1 0.00544751
-    Execution: 1 1.64559
-    @ FFTW2DCEXEC 1 1.64559
+    Initialisation: 1 0.0055845
+    @ FFTW2DCINIT 1 0.0055845
+    Execution: 1 1.65024
+    @ FFTW2DCEXEC 1 1.65024
 3D
   R -> HC
-    Initialisation: 1 0.0004143
-    @FFTW3DRINIT 1 0.0004143
-    Execution: 1 1.58463
-    @ FFTW3DREXEC 1 1.58463
-  C -> C
-    Initialisation: 1 0.000279663
-    @ FFTW3DCINIT 1 0.000279663
-    Execution: 1 1.60859
-    @ FFTW3DCEXEC 1 1.60859
-Application 36218194 resources: utime ~5s, stime ~2s, Rss ~1184296, inblocks ~11311, outblocks ~28883
+Application 36240837 exit signals: Segmentation fault
+Application 36240837 resources: utime ~2s, stime ~1s, Rss ~1184216, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000402666
-    @ FFTW1DCINIT 1 0.000402666
-    Execution: 1 0.000162478
-    @ FFTW1DCEXEC 1 0.000162478
+    Initialisation: 1 0.00039306
+    @ FFTW1DCINIT 1 0.00039306
+    Execution: 1 0.000102553
+    @ FFTW1DCEXEC 1 0.000102553
 2D
   R -> HC
-    Initialisation: 1 0.00711189
-    @ FFTW2DRINIT 1 0.00711189
-    Execution: 1 0.496362
-    @ FFTW2DREXEC 1 0.496362
+    Initialisation: 1 0.00724671
+    @ FFTW2DRINIT 1 0.00724671
+    Execution: 1 0.497936
+    @ FFTW2DREXEC 1 0.497936
   C-> C
-    Initialisation: 1 0.00561516
-    @ FFTW2DCINIT 1 0.00561516
-    Execution: 1 1.75748
-    @ FFTW2DCEXEC 1 1.75748
+    Initialisation: 1 0.00567128
+    @ FFTW2DCINIT 1 0.00567128
+    Execution: 1 1.62259
+    @ FFTW2DCEXEC 1 1.62259
 3D
   R -> HC
-    Initialisation: 1 0.000506977
-    @FFTW3DRINIT 1 0.000506977
-    Execution: 1 1.62614
-    @ FFTW3DREXEC 1 1.62614
-  C -> C
-    Initialisation: 1 0.000280042
-    @ FFTW3DCINIT 1 0.000280042
-    Execution: 1 1.74475
-    @ FFTW3DCEXEC 1 1.74475
-Application 36218198 resources: utime ~6s, stime ~2s, Rss ~1184296, inblocks ~11311, outblocks ~28883
+Application 36240839 exit signals: Segmentation fault
+Application 36240839 resources: utime ~2s, stime ~1s, Rss ~1184216, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000412626
-    @ FFTW1DCINIT 1 0.000412626
-    Execution: 1 0.000157593
-    @ FFTW1DCEXEC 1 0.000157593
+    Initialisation: 1 0.000388392
+    @ FFTW1DCINIT 1 0.000388392
+    Execution: 1 0.000107262
+    @ FFTW1DCEXEC 1 0.000107262
 2D
   R -> HC
-    Initialisation: 1 0.00729809
-    @ FFTW2DRINIT 1 0.00729809
-    Execution: 1 0.500608
-    @ FFTW2DREXEC 1 0.500608
+    Initialisation: 1 0.00717716
+    @ FFTW2DRINIT 1 0.00717716
+    Execution: 1 0.49542
+    @ FFTW2DREXEC 1 0.49542
   C-> C
-    Initialisation: 1 0.00544382
-    @ FFTW2DCINIT 1 0.00544382
-    Execution: 1 1.64716
-    @ FFTW2DCEXEC 1 1.64716
+    Initialisation: 1 0.0054414
+    @ FFTW2DCINIT 1 0.0054414
+    Execution: 1 1.64541
+    @ FFTW2DCEXEC 1 1.64541
 3D
   R -> HC
-    Initialisation: 1 0.000415924
-    @FFTW3DRINIT 1 0.000415924
-    Execution: 1 1.59818
-    @ FFTW3DREXEC 1 1.59818
-  C -> C
-    Initialisation: 1 0.000339533
-    @ FFTW3DCINIT 1 0.000339533
-    Execution: 1 1.65737
-    @ FFTW3DCEXEC 1 1.65737
-Application 36218207 resources: utime ~5s, stime ~2s, Rss ~1184296, inblocks ~11311, outblocks ~28883
+Application 36240842 exit signals: Segmentation fault
+Application 36240842 resources: utime ~2s, stime ~1s, Rss ~1184216, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000413706
-    @ FFTW1DCINIT 1 0.000413706
-    Execution: 1 0.000153199
-    @ FFTW1DCEXEC 1 0.000153199
+    Initialisation: 1 0.000387668
+    @ FFTW1DCINIT 1 0.000387668
+    Execution: 1 0.000102511
+    @ FFTW1DCEXEC 1 0.000102511
 2D
   R -> HC
-    Initialisation: 1 0.00726639
-    @ FFTW2DRINIT 1 0.00726639
-    Execution: 1 0.495369
-    @ FFTW2DREXEC 1 0.495369
+    Initialisation: 1 0.00710803
+    @ FFTW2DRINIT 1 0.00710803
+    Execution: 1 0.496436
+    @ FFTW2DREXEC 1 0.496436
   C-> C
-    Initialisation: 1 0.00560009
-    @ FFTW2DCINIT 1 0.00560009
-    Execution: 1 1.75257
-    @ FFTW2DCEXEC 1 1.75257
+    Initialisation: 1 0.00538928
+    @ FFTW2DCINIT 1 0.00538928
+    Execution: 1 1.61445
+    @ FFTW2DCEXEC 1 1.61445
 3D
   R -> HC
-    Initialisation: 1 0.000436343
-    @FFTW3DRINIT 1 0.000436343
-    Execution: 1 1.61209
-    @ FFTW3DREXEC 1 1.61209
-  C -> C
-    Initialisation: 1 0.000357908
-    @ FFTW3DCINIT 1 0.000357908
-    Execution: 1 1.7401
-    @ FFTW3DCEXEC 1 1.7401
-Application 36218215 resources: utime ~6s, stime ~2s, Rss ~1184296, inblocks ~11311, outblocks ~28883
+Application 36240845 exit signals: Segmentation fault
+Application 36240845 resources: utime ~2s, stime ~1s, Rss ~1184216, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000428193
-    @ FFTW1DCINIT 1 0.000428193
-    Execution: 1 0.000158699
-    @ FFTW1DCEXEC 1 0.000158699
+    Initialisation: 1 0.000387318
+    @ FFTW1DCINIT 1 0.000387318
+    Execution: 1 0.00011065
+    @ FFTW1DCEXEC 1 0.00011065
 2D
   R -> HC
-    Initialisation: 1 0.00724279
-    @ FFTW2DRINIT 1 0.00724279
-    Execution: 1 0.495503
-    @ FFTW2DREXEC 1 0.495503
+    Initialisation: 1 0.00724813
+    @ FFTW2DRINIT 1 0.00724813
+    Execution: 1 0.494899
+    @ FFTW2DREXEC 1 0.494899
   C-> C
-    Initialisation: 1 0.005574
-    @ FFTW2DCINIT 1 0.005574
-    Execution: 1 1.65125
-    @ FFTW2DCEXEC 1 1.65125
+    Initialisation: 1 0.00548302
+    @ FFTW2DCINIT 1 0.00548302
+    Execution: 1 1.65508
+    @ FFTW2DCEXEC 1 1.65508
 3D
   R -> HC
-    Initialisation: 1 0.000411921
-    @FFTW3DRINIT 1 0.000411921
-    Execution: 1 1.58347
-    @ FFTW3DREXEC 1 1.58347
-  C -> C
-    Initialisation: 1 0.000280563
-    @ FFTW3DCINIT 1 0.000280563
-    Execution: 1 1.61103
-    @ FFTW3DCEXEC 1 1.61103
-Application 36218224 resources: utime ~5s, stime ~2s, Rss ~1184296, inblocks ~11311, outblocks ~28883
+Application 36240849 exit signals: Segmentation fault
+Application 36240849 resources: utime ~2s, stime ~1s, Rss ~1184216, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000396585
-    @ FFTW1DCINIT 1 0.000396585
-    Execution: 1 0.000159388
-    @ FFTW1DCEXEC 1 0.000159388
+    Initialisation: 1 0.000303398
+    @ FFTW1DCINIT 1 0.000303398
+    Execution: 1 0.000131484
+    @ FFTW1DCEXEC 1 0.000131484
 2D
   R -> HC
-    Initialisation: 1 0.00713707
-    @ FFTW2DRINIT 1 0.00713707
-    Execution: 1 0.496327
-    @ FFTW2DREXEC 1 0.496327
+    Initialisation: 1 0.00707333
+    @ FFTW2DRINIT 1 0.00707333
+    Execution: 1 0.496853
+    @ FFTW2DREXEC 1 0.496853
   C-> C
-    Initialisation: 1 0.00546866
-    @ FFTW2DCINIT 1 0.00546866
-    Execution: 1 1.74862
-    @ FFTW2DCEXEC 1 1.74862
+    Initialisation: 1 0.0053846
+    @ FFTW2DCINIT 1 0.0053846
+    Execution: 1 1.61565
+    @ FFTW2DCEXEC 1 1.61565
 3D
   R -> HC
-    Initialisation: 1 0.000525179
-    @FFTW3DRINIT 1 0.000525179
-    Execution: 1 1.62374
-    @ FFTW3DREXEC 1 1.62374
-  C -> C
-    Initialisation: 1 0.000282305
-    @ FFTW3DCINIT 1 0.000282305
-    Execution: 1 1.72526
-    @ FFTW3DCEXEC 1 1.72526
-Application 36218232 resources: utime ~6s, stime ~2s, Rss ~1184296, inblocks ~11311, outblocks ~28883
+Application 36240858 exit signals: Segmentation fault
+Application 36240858 resources: utime ~2s, stime ~1s, Rss ~1184216, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000399929
-    @ FFTW1DCINIT 1 0.000399929
-    Execution: 1 0.000164557
-    @ FFTW1DCEXEC 1 0.000164557
+    Initialisation: 1 0.000397869
+    @ FFTW1DCINIT 1 0.000397869
+    Execution: 1 0.000126833
+    @ FFTW1DCEXEC 1 0.000126833
 2D
   R -> HC
-    Initialisation: 1 0.00724273
-    @ FFTW2DRINIT 1 0.00724273
-    Execution: 1 0.495806
-    @ FFTW2DREXEC 1 0.495806
+    Initialisation: 1 0.00726719
+    @ FFTW2DRINIT 1 0.00726719
+    Execution: 1 0.494873
+    @ FFTW2DREXEC 1 0.494873
   C-> C
-    Initialisation: 1 0.00568521
-    @ FFTW2DCINIT 1 0.00568521
-    Execution: 1 1.64767
-    @ FFTW2DCEXEC 1 1.64767
+    Initialisation: 1 0.0054839
+    @ FFTW2DCINIT 1 0.0054839
+    Execution: 1 1.64093
+    @ FFTW2DCEXEC 1 1.64093
 3D
   R -> HC
-    Initialisation: 1 0.000433661
-    @FFTW3DRINIT 1 0.000433661
-    Execution: 1 1.58379
-    @ FFTW3DREXEC 1 1.58379
-  C -> C
-    Initialisation: 1 0.000279609
-    @ FFTW3DCINIT 1 0.000279609
-    Execution: 1 1.60574
-    @ FFTW3DCEXEC 1 1.60574
-Application 36218241 resources: utime ~5s, stime ~2s, Rss ~1184296, inblocks ~11311, outblocks ~28883
+Application 36240862 exit signals: Segmentation fault
+Application 36240862 resources: utime ~2s, stime ~1s, Rss ~1184216, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000416043
-    @ FFTW1DCINIT 1 0.000416043
-    Execution: 1 0.000153376
-    @ FFTW1DCEXEC 1 0.000153376
+    Initialisation: 1 0.000298525
+    @ FFTW1DCINIT 1 0.000298525
+    Execution: 1 0.000101378
+    @ FFTW1DCEXEC 1 0.000101378
 2D
   R -> HC
-    Initialisation: 1 0.00714459
-    @ FFTW2DRINIT 1 0.00714459
-    Execution: 1 0.495763
-    @ FFTW2DREXEC 1 0.495763
+    Initialisation: 1 0.00717087
+    @ FFTW2DRINIT 1 0.00717087
+    Execution: 1 0.495877
+    @ FFTW2DREXEC 1 0.495877
   C-> C
-    Initialisation: 1 0.00544498
-    @ FFTW2DCINIT 1 0.00544498
-    Execution: 1 1.75321
-    @ FFTW2DCEXEC 1 1.75321
+    Initialisation: 1 0.00542041
+    @ FFTW2DCINIT 1 0.00542041
+    Execution: 1 1.62166
+    @ FFTW2DCEXEC 1 1.62166
 3D
   R -> HC
-    Initialisation: 1 0.000413356
-    @FFTW3DRINIT 1 0.000413356
-    Execution: 1 1.6069
-    @ FFTW3DREXEC 1 1.6069
-  C -> C
-    Initialisation: 1 0.000278789
-    @ FFTW3DCINIT 1 0.000278789
-    Execution: 1 1.73551
-    @ FFTW3DCEXEC 1 1.73551
-Application 36218250 resources: utime ~6s, stime ~2s, Rss ~1184296, inblocks ~11311, outblocks ~28883
+Application 36240866 exit signals: Segmentation fault
+Application 36240866 resources: utime ~2s, stime ~1s, Rss ~1184216, inblocks ~11310, outblocks ~28883
 ===========================\n
 1 process\n
 4 thread\n
@@ -674,330 +514,250 @@ N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000405593
-    @ FFTW1DCINIT 1 0.000405593
-    Execution: 1 0.000164333
-    @ FFTW1DCEXEC 1 0.000164333
+    Initialisation: 1 0.000398441
+    @ FFTW1DCINIT 1 0.000398441
+    Execution: 1 0.000108481
+    @ FFTW1DCEXEC 1 0.000108481
+2D
+  R -> HC
+    Initialisation: 1 0.0070519
+    @ FFTW2DRINIT 1 0.0070519
+    Execution: 1 0.495438
+    @ FFTW2DREXEC 1 0.495438
+  C-> C
+    Initialisation: 1 0.00534788
+    @ FFTW2DCINIT 1 0.00534788
+    Execution: 1 1.64709
+    @ FFTW2DCEXEC 1 1.64709
+3D
+  R -> HC
+Application 36240871 exit signals: Segmentation fault
+Application 36240871 resources: utime ~3s, stime ~1s, Rss ~1184260, inblocks ~11310, outblocks ~28883
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  C -> C
+    Initialisation: 1 0.000394717
+    @ FFTW1DCINIT 1 0.000394717
+    Execution: 1 0.000142268
+    @ FFTW1DCEXEC 1 0.000142268
+2D
+  R -> HC
+    Initialisation: 1 0.00715117
+    @ FFTW2DRINIT 1 0.00715117
+    Execution: 1 0.496463
+    @ FFTW2DREXEC 1 0.496463
+  C-> C
+    Initialisation: 1 0.00542841
+    @ FFTW2DCINIT 1 0.00542841
+    Execution: 1 1.61574
+    @ FFTW2DCEXEC 1 1.61574
+3D
+  R -> HC
+Application 36240875 exit signals: Segmentation fault
+Application 36240875 resources: utime ~3s, stime ~1s, Rss ~1184264, inblocks ~11310, outblocks ~28883
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  C -> C
+    Initialisation: 1 0.000396462
+    @ FFTW1DCINIT 1 0.000396462
+    Execution: 1 0.00014879
+    @ FFTW1DCEXEC 1 0.00014879
+2D
+  R -> HC
+    Initialisation: 1 0.00722769
+    @ FFTW2DRINIT 1 0.00722769
+    Execution: 1 0.495406
+    @ FFTW2DREXEC 1 0.495406
+  C-> C
+    Initialisation: 1 0.00559043
+    @ FFTW2DCINIT 1 0.00559043
+    Execution: 1 1.64152
+    @ FFTW2DCEXEC 1 1.64152
+3D
+  R -> HC
+Application 36240881 exit signals: Segmentation fault
+Application 36240881 resources: utime ~3s, stime ~1s, Rss ~1184268, inblocks ~11310, outblocks ~28883
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  C -> C
+    Initialisation: 1 0.000379516
+    @ FFTW1DCINIT 1 0.000379516
+    Execution: 1 0.000125039
+    @ FFTW1DCEXEC 1 0.000125039
+2D
+  R -> HC
+    Initialisation: 1 0.007118
+    @ FFTW2DRINIT 1 0.007118
+    Execution: 1 0.495428
+    @ FFTW2DREXEC 1 0.495428
+  C-> C
+    Initialisation: 1 0.00555074
+    @ FFTW2DCINIT 1 0.00555074
+    Execution: 1 1.61356
+    @ FFTW2DCEXEC 1 1.61356
+3D
+  R -> HC
+Application 36240884 exit signals: Segmentation fault
+Application 36240884 resources: utime ~3s, stime ~1s, Rss ~1184272, inblocks ~11310, outblocks ~28883
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  C -> C
+    Initialisation: 1 0.000392245
+    @ FFTW1DCINIT 1 0.000392245
+    Execution: 1 0.000128777
+    @ FFTW1DCEXEC 1 0.000128777
+2D
+  R -> HC
+    Initialisation: 1 0.00722994
+    @ FFTW2DRINIT 1 0.00722994
+    Execution: 1 0.495366
+    @ FFTW2DREXEC 1 0.495366
+  C-> C
+    Initialisation: 1 0.005555
+    @ FFTW2DCINIT 1 0.005555
+    Execution: 1 1.64964
+    @ FFTW2DCEXEC 1 1.64964
+3D
+  R -> HC
+Application 36240889 exit signals: Segmentation fault
+Application 36240889 resources: utime ~3s, stime ~1s, Rss ~1184264, inblocks ~11310, outblocks ~28883
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  C -> C
+    Initialisation: 1 0.000390818
+    @ FFTW1DCINIT 1 0.000390818
+    Execution: 1 0.000140766
+    @ FFTW1DCEXEC 1 0.000140766
+2D
+  R -> HC
+    Initialisation: 1 0.0071812
+    @ FFTW2DRINIT 1 0.0071812
+    Execution: 1 0.496539
+    @ FFTW2DREXEC 1 0.496539
+  C-> C
+    Initialisation: 1 0.00570348
+    @ FFTW2DCINIT 1 0.00570348
+    Execution: 1 1.62451
+    @ FFTW2DCEXEC 1 1.62451
+3D
+  R -> HC
+Application 36240894 exit signals: Segmentation fault
+Application 36240894 resources: utime ~3s, stime ~1s, Rss ~1184272, inblocks ~11310, outblocks ~28883
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  C -> C
+    Initialisation: 1 0.000392029
+    @ FFTW1DCINIT 1 0.000392029
+    Execution: 1 0.000136938
+    @ FFTW1DCEXEC 1 0.000136938
+2D
+  R -> HC
+    Initialisation: 1 0.00709413
+    @ FFTW2DRINIT 1 0.00709413
+    Execution: 1 0.495618
+    @ FFTW2DREXEC 1 0.495618
+  C-> C
+    Initialisation: 1 0.00545247
+    @ FFTW2DCINIT 1 0.00545247
+    Execution: 1 1.63733
+    @ FFTW2DCEXEC 1 1.63733
+3D
+  R -> HC
+Application 36240898 exit signals: Segmentation fault
+Application 36240898 resources: utime ~3s, stime ~1s, Rss ~1184268, inblocks ~11310, outblocks ~28883
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  C -> C
+    Initialisation: 1 0.000400085
+    @ FFTW1DCINIT 1 0.000400085
+    Execution: 1 0.000169962
+    @ FFTW1DCEXEC 1 0.000169962
+2D
+  R -> HC
+    Initialisation: 1 0.00714436
+    @ FFTW2DRINIT 1 0.00714436
+    Execution: 1 0.496398
+    @ FFTW2DREXEC 1 0.496398
+  C-> C
+    Initialisation: 1 0.00537071
+    @ FFTW2DCINIT 1 0.00537071
+    Execution: 1 1.60915
+    @ FFTW2DCEXEC 1 1.60915
+3D
+  R -> HC
+Application 36240902 exit signals: Segmentation fault
+Application 36240902 resources: utime ~3s, stime ~1s, Rss ~1184260, inblocks ~11310, outblocks ~28883
+----------------
+N processes: 1
+N threads: 1
+
+1D
+  C -> C
+    Initialisation: 1 0.000395601
+    @ FFTW1DCINIT 1 0.000395601
+    Execution: 1 0.000146543
+    @ FFTW1DCEXEC 1 0.000146543
 2D
   R -> HC
     Initialisation: 1 0.00714169
     @ FFTW2DRINIT 1 0.00714169
-    Execution: 1 0.496503
-    @ FFTW2DREXEC 1 0.496503
+    Execution: 1 0.496327
+    @ FFTW2DREXEC 1 0.496327
   C-> C
-    Initialisation: 1 0.00541984
-    @ FFTW2DCINIT 1 0.00541984
-    Execution: 1 1.64962
-    @ FFTW2DCEXEC 1 1.64962
+    Initialisation: 1 0.0056055
+    @ FFTW2DCINIT 1 0.0056055
+    Execution: 1 1.64942
+    @ FFTW2DCEXEC 1 1.64942
 3D
   R -> HC
-    Initialisation: 1 0.00042143
-    @FFTW3DRINIT 1 0.00042143
-    Execution: 1 1.58497
-    @ FFTW3DREXEC 1 1.58497
-  C -> C
-    Initialisation: 1 0.000280898
-    @ FFTW3DCINIT 1 0.000280898
-    Execution: 1 1.6558
-    @ FFTW3DCEXEC 1 1.6558
-Application 36218256 resources: utime ~6s, stime ~2s, Rss ~1184328, inblocks ~11311, outblocks ~28883
+Application 36240909 exit signals: Segmentation fault
+Application 36240909 resources: utime ~3s, stime ~1s, Rss ~1184268, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.00040739
-    @ FFTW1DCINIT 1 0.00040739
-    Execution: 1 0.000155604
-    @ FFTW1DCEXEC 1 0.000155604
+    Initialisation: 1 0.000396853
+    @ FFTW1DCINIT 1 0.000396853
+    Execution: 1 0.000149951
+    @ FFTW1DCEXEC 1 0.000149951
 2D
   R -> HC
-    Initialisation: 1 0.00713436
-    @ FFTW2DRINIT 1 0.00713436
-    Execution: 1 0.496699
-    @ FFTW2DREXEC 1 0.496699
+    Initialisation: 1 0.00713282
+    @ FFTW2DRINIT 1 0.00713282
+    Execution: 1 0.495842
+    @ FFTW2DREXEC 1 0.495842
   C-> C
-    Initialisation: 1 0.00552049
-    @ FFTW2DCINIT 1 0.00552049
-    Execution: 1 1.75224
-    @ FFTW2DCEXEC 1 1.75224
+    Initialisation: 1 0.00564043
+    @ FFTW2DCINIT 1 0.00564043
+    Execution: 1 1.61243
+    @ FFTW2DCEXEC 1 1.61243
 3D
   R -> HC
-    Initialisation: 1 0.00041302
-    @FFTW3DRINIT 1 0.00041302
-    Execution: 1 1.60966
-    @ FFTW3DREXEC 1 1.60966
-  C -> C
-    Initialisation: 1 0.000325916
-    @ FFTW3DCINIT 1 0.000325916
-    Execution: 1 1.7395
-    @ FFTW3DCEXEC 1 1.7395
-Application 36218264 resources: utime ~7s, stime ~2s, Rss ~1184324, inblocks ~11311, outblocks ~28883
-----------------
-N processes: 1
-N threads: 1
-
-1D
-  C -> C
-    Initialisation: 1 0.000413514
-    @ FFTW1DCINIT 1 0.000413514
-    Execution: 1 0.000159663
-    @ FFTW1DCEXEC 1 0.000159663
-2D
-  R -> HC
-    Initialisation: 1 0.00711882
-    @ FFTW2DRINIT 1 0.00711882
-    Execution: 1 0.495965
-    @ FFTW2DREXEC 1 0.495965
-  C-> C
-    Initialisation: 1 0.00554821
-    @ FFTW2DCINIT 1 0.00554821
-    Execution: 1 1.64776
-    @ FFTW2DCEXEC 1 1.64776
-3D
-  R -> HC
-    Initialisation: 1 0.000412989
-    @FFTW3DRINIT 1 0.000412989
-    Execution: 1 1.59225
-    @ FFTW3DREXEC 1 1.59225
-  C -> C
-    Initialisation: 1 0.000279752
-    @ FFTW3DCINIT 1 0.000279752
-    Execution: 1 1.62441
-    @ FFTW3DCEXEC 1 1.62441
-Application 36218271 resources: utime ~6s, stime ~2s, Rss ~1184328, inblocks ~11311, outblocks ~28883
-----------------
-N processes: 1
-N threads: 1
-
-1D
-  C -> C
-    Initialisation: 1 0.000404885
-    @ FFTW1DCINIT 1 0.000404885
-    Execution: 1 0.000150399
-    @ FFTW1DCEXEC 1 0.000150399
-2D
-  R -> HC
-    Initialisation: 1 0.00730523
-    @ FFTW2DRINIT 1 0.00730523
-    Execution: 1 0.496014
-    @ FFTW2DREXEC 1 0.496014
-  C-> C
-    Initialisation: 1 0.00562036
-    @ FFTW2DCINIT 1 0.00562036
-    Execution: 1 1.75472
-    @ FFTW2DCEXEC 1 1.75472
-3D
-  R -> HC
-    Initialisation: 1 0.000513058
-    @FFTW3DRINIT 1 0.000513058
-    Execution: 1 1.61055
-    @ FFTW3DREXEC 1 1.61055
-  C -> C
-    Initialisation: 1 0.00033202
-    @ FFTW3DCINIT 1 0.00033202
-    Execution: 1 1.75326
-    @ FFTW3DCEXEC 1 1.75326
-Application 36218279 resources: utime ~7s, stime ~2s, Rss ~1184324, inblocks ~11311, outblocks ~28883
-----------------
-N processes: 1
-N threads: 1
-
-1D
-  C -> C
-    Initialisation: 1 0.000433435
-    @ FFTW1DCINIT 1 0.000433435
-    Execution: 1 0.000151863
-    @ FFTW1DCEXEC 1 0.000151863
-2D
-  R -> HC
-    Initialisation: 1 0.0070743
-    @ FFTW2DRINIT 1 0.0070743
-    Execution: 1 0.496523
-    @ FFTW2DREXEC 1 0.496523
-  C-> C
-    Initialisation: 1 0.00542209
-    @ FFTW2DCINIT 1 0.00542209
-    Execution: 1 1.64554
-    @ FFTW2DCEXEC 1 1.64554
-3D
-  R -> HC
-    Initialisation: 1 0.000509785
-    @FFTW3DRINIT 1 0.000509785
-    Execution: 1 1.58303
-    @ FFTW3DREXEC 1 1.58303
-  C -> C
-    Initialisation: 1 0.000358454
-    @ FFTW3DCINIT 1 0.000358454
-    Execution: 1 1.65475
-    @ FFTW3DCEXEC 1 1.65475
-Application 36218287 resources: utime ~6s, stime ~2s, Rss ~1184328, inblocks ~11311, outblocks ~28883
-----------------
-N processes: 1
-N threads: 1
-
-1D
-  C -> C
-    Initialisation: 1 0.000409361
-    @ FFTW1DCINIT 1 0.000409361
-    Execution: 1 0.000162999
-    @ FFTW1DCEXEC 1 0.000162999
-2D
-  R -> HC
-    Initialisation: 1 0.00727445
-    @ FFTW2DRINIT 1 0.00727445
-    Execution: 1 0.496316
-    @ FFTW2DREXEC 1 0.496316
-  C-> C
-    Initialisation: 1 0.00581079
-    @ FFTW2DCINIT 1 0.00581079
-    Execution: 1 1.75201
-    @ FFTW2DCEXEC 1 1.75201
-3D
-  R -> HC
-    Initialisation: 1 0.000536674
-    @FFTW3DRINIT 1 0.000536674
-    Execution: 1 1.61997
-    @ FFTW3DREXEC 1 1.61997
-  C -> C
-    Initialisation: 1 0.000318085
-    @ FFTW3DCINIT 1 0.000318085
-    Execution: 1 1.74536
-    @ FFTW3DCEXEC 1 1.74536
-Application 36218296 resources: utime ~7s, stime ~2s, Rss ~1184328, inblocks ~11311, outblocks ~28883
-----------------
-N processes: 1
-N threads: 1
-
-1D
-  C -> C
-    Initialisation: 1 0.000413282
-    @ FFTW1DCINIT 1 0.000413282
-    Execution: 1 0.00016284
-    @ FFTW1DCEXEC 1 0.00016284
-2D
-  R -> HC
-    Initialisation: 1 0.0072907
-    @ FFTW2DRINIT 1 0.0072907
-    Execution: 1 0.496286
-    @ FFTW2DREXEC 1 0.496286
-  C-> C
-    Initialisation: 1 0.00579652
-    @ FFTW2DCINIT 1 0.00579652
-    Execution: 1 1.64574
-    @ FFTW2DCEXEC 1 1.64574
-3D
-  R -> HC
-    Initialisation: 1 0.000412361
-    @FFTW3DRINIT 1 0.000412361
-    Execution: 1 1.57596
-    @ FFTW3DREXEC 1 1.57596
-  C -> C
-    Initialisation: 1 0.000281226
-    @ FFTW3DCINIT 1 0.000281226
-    Execution: 1 1.64808
-    @ FFTW3DCEXEC 1 1.64808
-Application 36218304 resources: utime ~6s, stime ~2s, Rss ~1184328, inblocks ~11311, outblocks ~28883
-----------------
-N processes: 1
-N threads: 1
-
-1D
-  C -> C
-    Initialisation: 1 0.000420593
-    @ FFTW1DCINIT 1 0.000420593
-    Execution: 1 0.000161518
-    @ FFTW1DCEXEC 1 0.000161518
-2D
-  R -> HC
-    Initialisation: 1 0.00722363
-    @ FFTW2DRINIT 1 0.00722363
-    Execution: 1 0.496295
-    @ FFTW2DREXEC 1 0.496295
-  C-> C
-    Initialisation: 1 0.00556324
-    @ FFTW2DCINIT 1 0.00556324
-    Execution: 1 1.7609
-    @ FFTW2DCEXEC 1 1.7609
-3D
-  R -> HC
-    Initialisation: 1 0.000526235
-    @FFTW3DRINIT 1 0.000526235
-    Execution: 1 1.61784
-    @ FFTW3DREXEC 1 1.61784
-  C -> C
-    Initialisation: 1 0.000368383
-    @ FFTW3DCINIT 1 0.000368383
-    Execution: 1 1.7371
-    @ FFTW3DCEXEC 1 1.7371
-Application 36218311 resources: utime ~7s, stime ~2s, Rss ~1184324, inblocks ~11311, outblocks ~28883
-----------------
-N processes: 1
-N threads: 1
-
-1D
-  C -> C
-    Initialisation: 1 0.000408332
-    @ FFTW1DCINIT 1 0.000408332
-    Execution: 1 0.000159292
-    @ FFTW1DCEXEC 1 0.000159292
-2D
-  R -> HC
-    Initialisation: 1 0.00722959
-    @ FFTW2DRINIT 1 0.00722959
-    Execution: 1 0.495981
-    @ FFTW2DREXEC 1 0.495981
-  C-> C
-    Initialisation: 1 0.00543703
-    @ FFTW2DCINIT 1 0.00543703
-    Execution: 1 1.74796
-    @ FFTW2DCEXEC 1 1.74796
-3D
-  R -> HC
-    Initialisation: 1 0.000413396
-    @FFTW3DRINIT 1 0.000413396
-    Execution: 1 1.61318
-    @ FFTW3DREXEC 1 1.61318
-  C -> C
-    Initialisation: 1 0.000301217
-    @ FFTW3DCINIT 1 0.000301217
-    Execution: 1 1.63664
-    @ FFTW3DCEXEC 1 1.63664
-Application 36218321 resources: utime ~6s, stime ~2s, Rss ~1184332, inblocks ~11311, outblocks ~28883
-----------------
-N processes: 1
-N threads: 1
-
-1D
-  C -> C
-    Initialisation: 1 0.000399101
-    @ FFTW1DCINIT 1 0.000399101
-    Execution: 1 0.000165348
-    @ FFTW1DCEXEC 1 0.000165348
-2D
-  R -> HC
-    Initialisation: 1 0.00717255
-    @ FFTW2DRINIT 1 0.00717255
-    Execution: 1 0.497024
-    @ FFTW2DREXEC 1 0.497024
-  C-> C
-    Initialisation: 1 0.00548058
-    @ FFTW2DCINIT 1 0.00548058
-    Execution: 1 1.63466
-    @ FFTW2DCEXEC 1 1.63466
-3D
-  R -> HC
-    Initialisation: 1 0.000409316
-    @FFTW3DRINIT 1 0.000409316
-    Execution: 1 1.58107
-    @ FFTW3DREXEC 1 1.58107
-  C -> C
-    Initialisation: 1 0.000339221
-    @ FFTW3DCINIT 1 0.000339221
-    Execution: 1 1.64336
-    @ FFTW3DCEXEC 1 1.64336
-Application 36218329 resources: utime ~6s, stime ~2s, Rss ~1184328, inblocks ~11311, outblocks ~28883
+Application 36240914 exit signals: Segmentation fault
+Application 36240914 resources: utime ~3s, stime ~1s, Rss ~1184272, inblocks ~11310, outblocks ~28883
 ===========================\n
 1 process\n
 6 thread\n
@@ -1007,330 +767,250 @@ N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000356703
-    @ FFTW1DCINIT 1 0.000356703
-    Execution: 1 0.000151134
-    @ FFTW1DCEXEC 1 0.000151134
+    Initialisation: 1 0.000341863
+    @ FFTW1DCINIT 1 0.000341863
+    Execution: 1 0.000145307
+    @ FFTW1DCEXEC 1 0.000145307
 2D
   R -> HC
-    Initialisation: 1 0.00727583
-    @ FFTW2DRINIT 1 0.00727583
-    Execution: 1 0.496476
-    @ FFTW2DREXEC 1 0.496476
+    Initialisation: 1 0.00705707
+    @ FFTW2DRINIT 1 0.00705707
+    Execution: 1 0.496135
+    @ FFTW2DREXEC 1 0.496135
   C-> C
-    Initialisation: 1 0.00545912
-    @ FFTW2DCINIT 1 0.00545912
-    Execution: 1 1.75059
-    @ FFTW2DCEXEC 1 1.75059
+    Initialisation: 1 0.00550199
+    @ FFTW2DCINIT 1 0.00550199
+    Execution: 1 1.63367
+    @ FFTW2DCEXEC 1 1.63367
 3D
   R -> HC
-    Initialisation: 1 0.000522453
-    @FFTW3DRINIT 1 0.000522453
-    Execution: 1 1.62723
-    @ FFTW3DREXEC 1 1.62723
-  C -> C
-    Initialisation: 1 0.000335508
-    @ FFTW3DCINIT 1 0.000335508
-    Execution: 1 1.74555
-    @ FFTW3DCEXEC 1 1.74555
-Application 36218337 resources: utime ~7s, stime ~2s, Rss ~1184360, inblocks ~11311, outblocks ~28883
+Application 36240918 exit signals: Segmentation fault
+Application 36240918 resources: utime ~4s, stime ~1s, Rss ~1184292, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000359427
-    @ FFTW1DCINIT 1 0.000359427
-    Execution: 1 0.000152403
-    @ FFTW1DCEXEC 1 0.000152403
+    Initialisation: 1 0.000336339
+    @ FFTW1DCINIT 1 0.000336339
+    Execution: 1 0.000133919
+    @ FFTW1DCEXEC 1 0.000133919
 2D
   R -> HC
-    Initialisation: 1 0.00728509
-    @ FFTW2DRINIT 1 0.00728509
-    Execution: 1 0.496679
-    @ FFTW2DREXEC 1 0.496679
+    Initialisation: 1 0.00705977
+    @ FFTW2DRINIT 1 0.00705977
+    Execution: 1 0.496785
+    @ FFTW2DREXEC 1 0.496785
   C-> C
-    Initialisation: 1 0.00550102
-    @ FFTW2DCINIT 1 0.00550102
-    Execution: 1 1.64532
-    @ FFTW2DCEXEC 1 1.64532
+    Initialisation: 1 0.00568165
+    @ FFTW2DCINIT 1 0.00568165
+    Execution: 1 1.61483
+    @ FFTW2DCEXEC 1 1.61483
 3D
   R -> HC
-    Initialisation: 1 0.000508481
-    @FFTW3DRINIT 1 0.000508481
-    Execution: 1 1.58042
-    @ FFTW3DREXEC 1 1.58042
-  C -> C
-    Initialisation: 1 0.000281305
-    @ FFTW3DCINIT 1 0.000281305
-    Execution: 1 1.64301
-    @ FFTW3DCEXEC 1 1.64301
-Application 36218347 resources: utime ~7s, stime ~2s, Rss ~1184360, inblocks ~11311, outblocks ~28883
+Application 36240923 exit signals: Segmentation fault
+Application 36240923 resources: utime ~4s, stime ~1s, Rss ~1184292, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000361441
-    @ FFTW1DCINIT 1 0.000361441
-    Execution: 1 0.000147437
-    @ FFTW1DCEXEC 1 0.000147437
+    Initialisation: 1 0.000337902
+    @ FFTW1DCINIT 1 0.000337902
+    Execution: 1 0.000115453
+    @ FFTW1DCEXEC 1 0.000115453
 2D
   R -> HC
-    Initialisation: 1 0.00721935
-    @ FFTW2DRINIT 1 0.00721935
-    Execution: 1 0.49575
-    @ FFTW2DREXEC 1 0.49575
+    Initialisation: 1 0.00707614
+    @ FFTW2DRINIT 1 0.00707614
+    Execution: 1 0.49534
+    @ FFTW2DREXEC 1 0.49534
   C-> C
-    Initialisation: 1 0.00548678
-    @ FFTW2DCINIT 1 0.00548678
-    Execution: 1 1.75894
-    @ FFTW2DCEXEC 1 1.75894
+    Initialisation: 1 0.00557372
+    @ FFTW2DCINIT 1 0.00557372
+    Execution: 1 1.64698
+    @ FFTW2DCEXEC 1 1.64698
 3D
   R -> HC
-    Initialisation: 1 0.000534445
-    @FFTW3DRINIT 1 0.000534445
-    Execution: 1 1.6169
-    @ FFTW3DREXEC 1 1.6169
-  C -> C
-    Initialisation: 1 0.000311181
-    @ FFTW3DCINIT 1 0.000311181
-    Execution: 1 1.74687
-    @ FFTW3DCEXEC 1 1.74687
-Application 36218358 resources: utime ~7s, stime ~2s, Rss ~1184360, inblocks ~11311, outblocks ~28883
+Application 36240927 exit signals: Segmentation fault
+Application 36240927 resources: utime ~4s, stime ~1s, Rss ~1184272, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000351869
-    @ FFTW1DCINIT 1 0.000351869
-    Execution: 1 0.000143786
-    @ FFTW1DCEXEC 1 0.000143786
+    Initialisation: 1 0.000338145
+    @ FFTW1DCINIT 1 0.000338145
+    Execution: 1 0.000114543
+    @ FFTW1DCEXEC 1 0.000114543
 2D
   R -> HC
-    Initialisation: 1 0.00729447
-    @ FFTW2DRINIT 1 0.00729447
-    Execution: 1 0.496194
-    @ FFTW2DREXEC 1 0.496194
+    Initialisation: 1 0.00723832
+    @ FFTW2DRINIT 1 0.00723832
+    Execution: 1 0.495426
+    @ FFTW2DREXEC 1 0.495426
   C-> C
-    Initialisation: 1 0.0056591
-    @ FFTW2DCINIT 1 0.0056591
-    Execution: 1 1.7424
-    @ FFTW2DCEXEC 1 1.7424
+    Initialisation: 1 0.00553286
+    @ FFTW2DCINIT 1 0.00553286
+    Execution: 1 1.61182
+    @ FFTW2DCEXEC 1 1.61182
 3D
   R -> HC
-    Initialisation: 1 0.000417566
-    @FFTW3DRINIT 1 0.000417566
-    Execution: 1 1.60988
-    @ FFTW3DREXEC 1 1.60988
-  C -> C
-    Initialisation: 1 0.000281151
-    @ FFTW3DCINIT 1 0.000281151
-    Execution: 1 1.75059
-    @ FFTW3DCEXEC 1 1.75059
-Application 36218367 resources: utime ~7s, stime ~2s, Rss ~1184344, inblocks ~11311, outblocks ~28883
+Application 36240932 exit signals: Segmentation fault
+Application 36240932 resources: utime ~4s, stime ~1s, Rss ~1184292, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000364602
-    @ FFTW1DCINIT 1 0.000364602
-    Execution: 1 0.000147274
-    @ FFTW1DCEXEC 1 0.000147274
+    Initialisation: 1 0.000342303
+    @ FFTW1DCINIT 1 0.000342303
+    Execution: 1 0.000127742
+    @ FFTW1DCEXEC 1 0.000127742
 2D
   R -> HC
-    Initialisation: 1 0.00729616
-    @ FFTW2DRINIT 1 0.00729616
-    Execution: 1 0.496481
-    @ FFTW2DREXEC 1 0.496481
+    Initialisation: 1 0.00726326
+    @ FFTW2DRINIT 1 0.00726326
+    Execution: 1 0.49572
+    @ FFTW2DREXEC 1 0.49572
   C-> C
-    Initialisation: 1 0.00546852
-    @ FFTW2DCINIT 1 0.00546852
-    Execution: 1 1.65135
-    @ FFTW2DCEXEC 1 1.65135
+    Initialisation: 1 0.0057534
+    @ FFTW2DCINIT 1 0.0057534
+    Execution: 1 1.64029
+    @ FFTW2DCEXEC 1 1.64029
 3D
   R -> HC
-    Initialisation: 1 0.000430989
-    @FFTW3DRINIT 1 0.000430989
-    Execution: 1 1.58256
-    @ FFTW3DREXEC 1 1.58256
-  C -> C
-    Initialisation: 1 0.000353161
-    @ FFTW3DCINIT 1 0.000353161
-    Execution: 1 1.64153
-    @ FFTW3DCEXEC 1 1.64153
-Application 36218377 resources: utime ~7s, stime ~2s, Rss ~1184360, inblocks ~11311, outblocks ~28883
+Application 36240940 exit signals: Segmentation fault
+Application 36240940 resources: utime ~4s, stime ~1s, Rss ~1184292, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000359514
-    @ FFTW1DCINIT 1 0.000359514
-    Execution: 1 0.000148005
-    @ FFTW1DCEXEC 1 0.000148005
+    Initialisation: 1 0.000341763
+    @ FFTW1DCINIT 1 0.000341763
+    Execution: 1 0.000155795
+    @ FFTW1DCEXEC 1 0.000155795
 2D
   R -> HC
-    Initialisation: 1 0.00723218
-    @ FFTW2DRINIT 1 0.00723218
-    Execution: 1 0.495816
-    @ FFTW2DREXEC 1 0.495816
+    Initialisation: 1 0.00722527
+    @ FFTW2DRINIT 1 0.00722527
+    Execution: 1 0.496761
+    @ FFTW2DREXEC 1 0.496761
   C-> C
-    Initialisation: 1 0.00570892
-    @ FFTW2DCINIT 1 0.00570892
-    Execution: 1 1.7455
-    @ FFTW2DCEXEC 1 1.7455
+    Initialisation: 1 0.00547997
+    @ FFTW2DCINIT 1 0.00547997
+    Execution: 1 1.6096
+    @ FFTW2DCEXEC 1 1.6096
 3D
   R -> HC
-    Initialisation: 1 0.000411868
-    @FFTW3DRINIT 1 0.000411868
-    Execution: 1 1.61586
-    @ FFTW3DREXEC 1 1.61586
-  C -> C
-    Initialisation: 1 0.000346382
-    @ FFTW3DCINIT 1 0.000346382
-    Execution: 1 1.75591
-    @ FFTW3DCEXEC 1 1.75591
-Application 36218386 resources: utime ~7s, stime ~2s, Rss ~1184344, inblocks ~11311, outblocks ~28883
+Application 36240944 exit signals: Segmentation fault
+Application 36240944 resources: utime ~4s, stime ~1s, Rss ~1184292, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000359876
-    @ FFTW1DCINIT 1 0.000359876
-    Execution: 1 0.000152277
-    @ FFTW1DCEXEC 1 0.000152277
+    Initialisation: 1 0.000339016
+    @ FFTW1DCINIT 1 0.000339016
+    Execution: 1 0.000114535
+    @ FFTW1DCEXEC 1 0.000114535
 2D
   R -> HC
-    Initialisation: 1 0.00721943
-    @ FFTW2DRINIT 1 0.00721943
-    Execution: 1 0.496717
-    @ FFTW2DREXEC 1 0.496717
+    Initialisation: 1 0.00722806
+    @ FFTW2DRINIT 1 0.00722806
+    Execution: 1 0.495904
+    @ FFTW2DREXEC 1 0.495904
   C-> C
-    Initialisation: 1 0.00569558
-    @ FFTW2DCINIT 1 0.00569558
-    Execution: 1 1.64842
-    @ FFTW2DCEXEC 1 1.64842
+    Initialisation: 1 0.00535773
+    @ FFTW2DCINIT 1 0.00535773
+    Execution: 1 1.64931
+    @ FFTW2DCEXEC 1 1.64931
 3D
   R -> HC
-    Initialisation: 1 0.000412522
-    @FFTW3DRINIT 1 0.000412522
-    Execution: 1 1.58318
-    @ FFTW3DREXEC 1 1.58318
-  C -> C
-    Initialisation: 1 0.000294896
-    @ FFTW3DCINIT 1 0.000294896
-    Execution: 1 1.64835
-    @ FFTW3DCEXEC 1 1.64835
-Application 36218396 resources: utime ~7s, stime ~2s, Rss ~1184360, inblocks ~11311, outblocks ~28883
+Application 36240948 exit signals: Segmentation fault
+Application 36240948 resources: utime ~4s, stime ~1s, Rss ~1184292, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.00035856
-    @ FFTW1DCINIT 1 0.00035856
-    Execution: 1 0.000147853
-    @ FFTW1DCEXEC 1 0.000147853
+    Initialisation: 1 0.000344485
+    @ FFTW1DCINIT 1 0.000344485
+    Execution: 1 0.000148222
+    @ FFTW1DCEXEC 1 0.000148222
 2D
   R -> HC
-    Initialisation: 1 0.0072895
-    @ FFTW2DRINIT 1 0.0072895
-    Execution: 1 0.495535
-    @ FFTW2DREXEC 1 0.495535
+    Initialisation: 1 0.00727328
+    @ FFTW2DRINIT 1 0.00727328
+    Execution: 1 0.495765
+    @ FFTW2DREXEC 1 0.495765
   C-> C
-    Initialisation: 1 0.00541168
-    @ FFTW2DCINIT 1 0.00541168
-    Execution: 1 1.75751
-    @ FFTW2DCEXEC 1 1.75751
+    Initialisation: 1 0.00550821
+    @ FFTW2DCINIT 1 0.00550821
+    Execution: 1 1.62256
+    @ FFTW2DCEXEC 1 1.62256
 3D
   R -> HC
-    Initialisation: 1 0.000512439
-    @FFTW3DRINIT 1 0.000512439
-    Execution: 1 1.61451
-    @ FFTW3DREXEC 1 1.61451
-  C -> C
-    Initialisation: 1 0.000279004
-    @ FFTW3DCINIT 1 0.000279004
-    Execution: 1 1.73917
-    @ FFTW3DCEXEC 1 1.73917
-Application 36218405 resources: utime ~7s, stime ~2s, Rss ~1184360, inblocks ~11311, outblocks ~28883
+Application 36240953 exit signals: Segmentation fault
+Application 36240953 resources: utime ~4s, stime ~1s, Rss ~1184284, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000364214
-    @ FFTW1DCINIT 1 0.000364214
-    Execution: 1 0.000151038
-    @ FFTW1DCEXEC 1 0.000151038
+    Initialisation: 1 0.000341921
+    @ FFTW1DCINIT 1 0.000341921
+    Execution: 1 0.000120448
+    @ FFTW1DCEXEC 1 0.000120448
 2D
   R -> HC
-    Initialisation: 1 0.00726913
-    @ FFTW2DRINIT 1 0.00726913
-    Execution: 1 0.496653
-    @ FFTW2DREXEC 1 0.496653
+    Initialisation: 1 0.00721547
+    @ FFTW2DRINIT 1 0.00721547
+    Execution: 1 0.495528
+    @ FFTW2DREXEC 1 0.495528
   C-> C
-    Initialisation: 1 0.00562235
-    @ FFTW2DCINIT 1 0.00562235
-    Execution: 1 1.65801
-    @ FFTW2DCEXEC 1 1.65801
+    Initialisation: 1 0.00536605
+    @ FFTW2DCINIT 1 0.00536605
+    Execution: 1 1.64055
+    @ FFTW2DCEXEC 1 1.64055
 3D
   R -> HC
-    Initialisation: 1 0.000423381
-    @FFTW3DRINIT 1 0.000423381
-    Execution: 1 1.5905
-    @ FFTW3DREXEC 1 1.5905
-  C -> C
-    Initialisation: 1 0.000300648
-    @ FFTW3DCINIT 1 0.000300648
-    Execution: 1 1.61338
-    @ FFTW3DCEXEC 1 1.61338
-Application 36218416 resources: utime ~7s, stime ~2s, Rss ~1184360, inblocks ~11311, outblocks ~28883
+Application 36240956 exit signals: Segmentation fault
+Application 36240956 resources: utime ~4s, stime ~1s, Rss ~1184292, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000361615
-    @ FFTW1DCINIT 1 0.000361615
-    Execution: 1 0.000147255
-    @ FFTW1DCEXEC 1 0.000147255
+    Initialisation: 1 0.000336043
+    @ FFTW1DCINIT 1 0.000336043
+    Execution: 1 0.000128106
+    @ FFTW1DCEXEC 1 0.000128106
 2D
   R -> HC
-    Initialisation: 1 0.00734329
-    @ FFTW2DRINIT 1 0.00734329
-    Execution: 1 0.497302
-    @ FFTW2DREXEC 1 0.497302
+    Initialisation: 1 0.00720963
+    @ FFTW2DRINIT 1 0.00720963
+    Execution: 1 0.496334
+    @ FFTW2DREXEC 1 0.496334
   C-> C
-    Initialisation: 1 0.00563561
-    @ FFTW2DCINIT 1 0.00563561
-    Execution: 1 1.75402
-    @ FFTW2DCEXEC 1 1.75402
+    Initialisation: 1 0.00541384
+    @ FFTW2DCINIT 1 0.00541384
+    Execution: 1 1.61155
+    @ FFTW2DCEXEC 1 1.61155
 3D
   R -> HC
-    Initialisation: 1 0.000412331
-    @FFTW3DRINIT 1 0.000412331
-    Execution: 1 1.62348
-    @ FFTW3DREXEC 1 1.62348
-  C -> C
-    Initialisation: 1 0.000346019
-    @ FFTW3DCINIT 1 0.000346019
-    Execution: 1 1.75944
-    @ FFTW3DCEXEC 1 1.75944
-Application 36218424 resources: utime ~7s, stime ~2s, Rss ~1184360, inblocks ~11311, outblocks ~28883
+Application 36240963 exit signals: Segmentation fault
+Application 36240963 resources: utime ~4s, stime ~1s, Rss ~1184292, inblocks ~11310, outblocks ~28883
 ===========================\n
 1 process\n
 12 thread\n
@@ -1340,330 +1020,250 @@ N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000390323
-    @ FFTW1DCINIT 1 0.000390323
-    Execution: 1 0.000158142
-    @ FFTW1DCEXEC 1 0.000158142
+    Initialisation: 1 0.000358604
+    @ FFTW1DCINIT 1 0.000358604
+    Execution: 1 0.000121659
+    @ FFTW1DCEXEC 1 0.000121659
 2D
   R -> HC
-    Initialisation: 1 0.00724789
-    @ FFTW2DRINIT 1 0.00724789
-    Execution: 1 0.493879
-    @ FFTW2DREXEC 1 0.493879
+    Initialisation: 1 0.00704169
+    @ FFTW2DRINIT 1 0.00704169
+    Execution: 1 0.496986
+    @ FFTW2DREXEC 1 0.496986
   C-> C
-    Initialisation: 1 0.00543049
-    @ FFTW2DCINIT 1 0.00543049
-    Execution: 1 1.66453
-    @ FFTW2DCEXEC 1 1.66453
+    Initialisation: 1 0.00544302
+    @ FFTW2DCINIT 1 0.00544302
+    Execution: 1 1.66285
+    @ FFTW2DCEXEC 1 1.66285
 3D
   R -> HC
-    Initialisation: 1 0.000541245
-    @FFTW3DRINIT 1 0.000541245
-    Execution: 1 1.58793
-    @ FFTW3DREXEC 1 1.58793
-  C -> C
-    Initialisation: 1 0.000333097
-    @ FFTW3DCINIT 1 0.000333097
-    Execution: 1 1.64658
-    @ FFTW3DCEXEC 1 1.64658
-Application 36218433 resources: utime ~10s, stime ~2s, Rss ~1184488, inblocks ~11311, outblocks ~28883
+Application 36240966 exit signals: Segmentation fault
+Application 36240966 resources: utime ~6s, stime ~1s, Rss ~1184456, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000389053
-    @ FFTW1DCINIT 1 0.000389053
-    Execution: 1 0.000152096
-    @ FFTW1DCEXEC 1 0.000152096
+    Initialisation: 1 0.000365489
+    @ FFTW1DCINIT 1 0.000365489
+    Execution: 1 0.000155347
+    @ FFTW1DCEXEC 1 0.000155347
 2D
   R -> HC
-    Initialisation: 1 0.00726771
-    @ FFTW2DRINIT 1 0.00726771
-    Execution: 1 0.497054
-    @ FFTW2DREXEC 1 0.497054
+    Initialisation: 1 0.00712705
+    @ FFTW2DRINIT 1 0.00712705
+    Execution: 1 0.494457
+    @ FFTW2DREXEC 1 0.494457
   C-> C
-    Initialisation: 1 0.00549669
-    @ FFTW2DCINIT 1 0.00549669
-    Execution: 1 1.74119
-    @ FFTW2DCEXEC 1 1.74119
+    Initialisation: 1 0.00563151
+    @ FFTW2DCINIT 1 0.00563151
+    Execution: 1 1.61802
+    @ FFTW2DCEXEC 1 1.61802
 3D
   R -> HC
-    Initialisation: 1 0.000419505
-    @FFTW3DRINIT 1 0.000419505
-    Execution: 1 1.61515
-    @ FFTW3DREXEC 1 1.61515
-  C -> C
-    Initialisation: 1 0.000281251
-    @ FFTW3DCINIT 1 0.000281251
-    Execution: 1 1.64269
-    @ FFTW3DCEXEC 1 1.64269
-Application 36218443 resources: utime ~10s, stime ~2s, Rss ~1184488, inblocks ~11311, outblocks ~28883
+Application 36240971 exit signals: Segmentation fault
+Application 36240971 resources: utime ~6s, stime ~1s, Rss ~1184456, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000394881
-    @ FFTW1DCINIT 1 0.000394881
-    Execution: 1 0.000152526
-    @ FFTW1DCEXEC 1 0.000152526
+    Initialisation: 1 0.000361383
+    @ FFTW1DCINIT 1 0.000361383
+    Execution: 1 0.000122751
+    @ FFTW1DCEXEC 1 0.000122751
 2D
   R -> HC
-    Initialisation: 1 0.00721557
-    @ FFTW2DRINIT 1 0.00721557
-    Execution: 1 0.495424
-    @ FFTW2DREXEC 1 0.495424
+    Initialisation: 1 0.00726177
+    @ FFTW2DRINIT 1 0.00726177
+    Execution: 1 0.494626
+    @ FFTW2DREXEC 1 0.494626
   C-> C
-    Initialisation: 1 0.00565505
-    @ FFTW2DCINIT 1 0.00565505
-    Execution: 1 1.64401
-    @ FFTW2DCEXEC 1 1.64401
+    Initialisation: 1 0.0055062
+    @ FFTW2DCINIT 1 0.0055062
+    Execution: 1 1.63492
+    @ FFTW2DCEXEC 1 1.63492
 3D
   R -> HC
-    Initialisation: 1 0.000412633
-    @FFTW3DRINIT 1 0.000412633
-    Execution: 1 1.57498
-    @ FFTW3DREXEC 1 1.57498
-  C -> C
-    Initialisation: 1 0.00034677
-    @ FFTW3DCINIT 1 0.00034677
-    Execution: 1 1.64812
-    @ FFTW3DCEXEC 1 1.64812
-Application 36218450 resources: utime ~9s, stime ~2s, Rss ~1184480, inblocks ~11311, outblocks ~28883
+Application 36240975 exit signals: Segmentation fault
+Application 36240975 resources: utime ~6s, stime ~1s, Rss ~1184456, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000391901
-    @ FFTW1DCINIT 1 0.000391901
-    Execution: 1 0.000151052
-    @ FFTW1DCEXEC 1 0.000151052
+    Initialisation: 1 0.000367986
+    @ FFTW1DCINIT 1 0.000367986
+    Execution: 1 0.000158323
+    @ FFTW1DCEXEC 1 0.000158323
 2D
   R -> HC
-    Initialisation: 1 0.00718781
-    @ FFTW2DRINIT 1 0.00718781
-    Execution: 1 0.495143
-    @ FFTW2DREXEC 1 0.495143
+    Initialisation: 1 0.00725066
+    @ FFTW2DRINIT 1 0.00725066
+    Execution: 1 0.494098
+    @ FFTW2DREXEC 1 0.494098
   C-> C
-    Initialisation: 1 0.00567462
-    @ FFTW2DCINIT 1 0.00567462
-    Execution: 1 1.73419
-    @ FFTW2DCEXEC 1 1.73419
+    Initialisation: 1 0.00535966
+    @ FFTW2DCINIT 1 0.00535966
+    Execution: 1 1.61864
+    @ FFTW2DCEXEC 1 1.61864
 3D
   R -> HC
-    Initialisation: 1 0.000419955
-    @FFTW3DRINIT 1 0.000419955
-    Execution: 1 1.62379
-    @ FFTW3DREXEC 1 1.62379
-  C -> C
-    Initialisation: 1 0.00028047
-    @ FFTW3DCINIT 1 0.00028047
-    Execution: 1 1.74731
-    @ FFTW3DCEXEC 1 1.74731
-Application 36218457 resources: utime ~10s, stime ~2s, Rss ~1184488, inblocks ~11311, outblocks ~28883
+Application 36240979 exit signals: Segmentation fault
+Application 36240979 resources: utime ~6s, stime ~1s, Rss ~1184456, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000396255
-    @ FFTW1DCINIT 1 0.000396255
-    Execution: 1 0.000156194
-    @ FFTW1DCEXEC 1 0.000156194
+    Initialisation: 1 0.000372917
+    @ FFTW1DCINIT 1 0.000372917
+    Execution: 1 0.000163214
+    @ FFTW1DCEXEC 1 0.000163214
 2D
   R -> HC
-    Initialisation: 1 0.0072136
-    @ FFTW2DRINIT 1 0.0072136
-    Execution: 1 0.495149
-    @ FFTW2DREXEC 1 0.495149
+    Initialisation: 1 0.00728813
+    @ FFTW2DRINIT 1 0.00728813
+    Execution: 1 0.495728
+    @ FFTW2DREXEC 1 0.495728
   C-> C
-    Initialisation: 1 0.00572534
-    @ FFTW2DCINIT 1 0.00572534
-    Execution: 1 1.6533
-    @ FFTW2DCEXEC 1 1.6533
+    Initialisation: 1 0.00561315
+    @ FFTW2DCINIT 1 0.00561315
+    Execution: 1 1.6685
+    @ FFTW2DCEXEC 1 1.6685
 3D
   R -> HC
-    Initialisation: 1 0.000528325
-    @FFTW3DRINIT 1 0.000528325
-    Execution: 1 1.57871
-    @ FFTW3DREXEC 1 1.57871
-  C -> C
-    Initialisation: 1 0.000279605
-    @ FFTW3DCINIT 1 0.000279605
-    Execution: 1 1.65851
-    @ FFTW3DCEXEC 1 1.65851
-Application 36218467 resources: utime ~9s, stime ~2s, Rss ~1184480, inblocks ~11311, outblocks ~28883
+Application 36240983 exit signals: Segmentation fault
+Application 36240983 resources: utime ~6s, stime ~1s, Rss ~1184444, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000385546
-    @ FFTW1DCINIT 1 0.000385546
-    Execution: 1 0.000152381
-    @ FFTW1DCEXEC 1 0.000152381
+    Initialisation: 1 0.000351401
+    @ FFTW1DCINIT 1 0.000351401
+    Execution: 1 0.000118672
+    @ FFTW1DCEXEC 1 0.000118672
 2D
   R -> HC
-    Initialisation: 1 0.00728396
-    @ FFTW2DRINIT 1 0.00728396
-    Execution: 1 0.493854
-    @ FFTW2DREXEC 1 0.493854
+    Initialisation: 1 0.00737188
+    @ FFTW2DRINIT 1 0.00737188
+    Execution: 1 0.49475
+    @ FFTW2DREXEC 1 0.49475
   C-> C
-    Initialisation: 1 0.00537314
-    @ FFTW2DCINIT 1 0.00537314
-    Execution: 1 1.7363
-    @ FFTW2DCEXEC 1 1.7363
+    Initialisation: 1 0.00558778
+    @ FFTW2DCINIT 1 0.00558778
+    Execution: 1 1.61719
+    @ FFTW2DCEXEC 1 1.61719
 3D
   R -> HC
-    Initialisation: 1 0.000413601
-    @FFTW3DRINIT 1 0.000413601
-    Execution: 1 1.62073
-    @ FFTW3DREXEC 1 1.62073
-  C -> C
-    Initialisation: 1 0.000336913
-    @ FFTW3DCINIT 1 0.000336913
-    Execution: 1 1.76628
-    @ FFTW3DCEXEC 1 1.76628
-Application 36218474 resources: utime ~10s, stime ~2s, Rss ~1184492, inblocks ~11311, outblocks ~28883
+Application 36240988 exit signals: Segmentation fault
+Application 36240988 resources: utime ~6s, stime ~1s, Rss ~1184444, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000385041
-    @ FFTW1DCINIT 1 0.000385041
-    Execution: 1 0.000153329
-    @ FFTW1DCEXEC 1 0.000153329
+    Initialisation: 1 0.000362842
+    @ FFTW1DCINIT 1 0.000362842
+    Execution: 1 0.000153374
+    @ FFTW1DCEXEC 1 0.000153374
 2D
   R -> HC
-    Initialisation: 1 0.00711614
-    @ FFTW2DRINIT 1 0.00711614
-    Execution: 1 0.49413
-    @ FFTW2DREXEC 1 0.49413
+    Initialisation: 1 0.0072245
+    @ FFTW2DRINIT 1 0.0072245
+    Execution: 1 0.494859
+    @ FFTW2DREXEC 1 0.494859
   C-> C
-    Initialisation: 1 0.00538551
-    @ FFTW2DCINIT 1 0.00538551
-    Execution: 1 1.64732
-    @ FFTW2DCEXEC 1 1.64732
+    Initialisation: 1 0.00559606
+    @ FFTW2DCINIT 1 0.00559606
+    Execution: 1 1.65194
+    @ FFTW2DCEXEC 1 1.65194
 3D
   R -> HC
-    Initialisation: 1 0.000413009
-    @FFTW3DRINIT 1 0.000413009
-    Execution: 1 1.58288
-    @ FFTW3DREXEC 1 1.58288
-  C -> C
-    Initialisation: 1 0.000348567
-    @ FFTW3DCINIT 1 0.000348567
-    Execution: 1 1.65169
-    @ FFTW3DCEXEC 1 1.65169
-Application 36218481 resources: utime ~9s, stime ~2s, Rss ~1184484, inblocks ~11311, outblocks ~28883
+Application 36240992 exit signals: Segmentation fault
+Application 36240992 resources: utime ~6s, stime ~1s, Rss ~1184456, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000388049
-    @ FFTW1DCINIT 1 0.000388049
-    Execution: 1 0.000151888
-    @ FFTW1DCEXEC 1 0.000151888
+    Initialisation: 1 0.00036716
+    @ FFTW1DCINIT 1 0.00036716
+    Execution: 1 0.000155318
+    @ FFTW1DCEXEC 1 0.000155318
 2D
   R -> HC
-    Initialisation: 1 0.0072875
-    @ FFTW2DRINIT 1 0.0072875
-    Execution: 1 0.495129
-    @ FFTW2DREXEC 1 0.495129
+    Initialisation: 1 0.00727616
+    @ FFTW2DRINIT 1 0.00727616
+    Execution: 1 0.498828
+    @ FFTW2DREXEC 1 0.498828
   C-> C
-    Initialisation: 1 0.00563407
-    @ FFTW2DCINIT 1 0.00563407
-    Execution: 1 1.7254
-    @ FFTW2DCEXEC 1 1.7254
+    Initialisation: 1 0.00547628
+    @ FFTW2DCINIT 1 0.00547628
+    Execution: 1 1.63646
+    @ FFTW2DCEXEC 1 1.63646
 3D
   R -> HC
-    Initialisation: 1 0.000549593
-    @FFTW3DRINIT 1 0.000549593
-    Execution: 1 1.6049
-    @ FFTW3DREXEC 1 1.6049
-  C -> C
-    Initialisation: 1 0.000278952
-    @ FFTW3DCINIT 1 0.000278952
-    Execution: 1 1.65524
-    @ FFTW3DCEXEC 1 1.65524
-Application 36218492 resources: utime ~10s, stime ~2s, Rss ~1184488, inblocks ~11311, outblocks ~28883
+Application 36240997 exit signals: Segmentation fault
+Application 36240997 resources: utime ~6s, stime ~1s, Rss ~1184456, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000406572
-    @ FFTW1DCINIT 1 0.000406572
-    Execution: 1 0.000151793
-    @ FFTW1DCEXEC 1 0.000151793
+    Initialisation: 1 0.000362176
+    @ FFTW1DCINIT 1 0.000362176
+    Execution: 1 0.000120405
+    @ FFTW1DCEXEC 1 0.000120405
 2D
   R -> HC
-    Initialisation: 1 0.00727158
-    @ FFTW2DRINIT 1 0.00727158
-    Execution: 1 0.49582
-    @ FFTW2DREXEC 1 0.49582
+    Initialisation: 1 0.00708907
+    @ FFTW2DRINIT 1 0.00708907
+    Execution: 1 0.4967
+    @ FFTW2DREXEC 1 0.4967
   C-> C
-    Initialisation: 1 0.00572083
-    @ FFTW2DCINIT 1 0.00572083
-    Execution: 1 1.64006
-    @ FFTW2DCEXEC 1 1.64006
+    Initialisation: 1 0.00543728
+    @ FFTW2DCINIT 1 0.00543728
+    Execution: 1 1.66225
+    @ FFTW2DCEXEC 1 1.66225
 3D
   R -> HC
-    Initialisation: 1 0.000414116
-    @FFTW3DRINIT 1 0.000414116
-    Execution: 1 1.59104
-    @ FFTW3DREXEC 1 1.59104
-  C -> C
-    Initialisation: 1 0.000279133
-    @ FFTW3DCINIT 1 0.000279133
-    Execution: 1 1.61001
-    @ FFTW3DCEXEC 1 1.61001
-Application 36218499 resources: utime ~9s, stime ~2s, Rss ~1184488, inblocks ~11311, outblocks ~28883
+Application 36241001 exit signals: Segmentation fault
+Application 36241001 resources: utime ~6s, stime ~1s, Rss ~1184456, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000386544
-    @ FFTW1DCINIT 1 0.000386544
-    Execution: 1 0.000153836
-    @ FFTW1DCEXEC 1 0.000153836
+    Initialisation: 1 0.000368859
+    @ FFTW1DCINIT 1 0.000368859
+    Execution: 1 0.000165216
+    @ FFTW1DCEXEC 1 0.000165216
 2D
   R -> HC
-    Initialisation: 1 0.00724418
-    @ FFTW2DRINIT 1 0.00724418
-    Execution: 1 0.49665
-    @ FFTW2DREXEC 1 0.49665
+    Initialisation: 1 0.00716498
+    @ FFTW2DRINIT 1 0.00716498
+    Execution: 1 0.498477
+    @ FFTW2DREXEC 1 0.498477
   C-> C
-    Initialisation: 1 0.00563869
-    @ FFTW2DCINIT 1 0.00563869
-    Execution: 1 1.73006
-    @ FFTW2DCEXEC 1 1.73006
+    Initialisation: 1 0.00534574
+    @ FFTW2DCINIT 1 0.00534574
+    Execution: 1 1.63574
+    @ FFTW2DCEXEC 1 1.63574
 3D
   R -> HC
-    Initialisation: 1 0.000413044
-    @FFTW3DRINIT 1 0.000413044
-    Execution: 1 1.61358
-    @ FFTW3DREXEC 1 1.61358
-  C -> C
-    Initialisation: 1 0.000381281
-    @ FFTW3DCINIT 1 0.000381281
-    Execution: 1 1.73758
-    @ FFTW3DCEXEC 1 1.73758
-Application 36218505 resources: utime ~10s, stime ~2s, Rss ~1184492, inblocks ~11311, outblocks ~28883
+Application 36241005 exit signals: Segmentation fault
+Application 36241005 resources: utime ~6s, stime ~1s, Rss ~1184456, inblocks ~11310, outblocks ~28883
 ===========================\n
 1 process\n
 24 thread\n
@@ -1673,330 +1273,250 @@ N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000374738
-    @ FFTW1DCINIT 1 0.000374738
-    Execution: 1 0.000155908
-    @ FFTW1DCEXEC 1 0.000155908
+    Initialisation: 1 0.00035487
+    @ FFTW1DCINIT 1 0.00035487
+    Execution: 1 0.000117852
+    @ FFTW1DCEXEC 1 0.000117852
 2D
   R -> HC
-    Initialisation: 1 0.0071978
-    @ FFTW2DRINIT 1 0.0071978
-    Execution: 1 0.494742
-    @ FFTW2DREXEC 1 0.494742
+    Initialisation: 1 0.00714378
+    @ FFTW2DRINIT 1 0.00714378
+    Execution: 1 0.494698
+    @ FFTW2DREXEC 1 0.494698
   C-> C
-    Initialisation: 1 0.00541069
-    @ FFTW2DCINIT 1 0.00541069
-    Execution: 1 1.65435
-    @ FFTW2DCEXEC 1 1.65435
+    Initialisation: 1 0.00540123
+    @ FFTW2DCINIT 1 0.00540123
+    Execution: 1 1.64353
+    @ FFTW2DCEXEC 1 1.64353
 3D
   R -> HC
-    Initialisation: 1 0.000418171
-    @FFTW3DRINIT 1 0.000418171
-    Execution: 1 1.59101
-    @ FFTW3DREXEC 1 1.59101
-  C -> C
-    Initialisation: 1 0.000281391
-    @ FFTW3DCINIT 1 0.000281391
-    Execution: 1 1.65366
-    @ FFTW3DCEXEC 1 1.65366
-Application 36218514 resources: utime ~14s, stime ~2s, Rss ~1184816, inblocks ~11311, outblocks ~28883
+Application 36241013 exit signals: Segmentation fault
+Application 36241013 resources: utime ~11s, stime ~1s, Rss ~1184756, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000373283
-    @ FFTW1DCINIT 1 0.000373283
-    Execution: 1 0.00015678
-    @ FFTW1DCEXEC 1 0.00015678
+    Initialisation: 1 0.000354992
+    @ FFTW1DCINIT 1 0.000354992
+    Execution: 1 0.000153562
+    @ FFTW1DCEXEC 1 0.000153562
 2D
   R -> HC
-    Initialisation: 1 0.00711709
-    @ FFTW2DRINIT 1 0.00711709
-    Execution: 1 0.496766
-    @ FFTW2DREXEC 1 0.496766
+    Initialisation: 1 0.00708973
+    @ FFTW2DRINIT 1 0.00708973
+    Execution: 1 0.494575
+    @ FFTW2DREXEC 1 0.494575
   C-> C
-    Initialisation: 1 0.00534975
-    @ FFTW2DCINIT 1 0.00534975
-    Execution: 1 1.72701
-    @ FFTW2DCEXEC 1 1.72701
+    Initialisation: 1 0.005607
+    @ FFTW2DCINIT 1 0.005607
+    Execution: 1 1.61821
+    @ FFTW2DCEXEC 1 1.61821
 3D
   R -> HC
-    Initialisation: 1 0.000507215
-    @FFTW3DRINIT 1 0.000507215
-    Execution: 1 1.61068
-    @ FFTW3DREXEC 1 1.61068
-  C -> C
-    Initialisation: 1 0.000301521
-    @ FFTW3DCINIT 1 0.000301521
-    Execution: 1 1.75335
-    @ FFTW3DCEXEC 1 1.75335
-Application 36218521 resources: utime ~14s, stime ~2s, Rss ~1184816, inblocks ~11311, outblocks ~28883
+Application 36241018 exit signals: Segmentation fault
+Application 36241018 resources: utime ~11s, stime ~1s, Rss ~1184756, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.00037643
-    @ FFTW1DCINIT 1 0.00037643
-    Execution: 1 0.000155099
-    @ FFTW1DCEXEC 1 0.000155099
+    Initialisation: 1 0.000353771
+    @ FFTW1DCINIT 1 0.000353771
+    Execution: 1 0.000118625
+    @ FFTW1DCEXEC 1 0.000118625
 2D
   R -> HC
-    Initialisation: 1 0.00713683
-    @ FFTW2DRINIT 1 0.00713683
-    Execution: 1 0.495406
-    @ FFTW2DREXEC 1 0.495406
+    Initialisation: 1 0.00710503
+    @ FFTW2DRINIT 1 0.00710503
+    Execution: 1 0.493558
+    @ FFTW2DREXEC 1 0.493558
   C-> C
-    Initialisation: 1 0.00567573
-    @ FFTW2DCINIT 1 0.00567573
-    Execution: 1 1.65827
-    @ FFTW2DCEXEC 1 1.65827
+    Initialisation: 1 0.00572469
+    @ FFTW2DCINIT 1 0.00572469
+    Execution: 1 1.64782
+    @ FFTW2DCEXEC 1 1.64782
 3D
   R -> HC
-    Initialisation: 1 0.000415536
-    @FFTW3DRINIT 1 0.000415536
-    Execution: 1 1.59281
-    @ FFTW3DREXEC 1 1.59281
-  C -> C
-    Initialisation: 1 0.00028247
-    @ FFTW3DCINIT 1 0.00028247
-    Execution: 1 1.66234
-    @ FFTW3DCEXEC 1 1.66234
-Application 36218528 resources: utime ~14s, stime ~2s, Rss ~1184812, inblocks ~11311, outblocks ~28883
+Application 36241022 exit signals: Segmentation fault
+Application 36241022 resources: utime ~11s, stime ~1s, Rss ~1184756, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000369693
-    @ FFTW1DCINIT 1 0.000369693
-    Execution: 1 0.000149277
-    @ FFTW1DCEXEC 1 0.000149277
+    Initialisation: 1 0.000353903
+    @ FFTW1DCINIT 1 0.000353903
+    Execution: 1 0.000149934
+    @ FFTW1DCEXEC 1 0.000149934
 2D
   R -> HC
-    Initialisation: 1 0.00730265
-    @ FFTW2DRINIT 1 0.00730265
-    Execution: 1 0.495442
-    @ FFTW2DREXEC 1 0.495442
+    Initialisation: 1 0.00711291
+    @ FFTW2DRINIT 1 0.00711291
+    Execution: 1 0.495822
+    @ FFTW2DREXEC 1 0.495822
   C-> C
-    Initialisation: 1 0.00553681
-    @ FFTW2DCINIT 1 0.00553681
-    Execution: 1 1.74903
-    @ FFTW2DCEXEC 1 1.74903
+    Initialisation: 1 0.00548777
+    @ FFTW2DCINIT 1 0.00548777
+    Execution: 1 1.63047
+    @ FFTW2DCEXEC 1 1.63047
 3D
   R -> HC
-    Initialisation: 1 0.000418529
-    @FFTW3DRINIT 1 0.000418529
-    Execution: 1 1.6207
-    @ FFTW3DREXEC 1 1.6207
-  C -> C
-    Initialisation: 1 0.000295206
-    @ FFTW3DCINIT 1 0.000295206
-    Execution: 1 1.69798
-    @ FFTW3DCEXEC 1 1.69798
-Application 36218534 resources: utime ~14s, stime ~2s, Rss ~1184872, inblocks ~11311, outblocks ~28883
+Application 36241025 exit signals: Segmentation fault
+Application 36241025 resources: utime ~11s, stime ~1s, Rss ~1184756, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.00037043
-    @ FFTW1DCINIT 1 0.00037043
-    Execution: 1 0.000152112
-    @ FFTW1DCEXEC 1 0.000152112
+    Initialisation: 1 0.000358441
+    @ FFTW1DCINIT 1 0.000358441
+    Execution: 1 0.000151667
+    @ FFTW1DCEXEC 1 0.000151667
 2D
   R -> HC
-    Initialisation: 1 0.00731475
-    @ FFTW2DRINIT 1 0.00731475
-    Execution: 1 0.496661
-    @ FFTW2DREXEC 1 0.496661
+    Initialisation: 1 0.00730039
+    @ FFTW2DRINIT 1 0.00730039
+    Execution: 1 0.496251
+    @ FFTW2DREXEC 1 0.496251
   C-> C
-    Initialisation: 1 0.00548313
-    @ FFTW2DCINIT 1 0.00548313
-    Execution: 1 1.65695
-    @ FFTW2DCEXEC 1 1.65695
+    Initialisation: 1 0.00558817
+    @ FFTW2DCINIT 1 0.00558817
+    Execution: 1 1.63562
+    @ FFTW2DCEXEC 1 1.63562
 3D
   R -> HC
-    Initialisation: 1 0.000412806
-    @FFTW3DRINIT 1 0.000412806
-    Execution: 1 1.58863
-    @ FFTW3DREXEC 1 1.58863
-  C -> C
-    Initialisation: 1 0.0002799
-    @ FFTW3DCINIT 1 0.0002799
-    Execution: 1 1.66215
-    @ FFTW3DCEXEC 1 1.66215
-Application 36218544 resources: utime ~14s, stime ~2s, Rss ~1184872, inblocks ~11311, outblocks ~28883
+Application 36241029 exit signals: Segmentation fault
+Application 36241029 resources: utime ~11s, stime ~1s, Rss ~1184756, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000374715
-    @ FFTW1DCINIT 1 0.000374715
-    Execution: 1 0.000148336
-    @ FFTW1DCEXEC 1 0.000148336
+    Initialisation: 1 0.000354086
+    @ FFTW1DCINIT 1 0.000354086
+    Execution: 1 0.000119157
+    @ FFTW1DCEXEC 1 0.000119157
 2D
   R -> HC
-    Initialisation: 1 0.00728075
-    @ FFTW2DRINIT 1 0.00728075
-    Execution: 1 0.494349
-    @ FFTW2DREXEC 1 0.494349
+    Initialisation: 1 0.00726479
+    @ FFTW2DRINIT 1 0.00726479
+    Execution: 1 0.495149
+    @ FFTW2DREXEC 1 0.495149
   C-> C
-    Initialisation: 1 0.00549271
-    @ FFTW2DCINIT 1 0.00549271
-    Execution: 1 1.72741
-    @ FFTW2DCEXEC 1 1.72741
+    Initialisation: 1 0.00548789
+    @ FFTW2DCINIT 1 0.00548789
+    Execution: 1 1.62128
+    @ FFTW2DCEXEC 1 1.62128
 3D
   R -> HC
-    Initialisation: 1 0.0004368
-    @FFTW3DRINIT 1 0.0004368
-    Execution: 1 1.62224
-    @ FFTW3DREXEC 1 1.62224
-  C -> C
-    Initialisation: 1 0.000296633
-    @ FFTW3DCINIT 1 0.000296633
-    Execution: 1 1.73294
-    @ FFTW3DCEXEC 1 1.73294
-Application 36218551 resources: utime ~14s, stime ~2s, Rss ~1184816, inblocks ~11311, outblocks ~28883
+Application 36241033 exit signals: Segmentation fault
+Application 36241033 resources: utime ~11s, stime ~1s, Rss ~1184756, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000376557
-    @ FFTW1DCINIT 1 0.000376557
-    Execution: 1 0.000157537
-    @ FFTW1DCEXEC 1 0.000157537
+    Initialisation: 1 0.00035407
+    @ FFTW1DCINIT 1 0.00035407
+    Execution: 1 0.000126588
+    @ FFTW1DCEXEC 1 0.000126588
 2D
   R -> HC
-    Initialisation: 1 0.0072304
-    @ FFTW2DRINIT 1 0.0072304
-    Execution: 1 0.495801
-    @ FFTW2DREXEC 1 0.495801
+    Initialisation: 1 0.00708641
+    @ FFTW2DRINIT 1 0.00708641
+    Execution: 1 0.49575
+    @ FFTW2DREXEC 1 0.49575
   C-> C
-    Initialisation: 1 0.00544855
-    @ FFTW2DCINIT 1 0.00544855
-    Execution: 1 1.64446
-    @ FFTW2DCEXEC 1 1.64446
+    Initialisation: 1 0.00554475
+    @ FFTW2DCINIT 1 0.00554475
+    Execution: 1 1.66783
+    @ FFTW2DCEXEC 1 1.66783
 3D
   R -> HC
-    Initialisation: 1 0.000415411
-    @FFTW3DRINIT 1 0.000415411
-    Execution: 1 1.58825
-    @ FFTW3DREXEC 1 1.58825
-  C -> C
-    Initialisation: 1 0.000367878
-    @ FFTW3DCINIT 1 0.000367878
-    Execution: 1 1.6241
-    @ FFTW3DCEXEC 1 1.6241
-Application 36218562 resources: utime ~14s, stime ~2s, Rss ~1184816, inblocks ~11311, outblocks ~28883
+Application 36241037 exit signals: Segmentation fault
+Application 36241037 resources: utime ~11s, stime ~1s, Rss ~1184756, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000368609
-    @ FFTW1DCINIT 1 0.000368609
-    Execution: 1 0.000151016
-    @ FFTW1DCEXEC 1 0.000151016
+    Initialisation: 1 0.000352661
+    @ FFTW1DCINIT 1 0.000352661
+    Execution: 1 0.000118288
+    @ FFTW1DCEXEC 1 0.000118288
 2D
   R -> HC
-    Initialisation: 1 0.00731343
-    @ FFTW2DRINIT 1 0.00731343
-    Execution: 1 0.495404
-    @ FFTW2DREXEC 1 0.495404
+    Initialisation: 1 0.00725395
+    @ FFTW2DRINIT 1 0.00725395
+    Execution: 1 0.496312
+    @ FFTW2DREXEC 1 0.496312
   C-> C
-    Initialisation: 1 0.00546869
-    @ FFTW2DCINIT 1 0.00546869
-    Execution: 1 1.72299
-    @ FFTW2DCEXEC 1 1.72299
+    Initialisation: 1 0.00538681
+    @ FFTW2DCINIT 1 0.00538681
+    Execution: 1 1.63425
+    @ FFTW2DCEXEC 1 1.63425
 3D
   R -> HC
-    Initialisation: 1 0.000416565
-    @FFTW3DRINIT 1 0.000416565
-    Execution: 1 1.62784
-    @ FFTW3DREXEC 1 1.62784
-  C -> C
-    Initialisation: 1 0.00029554
-    @ FFTW3DCINIT 1 0.00029554
-    Execution: 1 1.74471
-    @ FFTW3DCEXEC 1 1.74471
-Application 36218567 resources: utime ~14s, stime ~2s, Rss ~1184764, inblocks ~11311, outblocks ~28883
+Application 36241041 exit signals: Segmentation fault
+Application 36241041 resources: utime ~11s, stime ~1s, Rss ~1184756, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000374976
-    @ FFTW1DCINIT 1 0.000374976
-    Execution: 1 0.000156646
-    @ FFTW1DCEXEC 1 0.000156646
+    Initialisation: 1 0.000358716
+    @ FFTW1DCINIT 1 0.000358716
+    Execution: 1 0.000150702
+    @ FFTW1DCEXEC 1 0.000150702
 2D
   R -> HC
-    Initialisation: 1 0.00732021
-    @ FFTW2DRINIT 1 0.00732021
-    Execution: 1 0.49642
-    @ FFTW2DREXEC 1 0.49642
+    Initialisation: 1 0.00715554
+    @ FFTW2DRINIT 1 0.00715554
+    Execution: 1 0.495157
+    @ FFTW2DREXEC 1 0.495157
   C-> C
-    Initialisation: 1 0.005589
-    @ FFTW2DCINIT 1 0.005589
-    Execution: 1 1.65033
-    @ FFTW2DCEXEC 1 1.65033
+    Initialisation: 1 0.00571805
+    @ FFTW2DCINIT 1 0.00571805
+    Execution: 1 1.64399
+    @ FFTW2DCEXEC 1 1.64399
 3D
   R -> HC
-    Initialisation: 1 0.000525816
-    @FFTW3DRINIT 1 0.000525816
-    Execution: 1 1.59462
-    @ FFTW3DREXEC 1 1.59462
-  C -> C
-    Initialisation: 1 0.000280519
-    @ FFTW3DCINIT 1 0.000280519
-    Execution: 1 1.65686
-    @ FFTW3DCEXEC 1 1.65686
-Application 36218576 resources: utime ~14s, stime ~2s, Rss ~1184808, inblocks ~11311, outblocks ~28883
+Application 36241045 exit signals: Segmentation fault
+Application 36241045 resources: utime ~11s, stime ~1s, Rss ~1184756, inblocks ~11310, outblocks ~28883
 ----------------
 N processes: 1
 N threads: 1
 
 1D
   C -> C
-    Initialisation: 1 0.000374926
-    @ FFTW1DCINIT 1 0.000374926
-    Execution: 1 0.000154854
-    @ FFTW1DCEXEC 1 0.000154854
+    Initialisation: 1 0.000355061
+    @ FFTW1DCINIT 1 0.000355061
+    Execution: 1 0.000156989
+    @ FFTW1DCEXEC 1 0.000156989
 2D
   R -> HC
-    Initialisation: 1 0.00729317
-    @ FFTW2DRINIT 1 0.00729317
-    Execution: 1 0.496755
-    @ FFTW2DREXEC 1 0.496755
+    Initialisation: 1 0.00724754
+    @ FFTW2DRINIT 1 0.00724754
+    Execution: 1 0.495556
+    @ FFTW2DREXEC 1 0.495556
   C-> C
-    Initialisation: 1 0.00539236
-    @ FFTW2DCINIT 1 0.00539236
-    Execution: 1 1.75213
-    @ FFTW2DCEXEC 1 1.75213
+    Initialisation: 1 0.00575849
+    @ FFTW2DCINIT 1 0.00575849
+    Execution: 1 1.62914
+    @ FFTW2DCEXEC 1 1.62914
 3D
   R -> HC
-    Initialisation: 1 0.000537169
-    @FFTW3DRINIT 1 0.000537169
-    Execution: 1 1.61076
-    @ FFTW3DREXEC 1 1.61076
-  C -> C
-    Initialisation: 1 0.000281851
-    @ FFTW3DCINIT 1 0.000281851
-    Execution: 1 1.75558
-    @ FFTW3DCEXEC 1 1.75558
-Application 36218583 resources: utime ~14s, stime ~2s, Rss ~1184816, inblocks ~11311, outblocks ~28883
+Application 36241050 exit signals: Segmentation fault
+Application 36241050 resources: utime ~11s, stime ~1s, Rss ~1184756, inblocks ~11310, outblocks ~28883
 ===========================\n
 1 process\n
 48 thread\n
@@ -2006,330 +1526,250 @@ N threads: 2
 
 1D
   C -> C
-    Initialisation: 2 0.0114506
-    @ FFTW1DCINIT 2 0.0114506
-    Execution: 2 0.00334685
-    @ FFTW1DCEXEC 2 0.00334685
+    Initialisation: 2 0.0184036
+    @ FFTW1DCINIT 2 0.0184036
+    Execution: 2 0.0277297
+    @ FFTW1DCEXEC 2 0.0277297
 2D
   R -> HC
-    Initialisation: 2 0.0170383
-    @ FFTW2DRINIT 2 0.0170383
-    Execution: 2 0.295364
-    @ FFTW2DREXEC 2 0.295364
+    Initialisation: 2 0.0178473
+    @ FFTW2DRINIT 2 0.0178473
+    Execution: 2 0.270967
+    @ FFTW2DREXEC 2 0.270967
   C-> C
-    Initialisation: 2 0.00818775
-    @ FFTW2DCINIT 2 0.00818775
-    Execution: 2 0.854632
-    @ FFTW2DCEXEC 2 0.854632
+    Initialisation: 2 0.00597829
+    @ FFTW2DCINIT 2 0.00597829
+    Execution: 2 0.830476
+    @ FFTW2DCEXEC 2 0.830476
 3D
   R -> HC
-    Initialisation: 2 0.00198924
-    @FFTW3DRINIT 2 0.00198924
-    Execution: 2 0.840303
-    @ FFTW3DREXEC 2 0.840303
-  C -> C
-    Initialisation: 2 0.00342791
-    @ FFTW3DCINIT 2 0.00342791
-    Execution: 2 0.879488
-    @ FFTW3DCEXEC 2 0.879488
-Application 36218590 resources: utime ~24s, stime ~3s, Rss ~675592, inblocks ~23311, outblocks ~57784
+Application 36241056 exit signals: Segmentation fault
+Application 36241056 resources: utime ~20s, stime ~2s, Rss ~675580, inblocks ~23508, outblocks ~57773
 ----------------
 N processes: 2
 N threads: 2
 
 1D
   C -> C
-    Initialisation: 2 0.0121173
-    @ FFTW1DCINIT 2 0.0121173
-    Execution: 2 0.00459847
-    @ FFTW1DCEXEC 2 0.00459847
+    Initialisation: 2 0.0501948
+    @ FFTW1DCINIT 2 0.0501948
+    Execution: 2 0.00299141
+    @ FFTW1DCEXEC 2 0.00299141
 2D
   R -> HC
-    Initialisation: 2 0.0122731
-    @ FFTW2DRINIT 2 0.0122731
-    Execution: 2 0.295955
-    @ FFTW2DREXEC 2 0.295955
+    Initialisation: 2 0.0211539
+    @ FFTW2DRINIT 2 0.0211539
+    Execution: 2 0.274426
+    @ FFTW2DREXEC 2 0.274426
   C-> C
-    Initialisation: 2 0.00889461
-    @ FFTW2DCINIT 2 0.00889461
-    Execution: 2 0.889428
-    @ FFTW2DCEXEC 2 0.889428
+    Initialisation: 2 0.00620581
+    @ FFTW2DCINIT 2 0.00620581
+    Execution: 2 0.831222
+    @ FFTW2DCEXEC 2 0.831222
 3D
   R -> HC
-    Initialisation: 2 0.00178301
-    @FFTW3DRINIT 2 0.00178301
-    Execution: 2 0.839512
-    @ FFTW3DREXEC 2 0.839512
-  C -> C
-    Initialisation: 2 0.000904155
-    @ FFTW3DCINIT 2 0.000904155
-    Execution: 2 0.890774
-    @ FFTW3DCEXEC 2 0.890774
-Application 36218598 resources: utime ~24s, stime ~3s, Rss ~675600, inblocks ~23307, outblocks ~57784
+Application 36241059 exit signals: Segmentation fault
+Application 36241059 resources: utime ~20s, stime ~2s, Rss ~675580, inblocks ~23506, outblocks ~57773
 ----------------
 N processes: 2
 N threads: 2
 
 1D
   C -> C
-    Initialisation: 2 0.0142962
-    @ FFTW1DCINIT 2 0.0142962
-    Execution: 2 0.00388904
-    @ FFTW1DCEXEC 2 0.00388904
+    Initialisation: 2 0.00151676
+    @ FFTW1DCINIT 2 0.00151676
+    Execution: 2 0.0127311
+    @ FFTW1DCEXEC 2 0.0127311
 2D
   R -> HC
-    Initialisation: 2 0.00807287
-    @ FFTW2DRINIT 2 0.00807287
-    Execution: 2 0.294452
-    @ FFTW2DREXEC 2 0.294452
+    Initialisation: 2 0.0122901
+    @ FFTW2DRINIT 2 0.0122901
+    Execution: 2 0.296301
+    @ FFTW2DREXEC 2 0.296301
   C-> C
-    Initialisation: 2 0.00803297
-    @ FFTW2DCINIT 2 0.00803297
-    Execution: 2 0.867259
-    @ FFTW2DCEXEC 2 0.867259
+    Initialisation: 2 0.00604422
+    @ FFTW2DCINIT 2 0.00604422
+    Execution: 2 0.834486
+    @ FFTW2DCEXEC 2 0.834486
 3D
   R -> HC
-    Initialisation: 2 0.00106111
-    @FFTW3DRINIT 2 0.00106111
-    Execution: 2 0.83488
-    @ FFTW3DREXEC 2 0.83488
-  C -> C
-    Initialisation: 2 0.00221042
-    @ FFTW3DCINIT 2 0.00221042
-    Execution: 2 0.89325
-    @ FFTW3DCEXEC 2 0.89325
-Application 36218602 resources: utime ~24s, stime ~3s, Rss ~675592, inblocks ~23314, outblocks ~57784
+Application 36241063 exit signals: Segmentation fault
+Application 36241063 resources: utime ~20s, stime ~2s, Rss ~675588, inblocks ~23504, outblocks ~57773
 ----------------
 N processes: 2
 N threads: 2
 
 1D
   C -> C
-    Initialisation: 2 0.0132883
-    @ FFTW1DCINIT 2 0.0132883
-    Execution: 2 0.00284169
-    @ FFTW1DCEXEC 2 0.00284169
+    Initialisation: 2 0.00151286
+    @ FFTW1DCINIT 2 0.00151286
+    Execution: 2 0.0126469
+    @ FFTW1DCEXEC 2 0.0126469
 2D
   R -> HC
-    Initialisation: 2 0.0194051
-    @ FFTW2DRINIT 2 0.0194051
-    Execution: 2 0.291286
-    @ FFTW2DREXEC 2 0.291286
+    Initialisation: 2 0.0126575
+    @ FFTW2DRINIT 2 0.0126575
+    Execution: 2 0.29703
+    @ FFTW2DREXEC 2 0.29703
   C-> C
-    Initialisation: 2 0.00717774
-    @ FFTW2DCINIT 2 0.00717774
-    Execution: 2 0.860093
-    @ FFTW2DCEXEC 2 0.860093
+    Initialisation: 2 0.00595823
+    @ FFTW2DCINIT 2 0.00595823
+    Execution: 2 0.838844
+    @ FFTW2DCEXEC 2 0.838844
 3D
   R -> HC
-    Initialisation: 2 0.00121733
-    @FFTW3DRINIT 2 0.00121733
-    Execution: 2 0.846732
-    @ FFTW3DREXEC 2 0.846732
-  C -> C
-    Initialisation: 2 0.00155977
-    @ FFTW3DCINIT 2 0.00155977
-    Execution: 2 0.881077
-    @ FFTW3DCEXEC 2 0.881077
-Application 36218606 resources: utime ~24s, stime ~2s, Rss ~675600, inblocks ~23307, outblocks ~57784
+Application 36241067 exit signals: Segmentation fault
+Application 36241067 resources: utime ~20s, stime ~2s, Rss ~675588, inblocks ~23502, outblocks ~57773
 ----------------
 N processes: 2
 N threads: 2
 
 1D
   C -> C
-    Initialisation: 2 0.0189704
-    @ FFTW1DCINIT 2 0.0189704
-    Execution: 2 0.0131155
-    @ FFTW1DCEXEC 2 0.0131155
+    Initialisation: 2 0.0107904
+    @ FFTW1DCINIT 2 0.0107904
+    Execution: 2 0.00268745
+    @ FFTW1DCEXEC 2 0.00268745
 2D
   R -> HC
-    Initialisation: 2 0.0148414
-    @ FFTW2DRINIT 2 0.0148414
-    Execution: 2 0.293755
-    @ FFTW2DREXEC 2 0.293755
+    Initialisation: 2 0.013658
+    @ FFTW2DRINIT 2 0.013658
+    Execution: 2 0.297396
+    @ FFTW2DREXEC 2 0.297396
   C-> C
-    Initialisation: 2 0.00658187
-    @ FFTW2DCINIT 2 0.00658187
-    Execution: 2 0.865656
-    @ FFTW2DCEXEC 2 0.865656
+    Initialisation: 2 0.00626026
+    @ FFTW2DCINIT 2 0.00626026
+    Execution: 2 0.835836
+    @ FFTW2DCEXEC 2 0.835836
 3D
   R -> HC
-    Initialisation: 2 0.00214083
-    @FFTW3DRINIT 2 0.00214083
-    Execution: 2 0.835764
-    @ FFTW3DREXEC 2 0.835764
-  C -> C
-    Initialisation: 2 0.0012873
-    @ FFTW3DCINIT 2 0.0012873
-    Execution: 2 0.878232
-    @ FFTW3DCEXEC 2 0.878232
-Application 36218613 resources: utime ~24s, stime ~4s, Rss ~675600, inblocks ~23308, outblocks ~57784
+Application 36241071 exit signals: Segmentation fault
+Application 36241071 resources: utime ~20s, stime ~2s, Rss ~675588, inblocks ~23502, outblocks ~57773
 ----------------
 N processes: 2
 N threads: 2
 
 1D
   C -> C
-    Initialisation: 2 0.0133441
-    @ FFTW1DCINIT 2 0.0133441
-    Execution: 2 0.00368308
-    @ FFTW1DCEXEC 2 0.00368308
+    Initialisation: 2 0.0109645
+    @ FFTW1DCINIT 2 0.0109645
+    Execution: 2 0.00296659
+    @ FFTW1DCEXEC 2 0.00296659
 2D
   R -> HC
-    Initialisation: 2 0.0176109
-    @ FFTW2DRINIT 2 0.0176109
-    Execution: 2 0.295403
-    @ FFTW2DREXEC 2 0.295403
+    Initialisation: 2 0.0171191
+    @ FFTW2DRINIT 2 0.0171191
+    Execution: 2 0.294056
+    @ FFTW2DREXEC 2 0.294056
   C-> C
-    Initialisation: 2 0.0111076
-    @ FFTW2DCINIT 2 0.0111076
-    Execution: 2 0.859608
-    @ FFTW2DCEXEC 2 0.859608
+    Initialisation: 2 0.00624349
+    @ FFTW2DCINIT 2 0.00624349
+    Execution: 2 0.836529
+    @ FFTW2DCEXEC 2 0.836529
 3D
   R -> HC
-    Initialisation: 2 0.00474314
-    @FFTW3DRINIT 2 0.00474314
-    Execution: 2 0.832238
-    @ FFTW3DREXEC 2 0.832238
-  C -> C
-    Initialisation: 2 0.00441852
-    @ FFTW3DCINIT 2 0.00441852
-    Execution: 2 0.885482
-    @ FFTW3DCEXEC 2 0.885482
-Application 36218619 resources: utime ~24s, stime ~3s, Rss ~675612, inblocks ~23310, outblocks ~57784
+Application 36241073 exit signals: Segmentation fault
+Application 36241073 resources: utime ~20s, stime ~2s, Rss ~675580, inblocks ~23504, outblocks ~57773
 ----------------
 N processes: 2
 N threads: 2
 
 1D
   C -> C
-    Initialisation: 2 0.0119329
-    @ FFTW1DCINIT 2 0.0119329
-    Execution: 2 0.00291704
-    @ FFTW1DCEXEC 2 0.00291704
+    Initialisation: 2 0.00152238
+    @ FFTW1DCINIT 2 0.00152238
+    Execution: 2 0.00270033
+    @ FFTW1DCEXEC 2 0.00270033
 2D
   R -> HC
-    Initialisation: 2 0.0147431
-    @ FFTW2DRINIT 2 0.0147431
-    Execution: 2 0.29128
-    @ FFTW2DREXEC 2 0.29128
+    Initialisation: 2 0.0179985
+    @ FFTW2DRINIT 2 0.0179985
+    Execution: 2 0.295821
+    @ FFTW2DREXEC 2 0.295821
   C-> C
-    Initialisation: 2 0.00819926
-    @ FFTW2DCINIT 2 0.00819926
-    Execution: 2 0.862059
-    @ FFTW2DCEXEC 2 0.862059
+    Initialisation: 2 0.00603967
+    @ FFTW2DCINIT 2 0.00603967
+    Execution: 2 0.836902
+    @ FFTW2DCEXEC 2 0.836902
 3D
   R -> HC
-    Initialisation: 2 0.00332484
-    @FFTW3DRINIT 2 0.00332484
-    Execution: 2 0.833333
-    @ FFTW3DREXEC 2 0.833333
-  C -> C
-    Initialisation: 2 0.00189703
-    @ FFTW3DCINIT 2 0.00189703
-    Execution: 2 0.880603
-    @ FFTW3DCEXEC 2 0.880603
-Application 36218622 resources: utime ~24s, stime ~4s, Rss ~675612, inblocks ~23304, outblocks ~57784
+Application 36241077 exit signals: Segmentation fault
+Application 36241077 resources: utime ~20s, stime ~2s, Rss ~675580, inblocks ~23504, outblocks ~57773
 ----------------
 N processes: 2
 N threads: 2
 
 1D
   C -> C
-    Initialisation: 2 0.035354
-    @ FFTW1DCINIT 2 0.035354
-    Execution: 2 0.0165702
-    @ FFTW1DCEXEC 2 0.0165702
+    Initialisation: 2 0.0100836
+    @ FFTW1DCINIT 2 0.0100836
+    Execution: 2 0.00297111
+    @ FFTW1DCEXEC 2 0.00297111
 2D
   R -> HC
-    Initialisation: 2 0.0199746
-    @ FFTW2DRINIT 2 0.0199746
-    Execution: 2 0.275081
-    @ FFTW2DREXEC 2 0.275081
+    Initialisation: 2 0.0151273
+    @ FFTW2DRINIT 2 0.0151273
+    Execution: 2 0.296367
+    @ FFTW2DREXEC 2 0.296367
   C-> C
-    Initialisation: 2 0.00681039
-    @ FFTW2DCINIT 2 0.00681039
-    Execution: 2 0.862139
-    @ FFTW2DCEXEC 2 0.862139
+    Initialisation: 2 0.00711068
+    @ FFTW2DCINIT 2 0.00711068
+    Execution: 2 0.838258
+    @ FFTW2DCEXEC 2 0.838258
 3D
   R -> HC
-    Initialisation: 2 0.00122323
-    @FFTW3DRINIT 2 0.00122323
-    Execution: 2 0.763054
-    @ FFTW3DREXEC 2 0.763054
-  C -> C
-    Initialisation: 2 0.000707068
-    @ FFTW3DCINIT 2 0.000707068
-    Execution: 2 0.881281
-    @ FFTW3DCEXEC 2 0.881281
-Application 36218628 resources: utime ~24s, stime ~4s, Rss ~675592, inblocks ~23310, outblocks ~57784
+Application 36241081 exit signals: Segmentation fault
+Application 36241081 resources: utime ~20s, stime ~2s, Rss ~675576, inblocks ~23505, outblocks ~57773
 ----------------
 N processes: 2
 N threads: 2
 
 1D
   C -> C
-    Initialisation: 2 0.0390102
-    @ FFTW1DCINIT 2 0.0390102
-    Execution: 2 0.0197631
-    @ FFTW1DCEXEC 2 0.0197631
+    Initialisation: 2 0.0102467
+    @ FFTW1DCINIT 2 0.0102467
+    Execution: 2 0.00269674
+    @ FFTW1DCEXEC 2 0.00269674
 2D
   R -> HC
-    Initialisation: 2 0.0100071
-    @ FFTW2DRINIT 2 0.0100071
-    Execution: 2 0.278798
-    @ FFTW2DREXEC 2 0.278798
+    Initialisation: 2 0.0152734
+    @ FFTW2DRINIT 2 0.0152734
+    Execution: 2 0.295054
+    @ FFTW2DREXEC 2 0.295054
   C-> C
-    Initialisation: 2 0.00686998
-    @ FFTW2DCINIT 2 0.00686998
-    Execution: 2 0.861265
-    @ FFTW2DCEXEC 2 0.861265
+    Initialisation: 2 0.00624164
+    @ FFTW2DCINIT 2 0.00624164
+    Execution: 2 0.834942
+    @ FFTW2DCEXEC 2 0.834942
 3D
   R -> HC
-    Initialisation: 2 0.00216633
-    @FFTW3DRINIT 2 0.00216633
-    Execution: 2 0.826654
-    @ FFTW3DREXEC 2 0.826654
-  C -> C
-    Initialisation: 2 0.001124
-    @ FFTW3DCINIT 2 0.001124
-    Execution: 2 0.873361
-    @ FFTW3DCEXEC 2 0.873361
-Application 36218634 resources: utime ~24s, stime ~2s, Rss ~675612, inblocks ~23307, outblocks ~57784
+Application 36241083 exit signals: Segmentation fault
+Application 36241083 resources: utime ~20s, stime ~2s, Rss ~675584, inblocks ~23502, outblocks ~57773
 ----------------
 N processes: 2
 N threads: 2
 
 1D
   C -> C
-    Initialisation: 2 0.032078
-    @ FFTW1DCINIT 2 0.032078
-    Execution: 2 0.0267764
-    @ FFTW1DCEXEC 2 0.0267764
+    Initialisation: 2 0.0102367
+    @ FFTW1DCINIT 2 0.0102367
+    Execution: 2 0.00295797
+    @ FFTW1DCEXEC 2 0.00295797
 2D
   R -> HC
-    Initialisation: 2 0.00974834
-    @ FFTW2DRINIT 2 0.00974834
-    Execution: 2 0.275554
-    @ FFTW2DREXEC 2 0.275554
+    Initialisation: 2 0.0175929
+    @ FFTW2DRINIT 2 0.0175929
+    Execution: 2 0.296728
+    @ FFTW2DREXEC 2 0.296728
   C-> C
-    Initialisation: 2 0.00703418
-    @ FFTW2DCINIT 2 0.00703418
-    Execution: 2 0.877664
-    @ FFTW2DCEXEC 2 0.877664
+    Initialisation: 2 0.00598851
+    @ FFTW2DCINIT 2 0.00598851
+    Execution: 2 0.841465
+    @ FFTW2DCEXEC 2 0.841465
 3D
   R -> HC
-    Initialisation: 2 0.00135608
-    @FFTW3DRINIT 2 0.00135608
-    Execution: 2 0.834905
-    @ FFTW3DREXEC 2 0.834905
-  C -> C
-    Initialisation: 2 0.0012625
-    @ FFTW3DCINIT 2 0.0012625
-    Execution: 2 0.895856
-    @ FFTW3DCEXEC 2 0.895856
-Application 36218638 resources: utime ~24s, stime ~4s, Rss ~675604, inblocks ~23310, outblocks ~57784
+Application 36241086 exit signals: Segmentation fault
+Application 36241086 resources: utime ~20s, stime ~2s, Rss ~675588, inblocks ~23507, outblocks ~57773
 ===========================\n
 1 process\n
 96 thread\n
@@ -2339,327 +1779,247 @@ N threads: 4
 
 1D
   C -> C
-    Initialisation: 4 0.171643
-    @ FFTW1DCINIT 4 0.171643
-    Execution: 4 0.00294425
-    @ FFTW1DCEXEC 4 0.00294425
+    Initialisation: 4 0.0124425
+    @ FFTW1DCINIT 4 0.0124425
+    Execution: 4 0.00293776
+    @ FFTW1DCEXEC 4 0.00293776
 2D
   R -> HC
-    Initialisation: 4 0.0202104
-    @ FFTW2DRINIT 4 0.0202104
-    Execution: 4 0.166847
-    @ FFTW2DREXEC 4 0.166847
+    Initialisation: 4 0.00853321
+    @ FFTW2DRINIT 4 0.00853321
+    Execution: 4 0.23907
+    @ FFTW2DREXEC 4 0.23907
   C-> C
-    Initialisation: 4 0.0138227
-    @ FFTW2DCINIT 4 0.0138227
-    Execution: 4 0.356768
-    @ FFTW2DCEXEC 4 0.356768
+    Initialisation: 4 0.00692658
+    @ FFTW2DCINIT 4 0.00692658
+    Execution: 4 0.34762
+    @ FFTW2DCEXEC 4 0.34762
 3D
   R -> HC
-    Initialisation: 4 0.00723537
-    @FFTW3DRINIT 4 0.00723537
-    Execution: 4 0.34679
-    @ FFTW3DREXEC 4 0.34679
-  C -> C
-    Initialisation: 4 0.00806102
-    @ FFTW3DCINIT 4 0.00806102
-    Execution: 4 0.356614
-    @ FFTW3DCEXEC 4 0.356614
-Application 36218645 resources: utime ~40s, stime ~4s, Rss ~325220, inblocks ~46863, outblocks ~115544
+Application 36241089 exit signals: Segmentation fault
+Application 36241089 resources: utime ~36s, stime ~4s, Rss ~325184, inblocks ~47680, outblocks ~115537
 ----------------
 N processes: 4
 N threads: 4
 
 1D
   C -> C
-    Initialisation: 4 0.0315493
-    @ FFTW1DCINIT 4 0.0315493
-    Execution: 4 0.00304082
-    @ FFTW1DCEXEC 4 0.00304082
+    Initialisation: 4 0.0125275
+    @ FFTW1DCINIT 4 0.0125275
+    Execution: 4 0.00271631
+    @ FFTW1DCEXEC 4 0.00271631
 2D
   R -> HC
-    Initialisation: 4 0.0138557
-    @ FFTW2DRINIT 4 0.0138557
-    Execution: 4 0.240844
-    @ FFTW2DREXEC 4 0.240844
+    Initialisation: 4 0.00978293
+    @ FFTW2DRINIT 4 0.00978293
+    Execution: 4 0.239837
+    @ FFTW2DREXEC 4 0.239837
   C-> C
-    Initialisation: 4 0.00816216
-    @ FFTW2DCINIT 4 0.00816216
-    Execution: 4 0.353856
-    @ FFTW2DCEXEC 4 0.353856
+    Initialisation: 4 0.00670937
+    @ FFTW2DCINIT 4 0.00670937
+    Execution: 4 0.347988
+    @ FFTW2DCEXEC 4 0.347988
 3D
   R -> HC
-    Initialisation: 4 0.00242504
-    @FFTW3DRINIT 4 0.00242504
-    Execution: 4 0.334194
-    @ FFTW3DREXEC 4 0.334194
-  C -> C
-    Initialisation: 4 0.00494764
-    @ FFTW3DCINIT 4 0.00494764
-    Execution: 4 0.349295
-    @ FFTW3DCEXEC 4 0.349295
-Application 36218652 resources: utime ~40s, stime ~4s, Rss ~325228, inblocks ~46782, outblocks ~115544
+Application 36241093 exit signals: Segmentation fault
+Application 36241093 resources: utime ~39s, stime ~4s, Rss ~325180, inblocks ~47678, outblocks ~115537
 ----------------
 N processes: 4
 N threads: 4
 
 1D
   C -> C
-    Initialisation: 4 0.0340311
-    @ FFTW1DCINIT 4 0.0340311
-    Execution: 4 0.0030988
-    @ FFTW1DCEXEC 4 0.0030988
+    Initialisation: 4 0.031659
+    @ FFTW1DCINIT 4 0.031659
+    Execution: 4 0.0185841
+    @ FFTW1DCEXEC 4 0.0185841
 2D
   R -> HC
-    Initialisation: 4 0.0118342
-    @ FFTW2DRINIT 4 0.0118342
-    Execution: 4 0.237262
-    @ FFTW2DREXEC 4 0.237262
+    Initialisation: 4 0.0156462
+    @ FFTW2DRINIT 4 0.0156462
+    Execution: 4 0.234365
+    @ FFTW2DREXEC 4 0.234365
   C-> C
-    Initialisation: 4 0.0130534
-    @ FFTW2DCINIT 4 0.0130534
-    Execution: 4 0.352948
-    @ FFTW2DCEXEC 4 0.352948
+    Initialisation: 4 0.00890326
+    @ FFTW2DCINIT 4 0.00890326
+    Execution: 4 0.346726
+    @ FFTW2DCEXEC 4 0.346726
 3D
   R -> HC
-    Initialisation: 4 0.00395546
-    @FFTW3DRINIT 4 0.00395546
-    Execution: 4 0.343291
-    @ FFTW3DREXEC 4 0.343291
-  C -> C
-    Initialisation: 4 0.00375692
-    @ FFTW3DCINIT 4 0.00375692
-    Execution: 4 0.352181
-    @ FFTW3DCEXEC 4 0.352181
-Application 36218655 resources: utime ~40s, stime ~4s, Rss ~325228, inblocks ~46823, outblocks ~115544
+Application 36241101 exit signals: Segmentation fault
+Application 36241101 resources: utime ~38s, stime ~4s, Rss ~325184, inblocks ~47677, outblocks ~115537
 ----------------
 N processes: 4
 N threads: 4
 
 1D
   C -> C
-    Initialisation: 4 0.0162552
-    @ FFTW1DCINIT 4 0.0162552
-    Execution: 4 0.0145955
-    @ FFTW1DCEXEC 4 0.0145955
+    Initialisation: 4 0.0122586
+    @ FFTW1DCINIT 4 0.0122586
+    Execution: 4 0.00270445
+    @ FFTW1DCEXEC 4 0.00270445
 2D
   R -> HC
-    Initialisation: 4 0.0168674
-    @ FFTW2DRINIT 4 0.0168674
-    Execution: 4 0.243495
-    @ FFTW2DREXEC 4 0.243495
+    Initialisation: 4 0.010172
+    @ FFTW2DRINIT 4 0.010172
+    Execution: 4 0.239908
+    @ FFTW2DREXEC 4 0.239908
   C-> C
-    Initialisation: 4 0.0129584
-    @ FFTW2DCINIT 4 0.0129584
-    Execution: 4 0.36206
-    @ FFTW2DCEXEC 4 0.36206
+    Initialisation: 4 0.00886545
+    @ FFTW2DCINIT 4 0.00886545
+    Execution: 4 0.347807
+    @ FFTW2DCEXEC 4 0.347807
 3D
   R -> HC
-    Initialisation: 4 0.00451943
-    @FFTW3DRINIT 4 0.00451943
-    Execution: 4 0.341797
-    @ FFTW3DREXEC 4 0.341797
-  C -> C
-    Initialisation: 4 0.00347482
-    @ FFTW3DCINIT 4 0.00347482
-    Execution: 4 0.353611
-    @ FFTW3DCEXEC 4 0.353611
-Application 36218659 resources: utime ~40s, stime ~4s, Rss ~325208, inblocks ~46821, outblocks ~115544
+Application 36241108 exit signals: Segmentation fault
+Application 36241108 resources: utime ~37s, stime ~4s, Rss ~325180, inblocks ~47679, outblocks ~115537
 ----------------
 N processes: 4
 N threads: 4
 
 1D
   C -> C
-    Initialisation: 4 0.111516
-    @ FFTW1DCINIT 4 0.111516
-    Execution: 4 0.0392448
-    @ FFTW1DCEXEC 4 0.0392448
+    Initialisation: 4 0.0120951
+    @ FFTW1DCINIT 4 0.0120951
+    Execution: 4 0.00269818
+    @ FFTW1DCEXEC 4 0.00269818
 2D
   R -> HC
-    Initialisation: 4 0.0222835
-    @ FFTW2DRINIT 4 0.0222835
-    Execution: 4 0.187274
-    @ FFTW2DREXEC 4 0.187274
+    Initialisation: 4 0.0108651
+    @ FFTW2DRINIT 4 0.0108651
+    Execution: 4 0.238203
+    @ FFTW2DREXEC 4 0.238203
   C-> C
-    Initialisation: 4 0.00898427
-    @ FFTW2DCINIT 4 0.00898427
-    Execution: 4 0.359513
-    @ FFTW2DCEXEC 4 0.359513
+    Initialisation: 4 0.00709092
+    @ FFTW2DCINIT 4 0.00709092
+    Execution: 4 0.349238
+    @ FFTW2DCEXEC 4 0.349238
 3D
   R -> HC
-    Initialisation: 4 0.00471784
-    @FFTW3DRINIT 4 0.00471784
-    Execution: 4 0.335582
-    @ FFTW3DREXEC 4 0.335582
-  C -> C
-    Initialisation: 4 0.00575384
-    @ FFTW3DCINIT 4 0.00575384
-    Execution: 4 0.345734
-    @ FFTW3DCEXEC 4 0.345734
-Application 36218664 resources: utime ~40s, stime ~4s, Rss ~325216, inblocks ~46787, outblocks ~115544
+Application 36241113 exit signals: Segmentation fault
+Application 36241113 resources: utime ~38s, stime ~4s, Rss ~325180, inblocks ~47672, outblocks ~115537
 ----------------
 N processes: 4
 N threads: 4
 
 1D
   C -> C
-    Initialisation: 4 0.166536
-    @ FFTW1DCINIT 4 0.166536
-    Execution: 4 0.0033319
-    @ FFTW1DCEXEC 4 0.0033319
+    Initialisation: 4 0.0171844
+    @ FFTW1DCINIT 4 0.0171844
+    Execution: 4 0.0170679
+    @ FFTW1DCEXEC 4 0.0170679
 2D
   R -> HC
-    Initialisation: 4 0.0287558
-    @ FFTW2DRINIT 4 0.0287558
-    Execution: 4 0.173027
-    @ FFTW2DREXEC 4 0.173027
+    Initialisation: 4 0.0139553
+    @ FFTW2DRINIT 4 0.0139553
+    Execution: 4 0.239684
+    @ FFTW2DREXEC 4 0.239684
   C-> C
-    Initialisation: 4 0.0109068
-    @ FFTW2DCINIT 4 0.0109068
-    Execution: 4 0.351883
-    @ FFTW2DCEXEC 4 0.351883
+    Initialisation: 4 0.00685797
+    @ FFTW2DCINIT 4 0.00685797
+    Execution: 4 0.348593
+    @ FFTW2DCEXEC 4 0.348593
 3D
   R -> HC
-    Initialisation: 4 0.00469548
-    @FFTW3DRINIT 4 0.00469548
-    Execution: 4 0.338378
-    @ FFTW3DREXEC 4 0.338378
-  C -> C
-    Initialisation: 4 0.00709492
-    @ FFTW3DCINIT 4 0.00709492
-    Execution: 4 0.344992
-    @ FFTW3DCEXEC 4 0.344992
-Application 36218668 resources: utime ~40s, stime ~4s, Rss ~325228, inblocks ~46790, outblocks ~115543
+Application 36241118 exit signals: Segmentation fault
+Application 36241118 resources: utime ~38s, stime ~4s, Rss ~325188, inblocks ~47681, outblocks ~115537
 ----------------
 N processes: 4
 N threads: 4
 
 1D
   C -> C
-    Initialisation: 4 0.0723632
-    @ FFTW1DCINIT 4 0.0723632
-    Execution: 4 0.0187431
-    @ FFTW1DCEXEC 4 0.0187431
+    Initialisation: 4 0.0229283
+    @ FFTW1DCINIT 4 0.0229283
+    Execution: 4 0.0111169
+    @ FFTW1DCEXEC 4 0.0111169
 2D
   R -> HC
-    Initialisation: 4 0.0162598
-    @ FFTW2DRINIT 4 0.0162598
-    Execution: 4 0.214398
-    @ FFTW2DREXEC 4 0.214398
+    Initialisation: 4 0.0145707
+    @ FFTW2DRINIT 4 0.0145707
+    Execution: 4 0.23455
+    @ FFTW2DREXEC 4 0.23455
   C-> C
-    Initialisation: 4 0.0126856
-    @ FFTW2DCINIT 4 0.0126856
-    Execution: 4 0.350782
-    @ FFTW2DCEXEC 4 0.350782
+    Initialisation: 4 0.00721829
+    @ FFTW2DCINIT 4 0.00721829
+    Execution: 4 0.345625
+    @ FFTW2DCEXEC 4 0.345625
 3D
   R -> HC
-    Initialisation: 4 0.00547097
-    @FFTW3DRINIT 4 0.00547097
-    Execution: 4 0.339182
-    @ FFTW3DREXEC 4 0.339182
-  C -> C
-    Initialisation: 4 0.00644447
-    @ FFTW3DCINIT 4 0.00644447
-    Execution: 4 0.351396
-    @ FFTW3DCEXEC 4 0.351396
-Application 36218674 resources: utime ~40s, stime ~4s, Rss ~325216, inblocks ~46782, outblocks ~115544
+Application 36241124 exit signals: Segmentation fault
+Application 36241124 resources: utime ~36s, stime ~4s, Rss ~325180, inblocks ~47676, outblocks ~115537
 ----------------
 N processes: 4
 N threads: 4
 
 1D
   C -> C
-    Initialisation: 4 0.0154433
-    @ FFTW1DCINIT 4 0.0154433
-    Execution: 4 0.00398137
-    @ FFTW1DCEXEC 4 0.00398137
+    Initialisation: 4 0.0132113
+    @ FFTW1DCINIT 4 0.0132113
+    Execution: 4 0.0169639
+    @ FFTW1DCEXEC 4 0.0169639
 2D
   R -> HC
-    Initialisation: 4 0.00943395
-    @ FFTW2DRINIT 4 0.00943395
-    Execution: 4 0.246447
-    @ FFTW2DREXEC 4 0.246447
+    Initialisation: 4 0.0154024
+    @ FFTW2DRINIT 4 0.0154024
+    Execution: 4 0.234515
+    @ FFTW2DREXEC 4 0.234515
   C-> C
-    Initialisation: 4 0.0118396
-    @ FFTW2DCINIT 4 0.0118396
-    Execution: 4 0.358905
-    @ FFTW2DCEXEC 4 0.358905
+    Initialisation: 4 0.00718904
+    @ FFTW2DCINIT 4 0.00718904
+    Execution: 4 0.350471
+    @ FFTW2DCEXEC 4 0.350471
 3D
   R -> HC
-    Initialisation: 4 0.00567575
-    @FFTW3DRINIT 4 0.00567575
-    Execution: 4 0.344299
-    @ FFTW3DREXEC 4 0.344299
-  C -> C
-    Initialisation: 4 0.00876351
-    @ FFTW3DCINIT 4 0.00876351
-    Execution: 4 0.352339
-    @ FFTW3DCEXEC 4 0.352339
-Application 36218679 resources: utime ~40s, stime ~4s, Rss ~325212, inblocks ~46827, outblocks ~115544
+Application 36241129 exit signals: Segmentation fault
+Application 36241129 resources: utime ~38s, stime ~4s, Rss ~325188, inblocks ~47674, outblocks ~115537
 ----------------
 N processes: 4
 N threads: 4
 
 1D
   C -> C
-    Initialisation: 4 0.153163
-    @ FFTW1DCINIT 4 0.153163
-    Execution: 4 0.00343008
-    @ FFTW1DCEXEC 4 0.00343008
+    Initialisation: 4 0.012058
+    @ FFTW1DCINIT 4 0.012058
+    Execution: 4 0.00272274
+    @ FFTW1DCEXEC 4 0.00272274
 2D
   R -> HC
-    Initialisation: 4 0.0279746
-    @ FFTW2DRINIT 4 0.0279746
-    Execution: 4 0.171003
-    @ FFTW2DREXEC 4 0.171003
+    Initialisation: 4 0.0129814
+    @ FFTW2DRINIT 4 0.0129814
+    Execution: 4 0.239711
+    @ FFTW2DREXEC 4 0.239711
   C-> C
-    Initialisation: 4 0.0128279
-    @ FFTW2DCINIT 4 0.0128279
-    Execution: 4 0.357067
-    @ FFTW2DCEXEC 4 0.357067
+    Initialisation: 4 0.00898612
+    @ FFTW2DCINIT 4 0.00898612
+    Execution: 4 0.347214
+    @ FFTW2DCEXEC 4 0.347214
 3D
   R -> HC
-    Initialisation: 4 0.00852512
-    @FFTW3DRINIT 4 0.00852512
-    Execution: 4 0.342531
-    @ FFTW3DREXEC 4 0.342531
-  C -> C
-    Initialisation: 4 0.00753622
-    @ FFTW3DCINIT 4 0.00753622
-    Execution: 4 0.345842
-    @ FFTW3DCEXEC 4 0.345842
-Application 36218686 resources: utime ~40s, stime ~4s, Rss ~325224, inblocks ~46783, outblocks ~115543
+Application 36241136 exit signals: Segmentation fault
+Application 36241136 resources: utime ~36s, stime ~4s, Rss ~325176, inblocks ~47680, outblocks ~115537
 ----------------
 N processes: 4
 N threads: 4
 
 1D
   C -> C
-    Initialisation: 4 0.0916251
-    @ FFTW1DCINIT 4 0.0916251
-    Execution: 4 0.027999
-    @ FFTW1DCEXEC 4 0.027999
+    Initialisation: 4 0.0120344
+    @ FFTW1DCINIT 4 0.0120344
+    Execution: 4 0.00269647
+    @ FFTW1DCEXEC 4 0.00269647
 2D
   R -> HC
-    Initialisation: 4 0.0185725
-    @ FFTW2DRINIT 4 0.0185725
-    Execution: 4 0.200183
-    @ FFTW2DREXEC 4 0.200183
+    Initialisation: 4 0.00994133
+    @ FFTW2DRINIT 4 0.00994133
+    Execution: 4 0.239943
+    @ FFTW2DREXEC 4 0.239943
   C-> C
-    Initialisation: 4 0.0136191
-    @ FFTW2DCINIT 4 0.0136191
-    Execution: 4 0.351963
-    @ FFTW2DCEXEC 4 0.351963
+    Initialisation: 4 0.00743192
+    @ FFTW2DCINIT 4 0.00743192
+    Execution: 4 0.350321
+    @ FFTW2DCEXEC 4 0.350321
 3D
   R -> HC
-    Initialisation: 4 0.00437061
-    @FFTW3DRINIT 4 0.00437061
-    Execution: 4 0.338969
-    @ FFTW3DREXEC 4 0.338969
-  C -> C
-    Initialisation: 4 0.00434659
-    @ FFTW3DCINIT 4 0.00434659
-    Execution: 4 0.350975
-    @ FFTW3DCEXEC 4 0.350975
-Application 36218689 resources: utime ~40s, stime ~4s, Rss ~325228, inblocks ~46831, outblocks ~115544
+Application 36241142 exit signals: Segmentation fault
+Application 36241142 resources: utime ~37s, stime ~4s, Rss ~325180, inblocks ~47681, outblocks ~115537
