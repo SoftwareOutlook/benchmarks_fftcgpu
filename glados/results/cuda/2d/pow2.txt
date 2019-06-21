@@ -1,0 +1,9265 @@
+/home/pgambron/GPU/cuda/test
+====
+====================================
+====================================
+====================================
+Dimensions: 512 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  4.13e-06 s
+@ PRODUCT1DRCPU 512 4.13e-06
+
+      OpenMP CPU
+        Time:  8.98e-07 s
+@ PRODUCT1DROPENMPCPU 512 8.98e-07
+
+      OpenMP GPU
+        Time:  8.85e-07 s
+@ PRODUCT1DROPENMPGPU 512 8.85e-07
+
+      CUDA
+        Time:  0.150333 s
+@ PRODUCT1DRCUDA 512 0.150333
+
+      CUDA (32 streams)
+        Time:  0.039122 s
+@ PRODUCT1DRCUDASTREAMS 512 0.039122
+
+    FFT
+      CUDA
+        Direct
+          Time:  6.5667e-05 s
+@ FFT1DRCUDA 512 6.5667e-05
+        Inverse
+          Time:  4.4989e-05 s
+        Error: 6.80567e-14
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  3.213e-06 s
+@ PRODUCT1DCCPU 512 3.213e-06
+
+      OpenMP CPU
+        Time:  1.019e-06 s
+@ PRODUCT1DCOPENMPCPU 512 1.019e-06
+
+      OpenMP GPU
+        Time:  8.62e-07 s
+@ PRODUCT1DCOPENMPGPU 512 8.62e-07
+
+      CUDA
+        Time:  0.000290439 s
+@ PRODUCT1DCCUDA 512 0.000290439
+
+      CUDA (32 streams)
+        Time:  0.00673122 s
+@ PRODUCT1DCCUDASTREAMS 512 0.00673122
+
+    FFT
+      CUDA
+        Direct
+          Time:  3.9163e-05 s
+@ FFT1DCCUDA 512 3.9163e-05
+        Inverse
+          Time:  2.2557e-05 s
+        Error: 1.25389e-13
+
+
+Dimensions: 512 512 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00149014 s
+
+      OpenMP CPU
+        Time:  0.000523931 s
+
+      OpenMP GPU
+        Time:  0.000460972 s
+
+      CUDA
+        Time:  0.00360843 s
+
+      CUDA (32 streams)
+        Time:  0.00951311 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00144713 s
+@ FFT2DRCUDA 512 0.00144713
+        Inverse
+          Time:  0.00300439 s
+        Error: 2.5707e-11
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00191474 s
+
+      OpenMP CPU
+        Time:  0.0007237 s
+
+      OpenMP GPU
+        Time:  0.000694156 s
+
+      CUDA
+        Time:  0.00668319 s
+
+      CUDA (32 streams)
+        Time:  0.0111816 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0025015 s
+@ FFT2DCCUDA 512 0.0025015
+        Inverse
+          Time:  0.00396691 s
+        Error: 4.05264e-11
+
+
+Dimensions: 512 512 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00100493 s
+
+      OpenMP CPU
+        Time:  0.000545418 s
+
+      OpenMP GPU
+        Time:  0.000461912 s
+
+      CUDA
+        Time:  0.00245661 s
+
+      CUDA (32 streams)
+        Time:  0.0077985 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00244641 s
+@ FFT3DRCUDA 512 0.00244641
+        Inverse
+          Time:  0.00256759 s
+        Error: 74848.6
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00204497 s
+
+      OpenMP CPU
+        Time:  0.000733968 s
+
+      OpenMP GPU
+        Time:  0.000712726 s
+
+      CUDA
+        Time:  0.00398147 s
+
+      CUDA (32 streams)
+        Time:  0.0100793 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0025529 s
+@ FFT3DCCUDA 512 0.0025529
+        Inverse
+          Time:  0.00312211 s
+        Error: 4.05264e-11
+
+
+====================================
+Dimensions: 512 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  5.463e-06 s
+@ PRODUCT1DRCPU 512 5.463e-06
+
+      OpenMP CPU
+        Time:  1.323e-06 s
+@ PRODUCT1DROPENMPCPU 512 1.323e-06
+
+      OpenMP GPU
+        Time:  1.154e-06 s
+@ PRODUCT1DROPENMPGPU 512 1.154e-06
+
+      CUDA
+        Time:  0.0949062 s
+@ PRODUCT1DRCUDA 512 0.0949062
+
+      CUDA (32 streams)
+        Time:  0.005795 s
+@ PRODUCT1DRCUDASTREAMS 512 0.005795
+
+    FFT
+      CUDA
+        Direct
+          Time:  5.8819e-05 s
+@ FFT1DRCUDA 512 5.8819e-05
+        Inverse
+          Time:  3.1246e-05 s
+        Error: 6.80567e-14
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  3.744e-06 s
+@ PRODUCT1DCCPU 512 3.744e-06
+
+      OpenMP CPU
+        Time:  1.113e-06 s
+@ PRODUCT1DCOPENMPCPU 512 1.113e-06
+
+      OpenMP GPU
+        Time:  8.74e-07 s
+@ PRODUCT1DCOPENMPGPU 512 8.74e-07
+
+      CUDA
+        Time:  0.000259924 s
+@ PRODUCT1DCCUDA 512 0.000259924
+
+      CUDA (32 streams)
+        Time:  0.00689058 s
+@ PRODUCT1DCCUDASTREAMS 512 0.00689058
+
+    FFT
+      CUDA
+        Direct
+          Time:  4.0662e-05 s
+@ FFT1DCCUDA 512 4.0662e-05
+        Inverse
+          Time:  2.2812e-05 s
+        Error: 1.25389e-13
+
+
+Dimensions: 512 512 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000993668 s
+
+      OpenMP CPU
+        Time:  0.000504636 s
+
+      OpenMP GPU
+        Time:  0.000439066 s
+
+      CUDA
+        Time:  0.00359485 s
+
+      CUDA (32 streams)
+        Time:  0.00784538 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00142261 s
+@ FFT2DRCUDA 512 0.00142261
+        Inverse
+          Time:  0.00236417 s
+        Error: 2.5707e-11
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00180595 s
+
+      OpenMP CPU
+        Time:  0.000690469 s
+
+      OpenMP GPU
+        Time:  0.000665081 s
+
+      CUDA
+        Time:  0.00660864 s
+
+      CUDA (32 streams)
+        Time:  0.0111321 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00247596 s
+@ FFT2DCCUDA 512 0.00247596
+        Inverse
+          Time:  0.00392097 s
+        Error: 4.05264e-11
+
+
+Dimensions: 512 512 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000971556 s
+
+      OpenMP CPU
+        Time:  0.000541799 s
+
+      OpenMP GPU
+        Time:  0.000477763 s
+
+      CUDA
+        Time:  0.00236559 s
+
+      CUDA (32 streams)
+        Time:  0.00787961 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00236862 s
+@ FFT3DRCUDA 512 0.00236862
+        Inverse
+          Time:  0.0024363 s
+        Error: 74848.6
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00197447 s
+
+      OpenMP CPU
+        Time:  0.000692399 s
+
+      OpenMP GPU
+        Time:  0.000683697 s
+
+      CUDA
+        Time:  0.00397024 s
+
+      CUDA (32 streams)
+        Time:  0.0102589 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00250887 s
+@ FFT3DCCUDA 512 0.00250887
+        Inverse
+          Time:  0.00308264 s
+        Error: 4.05264e-11
+
+
+====================================
+Dimensions: 512 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  5.973e-06 s
+@ PRODUCT1DRCPU 512 5.973e-06
+
+      OpenMP CPU
+        Time:  1.348e-06 s
+@ PRODUCT1DROPENMPCPU 512 1.348e-06
+
+      OpenMP GPU
+        Time:  1.339e-06 s
+@ PRODUCT1DROPENMPGPU 512 1.339e-06
+
+      CUDA
+        Time:  0.0982482 s
+@ PRODUCT1DRCUDA 512 0.0982482
+
+      CUDA (32 streams)
+        Time:  0.00574184 s
+@ PRODUCT1DRCUDASTREAMS 512 0.00574184
+
+    FFT
+      CUDA
+        Direct
+          Time:  5.9939e-05 s
+@ FFT1DRCUDA 512 5.9939e-05
+        Inverse
+          Time:  3.2475e-05 s
+        Error: 6.80567e-14
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  3.686e-06 s
+@ PRODUCT1DCCPU 512 3.686e-06
+
+      OpenMP CPU
+        Time:  1.092e-06 s
+@ PRODUCT1DCOPENMPCPU 512 1.092e-06
+
+      OpenMP GPU
+        Time:  9.88e-07 s
+@ PRODUCT1DCOPENMPGPU 512 9.88e-07
+
+      CUDA
+        Time:  0.000275404 s
+@ PRODUCT1DCCUDA 512 0.000275404
+
+      CUDA (32 streams)
+        Time:  0.00806256 s
+@ PRODUCT1DCCUDASTREAMS 512 0.00806256
+
+    FFT
+      CUDA
+        Direct
+          Time:  3.9676e-05 s
+@ FFT1DCCUDA 512 3.9676e-05
+        Inverse
+          Time:  2.238e-05 s
+        Error: 1.25389e-13
+
+
+Dimensions: 512 512 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0010045 s
+
+      OpenMP CPU
+        Time:  0.000502829 s
+
+      OpenMP GPU
+        Time:  0.00044289 s
+
+      CUDA
+        Time:  0.00246658 s
+
+      CUDA (32 streams)
+        Time:  0.00784102 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00145077 s
+@ FFT2DRCUDA 512 0.00145077
+        Inverse
+          Time:  0.00234174 s
+        Error: 2.5707e-11
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00188941 s
+
+      OpenMP CPU
+        Time:  0.000712198 s
+
+      OpenMP GPU
+        Time:  0.000689339 s
+
+      CUDA
+        Time:  0.0066333 s
+
+      CUDA (32 streams)
+        Time:  0.0114108 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00248672 s
+@ FFT2DCCUDA 512 0.00248672
+        Inverse
+          Time:  0.00394755 s
+        Error: 4.05264e-11
+
+
+Dimensions: 512 512 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00100958 s
+
+      OpenMP CPU
+        Time:  0.00054765 s
+
+      OpenMP GPU
+        Time:  0.000465025 s
+
+      CUDA
+        Time:  0.00238182 s
+
+      CUDA (32 streams)
+        Time:  0.00894946 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00249931 s
+@ FFT3DRCUDA 512 0.00249931
+        Inverse
+          Time:  0.00250975 s
+        Error: 74848.6
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00203002 s
+
+      OpenMP CPU
+        Time:  0.000740237 s
+
+      OpenMP GPU
+        Time:  0.000700681 s
+
+      CUDA
+        Time:  0.00402376 s
+
+      CUDA (32 streams)
+        Time:  0.0101188 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00256384 s
+@ FFT3DCCUDA 512 0.00256384
+        Inverse
+          Time:  0.00311765 s
+        Error: 4.05264e-11
+
+
+====================================
+Dimensions: 512 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  5.129e-06 s
+@ PRODUCT1DRCPU 512 5.129e-06
+
+      OpenMP CPU
+        Time:  1.329e-06 s
+@ PRODUCT1DROPENMPCPU 512 1.329e-06
+
+      OpenMP GPU
+        Time:  1.157e-06 s
+@ PRODUCT1DROPENMPGPU 512 1.157e-06
+
+      CUDA
+        Time:  0.0954055 s
+@ PRODUCT1DRCUDA 512 0.0954055
+
+      CUDA (32 streams)
+        Time:  0.00580016 s
+@ PRODUCT1DRCUDASTREAMS 512 0.00580016
+
+    FFT
+      CUDA
+        Direct
+          Time:  6.2045e-05 s
+@ FFT1DRCUDA 512 6.2045e-05
+        Inverse
+          Time:  3.0205e-05 s
+        Error: 6.80567e-14
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  3.186e-06 s
+@ PRODUCT1DCCPU 512 3.186e-06
+
+      OpenMP CPU
+        Time:  1.175e-06 s
+@ PRODUCT1DCOPENMPCPU 512 1.175e-06
+
+      OpenMP GPU
+        Time:  8.89e-07 s
+@ PRODUCT1DCOPENMPGPU 512 8.89e-07
+
+      CUDA
+        Time:  0.000262719 s
+@ PRODUCT1DCCUDA 512 0.000262719
+
+      CUDA (32 streams)
+        Time:  0.006743 s
+@ PRODUCT1DCCUDASTREAMS 512 0.006743
+
+    FFT
+      CUDA
+        Direct
+          Time:  4.1073e-05 s
+@ FFT1DCCUDA 512 4.1073e-05
+        Inverse
+          Time:  2.1544e-05 s
+        Error: 1.25389e-13
+
+
+Dimensions: 512 512 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00200386 s
+
+      OpenMP CPU
+        Time:  0.000536885 s
+
+      OpenMP GPU
+        Time:  0.000449265 s
+
+      CUDA
+        Time:  0.00357927 s
+
+      CUDA (32 streams)
+        Time:  0.00773355 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00146283 s
+@ FFT2DRCUDA 512 0.00146283
+        Inverse
+          Time:  0.00293221 s
+        Error: 2.5707e-11
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00195059 s
+
+      OpenMP CPU
+        Time:  0.000754254 s
+
+      OpenMP GPU
+        Time:  0.000699341 s
+
+      CUDA
+        Time:  0.00661951 s
+
+      CUDA (32 streams)
+        Time:  0.011362 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00254614 s
+@ FFT2DCCUDA 512 0.00254614
+        Inverse
+          Time:  0.00550971 s
+        Error: 4.05264e-11
+
+
+Dimensions: 512 512 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00098682 s
+
+      OpenMP CPU
+        Time:  0.000547121 s
+
+      OpenMP GPU
+        Time:  0.000461709 s
+
+      CUDA
+        Time:  0.00250159 s
+
+      CUDA (32 streams)
+        Time:  0.00784282 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00243059 s
+@ FFT3DRCUDA 512 0.00243059
+        Inverse
+          Time:  0.00249491 s
+        Error: 74848.6
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00200522 s
+
+      OpenMP CPU
+        Time:  0.000748028 s
+
+      OpenMP GPU
+        Time:  0.000701558 s
+
+      CUDA
+        Time:  0.0039979 s
+
+      CUDA (32 streams)
+        Time:  0.0102677 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00255556 s
+@ FFT3DCCUDA 512 0.00255556
+        Inverse
+          Time:  0.00312993 s
+        Error: 4.05264e-11
+
+
+====================================
+Dimensions: 512 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  6.123e-06 s
+@ PRODUCT1DRCPU 512 6.123e-06
+
+      OpenMP CPU
+        Time:  1.574e-06 s
+@ PRODUCT1DROPENMPCPU 512 1.574e-06
+
+      OpenMP GPU
+        Time:  2.021e-06 s
+@ PRODUCT1DROPENMPGPU 512 2.021e-06
+
+      CUDA
+        Time:  0.0965305 s
+@ PRODUCT1DRCUDA 512 0.0965305
+
+      CUDA (32 streams)
+        Time:  0.005924 s
+@ PRODUCT1DRCUDASTREAMS 512 0.005924
+
+    FFT
+      CUDA
+        Direct
+          Time:  5.9843e-05 s
+@ FFT1DRCUDA 512 5.9843e-05
+        Inverse
+          Time:  3.0809e-05 s
+        Error: 6.80567e-14
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  3.669e-06 s
+@ PRODUCT1DCCPU 512 3.669e-06
+
+      OpenMP CPU
+        Time:  1.015e-06 s
+@ PRODUCT1DCOPENMPCPU 512 1.015e-06
+
+      OpenMP GPU
+        Time:  8.82e-07 s
+@ PRODUCT1DCOPENMPGPU 512 8.82e-07
+
+      CUDA
+        Time:  0.000270441 s
+@ PRODUCT1DCCUDA 512 0.000270441
+
+      CUDA (32 streams)
+        Time:  0.00690857 s
+@ PRODUCT1DCCUDASTREAMS 512 0.00690857
+
+    FFT
+      CUDA
+        Direct
+          Time:  3.9825e-05 s
+@ FFT1DCCUDA 512 3.9825e-05
+        Inverse
+          Time:  2.3195e-05 s
+        Error: 1.25389e-13
+
+
+Dimensions: 512 512 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00153501 s
+
+      OpenMP CPU
+        Time:  0.000481019 s
+
+      OpenMP GPU
+        Time:  0.000441256 s
+
+      CUDA
+        Time:  0.00382135 s
+
+      CUDA (32 streams)
+        Time:  0.00836891 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00147408 s
+@ FFT2DRCUDA 512 0.00147408
+        Inverse
+          Time:  0.00235484 s
+        Error: 2.5707e-11
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00236967 s
+
+      OpenMP CPU
+        Time:  0.000701927 s
+
+      OpenMP GPU
+        Time:  0.000700683 s
+
+      CUDA
+        Time:  0.00579131 s
+
+      CUDA (32 streams)
+        Time:  0.0111216 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00251566 s
+@ FFT2DCCUDA 512 0.00251566
+        Inverse
+          Time:  0.00546299 s
+        Error: 4.05264e-11
+
+
+Dimensions: 512 512 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000996237 s
+
+      OpenMP CPU
+        Time:  0.00054053 s
+
+      OpenMP GPU
+        Time:  0.000471644 s
+
+      CUDA
+        Time:  0.00251353 s
+
+      CUDA (32 streams)
+        Time:  0.00789576 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00238439 s
+@ FFT3DRCUDA 512 0.00238439
+        Inverse
+          Time:  0.00243585 s
+        Error: 74848.6
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00196683 s
+
+      OpenMP CPU
+        Time:  0.000716525 s
+
+      OpenMP GPU
+        Time:  0.00069027 s
+
+      CUDA
+        Time:  0.00407875 s
+
+      CUDA (32 streams)
+        Time:  0.0102433 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00254756 s
+@ FFT3DCCUDA 512 0.00254756
+        Inverse
+          Time:  0.00315694 s
+        Error: 4.05264e-11
+
+
+====================================
+Dimensions: 512 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  6.109e-06 s
+@ PRODUCT1DRCPU 512 6.109e-06
+
+      OpenMP CPU
+        Time:  1.395e-06 s
+@ PRODUCT1DROPENMPCPU 512 1.395e-06
+
+      OpenMP GPU
+        Time:  1.398e-06 s
+@ PRODUCT1DROPENMPGPU 512 1.398e-06
+
+      CUDA
+        Time:  0.0974254 s
+@ PRODUCT1DRCUDA 512 0.0974254
+
+      CUDA (32 streams)
+        Time:  0.00657568 s
+@ PRODUCT1DRCUDASTREAMS 512 0.00657568
+
+    FFT
+      CUDA
+        Direct
+          Time:  5.9311e-05 s
+@ FFT1DRCUDA 512 5.9311e-05
+        Inverse
+          Time:  3.0303e-05 s
+        Error: 6.80567e-14
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  3.336e-06 s
+@ PRODUCT1DCCPU 512 3.336e-06
+
+      OpenMP CPU
+        Time:  1.008e-06 s
+@ PRODUCT1DCOPENMPCPU 512 1.008e-06
+
+      OpenMP GPU
+        Time:  8.73e-07 s
+@ PRODUCT1DCOPENMPGPU 512 8.73e-07
+
+      CUDA
+        Time:  0.000262499 s
+@ PRODUCT1DCCUDA 512 0.000262499
+
+      CUDA (32 streams)
+        Time:  0.00680877 s
+@ PRODUCT1DCCUDASTREAMS 512 0.00680877
+
+    FFT
+      CUDA
+        Direct
+          Time:  4.0913e-05 s
+@ FFT1DCCUDA 512 4.0913e-05
+        Inverse
+          Time:  2.2108e-05 s
+        Error: 1.25389e-13
+
+
+Dimensions: 512 512 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00200829 s
+
+      OpenMP CPU
+        Time:  0.000511041 s
+
+      OpenMP GPU
+        Time:  0.000446199 s
+
+      CUDA
+        Time:  0.00357448 s
+
+      CUDA (32 streams)
+        Time:  0.00787381 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00146065 s
+@ FFT2DRCUDA 512 0.00146065
+        Inverse
+          Time:  0.00290121 s
+        Error: 2.5707e-11
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00185914 s
+
+      OpenMP CPU
+        Time:  0.000709551 s
+
+      OpenMP GPU
+        Time:  0.000669004 s
+
+      CUDA
+        Time:  0.00662983 s
+
+      CUDA (32 streams)
+        Time:  0.0113662 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00252698 s
+@ FFT2DCCUDA 512 0.00252698
+        Inverse
+          Time:  0.0039433 s
+        Error: 4.05264e-11
+
+
+Dimensions: 512 512 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000977904 s
+
+      OpenMP CPU
+        Time:  0.000543544 s
+
+      OpenMP GPU
+        Time:  0.000468116 s
+
+      CUDA
+        Time:  0.00234661 s
+
+      CUDA (32 streams)
+        Time:  0.00873795 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00250605 s
+@ FFT3DRCUDA 512 0.00250605
+        Inverse
+          Time:  0.00262452 s
+        Error: 74848.6
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00203722 s
+
+      OpenMP CPU
+        Time:  0.000713878 s
+
+      OpenMP GPU
+        Time:  0.000678657 s
+
+      CUDA
+        Time:  0.00403434 s
+
+      CUDA (32 streams)
+        Time:  0.0102773 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00254237 s
+@ FFT3DCCUDA 512 0.00254237
+        Inverse
+          Time:  0.00315674 s
+        Error: 4.05264e-11
+
+
+====================================
+Dimensions: 512 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  5.35e-06 s
+@ PRODUCT1DRCPU 512 5.35e-06
+
+      OpenMP CPU
+        Time:  1.361e-06 s
+@ PRODUCT1DROPENMPCPU 512 1.361e-06
+
+      OpenMP GPU
+        Time:  1.193e-06 s
+@ PRODUCT1DROPENMPGPU 512 1.193e-06
+
+      CUDA
+        Time:  0.0977036 s
+@ PRODUCT1DRCUDA 512 0.0977036
+
+      CUDA (32 streams)
+        Time:  0.00564933 s
+@ PRODUCT1DRCUDASTREAMS 512 0.00564933
+
+    FFT
+      CUDA
+        Direct
+          Time:  5.7995e-05 s
+@ FFT1DRCUDA 512 5.7995e-05
+        Inverse
+          Time:  3.0993e-05 s
+        Error: 6.80567e-14
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  3.195e-06 s
+@ PRODUCT1DCCPU 512 3.195e-06
+
+      OpenMP CPU
+        Time:  1.024e-06 s
+@ PRODUCT1DCOPENMPCPU 512 1.024e-06
+
+      OpenMP GPU
+        Time:  8.78e-07 s
+@ PRODUCT1DCOPENMPGPU 512 8.78e-07
+
+      CUDA
+        Time:  0.000257099 s
+@ PRODUCT1DCCUDA 512 0.000257099
+
+      CUDA (32 streams)
+        Time:  0.00689177 s
+@ PRODUCT1DCCUDASTREAMS 512 0.00689177
+
+    FFT
+      CUDA
+        Direct
+          Time:  4.1155e-05 s
+@ FFT1DCCUDA 512 4.1155e-05
+        Inverse
+          Time:  2.2332e-05 s
+        Error: 1.25389e-13
+
+
+Dimensions: 512 512 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00099754 s
+
+      OpenMP CPU
+        Time:  0.000502331 s
+
+      OpenMP GPU
+        Time:  0.000438957 s
+
+      CUDA
+        Time:  0.00237047 s
+
+      CUDA (32 streams)
+        Time:  0.00894914 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00145765 s
+@ FFT2DRCUDA 512 0.00145765
+        Inverse
+          Time:  0.00239923 s
+        Error: 2.5707e-11
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00190845 s
+
+      OpenMP CPU
+        Time:  0.000718591 s
+
+      OpenMP GPU
+        Time:  0.000673585 s
+
+      CUDA
+        Time:  0.00662334 s
+
+      CUDA (32 streams)
+        Time:  0.0121439 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00249136 s
+@ FFT2DCCUDA 512 0.00249136
+        Inverse
+          Time:  0.00545276 s
+        Error: 4.05264e-11
+
+
+Dimensions: 512 512 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00101281 s
+
+      OpenMP CPU
+        Time:  0.000551636 s
+
+      OpenMP GPU
+        Time:  0.00047473 s
+
+      CUDA
+        Time:  0.0023799 s
+
+      CUDA (32 streams)
+        Time:  0.00773546 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00239505 s
+@ FFT3DRCUDA 512 0.00239505
+        Inverse
+          Time:  0.00248009 s
+        Error: 74848.6
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00205768 s
+
+      OpenMP CPU
+        Time:  0.000727607 s
+
+      OpenMP GPU
+        Time:  0.000716934 s
+
+      CUDA
+        Time:  0.00410716 s
+
+      CUDA (32 streams)
+        Time:  0.0102139 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00250943 s
+@ FFT3DCCUDA 512 0.00250943
+        Inverse
+          Time:  0.00307695 s
+        Error: 4.05264e-11
+
+
+====================================
+Dimensions: 512 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  4.09e-06 s
+@ PRODUCT1DRCPU 512 4.09e-06
+
+      OpenMP CPU
+        Time:  8.81e-07 s
+@ PRODUCT1DROPENMPCPU 512 8.81e-07
+
+      OpenMP GPU
+        Time:  8.85e-07 s
+@ PRODUCT1DROPENMPGPU 512 8.85e-07
+
+      CUDA
+        Time:  0.097027 s
+@ PRODUCT1DRCUDA 512 0.097027
+
+      CUDA (32 streams)
+        Time:  0.00592606 s
+@ PRODUCT1DRCUDASTREAMS 512 0.00592606
+
+    FFT
+      CUDA
+        Direct
+          Time:  6.0317e-05 s
+@ FFT1DRCUDA 512 6.0317e-05
+        Inverse
+          Time:  3.0695e-05 s
+        Error: 6.80567e-14
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  3.546e-06 s
+@ PRODUCT1DCCPU 512 3.546e-06
+
+      OpenMP CPU
+        Time:  1.015e-06 s
+@ PRODUCT1DCOPENMPCPU 512 1.015e-06
+
+      OpenMP GPU
+        Time:  8.78e-07 s
+@ PRODUCT1DCOPENMPGPU 512 8.78e-07
+
+      CUDA
+        Time:  0.000268177 s
+@ PRODUCT1DCCUDA 512 0.000268177
+
+      CUDA (32 streams)
+        Time:  0.00704757 s
+@ PRODUCT1DCCUDASTREAMS 512 0.00704757
+
+    FFT
+      CUDA
+        Direct
+          Time:  4.1344e-05 s
+@ FFT1DCCUDA 512 4.1344e-05
+        Inverse
+          Time:  2.2427e-05 s
+        Error: 1.25389e-13
+
+
+Dimensions: 512 512 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000998174 s
+
+      OpenMP CPU
+        Time:  0.000512491 s
+
+      OpenMP GPU
+        Time:  0.000436389 s
+
+      CUDA
+        Time:  0.00363058 s
+
+      CUDA (32 streams)
+        Time:  0.00813029 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00146177 s
+@ FFT2DRCUDA 512 0.00146177
+        Inverse
+          Time:  0.00234472 s
+        Error: 2.5707e-11
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00185492 s
+
+      OpenMP CPU
+        Time:  0.000703512 s
+
+      OpenMP GPU
+        Time:  0.000680578 s
+
+      CUDA
+        Time:  0.00655071 s
+
+      CUDA (32 streams)
+        Time:  0.0111297 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00248872 s
+@ FFT2DCCUDA 512 0.00248872
+        Inverse
+          Time:  0.00394612 s
+        Error: 4.05264e-11
+
+
+Dimensions: 512 512 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000988181 s
+
+      OpenMP CPU
+        Time:  0.000542748 s
+
+      OpenMP GPU
+        Time:  0.000465233 s
+
+      CUDA
+        Time:  0.00238197 s
+
+      CUDA (32 streams)
+        Time:  0.0079212 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00240938 s
+@ FFT3DRCUDA 512 0.00240938
+        Inverse
+          Time:  0.00247351 s
+        Error: 74848.6
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00202285 s
+
+      OpenMP CPU
+        Time:  0.0007245 s
+
+      OpenMP GPU
+        Time:  0.000694944 s
+
+      CUDA
+        Time:  0.00403043 s
+
+      CUDA (32 streams)
+        Time:  0.0102847 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00251659 s
+@ FFT3DCCUDA 512 0.00251659
+        Inverse
+          Time:  0.00310853 s
+        Error: 4.05264e-11
+
+
+====================================
+Dimensions: 512 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  4.611e-06 s
+@ PRODUCT1DRCPU 512 4.611e-06
+
+      OpenMP CPU
+        Time:  1.201e-06 s
+@ PRODUCT1DROPENMPCPU 512 1.201e-06
+
+      OpenMP GPU
+        Time:  1.015e-06 s
+@ PRODUCT1DROPENMPGPU 512 1.015e-06
+
+      CUDA
+        Time:  0.099295 s
+@ PRODUCT1DRCUDA 512 0.099295
+
+      CUDA (32 streams)
+        Time:  0.00579797 s
+@ PRODUCT1DRCUDASTREAMS 512 0.00579797
+
+    FFT
+      CUDA
+        Direct
+          Time:  5.7694e-05 s
+@ FFT1DRCUDA 512 5.7694e-05
+        Inverse
+          Time:  3.1043e-05 s
+        Error: 6.80567e-14
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  3.283e-06 s
+@ PRODUCT1DCCPU 512 3.283e-06
+
+      OpenMP CPU
+        Time:  1.017e-06 s
+@ PRODUCT1DCOPENMPCPU 512 1.017e-06
+
+      OpenMP GPU
+        Time:  8.69e-07 s
+@ PRODUCT1DCOPENMPGPU 512 8.69e-07
+
+      CUDA
+        Time:  0.000260522 s
+@ PRODUCT1DCCUDA 512 0.000260522
+
+      CUDA (32 streams)
+        Time:  0.00700807 s
+@ PRODUCT1DCCUDASTREAMS 512 0.00700807
+
+    FFT
+      CUDA
+        Direct
+          Time:  3.9639e-05 s
+@ FFT1DCCUDA 512 3.9639e-05
+        Inverse
+          Time:  2.2263e-05 s
+        Error: 1.25389e-13
+
+
+Dimensions: 512 512 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00201922 s
+
+      OpenMP CPU
+        Time:  0.000505688 s
+
+      OpenMP GPU
+        Time:  0.000439492 s
+
+      CUDA
+        Time:  0.00369515 s
+
+      CUDA (32 streams)
+        Time:  0.00783941 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00150016 s
+@ FFT2DRCUDA 512 0.00150016
+        Inverse
+          Time:  0.00290449 s
+        Error: 2.5707e-11
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00191643 s
+
+      OpenMP CPU
+        Time:  0.000713923 s
+
+      OpenMP GPU
+        Time:  0.000696859 s
+
+      CUDA
+        Time:  0.00671553 s
+
+      CUDA (32 streams)
+        Time:  0.0113641 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00248243 s
+@ FFT2DCCUDA 512 0.00248243
+        Inverse
+          Time:  0.00395598 s
+        Error: 4.05264e-11
+
+
+Dimensions: 512 512 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000997242 s
+
+      OpenMP CPU
+        Time:  0.000548422 s
+
+      OpenMP GPU
+        Time:  0.000465715 s
+
+      CUDA
+        Time:  0.00242484 s
+
+      CUDA (32 streams)
+        Time:  0.00784024 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00249167 s
+@ FFT3DRCUDA 512 0.00249167
+        Inverse
+          Time:  0.00260659 s
+        Error: 74848.6
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00199431 s
+
+      OpenMP CPU
+        Time:  0.000716966 s
+
+      OpenMP GPU
+        Time:  0.000709403 s
+
+      CUDA
+        Time:  0.00415225 s
+
+      CUDA (32 streams)
+        Time:  0.0101852 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00259896 s
+@ FFT3DCCUDA 512 0.00259896
+        Inverse
+          Time:  0.00321902 s
+        Error: 4.05264e-11
+
+
+====================================
+Dimensions: 512 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  5.702e-06 s
+@ PRODUCT1DRCPU 512 5.702e-06
+
+      OpenMP CPU
+        Time:  1.478e-06 s
+@ PRODUCT1DROPENMPCPU 512 1.478e-06
+
+      OpenMP GPU
+        Time:  1.284e-06 s
+@ PRODUCT1DROPENMPGPU 512 1.284e-06
+
+      CUDA
+        Time:  0.0967625 s
+@ PRODUCT1DRCUDA 512 0.0967625
+
+      CUDA (32 streams)
+        Time:  0.00589054 s
+@ PRODUCT1DRCUDASTREAMS 512 0.00589054
+
+    FFT
+      CUDA
+        Direct
+          Time:  6.2847e-05 s
+@ FFT1DRCUDA 512 6.2847e-05
+        Inverse
+          Time:  3.1378e-05 s
+        Error: 6.80567e-14
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  3.238e-06 s
+@ PRODUCT1DCCPU 512 3.238e-06
+
+      OpenMP CPU
+        Time:  1.026e-06 s
+@ PRODUCT1DCOPENMPCPU 512 1.026e-06
+
+      OpenMP GPU
+        Time:  8.79e-07 s
+@ PRODUCT1DCOPENMPGPU 512 8.79e-07
+
+      CUDA
+        Time:  0.000261884 s
+@ PRODUCT1DCCUDA 512 0.000261884
+
+      CUDA (32 streams)
+        Time:  0.00685944 s
+@ PRODUCT1DCCUDASTREAMS 512 0.00685944
+
+    FFT
+      CUDA
+        Direct
+          Time:  3.961e-05 s
+@ FFT1DCCUDA 512 3.961e-05
+        Inverse
+          Time:  2.2818e-05 s
+        Error: 1.25389e-13
+
+
+Dimensions: 512 512 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000996248 s
+
+      OpenMP CPU
+        Time:  0.000506746 s
+
+      OpenMP GPU
+        Time:  0.000442103 s
+
+      CUDA
+        Time:  0.00362908 s
+
+      CUDA (32 streams)
+        Time:  0.00801542 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0014363 s
+@ FFT2DRCUDA 512 0.0014363
+        Inverse
+          Time:  0.00233744 s
+        Error: 2.5707e-11
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00186294 s
+
+      OpenMP CPU
+        Time:  0.000696344 s
+
+      OpenMP GPU
+        Time:  0.000676974 s
+
+      CUDA
+        Time:  0.00659073 s
+
+      CUDA (32 streams)
+        Time:  0.0112309 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0024687 s
+@ FFT2DCCUDA 512 0.0024687
+        Inverse
+          Time:  0.00393293 s
+        Error: 4.05264e-11
+
+
+Dimensions: 512 512 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000984759 s
+
+      OpenMP CPU
+        Time:  0.000529789 s
+
+      OpenMP GPU
+        Time:  0.00046619 s
+
+      CUDA
+        Time:  0.00235575 s
+
+      CUDA (32 streams)
+        Time:  0.00801412 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00240204 s
+@ FFT3DRCUDA 512 0.00240204
+        Inverse
+          Time:  0.00247609 s
+        Error: 74848.6
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.00202922 s
+
+      OpenMP CPU
+        Time:  0.00072007 s
+
+      OpenMP GPU
+        Time:  0.000684937 s
+
+      CUDA
+        Time:  0.00401083 s
+
+      CUDA (32 streams)
+        Time:  0.0110823 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00249469 s
+@ FFT3DCCUDA 512 0.00249469
+        Inverse
+          Time:  0.00309388 s
+        Error: 4.05264e-11
+
+
+====================================
+====================================
+====================================
+Dimensions: 1024 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  9.815e-06 s
+@ PRODUCT1DRCPU 1024 9.815e-06
+
+      OpenMP CPU
+        Time:  2.389e-06 s
+@ PRODUCT1DROPENMPCPU 1024 2.389e-06
+
+      OpenMP GPU
+        Time:  2.213e-06 s
+@ PRODUCT1DROPENMPGPU 1024 2.213e-06
+
+      CUDA
+        Time:  0.0974798 s
+@ PRODUCT1DRCUDA 1024 0.0974798
+
+      CUDA (32 streams)
+        Time:  0.00593365 s
+@ PRODUCT1DRCUDASTREAMS 1024 0.00593365
+
+    FFT
+      CUDA
+        Direct
+          Time:  7.2422e-05 s
+@ FFT1DRCUDA 1024 7.2422e-05
+        Inverse
+          Time:  3.5798e-05 s
+        Error: 1.59373e-13
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  5.511e-06 s
+@ PRODUCT1DCCPU 1024 5.511e-06
+
+      OpenMP CPU
+        Time:  1.973e-06 s
+@ PRODUCT1DCOPENMPCPU 1024 1.973e-06
+
+      OpenMP GPU
+        Time:  1.674e-06 s
+@ PRODUCT1DCOPENMPGPU 1024 1.674e-06
+
+      CUDA
+        Time:  0.000265122 s
+@ PRODUCT1DCCUDA 1024 0.000265122
+
+      CUDA (32 streams)
+        Time:  0.00688197 s
+@ PRODUCT1DCCUDASTREAMS 1024 0.00688197
+
+    FFT
+      CUDA
+        Direct
+          Time:  4.7642e-05 s
+@ FFT1DCCUDA 1024 4.7642e-05
+        Inverse
+          Time:  3.902e-05 s
+        Error: 1.57496e-13
+
+
+Dimensions: 1024 1024 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00801138 s
+
+      OpenMP CPU
+        Time:  0.00230835 s
+
+      OpenMP GPU
+        Time:  0.0021738 s
+
+      CUDA
+        Time:  0.0119908 s
+
+      CUDA (32 streams)
+        Time:  0.0138625 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00552187 s
+@ FFT2DRCUDA 1024 0.00552187
+        Inverse
+          Time:  0.0108817 s
+        Error: 1.43699e-10
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0118613 s
+
+      OpenMP CPU
+        Time:  0.00324133 s
+
+      OpenMP GPU
+        Time:  0.0032339 s
+
+      CUDA
+        Time:  0.0224166 s
+
+      CUDA (32 streams)
+        Time:  0.0208859 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00972073 s
+@ FFT2DCCUDA 1024 0.00972073
+        Inverse
+          Time:  0.0153203 s
+        Error: 1.82646e-10
+
+
+Dimensions: 1024 1024 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00618513 s
+
+      OpenMP CPU
+        Time:  0.00243991 s
+
+      OpenMP GPU
+        Time:  0.00230098 s
+
+      CUDA
+        Time:  0.0120804 s
+
+      CUDA (32 streams)
+        Time:  0.0138952 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00943331 s
+@ FFT3DRCUDA 1024 0.00943331
+        Inverse
+          Time:  0.0184674 s
+        Error: 299514
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.011886 s
+
+      OpenMP CPU
+        Time:  0.0032976 s
+
+      OpenMP GPU
+        Time:  0.00327632 s
+
+      CUDA
+        Time:  0.0222564 s
+
+      CUDA (32 streams)
+        Time:  0.02046 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00994552 s
+@ FFT3DCCUDA 1024 0.00994552
+        Inverse
+          Time:  0.0157909 s
+        Error: 1.82646e-10
+
+
+====================================
+Dimensions: 1024 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  1.5048e-05 s
+@ PRODUCT1DRCPU 1024 1.5048e-05
+
+      OpenMP CPU
+        Time:  3.601e-06 s
+@ PRODUCT1DROPENMPCPU 1024 3.601e-06
+
+      OpenMP GPU
+        Time:  3.574e-06 s
+@ PRODUCT1DROPENMPGPU 1024 3.574e-06
+
+      CUDA
+        Time:  0.0975128 s
+@ PRODUCT1DRCUDA 1024 0.0975128
+
+      CUDA (32 streams)
+        Time:  0.00673305 s
+@ PRODUCT1DRCUDASTREAMS 1024 0.00673305
+
+    FFT
+      CUDA
+        Direct
+          Time:  7.0215e-05 s
+@ FFT1DRCUDA 1024 7.0215e-05
+        Inverse
+          Time:  3.5624e-05 s
+        Error: 1.59373e-13
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  6.098e-06 s
+@ PRODUCT1DCCPU 1024 6.098e-06
+
+      OpenMP CPU
+        Time:  1.952e-06 s
+@ PRODUCT1DCOPENMPCPU 1024 1.952e-06
+
+      OpenMP GPU
+        Time:  1.672e-06 s
+@ PRODUCT1DCOPENMPGPU 1024 1.672e-06
+
+      CUDA
+        Time:  0.00030111 s
+@ PRODUCT1DCCUDA 1024 0.00030111
+
+      CUDA (32 streams)
+        Time:  0.00802707 s
+@ PRODUCT1DCCUDASTREAMS 1024 0.00802707
+
+    FFT
+      CUDA
+        Direct
+          Time:  4.8271e-05 s
+@ FFT1DCCUDA 1024 4.8271e-05
+        Inverse
+          Time:  3.8918e-05 s
+        Error: 1.57496e-13
+
+
+Dimensions: 1024 1024 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00797971 s
+
+      OpenMP CPU
+        Time:  0.00212221 s
+
+      OpenMP GPU
+        Time:  0.00211859 s
+
+      CUDA
+        Time:  0.0119854 s
+
+      CUDA (32 streams)
+        Time:  0.0140593 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00552579 s
+@ FFT2DRCUDA 1024 0.00552579
+        Inverse
+          Time:  0.0109849 s
+        Error: 1.43699e-10
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0119988 s
+
+      OpenMP CPU
+        Time:  0.00330592 s
+
+      OpenMP GPU
+        Time:  0.00324357 s
+
+      CUDA
+        Time:  0.0222171 s
+
+      CUDA (32 streams)
+        Time:  0.0216474 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00973056 s
+@ FFT2DCCUDA 1024 0.00973056
+        Inverse
+          Time:  0.0151168 s
+        Error: 1.82646e-10
+
+
+Dimensions: 1024 1024 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00602351 s
+
+      OpenMP CPU
+        Time:  0.00234335 s
+
+      OpenMP GPU
+        Time:  0.00219125 s
+
+      CUDA
+        Time:  0.0119747 s
+
+      CUDA (32 streams)
+        Time:  0.0139113 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00945922 s
+@ FFT3DRCUDA 1024 0.00945922
+        Inverse
+          Time:  0.0186526 s
+        Error: 299514
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0118838 s
+
+      OpenMP CPU
+        Time:  0.00329573 s
+
+      OpenMP GPU
+        Time:  0.00324791 s
+
+      CUDA
+        Time:  0.0222685 s
+
+      CUDA (32 streams)
+        Time:  0.0195661 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00996956 s
+@ FFT3DCCUDA 1024 0.00996956
+        Inverse
+          Time:  0.0158736 s
+        Error: 1.82646e-10
+
+
+====================================
+Dimensions: 1024 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  1.0062e-05 s
+@ PRODUCT1DRCPU 1024 1.0062e-05
+
+      OpenMP CPU
+        Time:  2.476e-06 s
+@ PRODUCT1DROPENMPCPU 1024 2.476e-06
+
+      OpenMP GPU
+        Time:  2.298e-06 s
+@ PRODUCT1DROPENMPGPU 1024 2.298e-06
+
+      CUDA
+        Time:  0.0952828 s
+@ PRODUCT1DRCUDA 1024 0.0952828
+
+      CUDA (32 streams)
+        Time:  0.00581672 s
+@ PRODUCT1DRCUDASTREAMS 1024 0.00581672
+
+    FFT
+      CUDA
+        Direct
+          Time:  6.9854e-05 s
+@ FFT1DRCUDA 1024 6.9854e-05
+        Inverse
+          Time:  3.677e-05 s
+        Error: 1.59373e-13
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  5.765e-06 s
+@ PRODUCT1DCCPU 1024 5.765e-06
+
+      OpenMP CPU
+        Time:  1.933e-06 s
+@ PRODUCT1DCOPENMPCPU 1024 1.933e-06
+
+      OpenMP GPU
+        Time:  1.661e-06 s
+@ PRODUCT1DCOPENMPGPU 1024 1.661e-06
+
+      CUDA
+        Time:  0.000275708 s
+@ PRODUCT1DCCUDA 1024 0.000275708
+
+      CUDA (32 streams)
+        Time:  0.00680065 s
+@ PRODUCT1DCCUDASTREAMS 1024 0.00680065
+
+    FFT
+      CUDA
+        Direct
+          Time:  4.8377e-05 s
+@ FFT1DCCUDA 1024 4.8377e-05
+        Inverse
+          Time:  3.8791e-05 s
+        Error: 1.57496e-13
+
+
+Dimensions: 1024 1024 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00827697 s
+
+      OpenMP CPU
+        Time:  0.0022292 s
+
+      OpenMP GPU
+        Time:  0.00219158 s
+
+      CUDA
+        Time:  0.0120276 s
+
+      CUDA (32 streams)
+        Time:  0.0140449 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0054661 s
+@ FFT2DRCUDA 1024 0.0054661
+        Inverse
+          Time:  0.0108583 s
+        Error: 1.43699e-10
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.011789 s
+
+      OpenMP CPU
+        Time:  0.00319548 s
+
+      OpenMP GPU
+        Time:  0.00315442 s
+
+      CUDA
+        Time:  0.0221239 s
+
+      CUDA (32 streams)
+        Time:  0.0205133 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00977255 s
+@ FFT2DCCUDA 1024 0.00977255
+        Inverse
+          Time:  0.0152951 s
+        Error: 1.82646e-10
+
+
+Dimensions: 1024 1024 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00801547 s
+
+      OpenMP CPU
+        Time:  0.00236262 s
+
+      OpenMP GPU
+        Time:  0.00226218 s
+
+      CUDA
+        Time:  0.0120228 s
+
+      CUDA (32 streams)
+        Time:  0.0149337 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00953079 s
+@ FFT3DRCUDA 1024 0.00953079
+        Inverse
+          Time:  0.0187077 s
+        Error: 299514
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0121258 s
+
+      OpenMP CPU
+        Time:  0.00333354 s
+
+      OpenMP GPU
+        Time:  0.00327587 s
+
+      CUDA
+        Time:  0.0222196 s
+
+      CUDA (32 streams)
+        Time:  0.0204795 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0100292 s
+@ FFT3DCCUDA 1024 0.0100292
+        Inverse
+          Time:  0.0159037 s
+        Error: 1.82646e-10
+
+
+====================================
+Dimensions: 1024 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  1.0046e-05 s
+@ PRODUCT1DRCPU 1024 1.0046e-05
+
+      OpenMP CPU
+        Time:  2.492e-06 s
+@ PRODUCT1DROPENMPCPU 1024 2.492e-06
+
+      OpenMP GPU
+        Time:  2.295e-06 s
+@ PRODUCT1DROPENMPGPU 1024 2.295e-06
+
+      CUDA
+        Time:  0.0968583 s
+@ PRODUCT1DRCUDA 1024 0.0968583
+
+      CUDA (32 streams)
+        Time:  0.00573047 s
+@ PRODUCT1DRCUDASTREAMS 1024 0.00573047
+
+    FFT
+      CUDA
+        Direct
+          Time:  6.8743e-05 s
+@ FFT1DRCUDA 1024 6.8743e-05
+        Inverse
+          Time:  3.5572e-05 s
+        Error: 1.59373e-13
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  6.56e-06 s
+@ PRODUCT1DCCPU 1024 6.56e-06
+
+      OpenMP CPU
+        Time:  1.955e-06 s
+@ PRODUCT1DCOPENMPCPU 1024 1.955e-06
+
+      OpenMP GPU
+        Time:  1.672e-06 s
+@ PRODUCT1DCOPENMPGPU 1024 1.672e-06
+
+      CUDA
+        Time:  0.000275994 s
+@ PRODUCT1DCCUDA 1024 0.000275994
+
+      CUDA (32 streams)
+        Time:  0.00701793 s
+@ PRODUCT1DCCUDASTREAMS 1024 0.00701793
+
+    FFT
+      CUDA
+        Direct
+          Time:  4.8416e-05 s
+@ FFT1DCCUDA 1024 4.8416e-05
+        Inverse
+          Time:  3.8821e-05 s
+        Error: 1.57496e-13
+
+
+Dimensions: 1024 1024 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00803394 s
+
+      OpenMP CPU
+        Time:  0.00214529 s
+
+      OpenMP GPU
+        Time:  0.00211302 s
+
+      CUDA
+        Time:  0.0119755 s
+
+      CUDA (32 streams)
+        Time:  0.0148395 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00549832 s
+@ FFT2DRCUDA 1024 0.00549832
+        Inverse
+          Time:  0.0108917 s
+        Error: 1.43699e-10
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0117145 s
+
+      OpenMP CPU
+        Time:  0.00310482 s
+
+      OpenMP GPU
+        Time:  0.00304375 s
+
+      CUDA
+        Time:  0.0220889 s
+
+      CUDA (32 streams)
+        Time:  0.02151 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00981277 s
+@ FFT2DCCUDA 1024 0.00981277
+        Inverse
+          Time:  0.0151829 s
+        Error: 1.82646e-10
+
+
+Dimensions: 1024 1024 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0080273 s
+
+      OpenMP CPU
+        Time:  0.00231448 s
+
+      OpenMP GPU
+        Time:  0.00222037 s
+
+      CUDA
+        Time:  0.0119352 s
+
+      CUDA (32 streams)
+        Time:  0.0138955 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00943312 s
+@ FFT3DRCUDA 1024 0.00943312
+        Inverse
+          Time:  0.0185716 s
+        Error: 299514
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0117843 s
+
+      OpenMP CPU
+        Time:  0.00312291 s
+
+      OpenMP GPU
+        Time:  0.00307686 s
+
+      CUDA
+        Time:  0.0222959 s
+
+      CUDA (32 streams)
+        Time:  0.0194967 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0100373 s
+@ FFT3DCCUDA 1024 0.0100373
+        Inverse
+          Time:  0.0157861 s
+        Error: 1.82646e-10
+
+
+====================================
+Dimensions: 1024 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  1.1297e-05 s
+@ PRODUCT1DRCPU 1024 1.1297e-05
+
+      OpenMP CPU
+        Time:  2.728e-06 s
+@ PRODUCT1DROPENMPCPU 1024 2.728e-06
+
+      OpenMP GPU
+        Time:  2.575e-06 s
+@ PRODUCT1DROPENMPGPU 1024 2.575e-06
+
+      CUDA
+        Time:  0.0986042 s
+@ PRODUCT1DRCUDA 1024 0.0986042
+
+      CUDA (32 streams)
+        Time:  0.00596448 s
+@ PRODUCT1DRCUDASTREAMS 1024 0.00596448
+
+    FFT
+      CUDA
+        Direct
+          Time:  7.4174e-05 s
+@ FFT1DRCUDA 1024 7.4174e-05
+        Inverse
+          Time:  3.6948e-05 s
+        Error: 1.59373e-13
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  6.42e-06 s
+@ PRODUCT1DCCPU 1024 6.42e-06
+
+      OpenMP CPU
+        Time:  1.964e-06 s
+@ PRODUCT1DCOPENMPCPU 1024 1.964e-06
+
+      OpenMP GPU
+        Time:  1.671e-06 s
+@ PRODUCT1DCOPENMPGPU 1024 1.671e-06
+
+      CUDA
+        Time:  0.000275807 s
+@ PRODUCT1DCCUDA 1024 0.000275807
+
+      CUDA (32 streams)
+        Time:  0.00673763 s
+@ PRODUCT1DCCUDASTREAMS 1024 0.00673763
+
+    FFT
+      CUDA
+        Direct
+          Time:  4.7516e-05 s
+@ FFT1DCCUDA 1024 4.7516e-05
+        Inverse
+          Time:  3.8105e-05 s
+        Error: 1.57496e-13
+
+
+Dimensions: 1024 1024 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00801347 s
+
+      OpenMP CPU
+        Time:  0.00225356 s
+
+      OpenMP GPU
+        Time:  0.00221119 s
+
+      CUDA
+        Time:  0.0120815 s
+
+      CUDA (32 streams)
+        Time:  0.014044 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00548258 s
+@ FFT2DRCUDA 1024 0.00548258
+        Inverse
+          Time:  0.010926 s
+        Error: 1.43699e-10
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0118531 s
+
+      OpenMP CPU
+        Time:  0.00326684 s
+
+      OpenMP GPU
+        Time:  0.00323426 s
+
+      CUDA
+        Time:  0.0223997 s
+
+      CUDA (32 streams)
+        Time:  0.0215978 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00979335 s
+@ FFT2DCCUDA 1024 0.00979335
+        Inverse
+          Time:  0.0153849 s
+        Error: 1.82646e-10
+
+
+Dimensions: 1024 1024 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0061364 s
+
+      OpenMP CPU
+        Time:  0.00240378 s
+
+      OpenMP GPU
+        Time:  0.00236159 s
+
+      CUDA
+        Time:  0.0125163 s
+
+      CUDA (32 streams)
+        Time:  0.0144796 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00943783 s
+@ FFT3DRCUDA 1024 0.00943783
+        Inverse
+          Time:  0.0186285 s
+        Error: 299514
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0120041 s
+
+      OpenMP CPU
+        Time:  0.00339866 s
+
+      OpenMP GPU
+        Time:  0.00332134 s
+
+      CUDA
+        Time:  0.0228044 s
+
+      CUDA (32 streams)
+        Time:  0.0209601 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0101955 s
+@ FFT3DCCUDA 1024 0.0101955
+        Inverse
+          Time:  0.0157657 s
+        Error: 1.82646e-10
+
+
+====================================
+Dimensions: 1024 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  1.1355e-05 s
+@ PRODUCT1DRCPU 1024 1.1355e-05
+
+      OpenMP CPU
+        Time:  2.519e-06 s
+@ PRODUCT1DROPENMPCPU 1024 2.519e-06
+
+      OpenMP GPU
+        Time:  2.469e-06 s
+@ PRODUCT1DROPENMPGPU 1024 2.469e-06
+
+      CUDA
+        Time:  0.104939 s
+@ PRODUCT1DRCUDA 1024 0.104939
+
+      CUDA (32 streams)
+        Time:  0.00575776 s
+@ PRODUCT1DRCUDASTREAMS 1024 0.00575776
+
+    FFT
+      CUDA
+        Direct
+          Time:  7.0969e-05 s
+@ FFT1DRCUDA 1024 7.0969e-05
+        Inverse
+          Time:  3.6207e-05 s
+        Error: 1.59373e-13
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  5.791e-06 s
+@ PRODUCT1DCCPU 1024 5.791e-06
+
+      OpenMP CPU
+        Time:  1.953e-06 s
+@ PRODUCT1DCOPENMPCPU 1024 1.953e-06
+
+      OpenMP GPU
+        Time:  1.666e-06 s
+@ PRODUCT1DCOPENMPGPU 1024 1.666e-06
+
+      CUDA
+        Time:  0.000266289 s
+@ PRODUCT1DCCUDA 1024 0.000266289
+
+      CUDA (32 streams)
+        Time:  0.0067468 s
+@ PRODUCT1DCCUDASTREAMS 1024 0.0067468
+
+    FFT
+      CUDA
+        Direct
+          Time:  4.6791e-05 s
+@ FFT1DCCUDA 1024 4.6791e-05
+        Inverse
+          Time:  3.9376e-05 s
+        Error: 1.57496e-13
+
+
+Dimensions: 1024 1024 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00805005 s
+
+      OpenMP CPU
+        Time:  0.00229643 s
+
+      OpenMP GPU
+        Time:  0.00221201 s
+
+      CUDA
+        Time:  0.0119998 s
+
+      CUDA (32 streams)
+        Time:  0.0141311 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00549823 s
+@ FFT2DRCUDA 1024 0.00549823
+        Inverse
+          Time:  0.0108942 s
+        Error: 1.43699e-10
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0117978 s
+
+      OpenMP CPU
+        Time:  0.0031944 s
+
+      OpenMP GPU
+        Time:  0.00326932 s
+
+      CUDA
+        Time:  0.0221364 s
+
+      CUDA (32 streams)
+        Time:  0.0207064 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0098266 s
+@ FFT2DCCUDA 1024 0.0098266
+        Inverse
+          Time:  0.0152851 s
+        Error: 1.82646e-10
+
+
+Dimensions: 1024 1024 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00799536 s
+
+      OpenMP CPU
+        Time:  0.00237774 s
+
+      OpenMP GPU
+        Time:  0.00227062 s
+
+      CUDA
+        Time:  0.01214 s
+
+      CUDA (32 streams)
+        Time:  0.0139534 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00942139 s
+@ FFT3DRCUDA 1024 0.00942139
+        Inverse
+          Time:  0.0186017 s
+        Error: 299514
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0118527 s
+
+      OpenMP CPU
+        Time:  0.00324076 s
+
+      OpenMP GPU
+        Time:  0.00320895 s
+
+      CUDA
+        Time:  0.0223392 s
+
+      CUDA (32 streams)
+        Time:  0.0196614 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0100173 s
+@ FFT3DCCUDA 1024 0.0100173
+        Inverse
+          Time:  0.0159355 s
+        Error: 1.82646e-10
+
+
+====================================
+Dimensions: 1024 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  1.0503e-05 s
+@ PRODUCT1DRCPU 1024 1.0503e-05
+
+      OpenMP CPU
+        Time:  2.387e-06 s
+@ PRODUCT1DROPENMPCPU 1024 2.387e-06
+
+      OpenMP GPU
+        Time:  2.375e-06 s
+@ PRODUCT1DROPENMPGPU 1024 2.375e-06
+
+      CUDA
+        Time:  0.095737 s
+@ PRODUCT1DRCUDA 1024 0.095737
+
+      CUDA (32 streams)
+        Time:  0.00577807 s
+@ PRODUCT1DRCUDASTREAMS 1024 0.00577807
+
+    FFT
+      CUDA
+        Direct
+          Time:  6.8107e-05 s
+@ FFT1DRCUDA 1024 6.8107e-05
+        Inverse
+          Time:  3.5777e-05 s
+        Error: 1.59373e-13
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  5.954e-06 s
+@ PRODUCT1DCCPU 1024 5.954e-06
+
+      OpenMP CPU
+        Time:  1.95e-06 s
+@ PRODUCT1DCOPENMPCPU 1024 1.95e-06
+
+      OpenMP GPU
+        Time:  1.734e-06 s
+@ PRODUCT1DCOPENMPGPU 1024 1.734e-06
+
+      CUDA
+        Time:  0.000286013 s
+@ PRODUCT1DCCUDA 1024 0.000286013
+
+      CUDA (32 streams)
+        Time:  0.00687208 s
+@ PRODUCT1DCCUDASTREAMS 1024 0.00687208
+
+    FFT
+      CUDA
+        Direct
+          Time:  5.0019e-05 s
+@ FFT1DCCUDA 1024 5.0019e-05
+        Inverse
+          Time:  3.9828e-05 s
+        Error: 1.57496e-13
+
+
+Dimensions: 1024 1024 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00805234 s
+
+      OpenMP CPU
+        Time:  0.00214159 s
+
+      OpenMP GPU
+        Time:  0.00210061 s
+
+      CUDA
+        Time:  0.0121114 s
+
+      CUDA (32 streams)
+        Time:  0.0140177 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00548608 s
+@ FFT2DRCUDA 1024 0.00548608
+        Inverse
+          Time:  0.0109458 s
+        Error: 1.43699e-10
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0117275 s
+
+      OpenMP CPU
+        Time:  0.00301882 s
+
+      OpenMP GPU
+        Time:  0.00299929 s
+
+      CUDA
+        Time:  0.0221754 s
+
+      CUDA (32 streams)
+        Time:  0.021571 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00975393 s
+@ FFT2DCCUDA 1024 0.00975393
+        Inverse
+          Time:  0.0152197 s
+        Error: 1.82646e-10
+
+
+Dimensions: 1024 1024 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00824506 s
+
+      OpenMP CPU
+        Time:  0.00237802 s
+
+      OpenMP GPU
+        Time:  0.0022877 s
+
+      CUDA
+        Time:  0.0122296 s
+
+      CUDA (32 streams)
+        Time:  0.014107 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00954697 s
+@ FFT3DRCUDA 1024 0.00954697
+        Inverse
+          Time:  0.0185162 s
+        Error: 299514
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0116971 s
+
+      OpenMP CPU
+        Time:  0.00312985 s
+
+      OpenMP GPU
+        Time:  0.0031152 s
+
+      CUDA
+        Time:  0.022286 s
+
+      CUDA (32 streams)
+        Time:  0.0204284 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00994136 s
+@ FFT3DCCUDA 1024 0.00994136
+        Inverse
+          Time:  0.0158682 s
+        Error: 1.82646e-10
+
+
+====================================
+Dimensions: 1024 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  1.2725e-05 s
+@ PRODUCT1DRCPU 1024 1.2725e-05
+
+      OpenMP CPU
+        Time:  3.06e-06 s
+@ PRODUCT1DROPENMPCPU 1024 3.06e-06
+
+      OpenMP GPU
+        Time:  2.92e-06 s
+@ PRODUCT1DROPENMPGPU 1024 2.92e-06
+
+      CUDA
+        Time:  0.0970427 s
+@ PRODUCT1DRCUDA 1024 0.0970427
+
+      CUDA (32 streams)
+        Time:  0.00590495 s
+@ PRODUCT1DRCUDASTREAMS 1024 0.00590495
+
+    FFT
+      CUDA
+        Direct
+          Time:  7.0658e-05 s
+@ FFT1DRCUDA 1024 7.0658e-05
+        Inverse
+          Time:  3.6693e-05 s
+        Error: 1.59373e-13
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  5.925e-06 s
+@ PRODUCT1DCCPU 1024 5.925e-06
+
+      OpenMP CPU
+        Time:  1.951e-06 s
+@ PRODUCT1DCOPENMPCPU 1024 1.951e-06
+
+      OpenMP GPU
+        Time:  1.668e-06 s
+@ PRODUCT1DCOPENMPGPU 1024 1.668e-06
+
+      CUDA
+        Time:  0.000281752 s
+@ PRODUCT1DCCUDA 1024 0.000281752
+
+      CUDA (32 streams)
+        Time:  0.00689215 s
+@ PRODUCT1DCCUDASTREAMS 1024 0.00689215
+
+    FFT
+      CUDA
+        Direct
+          Time:  4.74e-05 s
+@ FFT1DCCUDA 1024 4.74e-05
+        Inverse
+          Time:  4.3969e-05 s
+        Error: 1.57496e-13
+
+
+Dimensions: 1024 1024 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00807573 s
+
+      OpenMP CPU
+        Time:  0.00224407 s
+
+      OpenMP GPU
+        Time:  0.00226096 s
+
+      CUDA
+        Time:  0.0120602 s
+
+      CUDA (32 streams)
+        Time:  0.0139512 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00546365 s
+@ FFT2DRCUDA 1024 0.00546365
+        Inverse
+          Time:  0.0108847 s
+        Error: 1.43699e-10
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0117621 s
+
+      OpenMP CPU
+        Time:  0.00327414 s
+
+      OpenMP GPU
+        Time:  0.00321925 s
+
+      CUDA
+        Time:  0.0220648 s
+
+      CUDA (32 streams)
+        Time:  0.0204858 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00975233 s
+@ FFT2DCCUDA 1024 0.00975233
+        Inverse
+          Time:  0.0152254 s
+        Error: 1.82646e-10
+
+
+Dimensions: 1024 1024 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00608632 s
+
+      OpenMP CPU
+        Time:  0.00238212 s
+
+      OpenMP GPU
+        Time:  0.00231971 s
+
+      CUDA
+        Time:  0.0120945 s
+
+      CUDA (32 streams)
+        Time:  0.0139128 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00938144 s
+@ FFT3DRCUDA 1024 0.00938144
+        Inverse
+          Time:  0.0187414 s
+        Error: 299514
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0119403 s
+
+      OpenMP CPU
+        Time:  0.0032773 s
+
+      OpenMP GPU
+        Time:  0.00327734 s
+
+      CUDA
+        Time:  0.0221292 s
+
+      CUDA (32 streams)
+        Time:  0.0202306 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0100569 s
+@ FFT3DCCUDA 1024 0.0100569
+        Inverse
+          Time:  0.0158448 s
+        Error: 1.82646e-10
+
+
+====================================
+Dimensions: 1024 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  1.4917e-05 s
+@ PRODUCT1DRCPU 1024 1.4917e-05
+
+      OpenMP CPU
+        Time:  3.791e-06 s
+@ PRODUCT1DROPENMPCPU 1024 3.791e-06
+
+      OpenMP GPU
+        Time:  3.569e-06 s
+@ PRODUCT1DROPENMPGPU 1024 3.569e-06
+
+      CUDA
+        Time:  0.0978942 s
+@ PRODUCT1DRCUDA 1024 0.0978942
+
+      CUDA (32 streams)
+        Time:  0.00675901 s
+@ PRODUCT1DRCUDASTREAMS 1024 0.00675901
+
+    FFT
+      CUDA
+        Direct
+          Time:  7.5893e-05 s
+@ FFT1DRCUDA 1024 7.5893e-05
+        Inverse
+          Time:  3.6902e-05 s
+        Error: 1.59373e-13
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  5.696e-06 s
+@ PRODUCT1DCCPU 1024 5.696e-06
+
+      OpenMP CPU
+        Time:  1.954e-06 s
+@ PRODUCT1DCOPENMPCPU 1024 1.954e-06
+
+      OpenMP GPU
+        Time:  1.663e-06 s
+@ PRODUCT1DCOPENMPGPU 1024 1.663e-06
+
+      CUDA
+        Time:  0.000294637 s
+@ PRODUCT1DCCUDA 1024 0.000294637
+
+      CUDA (32 streams)
+        Time:  0.00689656 s
+@ PRODUCT1DCCUDASTREAMS 1024 0.00689656
+
+    FFT
+      CUDA
+        Direct
+          Time:  4.8046e-05 s
+@ FFT1DCCUDA 1024 4.8046e-05
+        Inverse
+          Time:  3.8826e-05 s
+        Error: 1.57496e-13
+
+
+Dimensions: 1024 1024 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00800352 s
+
+      OpenMP CPU
+        Time:  0.00218695 s
+
+      OpenMP GPU
+        Time:  0.00215973 s
+
+      CUDA
+        Time:  0.012116 s
+
+      CUDA (32 streams)
+        Time:  0.0139411 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0055587 s
+@ FFT2DRCUDA 1024 0.0055587
+        Inverse
+          Time:  0.0109296 s
+        Error: 1.43699e-10
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0117028 s
+
+      OpenMP CPU
+        Time:  0.00305979 s
+
+      OpenMP GPU
+        Time:  0.00303657 s
+
+      CUDA
+        Time:  0.0221815 s
+
+      CUDA (32 streams)
+        Time:  0.0215782 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00986174 s
+@ FFT2DCCUDA 1024 0.00986174
+        Inverse
+          Time:  0.015218 s
+        Error: 1.82646e-10
+
+
+Dimensions: 1024 1024 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0080885 s
+
+      OpenMP CPU
+        Time:  0.00233486 s
+
+      OpenMP GPU
+        Time:  0.00222588 s
+
+      CUDA
+        Time:  0.0119767 s
+
+      CUDA (32 streams)
+        Time:  0.0138058 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00940204 s
+@ FFT3DRCUDA 1024 0.00940204
+        Inverse
+          Time:  0.0190921 s
+        Error: 299514
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0116945 s
+
+      OpenMP CPU
+        Time:  0.00308374 s
+
+      OpenMP GPU
+        Time:  0.00306258 s
+
+      CUDA
+        Time:  0.022315 s
+
+      CUDA (32 streams)
+        Time:  0.0193258 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00990448 s
+@ FFT3DCCUDA 1024 0.00990448
+        Inverse
+          Time:  0.015761 s
+        Error: 1.82646e-10
+
+
+====================================
+Dimensions: 1024 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  1.0651e-05 s
+@ PRODUCT1DRCPU 1024 1.0651e-05
+
+      OpenMP CPU
+        Time:  2.572e-06 s
+@ PRODUCT1DROPENMPCPU 1024 2.572e-06
+
+      OpenMP GPU
+        Time:  2.377e-06 s
+@ PRODUCT1DROPENMPGPU 1024 2.377e-06
+
+      CUDA
+        Time:  0.0963118 s
+@ PRODUCT1DRCUDA 1024 0.0963118
+
+      CUDA (32 streams)
+        Time:  0.00575306 s
+@ PRODUCT1DRCUDASTREAMS 1024 0.00575306
+
+    FFT
+      CUDA
+        Direct
+          Time:  7.2365e-05 s
+@ FFT1DRCUDA 1024 7.2365e-05
+        Inverse
+          Time:  3.6052e-05 s
+        Error: 1.59373e-13
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  6.623e-06 s
+@ PRODUCT1DCCPU 1024 6.623e-06
+
+      OpenMP CPU
+        Time:  1.954e-06 s
+@ PRODUCT1DCOPENMPCPU 1024 1.954e-06
+
+      OpenMP GPU
+        Time:  1.674e-06 s
+@ PRODUCT1DCOPENMPGPU 1024 1.674e-06
+
+      CUDA
+        Time:  0.000261912 s
+@ PRODUCT1DCCUDA 1024 0.000261912
+
+      CUDA (32 streams)
+        Time:  0.00668704 s
+@ PRODUCT1DCCUDASTREAMS 1024 0.00668704
+
+    FFT
+      CUDA
+        Direct
+          Time:  4.7628e-05 s
+@ FFT1DCCUDA 1024 4.7628e-05
+        Inverse
+          Time:  4.2516e-05 s
+        Error: 1.57496e-13
+
+
+Dimensions: 1024 1024 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00804702 s
+
+      OpenMP CPU
+        Time:  0.0021219 s
+
+      OpenMP GPU
+        Time:  0.00214925 s
+
+      CUDA
+        Time:  0.0120259 s
+
+      CUDA (32 streams)
+        Time:  0.0138767 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00546929 s
+@ FFT2DRCUDA 1024 0.00546929
+        Inverse
+          Time:  0.0111696 s
+        Error: 1.43699e-10
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0118643 s
+
+      OpenMP CPU
+        Time:  0.00321773 s
+
+      OpenMP GPU
+        Time:  0.00323229 s
+
+      CUDA
+        Time:  0.0219883 s
+
+      CUDA (32 streams)
+        Time:  0.0207456 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0097412 s
+@ FFT2DCCUDA 1024 0.0097412
+        Inverse
+          Time:  0.0152617 s
+        Error: 1.82646e-10
+
+
+Dimensions: 1024 1024 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.00606399 s
+
+      OpenMP CPU
+        Time:  0.00228268 s
+
+      OpenMP GPU
+        Time:  0.00219295 s
+
+      CUDA
+        Time:  0.0121102 s
+
+      CUDA (32 streams)
+        Time:  0.0148944 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00958797 s
+@ FFT3DRCUDA 1024 0.00958797
+        Inverse
+          Time:  0.0188775 s
+        Error: 299514
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.011975 s
+
+      OpenMP CPU
+        Time:  0.00337623 s
+
+      OpenMP GPU
+        Time:  0.00323091 s
+
+      CUDA
+        Time:  0.0220922 s
+
+      CUDA (32 streams)
+        Time:  0.0204065 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00999527 s
+@ FFT3DCCUDA 1024 0.00999527
+        Inverse
+          Time:  0.0158819 s
+        Error: 1.82646e-10
+
+
+====================================
+====================================
+====================================
+Dimensions: 2048 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.3374e-05 s
+@ PRODUCT1DRCPU 2048 2.3374e-05
+
+      OpenMP CPU
+        Time:  5.039e-06 s
+@ PRODUCT1DROPENMPCPU 2048 5.039e-06
+
+      OpenMP GPU
+        Time:  4.847e-06 s
+@ PRODUCT1DROPENMPGPU 2048 4.847e-06
+
+      CUDA
+        Time:  0.0971101 s
+@ PRODUCT1DRCUDA 2048 0.0971101
+
+      CUDA (32 streams)
+        Time:  0.00566652 s
+@ PRODUCT1DRCUDASTREAMS 2048 0.00566652
+
+    FFT
+      CUDA
+        Direct
+          Time:  7.7114e-05 s
+@ FFT1DRCUDA 2048 7.7114e-05
+        Inverse
+          Time:  4.7436e-05 s
+        Error: 1.93123e-13
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  9.849e-06 s
+@ PRODUCT1DCCPU 2048 9.849e-06
+
+      OpenMP CPU
+        Time:  3.799e-06 s
+@ PRODUCT1DCOPENMPCPU 2048 3.799e-06
+
+      OpenMP GPU
+        Time:  3.267e-06 s
+@ PRODUCT1DCOPENMPGPU 2048 3.267e-06
+
+      CUDA
+        Time:  0.000279685 s
+@ PRODUCT1DCCUDA 2048 0.000279685
+
+      CUDA (32 streams)
+        Time:  0.00635316 s
+@ PRODUCT1DCCUDASTREAMS 2048 0.00635316
+
+    FFT
+      CUDA
+        Direct
+          Time:  7.3015e-05 s
+@ FFT1DCCUDA 2048 7.3015e-05
+        Inverse
+          Time:  6.8983e-05 s
+        Error: 4.55184e-13
+
+
+Dimensions: 2048 2048 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0328786 s
+
+      OpenMP CPU
+        Time:  0.0093284 s
+
+      OpenMP GPU
+        Time:  0.00942911 s
+
+      CUDA
+        Time:  0.0559805 s
+
+      CUDA (32 streams)
+        Time:  0.0419449 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0414339 s
+@ FFT2DRCUDA 2048 0.0414339
+        Inverse
+          Time:  0.0550878 s
+        Error: 5.799e-10
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0670228 s
+
+      OpenMP CPU
+        Time:  0.0137266 s
+
+      OpenMP GPU
+        Time:  0.0135648 s
+
+      CUDA
+        Time:  0.0977734 s
+
+      CUDA (32 streams)
+        Time:  0.0693853 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0768196 s
+@ FFT2DCCUDA 2048 0.0768196
+        Inverse
+          Time:  0.0841057 s
+        Error: 1.02614e-09
+
+
+Dimensions: 2048 2048 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0333149 s
+
+      OpenMP CPU
+        Time:  0.00989199 s
+
+      OpenMP GPU
+        Time:  0.00960219 s
+
+      CUDA
+        Time:  0.0561542 s
+
+      CUDA (32 streams)
+        Time:  0.0407132 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.069378 s
+@ FFT3DRCUDA 2048 0.069378
+        Inverse
+          Time:  0.0738838 s
+        Error: 1.19826e+06
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0669239 s
+
+      OpenMP CPU
+        Time:  0.0138849 s
+
+      OpenMP GPU
+        Time:  0.0138603 s
+
+      CUDA
+        Time:  0.0982274 s
+
+      CUDA (32 streams)
+        Time:  0.0658513 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.078192 s
+@ FFT3DCCUDA 2048 0.078192
+        Inverse
+          Time:  0.0871634 s
+        Error: 1.02614e-09
+
+
+====================================
+Dimensions: 2048 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.2001e-05 s
+@ PRODUCT1DRCPU 2048 2.2001e-05
+
+      OpenMP CPU
+        Time:  4.525e-06 s
+@ PRODUCT1DROPENMPCPU 2048 4.525e-06
+
+      OpenMP GPU
+        Time:  4.514e-06 s
+@ PRODUCT1DROPENMPGPU 2048 4.514e-06
+
+      CUDA
+        Time:  0.0965359 s
+@ PRODUCT1DRCUDA 2048 0.0965359
+
+      CUDA (32 streams)
+        Time:  0.00553177 s
+@ PRODUCT1DRCUDASTREAMS 2048 0.00553177
+
+    FFT
+      CUDA
+        Direct
+          Time:  7.7524e-05 s
+@ FFT1DRCUDA 2048 7.7524e-05
+        Inverse
+          Time:  5.6967e-05 s
+        Error: 1.93123e-13
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.0852e-05 s
+@ PRODUCT1DCCPU 2048 1.0852e-05
+
+      OpenMP CPU
+        Time:  3.772e-06 s
+@ PRODUCT1DCOPENMPCPU 2048 3.772e-06
+
+      OpenMP GPU
+        Time:  3.284e-06 s
+@ PRODUCT1DCOPENMPGPU 2048 3.284e-06
+
+      CUDA
+        Time:  0.000292222 s
+@ PRODUCT1DCCUDA 2048 0.000292222
+
+      CUDA (32 streams)
+        Time:  0.00640871 s
+@ PRODUCT1DCCUDASTREAMS 2048 0.00640871
+
+    FFT
+      CUDA
+        Direct
+          Time:  5.5113e-05 s
+@ FFT1DCCUDA 2048 5.5113e-05
+        Inverse
+          Time:  5.2673e-05 s
+        Error: 4.55184e-13
+
+
+Dimensions: 2048 2048 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0328088 s
+
+      OpenMP CPU
+        Time:  0.0092344 s
+
+      OpenMP GPU
+        Time:  0.0093452 s
+
+      CUDA
+        Time:  0.0558263 s
+
+      CUDA (32 streams)
+        Time:  0.0401224 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0423568 s
+@ FFT2DRCUDA 2048 0.0423568
+        Inverse
+          Time:  0.0549724 s
+        Error: 5.799e-10
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0665245 s
+
+      OpenMP CPU
+        Time:  0.0137976 s
+
+      OpenMP GPU
+        Time:  0.0138297 s
+
+      CUDA
+        Time:  0.0975053 s
+
+      CUDA (32 streams)
+        Time:  0.0675801 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0767427 s
+@ FFT2DCCUDA 2048 0.0767427
+        Inverse
+          Time:  0.0842585 s
+        Error: 1.02614e-09
+
+
+Dimensions: 2048 2048 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0332952 s
+
+      OpenMP CPU
+        Time:  0.00995125 s
+
+      OpenMP GPU
+        Time:  0.00971953 s
+
+      CUDA
+        Time:  0.0561396 s
+
+      CUDA (32 streams)
+        Time:  0.0411788 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0696882 s
+@ FFT3DRCUDA 2048 0.0696882
+        Inverse
+          Time:  0.0738596 s
+        Error: 1.19826e+06
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0670754 s
+
+      OpenMP CPU
+        Time:  0.013931 s
+
+      OpenMP GPU
+        Time:  0.0138402 s
+
+      CUDA
+        Time:  0.0977262 s
+
+      CUDA (32 streams)
+        Time:  0.06625 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0772882 s
+@ FFT3DCCUDA 2048 0.0772882
+        Inverse
+          Time:  0.0872174 s
+        Error: 1.02614e-09
+
+
+====================================
+Dimensions: 2048 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.5003e-05 s
+@ PRODUCT1DRCPU 2048 2.5003e-05
+
+      OpenMP CPU
+        Time:  5.442e-06 s
+@ PRODUCT1DROPENMPCPU 2048 5.442e-06
+
+      OpenMP GPU
+        Time:  5.261e-06 s
+@ PRODUCT1DROPENMPGPU 2048 5.261e-06
+
+      CUDA
+        Time:  0.098675 s
+@ PRODUCT1DRCUDA 2048 0.098675
+
+      CUDA (32 streams)
+        Time:  0.00564499 s
+@ PRODUCT1DRCUDASTREAMS 2048 0.00564499
+
+    FFT
+      CUDA
+        Direct
+          Time:  8.2545e-05 s
+@ FFT1DRCUDA 2048 8.2545e-05
+        Inverse
+          Time:  5.6515e-05 s
+        Error: 1.93123e-13
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.1041e-05 s
+@ PRODUCT1DCCPU 2048 1.1041e-05
+
+      OpenMP CPU
+        Time:  3.789e-06 s
+@ PRODUCT1DCOPENMPCPU 2048 3.789e-06
+
+      OpenMP GPU
+        Time:  3.27e-06 s
+@ PRODUCT1DCOPENMPGPU 2048 3.27e-06
+
+      CUDA
+        Time:  0.000275225 s
+@ PRODUCT1DCCUDA 2048 0.000275225
+
+      CUDA (32 streams)
+        Time:  0.0063963 s
+@ PRODUCT1DCCUDASTREAMS 2048 0.0063963
+
+    FFT
+      CUDA
+        Direct
+          Time:  5.8158e-05 s
+@ FFT1DCCUDA 2048 5.8158e-05
+        Inverse
+          Time:  4.956e-05 s
+        Error: 4.55184e-13
+
+
+Dimensions: 2048 2048 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0329473 s
+
+      OpenMP CPU
+        Time:  0.00928022 s
+
+      OpenMP GPU
+        Time:  0.00928163 s
+
+      CUDA
+        Time:  0.0557055 s
+
+      CUDA (32 streams)
+        Time:  0.0406616 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0411654 s
+@ FFT2DRCUDA 2048 0.0411654
+        Inverse
+          Time:  0.0548246 s
+        Error: 5.799e-10
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0666068 s
+
+      OpenMP CPU
+        Time:  0.013901 s
+
+      OpenMP GPU
+        Time:  0.0137502 s
+
+      CUDA
+        Time:  0.0983228 s
+
+      CUDA (32 streams)
+        Time:  0.0674967 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0774577 s
+@ FFT2DCCUDA 2048 0.0774577
+        Inverse
+          Time:  0.0860919 s
+        Error: 1.02614e-09
+
+
+Dimensions: 2048 2048 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0331872 s
+
+      OpenMP CPU
+        Time:  0.00997485 s
+
+      OpenMP GPU
+        Time:  0.00961474 s
+
+      CUDA
+        Time:  0.0562574 s
+
+      CUDA (32 streams)
+        Time:  0.0405987 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0696508 s
+@ FFT3DRCUDA 2048 0.0696508
+        Inverse
+          Time:  0.0734579 s
+        Error: 1.19826e+06
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0668652 s
+
+      OpenMP CPU
+        Time:  0.013896 s
+
+      OpenMP GPU
+        Time:  0.0137749 s
+
+      CUDA
+        Time:  0.0978371 s
+
+      CUDA (32 streams)
+        Time:  0.0659046 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0778789 s
+@ FFT3DCCUDA 2048 0.0778789
+        Inverse
+          Time:  0.0873015 s
+        Error: 1.02614e-09
+
+
+====================================
+Dimensions: 2048 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.5231e-05 s
+@ PRODUCT1DRCPU 2048 2.5231e-05
+
+      OpenMP CPU
+        Time:  5.351e-06 s
+@ PRODUCT1DROPENMPCPU 2048 5.351e-06
+
+      OpenMP GPU
+        Time:  5.265e-06 s
+@ PRODUCT1DROPENMPGPU 2048 5.265e-06
+
+      CUDA
+        Time:  0.0982843 s
+@ PRODUCT1DRCUDA 2048 0.0982843
+
+      CUDA (32 streams)
+        Time:  0.00570745 s
+@ PRODUCT1DRCUDASTREAMS 2048 0.00570745
+
+    FFT
+      CUDA
+        Direct
+          Time:  7.9804e-05 s
+@ FFT1DRCUDA 2048 7.9804e-05
+        Inverse
+          Time:  4.5496e-05 s
+        Error: 1.93123e-13
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.0869e-05 s
+@ PRODUCT1DCCPU 2048 1.0869e-05
+
+      OpenMP CPU
+        Time:  3.796e-06 s
+@ PRODUCT1DCOPENMPCPU 2048 3.796e-06
+
+      OpenMP GPU
+        Time:  3.253e-06 s
+@ PRODUCT1DCOPENMPGPU 2048 3.253e-06
+
+      CUDA
+        Time:  0.000280987 s
+@ PRODUCT1DCCUDA 2048 0.000280987
+
+      CUDA (32 streams)
+        Time:  0.00683477 s
+@ PRODUCT1DCCUDASTREAMS 2048 0.00683477
+
+    FFT
+      CUDA
+        Direct
+          Time:  5.5558e-05 s
+@ FFT1DCCUDA 2048 5.5558e-05
+        Inverse
+          Time:  4.9389e-05 s
+        Error: 4.55184e-13
+
+
+Dimensions: 2048 2048 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0330383 s
+
+      OpenMP CPU
+        Time:  0.00932042 s
+
+      OpenMP GPU
+        Time:  0.00947233 s
+
+      CUDA
+        Time:  0.056102 s
+
+      CUDA (32 streams)
+        Time:  0.0409084 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.041298 s
+@ FFT2DRCUDA 2048 0.041298
+        Inverse
+          Time:  0.054942 s
+        Error: 5.799e-10
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0667278 s
+
+      OpenMP CPU
+        Time:  0.0136368 s
+
+      OpenMP GPU
+        Time:  0.0136312 s
+
+      CUDA
+        Time:  0.09755 s
+
+      CUDA (32 streams)
+        Time:  0.0691388 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.07629 s
+@ FFT2DCCUDA 2048 0.07629
+        Inverse
+          Time:  0.0841308 s
+        Error: 1.02614e-09
+
+
+Dimensions: 2048 2048 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.033142 s
+
+      OpenMP CPU
+        Time:  0.0100714 s
+
+      OpenMP GPU
+        Time:  0.009848 s
+
+      CUDA
+        Time:  0.0559702 s
+
+      CUDA (32 streams)
+        Time:  0.0398544 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0701779 s
+@ FFT3DRCUDA 2048 0.0701779
+        Inverse
+          Time:  0.0741257 s
+        Error: 1.19826e+06
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0666691 s
+
+      OpenMP CPU
+        Time:  0.0138787 s
+
+      OpenMP GPU
+        Time:  0.0139055 s
+
+      CUDA
+        Time:  0.0979055 s
+
+      CUDA (32 streams)
+        Time:  0.0647374 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0777088 s
+@ FFT3DCCUDA 2048 0.0777088
+        Inverse
+          Time:  0.0871582 s
+        Error: 1.02614e-09
+
+
+====================================
+Dimensions: 2048 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.2263e-05 s
+@ PRODUCT1DRCPU 2048 2.2263e-05
+
+      OpenMP CPU
+        Time:  4.701e-06 s
+@ PRODUCT1DROPENMPCPU 2048 4.701e-06
+
+      OpenMP GPU
+        Time:  4.512e-06 s
+@ PRODUCT1DROPENMPGPU 2048 4.512e-06
+
+      CUDA
+        Time:  0.0977221 s
+@ PRODUCT1DRCUDA 2048 0.0977221
+
+      CUDA (32 streams)
+        Time:  0.00586039 s
+@ PRODUCT1DRCUDASTREAMS 2048 0.00586039
+
+    FFT
+      CUDA
+        Direct
+          Time:  7.7861e-05 s
+@ FFT1DRCUDA 2048 7.7861e-05
+        Inverse
+          Time:  5.1849e-05 s
+        Error: 1.93123e-13
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  2.1857e-05 s
+@ PRODUCT1DCCPU 2048 2.1857e-05
+
+      OpenMP CPU
+        Time:  3.8e-06 s
+@ PRODUCT1DCOPENMPCPU 2048 3.8e-06
+
+      OpenMP GPU
+        Time:  3.242e-06 s
+@ PRODUCT1DCOPENMPGPU 2048 3.242e-06
+
+      CUDA
+        Time:  0.000287324 s
+@ PRODUCT1DCCUDA 2048 0.000287324
+
+      CUDA (32 streams)
+        Time:  0.00638036 s
+@ PRODUCT1DCCUDASTREAMS 2048 0.00638036
+
+    FFT
+      CUDA
+        Direct
+          Time:  7.5953e-05 s
+@ FFT1DCCUDA 2048 7.5953e-05
+        Inverse
+          Time:  6.8321e-05 s
+        Error: 4.55184e-13
+
+
+Dimensions: 2048 2048 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.03288 s
+
+      OpenMP CPU
+        Time:  0.00933857 s
+
+      OpenMP GPU
+        Time:  0.00932884 s
+
+      CUDA
+        Time:  0.0557631 s
+
+      CUDA (32 streams)
+        Time:  0.0414232 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0413308 s
+@ FFT2DRCUDA 2048 0.0413308
+        Inverse
+          Time:  0.0551739 s
+        Error: 5.799e-10
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0669968 s
+
+      OpenMP CPU
+        Time:  0.0135918 s
+
+      OpenMP GPU
+        Time:  0.013589 s
+
+      CUDA
+        Time:  0.0976698 s
+
+      CUDA (32 streams)
+        Time:  0.068014 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0764686 s
+@ FFT2DCCUDA 2048 0.0764686
+        Inverse
+          Time:  0.0840855 s
+        Error: 1.02614e-09
+
+
+Dimensions: 2048 2048 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0334206 s
+
+      OpenMP CPU
+        Time:  0.0100558 s
+
+      OpenMP GPU
+        Time:  0.00966751 s
+
+      CUDA
+        Time:  0.0561216 s
+
+      CUDA (32 streams)
+        Time:  0.0412422 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0699936 s
+@ FFT3DRCUDA 2048 0.0699936
+        Inverse
+          Time:  0.0736541 s
+        Error: 1.19826e+06
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0669552 s
+
+      OpenMP CPU
+        Time:  0.0138161 s
+
+      OpenMP GPU
+        Time:  0.0137898 s
+
+      CUDA
+        Time:  0.0977051 s
+
+      CUDA (32 streams)
+        Time:  0.0654016 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.077987 s
+@ FFT3DCCUDA 2048 0.077987
+        Inverse
+          Time:  0.0871779 s
+        Error: 1.02614e-09
+
+
+====================================
+Dimensions: 2048 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.5474e-05 s
+@ PRODUCT1DRCPU 2048 2.5474e-05
+
+      OpenMP CPU
+        Time:  7.088e-06 s
+@ PRODUCT1DROPENMPCPU 2048 7.088e-06
+
+      OpenMP GPU
+        Time:  7.014e-06 s
+@ PRODUCT1DROPENMPGPU 2048 7.014e-06
+
+      CUDA
+        Time:  0.100253 s
+@ PRODUCT1DRCUDA 2048 0.100253
+
+      CUDA (32 streams)
+        Time:  0.00581998 s
+@ PRODUCT1DRCUDASTREAMS 2048 0.00581998
+
+    FFT
+      CUDA
+        Direct
+          Time:  8.2505e-05 s
+@ FFT1DRCUDA 2048 8.2505e-05
+        Inverse
+          Time:  4.7401e-05 s
+        Error: 1.93123e-13
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  2.3677e-05 s
+@ PRODUCT1DCCPU 2048 2.3677e-05
+
+      OpenMP CPU
+        Time:  3.8e-06 s
+@ PRODUCT1DCOPENMPCPU 2048 3.8e-06
+
+      OpenMP GPU
+        Time:  3.245e-06 s
+@ PRODUCT1DCOPENMPGPU 2048 3.245e-06
+
+      CUDA
+        Time:  0.000314279 s
+@ PRODUCT1DCCUDA 2048 0.000314279
+
+      CUDA (32 streams)
+        Time:  0.00648455 s
+@ PRODUCT1DCCUDASTREAMS 2048 0.00648455
+
+    FFT
+      CUDA
+        Direct
+          Time:  7.7243e-05 s
+@ FFT1DCCUDA 2048 7.7243e-05
+        Inverse
+          Time:  6.9159e-05 s
+        Error: 4.55184e-13
+
+
+Dimensions: 2048 2048 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0329859 s
+
+      OpenMP CPU
+        Time:  0.00931717 s
+
+      OpenMP GPU
+        Time:  0.0092807 s
+
+      CUDA
+        Time:  0.0566126 s
+
+      CUDA (32 streams)
+        Time:  0.0410083 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0413677 s
+@ FFT2DRCUDA 2048 0.0413677
+        Inverse
+          Time:  0.0554108 s
+        Error: 5.799e-10
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.066969 s
+
+      OpenMP CPU
+        Time:  0.013583 s
+
+      OpenMP GPU
+        Time:  0.0136773 s
+
+      CUDA
+        Time:  0.0988564 s
+
+      CUDA (32 streams)
+        Time:  0.0681496 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0764949 s
+@ FFT2DCCUDA 2048 0.0764949
+        Inverse
+          Time:  0.0843582 s
+        Error: 1.02614e-09
+
+
+Dimensions: 2048 2048 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.033237 s
+
+      OpenMP CPU
+        Time:  0.0100162 s
+
+      OpenMP GPU
+        Time:  0.0097114 s
+
+      CUDA
+        Time:  0.0564817 s
+
+      CUDA (32 streams)
+        Time:  0.0412518 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0700746 s
+@ FFT3DRCUDA 2048 0.0700746
+        Inverse
+          Time:  0.0738205 s
+        Error: 1.19826e+06
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0670442 s
+
+      OpenMP CPU
+        Time:  0.0138824 s
+
+      OpenMP GPU
+        Time:  0.0138288 s
+
+      CUDA
+        Time:  0.0983036 s
+
+      CUDA (32 streams)
+        Time:  0.0664411 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0780205 s
+@ FFT3DCCUDA 2048 0.0780205
+        Inverse
+          Time:  0.0876074 s
+        Error: 1.02614e-09
+
+
+====================================
+Dimensions: 2048 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  1.6501e-05 s
+@ PRODUCT1DRCPU 2048 1.6501e-05
+
+      OpenMP CPU
+        Time:  3.495e-06 s
+@ PRODUCT1DROPENMPCPU 2048 3.495e-06
+
+      OpenMP GPU
+        Time:  3.321e-06 s
+@ PRODUCT1DROPENMPGPU 2048 3.321e-06
+
+      CUDA
+        Time:  0.10973 s
+@ PRODUCT1DRCUDA 2048 0.10973
+
+      CUDA (32 streams)
+        Time:  0.00580229 s
+@ PRODUCT1DRCUDASTREAMS 2048 0.00580229
+
+    FFT
+      CUDA
+        Direct
+          Time:  7.3723e-05 s
+@ FFT1DRCUDA 2048 7.3723e-05
+        Inverse
+          Time:  5.8373e-05 s
+        Error: 1.93123e-13
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  2.2506e-05 s
+@ PRODUCT1DCCPU 2048 2.2506e-05
+
+      OpenMP CPU
+        Time:  3.8e-06 s
+@ PRODUCT1DCOPENMPCPU 2048 3.8e-06
+
+      OpenMP GPU
+        Time:  3.258e-06 s
+@ PRODUCT1DCOPENMPGPU 2048 3.258e-06
+
+      CUDA
+        Time:  0.000279033 s
+@ PRODUCT1DCCUDA 2048 0.000279033
+
+      CUDA (32 streams)
+        Time:  0.00632734 s
+@ PRODUCT1DCCUDASTREAMS 2048 0.00632734
+
+    FFT
+      CUDA
+        Direct
+          Time:  7.0133e-05 s
+@ FFT1DCCUDA 2048 7.0133e-05
+        Inverse
+          Time:  7.4737e-05 s
+        Error: 4.55184e-13
+
+
+Dimensions: 2048 2048 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0329258 s
+
+      OpenMP CPU
+        Time:  0.00927734 s
+
+      OpenMP GPU
+        Time:  0.00927914 s
+
+      CUDA
+        Time:  0.0557369 s
+
+      CUDA (32 streams)
+        Time:  0.0413068 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0417477 s
+@ FFT2DRCUDA 2048 0.0417477
+        Inverse
+          Time:  0.0552552 s
+        Error: 5.799e-10
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0664298 s
+
+      OpenMP CPU
+        Time:  0.0135842 s
+
+      OpenMP GPU
+        Time:  0.0136582 s
+
+      CUDA
+        Time:  0.097337 s
+
+      CUDA (32 streams)
+        Time:  0.0680358 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0765291 s
+@ FFT2DCCUDA 2048 0.0765291
+        Inverse
+          Time:  0.0839837 s
+        Error: 1.02614e-09
+
+
+Dimensions: 2048 2048 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0331881 s
+
+      OpenMP CPU
+        Time:  0.0100075 s
+
+      OpenMP GPU
+        Time:  0.00962512 s
+
+      CUDA
+        Time:  0.0561539 s
+
+      CUDA (32 streams)
+        Time:  0.0405362 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0698174 s
+@ FFT3DRCUDA 2048 0.0698174
+        Inverse
+          Time:  0.0744628 s
+        Error: 1.19826e+06
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0668757 s
+
+      OpenMP CPU
+        Time:  0.0138498 s
+
+      OpenMP GPU
+        Time:  0.0137587 s
+
+      CUDA
+        Time:  0.0978675 s
+
+      CUDA (32 streams)
+        Time:  0.0661521 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0780703 s
+@ FFT3DCCUDA 2048 0.0780703
+        Inverse
+          Time:  0.0876031 s
+        Error: 1.02614e-09
+
+
+====================================
+Dimensions: 2048 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.3838e-05 s
+@ PRODUCT1DRCPU 2048 2.3838e-05
+
+      OpenMP CPU
+        Time:  5.217e-06 s
+@ PRODUCT1DROPENMPCPU 2048 5.217e-06
+
+      OpenMP GPU
+        Time:  5.052e-06 s
+@ PRODUCT1DROPENMPGPU 2048 5.052e-06
+
+      CUDA
+        Time:  0.0978607 s
+@ PRODUCT1DRCUDA 2048 0.0978607
+
+      CUDA (32 streams)
+        Time:  0.00569244 s
+@ PRODUCT1DRCUDASTREAMS 2048 0.00569244
+
+    FFT
+      CUDA
+        Direct
+          Time:  8.3663e-05 s
+@ FFT1DRCUDA 2048 8.3663e-05
+        Inverse
+          Time:  5.6289e-05 s
+        Error: 1.93123e-13
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.1518e-05 s
+@ PRODUCT1DCCPU 2048 1.1518e-05
+
+      OpenMP CPU
+        Time:  4.015e-06 s
+@ PRODUCT1DCOPENMPCPU 2048 4.015e-06
+
+      OpenMP GPU
+        Time:  3.241e-06 s
+@ PRODUCT1DCOPENMPGPU 2048 3.241e-06
+
+      CUDA
+        Time:  0.000292042 s
+@ PRODUCT1DCCUDA 2048 0.000292042
+
+      CUDA (32 streams)
+        Time:  0.00643781 s
+@ PRODUCT1DCCUDASTREAMS 2048 0.00643781
+
+    FFT
+      CUDA
+        Direct
+          Time:  5.8182e-05 s
+@ FFT1DCCUDA 2048 5.8182e-05
+        Inverse
+          Time:  5.0498e-05 s
+        Error: 4.55184e-13
+
+
+Dimensions: 2048 2048 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0329189 s
+
+      OpenMP CPU
+        Time:  0.00926404 s
+
+      OpenMP GPU
+        Time:  0.00925469 s
+
+      CUDA
+        Time:  0.0561545 s
+
+      CUDA (32 streams)
+        Time:  0.0414424 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0410177 s
+@ FFT2DRCUDA 2048 0.0410177
+        Inverse
+          Time:  0.0551948 s
+        Error: 5.799e-10
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0666286 s
+
+      OpenMP CPU
+        Time:  0.0137332 s
+
+      OpenMP GPU
+        Time:  0.0137753 s
+
+      CUDA
+        Time:  0.0976238 s
+
+      CUDA (32 streams)
+        Time:  0.0676906 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0764253 s
+@ FFT2DCCUDA 2048 0.0764253
+        Inverse
+          Time:  0.0838847 s
+        Error: 1.02614e-09
+
+
+Dimensions: 2048 2048 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0331886 s
+
+      OpenMP CPU
+        Time:  0.00990395 s
+
+      OpenMP GPU
+        Time:  0.00963182 s
+
+      CUDA
+        Time:  0.0559542 s
+
+      CUDA (32 streams)
+        Time:  0.0400675 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0693879 s
+@ FFT3DRCUDA 2048 0.0693879
+        Inverse
+          Time:  0.0738992 s
+        Error: 1.19826e+06
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0666631 s
+
+      OpenMP CPU
+        Time:  0.0138282 s
+
+      OpenMP GPU
+        Time:  0.0138347 s
+
+      CUDA
+        Time:  0.0979048 s
+
+      CUDA (32 streams)
+        Time:  0.0665418 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0774873 s
+@ FFT3DCCUDA 2048 0.0774873
+        Inverse
+          Time:  0.0875534 s
+        Error: 1.02614e-09
+
+
+====================================
+Dimensions: 2048 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.2641e-05 s
+@ PRODUCT1DRCPU 2048 2.2641e-05
+
+      OpenMP CPU
+        Time:  4.678e-06 s
+@ PRODUCT1DROPENMPCPU 2048 4.678e-06
+
+      OpenMP GPU
+        Time:  4.682e-06 s
+@ PRODUCT1DROPENMPGPU 2048 4.682e-06
+
+      CUDA
+        Time:  0.0959285 s
+@ PRODUCT1DRCUDA 2048 0.0959285
+
+      CUDA (32 streams)
+        Time:  0.00555574 s
+@ PRODUCT1DRCUDASTREAMS 2048 0.00555574
+
+    FFT
+      CUDA
+        Direct
+          Time:  8.5191e-05 s
+@ FFT1DRCUDA 2048 8.5191e-05
+        Inverse
+          Time:  4.9309e-05 s
+        Error: 1.93123e-13
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.0711e-05 s
+@ PRODUCT1DCCPU 2048 1.0711e-05
+
+      OpenMP CPU
+        Time:  3.908e-06 s
+@ PRODUCT1DCOPENMPCPU 2048 3.908e-06
+
+      OpenMP GPU
+        Time:  3.335e-06 s
+@ PRODUCT1DCOPENMPGPU 2048 3.335e-06
+
+      CUDA
+        Time:  0.000287212 s
+@ PRODUCT1DCCUDA 2048 0.000287212
+
+      CUDA (32 streams)
+        Time:  0.0063895 s
+@ PRODUCT1DCCUDASTREAMS 2048 0.0063895
+
+    FFT
+      CUDA
+        Direct
+          Time:  5.7975e-05 s
+@ FFT1DCCUDA 2048 5.7975e-05
+        Inverse
+          Time:  5.0304e-05 s
+        Error: 4.55184e-13
+
+
+Dimensions: 2048 2048 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0328858 s
+
+      OpenMP CPU
+        Time:  0.00926028 s
+
+      OpenMP GPU
+        Time:  0.00925683 s
+
+      CUDA
+        Time:  0.0565329 s
+
+      CUDA (32 streams)
+        Time:  0.0410722 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0412458 s
+@ FFT2DRCUDA 2048 0.0412458
+        Inverse
+          Time:  0.0551887 s
+        Error: 5.799e-10
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0665876 s
+
+      OpenMP CPU
+        Time:  0.0136135 s
+
+      OpenMP GPU
+        Time:  0.0136727 s
+
+      CUDA
+        Time:  0.0976106 s
+
+      CUDA (32 streams)
+        Time:  0.068251 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0770298 s
+@ FFT2DCCUDA 2048 0.0770298
+        Inverse
+          Time:  0.0843457 s
+        Error: 1.02614e-09
+
+
+Dimensions: 2048 2048 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0332763 s
+
+      OpenMP CPU
+        Time:  0.0100433 s
+
+      OpenMP GPU
+        Time:  0.0096016 s
+
+      CUDA
+        Time:  0.0561962 s
+
+      CUDA (32 streams)
+        Time:  0.0410771 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0694686 s
+@ FFT3DRCUDA 2048 0.0694686
+        Inverse
+          Time:  0.0734037 s
+        Error: 1.19826e+06
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0669627 s
+
+      OpenMP CPU
+        Time:  0.0138476 s
+
+      OpenMP GPU
+        Time:  0.0138861 s
+
+      CUDA
+        Time:  0.0980362 s
+
+      CUDA (32 streams)
+        Time:  0.0653448 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0785115 s
+@ FFT3DCCUDA 2048 0.0785115
+        Inverse
+          Time:  0.0870275 s
+        Error: 1.02614e-09
+
+
+====================================
+Dimensions: 2048 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.3408e-05 s
+@ PRODUCT1DRCPU 2048 2.3408e-05
+
+      OpenMP CPU
+        Time:  4.868e-06 s
+@ PRODUCT1DROPENMPCPU 2048 4.868e-06
+
+      OpenMP GPU
+        Time:  4.847e-06 s
+@ PRODUCT1DROPENMPGPU 2048 4.847e-06
+
+      CUDA
+        Time:  0.097239 s
+@ PRODUCT1DRCUDA 2048 0.097239
+
+      CUDA (32 streams)
+        Time:  0.00555686 s
+@ PRODUCT1DRCUDASTREAMS 2048 0.00555686
+
+    FFT
+      CUDA
+        Direct
+          Time:  8.4826e-05 s
+@ FFT1DRCUDA 2048 8.4826e-05
+        Inverse
+          Time:  4.6506e-05 s
+        Error: 1.93123e-13
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.0976e-05 s
+@ PRODUCT1DCCPU 2048 1.0976e-05
+
+      OpenMP CPU
+        Time:  3.789e-06 s
+@ PRODUCT1DCOPENMPCPU 2048 3.789e-06
+
+      OpenMP GPU
+        Time:  3.256e-06 s
+@ PRODUCT1DCOPENMPGPU 2048 3.256e-06
+
+      CUDA
+        Time:  0.000285165 s
+@ PRODUCT1DCCUDA 2048 0.000285165
+
+      CUDA (32 streams)
+        Time:  0.0063158 s
+@ PRODUCT1DCCUDASTREAMS 2048 0.0063158
+
+    FFT
+      CUDA
+        Direct
+          Time:  5.5165e-05 s
+@ FFT1DCCUDA 2048 5.5165e-05
+        Inverse
+          Time:  4.9174e-05 s
+        Error: 4.55184e-13
+
+
+Dimensions: 2048 2048 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.032745 s
+
+      OpenMP CPU
+        Time:  0.00930593 s
+
+      OpenMP GPU
+        Time:  0.00923141 s
+
+      CUDA
+        Time:  0.0563614 s
+
+      CUDA (32 streams)
+        Time:  0.0408463 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0413039 s
+@ FFT2DRCUDA 2048 0.0413039
+        Inverse
+          Time:  0.0550193 s
+        Error: 5.799e-10
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.0665887 s
+
+      OpenMP CPU
+        Time:  0.0136003 s
+
+      OpenMP GPU
+        Time:  0.013618 s
+
+      CUDA
+        Time:  0.0975402 s
+
+      CUDA (32 streams)
+        Time:  0.0682256 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0770514 s
+@ FFT2DCCUDA 2048 0.0770514
+        Inverse
+          Time:  0.0845311 s
+        Error: 1.02614e-09
+
+
+Dimensions: 2048 2048 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.0334455 s
+
+      OpenMP CPU
+        Time:  0.0100445 s
+
+      OpenMP GPU
+        Time:  0.00969469 s
+
+      CUDA
+        Time:  0.0560954 s
+
+      CUDA (32 streams)
+        Time:  0.0408932 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0699002 s
+@ FFT3DRCUDA 2048 0.0699002
+        Inverse
+          Time:  0.0732494 s
+        Error: 1.19826e+06
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.06704 s
+
+      OpenMP CPU
+        Time:  0.0138838 s
+
+      OpenMP GPU
+        Time:  0.0138642 s
+
+      CUDA
+        Time:  0.0979061 s
+
+      CUDA (32 streams)
+        Time:  0.0659409 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.0775225 s
+@ FFT3DCCUDA 2048 0.0775225
+        Inverse
+          Time:  0.0873095 s
+        Error: 1.02614e-09
+
+
+====================================
+====================================
+====================================
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  4.3496e-05 s
+@ PRODUCT1DRCPU 4096 4.3496e-05
+
+      OpenMP CPU
+        Time:  1.0163e-05 s
+@ PRODUCT1DROPENMPCPU 4096 1.0163e-05
+
+      OpenMP GPU
+        Time:  9.99e-06 s
+@ PRODUCT1DROPENMPGPU 4096 9.99e-06
+
+      CUDA
+        Time:  0.0976365 s
+@ PRODUCT1DRCUDA 4096 0.0976365
+
+      CUDA (32 streams)
+        Time:  0.00567894 s
+@ PRODUCT1DRCUDASTREAMS 4096 0.00567894
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.000102417 s
+@ FFT1DRCUDA 4096 0.000102417
+        Inverse
+          Time:  7.3287e-05 s
+        Error: 5.81535e-13
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  2.0956e-05 s
+@ PRODUCT1DCCPU 4096 2.0956e-05
+
+      OpenMP CPU
+        Time:  7.498e-06 s
+@ PRODUCT1DCOPENMPCPU 4096 7.498e-06
+
+      OpenMP GPU
+        Time:  6.462e-06 s
+@ PRODUCT1DCOPENMPGPU 4096 6.462e-06
+
+      CUDA
+        Time:  0.000309372 s
+@ PRODUCT1DCCUDA 4096 0.000309372
+
+      CUDA (32 streams)
+        Time:  0.00636361 s
+@ PRODUCT1DCCUDASTREAMS 4096 0.00636361
+
+    FFT
+      CUDA
+        Direct
+          Time:  7.9402e-05 s
+@ FFT1DCCUDA 4096 7.9402e-05
+        Inverse
+          Time:  7.5911e-05 s
+        Error: 1.16575e-12
+
+
+Dimensions: 4096 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.12971 s
+
+      OpenMP CPU
+        Time:  0.0375077 s
+
+      OpenMP GPU
+        Time:  0.0371937 s
+
+      CUDA
+        Time:  0.216075 s
+
+      CUDA (32 streams)
+        Time:  0.126962 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.164799 s
+@ FFT2DRCUDA 4096 0.164799
+        Inverse
+          Time:  0.218431 s
+        Error: 2.85974e-09
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.263059 s
+
+      OpenMP CPU
+        Time:  0.0546903 s
+
+      OpenMP GPU
+        Time:  0.0546868 s
+
+      CUDA
+        Time:  0.381018 s
+
+      CUDA (32 streams)
+        Time:  0.216741 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.306322 s
+@ FFT2DCCUDA 4096 0.306322
+        Inverse
+          Time:  0.335062 s
+        Error: 4.14708e-09
+
+
+Dimensions: 4096 4096 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.131686 s
+
+      OpenMP CPU
+        Time:  0.0400509 s
+
+      OpenMP GPU
+        Time:  0.0387373 s
+
+      CUDA
+        Time:  0.217629 s
+
+      CUDA (32 streams)
+        Time:  0.12584 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.279771 s
+@ FFT3DRCUDA 4096 0.279771
+        Inverse
+          Time:  0.291551 s
+        Error: 4.79333e+06
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.262178 s
+
+      OpenMP CPU
+        Time:  0.0556784 s
+
+      OpenMP GPU
+        Time:  0.0559534 s
+
+      CUDA
+        Time:  0.381899 s
+
+      CUDA (32 streams)
+        Time:  0.209829 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.311438 s
+@ FFT3DCCUDA 4096 0.311438
+        Inverse
+          Time:  0.347795 s
+        Error: 4.14708e-09
+
+
+====================================
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  4.2164e-05 s
+@ PRODUCT1DRCPU 4096 4.2164e-05
+
+      OpenMP CPU
+        Time:  9.908e-06 s
+@ PRODUCT1DROPENMPCPU 4096 9.908e-06
+
+      OpenMP GPU
+        Time:  9.608e-06 s
+@ PRODUCT1DROPENMPGPU 4096 9.608e-06
+
+      CUDA
+        Time:  0.100554 s
+@ PRODUCT1DRCUDA 4096 0.100554
+
+      CUDA (32 streams)
+        Time:  0.00585857 s
+@ PRODUCT1DRCUDASTREAMS 4096 0.00585857
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.000104972 s
+@ FFT1DRCUDA 4096 0.000104972
+        Inverse
+          Time:  8.1446e-05 s
+        Error: 5.81535e-13
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  2.0826e-05 s
+@ PRODUCT1DCCPU 4096 2.0826e-05
+
+      OpenMP CPU
+        Time:  7.462e-06 s
+@ PRODUCT1DCOPENMPCPU 4096 7.462e-06
+
+      OpenMP GPU
+        Time:  6.42e-06 s
+@ PRODUCT1DCOPENMPGPU 4096 6.42e-06
+
+      CUDA
+        Time:  0.000312346 s
+@ PRODUCT1DCCUDA 4096 0.000312346
+
+      CUDA (32 streams)
+        Time:  0.00835707 s
+@ PRODUCT1DCCUDASTREAMS 4096 0.00835707
+
+    FFT
+      CUDA
+        Direct
+          Time:  8.0593e-05 s
+@ FFT1DCCUDA 4096 8.0593e-05
+        Inverse
+          Time:  7.77e-05 s
+        Error: 1.16575e-12
+
+
+Dimensions: 4096 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.129837 s
+
+      OpenMP CPU
+        Time:  0.0372689 s
+
+      OpenMP GPU
+        Time:  0.0371719 s
+
+      CUDA
+        Time:  0.217631 s
+
+      CUDA (32 streams)
+        Time:  0.131784 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.164305 s
+@ FFT2DRCUDA 4096 0.164305
+        Inverse
+          Time:  0.218319 s
+        Error: 2.85974e-09
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.261919 s
+
+      OpenMP CPU
+        Time:  0.0550113 s
+
+      OpenMP GPU
+        Time:  0.0548837 s
+
+      CUDA
+        Time:  0.381927 s
+
+      CUDA (32 streams)
+        Time:  0.214843 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.304677 s
+@ FFT2DCCUDA 4096 0.304677
+        Inverse
+          Time:  0.33548 s
+        Error: 4.14708e-09
+
+
+Dimensions: 4096 4096 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.130688 s
+
+      OpenMP CPU
+        Time:  0.0395082 s
+
+      OpenMP GPU
+        Time:  0.03893 s
+
+      CUDA
+        Time:  0.217296 s
+
+      CUDA (32 streams)
+        Time:  0.131666 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.279522 s
+@ FFT3DRCUDA 4096 0.279522
+        Inverse
+          Time:  0.290883 s
+        Error: 4.79333e+06
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.26235 s
+
+      OpenMP CPU
+        Time:  0.0557286 s
+
+      OpenMP GPU
+        Time:  0.0557591 s
+
+      CUDA
+        Time:  0.383913 s
+
+      CUDA (32 streams)
+        Time:  0.208302 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.310476 s
+@ FFT3DCCUDA 4096 0.310476
+        Inverse
+          Time:  0.346839 s
+        Error: 4.14708e-09
+
+
+====================================
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  4.7783e-05 s
+@ PRODUCT1DRCPU 4096 4.7783e-05
+
+      OpenMP CPU
+        Time:  9.632e-06 s
+@ PRODUCT1DROPENMPCPU 4096 9.632e-06
+
+      OpenMP GPU
+        Time:  9.602e-06 s
+@ PRODUCT1DROPENMPGPU 4096 9.602e-06
+
+      CUDA
+        Time:  0.100502 s
+@ PRODUCT1DRCUDA 4096 0.100502
+
+      CUDA (32 streams)
+        Time:  0.00737922 s
+@ PRODUCT1DRCUDASTREAMS 4096 0.00737922
+
+    FFT
+      CUDA
+        Direct
+          Time:  9.4823e-05 s
+@ FFT1DRCUDA 4096 9.4823e-05
+        Inverse
+          Time:  8.44e-05 s
+        Error: 5.81535e-13
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  2.0302e-05 s
+@ PRODUCT1DCCPU 4096 2.0302e-05
+
+      OpenMP CPU
+        Time:  7.587e-06 s
+@ PRODUCT1DCOPENMPCPU 4096 7.587e-06
+
+      OpenMP GPU
+        Time:  6.456e-06 s
+@ PRODUCT1DCOPENMPGPU 4096 6.456e-06
+
+      CUDA
+        Time:  0.000309796 s
+@ PRODUCT1DCCUDA 4096 0.000309796
+
+      CUDA (32 streams)
+        Time:  0.00647772 s
+@ PRODUCT1DCCUDASTREAMS 4096 0.00647772
+
+    FFT
+      CUDA
+        Direct
+          Time:  8.0814e-05 s
+@ FFT1DCCUDA 4096 8.0814e-05
+        Inverse
+          Time:  7.9439e-05 s
+        Error: 1.16575e-12
+
+
+Dimensions: 4096 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.12961 s
+
+      OpenMP CPU
+        Time:  0.0371673 s
+
+      OpenMP GPU
+        Time:  0.0373522 s
+
+      CUDA
+        Time:  0.215392 s
+
+      CUDA (32 streams)
+        Time:  0.126451 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.164315 s
+@ FFT2DRCUDA 4096 0.164315
+        Inverse
+          Time:  0.219546 s
+        Error: 2.85974e-09
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.260931 s
+
+      OpenMP CPU
+        Time:  0.0550019 s
+
+      OpenMP GPU
+        Time:  0.0547939 s
+
+      CUDA
+        Time:  0.381639 s
+
+      CUDA (32 streams)
+        Time:  0.215823 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.306424 s
+@ FFT2DCCUDA 4096 0.306424
+        Inverse
+          Time:  0.335756 s
+        Error: 4.14708e-09
+
+
+Dimensions: 4096 4096 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.131304 s
+
+      OpenMP CPU
+        Time:  0.0397465 s
+
+      OpenMP GPU
+        Time:  0.0388832 s
+
+      CUDA
+        Time:  0.21695 s
+
+      CUDA (32 streams)
+        Time:  0.123745 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.278544 s
+@ FFT3DRCUDA 4096 0.278544
+        Inverse
+          Time:  0.291323 s
+        Error: 4.79333e+06
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.262371 s
+
+      OpenMP CPU
+        Time:  0.0558926 s
+
+      OpenMP GPU
+        Time:  0.0557345 s
+
+      CUDA
+        Time:  0.381766 s
+
+      CUDA (32 streams)
+        Time:  0.210273 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.311641 s
+@ FFT3DCCUDA 4096 0.311641
+        Inverse
+          Time:  0.347843 s
+        Error: 4.14708e-09
+
+
+====================================
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  4.485e-05 s
+@ PRODUCT1DRCPU 4096 4.485e-05
+
+      OpenMP CPU
+        Time:  1.0633e-05 s
+@ PRODUCT1DROPENMPCPU 4096 1.0633e-05
+
+      OpenMP GPU
+        Time:  1.0054e-05 s
+@ PRODUCT1DROPENMPGPU 4096 1.0054e-05
+
+      CUDA
+        Time:  0.101644 s
+@ PRODUCT1DRCUDA 4096 0.101644
+
+      CUDA (32 streams)
+        Time:  0.00566076 s
+@ PRODUCT1DRCUDASTREAMS 4096 0.00566076
+
+    FFT
+      CUDA
+        Direct
+          Time:  9.4424e-05 s
+@ FFT1DRCUDA 4096 9.4424e-05
+        Inverse
+          Time:  9.495e-05 s
+        Error: 5.81535e-13
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  3.6551e-05 s
+@ PRODUCT1DCCPU 4096 3.6551e-05
+
+      OpenMP CPU
+        Time:  7.498e-06 s
+@ PRODUCT1DCOPENMPCPU 4096 7.498e-06
+
+      OpenMP GPU
+        Time:  6.486e-06 s
+@ PRODUCT1DCOPENMPGPU 4096 6.486e-06
+
+      CUDA
+        Time:  0.000334363 s
+@ PRODUCT1DCCUDA 4096 0.000334363
+
+      CUDA (32 streams)
+        Time:  0.00659229 s
+@ PRODUCT1DCCUDASTREAMS 4096 0.00659229
+
+    FFT
+      CUDA
+        Direct
+          Time:  9.9386e-05 s
+@ FFT1DCCUDA 4096 9.9386e-05
+        Inverse
+          Time:  0.000115024 s
+        Error: 1.16575e-12
+
+
+Dimensions: 4096 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.130475 s
+
+      OpenMP CPU
+        Time:  0.0374512 s
+
+      OpenMP GPU
+        Time:  0.0371987 s
+
+      CUDA
+        Time:  0.216458 s
+
+      CUDA (32 streams)
+        Time:  0.127722 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.163626 s
+@ FFT2DRCUDA 4096 0.163626
+        Inverse
+          Time:  0.219018 s
+        Error: 2.85974e-09
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.261457 s
+
+      OpenMP CPU
+        Time:  0.0550004 s
+
+      OpenMP GPU
+        Time:  0.0546682 s
+
+      CUDA
+        Time:  0.381789 s
+
+      CUDA (32 streams)
+        Time:  0.214402 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.305738 s
+@ FFT2DCCUDA 4096 0.305738
+        Inverse
+          Time:  0.335548 s
+        Error: 4.14708e-09
+
+
+Dimensions: 4096 4096 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.131852 s
+
+      OpenMP CPU
+        Time:  0.0403077 s
+
+      OpenMP GPU
+        Time:  0.0391374 s
+
+      CUDA
+        Time:  0.217753 s
+
+      CUDA (32 streams)
+        Time:  0.125231 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.278922 s
+@ FFT3DRCUDA 4096 0.278922
+        Inverse
+          Time:  0.289517 s
+        Error: 4.79333e+06
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.262422 s
+
+      OpenMP CPU
+        Time:  0.0557707 s
+
+      OpenMP GPU
+        Time:  0.0556122 s
+
+      CUDA
+        Time:  0.383262 s
+
+      CUDA (32 streams)
+        Time:  0.214066 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.311951 s
+@ FFT3DCCUDA 4096 0.311951
+        Inverse
+          Time:  0.349452 s
+        Error: 4.14708e-09
+
+
+====================================
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.9864e-05 s
+@ PRODUCT1DRCPU 4096 2.9864e-05
+
+      OpenMP CPU
+        Time:  6.405e-06 s
+@ PRODUCT1DROPENMPCPU 4096 6.405e-06
+
+      OpenMP GPU
+        Time:  6.421e-06 s
+@ PRODUCT1DROPENMPGPU 4096 6.421e-06
+
+      CUDA
+        Time:  0.0997833 s
+@ PRODUCT1DRCUDA 4096 0.0997833
+
+      CUDA (32 streams)
+        Time:  0.00671074 s
+@ PRODUCT1DRCUDASTREAMS 4096 0.00671074
+
+    FFT
+      CUDA
+        Direct
+          Time:  9.1446e-05 s
+@ FFT1DRCUDA 4096 9.1446e-05
+        Inverse
+          Time:  7.9584e-05 s
+        Error: 5.81535e-13
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  2.1137e-05 s
+@ PRODUCT1DCCPU 4096 2.1137e-05
+
+      OpenMP CPU
+        Time:  7.483e-06 s
+@ PRODUCT1DCOPENMPCPU 4096 7.483e-06
+
+      OpenMP GPU
+        Time:  6.414e-06 s
+@ PRODUCT1DCOPENMPGPU 4096 6.414e-06
+
+      CUDA
+        Time:  0.000320175 s
+@ PRODUCT1DCCUDA 4096 0.000320175
+
+      CUDA (32 streams)
+        Time:  0.00841586 s
+@ PRODUCT1DCCUDASTREAMS 4096 0.00841586
+
+    FFT
+      CUDA
+        Direct
+          Time:  8.0276e-05 s
+@ FFT1DCCUDA 4096 8.0276e-05
+        Inverse
+          Time:  7.8146e-05 s
+        Error: 1.16575e-12
+
+
+Dimensions: 4096 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.129733 s
+
+      OpenMP CPU
+        Time:  0.0371807 s
+
+      OpenMP GPU
+        Time:  0.0372877 s
+
+      CUDA
+        Time:  0.215982 s
+
+      CUDA (32 streams)
+        Time:  0.129 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.164388 s
+@ FFT2DRCUDA 4096 0.164388
+        Inverse
+          Time:  0.218728 s
+        Error: 2.85974e-09
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.261453 s
+
+      OpenMP CPU
+        Time:  0.0548862 s
+
+      OpenMP GPU
+        Time:  0.0548109 s
+
+      CUDA
+        Time:  0.381545 s
+
+      CUDA (32 streams)
+        Time:  0.215993 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.305342 s
+@ FFT2DCCUDA 4096 0.305342
+        Inverse
+          Time:  0.336363 s
+        Error: 4.14708e-09
+
+
+Dimensions: 4096 4096 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.131909 s
+
+      OpenMP CPU
+        Time:  0.0396953 s
+
+      OpenMP GPU
+        Time:  0.0390804 s
+
+      CUDA
+        Time:  0.216731 s
+
+      CUDA (32 streams)
+        Time:  0.125796 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.279747 s
+@ FFT3DRCUDA 4096 0.279747
+        Inverse
+          Time:  0.291808 s
+        Error: 4.79333e+06
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.262154 s
+
+      OpenMP CPU
+        Time:  0.0557373 s
+
+      OpenMP GPU
+        Time:  0.0556024 s
+
+      CUDA
+        Time:  0.382502 s
+
+      CUDA (32 streams)
+        Time:  0.209836 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.31077 s
+@ FFT3DCCUDA 4096 0.31077
+        Inverse
+          Time:  0.347395 s
+        Error: 4.14708e-09
+
+
+====================================
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  4.0824e-05 s
+@ PRODUCT1DRCPU 4096 4.0824e-05
+
+      OpenMP CPU
+        Time:  9.241e-06 s
+@ PRODUCT1DROPENMPCPU 4096 9.241e-06
+
+      OpenMP GPU
+        Time:  9.264e-06 s
+@ PRODUCT1DROPENMPGPU 4096 9.264e-06
+
+      CUDA
+        Time:  0.0987066 s
+@ PRODUCT1DRCUDA 4096 0.0987066
+
+      CUDA (32 streams)
+        Time:  0.00587376 s
+@ PRODUCT1DRCUDASTREAMS 4096 0.00587376
+
+    FFT
+      CUDA
+        Direct
+          Time:  9.1038e-05 s
+@ FFT1DRCUDA 4096 9.1038e-05
+        Inverse
+          Time:  7.4175e-05 s
+        Error: 5.81535e-13
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  2.0992e-05 s
+@ PRODUCT1DCCPU 4096 2.0992e-05
+
+      OpenMP CPU
+        Time:  7.504e-06 s
+@ PRODUCT1DCOPENMPCPU 4096 7.504e-06
+
+      OpenMP GPU
+        Time:  6.466e-06 s
+@ PRODUCT1DCOPENMPGPU 4096 6.466e-06
+
+      CUDA
+        Time:  0.000340689 s
+@ PRODUCT1DCCUDA 4096 0.000340689
+
+      CUDA (32 streams)
+        Time:  0.009405 s
+@ PRODUCT1DCCUDASTREAMS 4096 0.009405
+
+    FFT
+      CUDA
+        Direct
+          Time:  7.9544e-05 s
+@ FFT1DCCUDA 4096 7.9544e-05
+        Inverse
+          Time:  7.7667e-05 s
+        Error: 1.16575e-12
+
+
+Dimensions: 4096 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.129841 s
+
+      OpenMP CPU
+        Time:  0.0371881 s
+
+      OpenMP GPU
+        Time:  0.0371469 s
+
+      CUDA
+        Time:  0.215955 s
+
+      CUDA (32 streams)
+        Time:  0.126428 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.164128 s
+@ FFT2DRCUDA 4096 0.164128
+        Inverse
+          Time:  0.220917 s
+        Error: 2.85974e-09
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.261548 s
+
+      OpenMP CPU
+        Time:  0.0549282 s
+
+      OpenMP GPU
+        Time:  0.0550866 s
+
+      CUDA
+        Time:  0.381154 s
+
+      CUDA (32 streams)
+        Time:  0.213443 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.304813 s
+@ FFT2DCCUDA 4096 0.304813
+        Inverse
+          Time:  0.335573 s
+        Error: 4.14708e-09
+
+
+Dimensions: 4096 4096 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.131728 s
+
+      OpenMP CPU
+        Time:  0.0400444 s
+
+      OpenMP GPU
+        Time:  0.0388787 s
+
+      CUDA
+        Time:  0.216828 s
+
+      CUDA (32 streams)
+        Time:  0.126757 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.279846 s
+@ FFT3DRCUDA 4096 0.279846
+        Inverse
+          Time:  0.291243 s
+        Error: 4.79333e+06
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.261754 s
+
+      OpenMP CPU
+        Time:  0.055774 s
+
+      OpenMP GPU
+        Time:  0.0556266 s
+
+      CUDA
+        Time:  0.381881 s
+
+      CUDA (32 streams)
+        Time:  0.212658 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.31075 s
+@ FFT3DCCUDA 4096 0.31075
+        Inverse
+          Time:  0.348725 s
+        Error: 4.14708e-09
+
+
+====================================
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  4.4109e-05 s
+@ PRODUCT1DRCPU 4096 4.4109e-05
+
+      OpenMP CPU
+        Time:  1.0146e-05 s
+@ PRODUCT1DROPENMPCPU 4096 1.0146e-05
+
+      OpenMP GPU
+        Time:  9.972e-06 s
+@ PRODUCT1DROPENMPGPU 4096 9.972e-06
+
+      CUDA
+        Time:  0.105539 s
+@ PRODUCT1DRCUDA 4096 0.105539
+
+      CUDA (32 streams)
+        Time:  0.00570493 s
+@ PRODUCT1DRCUDASTREAMS 4096 0.00570493
+
+    FFT
+      CUDA
+        Direct
+          Time:  9.6062e-05 s
+@ FFT1DRCUDA 4096 9.6062e-05
+        Inverse
+          Time:  7.2521e-05 s
+        Error: 5.81535e-13
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  2.201e-05 s
+@ PRODUCT1DCCPU 4096 2.201e-05
+
+      OpenMP CPU
+        Time:  7.54e-06 s
+@ PRODUCT1DCOPENMPCPU 4096 7.54e-06
+
+      OpenMP GPU
+        Time:  6.443e-06 s
+@ PRODUCT1DCOPENMPGPU 4096 6.443e-06
+
+      CUDA
+        Time:  0.000326601 s
+@ PRODUCT1DCCUDA 4096 0.000326601
+
+      CUDA (32 streams)
+        Time:  0.00651106 s
+@ PRODUCT1DCCUDASTREAMS 4096 0.00651106
+
+    FFT
+      CUDA
+        Direct
+          Time:  8.475e-05 s
+@ FFT1DCCUDA 4096 8.475e-05
+        Inverse
+          Time:  7.7979e-05 s
+        Error: 1.16575e-12
+
+
+Dimensions: 4096 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.129162 s
+
+      OpenMP CPU
+        Time:  0.0371187 s
+
+      OpenMP GPU
+        Time:  0.0371914 s
+
+      CUDA
+        Time:  0.215858 s
+
+      CUDA (32 streams)
+        Time:  0.128648 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.164504 s
+@ FFT2DRCUDA 4096 0.164504
+        Inverse
+          Time:  0.217843 s
+        Error: 2.85974e-09
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.260451 s
+
+      OpenMP CPU
+        Time:  0.0548593 s
+
+      OpenMP GPU
+        Time:  0.0548405 s
+
+      CUDA
+        Time:  0.38176 s
+
+      CUDA (32 streams)
+        Time:  0.213166 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.307678 s
+@ FFT2DCCUDA 4096 0.307678
+        Inverse
+          Time:  0.336499 s
+        Error: 4.14708e-09
+
+
+Dimensions: 4096 4096 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.131618 s
+
+      OpenMP CPU
+        Time:  0.0399033 s
+
+      OpenMP GPU
+        Time:  0.0387661 s
+
+      CUDA
+        Time:  0.216189 s
+
+      CUDA (32 streams)
+        Time:  0.128201 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.279498 s
+@ FFT3DRCUDA 4096 0.279498
+        Inverse
+          Time:  0.291792 s
+        Error: 4.79333e+06
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.261721 s
+
+      OpenMP CPU
+        Time:  0.0556315 s
+
+      OpenMP GPU
+        Time:  0.0555226 s
+
+      CUDA
+        Time:  0.382364 s
+
+      CUDA (32 streams)
+        Time:  0.215477 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.310453 s
+@ FFT3DCCUDA 4096 0.310453
+        Inverse
+          Time:  0.347311 s
+        Error: 4.14708e-09
+
+
+====================================
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  4.542e-05 s
+@ PRODUCT1DRCPU 4096 4.542e-05
+
+      OpenMP CPU
+        Time:  1.0749e-05 s
+@ PRODUCT1DROPENMPCPU 4096 1.0749e-05
+
+      OpenMP GPU
+        Time:  1.0482e-05 s
+@ PRODUCT1DROPENMPGPU 4096 1.0482e-05
+
+      CUDA
+        Time:  0.102649 s
+@ PRODUCT1DRCUDA 4096 0.102649
+
+      CUDA (32 streams)
+        Time:  0.00592505 s
+@ PRODUCT1DRCUDASTREAMS 4096 0.00592505
+
+    FFT
+      CUDA
+        Direct
+          Time:  9.4463e-05 s
+@ FFT1DRCUDA 4096 9.4463e-05
+        Inverse
+          Time:  7.8579e-05 s
+        Error: 5.81535e-13
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  2.1034e-05 s
+@ PRODUCT1DCCPU 4096 2.1034e-05
+
+      OpenMP CPU
+        Time:  7.491e-06 s
+@ PRODUCT1DCOPENMPCPU 4096 7.491e-06
+
+      OpenMP GPU
+        Time:  6.4e-06 s
+@ PRODUCT1DCOPENMPGPU 4096 6.4e-06
+
+      CUDA
+        Time:  0.000311744 s
+@ PRODUCT1DCCUDA 4096 0.000311744
+
+      CUDA (32 streams)
+        Time:  0.00682819 s
+@ PRODUCT1DCCUDASTREAMS 4096 0.00682819
+
+    FFT
+      CUDA
+        Direct
+          Time:  8.1229e-05 s
+@ FFT1DCCUDA 4096 8.1229e-05
+        Inverse
+          Time:  8.0209e-05 s
+        Error: 1.16575e-12
+
+
+Dimensions: 4096 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.129936 s
+
+      OpenMP CPU
+        Time:  0.0371274 s
+
+      OpenMP GPU
+        Time:  0.0371768 s
+
+      CUDA
+        Time:  0.215962 s
+
+      CUDA (32 streams)
+        Time:  0.127259 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.163566 s
+@ FFT2DRCUDA 4096 0.163566
+        Inverse
+          Time:  0.218485 s
+        Error: 2.85974e-09
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.260864 s
+
+      OpenMP CPU
+        Time:  0.0550412 s
+
+      OpenMP GPU
+        Time:  0.0546447 s
+
+      CUDA
+        Time:  0.381049 s
+
+      CUDA (32 streams)
+        Time:  0.22006 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.304797 s
+@ FFT2DCCUDA 4096 0.304797
+        Inverse
+          Time:  0.334849 s
+        Error: 4.14708e-09
+
+
+Dimensions: 4096 4096 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.131368 s
+
+      OpenMP CPU
+        Time:  0.0398581 s
+
+      OpenMP GPU
+        Time:  0.0387417 s
+
+      CUDA
+        Time:  0.217148 s
+
+      CUDA (32 streams)
+        Time:  0.130482 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.279944 s
+@ FFT3DRCUDA 4096 0.279944
+        Inverse
+          Time:  0.29331 s
+        Error: 4.79333e+06
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.261558 s
+
+      OpenMP CPU
+        Time:  0.0556772 s
+
+      OpenMP GPU
+        Time:  0.0554667 s
+
+      CUDA
+        Time:  0.384602 s
+
+      CUDA (32 streams)
+        Time:  0.218221 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.310427 s
+@ FFT3DCCUDA 4096 0.310427
+        Inverse
+          Time:  0.347597 s
+        Error: 4.14708e-09
+
+
+====================================
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  3.0097e-05 s
+@ PRODUCT1DRCPU 4096 3.0097e-05
+
+      OpenMP CPU
+        Time:  6.893e-06 s
+@ PRODUCT1DROPENMPCPU 4096 6.893e-06
+
+      OpenMP GPU
+        Time:  6.413e-06 s
+@ PRODUCT1DROPENMPGPU 4096 6.413e-06
+
+      CUDA
+        Time:  0.0979575 s
+@ PRODUCT1DRCUDA 4096 0.0979575
+
+      CUDA (32 streams)
+        Time:  0.0059549 s
+@ PRODUCT1DRCUDASTREAMS 4096 0.0059549
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.000106107 s
+@ FFT1DRCUDA 4096 0.000106107
+        Inverse
+          Time:  7.7776e-05 s
+        Error: 5.81535e-13
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  2.1645e-05 s
+@ PRODUCT1DCCPU 4096 2.1645e-05
+
+      OpenMP CPU
+        Time:  7.506e-06 s
+@ PRODUCT1DCOPENMPCPU 4096 7.506e-06
+
+      OpenMP GPU
+        Time:  6.407e-06 s
+@ PRODUCT1DCOPENMPGPU 4096 6.407e-06
+
+      CUDA
+        Time:  0.000314022 s
+@ PRODUCT1DCCUDA 4096 0.000314022
+
+      CUDA (32 streams)
+        Time:  0.00679014 s
+@ PRODUCT1DCCUDASTREAMS 4096 0.00679014
+
+    FFT
+      CUDA
+        Direct
+          Time:  8.1867e-05 s
+@ FFT1DCCUDA 4096 8.1867e-05
+        Inverse
+          Time:  7.9476e-05 s
+        Error: 1.16575e-12
+
+
+Dimensions: 4096 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.129819 s
+
+      OpenMP CPU
+        Time:  0.037091 s
+
+      OpenMP GPU
+        Time:  0.0372393 s
+
+      CUDA
+        Time:  0.216054 s
+
+      CUDA (32 streams)
+        Time:  0.128221 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.16418 s
+@ FFT2DRCUDA 4096 0.16418
+        Inverse
+          Time:  0.21852 s
+        Error: 2.85974e-09
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.261597 s
+
+      OpenMP CPU
+        Time:  0.054718 s
+
+      OpenMP GPU
+        Time:  0.0545639 s
+
+      CUDA
+        Time:  0.383244 s
+
+      CUDA (32 streams)
+        Time:  0.217487 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.304999 s
+@ FFT2DCCUDA 4096 0.304999
+        Inverse
+          Time:  0.334749 s
+        Error: 4.14708e-09
+
+
+Dimensions: 4096 4096 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.131612 s
+
+      OpenMP CPU
+        Time:  0.0400727 s
+
+      OpenMP GPU
+        Time:  0.0386558 s
+
+      CUDA
+        Time:  0.217568 s
+
+      CUDA (32 streams)
+        Time:  0.128787 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.279025 s
+@ FFT3DRCUDA 4096 0.279025
+        Inverse
+          Time:  0.291198 s
+        Error: 4.79333e+06
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.261383 s
+
+      OpenMP CPU
+        Time:  0.0557136 s
+
+      OpenMP GPU
+        Time:  0.0554771 s
+
+      CUDA
+        Time:  0.381228 s
+
+      CUDA (32 streams)
+        Time:  0.222368 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.311599 s
+@ FFT3DCCUDA 4096 0.311599
+        Inverse
+          Time:  0.349192 s
+        Error: 4.14708e-09
+
+
+====================================
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  3.486e-05 s
+@ PRODUCT1DRCPU 4096 3.486e-05
+
+      OpenMP CPU
+        Time:  7.742e-06 s
+@ PRODUCT1DROPENMPCPU 4096 7.742e-06
+
+      OpenMP GPU
+        Time:  7.543e-06 s
+@ PRODUCT1DROPENMPGPU 4096 7.543e-06
+
+      CUDA
+        Time:  0.108134 s
+@ PRODUCT1DRCUDA 4096 0.108134
+
+      CUDA (32 streams)
+        Time:  0.00577211 s
+@ PRODUCT1DRCUDASTREAMS 4096 0.00577211
+
+    FFT
+      CUDA
+        Direct
+          Time:  8.9722e-05 s
+@ FFT1DRCUDA 4096 8.9722e-05
+        Inverse
+          Time:  7.7236e-05 s
+        Error: 5.81535e-13
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  2.1951e-05 s
+@ PRODUCT1DCCPU 4096 2.1951e-05
+
+      OpenMP CPU
+        Time:  7.499e-06 s
+@ PRODUCT1DCOPENMPCPU 4096 7.499e-06
+
+      OpenMP GPU
+        Time:  6.418e-06 s
+@ PRODUCT1DCOPENMPGPU 4096 6.418e-06
+
+      CUDA
+        Time:  0.000349935 s
+@ PRODUCT1DCCUDA 4096 0.000349935
+
+      CUDA (32 streams)
+        Time:  0.00752702 s
+@ PRODUCT1DCCUDASTREAMS 4096 0.00752702
+
+    FFT
+      CUDA
+        Direct
+          Time:  8.6901e-05 s
+@ FFT1DCCUDA 4096 8.6901e-05
+        Inverse
+          Time:  7.9211e-05 s
+        Error: 1.16575e-12
+
+
+Dimensions: 4096 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.130106 s
+
+      OpenMP CPU
+        Time:  0.0371938 s
+
+      OpenMP GPU
+        Time:  0.0373464 s
+
+      CUDA
+        Time:  0.216835 s
+
+      CUDA (32 streams)
+        Time:  0.129694 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.164432 s
+@ FFT2DRCUDA 4096 0.164432
+        Inverse
+          Time:  0.218966 s
+        Error: 2.85974e-09
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.260711 s
+
+      OpenMP CPU
+        Time:  0.0550044 s
+
+      OpenMP GPU
+        Time:  0.0548838 s
+
+      CUDA
+        Time:  0.381301 s
+
+      CUDA (32 streams)
+        Time:  0.218734 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.304741 s
+@ FFT2DCCUDA 4096 0.304741
+        Inverse
+          Time:  0.335423 s
+        Error: 4.14708e-09
+
+
+Dimensions: 4096 4096 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.131501 s
+
+      OpenMP CPU
+        Time:  0.0399262 s
+
+      OpenMP GPU
+        Time:  0.0390268 s
+
+      CUDA
+        Time:  0.216702 s
+
+      CUDA (32 streams)
+        Time:  0.128476 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.279805 s
+@ FFT3DRCUDA 4096 0.279805
+        Inverse
+          Time:  0.291606 s
+        Error: 4.79333e+06
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.261401 s
+
+      OpenMP CPU
+        Time:  0.0560105 s
+
+      OpenMP GPU
+        Time:  0.0555271 s
+
+      CUDA
+        Time:  0.382282 s
+
+      CUDA (32 streams)
+        Time:  0.209947 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.309841 s
+@ FFT3DCCUDA 4096 0.309841
+        Inverse
+          Time:  0.349469 s
+        Error: 4.14708e-09
+
+
+====================================
+====================================
+====================================
+Dimensions: 8192 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000158484 s
+@ PRODUCT1DRCPU 8192 0.000158484
+
+      OpenMP CPU
+        Time:  3.3205e-05 s
+@ PRODUCT1DROPENMPCPU 8192 3.3205e-05
+
+      OpenMP GPU
+        Time:  3.3066e-05 s
+@ PRODUCT1DROPENMPGPU 8192 3.3066e-05
+
+      CUDA
+        Time:  0.103855 s
+@ PRODUCT1DRCUDA 8192 0.103855
+
+      CUDA (32 streams)
+        Time:  0.00580182 s
+@ PRODUCT1DRCUDASTREAMS 8192 0.00580182
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.000142686 s
+@ FFT1DRCUDA 8192 0.000142686
+        Inverse
+          Time:  0.000120349 s
+        Error: 1.3902e-12
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  3.9916e-05 s
+@ PRODUCT1DCCPU 8192 3.9916e-05
+
+      OpenMP CPU
+        Time:  1.4871e-05 s
+@ PRODUCT1DCOPENMPCPU 8192 1.4871e-05
+
+      OpenMP GPU
+        Time:  1.272e-05 s
+@ PRODUCT1DCOPENMPGPU 8192 1.272e-05
+
+      CUDA
+        Time:  0.000375123 s
+@ PRODUCT1DCCUDA 8192 0.000375123
+
+      CUDA (32 streams)
+        Time:  0.00684951 s
+@ PRODUCT1DCCUDASTREAMS 8192 0.00684951
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.00011919 s
+@ FFT1DCCUDA 8192 0.00011919
+        Inverse
+          Time:  0.000130013 s
+        Error: 2.27551e-12
+
+
+Dimensions: 8192 8192 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.517108 s
+
+      OpenMP CPU
+        Time:  0.150408 s
+
+      OpenMP GPU
+        Time:  0.150504 s
+
+      CUDA
+        Time:  0.862068 s
+
+      CUDA (32 streams)
+        Time:  0.455459 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.655073 s
+@ FFT2DRCUDA 8192 0.655073
+        Inverse
+          Time:  0.872388 s
+        Error: 9.97098e-09
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.03667 s
+
+      OpenMP CPU
+        Time:  0.223321 s
+
+      OpenMP GPU
+        Time:  0.223079 s
+
+      CUDA
+        Time:  1.51985 s
+
+      CUDA (32 streams)
+        Time:  1.54804 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  1.22812 s
+@ FFT2DCCUDA 8192 1.22812
+        Inverse
+          Time:  1.34218 s
+        Error: 1.55424e-08
+
+
+Dimensions: 8192 8192 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.526437 s
+
+      OpenMP CPU
+        Time:  0.161367 s
+
+      OpenMP GPU
+        Time:  0.156396 s
+
+      CUDA
+        Time:  0.864249 s
+
+      CUDA (32 streams)
+        Time:  0.451141 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  1.115 s
+@ FFT3DRCUDA 8192 1.115
+        Inverse
+          Time:  1.16979 s
+        Error: 1.91737e+07
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.04167 s
+
+      OpenMP CPU
+        Time:  0.22626 s
+
+      OpenMP GPU
+        Time:  0.226383 s
+
+      CUDA
+        Time:  1.52689 s
+
+      CUDA (32 streams)
+        Time:  1.55458 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  1.24813 s
+@ FFT3DCCUDA 8192 1.24813
+        Inverse
+          Time:  1.39705 s
+        Error: 1.55424e-08
+
+
+====================================
+Dimensions: 8192 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  8.5057e-05 s
+@ PRODUCT1DRCPU 8192 8.5057e-05
+
+      OpenMP CPU
+        Time:  1.7894e-05 s
+@ PRODUCT1DROPENMPCPU 8192 1.7894e-05
+
+      OpenMP GPU
+        Time:  1.77e-05 s
+@ PRODUCT1DROPENMPGPU 8192 1.77e-05
+
+      CUDA
+        Time:  0.102152 s
+@ PRODUCT1DRCUDA 8192 0.102152
+
+      CUDA (32 streams)
+        Time:  0.00559886 s
+@ PRODUCT1DRCUDASTREAMS 8192 0.00559886
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.000139639 s
+@ FFT1DRCUDA 8192 0.000139639
+        Inverse
+          Time:  0.000118302 s
+        Error: 1.3902e-12
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  3.8985e-05 s
+@ PRODUCT1DCCPU 8192 3.8985e-05
+
+      OpenMP CPU
+        Time:  1.4902e-05 s
+@ PRODUCT1DCOPENMPCPU 8192 1.4902e-05
+
+      OpenMP GPU
+        Time:  1.3011e-05 s
+@ PRODUCT1DCOPENMPGPU 8192 1.3011e-05
+
+      CUDA
+        Time:  0.00036163 s
+@ PRODUCT1DCCUDA 8192 0.00036163
+
+      CUDA (32 streams)
+        Time:  0.0066094 s
+@ PRODUCT1DCCUDASTREAMS 8192 0.0066094
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.000115003 s
+@ FFT1DCCUDA 8192 0.000115003
+        Inverse
+          Time:  0.000122987 s
+        Error: 2.27551e-12
+
+
+Dimensions: 8192 8192 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.516172 s
+
+      OpenMP CPU
+        Time:  0.149645 s
+
+      OpenMP GPU
+        Time:  0.149911 s
+
+      CUDA
+        Time:  0.85831 s
+
+      CUDA (32 streams)
+        Time:  0.45032 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.656188 s
+@ FFT2DRCUDA 8192 0.656188
+        Inverse
+          Time:  0.873218 s
+        Error: 9.97098e-09
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.04298 s
+
+      OpenMP CPU
+        Time:  0.222997 s
+
+      OpenMP GPU
+        Time:  0.222939 s
+
+      CUDA
+        Time:  1.51837 s
+
+      CUDA (32 streams)
+        Time:  1.54637 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  1.22407 s
+@ FFT2DCCUDA 8192 1.22407
+        Inverse
+          Time:  1.35178 s
+        Error: 1.55424e-08
+
+
+Dimensions: 8192 8192 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.52441 s
+
+      OpenMP CPU
+        Time:  0.161153 s
+
+      OpenMP GPU
+        Time:  0.15798 s
+
+      CUDA
+        Time:  0.871234 s
+
+      CUDA (32 streams)
+        Time:  0.457294 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  1.10869 s
+@ FFT3DRCUDA 8192 1.10869
+        Inverse
+          Time:  1.16095 s
+        Error: 1.91737e+07
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.03864 s
+
+      OpenMP CPU
+        Time:  0.226 s
+
+      OpenMP GPU
+        Time:  0.225469 s
+
+      CUDA
+        Time:  1.52231 s
+
+      CUDA (32 streams)
+        Time:  1.5428 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  1.24648 s
+@ FFT3DCCUDA 8192 1.24648
+        Inverse
+          Time:  1.38694 s
+        Error: 1.55424e-08
+
+
+====================================
+Dimensions: 8192 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  9.1995e-05 s
+@ PRODUCT1DRCPU 8192 9.1995e-05
+
+      OpenMP CPU
+        Time:  2.0797e-05 s
+@ PRODUCT1DROPENMPCPU 8192 2.0797e-05
+
+      OpenMP GPU
+        Time:  2.0648e-05 s
+@ PRODUCT1DROPENMPGPU 8192 2.0648e-05
+
+      CUDA
+        Time:  0.101017 s
+@ PRODUCT1DRCUDA 8192 0.101017
+
+      CUDA (32 streams)
+        Time:  0.00568926 s
+@ PRODUCT1DRCUDASTREAMS 8192 0.00568926
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.000136436 s
+@ FFT1DRCUDA 8192 0.000136436
+        Inverse
+          Time:  0.000112062 s
+        Error: 1.3902e-12
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  4.137e-05 s
+@ PRODUCT1DCCPU 8192 4.137e-05
+
+      OpenMP CPU
+        Time:  1.5003e-05 s
+@ PRODUCT1DCOPENMPCPU 8192 1.5003e-05
+
+      OpenMP GPU
+        Time:  1.2763e-05 s
+@ PRODUCT1DCOPENMPGPU 8192 1.2763e-05
+
+      CUDA
+        Time:  0.000377557 s
+@ PRODUCT1DCCUDA 8192 0.000377557
+
+      CUDA (32 streams)
+        Time:  0.00665693 s
+@ PRODUCT1DCCUDASTREAMS 8192 0.00665693
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.000118084 s
+@ FFT1DCCUDA 8192 0.000118084
+        Inverse
+          Time:  0.000127349 s
+        Error: 2.27551e-12
+
+
+Dimensions: 8192 8192 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.516902 s
+
+      OpenMP CPU
+        Time:  0.150202 s
+
+      OpenMP GPU
+        Time:  0.150087 s
+
+      CUDA
+        Time:  0.857715 s
+
+      CUDA (32 streams)
+        Time:  0.44783 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.653106 s
+@ FFT2DRCUDA 8192 0.653106
+        Inverse
+          Time:  0.87269 s
+        Error: 9.97098e-09
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.03666 s
+
+      OpenMP CPU
+        Time:  0.222127 s
+
+      OpenMP GPU
+        Time:  0.22258 s
+
+      CUDA
+        Time:  1.51619 s
+
+      CUDA (32 streams)
+        Time:  1.40073 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  1.22269 s
+@ FFT2DCCUDA 8192 1.22269
+        Inverse
+          Time:  1.34619 s
+        Error: 1.55424e-08
+
+
+Dimensions: 8192 8192 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.524814 s
+
+      OpenMP CPU
+        Time:  0.160977 s
+
+      OpenMP GPU
+        Time:  0.156897 s
+
+      CUDA
+        Time:  0.862916 s
+
+      CUDA (32 streams)
+        Time:  0.447978 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  1.11244 s
+@ FFT3DRCUDA 8192 1.11244
+        Inverse
+          Time:  1.16633 s
+        Error: 1.91737e+07
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.03856 s
+
+      OpenMP CPU
+        Time:  0.227689 s
+
+      OpenMP GPU
+        Time:  0.227164 s
+
+      CUDA
+        Time:  1.52341 s
+
+      CUDA (32 streams)
+        Time:  1.39681 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  1.24802 s
+@ FFT3DCCUDA 8192 1.24802
+        Inverse
+          Time:  1.39242 s
+        Error: 1.55424e-08
+
+
+====================================
+Dimensions: 8192 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  8.664e-05 s
+@ PRODUCT1DRCPU 8192 8.664e-05
+
+      OpenMP CPU
+        Time:  1.9977e-05 s
+@ PRODUCT1DROPENMPCPU 8192 1.9977e-05
+
+      OpenMP GPU
+        Time:  1.9825e-05 s
+@ PRODUCT1DROPENMPGPU 8192 1.9825e-05
+
+      CUDA
+        Time:  0.0991759 s
+@ PRODUCT1DRCUDA 8192 0.0991759
+
+      CUDA (32 streams)
+        Time:  0.00563444 s
+@ PRODUCT1DRCUDASTREAMS 8192 0.00563444
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.000136215 s
+@ FFT1DRCUDA 8192 0.000136215
+        Inverse
+          Time:  0.000111952 s
+        Error: 1.3902e-12
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  4.205e-05 s
+@ PRODUCT1DCCPU 8192 4.205e-05
+
+      OpenMP CPU
+        Time:  1.4883e-05 s
+@ PRODUCT1DCOPENMPCPU 8192 1.4883e-05
+
+      OpenMP GPU
+        Time:  1.2741e-05 s
+@ PRODUCT1DCOPENMPGPU 8192 1.2741e-05
+
+      CUDA
+        Time:  0.000369942 s
+@ PRODUCT1DCCUDA 8192 0.000369942
+
+      CUDA (32 streams)
+        Time:  0.00859479 s
+@ PRODUCT1DCCUDASTREAMS 8192 0.00859479
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.000113227 s
+@ FFT1DCCUDA 8192 0.000113227
+        Inverse
+          Time:  0.000126153 s
+        Error: 2.27551e-12
+
+
+Dimensions: 8192 8192 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.515123 s
+
+      OpenMP CPU
+        Time:  0.149852 s
+
+      OpenMP GPU
+        Time:  0.150162 s
+
+      CUDA
+        Time:  0.860914 s
+
+      CUDA (32 streams)
+        Time:  0.463672 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.650423 s
+@ FFT2DRCUDA 8192 0.650423
+        Inverse
+          Time:  0.871061 s
+        Error: 9.97098e-09
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.0335 s
+
+      OpenMP CPU
+        Time:  0.222048 s
+
+      OpenMP GPU
+        Time:  0.221824 s
+
+      CUDA
+        Time:  1.51888 s
+
+      CUDA (32 streams)
+        Time:  1.54642 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  1.22381 s
+@ FFT2DCCUDA 8192 1.22381
+        Inverse
+          Time:  1.3469 s
+        Error: 1.55424e-08
+
+
+Dimensions: 8192 8192 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.524298 s
+
+      OpenMP CPU
+        Time:  0.161234 s
+
+      OpenMP GPU
+        Time:  0.156943 s
+
+      CUDA
+        Time:  0.86283 s
+
+      CUDA (32 streams)
+        Time:  0.44799 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  1.11245 s
+@ FFT3DRCUDA 8192 1.11245
+        Inverse
+          Time:  1.16404 s
+        Error: 1.91737e+07
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.03693 s
+
+      OpenMP CPU
+        Time:  0.223598 s
+
+      OpenMP GPU
+        Time:  0.223413 s
+
+      CUDA
+        Time:  1.52213 s
+
+      CUDA (32 streams)
+        Time:  1.54144 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  1.24759 s
+@ FFT3DCCUDA 8192 1.24759
+        Inverse
+          Time:  1.39183 s
+        Error: 1.55424e-08
+
+
+====================================
+Dimensions: 8192 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  8.5402e-05 s
+@ PRODUCT1DRCPU 8192 8.5402e-05
+
+      OpenMP CPU
+        Time:  1.9255e-05 s
+@ PRODUCT1DROPENMPCPU 8192 1.9255e-05
+
+      OpenMP GPU
+        Time:  1.9115e-05 s
+@ PRODUCT1DROPENMPGPU 8192 1.9115e-05
+
+      CUDA
+        Time:  0.0999801 s
+@ PRODUCT1DRCUDA 8192 0.0999801
+
+      CUDA (32 streams)
+        Time:  0.0056096 s
+@ PRODUCT1DRCUDASTREAMS 8192 0.0056096
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.000141032 s
+@ FFT1DRCUDA 8192 0.000141032
+        Inverse
+          Time:  0.000106881 s
+        Error: 1.3902e-12
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  4.141e-05 s
+@ PRODUCT1DCCPU 8192 4.141e-05
+
+      OpenMP CPU
+        Time:  1.4864e-05 s
+@ PRODUCT1DCOPENMPCPU 8192 1.4864e-05
+
+      OpenMP GPU
+        Time:  1.282e-05 s
+@ PRODUCT1DCOPENMPGPU 8192 1.282e-05
+
+      CUDA
+        Time:  0.00036521 s
+@ PRODUCT1DCCUDA 8192 0.00036521
+
+      CUDA (32 streams)
+        Time:  0.00664321 s
+@ PRODUCT1DCCUDASTREAMS 8192 0.00664321
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.000116196 s
+@ FFT1DCCUDA 8192 0.000116196
+        Inverse
+          Time:  0.000143126 s
+        Error: 2.27551e-12
+
+
+Dimensions: 8192 8192 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.517834 s
+
+      OpenMP CPU
+        Time:  0.1507 s
+
+      OpenMP GPU
+        Time:  0.150433 s
+
+      CUDA
+        Time:  0.863667 s
+
+      CUDA (32 streams)
+        Time:  0.451134 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.656193 s
+@ FFT2DRCUDA 8192 0.656193
+        Inverse
+          Time:  0.875029 s
+        Error: 9.97098e-09
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.03858 s
+
+      OpenMP CPU
+        Time:  0.222521 s
+
+      OpenMP GPU
+        Time:  0.222094 s
+
+      CUDA
+        Time:  1.52225 s
+
+      CUDA (32 streams)
+        Time:  1.55078 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  1.2215 s
+@ FFT2DCCUDA 8192 1.2215
+        Inverse
+          Time:  1.35434 s
+        Error: 1.55424e-08
+
+
+Dimensions: 8192 8192 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.52664 s
+
+      OpenMP CPU
+        Time:  0.160695 s
+
+      OpenMP GPU
+        Time:  0.156549 s
+
+      CUDA
+        Time:  0.862913 s
+
+      CUDA (32 streams)
+        Time:  0.450744 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  1.11649 s
+@ FFT3DRCUDA 8192 1.11649
+        Inverse
+          Time:  1.16967 s
+        Error: 1.91737e+07
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.0417 s
+
+      OpenMP CPU
+        Time:  0.225789 s
+
+      OpenMP GPU
+        Time:  0.225518 s
+
+      CUDA
+        Time:  1.526 s
+
+      CUDA (32 streams)
+        Time:  1.55577 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  1.24981 s
+@ FFT3DCCUDA 8192 1.24981
+        Inverse
+          Time:  1.39857 s
+        Error: 1.55424e-08
+
+
+====================================
+Dimensions: 8192 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  6.9299e-05 s
+@ PRODUCT1DRCPU 8192 6.9299e-05
+
+      OpenMP CPU
+        Time:  1.5157e-05 s
+@ PRODUCT1DROPENMPCPU 8192 1.5157e-05
+
+      OpenMP GPU
+        Time:  1.5013e-05 s
+@ PRODUCT1DROPENMPGPU 8192 1.5013e-05
+
+      CUDA
+        Time:  0.113701 s
+@ PRODUCT1DRCUDA 8192 0.113701
+
+      CUDA (32 streams)
+        Time:  0.00573467 s
+@ PRODUCT1DRCUDASTREAMS 8192 0.00573467
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.000127278 s
+@ FFT1DRCUDA 8192 0.000127278
+        Inverse
+          Time:  0.00010701 s
+        Error: 1.3902e-12
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  4.1964e-05 s
+@ PRODUCT1DCCPU 8192 4.1964e-05
+
+      OpenMP CPU
+        Time:  1.4899e-05 s
+@ PRODUCT1DCOPENMPCPU 8192 1.4899e-05
+
+      OpenMP GPU
+        Time:  1.2771e-05 s
+@ PRODUCT1DCOPENMPGPU 8192 1.2771e-05
+
+      CUDA
+        Time:  0.000381072 s
+@ PRODUCT1DCCUDA 8192 0.000381072
+
+      CUDA (32 streams)
+        Time:  0.007656 s
+@ PRODUCT1DCCUDASTREAMS 8192 0.007656
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.000117713 s
+@ FFT1DCCUDA 8192 0.000117713
+        Inverse
+          Time:  0.000123122 s
+        Error: 2.27551e-12
+
+
+Dimensions: 8192 8192 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.515524 s
+
+      OpenMP CPU
+        Time:  0.150078 s
+
+      OpenMP GPU
+        Time:  0.149979 s
+
+      CUDA
+        Time:  0.860108 s
+
+      CUDA (32 streams)
+        Time:  0.450751 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.655105 s
+@ FFT2DRCUDA 8192 0.655105
+        Inverse
+          Time:  0.872672 s
+        Error: 9.97098e-09
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.0459 s
+
+      OpenMP CPU
+        Time:  0.223128 s
+
+      OpenMP GPU
+        Time:  0.223502 s
+
+      CUDA
+        Time:  1.51913 s
+
+      CUDA (32 streams)
+        Time:  1.38889 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  1.21684 s
+@ FFT2DCCUDA 8192 1.21684
+        Inverse
+          Time:  1.33893 s
+        Error: 1.55424e-08
+
+
+Dimensions: 8192 8192 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.525776 s
+
+      OpenMP CPU
+        Time:  0.161341 s
+
+      OpenMP GPU
+        Time:  0.157793 s
+
+      CUDA
+        Time:  0.863809 s
+
+      CUDA (32 streams)
+        Time:  0.453995 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  1.11291 s
+@ FFT3DRCUDA 8192 1.11291
+        Inverse
+          Time:  1.16274 s
+        Error: 1.91737e+07
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.04076 s
+
+      OpenMP CPU
+        Time:  0.226572 s
+
+      OpenMP GPU
+        Time:  0.225572 s
+
+      CUDA
+        Time:  1.51831 s
+
+      CUDA (32 streams)
+        Time:  1.39121 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  1.24688 s
+@ FFT3DCCUDA 8192 1.24688
+        Inverse
+          Time:  1.40099 s
+        Error: 1.55424e-08
+
+
+====================================
+Dimensions: 8192 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  7.9668e-05 s
+@ PRODUCT1DRCPU 8192 7.9668e-05
+
+      OpenMP CPU
+        Time:  1.7934e-05 s
+@ PRODUCT1DROPENMPCPU 8192 1.7934e-05
+
+      OpenMP GPU
+        Time:  1.7708e-05 s
+@ PRODUCT1DROPENMPGPU 8192 1.7708e-05
+
+      CUDA
+        Time:  0.103056 s
+@ PRODUCT1DRCUDA 8192 0.103056
+
+      CUDA (32 streams)
+        Time:  0.00587812 s
+@ PRODUCT1DRCUDASTREAMS 8192 0.00587812
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.000127233 s
+@ FFT1DRCUDA 8192 0.000127233
+        Inverse
+          Time:  0.000107972 s
+        Error: 1.3902e-12
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  4.0942e-05 s
+@ PRODUCT1DCCPU 8192 4.0942e-05
+
+      OpenMP CPU
+        Time:  1.4895e-05 s
+@ PRODUCT1DCOPENMPCPU 8192 1.4895e-05
+
+      OpenMP GPU
+        Time:  1.2767e-05 s
+@ PRODUCT1DCOPENMPGPU 8192 1.2767e-05
+
+      CUDA
+        Time:  0.000382233 s
+@ PRODUCT1DCCUDA 8192 0.000382233
+
+      CUDA (32 streams)
+        Time:  0.00840813 s
+@ PRODUCT1DCCUDASTREAMS 8192 0.00840813
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.000120145 s
+@ FFT1DCCUDA 8192 0.000120145
+        Inverse
+          Time:  0.00012801 s
+        Error: 2.27551e-12
+
+
+Dimensions: 8192 8192 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.516639 s
+
+      OpenMP CPU
+        Time:  0.150238 s
+
+      OpenMP GPU
+        Time:  0.149855 s
+
+      CUDA
+        Time:  0.860084 s
+
+      CUDA (32 streams)
+        Time:  0.452688 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.65529 s
+@ FFT2DRCUDA 8192 0.65529
+        Inverse
+          Time:  0.87579 s
+        Error: 9.97098e-09
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.033 s
+
+      OpenMP CPU
+        Time:  0.22226 s
+
+      OpenMP GPU
+        Time:  0.222607 s
+
+      CUDA
+        Time:  1.5176 s
+
+      CUDA (32 streams)
+        Time:  1.39203 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  1.22314 s
+@ FFT2DCCUDA 8192 1.22314
+        Inverse
+          Time:  1.34376 s
+        Error: 1.55424e-08
+
+
+Dimensions: 8192 8192 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.525297 s
+
+      OpenMP CPU
+        Time:  0.161764 s
+
+      OpenMP GPU
+        Time:  0.157346 s
+
+      CUDA
+        Time:  0.861967 s
+
+      CUDA (32 streams)
+        Time:  0.451963 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  1.11367 s
+@ FFT3DRCUDA 8192 1.11367
+        Inverse
+          Time:  1.16664 s
+        Error: 1.91737e+07
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.03955 s
+
+      OpenMP CPU
+        Time:  0.227672 s
+
+      OpenMP GPU
+        Time:  0.226336 s
+
+      CUDA
+        Time:  1.52024 s
+
+      CUDA (32 streams)
+        Time:  1.39481 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  1.25258 s
+@ FFT3DCCUDA 8192 1.25258
+        Inverse
+          Time:  1.39913 s
+        Error: 1.55424e-08
+
+
+====================================
+Dimensions: 8192 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  9.0765e-05 s
+@ PRODUCT1DRCPU 8192 9.0765e-05
+
+      OpenMP CPU
+        Time:  1.9078e-05 s
+@ PRODUCT1DROPENMPCPU 8192 1.9078e-05
+
+      OpenMP GPU
+        Time:  1.9109e-05 s
+@ PRODUCT1DROPENMPGPU 8192 1.9109e-05
+
+      CUDA
+        Time:  0.102171 s
+@ PRODUCT1DRCUDA 8192 0.102171
+
+      CUDA (32 streams)
+        Time:  0.0058247 s
+@ PRODUCT1DRCUDASTREAMS 8192 0.0058247
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.000136676 s
+@ FFT1DRCUDA 8192 0.000136676
+        Inverse
+          Time:  0.000113219 s
+        Error: 1.3902e-12
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  3.94e-05 s
+@ PRODUCT1DCCPU 8192 3.94e-05
+
+      OpenMP CPU
+        Time:  1.4921e-05 s
+@ PRODUCT1DCOPENMPCPU 8192 1.4921e-05
+
+      OpenMP GPU
+        Time:  1.2862e-05 s
+@ PRODUCT1DCOPENMPGPU 8192 1.2862e-05
+
+      CUDA
+        Time:  0.000365935 s
+@ PRODUCT1DCCUDA 8192 0.000365935
+
+      CUDA (32 streams)
+        Time:  0.00770275 s
+@ PRODUCT1DCCUDASTREAMS 8192 0.00770275
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.000138437 s
+@ FFT1DCCUDA 8192 0.000138437
+        Inverse
+          Time:  0.000124361 s
+        Error: 2.27551e-12
+
+
+Dimensions: 8192 8192 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.516786 s
+
+      OpenMP CPU
+        Time:  0.15023 s
+
+      OpenMP GPU
+        Time:  0.149847 s
+
+      CUDA
+        Time:  0.862377 s
+
+      CUDA (32 streams)
+        Time:  0.479956 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.65195 s
+@ FFT2DRCUDA 8192 0.65195
+        Inverse
+          Time:  0.874121 s
+        Error: 9.97098e-09
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.03588 s
+
+      OpenMP CPU
+        Time:  0.222639 s
+
+      OpenMP GPU
+        Time:  0.223559 s
+
+      CUDA
+        Time:  1.51824 s
+
+      CUDA (32 streams)
+        Time:  1.53615 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  1.22431 s
+@ FFT2DCCUDA 8192 1.22431
+        Inverse
+          Time:  1.34718 s
+        Error: 1.55424e-08
+
+
+Dimensions: 8192 8192 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.525044 s
+
+      OpenMP CPU
+        Time:  0.160913 s
+
+      OpenMP GPU
+        Time:  0.156906 s
+
+      CUDA
+        Time:  0.863167 s
+
+      CUDA (32 streams)
+        Time:  0.453832 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  1.11048 s
+@ FFT3DRCUDA 8192 1.11048
+        Inverse
+          Time:  1.16602 s
+        Error: 1.91737e+07
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.03783 s
+
+      OpenMP CPU
+        Time:  0.224762 s
+
+      OpenMP GPU
+        Time:  0.224897 s
+
+      CUDA
+        Time:  1.51961 s
+
+      CUDA (32 streams)
+        Time:  1.53197 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  1.24574 s
+@ FFT3DCCUDA 8192 1.24574
+        Inverse
+          Time:  1.394 s
+        Error: 1.55424e-08
+
+
+====================================
+Dimensions: 8192 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  9.4302e-05 s
+@ PRODUCT1DRCPU 8192 9.4302e-05
+
+      OpenMP CPU
+        Time:  2.1691e-05 s
+@ PRODUCT1DROPENMPCPU 8192 2.1691e-05
+
+      OpenMP GPU
+        Time:  2.1566e-05 s
+@ PRODUCT1DROPENMPGPU 8192 2.1566e-05
+
+      CUDA
+        Time:  0.098926 s
+@ PRODUCT1DRCUDA 8192 0.098926
+
+      CUDA (32 streams)
+        Time:  0.00747264 s
+@ PRODUCT1DRCUDASTREAMS 8192 0.00747264
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.000139817 s
+@ FFT1DRCUDA 8192 0.000139817
+        Inverse
+          Time:  0.000108494 s
+        Error: 1.3902e-12
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  4.1651e-05 s
+@ PRODUCT1DCCPU 8192 4.1651e-05
+
+      OpenMP CPU
+        Time:  1.4883e-05 s
+@ PRODUCT1DCOPENMPCPU 8192 1.4883e-05
+
+      OpenMP GPU
+        Time:  1.2755e-05 s
+@ PRODUCT1DCOPENMPGPU 8192 1.2755e-05
+
+      CUDA
+        Time:  0.000373538 s
+@ PRODUCT1DCCUDA 8192 0.000373538
+
+      CUDA (32 streams)
+        Time:  0.00655456 s
+@ PRODUCT1DCCUDASTREAMS 8192 0.00655456
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.000117094 s
+@ FFT1DCCUDA 8192 0.000117094
+        Inverse
+          Time:  0.000127462 s
+        Error: 2.27551e-12
+
+
+Dimensions: 8192 8192 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.519799 s
+
+      OpenMP CPU
+        Time:  0.150594 s
+
+      OpenMP GPU
+        Time:  0.15036 s
+
+      CUDA
+        Time:  0.861428 s
+
+      CUDA (32 streams)
+        Time:  0.450677 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.655162 s
+@ FFT2DRCUDA 8192 0.655162
+        Inverse
+          Time:  0.870048 s
+        Error: 9.97098e-09
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.03624 s
+
+      OpenMP CPU
+        Time:  0.223666 s
+
+      OpenMP GPU
+        Time:  0.223634 s
+
+      CUDA
+        Time:  1.5207 s
+
+      CUDA (32 streams)
+        Time:  1.5357 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  1.23065 s
+@ FFT2DCCUDA 8192 1.23065
+        Inverse
+          Time:  1.34627 s
+        Error: 1.55424e-08
+
+
+Dimensions: 8192 8192 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.526416 s
+
+      OpenMP CPU
+        Time:  0.161513 s
+
+      OpenMP GPU
+        Time:  0.15734 s
+
+      CUDA
+        Time:  0.863861 s
+
+      CUDA (32 streams)
+        Time:  0.449428 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  1.11353 s
+@ FFT3DRCUDA 8192 1.11353
+        Inverse
+          Time:  1.15852 s
+        Error: 1.91737e+07
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.04882 s
+
+      OpenMP CPU
+        Time:  0.227508 s
+
+      OpenMP GPU
+        Time:  0.226421 s
+
+      CUDA
+        Time:  1.52354 s
+
+      CUDA (32 streams)
+        Time:  1.53812 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  1.24795 s
+@ FFT3DCCUDA 8192 1.24795
+        Inverse
+          Time:  1.39988 s
+        Error: 1.55424e-08
+
+
+====================================
+Dimensions: 8192 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  6.116e-05 s
+@ PRODUCT1DRCPU 8192 6.116e-05
+
+      OpenMP CPU
+        Time:  1.2971e-05 s
+@ PRODUCT1DROPENMPCPU 8192 1.2971e-05
+
+      OpenMP GPU
+        Time:  1.2785e-05 s
+@ PRODUCT1DROPENMPGPU 8192 1.2785e-05
+
+      CUDA
+        Time:  0.0970519 s
+@ PRODUCT1DRCUDA 8192 0.0970519
+
+      CUDA (32 streams)
+        Time:  0.00559503 s
+@ PRODUCT1DRCUDASTREAMS 8192 0.00559503
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.000136574 s
+@ FFT1DRCUDA 8192 0.000136574
+        Inverse
+          Time:  0.000110497 s
+        Error: 1.3902e-12
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  3.9534e-05 s
+@ PRODUCT1DCCPU 8192 3.9534e-05
+
+      OpenMP CPU
+        Time:  1.4879e-05 s
+@ PRODUCT1DCOPENMPCPU 8192 1.4879e-05
+
+      OpenMP GPU
+        Time:  1.2731e-05 s
+@ PRODUCT1DCOPENMPGPU 8192 1.2731e-05
+
+      CUDA
+        Time:  0.000443703 s
+@ PRODUCT1DCCUDA 8192 0.000443703
+
+      CUDA (32 streams)
+        Time:  0.00663345 s
+@ PRODUCT1DCCUDASTREAMS 8192 0.00663345
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.000116288 s
+@ FFT1DCCUDA 8192 0.000116288
+        Inverse
+          Time:  0.000131221 s
+        Error: 2.27551e-12
+
+
+Dimensions: 8192 8192 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.517208 s
+
+      OpenMP CPU
+        Time:  0.149961 s
+
+      OpenMP GPU
+        Time:  0.150197 s
+
+      CUDA
+        Time:  0.860571 s
+
+      CUDA (32 streams)
+        Time:  0.449124 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  0.655553 s
+@ FFT2DRCUDA 8192 0.655553
+        Inverse
+          Time:  0.872999 s
+        Error: 9.97098e-09
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.04428 s
+
+      OpenMP CPU
+        Time:  0.224222 s
+
+      OpenMP GPU
+        Time:  0.224319 s
+
+      CUDA
+        Time:  1.51834 s
+
+      CUDA (32 streams)
+        Time:  1.53738 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  1.2184 s
+@ FFT2DCCUDA 8192 1.2184
+        Inverse
+          Time:  1.35017 s
+        Error: 1.55424e-08
+
+
+Dimensions: 8192 8192 1 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.524653 s
+
+      OpenMP CPU
+        Time:  0.162574 s
+
+      OpenMP GPU
+        Time:  0.158028 s
+
+      CUDA
+        Time:  0.861347 s
+
+      CUDA (32 streams)
+        Time:  0.45179 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  1.11195 s
+@ FFT3DRCUDA 8192 1.11195
+        Inverse
+          Time:  1.16538 s
+        Error: 1.91737e+07
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.04246 s
+
+      OpenMP CPU
+        Time:  0.226615 s
+
+      OpenMP GPU
+        Time:  0.226145 s
+
+      CUDA
+        Time:  1.52402 s
+
+      CUDA (32 streams)
+        Time:  1.56776 s
+
+    FFT
+      CUDA
+        Direct
+          Time:  1.24323 s
+@ FFT3DCCUDA 8192 1.24323
+        Inverse
+          Time:  1.39096 s
+        Error: 1.55424e-08
+
+
+====================================
+====================================
+====================================

@@ -1,0 +1,6725 @@
+/home/pgambron/GPU/kokkos/test
+====
+====================================
+====================================
+====================================
+Dimensions: 256 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   5.657e-06 s
+
+      Kokkos (multithreading)
+        Time:   8.7983e-05 s
+@ PRODUCT1DRKOKKOSMT 256 8.7983e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   4.959e-05 s
+@ PRODUCT1DRKOKKOSGPU 256 4.959e-05
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.59e-06 s
+
+      Kokkos (multithreading)
+        Time:   5.916e-06 s
+@ PRODUCT1DCKOKKOSMT 256 5.916e-06
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   7.8186e-05 s
+@ PRODUCT1DCKOKKOSGPU 256 7.8186e-05
+        Error:  0
+
+Dimensions: 256 256 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   1.853e-06 s
+
+      Kokkos (multithreading)
+        Time:   3.427e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   5.9522e-05 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.415e-06 s
+
+      Kokkos (multithreading)
+        Time:   4.973e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   7.0816e-05 s
+        Error:  0
+
+====================================
+Dimensions: 256 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   4.371e-06 s
+
+      Kokkos (multithreading)
+        Time:   8.7e-05 s
+@ PRODUCT1DRKOKKOSMT 256 8.7e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   4.1896e-05 s
+@ PRODUCT1DRKOKKOSGPU 256 4.1896e-05
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.715e-06 s
+
+      Kokkos (multithreading)
+        Time:   4.741e-06 s
+@ PRODUCT1DCKOKKOSMT 256 4.741e-06
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   6.0123e-05 s
+@ PRODUCT1DCKOKKOSGPU 256 6.0123e-05
+        Error:  0
+
+Dimensions: 256 256 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   1.735e-06 s
+
+      Kokkos (multithreading)
+        Time:   3.259e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   3.8929e-05 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.113e-06 s
+
+      Kokkos (multithreading)
+        Time:   4.38e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   5.7492e-05 s
+        Error:  0
+
+====================================
+Dimensions: 256 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   4.215e-06 s
+
+      Kokkos (multithreading)
+        Time:   0.000108229 s
+@ PRODUCT1DRKOKKOSMT 256 0.000108229
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   4.1302e-05 s
+@ PRODUCT1DRKOKKOSGPU 256 4.1302e-05
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.973e-06 s
+
+      Kokkos (multithreading)
+        Time:   4.773e-06 s
+@ PRODUCT1DCKOKKOSMT 256 4.773e-06
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   6.0425e-05 s
+@ PRODUCT1DCKOKKOSGPU 256 6.0425e-05
+        Error:  0
+
+Dimensions: 256 256 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   1.823e-06 s
+
+      Kokkos (multithreading)
+        Time:   3.625e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   3.8484e-05 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.147e-06 s
+
+      Kokkos (multithreading)
+        Time:   4.144e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   5.7254e-05 s
+        Error:  0
+
+====================================
+Dimensions: 256 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   4.543e-06 s
+
+      Kokkos (multithreading)
+        Time:   9.3056e-05 s
+@ PRODUCT1DRKOKKOSMT 256 9.3056e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   4.1804e-05 s
+@ PRODUCT1DRKOKKOSGPU 256 4.1804e-05
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.582e-06 s
+
+      Kokkos (multithreading)
+        Time:   5.083e-06 s
+@ PRODUCT1DCKOKKOSMT 256 5.083e-06
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   6.6576e-05 s
+@ PRODUCT1DCKOKKOSGPU 256 6.6576e-05
+        Error:  0
+
+Dimensions: 256 256 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   1.739e-06 s
+
+      Kokkos (multithreading)
+        Time:   3.122e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   3.8733e-05 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.091e-06 s
+
+      Kokkos (multithreading)
+        Time:   4.271e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   5.754e-05 s
+        Error:  0
+
+====================================
+Dimensions: 256 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   5.407e-06 s
+
+      Kokkos (multithreading)
+        Time:   8.5196e-05 s
+@ PRODUCT1DRKOKKOSMT 256 8.5196e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   4.1064e-05 s
+@ PRODUCT1DRKOKKOSGPU 256 4.1064e-05
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.652e-06 s
+
+      Kokkos (multithreading)
+        Time:   4.174e-06 s
+@ PRODUCT1DCKOKKOSMT 256 4.174e-06
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   5.865e-05 s
+@ PRODUCT1DCKOKKOSGPU 256 5.865e-05
+        Error:  0
+
+Dimensions: 256 256 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   1.829e-06 s
+
+      Kokkos (multithreading)
+        Time:   3.477e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   3.8485e-05 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.11e-06 s
+
+      Kokkos (multithreading)
+        Time:   4.252e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   5.7393e-05 s
+        Error:  0
+
+====================================
+Dimensions: 256 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   5.652e-06 s
+
+      Kokkos (multithreading)
+        Time:   7.0968e-05 s
+@ PRODUCT1DRKOKKOSMT 256 7.0968e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   4.0691e-05 s
+@ PRODUCT1DRKOKKOSGPU 256 4.0691e-05
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.755e-06 s
+
+      Kokkos (multithreading)
+        Time:   4.817e-06 s
+@ PRODUCT1DCKOKKOSMT 256 4.817e-06
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   6.0334e-05 s
+@ PRODUCT1DCKOKKOSGPU 256 6.0334e-05
+        Error:  0
+
+Dimensions: 256 256 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   1.833e-06 s
+
+      Kokkos (multithreading)
+        Time:   3.543e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   3.8705e-05 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.074e-06 s
+
+      Kokkos (multithreading)
+        Time:   4.18e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   6.169e-05 s
+        Error:  0
+
+====================================
+Dimensions: 256 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   4.339e-06 s
+
+      Kokkos (multithreading)
+        Time:   8.7024e-05 s
+@ PRODUCT1DRKOKKOSMT 256 8.7024e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   4.0957e-05 s
+@ PRODUCT1DRKOKKOSGPU 256 4.0957e-05
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.559e-06 s
+
+      Kokkos (multithreading)
+        Time:   4.93e-06 s
+@ PRODUCT1DCKOKKOSMT 256 4.93e-06
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   6.1498e-05 s
+@ PRODUCT1DCKOKKOSGPU 256 6.1498e-05
+        Error:  0
+
+Dimensions: 256 256 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   1.84e-06 s
+
+      Kokkos (multithreading)
+        Time:   3.643e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   3.7907e-05 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.043e-06 s
+
+      Kokkos (multithreading)
+        Time:   4.43e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   5.7377e-05 s
+        Error:  0
+
+====================================
+Dimensions: 256 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   5.642e-06 s
+
+      Kokkos (multithreading)
+        Time:   9.0195e-05 s
+@ PRODUCT1DRKOKKOSMT 256 9.0195e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   4.0589e-05 s
+@ PRODUCT1DRKOKKOSGPU 256 4.0589e-05
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.716e-06 s
+
+      Kokkos (multithreading)
+        Time:   4.897e-06 s
+@ PRODUCT1DCKOKKOSMT 256 4.897e-06
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   5.9571e-05 s
+@ PRODUCT1DCKOKKOSGPU 256 5.9571e-05
+        Error:  0
+
+Dimensions: 256 256 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   1.815e-06 s
+
+      Kokkos (multithreading)
+        Time:   3.06e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   3.8562e-05 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.114e-06 s
+
+      Kokkos (multithreading)
+        Time:   4.54e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   5.7254e-05 s
+        Error:  0
+
+====================================
+Dimensions: 256 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   5.368e-06 s
+
+      Kokkos (multithreading)
+        Time:   9.1372e-05 s
+@ PRODUCT1DRKOKKOSMT 256 9.1372e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   4.0834e-05 s
+@ PRODUCT1DRKOKKOSGPU 256 4.0834e-05
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.737e-06 s
+
+      Kokkos (multithreading)
+        Time:   5.106e-06 s
+@ PRODUCT1DCKOKKOSMT 256 5.106e-06
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   6.0018e-05 s
+@ PRODUCT1DCKOKKOSGPU 256 6.0018e-05
+        Error:  0
+
+Dimensions: 256 256 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   1.81e-06 s
+
+      Kokkos (multithreading)
+        Time:   3.407e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   3.9263e-05 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.026e-06 s
+
+      Kokkos (multithreading)
+        Time:   9.066e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   5.6958e-05 s
+        Error:  0
+
+====================================
+Dimensions: 256 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   4.149e-06 s
+
+      Kokkos (multithreading)
+        Time:   0.000103292 s
+@ PRODUCT1DRKOKKOSMT 256 0.000103292
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   4.0883e-05 s
+@ PRODUCT1DRKOKKOSGPU 256 4.0883e-05
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.446e-06 s
+
+      Kokkos (multithreading)
+        Time:   4.891e-06 s
+@ PRODUCT1DCKOKKOSMT 256 4.891e-06
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   5.9689e-05 s
+@ PRODUCT1DCKOKKOSGPU 256 5.9689e-05
+        Error:  0
+
+Dimensions: 256 256 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   1.767e-06 s
+
+      Kokkos (multithreading)
+        Time:   3.373e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   3.8548e-05 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.183e-06 s
+
+      Kokkos (multithreading)
+        Time:   4.376e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   5.8151e-05 s
+        Error:  0
+
+====================================
+====================================
+====================================
+Dimensions: 1024 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   2.6773e-05 s
+
+      Kokkos (multithreading)
+        Time:   8.983e-05 s
+@ PRODUCT1DRKOKKOSMT 1024 8.983e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   4.8551e-05 s
+@ PRODUCT1DRKOKKOSGPU 1024 4.8551e-05
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   7.278e-06 s
+
+      Kokkos (multithreading)
+        Time:   1.0953e-05 s
+@ PRODUCT1DCKOKKOSMT 1024 1.0953e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   7.0009e-05 s
+@ PRODUCT1DCKOKKOSGPU 1024 7.0009e-05
+        Error:  0
+
+Dimensions: 1024 1024 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   5.57e-06 s
+
+      Kokkos (multithreading)
+        Time:   5.485e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   4.5992e-05 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   6.654e-06 s
+
+      Kokkos (multithreading)
+        Time:   7.739e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   7.1182e-05 s
+        Error:  0
+
+====================================
+Dimensions: 1024 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   1.0406e-05 s
+
+      Kokkos (multithreading)
+        Time:   9.1176e-05 s
+@ PRODUCT1DRKOKKOSMT 1024 9.1176e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   4.8408e-05 s
+@ PRODUCT1DRKOKKOSGPU 1024 4.8408e-05
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   7.328e-06 s
+
+      Kokkos (multithreading)
+        Time:   8.374e-06 s
+@ PRODUCT1DCKOKKOSMT 1024 8.374e-06
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   7.2275e-05 s
+@ PRODUCT1DCKOKKOSGPU 1024 7.2275e-05
+        Error:  0
+
+Dimensions: 1024 1024 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   5.451e-06 s
+
+      Kokkos (multithreading)
+        Time:   5.695e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   4.4758e-05 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   6.759e-06 s
+
+      Kokkos (multithreading)
+        Time:   8.022e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   6.8941e-05 s
+        Error:  0
+
+====================================
+Dimensions: 1024 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   9.968e-06 s
+
+      Kokkos (multithreading)
+        Time:   0.00010178 s
+@ PRODUCT1DRKOKKOSMT 1024 0.00010178
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   4.807e-05 s
+@ PRODUCT1DRKOKKOSGPU 1024 4.807e-05
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   7.294e-06 s
+
+      Kokkos (multithreading)
+        Time:   8.391e-06 s
+@ PRODUCT1DCKOKKOSMT 1024 8.391e-06
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   7.1308e-05 s
+@ PRODUCT1DCKOKKOSGPU 1024 7.1308e-05
+        Error:  0
+
+Dimensions: 1024 1024 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   5.822e-06 s
+
+      Kokkos (multithreading)
+        Time:   9.185e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   4.5157e-05 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   6.83e-06 s
+
+      Kokkos (multithreading)
+        Time:   7.142e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   6.8596e-05 s
+        Error:  0
+
+====================================
+Dimensions: 1024 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   1.0303e-05 s
+
+      Kokkos (multithreading)
+        Time:   9.504e-05 s
+@ PRODUCT1DRKOKKOSMT 1024 9.504e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   4.9062e-05 s
+@ PRODUCT1DRKOKKOSGPU 1024 4.9062e-05
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   7.495e-06 s
+
+      Kokkos (multithreading)
+        Time:   8.626e-06 s
+@ PRODUCT1DCKOKKOSMT 1024 8.626e-06
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   7.066e-05 s
+@ PRODUCT1DCKOKKOSGPU 1024 7.066e-05
+        Error:  0
+
+Dimensions: 1024 1024 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   5.462e-06 s
+
+      Kokkos (multithreading)
+        Time:   5.434e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   4.422e-05 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   7.014e-06 s
+
+      Kokkos (multithreading)
+        Time:   3.3064e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   6.8879e-05 s
+        Error:  0
+
+====================================
+Dimensions: 1024 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   1.0233e-05 s
+
+      Kokkos (multithreading)
+        Time:   8.5239e-05 s
+@ PRODUCT1DRKOKKOSMT 1024 8.5239e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   4.8833e-05 s
+@ PRODUCT1DRKOKKOSGPU 1024 4.8833e-05
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   7.505e-06 s
+
+      Kokkos (multithreading)
+        Time:   8.652e-06 s
+@ PRODUCT1DCKOKKOSMT 1024 8.652e-06
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   7.6674e-05 s
+@ PRODUCT1DCKOKKOSGPU 1024 7.6674e-05
+        Error:  0
+
+Dimensions: 1024 1024 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   5.499e-06 s
+
+      Kokkos (multithreading)
+        Time:   5.334e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   4.4857e-05 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   6.705e-06 s
+
+      Kokkos (multithreading)
+        Time:   7.605e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   6.8958e-05 s
+        Error:  0
+
+====================================
+Dimensions: 1024 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   1.1356e-05 s
+
+      Kokkos (multithreading)
+        Time:   9.0239e-05 s
+@ PRODUCT1DRKOKKOSMT 1024 9.0239e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   4.8063e-05 s
+@ PRODUCT1DRKOKKOSGPU 1024 4.8063e-05
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   7.669e-06 s
+
+      Kokkos (multithreading)
+        Time:   8.154e-06 s
+@ PRODUCT1DCKOKKOSMT 1024 8.154e-06
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   7.1271e-05 s
+@ PRODUCT1DCKOKKOSGPU 1024 7.1271e-05
+        Error:  0
+
+Dimensions: 1024 1024 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   5.521e-06 s
+
+      Kokkos (multithreading)
+        Time:   7.655e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   4.649e-05 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   6.797e-06 s
+
+      Kokkos (multithreading)
+        Time:   8.254e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   6.9674e-05 s
+        Error:  0
+
+====================================
+Dimensions: 1024 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   1.502e-05 s
+
+      Kokkos (multithreading)
+        Time:   9.7071e-05 s
+@ PRODUCT1DRKOKKOSMT 1024 9.7071e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   4.8458e-05 s
+@ PRODUCT1DRKOKKOSGPU 1024 4.8458e-05
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   7.255e-06 s
+
+      Kokkos (multithreading)
+        Time:   8.329e-06 s
+@ PRODUCT1DCKOKKOSMT 1024 8.329e-06
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   7.2426e-05 s
+@ PRODUCT1DCKOKKOSGPU 1024 7.2426e-05
+        Error:  0
+
+Dimensions: 1024 1024 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   5.545e-06 s
+
+      Kokkos (multithreading)
+        Time:   5.312e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   4.5756e-05 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   6.793e-06 s
+
+      Kokkos (multithreading)
+        Time:   7.752e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   6.8613e-05 s
+        Error:  0
+
+====================================
+Dimensions: 1024 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   1.1207e-05 s
+
+      Kokkos (multithreading)
+        Time:   9.0968e-05 s
+@ PRODUCT1DRKOKKOSMT 1024 9.0968e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   4.9351e-05 s
+@ PRODUCT1DRKOKKOSGPU 1024 4.9351e-05
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   7.275e-06 s
+
+      Kokkos (multithreading)
+        Time:   8.488e-06 s
+@ PRODUCT1DCKOKKOSMT 1024 8.488e-06
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   7.1799e-05 s
+@ PRODUCT1DCKOKKOSGPU 1024 7.1799e-05
+        Error:  0
+
+Dimensions: 1024 1024 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   5.483e-06 s
+
+      Kokkos (multithreading)
+        Time:   5.722e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   4.5235e-05 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   6.728e-06 s
+
+      Kokkos (multithreading)
+        Time:   8.504e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   6.8848e-05 s
+        Error:  0
+
+====================================
+Dimensions: 1024 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   1.0784e-05 s
+
+      Kokkos (multithreading)
+        Time:   9.0309e-05 s
+@ PRODUCT1DRKOKKOSMT 1024 9.0309e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   4.7098e-05 s
+@ PRODUCT1DRKOKKOSGPU 1024 4.7098e-05
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   7.366e-06 s
+
+      Kokkos (multithreading)
+        Time:   7.946e-06 s
+@ PRODUCT1DCKOKKOSMT 1024 7.946e-06
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   6.9252e-05 s
+@ PRODUCT1DCKOKKOSGPU 1024 6.9252e-05
+        Error:  0
+
+Dimensions: 1024 1024 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   5.476e-06 s
+
+      Kokkos (multithreading)
+        Time:   5.973e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   4.4487e-05 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   6.825e-06 s
+
+      Kokkos (multithreading)
+        Time:   7.506e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   6.9461e-05 s
+        Error:  0
+
+====================================
+Dimensions: 1024 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   1.1002e-05 s
+
+      Kokkos (multithreading)
+        Time:   0.000101997 s
+@ PRODUCT1DRKOKKOSMT 1024 0.000101997
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   4.9427e-05 s
+@ PRODUCT1DRKOKKOSGPU 1024 4.9427e-05
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   7.605e-06 s
+
+      Kokkos (multithreading)
+        Time:   8.59e-06 s
+@ PRODUCT1DCKOKKOSMT 1024 8.59e-06
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   7.0994e-05 s
+@ PRODUCT1DCKOKKOSGPU 1024 7.0994e-05
+        Error:  0
+
+Dimensions: 1024 1024 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   5.481e-06 s
+
+      Kokkos (multithreading)
+        Time:   5.913e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   4.4626e-05 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   6.774e-06 s
+
+      Kokkos (multithreading)
+        Time:   8.045e-06 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   6.9445e-05 s
+        Error:  0
+
+====================================
+====================================
+====================================
+Dimensions: 4096 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   3.785e-05 s
+
+      Kokkos (multithreading)
+        Time:   0.000112234 s
+@ PRODUCT1DRKOKKOSMT 4096 0.000112234
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   7.6046e-05 s
+@ PRODUCT1DRKOKKOSGPU 4096 7.6046e-05
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.6074e-05 s
+
+      Kokkos (multithreading)
+        Time:   2.1745e-05 s
+@ PRODUCT1DCKOKKOSMT 4096 2.1745e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000112686 s
+@ PRODUCT1DCKOKKOSGPU 4096 0.000112686
+        Error:  0
+
+Dimensions: 4096 4096 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   2.0196e-05 s
+
+      Kokkos (multithreading)
+        Time:   1.363e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   7.8976e-05 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.5141e-05 s
+
+      Kokkos (multithreading)
+        Time:   2.1658e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000114084 s
+        Error:  0
+
+====================================
+Dimensions: 4096 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   3.06e-05 s
+
+      Kokkos (multithreading)
+        Time:   0.000112571 s
+@ PRODUCT1DRKOKKOSMT 4096 0.000112571
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   7.7105e-05 s
+@ PRODUCT1DRKOKKOSGPU 4096 7.7105e-05
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.6258e-05 s
+
+      Kokkos (multithreading)
+        Time:   2.3385e-05 s
+@ PRODUCT1DCKOKKOSMT 4096 2.3385e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000110769 s
+@ PRODUCT1DCKOKKOSGPU 4096 0.000110769
+        Error:  0
+
+Dimensions: 4096 4096 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   2.0149e-05 s
+
+      Kokkos (multithreading)
+        Time:   1.4295e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   7.4772e-05 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.544e-05 s
+
+      Kokkos (multithreading)
+        Time:   2.3203e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000117661 s
+        Error:  0
+
+====================================
+Dimensions: 4096 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   3.1311e-05 s
+
+      Kokkos (multithreading)
+        Time:   0.000105608 s
+@ PRODUCT1DRKOKKOSMT 4096 0.000105608
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   7.7837e-05 s
+@ PRODUCT1DRKOKKOSGPU 4096 7.7837e-05
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.6635e-05 s
+
+      Kokkos (multithreading)
+        Time:   2.3694e-05 s
+@ PRODUCT1DCKOKKOSMT 4096 2.3694e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000113471 s
+@ PRODUCT1DCKOKKOSGPU 4096 0.000113471
+        Error:  0
+
+Dimensions: 4096 4096 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   2.02e-05 s
+
+      Kokkos (multithreading)
+        Time:   1.4732e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   7.5169e-05 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.5449e-05 s
+
+      Kokkos (multithreading)
+        Time:   2.4338e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000119668 s
+        Error:  0
+
+====================================
+Dimensions: 4096 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   3.0735e-05 s
+
+      Kokkos (multithreading)
+        Time:   0.000127155 s
+@ PRODUCT1DRKOKKOSMT 4096 0.000127155
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   7.7427e-05 s
+@ PRODUCT1DRKOKKOSGPU 4096 7.7427e-05
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   3.1832e-05 s
+
+      Kokkos (multithreading)
+        Time:   2.3021e-05 s
+@ PRODUCT1DCKOKKOSMT 4096 2.3021e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000112519 s
+@ PRODUCT1DCKOKKOSGPU 4096 0.000112519
+        Error:  0
+
+Dimensions: 4096 4096 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   2.0234e-05 s
+
+      Kokkos (multithreading)
+        Time:   1.4414e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   7.5798e-05 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.5192e-05 s
+
+      Kokkos (multithreading)
+        Time:   2.2587e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000110756 s
+        Error:  0
+
+====================================
+Dimensions: 4096 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   3.1259e-05 s
+
+      Kokkos (multithreading)
+        Time:   0.000103876 s
+@ PRODUCT1DRKOKKOSMT 4096 0.000103876
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   7.7774e-05 s
+@ PRODUCT1DRKOKKOSGPU 4096 7.7774e-05
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.5417e-05 s
+
+      Kokkos (multithreading)
+        Time:   2.4385e-05 s
+@ PRODUCT1DCKOKKOSMT 4096 2.4385e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000109959 s
+@ PRODUCT1DCKOKKOSGPU 4096 0.000109959
+        Error:  0
+
+Dimensions: 4096 4096 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   2.0209e-05 s
+
+      Kokkos (multithreading)
+        Time:   1.3891e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   7.8493e-05 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.5353e-05 s
+
+      Kokkos (multithreading)
+        Time:   2.4044e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00011346 s
+        Error:  0
+
+====================================
+Dimensions: 4096 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   3.5411e-05 s
+
+      Kokkos (multithreading)
+        Time:   0.000130731 s
+@ PRODUCT1DRKOKKOSMT 4096 0.000130731
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   7.7179e-05 s
+@ PRODUCT1DRKOKKOSGPU 4096 7.7179e-05
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.5474e-05 s
+
+      Kokkos (multithreading)
+        Time:   2.361e-05 s
+@ PRODUCT1DCKOKKOSMT 4096 2.361e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000114588 s
+@ PRODUCT1DCKOKKOSGPU 4096 0.000114588
+        Error:  0
+
+Dimensions: 4096 4096 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   2.0207e-05 s
+
+      Kokkos (multithreading)
+        Time:   1.4666e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   7.7223e-05 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.538e-05 s
+
+      Kokkos (multithreading)
+        Time:   3.002e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000120589 s
+        Error:  0
+
+====================================
+Dimensions: 4096 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   3.5883e-05 s
+
+      Kokkos (multithreading)
+        Time:   0.000115545 s
+@ PRODUCT1DRKOKKOSMT 4096 0.000115545
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   7.761e-05 s
+@ PRODUCT1DRKOKKOSGPU 4096 7.761e-05
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.5746e-05 s
+
+      Kokkos (multithreading)
+        Time:   2.2552e-05 s
+@ PRODUCT1DCKOKKOSMT 4096 2.2552e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000115933 s
+@ PRODUCT1DCKOKKOSGPU 4096 0.000115933
+        Error:  0
+
+Dimensions: 4096 4096 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   2.0227e-05 s
+
+      Kokkos (multithreading)
+        Time:   1.4472e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   7.9585e-05 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.5154e-05 s
+
+      Kokkos (multithreading)
+        Time:   2.3955e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000121178 s
+        Error:  0
+
+====================================
+Dimensions: 4096 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   3.5824e-05 s
+
+      Kokkos (multithreading)
+        Time:   0.000115161 s
+@ PRODUCT1DRKOKKOSMT 4096 0.000115161
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   7.7519e-05 s
+@ PRODUCT1DRKOKKOSGPU 4096 7.7519e-05
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.6564e-05 s
+
+      Kokkos (multithreading)
+        Time:   2.2509e-05 s
+@ PRODUCT1DCKOKKOSMT 4096 2.2509e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00011737 s
+@ PRODUCT1DCKOKKOSGPU 4096 0.00011737
+        Error:  0
+
+Dimensions: 4096 4096 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   2.0194e-05 s
+
+      Kokkos (multithreading)
+        Time:   1.4587e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   7.7821e-05 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.5201e-05 s
+
+      Kokkos (multithreading)
+        Time:   2.3459e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000118142 s
+        Error:  0
+
+====================================
+Dimensions: 4096 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   3.1083e-05 s
+
+      Kokkos (multithreading)
+        Time:   0.000106904 s
+@ PRODUCT1DRKOKKOSMT 4096 0.000106904
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   8.0022e-05 s
+@ PRODUCT1DRKOKKOSGPU 4096 8.0022e-05
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.6431e-05 s
+
+      Kokkos (multithreading)
+        Time:   2.2784e-05 s
+@ PRODUCT1DCKOKKOSMT 4096 2.2784e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000117422 s
+@ PRODUCT1DCKOKKOSGPU 4096 0.000117422
+        Error:  0
+
+Dimensions: 4096 4096 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   2.0143e-05 s
+
+      Kokkos (multithreading)
+        Time:   1.5419e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   7.6825e-05 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.5935e-05 s
+
+      Kokkos (multithreading)
+        Time:   2.144e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000117602 s
+        Error:  0
+
+====================================
+Dimensions: 4096 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   3.0477e-05 s
+
+      Kokkos (multithreading)
+        Time:   0.00020065 s
+@ PRODUCT1DRKOKKOSMT 4096 0.00020065
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   7.5403e-05 s
+@ PRODUCT1DRKOKKOSGPU 4096 7.5403e-05
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.5898e-05 s
+
+      Kokkos (multithreading)
+        Time:   2.2837e-05 s
+@ PRODUCT1DCKOKKOSMT 4096 2.2837e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000113944 s
+@ PRODUCT1DCKOKKOSGPU 4096 0.000113944
+        Error:  0
+
+Dimensions: 4096 4096 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   2.025e-05 s
+
+      Kokkos (multithreading)
+        Time:   1.4827e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   7.6621e-05 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   2.5579e-05 s
+
+      Kokkos (multithreading)
+        Time:   2.3309e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000110883 s
+        Error:  0
+
+====================================
+====================================
+====================================
+Dimensions: 16384 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000125138 s
+
+      Kokkos (multithreading)
+        Time:   0.000171177 s
+@ PRODUCT1DRKOKKOSMT 16384 0.000171177
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000158429 s
+@ PRODUCT1DRKOKKOSGPU 16384 0.000158429
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000104255 s
+
+      Kokkos (multithreading)
+        Time:   8.1259e-05 s
+@ PRODUCT1DCKOKKOSMT 16384 8.1259e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000250648 s
+@ PRODUCT1DCKOKKOSGPU 16384 0.000250648
+        Error:  0
+
+Dimensions: 16384 16384 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   7.8865e-05 s
+
+      Kokkos (multithreading)
+        Time:   4.9013e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000152127 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000105304 s
+
+      Kokkos (multithreading)
+        Time:   7.4817e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000250952 s
+        Error:  0
+
+====================================
+Dimensions: 16384 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000119827 s
+
+      Kokkos (multithreading)
+        Time:   0.00017787 s
+@ PRODUCT1DRKOKKOSMT 16384 0.00017787
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000150543 s
+@ PRODUCT1DRKOKKOSGPU 16384 0.000150543
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000104375 s
+
+      Kokkos (multithreading)
+        Time:   7.656e-05 s
+@ PRODUCT1DCKOKKOSMT 16384 7.656e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000246447 s
+@ PRODUCT1DCKOKKOSGPU 16384 0.000246447
+        Error:  0
+
+Dimensions: 16384 16384 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   8.3832e-05 s
+
+      Kokkos (multithreading)
+        Time:   4.4707e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000153771 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000121816 s
+
+      Kokkos (multithreading)
+        Time:   7.6593e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000249076 s
+        Error:  0
+
+====================================
+Dimensions: 16384 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000120498 s
+
+      Kokkos (multithreading)
+        Time:   0.000187538 s
+@ PRODUCT1DRKOKKOSMT 16384 0.000187538
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000154859 s
+@ PRODUCT1DRKOKKOSGPU 16384 0.000154859
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000104817 s
+
+      Kokkos (multithreading)
+        Time:   7.7441e-05 s
+@ PRODUCT1DCKOKKOSMT 16384 7.7441e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000254488 s
+@ PRODUCT1DCKOKKOSGPU 16384 0.000254488
+        Error:  0
+
+Dimensions: 16384 16384 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   7.8986e-05 s
+
+      Kokkos (multithreading)
+        Time:   4.5043e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000161385 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000105315 s
+
+      Kokkos (multithreading)
+        Time:   7.2457e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000252601 s
+        Error:  0
+
+====================================
+Dimensions: 16384 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000124263 s
+
+      Kokkos (multithreading)
+        Time:   0.000184799 s
+@ PRODUCT1DRKOKKOSMT 16384 0.000184799
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00016082 s
+@ PRODUCT1DRKOKKOSGPU 16384 0.00016082
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000104537 s
+
+      Kokkos (multithreading)
+        Time:   7.9662e-05 s
+@ PRODUCT1DCKOKKOSMT 16384 7.9662e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000252938 s
+@ PRODUCT1DCKOKKOSGPU 16384 0.000252938
+        Error:  0
+
+Dimensions: 16384 16384 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   7.9176e-05 s
+
+      Kokkos (multithreading)
+        Time:   4.6389e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000153964 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000105267 s
+
+      Kokkos (multithreading)
+        Time:   7.2709e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000254455 s
+        Error:  0
+
+====================================
+Dimensions: 16384 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000118361 s
+
+      Kokkos (multithreading)
+        Time:   0.000178753 s
+@ PRODUCT1DRKOKKOSMT 16384 0.000178753
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000156835 s
+@ PRODUCT1DRKOKKOSGPU 16384 0.000156835
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000106895 s
+
+      Kokkos (multithreading)
+        Time:   7.2712e-05 s
+@ PRODUCT1DCKOKKOSMT 16384 7.2712e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000260088 s
+@ PRODUCT1DCKOKKOSGPU 16384 0.000260088
+        Error:  0
+
+Dimensions: 16384 16384 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   8.3666e-05 s
+
+      Kokkos (multithreading)
+        Time:   4.3318e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000157459 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000105604 s
+
+      Kokkos (multithreading)
+        Time:   7.5841e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00025515 s
+        Error:  0
+
+====================================
+Dimensions: 16384 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000118596 s
+
+      Kokkos (multithreading)
+        Time:   0.000172636 s
+@ PRODUCT1DRKOKKOSMT 16384 0.000172636
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000165528 s
+@ PRODUCT1DRKOKKOSGPU 16384 0.000165528
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00010513 s
+
+      Kokkos (multithreading)
+        Time:   8.1552e-05 s
+@ PRODUCT1DCKOKKOSMT 16384 8.1552e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000254585 s
+@ PRODUCT1DCKOKKOSGPU 16384 0.000254585
+        Error:  0
+
+Dimensions: 16384 16384 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   8.3777e-05 s
+
+      Kokkos (multithreading)
+        Time:   4.8935e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00016063 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000106023 s
+
+      Kokkos (multithreading)
+        Time:   7.7628e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000256849 s
+        Error:  0
+
+====================================
+Dimensions: 16384 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000121689 s
+
+      Kokkos (multithreading)
+        Time:   0.000200265 s
+@ PRODUCT1DRKOKKOSMT 16384 0.000200265
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000152769 s
+@ PRODUCT1DRKOKKOSGPU 16384 0.000152769
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000105999 s
+
+      Kokkos (multithreading)
+        Time:   7.3735e-05 s
+@ PRODUCT1DCKOKKOSMT 16384 7.3735e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00024968 s
+@ PRODUCT1DCKOKKOSGPU 16384 0.00024968
+        Error:  0
+
+Dimensions: 16384 16384 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   7.8843e-05 s
+
+      Kokkos (multithreading)
+        Time:   4.5222e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000156707 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000105541 s
+
+      Kokkos (multithreading)
+        Time:   7.2695e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000246638 s
+        Error:  0
+
+====================================
+Dimensions: 16384 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000118935 s
+
+      Kokkos (multithreading)
+        Time:   0.000164305 s
+@ PRODUCT1DRKOKKOSMT 16384 0.000164305
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000155131 s
+@ PRODUCT1DRKOKKOSGPU 16384 0.000155131
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000107475 s
+
+      Kokkos (multithreading)
+        Time:   6.2478e-05 s
+@ PRODUCT1DCKOKKOSMT 16384 6.2478e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00025591 s
+@ PRODUCT1DCKOKKOSGPU 16384 0.00025591
+        Error:  0
+
+Dimensions: 16384 16384 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   7.9293e-05 s
+
+      Kokkos (multithreading)
+        Time:   4.4057e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000153175 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00010772 s
+
+      Kokkos (multithreading)
+        Time:   6.8645e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00025381 s
+        Error:  0
+
+====================================
+Dimensions: 16384 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000142134 s
+
+      Kokkos (multithreading)
+        Time:   0.000167653 s
+@ PRODUCT1DRKOKKOSMT 16384 0.000167653
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000159795 s
+@ PRODUCT1DRKOKKOSGPU 16384 0.000159795
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000103688 s
+
+      Kokkos (multithreading)
+        Time:   7.5759e-05 s
+@ PRODUCT1DCKOKKOSMT 16384 7.5759e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000255604 s
+@ PRODUCT1DCKOKKOSGPU 16384 0.000255604
+        Error:  0
+
+Dimensions: 16384 16384 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   7.8987e-05 s
+
+      Kokkos (multithreading)
+        Time:   4.826e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000156866 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000104294 s
+
+      Kokkos (multithreading)
+        Time:   7.4406e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000255179 s
+        Error:  0
+
+====================================
+Dimensions: 16384 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000118073 s
+
+      Kokkos (multithreading)
+        Time:   0.000176042 s
+@ PRODUCT1DRKOKKOSMT 16384 0.000176042
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000160307 s
+@ PRODUCT1DRKOKKOSGPU 16384 0.000160307
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000107659 s
+
+      Kokkos (multithreading)
+        Time:   6.6003e-05 s
+@ PRODUCT1DCKOKKOSMT 16384 6.6003e-05
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000252095 s
+@ PRODUCT1DCKOKKOSGPU 16384 0.000252095
+        Error:  0
+
+Dimensions: 16384 16384 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   7.8891e-05 s
+
+      Kokkos (multithreading)
+        Time:   4.5461e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000150681 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000112441 s
+
+      Kokkos (multithreading)
+        Time:   6.6586e-05 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000249461 s
+        Error:  0
+
+====================================
+====================================
+====================================
+Dimensions: 65536 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000476106 s
+
+      Kokkos (multithreading)
+        Time:   0.000453273 s
+@ PRODUCT1DRKOKKOSMT 65536 0.000453273
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000527955 s
+@ PRODUCT1DRKOKKOSGPU 65536 0.000527955
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000455431 s
+
+      Kokkos (multithreading)
+        Time:   0.000326933 s
+@ PRODUCT1DCKOKKOSMT 65536 0.000326933
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000870039 s
+@ PRODUCT1DCKOKKOSGPU 65536 0.000870039
+        Error:  0
+
+Dimensions: 65536 65536 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000320181 s
+
+      Kokkos (multithreading)
+        Time:   0.000181991 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000521479 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000455537 s
+
+      Kokkos (multithreading)
+        Time:   0.000261257 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000877342 s
+        Error:  0
+
+====================================
+Dimensions: 65536 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000479527 s
+
+      Kokkos (multithreading)
+        Time:   0.000425097 s
+@ PRODUCT1DRKOKKOSMT 65536 0.000425097
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000523561 s
+@ PRODUCT1DRKOKKOSGPU 65536 0.000523561
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000447015 s
+
+      Kokkos (multithreading)
+        Time:   0.000315823 s
+@ PRODUCT1DCKOKKOSMT 65536 0.000315823
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000873098 s
+@ PRODUCT1DCKOKKOSGPU 65536 0.000873098
+        Error:  0
+
+Dimensions: 65536 65536 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000332756 s
+
+      Kokkos (multithreading)
+        Time:   0.000192567 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000520923 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000461165 s
+
+      Kokkos (multithreading)
+        Time:   0.000280569 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000879978 s
+        Error:  0
+
+====================================
+Dimensions: 65536 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000482053 s
+
+      Kokkos (multithreading)
+        Time:   0.000475258 s
+@ PRODUCT1DRKOKKOSMT 65536 0.000475258
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000518976 s
+@ PRODUCT1DRKOKKOSGPU 65536 0.000518976
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000439116 s
+
+      Kokkos (multithreading)
+        Time:   0.000329092 s
+@ PRODUCT1DCKOKKOSMT 65536 0.000329092
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000851386 s
+@ PRODUCT1DCKOKKOSGPU 65536 0.000851386
+        Error:  0
+
+Dimensions: 65536 65536 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000326204 s
+
+      Kokkos (multithreading)
+        Time:   0.000175593 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000514437 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000455591 s
+
+      Kokkos (multithreading)
+        Time:   0.000243465 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000859627 s
+        Error:  0
+
+====================================
+Dimensions: 65536 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000496383 s
+
+      Kokkos (multithreading)
+        Time:   0.000408831 s
+@ PRODUCT1DRKOKKOSMT 65536 0.000408831
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000512515 s
+@ PRODUCT1DRKOKKOSGPU 65536 0.000512515
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000452565 s
+
+      Kokkos (multithreading)
+        Time:   0.000305924 s
+@ PRODUCT1DCKOKKOSMT 65536 0.000305924
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000852492 s
+@ PRODUCT1DCKOKKOSGPU 65536 0.000852492
+        Error:  0
+
+Dimensions: 65536 65536 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000324325 s
+
+      Kokkos (multithreading)
+        Time:   0.000185401 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0005289 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000455146 s
+
+      Kokkos (multithreading)
+        Time:   0.000245947 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000871026 s
+        Error:  0
+
+====================================
+Dimensions: 65536 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000482953 s
+
+      Kokkos (multithreading)
+        Time:   0.000427023 s
+@ PRODUCT1DRKOKKOSMT 65536 0.000427023
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000515065 s
+@ PRODUCT1DRKOKKOSGPU 65536 0.000515065
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000454831 s
+
+      Kokkos (multithreading)
+        Time:   0.000316372 s
+@ PRODUCT1DCKOKKOSMT 65536 0.000316372
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00084866 s
+@ PRODUCT1DCKOKKOSGPU 65536 0.00084866
+        Error:  0
+
+Dimensions: 65536 65536 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000318788 s
+
+      Kokkos (multithreading)
+        Time:   0.000182072 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000518395 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000459672 s
+
+      Kokkos (multithreading)
+        Time:   0.000245334 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000854856 s
+        Error:  0
+
+====================================
+Dimensions: 65536 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000483262 s
+
+      Kokkos (multithreading)
+        Time:   0.000450386 s
+@ PRODUCT1DRKOKKOSMT 65536 0.000450386
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000520343 s
+@ PRODUCT1DRKOKKOSGPU 65536 0.000520343
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00046919 s
+
+      Kokkos (multithreading)
+        Time:   0.000474044 s
+@ PRODUCT1DCKOKKOSMT 65536 0.000474044
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000862491 s
+@ PRODUCT1DCKOKKOSGPU 65536 0.000862491
+        Error:  0
+
+Dimensions: 65536 65536 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000324718 s
+
+      Kokkos (multithreading)
+        Time:   0.000184107 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000529687 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000460942 s
+
+      Kokkos (multithreading)
+        Time:   0.00025689 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000896265 s
+        Error:  0
+
+====================================
+Dimensions: 65536 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000487138 s
+
+      Kokkos (multithreading)
+        Time:   0.000408944 s
+@ PRODUCT1DRKOKKOSMT 65536 0.000408944
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000529005 s
+@ PRODUCT1DRKOKKOSGPU 65536 0.000529005
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000456543 s
+
+      Kokkos (multithreading)
+        Time:   0.000314572 s
+@ PRODUCT1DCKOKKOSMT 65536 0.000314572
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00086893 s
+@ PRODUCT1DCKOKKOSGPU 65536 0.00086893
+        Error:  0
+
+Dimensions: 65536 65536 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000328447 s
+
+      Kokkos (multithreading)
+        Time:   0.000199976 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000534531 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000458656 s
+
+      Kokkos (multithreading)
+        Time:   0.000254401 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000866017 s
+        Error:  0
+
+====================================
+Dimensions: 65536 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000481593 s
+
+      Kokkos (multithreading)
+        Time:   0.000447557 s
+@ PRODUCT1DRKOKKOSMT 65536 0.000447557
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000508769 s
+@ PRODUCT1DRKOKKOSGPU 65536 0.000508769
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000454174 s
+
+      Kokkos (multithreading)
+        Time:   0.000316879 s
+@ PRODUCT1DCKOKKOSMT 65536 0.000316879
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000850809 s
+@ PRODUCT1DCKOKKOSGPU 65536 0.000850809
+        Error:  0
+
+Dimensions: 65536 65536 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000324466 s
+
+      Kokkos (multithreading)
+        Time:   0.000198596 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00051674 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000452203 s
+
+      Kokkos (multithreading)
+        Time:   0.000247241 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000861869 s
+        Error:  0
+
+====================================
+Dimensions: 65536 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000484693 s
+
+      Kokkos (multithreading)
+        Time:   0.000444016 s
+@ PRODUCT1DRKOKKOSMT 65536 0.000444016
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000530876 s
+@ PRODUCT1DRKOKKOSGPU 65536 0.000530876
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000476506 s
+
+      Kokkos (multithreading)
+        Time:   0.000307271 s
+@ PRODUCT1DCKOKKOSMT 65536 0.000307271
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000892242 s
+@ PRODUCT1DCKOKKOSGPU 65536 0.000892242
+        Error:  0
+
+Dimensions: 65536 65536 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000319367 s
+
+      Kokkos (multithreading)
+        Time:   0.000192462 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000523762 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000464983 s
+
+      Kokkos (multithreading)
+        Time:   0.000256105 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000874536 s
+        Error:  0
+
+====================================
+Dimensions: 65536 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000482486 s
+
+      Kokkos (multithreading)
+        Time:   0.000437589 s
+@ PRODUCT1DRKOKKOSMT 65536 0.000437589
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000527835 s
+@ PRODUCT1DRKOKKOSGPU 65536 0.000527835
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000449905 s
+
+      Kokkos (multithreading)
+        Time:   0.000321822 s
+@ PRODUCT1DCKOKKOSMT 65536 0.000321822
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000878795 s
+@ PRODUCT1DCKOKKOSGPU 65536 0.000878795
+        Error:  0
+
+Dimensions: 65536 65536 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000325346 s
+
+      Kokkos (multithreading)
+        Time:   0.000208824 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000537498 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.000463543 s
+
+      Kokkos (multithreading)
+        Time:   0.000251118 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.000896571 s
+        Error:  0
+
+====================================
+====================================
+====================================
+Dimensions: 262144 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.00202113 s
+
+      Kokkos (multithreading)
+        Time:   0.00160568 s
+@ PRODUCT1DRKOKKOSMT 262144 0.00160568
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.001893 s
+@ PRODUCT1DRKOKKOSGPU 262144 0.001893
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00238611 s
+
+      Kokkos (multithreading)
+        Time:   0.00159927 s
+@ PRODUCT1DCKOKKOSMT 262144 0.00159927
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00327965 s
+@ PRODUCT1DCKOKKOSGPU 262144 0.00327965
+        Error:  0
+
+Dimensions: 262144 262144 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000971113 s
+
+      Kokkos (multithreading)
+        Time:   0.000872921 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00194932 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00234836 s
+
+      Kokkos (multithreading)
+        Time:   0.00152001 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00333242 s
+        Error:  0
+
+====================================
+Dimensions: 262144 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.00201803 s
+
+      Kokkos (multithreading)
+        Time:   0.00159828 s
+@ PRODUCT1DRKOKKOSMT 262144 0.00159828
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00192019 s
+@ PRODUCT1DRKOKKOSGPU 262144 0.00192019
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00239841 s
+
+      Kokkos (multithreading)
+        Time:   0.0016153 s
+@ PRODUCT1DCKOKKOSMT 262144 0.0016153
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00333159 s
+@ PRODUCT1DCKOKKOSGPU 262144 0.00333159
+        Error:  0
+
+Dimensions: 262144 262144 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000949625 s
+
+      Kokkos (multithreading)
+        Time:   0.000884936 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00193664 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00235714 s
+
+      Kokkos (multithreading)
+        Time:   0.00151769 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00331423 s
+        Error:  0
+
+====================================
+Dimensions: 262144 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.00202513 s
+
+      Kokkos (multithreading)
+        Time:   0.00167485 s
+@ PRODUCT1DRKOKKOSMT 262144 0.00167485
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00189444 s
+@ PRODUCT1DRKOKKOSGPU 262144 0.00189444
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00235885 s
+
+      Kokkos (multithreading)
+        Time:   0.00158478 s
+@ PRODUCT1DCKOKKOSMT 262144 0.00158478
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00334196 s
+@ PRODUCT1DCKOKKOSGPU 262144 0.00334196
+        Error:  0
+
+Dimensions: 262144 262144 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.00098786 s
+
+      Kokkos (multithreading)
+        Time:   0.000897323 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00197747 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00234632 s
+
+      Kokkos (multithreading)
+        Time:   0.00151902 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00333852 s
+        Error:  0
+
+====================================
+Dimensions: 262144 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.00199823 s
+
+      Kokkos (multithreading)
+        Time:   0.0014841 s
+@ PRODUCT1DRKOKKOSMT 262144 0.0014841
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0018723 s
+@ PRODUCT1DRKOKKOSGPU 262144 0.0018723
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00229933 s
+
+      Kokkos (multithreading)
+        Time:   0.00149425 s
+@ PRODUCT1DCKOKKOSMT 262144 0.00149425
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00320194 s
+@ PRODUCT1DCKOKKOSGPU 262144 0.00320194
+        Error:  0
+
+Dimensions: 262144 262144 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000981239 s
+
+      Kokkos (multithreading)
+        Time:   0.000869805 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00185538 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00233821 s
+
+      Kokkos (multithreading)
+        Time:   0.0015746 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00322937 s
+        Error:  0
+
+====================================
+Dimensions: 262144 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.0019852 s
+
+      Kokkos (multithreading)
+        Time:   0.00167089 s
+@ PRODUCT1DRKOKKOSMT 262144 0.00167089
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00189352 s
+@ PRODUCT1DRKOKKOSGPU 262144 0.00189352
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00234695 s
+
+      Kokkos (multithreading)
+        Time:   0.00145093 s
+@ PRODUCT1DCKOKKOSMT 262144 0.00145093
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00322394 s
+@ PRODUCT1DCKOKKOSGPU 262144 0.00322394
+        Error:  0
+
+Dimensions: 262144 262144 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000966363 s
+
+      Kokkos (multithreading)
+        Time:   0.000840429 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00186487 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00229479 s
+
+      Kokkos (multithreading)
+        Time:   0.00154912 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00323439 s
+        Error:  0
+
+====================================
+Dimensions: 262144 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.00199936 s
+
+      Kokkos (multithreading)
+        Time:   0.0016645 s
+@ PRODUCT1DRKOKKOSMT 262144 0.0016645
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00189178 s
+@ PRODUCT1DRKOKKOSGPU 262144 0.00189178
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00232775 s
+
+      Kokkos (multithreading)
+        Time:   0.00158439 s
+@ PRODUCT1DCKOKKOSMT 262144 0.00158439
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00319682 s
+@ PRODUCT1DCKOKKOSGPU 262144 0.00319682
+        Error:  0
+
+Dimensions: 262144 262144 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.00094988 s
+
+      Kokkos (multithreading)
+        Time:   0.000881638 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00185093 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00227321 s
+
+      Kokkos (multithreading)
+        Time:   0.00145697 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00322802 s
+        Error:  0
+
+====================================
+Dimensions: 262144 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.00199208 s
+
+      Kokkos (multithreading)
+        Time:   0.00160925 s
+@ PRODUCT1DRKOKKOSMT 262144 0.00160925
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00188444 s
+@ PRODUCT1DRKOKKOSGPU 262144 0.00188444
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00234188 s
+
+      Kokkos (multithreading)
+        Time:   0.00156404 s
+@ PRODUCT1DCKOKKOSMT 262144 0.00156404
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00320573 s
+@ PRODUCT1DCKOKKOSGPU 262144 0.00320573
+        Error:  0
+
+Dimensions: 262144 262144 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000959925 s
+
+      Kokkos (multithreading)
+        Time:   0.000863668 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00184651 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00229055 s
+
+      Kokkos (multithreading)
+        Time:   0.00147083 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00321048 s
+        Error:  0
+
+====================================
+Dimensions: 262144 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.00198784 s
+
+      Kokkos (multithreading)
+        Time:   0.00154567 s
+@ PRODUCT1DRKOKKOSMT 262144 0.00154567
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00188635 s
+@ PRODUCT1DRKOKKOSGPU 262144 0.00188635
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00233857 s
+
+      Kokkos (multithreading)
+        Time:   0.00145043 s
+@ PRODUCT1DCKOKKOSMT 262144 0.00145043
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00319529 s
+@ PRODUCT1DCKOKKOSGPU 262144 0.00319529
+        Error:  0
+
+Dimensions: 262144 262144 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000956617 s
+
+      Kokkos (multithreading)
+        Time:   0.000843923 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00187125 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.0022848 s
+
+      Kokkos (multithreading)
+        Time:   0.00155325 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00323743 s
+        Error:  0
+
+====================================
+Dimensions: 262144 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.00198471 s
+
+      Kokkos (multithreading)
+        Time:   0.0015735 s
+@ PRODUCT1DRKOKKOSMT 262144 0.0015735
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00187282 s
+@ PRODUCT1DRKOKKOSGPU 262144 0.00187282
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00234843 s
+
+      Kokkos (multithreading)
+        Time:   0.00145926 s
+@ PRODUCT1DCKOKKOSMT 262144 0.00145926
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00320229 s
+@ PRODUCT1DCKOKKOSGPU 262144 0.00320229
+        Error:  0
+
+Dimensions: 262144 262144 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.0009827 s
+
+      Kokkos (multithreading)
+        Time:   0.000868558 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00189723 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00230082 s
+
+      Kokkos (multithreading)
+        Time:   0.00155991 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0032423 s
+        Error:  0
+
+====================================
+Dimensions: 262144 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.00198805 s
+
+      Kokkos (multithreading)
+        Time:   0.00162091 s
+@ PRODUCT1DRKOKKOSMT 262144 0.00162091
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00187831 s
+@ PRODUCT1DRKOKKOSGPU 262144 0.00187831
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00232452 s
+
+      Kokkos (multithreading)
+        Time:   0.00156291 s
+@ PRODUCT1DCKOKKOSMT 262144 0.00156291
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00322965 s
+@ PRODUCT1DCKOKKOSGPU 262144 0.00322965
+        Error:  0
+
+Dimensions: 262144 262144 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.000953277 s
+
+      Kokkos (multithreading)
+        Time:   0.000857426 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00185461 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00230303 s
+
+      Kokkos (multithreading)
+        Time:   0.00145344 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0032496 s
+        Error:  0
+
+====================================
+====================================
+====================================
+Dimensions: 1048576 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.00798621 s
+
+      Kokkos (multithreading)
+        Time:   0.00677417 s
+@ PRODUCT1DRKOKKOSMT 1048576 0.00677417
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00723829 s
+@ PRODUCT1DRKOKKOSGPU 1048576 0.00723829
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00876891 s
+
+      Kokkos (multithreading)
+        Time:   0.00718551 s
+@ PRODUCT1DCKOKKOSMT 1048576 0.00718551
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0119205 s
+@ PRODUCT1DCKOKKOSGPU 1048576 0.0119205
+        Error:  0
+
+Dimensions: 1048576 1048576 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.00377992 s
+
+      Kokkos (multithreading)
+        Time:   0.00421741 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00721777 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00852575 s
+
+      Kokkos (multithreading)
+        Time:   0.0070833 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0119214 s
+        Error:  0
+
+====================================
+Dimensions: 1048576 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.00800983 s
+
+      Kokkos (multithreading)
+        Time:   0.00669765 s
+@ PRODUCT1DRKOKKOSMT 1048576 0.00669765
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00724276 s
+@ PRODUCT1DRKOKKOSGPU 1048576 0.00724276
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00883623 s
+
+      Kokkos (multithreading)
+        Time:   0.00729842 s
+@ PRODUCT1DCKOKKOSMT 1048576 0.00729842
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0118744 s
+@ PRODUCT1DCKOKKOSGPU 1048576 0.0118744
+        Error:  0
+
+Dimensions: 1048576 1048576 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.00404805 s
+
+      Kokkos (multithreading)
+        Time:   0.0042546 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00724273 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.0085729 s
+
+      Kokkos (multithreading)
+        Time:   0.00722365 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0119035 s
+        Error:  0
+
+====================================
+Dimensions: 1048576 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.00799078 s
+
+      Kokkos (multithreading)
+        Time:   0.00689725 s
+@ PRODUCT1DRKOKKOSMT 1048576 0.00689725
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0072659 s
+@ PRODUCT1DRKOKKOSGPU 1048576 0.0072659
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00878455 s
+
+      Kokkos (multithreading)
+        Time:   0.00713372 s
+@ PRODUCT1DCKOKKOSMT 1048576 0.00713372
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0119427 s
+@ PRODUCT1DCKOKKOSGPU 1048576 0.0119427
+        Error:  0
+
+Dimensions: 1048576 1048576 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.00382539 s
+
+      Kokkos (multithreading)
+        Time:   0.00421295 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00722294 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.0084532 s
+
+      Kokkos (multithreading)
+        Time:   0.00713092 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0119583 s
+        Error:  0
+
+====================================
+Dimensions: 1048576 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.00797803 s
+
+      Kokkos (multithreading)
+        Time:   0.00669639 s
+@ PRODUCT1DRKOKKOSMT 1048576 0.00669639
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00725136 s
+@ PRODUCT1DRKOKKOSGPU 1048576 0.00725136
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00882379 s
+
+      Kokkos (multithreading)
+        Time:   0.00714344 s
+@ PRODUCT1DCKOKKOSMT 1048576 0.00714344
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0118781 s
+@ PRODUCT1DCKOKKOSGPU 1048576 0.0118781
+        Error:  0
+
+Dimensions: 1048576 1048576 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.00375047 s
+
+      Kokkos (multithreading)
+        Time:   0.0041531 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00720459 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00837034 s
+
+      Kokkos (multithreading)
+        Time:   0.00712662 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0119319 s
+        Error:  0
+
+====================================
+Dimensions: 1048576 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.00800126 s
+
+      Kokkos (multithreading)
+        Time:   0.00665665 s
+@ PRODUCT1DRKOKKOSMT 1048576 0.00665665
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00726805 s
+@ PRODUCT1DRKOKKOSGPU 1048576 0.00726805
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00876916 s
+
+      Kokkos (multithreading)
+        Time:   0.00715691 s
+@ PRODUCT1DCKOKKOSMT 1048576 0.00715691
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0118957 s
+@ PRODUCT1DCKOKKOSGPU 1048576 0.0118957
+        Error:  0
+
+Dimensions: 1048576 1048576 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.00381292 s
+
+      Kokkos (multithreading)
+        Time:   0.00419651 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00731958 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00839446 s
+
+      Kokkos (multithreading)
+        Time:   0.00725846 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0120036 s
+        Error:  0
+
+====================================
+Dimensions: 1048576 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.00811976 s
+
+      Kokkos (multithreading)
+        Time:   0.00677595 s
+@ PRODUCT1DRKOKKOSMT 1048576 0.00677595
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00731008 s
+@ PRODUCT1DRKOKKOSGPU 1048576 0.00731008
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00885794 s
+
+      Kokkos (multithreading)
+        Time:   0.00722655 s
+@ PRODUCT1DCKOKKOSMT 1048576 0.00722655
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0118844 s
+@ PRODUCT1DCKOKKOSGPU 1048576 0.0118844
+        Error:  0
+
+Dimensions: 1048576 1048576 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.00404742 s
+
+      Kokkos (multithreading)
+        Time:   0.00425345 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00720269 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00859892 s
+
+      Kokkos (multithreading)
+        Time:   0.00721364 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0118282 s
+        Error:  0
+
+====================================
+Dimensions: 1048576 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.0080496 s
+
+      Kokkos (multithreading)
+        Time:   0.00850987 s
+@ PRODUCT1DRKOKKOSMT 1048576 0.00850987
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00725752 s
+@ PRODUCT1DRKOKKOSGPU 1048576 0.00725752
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00887639 s
+
+      Kokkos (multithreading)
+        Time:   0.0293413 s
+@ PRODUCT1DCKOKKOSMT 1048576 0.0293413
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0118974 s
+@ PRODUCT1DCKOKKOSGPU 1048576 0.0118974
+        Error:  0
+
+Dimensions: 1048576 1048576 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.00399275 s
+
+      Kokkos (multithreading)
+        Time:   0.00428603 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00722267 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00860105 s
+
+      Kokkos (multithreading)
+        Time:   0.00786784 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0119973 s
+        Error:  0
+
+====================================
+Dimensions: 1048576 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.00786918 s
+
+      Kokkos (multithreading)
+        Time:   0.00704295 s
+@ PRODUCT1DRKOKKOSMT 1048576 0.00704295
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00725445 s
+@ PRODUCT1DRKOKKOSGPU 1048576 0.00725445
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00868549 s
+
+      Kokkos (multithreading)
+        Time:   0.00714084 s
+@ PRODUCT1DCKOKKOSMT 1048576 0.00714084
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0119274 s
+@ PRODUCT1DCKOKKOSGPU 1048576 0.0119274
+        Error:  0
+
+Dimensions: 1048576 1048576 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.00401351 s
+
+      Kokkos (multithreading)
+        Time:   0.00424723 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00724144 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00859484 s
+
+      Kokkos (multithreading)
+        Time:   0.00711479 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0119402 s
+        Error:  0
+
+====================================
+Dimensions: 1048576 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.0079988 s
+
+      Kokkos (multithreading)
+        Time:   0.00686513 s
+@ PRODUCT1DRKOKKOSMT 1048576 0.00686513
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00725741 s
+@ PRODUCT1DRKOKKOSGPU 1048576 0.00725741
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00878263 s
+
+      Kokkos (multithreading)
+        Time:   0.00714378 s
+@ PRODUCT1DCKOKKOSMT 1048576 0.00714378
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0118621 s
+@ PRODUCT1DCKOKKOSGPU 1048576 0.0118621
+        Error:  0
+
+Dimensions: 1048576 1048576 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.00397272 s
+
+      Kokkos (multithreading)
+        Time:   0.00434728 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00720641 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00878495 s
+
+      Kokkos (multithreading)
+        Time:   0.00721315 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.011911 s
+        Error:  0
+
+====================================
+Dimensions: 1048576 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.00794144 s
+
+      Kokkos (multithreading)
+        Time:   0.00666243 s
+@ PRODUCT1DRKOKKOSMT 1048576 0.00666243
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00726472 s
+@ PRODUCT1DRKOKKOSGPU 1048576 0.00726472
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00876763 s
+
+      Kokkos (multithreading)
+        Time:   0.0071419 s
+@ PRODUCT1DCKOKKOSMT 1048576 0.0071419
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0118841 s
+@ PRODUCT1DCKOKKOSGPU 1048576 0.0118841
+        Error:  0
+
+Dimensions: 1048576 1048576 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.00379191 s
+
+      Kokkos (multithreading)
+        Time:   0.00420525 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.00721398 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.00859729 s
+
+      Kokkos (multithreading)
+        Time:   0.00709978 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0119045 s
+        Error:  0
+
+====================================
+====================================
+====================================
+Dimensions: 4194304 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.0321059 s
+
+      Kokkos (multithreading)
+        Time:   0.0337036 s
+@ PRODUCT1DRKOKKOSMT 4194304 0.0337036
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0269534 s
+@ PRODUCT1DRKOKKOSGPU 4194304 0.0269534
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.0641449 s
+
+      Kokkos (multithreading)
+        Time:   0.0563982 s
+@ PRODUCT1DCKOKKOSMT 4194304 0.0563982
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0444753 s
+@ PRODUCT1DCKOKKOSGPU 4194304 0.0444753
+        Error:  0
+
+Dimensions: 4194304 4194304 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.0326032 s
+
+      Kokkos (multithreading)
+        Time:   0.033679 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0270653 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.0643086 s
+
+      Kokkos (multithreading)
+        Time:   0.0565548 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0442041 s
+        Error:  0
+
+====================================
+Dimensions: 4194304 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.0322839 s
+
+      Kokkos (multithreading)
+        Time:   0.0335569 s
+@ PRODUCT1DRKOKKOSMT 4194304 0.0335569
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0269281 s
+@ PRODUCT1DRKOKKOSGPU 4194304 0.0269281
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.0638919 s
+
+      Kokkos (multithreading)
+        Time:   0.0569421 s
+@ PRODUCT1DCKOKKOSMT 4194304 0.0569421
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.044371 s
+@ PRODUCT1DCKOKKOSGPU 4194304 0.044371
+        Error:  0
+
+Dimensions: 4194304 4194304 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.0321103 s
+
+      Kokkos (multithreading)
+        Time:   0.0334815 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0269413 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.0639572 s
+
+      Kokkos (multithreading)
+        Time:   0.056681 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0442155 s
+        Error:  0
+
+====================================
+Dimensions: 4194304 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.0323842 s
+
+      Kokkos (multithreading)
+        Time:   0.0359643 s
+@ PRODUCT1DRKOKKOSMT 4194304 0.0359643
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0273198 s
+@ PRODUCT1DRKOKKOSGPU 4194304 0.0273198
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.0640781 s
+
+      Kokkos (multithreading)
+        Time:   0.0578801 s
+@ PRODUCT1DCKOKKOSMT 4194304 0.0578801
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0442471 s
+@ PRODUCT1DCKOKKOSGPU 4194304 0.0442471
+        Error:  0
+
+Dimensions: 4194304 4194304 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.0324744 s
+
+      Kokkos (multithreading)
+        Time:   0.033753 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0269417 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.0640533 s
+
+      Kokkos (multithreading)
+        Time:   0.0571543 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0443045 s
+        Error:  0
+
+====================================
+Dimensions: 4194304 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.0321856 s
+
+      Kokkos (multithreading)
+        Time:   0.0325128 s
+@ PRODUCT1DRKOKKOSMT 4194304 0.0325128
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0269627 s
+@ PRODUCT1DRKOKKOSGPU 4194304 0.0269627
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.0638494 s
+
+      Kokkos (multithreading)
+        Time:   0.0543705 s
+@ PRODUCT1DCKOKKOSMT 4194304 0.0543705
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0447892 s
+@ PRODUCT1DCKOKKOSGPU 4194304 0.0447892
+        Error:  0
+
+Dimensions: 4194304 4194304 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.0321771 s
+
+      Kokkos (multithreading)
+        Time:   0.033675 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0268859 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.0640239 s
+
+      Kokkos (multithreading)
+        Time:   0.0561347 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0445646 s
+        Error:  0
+
+====================================
+Dimensions: 4194304 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.0323232 s
+
+      Kokkos (multithreading)
+        Time:   0.0338375 s
+@ PRODUCT1DRKOKKOSMT 4194304 0.0338375
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0269398 s
+@ PRODUCT1DRKOKKOSGPU 4194304 0.0269398
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.0644714 s
+
+      Kokkos (multithreading)
+        Time:   0.0565639 s
+@ PRODUCT1DCKOKKOSMT 4194304 0.0565639
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0449652 s
+@ PRODUCT1DCKOKKOSGPU 4194304 0.0449652
+        Error:  0
+
+Dimensions: 4194304 4194304 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.0324226 s
+
+      Kokkos (multithreading)
+        Time:   0.0338108 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0268632 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.0639587 s
+
+      Kokkos (multithreading)
+        Time:   0.0543439 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0445863 s
+        Error:  0
+
+====================================
+Dimensions: 4194304 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.0323187 s
+
+      Kokkos (multithreading)
+        Time:   0.0336841 s
+@ PRODUCT1DRKOKKOSMT 4194304 0.0336841
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0268372 s
+@ PRODUCT1DRKOKKOSGPU 4194304 0.0268372
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.0638847 s
+
+      Kokkos (multithreading)
+        Time:   0.0545575 s
+@ PRODUCT1DCKOKKOSMT 4194304 0.0545575
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0446282 s
+@ PRODUCT1DCKOKKOSGPU 4194304 0.0446282
+        Error:  0
+
+Dimensions: 4194304 4194304 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.0323452 s
+
+      Kokkos (multithreading)
+        Time:   0.0329006 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0275649 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.064864 s
+
+      Kokkos (multithreading)
+        Time:   0.0570261 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0443172 s
+        Error:  0
+
+====================================
+Dimensions: 4194304 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.0321666 s
+
+      Kokkos (multithreading)
+        Time:   0.0342225 s
+@ PRODUCT1DRKOKKOSMT 4194304 0.0342225
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0268643 s
+@ PRODUCT1DRKOKKOSGPU 4194304 0.0268643
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.0639955 s
+
+      Kokkos (multithreading)
+        Time:   0.0543575 s
+@ PRODUCT1DCKOKKOSMT 4194304 0.0543575
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0442933 s
+@ PRODUCT1DCKOKKOSGPU 4194304 0.0442933
+        Error:  0
+
+Dimensions: 4194304 4194304 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.0326406 s
+
+      Kokkos (multithreading)
+        Time:   0.0337268 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.026831 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.0637892 s
+
+      Kokkos (multithreading)
+        Time:   0.0571978 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0442105 s
+        Error:  0
+
+====================================
+Dimensions: 4194304 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.0324602 s
+
+      Kokkos (multithreading)
+        Time:   0.0333783 s
+@ PRODUCT1DRKOKKOSMT 4194304 0.0333783
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0269868 s
+@ PRODUCT1DRKOKKOSGPU 4194304 0.0269868
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.0638074 s
+
+      Kokkos (multithreading)
+        Time:   0.0546895 s
+@ PRODUCT1DCKOKKOSMT 4194304 0.0546895
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0443308 s
+@ PRODUCT1DCKOKKOSGPU 4194304 0.0443308
+        Error:  0
+
+Dimensions: 4194304 4194304 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.0324686 s
+
+      Kokkos (multithreading)
+        Time:   0.0345709 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0270352 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.0645906 s
+
+      Kokkos (multithreading)
+        Time:   0.0549599 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0442459 s
+        Error:  0
+
+====================================
+Dimensions: 4194304 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.0323012 s
+
+      Kokkos (multithreading)
+        Time:   0.0336805 s
+@ PRODUCT1DRKOKKOSMT 4194304 0.0336805
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0269626 s
+@ PRODUCT1DRKOKKOSGPU 4194304 0.0269626
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.0642136 s
+
+      Kokkos (multithreading)
+        Time:   0.0558181 s
+@ PRODUCT1DCKOKKOSMT 4194304 0.0558181
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0443397 s
+@ PRODUCT1DCKOKKOSGPU 4194304 0.0443397
+        Error:  0
+
+Dimensions: 4194304 4194304 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.0330592 s
+
+      Kokkos (multithreading)
+        Time:   0.0343862 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0269754 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.0646453 s
+
+      Kokkos (multithreading)
+        Time:   0.0574483 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0444363 s
+        Error:  0
+
+====================================
+Dimensions: 4194304 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.0326543 s
+
+      Kokkos (multithreading)
+        Time:   0.0342878 s
+@ PRODUCT1DRKOKKOSMT 4194304 0.0342878
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0269029 s
+@ PRODUCT1DRKOKKOSGPU 4194304 0.0269029
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.0642848 s
+
+      Kokkos (multithreading)
+        Time:   0.0551169 s
+@ PRODUCT1DCKOKKOSMT 4194304 0.0551169
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0444707 s
+@ PRODUCT1DCKOKKOSGPU 4194304 0.0444707
+        Error:  0
+
+Dimensions: 4194304 4194304 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.0322079 s
+
+      Kokkos (multithreading)
+        Time:   0.0335264 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0270364 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.0646121 s
+
+      Kokkos (multithreading)
+        Time:   0.0570522 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.0444367 s
+        Error:  0
+
+====================================
+====================================
+====================================
+Dimensions: 16777216 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.127124 s
+
+      Kokkos (multithreading)
+        Time:   0.125516 s
+@ PRODUCT1DRKOKKOSMT 16777216 0.125516
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.104386 s
+@ PRODUCT1DRKOKKOSGPU 16777216 0.104386
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.248975 s
+
+      Kokkos (multithreading)
+        Time:   0.20497 s
+@ PRODUCT1DCKOKKOSMT 16777216 0.20497
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.173171 s
+@ PRODUCT1DCKOKKOSGPU 16777216 0.173171
+        Error:  0
+
+Dimensions: 16777216 16777216 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.128138 s
+
+      Kokkos (multithreading)
+        Time:   0.125298 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.10462 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.248192 s
+
+      Kokkos (multithreading)
+        Time:   0.204792 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.173471 s
+        Error:  0
+
+====================================
+Dimensions: 16777216 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.125739 s
+
+      Kokkos (multithreading)
+        Time:   0.124496 s
+@ PRODUCT1DRKOKKOSMT 16777216 0.124496
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.104798 s
+@ PRODUCT1DRKOKKOSGPU 16777216 0.104798
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.248007 s
+
+      Kokkos (multithreading)
+        Time:   0.202708 s
+@ PRODUCT1DCKOKKOSMT 16777216 0.202708
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.173627 s
+@ PRODUCT1DCKOKKOSGPU 16777216 0.173627
+        Error:  0
+
+Dimensions: 16777216 16777216 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.126114 s
+
+      Kokkos (multithreading)
+        Time:   0.125025 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.104658 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.247549 s
+
+      Kokkos (multithreading)
+        Time:   0.20194 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.173621 s
+        Error:  0
+
+====================================
+Dimensions: 16777216 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.127122 s
+
+      Kokkos (multithreading)
+        Time:   0.124172 s
+@ PRODUCT1DRKOKKOSMT 16777216 0.124172
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.104057 s
+@ PRODUCT1DRKOKKOSGPU 16777216 0.104057
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.247829 s
+
+      Kokkos (multithreading)
+        Time:   0.202933 s
+@ PRODUCT1DCKOKKOSMT 16777216 0.202933
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.173633 s
+@ PRODUCT1DCKOKKOSGPU 16777216 0.173633
+        Error:  0
+
+Dimensions: 16777216 16777216 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.128873 s
+
+      Kokkos (multithreading)
+        Time:   0.126494 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.1043 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.249448 s
+
+      Kokkos (multithreading)
+        Time:   0.204716 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.174049 s
+        Error:  0
+
+====================================
+Dimensions: 16777216 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.126493 s
+
+      Kokkos (multithreading)
+        Time:   0.124307 s
+@ PRODUCT1DRKOKKOSMT 16777216 0.124307
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.104184 s
+@ PRODUCT1DRKOKKOSGPU 16777216 0.104184
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.247214 s
+
+      Kokkos (multithreading)
+        Time:   0.204189 s
+@ PRODUCT1DCKOKKOSMT 16777216 0.204189
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.173524 s
+@ PRODUCT1DCKOKKOSGPU 16777216 0.173524
+        Error:  0
+
+Dimensions: 16777216 16777216 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.125893 s
+
+      Kokkos (multithreading)
+        Time:   0.12535 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.104702 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.248498 s
+
+      Kokkos (multithreading)
+        Time:   0.20515 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.173495 s
+        Error:  0
+
+====================================
+Dimensions: 16777216 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.126986 s
+
+      Kokkos (multithreading)
+        Time:   0.125117 s
+@ PRODUCT1DRKOKKOSMT 16777216 0.125117
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.104579 s
+@ PRODUCT1DRKOKKOSGPU 16777216 0.104579
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.247837 s
+
+      Kokkos (multithreading)
+        Time:   0.203898 s
+@ PRODUCT1DCKOKKOSMT 16777216 0.203898
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.173905 s
+@ PRODUCT1DCKOKKOSGPU 16777216 0.173905
+        Error:  0
+
+Dimensions: 16777216 16777216 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.125956 s
+
+      Kokkos (multithreading)
+        Time:   0.124349 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.104148 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.247148 s
+
+      Kokkos (multithreading)
+        Time:   0.20372 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.173607 s
+        Error:  0
+
+====================================
+Dimensions: 16777216 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.125611 s
+
+      Kokkos (multithreading)
+        Time:   0.122862 s
+@ PRODUCT1DRKOKKOSMT 16777216 0.122862
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.104193 s
+@ PRODUCT1DRKOKKOSGPU 16777216 0.104193
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.248148 s
+
+      Kokkos (multithreading)
+        Time:   0.203137 s
+@ PRODUCT1DCKOKKOSMT 16777216 0.203137
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.173965 s
+@ PRODUCT1DCKOKKOSGPU 16777216 0.173965
+        Error:  0
+
+Dimensions: 16777216 16777216 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.126447 s
+
+      Kokkos (multithreading)
+        Time:   0.123508 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.104089 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.246973 s
+
+      Kokkos (multithreading)
+        Time:   0.203497 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.172972 s
+        Error:  0
+
+====================================
+Dimensions: 16777216 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.126065 s
+
+      Kokkos (multithreading)
+        Time:   0.123983 s
+@ PRODUCT1DRKOKKOSMT 16777216 0.123983
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.104849 s
+@ PRODUCT1DRKOKKOSGPU 16777216 0.104849
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.24861 s
+
+      Kokkos (multithreading)
+        Time:   0.203934 s
+@ PRODUCT1DCKOKKOSMT 16777216 0.203934
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.174619 s
+@ PRODUCT1DCKOKKOSGPU 16777216 0.174619
+        Error:  0
+
+Dimensions: 16777216 16777216 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.126427 s
+
+      Kokkos (multithreading)
+        Time:   0.125701 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.104583 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.248252 s
+
+      Kokkos (multithreading)
+        Time:   0.204015 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.173628 s
+        Error:  0
+
+====================================
+Dimensions: 16777216 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.126725 s
+
+      Kokkos (multithreading)
+        Time:   0.124007 s
+@ PRODUCT1DRKOKKOSMT 16777216 0.124007
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.104874 s
+@ PRODUCT1DRKOKKOSGPU 16777216 0.104874
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.248898 s
+
+      Kokkos (multithreading)
+        Time:   0.204812 s
+@ PRODUCT1DCKOKKOSMT 16777216 0.204812
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.17338 s
+@ PRODUCT1DCKOKKOSGPU 16777216 0.17338
+        Error:  0
+
+Dimensions: 16777216 16777216 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.126792 s
+
+      Kokkos (multithreading)
+        Time:   0.125512 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.104651 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.248263 s
+
+      Kokkos (multithreading)
+        Time:   0.204227 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.173397 s
+        Error:  0
+
+====================================
+Dimensions: 16777216 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.126234 s
+
+      Kokkos (multithreading)
+        Time:   0.123555 s
+@ PRODUCT1DRKOKKOSMT 16777216 0.123555
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.104534 s
+@ PRODUCT1DRKOKKOSGPU 16777216 0.104534
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.251388 s
+
+      Kokkos (multithreading)
+        Time:   0.20336 s
+@ PRODUCT1DCKOKKOSMT 16777216 0.20336
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.174391 s
+@ PRODUCT1DCKOKKOSGPU 16777216 0.174391
+        Error:  0
+
+Dimensions: 16777216 16777216 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.126823 s
+
+      Kokkos (multithreading)
+        Time:   0.124889 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.104842 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.247813 s
+
+      Kokkos (multithreading)
+        Time:   0.203387 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.173794 s
+        Error:  0
+
+====================================
+Dimensions: 16777216 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.126948 s
+
+      Kokkos (multithreading)
+        Time:   0.124176 s
+@ PRODUCT1DRKOKKOSMT 16777216 0.124176
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.104369 s
+@ PRODUCT1DRKOKKOSGPU 16777216 0.104369
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.247269 s
+
+      Kokkos (multithreading)
+        Time:   0.204148 s
+@ PRODUCT1DCKOKKOSMT 16777216 0.204148
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.173729 s
+@ PRODUCT1DCKOKKOSGPU 16777216 0.173729
+        Error:  0
+
+Dimensions: 16777216 16777216 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.126883 s
+
+      Kokkos (multithreading)
+        Time:   0.125111 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.104409 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.247575 s
+
+      Kokkos (multithreading)
+        Time:   0.204265 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.173378 s
+        Error:  0
+
+====================================
+====================================
+====================================
+Dimensions: 67108864 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.500839 s
+
+      Kokkos (multithreading)
+        Time:   0.476198 s
+@ PRODUCT1DRKOKKOSMT 67108864 0.476198
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.41699 s
+@ PRODUCT1DRKOKKOSGPU 67108864 0.41699
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.988811 s
+
+      Kokkos (multithreading)
+        Time:   0.79526 s
+@ PRODUCT1DCKOKKOSMT 67108864 0.79526
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.695474 s
+@ PRODUCT1DCKOKKOSGPU 67108864 0.695474
+        Error:  0
+
+Dimensions: 67108864 67108864 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.503607 s
+
+      Kokkos (multithreading)
+        Time:   0.479512 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.417349 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.98825 s
+
+      Kokkos (multithreading)
+        Time:   0.79383 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.694205 s
+        Error:  0
+
+====================================
+Dimensions: 67108864 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.502324 s
+
+      Kokkos (multithreading)
+        Time:   0.474665 s
+@ PRODUCT1DRKOKKOSMT 67108864 0.474665
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.417445 s
+@ PRODUCT1DRKOKKOSGPU 67108864 0.417445
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.988347 s
+
+      Kokkos (multithreading)
+        Time:   0.794969 s
+@ PRODUCT1DCKOKKOSMT 67108864 0.794969
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.696454 s
+@ PRODUCT1DCKOKKOSGPU 67108864 0.696454
+        Error:  0
+
+Dimensions: 67108864 67108864 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.5034 s
+
+      Kokkos (multithreading)
+        Time:   0.473467 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.416134 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.989299 s
+
+      Kokkos (multithreading)
+        Time:   0.796567 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.693946 s
+        Error:  0
+
+====================================
+Dimensions: 67108864 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.504354 s
+
+      Kokkos (multithreading)
+        Time:   0.479703 s
+@ PRODUCT1DRKOKKOSMT 67108864 0.479703
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.417577 s
+@ PRODUCT1DRKOKKOSGPU 67108864 0.417577
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.992035 s
+
+      Kokkos (multithreading)
+        Time:   0.797654 s
+@ PRODUCT1DCKOKKOSMT 67108864 0.797654
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.693823 s
+@ PRODUCT1DCKOKKOSGPU 67108864 0.693823
+        Error:  0
+
+Dimensions: 67108864 67108864 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.504437 s
+
+      Kokkos (multithreading)
+        Time:   0.478307 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.416544 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.990783 s
+
+      Kokkos (multithreading)
+        Time:   0.795784 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.694321 s
+        Error:  0
+
+====================================
+Dimensions: 67108864 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.503123 s
+
+      Kokkos (multithreading)
+        Time:   0.475861 s
+@ PRODUCT1DRKOKKOSMT 67108864 0.475861
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.416704 s
+@ PRODUCT1DRKOKKOSGPU 67108864 0.416704
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.991067 s
+
+      Kokkos (multithreading)
+        Time:   0.796293 s
+@ PRODUCT1DCKOKKOSMT 67108864 0.796293
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.695545 s
+@ PRODUCT1DCKOKKOSGPU 67108864 0.695545
+        Error:  0
+
+Dimensions: 67108864 67108864 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.504745 s
+
+      Kokkos (multithreading)
+        Time:   0.479241 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.417588 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.989406 s
+
+      Kokkos (multithreading)
+        Time:   0.796975 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.695166 s
+        Error:  0
+
+====================================
+Dimensions: 67108864 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.501635 s
+
+      Kokkos (multithreading)
+        Time:   0.475549 s
+@ PRODUCT1DRKOKKOSMT 67108864 0.475549
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.416877 s
+@ PRODUCT1DRKOKKOSGPU 67108864 0.416877
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.98624 s
+
+      Kokkos (multithreading)
+        Time:   0.798898 s
+@ PRODUCT1DCKOKKOSMT 67108864 0.798898
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.695386 s
+@ PRODUCT1DCKOKKOSGPU 67108864 0.695386
+        Error:  0
+
+Dimensions: 67108864 67108864 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.503062 s
+
+      Kokkos (multithreading)
+        Time:   0.480196 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.417192 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.987823 s
+
+      Kokkos (multithreading)
+        Time:   0.79555 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.695076 s
+        Error:  0
+
+====================================
+Dimensions: 67108864 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.503498 s
+
+      Kokkos (multithreading)
+        Time:   0.476972 s
+@ PRODUCT1DRKOKKOSMT 67108864 0.476972
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.418201 s
+@ PRODUCT1DRKOKKOSGPU 67108864 0.418201
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.98776 s
+
+      Kokkos (multithreading)
+        Time:   0.794502 s
+@ PRODUCT1DCKOKKOSMT 67108864 0.794502
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.695079 s
+@ PRODUCT1DCKOKKOSGPU 67108864 0.695079
+        Error:  0
+
+Dimensions: 67108864 67108864 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.50248 s
+
+      Kokkos (multithreading)
+        Time:   0.475288 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.416372 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.988938 s
+
+      Kokkos (multithreading)
+        Time:   0.795121 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.697242 s
+        Error:  0
+
+====================================
+Dimensions: 67108864 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.502424 s
+
+      Kokkos (multithreading)
+        Time:   0.479003 s
+@ PRODUCT1DRKOKKOSMT 67108864 0.479003
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.417202 s
+@ PRODUCT1DRKOKKOSGPU 67108864 0.417202
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.986039 s
+
+      Kokkos (multithreading)
+        Time:   0.794603 s
+@ PRODUCT1DCKOKKOSMT 67108864 0.794603
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.697466 s
+@ PRODUCT1DCKOKKOSGPU 67108864 0.697466
+        Error:  0
+
+Dimensions: 67108864 67108864 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.502907 s
+
+      Kokkos (multithreading)
+        Time:   0.477297 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.416144 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.986294 s
+
+      Kokkos (multithreading)
+        Time:   0.794981 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.698218 s
+        Error:  0
+
+====================================
+Dimensions: 67108864 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.502706 s
+
+      Kokkos (multithreading)
+        Time:   0.474468 s
+@ PRODUCT1DRKOKKOSMT 67108864 0.474468
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.416642 s
+@ PRODUCT1DRKOKKOSGPU 67108864 0.416642
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.987262 s
+
+      Kokkos (multithreading)
+        Time:   0.8005 s
+@ PRODUCT1DCKOKKOSMT 67108864 0.8005
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.699827 s
+@ PRODUCT1DCKOKKOSGPU 67108864 0.699827
+        Error:  0
+
+Dimensions: 67108864 67108864 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.50155 s
+
+      Kokkos (multithreading)
+        Time:   0.474032 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.417708 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.983187 s
+
+      Kokkos (multithreading)
+        Time:   0.796679 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.698942 s
+        Error:  0
+
+====================================
+Dimensions: 67108864 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.506437 s
+
+      Kokkos (multithreading)
+        Time:   0.4794 s
+@ PRODUCT1DRKOKKOSMT 67108864 0.4794
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.417117 s
+@ PRODUCT1DRKOKKOSGPU 67108864 0.417117
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.991326 s
+
+      Kokkos (multithreading)
+        Time:   0.798474 s
+@ PRODUCT1DCKOKKOSMT 67108864 0.798474
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.695559 s
+@ PRODUCT1DCKOKKOSGPU 67108864 0.695559
+        Error:  0
+
+Dimensions: 67108864 67108864 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.50468 s
+
+      Kokkos (multithreading)
+        Time:   0.479351 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.417469 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.990006 s
+
+      Kokkos (multithreading)
+        Time:   0.798257 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.694727 s
+        Error:  0
+
+====================================
+Dimensions: 67108864 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.503208 s
+
+      Kokkos (multithreading)
+        Time:   0.47523 s
+@ PRODUCT1DRKOKKOSMT 67108864 0.47523
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.417696 s
+@ PRODUCT1DRKOKKOSGPU 67108864 0.417696
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.984579 s
+
+      Kokkos (multithreading)
+        Time:   0.794348 s
+@ PRODUCT1DCKOKKOSMT 67108864 0.794348
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.694706 s
+@ PRODUCT1DCKOKKOSGPU 67108864 0.694706
+        Error:  0
+
+Dimensions: 67108864 67108864 
+N coils: 1
+
+  Real
+
+    Multiplication
+      CPU
+        Time:   0.506039 s
+
+      Kokkos (multithreading)
+        Time:   0.475105 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.418595 s
+        Error:  0
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:   0.988524 s
+
+      Kokkos (multithreading)
+        Time:   0.793737 s
+        Error:  0
+
+      Kokkos (GPU)
+        Time:   0.697048 s
+        Error:  0
+
+====================================
+====================================
+====================================
