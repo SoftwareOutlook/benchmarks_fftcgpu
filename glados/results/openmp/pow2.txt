@@ -1,3 +1,6 @@
+====================================
+====================================
+====================================
 /home/pgambron/GPU/openmp/test
 ====
 ====================================
@@ -10,99 +13,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  2.664e-06 s
-@ PRODUCT1DRCPU 256 2.664e-06
+        Time:  2.301e-06 s
+@ PRODUCT1DRCPU 256 2.301e-06
 
       OpenMP CPU
-        Time:  5.31e-07 s
-@ PRODUCT1DROPENMPCPU 256 5.31e-07
+        Time:  4.77e-07 s
+@ PRODUCT1DROPENMPCPU 256 4.77e-07
 
       OpenMP GPU
-        Time:  5.1e-07 s
-@ PRODUCT1DROPENMPGPU 256 5.1e-07
+        Time:  4.59e-07 s
+@ PRODUCT1DROPENMPGPU 256 4.59e-07
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  3.12e-06 s
-@ PRODUCT1DCCPU 256 3.12e-06
+        Time:  2.727e-06 s
+@ PRODUCT1DCCPU 256 2.727e-06
 
       OpenMP
-        Time:  5.23e-07 s
-@ PRODUCT1DCOPENMPCPU 256 5.23e-07
-
-      OpenMP GPU
-        Time:  5.09e-07 s
-@ PRODUCT1DCOPENMPGPU 256 5.09e-07
-
-====================================
-Dimensions: 256 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  2.264e-06 s
-@ PRODUCT1DRCPU 256 2.264e-06
-
-      OpenMP CPU
         Time:  4.71e-07 s
-@ PRODUCT1DROPENMPCPU 256 4.71e-07
+@ PRODUCT1DCOPENMPCPU 256 4.71e-07
 
       OpenMP GPU
-        Time:  5.06e-07 s
-@ PRODUCT1DROPENMPGPU 256 5.06e-07
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  2.709e-06 s
-@ PRODUCT1DCCPU 256 2.709e-06
-
-      OpenMP
-        Time:  5.24e-07 s
-@ PRODUCT1DCOPENMPCPU 256 5.24e-07
-
-      OpenMP GPU
-        Time:  5.21e-07 s
-@ PRODUCT1DCOPENMPGPU 256 5.21e-07
-
-====================================
-Dimensions: 256 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  2.217e-06 s
-@ PRODUCT1DRCPU 256 2.217e-06
-
-      OpenMP CPU
         Time:  4.66e-07 s
-@ PRODUCT1DROPENMPCPU 256 4.66e-07
-
-      OpenMP GPU
-        Time:  5.11e-07 s
-@ PRODUCT1DROPENMPGPU 256 5.11e-07
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  2.695e-06 s
-@ PRODUCT1DCCPU 256 2.695e-06
-
-      OpenMP
-        Time:  5.23e-07 s
-@ PRODUCT1DCOPENMPCPU 256 5.23e-07
-
-      OpenMP GPU
-        Time:  5.19e-07 s
-@ PRODUCT1DCOPENMPGPU 256 5.19e-07
+@ PRODUCT1DCOPENMPGPU 256 4.66e-07
 
 ====================================
 Dimensions: 256 
@@ -112,65 +47,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  3.035e-06 s
-@ PRODUCT1DRCPU 256 3.035e-06
+        Time:  2.787e-06 s
+@ PRODUCT1DRCPU 256 2.787e-06
 
       OpenMP CPU
-        Time:  1.0818e-05 s
-@ PRODUCT1DROPENMPCPU 256 1.0818e-05
+        Time:  6.06e-07 s
+@ PRODUCT1DROPENMPCPU 256 6.06e-07
 
       OpenMP GPU
-        Time:  7.68e-07 s
-@ PRODUCT1DROPENMPGPU 256 7.68e-07
+        Time:  6.62e-07 s
+@ PRODUCT1DROPENMPGPU 256 6.62e-07
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  3.979e-06 s
-@ PRODUCT1DCCPU 256 3.979e-06
+        Time:  3.371e-06 s
+@ PRODUCT1DCCPU 256 3.371e-06
 
       OpenMP
-        Time:  7.94e-07 s
-@ PRODUCT1DCOPENMPCPU 256 7.94e-07
+        Time:  6.85e-07 s
+@ PRODUCT1DCOPENMPCPU 256 6.85e-07
 
       OpenMP GPU
-        Time:  8.04e-07 s
-@ PRODUCT1DCOPENMPGPU 256 8.04e-07
-
-====================================
-Dimensions: 256 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  3.209e-06 s
-@ PRODUCT1DRCPU 256 3.209e-06
-
-      OpenMP CPU
-        Time:  7.01e-07 s
-@ PRODUCT1DROPENMPCPU 256 7.01e-07
-
-      OpenMP GPU
-        Time:  7.78e-07 s
-@ PRODUCT1DROPENMPGPU 256 7.78e-07
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  4.108e-06 s
-@ PRODUCT1DCCPU 256 4.108e-06
-
-      OpenMP
-        Time:  7.97e-07 s
-@ PRODUCT1DCOPENMPCPU 256 7.97e-07
-
-      OpenMP GPU
-        Time:  7.93e-07 s
-@ PRODUCT1DCOPENMPGPU 256 7.93e-07
+        Time:  6.7e-07 s
+@ PRODUCT1DCOPENMPGPU 256 6.7e-07
 
 ====================================
 Dimensions: 256 
@@ -180,65 +81,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  2.859e-06 s
-@ PRODUCT1DRCPU 256 2.859e-06
+        Time:  2.723e-06 s
+@ PRODUCT1DRCPU 256 2.723e-06
 
       OpenMP CPU
-        Time:  6.44e-07 s
-@ PRODUCT1DROPENMPCPU 256 6.44e-07
+        Time:  6.04e-07 s
+@ PRODUCT1DROPENMPCPU 256 6.04e-07
 
       OpenMP GPU
-        Time:  7.22e-07 s
-@ PRODUCT1DROPENMPGPU 256 7.22e-07
+        Time:  7.41e-07 s
+@ PRODUCT1DROPENMPGPU 256 7.41e-07
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  3.864e-06 s
-@ PRODUCT1DCCPU 256 3.864e-06
+        Time:  3.373e-06 s
+@ PRODUCT1DCCPU 256 3.373e-06
 
       OpenMP
-        Time:  7.28e-07 s
-@ PRODUCT1DCOPENMPCPU 256 7.28e-07
+        Time:  6.77e-07 s
+@ PRODUCT1DCOPENMPCPU 256 6.77e-07
 
       OpenMP GPU
-        Time:  7.22e-07 s
-@ PRODUCT1DCOPENMPGPU 256 7.22e-07
-
-====================================
-Dimensions: 256 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  2.953e-06 s
-@ PRODUCT1DRCPU 256 2.953e-06
-
-      OpenMP CPU
-        Time:  6.45e-07 s
-@ PRODUCT1DROPENMPCPU 256 6.45e-07
-
-      OpenMP GPU
-        Time:  7.14e-07 s
-@ PRODUCT1DROPENMPGPU 256 7.14e-07
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  3.754e-06 s
-@ PRODUCT1DCCPU 256 3.754e-06
-
-      OpenMP
-        Time:  7.31e-07 s
-@ PRODUCT1DCOPENMPCPU 256 7.31e-07
-
-      OpenMP GPU
-        Time:  7.23e-07 s
-@ PRODUCT1DCOPENMPGPU 256 7.23e-07
+        Time:  7.04e-07 s
+@ PRODUCT1DCOPENMPGPU 256 7.04e-07
 
 ====================================
 Dimensions: 256 
@@ -248,65 +115,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  2.926e-06 s
-@ PRODUCT1DRCPU 256 2.926e-06
+        Time:  2.758e-06 s
+@ PRODUCT1DRCPU 256 2.758e-06
 
       OpenMP CPU
-        Time:  6.49e-07 s
-@ PRODUCT1DROPENMPCPU 256 6.49e-07
+        Time:  5.95e-07 s
+@ PRODUCT1DROPENMPCPU 256 5.95e-07
 
       OpenMP GPU
-        Time:  7.13e-07 s
-@ PRODUCT1DROPENMPGPU 256 7.13e-07
+        Time:  6.62e-07 s
+@ PRODUCT1DROPENMPGPU 256 6.62e-07
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  3.766e-06 s
-@ PRODUCT1DCCPU 256 3.766e-06
+        Time:  3.536e-06 s
+@ PRODUCT1DCCPU 256 3.536e-06
 
       OpenMP
-        Time:  7.32e-07 s
-@ PRODUCT1DCOPENMPCPU 256 7.32e-07
+        Time:  6.83e-07 s
+@ PRODUCT1DCOPENMPCPU 256 6.83e-07
 
       OpenMP GPU
-        Time:  7.38e-07 s
-@ PRODUCT1DCOPENMPGPU 256 7.38e-07
-
-====================================
-Dimensions: 256 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  3.003e-06 s
-@ PRODUCT1DRCPU 256 3.003e-06
-
-      OpenMP CPU
-        Time:  6.55e-07 s
-@ PRODUCT1DROPENMPCPU 256 6.55e-07
-
-      OpenMP GPU
-        Time:  7.17e-07 s
-@ PRODUCT1DROPENMPGPU 256 7.17e-07
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  3.72e-06 s
-@ PRODUCT1DCCPU 256 3.72e-06
-
-      OpenMP
-        Time:  7.31e-07 s
-@ PRODUCT1DCOPENMPCPU 256 7.31e-07
-
-      OpenMP GPU
-        Time:  7.22e-07 s
-@ PRODUCT1DCOPENMPGPU 256 7.22e-07
+        Time:  6.74e-07 s
+@ PRODUCT1DCOPENMPGPU 256 6.74e-07
 
 ====================================
 Dimensions: 256 
@@ -316,31 +149,201 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  4.137e-06 s
-@ PRODUCT1DRCPU 256 4.137e-06
+        Time:  3.873e-06 s
+@ PRODUCT1DRCPU 256 3.873e-06
 
       OpenMP CPU
-        Time:  9e-07 s
-@ PRODUCT1DROPENMPCPU 256 9e-07
+        Time:  8.53e-07 s
+@ PRODUCT1DROPENMPCPU 256 8.53e-07
 
       OpenMP GPU
-        Time:  9.9e-07 s
-@ PRODUCT1DROPENMPGPU 256 9.9e-07
+        Time:  9.38e-07 s
+@ PRODUCT1DROPENMPGPU 256 9.38e-07
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  5.135e-06 s
-@ PRODUCT1DCCPU 256 5.135e-06
+        Time:  4.885e-06 s
+@ PRODUCT1DCCPU 256 4.885e-06
 
       OpenMP
-        Time:  1.016e-06 s
-@ PRODUCT1DCOPENMPCPU 256 1.016e-06
+        Time:  9.75e-07 s
+@ PRODUCT1DCOPENMPCPU 256 9.75e-07
 
       OpenMP GPU
-        Time:  1.012e-06 s
-@ PRODUCT1DCOPENMPGPU 256 1.012e-06
+        Time:  9.45e-07 s
+@ PRODUCT1DCOPENMPGPU 256 9.45e-07
+
+====================================
+Dimensions: 256 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  3.812e-06 s
+@ PRODUCT1DRCPU 256 3.812e-06
+
+      OpenMP CPU
+        Time:  8.42e-07 s
+@ PRODUCT1DROPENMPCPU 256 8.42e-07
+
+      OpenMP GPU
+        Time:  9.61e-07 s
+@ PRODUCT1DROPENMPGPU 256 9.61e-07
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  4.729e-06 s
+@ PRODUCT1DCCPU 256 4.729e-06
+
+      OpenMP
+        Time:  9.59e-07 s
+@ PRODUCT1DCOPENMPCPU 256 9.59e-07
+
+      OpenMP GPU
+        Time:  9.4e-07 s
+@ PRODUCT1DCOPENMPGPU 256 9.4e-07
+
+====================================
+Dimensions: 256 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  3.785e-06 s
+@ PRODUCT1DRCPU 256 3.785e-06
+
+      OpenMP CPU
+        Time:  8.5e-07 s
+@ PRODUCT1DROPENMPCPU 256 8.5e-07
+
+      OpenMP GPU
+        Time:  9.45e-07 s
+@ PRODUCT1DROPENMPGPU 256 9.45e-07
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  4.722e-06 s
+@ PRODUCT1DCCPU 256 4.722e-06
+
+      OpenMP
+        Time:  9.74e-07 s
+@ PRODUCT1DCOPENMPCPU 256 9.74e-07
+
+      OpenMP GPU
+        Time:  9.67e-07 s
+@ PRODUCT1DCOPENMPGPU 256 9.67e-07
+
+====================================
+Dimensions: 256 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  4.105e-06 s
+@ PRODUCT1DRCPU 256 4.105e-06
+
+      OpenMP CPU
+        Time:  8.47e-07 s
+@ PRODUCT1DROPENMPCPU 256 8.47e-07
+
+      OpenMP GPU
+        Time:  9.44e-07 s
+@ PRODUCT1DROPENMPGPU 256 9.44e-07
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  4.87e-06 s
+@ PRODUCT1DCCPU 256 4.87e-06
+
+      OpenMP
+        Time:  9.76e-07 s
+@ PRODUCT1DCOPENMPCPU 256 9.76e-07
+
+      OpenMP GPU
+        Time:  9.46e-07 s
+@ PRODUCT1DCOPENMPGPU 256 9.46e-07
+
+====================================
+Dimensions: 256 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  4.795e-06 s
+@ PRODUCT1DRCPU 256 4.795e-06
+
+      OpenMP CPU
+        Time:  1.068e-06 s
+@ PRODUCT1DROPENMPCPU 256 1.068e-06
+
+      OpenMP GPU
+        Time:  1.197e-06 s
+@ PRODUCT1DROPENMPGPU 256 1.197e-06
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  6.034e-06 s
+@ PRODUCT1DCCPU 256 6.034e-06
+
+      OpenMP
+        Time:  1.212e-06 s
+@ PRODUCT1DCOPENMPCPU 256 1.212e-06
+
+      OpenMP GPU
+        Time:  1.193e-06 s
+@ PRODUCT1DCOPENMPGPU 256 1.193e-06
+
+====================================
+Dimensions: 256 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  4.85e-06 s
+@ PRODUCT1DRCPU 256 4.85e-06
+
+      OpenMP CPU
+        Time:  1.076e-06 s
+@ PRODUCT1DROPENMPCPU 256 1.076e-06
+
+      OpenMP GPU
+        Time:  1.174e-06 s
+@ PRODUCT1DROPENMPGPU 256 1.174e-06
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  5.897e-06 s
+@ PRODUCT1DCCPU 256 5.897e-06
+
+      OpenMP
+        Time:  1.277e-06 s
+@ PRODUCT1DCOPENMPCPU 256 1.277e-06
+
+      OpenMP GPU
+        Time:  1.247e-06 s
+@ PRODUCT1DCOPENMPGPU 256 1.247e-06
 
 ====================================
 ====================================
@@ -352,65 +355,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  1.974e-05 s
-@ PRODUCT1DRCPU 1024 1.974e-05
+        Time:  2.2467e-05 s
+@ PRODUCT1DRCPU 1024 2.2467e-05
 
       OpenMP CPU
-        Time:  3.049e-06 s
-@ PRODUCT1DROPENMPCPU 1024 3.049e-06
+        Time:  3.675e-06 s
+@ PRODUCT1DROPENMPCPU 1024 3.675e-06
 
       OpenMP GPU
-        Time:  3.557e-06 s
-@ PRODUCT1DROPENMPGPU 1024 3.557e-06
+        Time:  4.291e-06 s
+@ PRODUCT1DROPENMPGPU 1024 4.291e-06
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  1.9126e-05 s
-@ PRODUCT1DCCPU 1024 1.9126e-05
+        Time:  2.2428e-05 s
+@ PRODUCT1DCCPU 1024 2.2428e-05
 
       OpenMP
-        Time:  3.62e-06 s
-@ PRODUCT1DCOPENMPCPU 1024 3.62e-06
+        Time:  4.392e-06 s
+@ PRODUCT1DCOPENMPCPU 1024 4.392e-06
 
       OpenMP GPU
-        Time:  3.628e-06 s
-@ PRODUCT1DCOPENMPGPU 1024 3.628e-06
-
-====================================
-Dimensions: 1024 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  1.5133e-05 s
-@ PRODUCT1DRCPU 1024 1.5133e-05
-
-      OpenMP CPU
-        Time:  2.199e-06 s
-@ PRODUCT1DROPENMPCPU 1024 2.199e-06
-
-      OpenMP GPU
-        Time:  2.56e-06 s
-@ PRODUCT1DROPENMPGPU 1024 2.56e-06
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  1.392e-05 s
-@ PRODUCT1DCCPU 1024 1.392e-05
-
-      OpenMP
-        Time:  2.608e-06 s
-@ PRODUCT1DCOPENMPCPU 1024 2.608e-06
-
-      OpenMP GPU
-        Time:  2.616e-06 s
-@ PRODUCT1DCOPENMPGPU 1024 2.616e-06
+        Time:  4.408e-06 s
+@ PRODUCT1DCOPENMPGPU 1024 4.408e-06
 
 ====================================
 Dimensions: 1024 
@@ -420,65 +389,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  2.1651e-05 s
-@ PRODUCT1DRCPU 1024 2.1651e-05
+        Time:  2.4026e-05 s
+@ PRODUCT1DRCPU 1024 2.4026e-05
 
       OpenMP CPU
-        Time:  3.422e-06 s
-@ PRODUCT1DROPENMPCPU 1024 3.422e-06
+        Time:  4.149e-06 s
+@ PRODUCT1DROPENMPCPU 1024 4.149e-06
 
       OpenMP GPU
-        Time:  4.019e-06 s
-@ PRODUCT1DROPENMPGPU 1024 4.019e-06
+        Time:  4.906e-06 s
+@ PRODUCT1DROPENMPGPU 1024 4.906e-06
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  3.1672e-05 s
-@ PRODUCT1DCCPU 1024 3.1672e-05
+        Time:  2.589e-05 s
+@ PRODUCT1DCCPU 1024 2.589e-05
 
       OpenMP
-        Time:  4.081e-06 s
-@ PRODUCT1DCOPENMPCPU 1024 4.081e-06
+        Time:  4.981e-06 s
+@ PRODUCT1DCOPENMPCPU 1024 4.981e-06
 
       OpenMP GPU
-        Time:  4.03e-06 s
-@ PRODUCT1DCOPENMPGPU 1024 4.03e-06
-
-====================================
-Dimensions: 1024 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  1.4477e-05 s
-@ PRODUCT1DRCPU 1024 1.4477e-05
-
-      OpenMP CPU
-        Time:  3.449e-06 s
-@ PRODUCT1DROPENMPCPU 1024 3.449e-06
-
-      OpenMP GPU
-        Time:  4.016e-06 s
-@ PRODUCT1DROPENMPGPU 1024 4.016e-06
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  2.1029e-05 s
-@ PRODUCT1DCCPU 1024 2.1029e-05
-
-      OpenMP
-        Time:  4.065e-06 s
-@ PRODUCT1DCOPENMPCPU 1024 4.065e-06
-
-      OpenMP GPU
-        Time:  4.097e-06 s
-@ PRODUCT1DCOPENMPGPU 1024 4.097e-06
+        Time:  4.956e-06 s
+@ PRODUCT1DCOPENMPGPU 1024 4.956e-06
 
 ====================================
 Dimensions: 1024 
@@ -488,65 +423,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  1.4226e-05 s
-@ PRODUCT1DRCPU 1024 1.4226e-05
+        Time:  4.2094e-05 s
+@ PRODUCT1DRCPU 1024 4.2094e-05
 
       OpenMP CPU
-        Time:  2.2e-06 s
-@ PRODUCT1DROPENMPCPU 1024 2.2e-06
+        Time:  4.225e-06 s
+@ PRODUCT1DROPENMPCPU 1024 4.225e-06
 
       OpenMP GPU
-        Time:  2.565e-06 s
-@ PRODUCT1DROPENMPGPU 1024 2.565e-06
+        Time:  4.949e-06 s
+@ PRODUCT1DROPENMPGPU 1024 4.949e-06
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  2.1623e-05 s
-@ PRODUCT1DCCPU 1024 2.1623e-05
+        Time:  2.5271e-05 s
+@ PRODUCT1DCCPU 1024 2.5271e-05
 
       OpenMP
-        Time:  4.067e-06 s
-@ PRODUCT1DCOPENMPCPU 1024 4.067e-06
+        Time:  4.996e-06 s
+@ PRODUCT1DCOPENMPCPU 1024 4.996e-06
 
       OpenMP GPU
-        Time:  4.04e-06 s
-@ PRODUCT1DCOPENMPGPU 1024 4.04e-06
-
-====================================
-Dimensions: 1024 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  2.2312e-05 s
-@ PRODUCT1DRCPU 1024 2.2312e-05
-
-      OpenMP CPU
-        Time:  3.641e-06 s
-@ PRODUCT1DROPENMPCPU 1024 3.641e-06
-
-      OpenMP GPU
-        Time:  4.252e-06 s
-@ PRODUCT1DROPENMPGPU 1024 4.252e-06
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  2.3006e-05 s
-@ PRODUCT1DCCPU 1024 2.3006e-05
-
-      OpenMP
-        Time:  4.317e-06 s
-@ PRODUCT1DCOPENMPCPU 1024 4.317e-06
-
-      OpenMP GPU
-        Time:  4.313e-06 s
-@ PRODUCT1DCOPENMPGPU 1024 4.313e-06
+        Time:  4.976e-06 s
+@ PRODUCT1DCOPENMPGPU 1024 4.976e-06
 
 ====================================
 Dimensions: 1024 
@@ -556,65 +457,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  2.2907e-05 s
-@ PRODUCT1DRCPU 1024 2.2907e-05
+        Time:  4.1936e-05 s
+@ PRODUCT1DRCPU 1024 4.1936e-05
 
       OpenMP CPU
-        Time:  3.641e-06 s
-@ PRODUCT1DROPENMPCPU 1024 3.641e-06
+        Time:  4.241e-06 s
+@ PRODUCT1DROPENMPCPU 1024 4.241e-06
 
       OpenMP GPU
-        Time:  4.25e-06 s
-@ PRODUCT1DROPENMPGPU 1024 4.25e-06
+        Time:  4.923e-06 s
+@ PRODUCT1DROPENMPGPU 1024 4.923e-06
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  2.239e-05 s
-@ PRODUCT1DCCPU 1024 2.239e-05
+        Time:  2.5569e-05 s
+@ PRODUCT1DCCPU 1024 2.5569e-05
 
       OpenMP
-        Time:  4.335e-06 s
-@ PRODUCT1DCOPENMPCPU 1024 4.335e-06
+        Time:  5.013e-06 s
+@ PRODUCT1DCOPENMPCPU 1024 5.013e-06
 
       OpenMP GPU
-        Time:  4.299e-06 s
-@ PRODUCT1DCOPENMPGPU 1024 4.299e-06
-
-====================================
-Dimensions: 1024 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  2.2541e-05 s
-@ PRODUCT1DRCPU 1024 2.2541e-05
-
-      OpenMP CPU
-        Time:  3.651e-06 s
-@ PRODUCT1DROPENMPCPU 1024 3.651e-06
-
-      OpenMP GPU
-        Time:  4.32e-06 s
-@ PRODUCT1DROPENMPGPU 1024 4.32e-06
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  2.2506e-05 s
-@ PRODUCT1DCCPU 1024 2.2506e-05
-
-      OpenMP
-        Time:  4.347e-06 s
-@ PRODUCT1DCOPENMPCPU 1024 4.347e-06
-
-      OpenMP GPU
-        Time:  4.352e-06 s
-@ PRODUCT1DCOPENMPGPU 1024 4.352e-06
+        Time:  4.989e-06 s
+@ PRODUCT1DCOPENMPGPU 1024 4.989e-06
 
 ====================================
 Dimensions: 1024 
@@ -624,31 +491,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  2.3953e-05 s
-@ PRODUCT1DRCPU 1024 2.3953e-05
+        Time:  2.7292e-05 s
+@ PRODUCT1DRCPU 1024 2.7292e-05
 
       OpenMP CPU
-        Time:  3.907e-06 s
-@ PRODUCT1DROPENMPCPU 1024 3.907e-06
+        Time:  4.554e-06 s
+@ PRODUCT1DROPENMPCPU 1024 4.554e-06
 
       OpenMP GPU
-        Time:  4.579e-06 s
-@ PRODUCT1DROPENMPGPU 1024 4.579e-06
+        Time:  5.329e-06 s
+@ PRODUCT1DROPENMPGPU 1024 5.329e-06
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  2.4143e-05 s
-@ PRODUCT1DCCPU 1024 2.4143e-05
+        Time:  2.789e-05 s
+@ PRODUCT1DCCPU 1024 2.789e-05
 
       OpenMP
-        Time:  4.646e-06 s
-@ PRODUCT1DCOPENMPCPU 1024 4.646e-06
+        Time:  5.442e-06 s
+@ PRODUCT1DCOPENMPCPU 1024 5.442e-06
 
       OpenMP GPU
-        Time:  4.62e-06 s
-@ PRODUCT1DCOPENMPGPU 1024 4.62e-06
+        Time:  5.395e-06 s
+@ PRODUCT1DCOPENMPGPU 1024 5.395e-06
 
 ====================================
 Dimensions: 1024 
@@ -658,31 +525,167 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  2.3938e-05 s
-@ PRODUCT1DRCPU 1024 2.3938e-05
+        Time:  2.7498e-05 s
+@ PRODUCT1DRCPU 1024 2.7498e-05
 
       OpenMP CPU
-        Time:  3.922e-06 s
-@ PRODUCT1DROPENMPCPU 1024 3.922e-06
+        Time:  4.565e-06 s
+@ PRODUCT1DROPENMPCPU 1024 4.565e-06
 
       OpenMP GPU
-        Time:  4.602e-06 s
-@ PRODUCT1DROPENMPGPU 1024 4.602e-06
+        Time:  5.344e-06 s
+@ PRODUCT1DROPENMPGPU 1024 5.344e-06
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  2.4437e-05 s
-@ PRODUCT1DCCPU 1024 2.4437e-05
+        Time:  2.7682e-05 s
+@ PRODUCT1DCCPU 1024 2.7682e-05
 
       OpenMP
-        Time:  4.644e-06 s
-@ PRODUCT1DCOPENMPCPU 1024 4.644e-06
+        Time:  5.428e-06 s
+@ PRODUCT1DCOPENMPCPU 1024 5.428e-06
 
       OpenMP GPU
-        Time:  4.619e-06 s
-@ PRODUCT1DCOPENMPGPU 1024 4.619e-06
+        Time:  5.374e-06 s
+@ PRODUCT1DCOPENMPGPU 1024 5.374e-06
+
+====================================
+Dimensions: 1024 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.8445e-05 s
+@ PRODUCT1DRCPU 1024 2.8445e-05
+
+      OpenMP CPU
+        Time:  4.6e-06 s
+@ PRODUCT1DROPENMPCPU 1024 4.6e-06
+
+      OpenMP GPU
+        Time:  5.35e-06 s
+@ PRODUCT1DROPENMPGPU 1024 5.35e-06
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  2.7553e-05 s
+@ PRODUCT1DCCPU 1024 2.7553e-05
+
+      OpenMP
+        Time:  5.43e-06 s
+@ PRODUCT1DCOPENMPCPU 1024 5.43e-06
+
+      OpenMP GPU
+        Time:  1.8962e-05 s
+@ PRODUCT1DCOPENMPGPU 1024 1.8962e-05
+
+====================================
+Dimensions: 1024 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.751e-05 s
+@ PRODUCT1DRCPU 1024 2.751e-05
+
+      OpenMP CPU
+        Time:  4.527e-06 s
+@ PRODUCT1DROPENMPCPU 1024 4.527e-06
+
+      OpenMP GPU
+        Time:  5.342e-06 s
+@ PRODUCT1DROPENMPGPU 1024 5.342e-06
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  2.7824e-05 s
+@ PRODUCT1DCCPU 1024 2.7824e-05
+
+      OpenMP
+        Time:  5.403e-06 s
+@ PRODUCT1DCOPENMPCPU 1024 5.403e-06
+
+      OpenMP GPU
+        Time:  5.405e-06 s
+@ PRODUCT1DCOPENMPGPU 1024 5.405e-06
+
+====================================
+Dimensions: 1024 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.1258e-05 s
+@ PRODUCT1DRCPU 1024 2.1258e-05
+
+      OpenMP CPU
+        Time:  3.421e-06 s
+@ PRODUCT1DROPENMPCPU 1024 3.421e-06
+
+      OpenMP GPU
+        Time:  4.021e-06 s
+@ PRODUCT1DROPENMPGPU 1024 4.021e-06
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  2.272e-05 s
+@ PRODUCT1DCCPU 1024 2.272e-05
+
+      OpenMP
+        Time:  4.072e-06 s
+@ PRODUCT1DCOPENMPCPU 1024 4.072e-06
+
+      OpenMP GPU
+        Time:  4.055e-06 s
+@ PRODUCT1DCOPENMPGPU 1024 4.055e-06
+
+====================================
+Dimensions: 1024 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.7351e-05 s
+@ PRODUCT1DRCPU 1024 2.7351e-05
+
+      OpenMP CPU
+        Time:  4.596e-06 s
+@ PRODUCT1DROPENMPCPU 1024 4.596e-06
+
+      OpenMP GPU
+        Time:  5.381e-06 s
+@ PRODUCT1DROPENMPGPU 1024 5.381e-06
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  2.1628e-05 s
+@ PRODUCT1DCCPU 1024 2.1628e-05
+
+      OpenMP
+        Time:  4.055e-06 s
+@ PRODUCT1DCOPENMPCPU 1024 4.055e-06
+
+      OpenMP GPU
+        Time:  4.05e-06 s
+@ PRODUCT1DCOPENMPGPU 1024 4.05e-06
 
 ====================================
 ====================================
@@ -694,65 +697,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  7.4427e-05 s
-@ PRODUCT1DRCPU 4096 7.4427e-05
+        Time:  6.4444e-05 s
+@ PRODUCT1DRCPU 4096 6.4444e-05
 
       OpenMP CPU
-        Time:  1.4957e-05 s
-@ PRODUCT1DROPENMPCPU 4096 1.4957e-05
+        Time:  1.3056e-05 s
+@ PRODUCT1DROPENMPCPU 4096 1.3056e-05
 
       OpenMP GPU
-        Time:  1.7816e-05 s
-@ PRODUCT1DROPENMPGPU 4096 1.7816e-05
+        Time:  1.5595e-05 s
+@ PRODUCT1DROPENMPGPU 4096 1.5595e-05
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  8.4945e-05 s
-@ PRODUCT1DCCPU 4096 8.4945e-05
+        Time:  7.5316e-05 s
+@ PRODUCT1DCCPU 4096 7.5316e-05
 
       OpenMP
-        Time:  1.7877e-05 s
-@ PRODUCT1DCOPENMPCPU 4096 1.7877e-05
+        Time:  1.5642e-05 s
+@ PRODUCT1DCOPENMPCPU 4096 1.5642e-05
 
       OpenMP GPU
-        Time:  1.7861e-05 s
-@ PRODUCT1DCOPENMPGPU 4096 1.7861e-05
-
-====================================
-Dimensions: 4096 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  7.9735e-05 s
-@ PRODUCT1DRCPU 4096 7.9735e-05
-
-      OpenMP CPU
-        Time:  1.608e-05 s
-@ PRODUCT1DROPENMPCPU 4096 1.608e-05
-
-      OpenMP GPU
-        Time:  1.9226e-05 s
-@ PRODUCT1DROPENMPGPU 4096 1.9226e-05
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  9.2946e-05 s
-@ PRODUCT1DCCPU 4096 9.2946e-05
-
-      OpenMP
-        Time:  1.9267e-05 s
-@ PRODUCT1DCOPENMPCPU 4096 1.9267e-05
-
-      OpenMP GPU
-        Time:  1.9332e-05 s
-@ PRODUCT1DCOPENMPGPU 4096 1.9332e-05
+        Time:  1.5749e-05 s
+@ PRODUCT1DCOPENMPGPU 4096 1.5749e-05
 
 ====================================
 Dimensions: 4096 
@@ -762,65 +731,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  4.3272e-05 s
-@ PRODUCT1DRCPU 4096 4.3272e-05
+        Time:  7.9003e-05 s
+@ PRODUCT1DRCPU 4096 7.9003e-05
 
       OpenMP CPU
-        Time:  8.371e-06 s
-@ PRODUCT1DROPENMPCPU 4096 8.371e-06
+        Time:  1.6107e-05 s
+@ PRODUCT1DROPENMPCPU 4096 1.6107e-05
 
       OpenMP GPU
-        Time:  9.996e-06 s
-@ PRODUCT1DROPENMPGPU 4096 9.996e-06
+        Time:  1.9209e-05 s
+@ PRODUCT1DROPENMPGPU 4096 1.9209e-05
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  9.4213e-05 s
-@ PRODUCT1DCCPU 4096 9.4213e-05
+        Time:  0.000102062 s
+@ PRODUCT1DCCPU 4096 0.000102062
 
       OpenMP
-        Time:  1.9253e-05 s
-@ PRODUCT1DCOPENMPCPU 4096 1.9253e-05
+        Time:  1.9234e-05 s
+@ PRODUCT1DCOPENMPCPU 4096 1.9234e-05
 
       OpenMP GPU
-        Time:  1.9248e-05 s
-@ PRODUCT1DCOPENMPGPU 4096 1.9248e-05
-
-====================================
-Dimensions: 4096 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  8.5645e-05 s
-@ PRODUCT1DRCPU 4096 8.5645e-05
-
-      OpenMP CPU
-        Time:  1.4919e-05 s
-@ PRODUCT1DROPENMPCPU 4096 1.4919e-05
-
-      OpenMP GPU
-        Time:  1.7808e-05 s
-@ PRODUCT1DROPENMPGPU 4096 1.7808e-05
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  8.7094e-05 s
-@ PRODUCT1DCCPU 4096 8.7094e-05
-
-      OpenMP
-        Time:  1.7853e-05 s
-@ PRODUCT1DCOPENMPCPU 4096 1.7853e-05
-
-      OpenMP GPU
-        Time:  1.7923e-05 s
-@ PRODUCT1DCOPENMPGPU 4096 1.7923e-05
+        Time:  1.9255e-05 s
+@ PRODUCT1DCOPENMPGPU 4096 1.9255e-05
 
 ====================================
 Dimensions: 4096 
@@ -830,65 +765,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  7.4482e-05 s
-@ PRODUCT1DRCPU 4096 7.4482e-05
+        Time:  7.856e-05 s
+@ PRODUCT1DRCPU 4096 7.856e-05
 
       OpenMP CPU
-        Time:  1.4932e-05 s
-@ PRODUCT1DROPENMPCPU 4096 1.4932e-05
+        Time:  1.6207e-05 s
+@ PRODUCT1DROPENMPCPU 4096 1.6207e-05
 
       OpenMP GPU
-        Time:  1.7792e-05 s
-@ PRODUCT1DROPENMPGPU 4096 1.7792e-05
+        Time:  1.9257e-05 s
+@ PRODUCT1DROPENMPGPU 4096 1.9257e-05
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  8.8238e-05 s
-@ PRODUCT1DCCPU 4096 8.8238e-05
+        Time:  9.2967e-05 s
+@ PRODUCT1DCCPU 4096 9.2967e-05
 
       OpenMP
-        Time:  1.7833e-05 s
-@ PRODUCT1DCOPENMPCPU 4096 1.7833e-05
+        Time:  1.9258e-05 s
+@ PRODUCT1DCOPENMPCPU 4096 1.9258e-05
 
       OpenMP GPU
-        Time:  1.792e-05 s
-@ PRODUCT1DCOPENMPGPU 4096 1.792e-05
-
-====================================
-Dimensions: 4096 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  7.4923e-05 s
-@ PRODUCT1DRCPU 4096 7.4923e-05
-
-      OpenMP CPU
-        Time:  1.4923e-05 s
-@ PRODUCT1DROPENMPCPU 4096 1.4923e-05
-
-      OpenMP GPU
-        Time:  1.7826e-05 s
-@ PRODUCT1DROPENMPGPU 4096 1.7826e-05
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  8.7599e-05 s
-@ PRODUCT1DCCPU 4096 8.7599e-05
-
-      OpenMP
-        Time:  1.7854e-05 s
-@ PRODUCT1DCOPENMPCPU 4096 1.7854e-05
-
-      OpenMP GPU
-        Time:  1.795e-05 s
-@ PRODUCT1DCOPENMPGPU 4096 1.795e-05
+        Time:  1.933e-05 s
+@ PRODUCT1DCOPENMPGPU 4096 1.933e-05
 
 ====================================
 Dimensions: 4096 
@@ -898,65 +799,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  4.3772e-05 s
-@ PRODUCT1DRCPU 4096 4.3772e-05
+        Time:  7.8847e-05 s
+@ PRODUCT1DRCPU 4096 7.8847e-05
 
       OpenMP CPU
-        Time:  8.46e-06 s
-@ PRODUCT1DROPENMPCPU 4096 8.46e-06
+        Time:  1.6128e-05 s
+@ PRODUCT1DROPENMPCPU 4096 1.6128e-05
 
       OpenMP GPU
-        Time:  9.976e-06 s
-@ PRODUCT1DROPENMPGPU 4096 9.976e-06
+        Time:  1.9179e-05 s
+@ PRODUCT1DROPENMPGPU 4096 1.9179e-05
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  7.2911e-05 s
-@ PRODUCT1DCCPU 4096 7.2911e-05
+        Time:  0.000104161 s
+@ PRODUCT1DCCPU 4096 0.000104161
 
       OpenMP
-        Time:  1.4737e-05 s
-@ PRODUCT1DCOPENMPCPU 4096 1.4737e-05
+        Time:  1.9214e-05 s
+@ PRODUCT1DCOPENMPCPU 4096 1.9214e-05
 
       OpenMP GPU
-        Time:  1.4709e-05 s
-@ PRODUCT1DCOPENMPGPU 4096 1.4709e-05
-
-====================================
-Dimensions: 4096 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  6.2328e-05 s
-@ PRODUCT1DRCPU 4096 6.2328e-05
-
-      OpenMP CPU
-        Time:  1.2333e-05 s
-@ PRODUCT1DROPENMPCPU 4096 1.2333e-05
-
-      OpenMP GPU
-        Time:  1.4657e-05 s
-@ PRODUCT1DROPENMPGPU 4096 1.4657e-05
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  7.3958e-05 s
-@ PRODUCT1DCCPU 4096 7.3958e-05
-
-      OpenMP
-        Time:  1.4696e-05 s
-@ PRODUCT1DCOPENMPCPU 4096 1.4696e-05
-
-      OpenMP GPU
-        Time:  1.4847e-05 s
-@ PRODUCT1DCOPENMPGPU 4096 1.4847e-05
+        Time:  1.9211e-05 s
+@ PRODUCT1DCOPENMPGPU 4096 1.9211e-05
 
 ====================================
 Dimensions: 4096 
@@ -966,31 +833,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  6.2266e-05 s
-@ PRODUCT1DRCPU 4096 6.2266e-05
+        Time:  7.3523e-05 s
+@ PRODUCT1DRCPU 4096 7.3523e-05
 
       OpenMP CPU
-        Time:  1.2472e-05 s
-@ PRODUCT1DROPENMPCPU 4096 1.2472e-05
+        Time:  1.4983e-05 s
+@ PRODUCT1DROPENMPCPU 4096 1.4983e-05
 
       OpenMP GPU
-        Time:  1.4674e-05 s
-@ PRODUCT1DROPENMPGPU 4096 1.4674e-05
+        Time:  1.7812e-05 s
+@ PRODUCT1DROPENMPGPU 4096 1.7812e-05
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  7.3548e-05 s
-@ PRODUCT1DCCPU 4096 7.3548e-05
+        Time:  8.7313e-05 s
+@ PRODUCT1DCCPU 4096 8.7313e-05
 
       OpenMP
-        Time:  1.4738e-05 s
-@ PRODUCT1DCOPENMPCPU 4096 1.4738e-05
+        Time:  1.7921e-05 s
+@ PRODUCT1DCOPENMPCPU 4096 1.7921e-05
 
       OpenMP GPU
-        Time:  1.4748e-05 s
-@ PRODUCT1DCOPENMPGPU 4096 1.4748e-05
+        Time:  1.7887e-05 s
+@ PRODUCT1DCOPENMPGPU 4096 1.7887e-05
 
 ====================================
 Dimensions: 4096 
@@ -1000,31 +867,167 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  6.9842e-05 s
-@ PRODUCT1DRCPU 4096 6.9842e-05
+        Time:  9.1652e-05 s
+@ PRODUCT1DRCPU 4096 9.1652e-05
 
       OpenMP CPU
-        Time:  1.4028e-05 s
-@ PRODUCT1DROPENMPCPU 4096 1.4028e-05
+        Time:  1.4967e-05 s
+@ PRODUCT1DROPENMPCPU 4096 1.4967e-05
 
       OpenMP GPU
-        Time:  1.6664e-05 s
-@ PRODUCT1DROPENMPGPU 4096 1.6664e-05
+        Time:  1.7807e-05 s
+@ PRODUCT1DROPENMPGPU 4096 1.7807e-05
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  8.2168e-05 s
-@ PRODUCT1DCCPU 4096 8.2168e-05
+        Time:  8.6198e-05 s
+@ PRODUCT1DCCPU 4096 8.6198e-05
 
       OpenMP
-        Time:  1.6653e-05 s
-@ PRODUCT1DCOPENMPCPU 4096 1.6653e-05
+        Time:  1.784e-05 s
+@ PRODUCT1DCOPENMPCPU 4096 1.784e-05
 
       OpenMP GPU
-        Time:  1.6782e-05 s
-@ PRODUCT1DCOPENMPGPU 4096 1.6782e-05
+        Time:  1.7888e-05 s
+@ PRODUCT1DCOPENMPGPU 4096 1.7888e-05
+
+====================================
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  7.9618e-05 s
+@ PRODUCT1DRCPU 4096 7.9618e-05
+
+      OpenMP CPU
+        Time:  1.6134e-05 s
+@ PRODUCT1DROPENMPCPU 4096 1.6134e-05
+
+      OpenMP GPU
+        Time:  1.9161e-05 s
+@ PRODUCT1DROPENMPGPU 4096 1.9161e-05
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  9.2868e-05 s
+@ PRODUCT1DCCPU 4096 9.2868e-05
+
+      OpenMP
+        Time:  1.9228e-05 s
+@ PRODUCT1DCOPENMPCPU 4096 1.9228e-05
+
+      OpenMP GPU
+        Time:  1.9202e-05 s
+@ PRODUCT1DCOPENMPGPU 4096 1.9202e-05
+
+====================================
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  8.0112e-05 s
+@ PRODUCT1DRCPU 4096 8.0112e-05
+
+      OpenMP CPU
+        Time:  1.6131e-05 s
+@ PRODUCT1DROPENMPCPU 4096 1.6131e-05
+
+      OpenMP GPU
+        Time:  1.9228e-05 s
+@ PRODUCT1DROPENMPGPU 4096 1.9228e-05
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  9.3604e-05 s
+@ PRODUCT1DCCPU 4096 9.3604e-05
+
+      OpenMP
+        Time:  1.9224e-05 s
+@ PRODUCT1DCOPENMPCPU 4096 1.9224e-05
+
+      OpenMP GPU
+        Time:  1.9452e-05 s
+@ PRODUCT1DCOPENMPGPU 4096 1.9452e-05
+
+====================================
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  8.1145e-05 s
+@ PRODUCT1DRCPU 4096 8.1145e-05
+
+      OpenMP CPU
+        Time:  1.6126e-05 s
+@ PRODUCT1DROPENMPCPU 4096 1.6126e-05
+
+      OpenMP GPU
+        Time:  1.9233e-05 s
+@ PRODUCT1DROPENMPGPU 4096 1.9233e-05
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  9.2951e-05 s
+@ PRODUCT1DCCPU 4096 9.2951e-05
+
+      OpenMP
+        Time:  1.9237e-05 s
+@ PRODUCT1DCOPENMPCPU 4096 1.9237e-05
+
+      OpenMP GPU
+        Time:  1.9273e-05 s
+@ PRODUCT1DCOPENMPGPU 4096 1.9273e-05
+
+====================================
+Dimensions: 4096 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  5.8667e-05 s
+@ PRODUCT1DRCPU 4096 5.8667e-05
+
+      OpenMP CPU
+        Time:  1.1624e-05 s
+@ PRODUCT1DROPENMPCPU 4096 1.1624e-05
+
+      OpenMP GPU
+        Time:  1.3838e-05 s
+@ PRODUCT1DROPENMPGPU 4096 1.3838e-05
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  6.9033e-05 s
+@ PRODUCT1DCCPU 4096 6.9033e-05
+
+      OpenMP
+        Time:  2.3074e-05 s
+@ PRODUCT1DCOPENMPCPU 4096 2.3074e-05
+
+      OpenMP GPU
+        Time:  1.3876e-05 s
+@ PRODUCT1DCOPENMPGPU 4096 1.3876e-05
 
 ====================================
 ====================================
@@ -1036,65 +1039,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.000288652 s
-@ PRODUCT1DRCPU 16384 0.000288652
+        Time:  0.000248969 s
+@ PRODUCT1DRCPU 16384 0.000248969
 
       OpenMP CPU
-        Time:  5.5655e-05 s
-@ PRODUCT1DROPENMPCPU 16384 5.5655e-05
+        Time:  4.595e-05 s
+@ PRODUCT1DROPENMPCPU 16384 4.595e-05
 
       OpenMP GPU
-        Time:  6.6006e-05 s
-@ PRODUCT1DROPENMPGPU 16384 6.6006e-05
+        Time:  5.4936e-05 s
+@ PRODUCT1DROPENMPGPU 16384 5.4936e-05
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.000501377 s
-@ PRODUCT1DCCPU 16384 0.000501377
+        Time:  0.00041424 s
+@ PRODUCT1DCCPU 16384 0.00041424
 
       OpenMP
-        Time:  6.6108e-05 s
-@ PRODUCT1DCOPENMPCPU 16384 6.6108e-05
+        Time:  5.5281e-05 s
+@ PRODUCT1DCOPENMPCPU 16384 5.5281e-05
 
       OpenMP GPU
-        Time:  6.639e-05 s
-@ PRODUCT1DCOPENMPGPU 16384 6.639e-05
-
-====================================
-Dimensions: 16384 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  0.000235184 s
-@ PRODUCT1DRCPU 16384 0.000235184
-
-      OpenMP CPU
-        Time:  4.3593e-05 s
-@ PRODUCT1DROPENMPCPU 16384 4.3593e-05
-
-      OpenMP GPU
-        Time:  5.205e-05 s
-@ PRODUCT1DROPENMPGPU 16384 5.205e-05
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  0.000393025 s
-@ PRODUCT1DCCPU 16384 0.000393025
-
-      OpenMP
-        Time:  5.2472e-05 s
-@ PRODUCT1DCOPENMPCPU 16384 5.2472e-05
-
-      OpenMP GPU
-        Time:  5.2479e-05 s
-@ PRODUCT1DCOPENMPGPU 16384 5.2479e-05
+        Time:  5.5317e-05 s
+@ PRODUCT1DCOPENMPGPU 16384 5.5317e-05
 
 ====================================
 Dimensions: 16384 
@@ -1104,65 +1073,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.000249304 s
-@ PRODUCT1DRCPU 16384 0.000249304
+        Time:  0.000244669 s
+@ PRODUCT1DRCPU 16384 0.000244669
 
       OpenMP CPU
-        Time:  4.3628e-05 s
-@ PRODUCT1DROPENMPCPU 16384 4.3628e-05
+        Time:  4.6002e-05 s
+@ PRODUCT1DROPENMPCPU 16384 4.6002e-05
 
       OpenMP GPU
-        Time:  5.2052e-05 s
-@ PRODUCT1DROPENMPGPU 16384 5.2052e-05
+        Time:  5.4936e-05 s
+@ PRODUCT1DROPENMPGPU 16384 5.4936e-05
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00039787 s
-@ PRODUCT1DCCPU 16384 0.00039787
+        Time:  0.000360526 s
+@ PRODUCT1DCCPU 16384 0.000360526
 
       OpenMP
-        Time:  5.2286e-05 s
-@ PRODUCT1DCOPENMPCPU 16384 5.2286e-05
+        Time:  4.7491e-05 s
+@ PRODUCT1DCOPENMPCPU 16384 4.7491e-05
 
       OpenMP GPU
-        Time:  5.2317e-05 s
-@ PRODUCT1DCOPENMPGPU 16384 5.2317e-05
-
-====================================
-Dimensions: 16384 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  0.000252782 s
-@ PRODUCT1DRCPU 16384 0.000252782
-
-      OpenMP CPU
-        Time:  4.3835e-05 s
-@ PRODUCT1DROPENMPCPU 16384 4.3835e-05
-
-      OpenMP GPU
-        Time:  5.2055e-05 s
-@ PRODUCT1DROPENMPGPU 16384 5.2055e-05
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  0.000349307 s
-@ PRODUCT1DCCPU 16384 0.000349307
-
-      OpenMP
-        Time:  4.3694e-05 s
-@ PRODUCT1DCOPENMPCPU 16384 4.3694e-05
-
-      OpenMP GPU
-        Time:  4.3191e-05 s
-@ PRODUCT1DCOPENMPGPU 16384 4.3191e-05
+        Time:  4.7279e-05 s
+@ PRODUCT1DCOPENMPGPU 16384 4.7279e-05
 
 ====================================
 Dimensions: 16384 
@@ -1172,65 +1107,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.000200037 s
-@ PRODUCT1DRCPU 16384 0.000200037
+        Time:  0.000212181 s
+@ PRODUCT1DRCPU 16384 0.000212181
 
       OpenMP CPU
-        Time:  3.6473e-05 s
-@ PRODUCT1DROPENMPCPU 16384 3.6473e-05
+        Time:  3.9422e-05 s
+@ PRODUCT1DROPENMPCPU 16384 3.9422e-05
 
       OpenMP GPU
-        Time:  4.3052e-05 s
-@ PRODUCT1DROPENMPGPU 16384 4.3052e-05
+        Time:  4.7079e-05 s
+@ PRODUCT1DROPENMPGPU 16384 4.7079e-05
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.000342181 s
-@ PRODUCT1DCCPU 16384 0.000342181
+        Time:  0.00035374 s
+@ PRODUCT1DCCPU 16384 0.00035374
 
       OpenMP
-        Time:  4.3467e-05 s
-@ PRODUCT1DCOPENMPCPU 16384 4.3467e-05
+        Time:  4.735e-05 s
+@ PRODUCT1DCOPENMPCPU 16384 4.735e-05
 
       OpenMP GPU
-        Time:  4.3378e-05 s
-@ PRODUCT1DCOPENMPGPU 16384 4.3378e-05
-
-====================================
-Dimensions: 16384 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  0.000200202 s
-@ PRODUCT1DRCPU 16384 0.000200202
-
-      OpenMP CPU
-        Time:  5.1913e-05 s
-@ PRODUCT1DROPENMPCPU 16384 5.1913e-05
-
-      OpenMP GPU
-        Time:  4.2975e-05 s
-@ PRODUCT1DROPENMPGPU 16384 4.2975e-05
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  0.00034224 s
-@ PRODUCT1DCCPU 16384 0.00034224
-
-      OpenMP
-        Time:  5.7622e-05 s
-@ PRODUCT1DCOPENMPCPU 16384 5.7622e-05
-
-      OpenMP GPU
-        Time:  4.5101e-05 s
-@ PRODUCT1DCOPENMPGPU 16384 4.5101e-05
+        Time:  4.7231e-05 s
+@ PRODUCT1DCOPENMPGPU 16384 4.7231e-05
 
 ====================================
 Dimensions: 16384 
@@ -1240,65 +1141,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.000228863 s
-@ PRODUCT1DRCPU 16384 0.000228863
+        Time:  0.000215781 s
+@ PRODUCT1DRCPU 16384 0.000215781
 
       OpenMP CPU
-        Time:  3.7762e-05 s
-@ PRODUCT1DROPENMPCPU 16384 3.7762e-05
+        Time:  3.9598e-05 s
+@ PRODUCT1DROPENMPCPU 16384 3.9598e-05
 
       OpenMP GPU
-        Time:  4.4975e-05 s
-@ PRODUCT1DROPENMPGPU 16384 4.4975e-05
+        Time:  4.7087e-05 s
+@ PRODUCT1DROPENMPGPU 16384 4.7087e-05
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00034786 s
-@ PRODUCT1DCCPU 16384 0.00034786
+        Time:  0.000376115 s
+@ PRODUCT1DCCPU 16384 0.000376115
 
       OpenMP
-        Time:  4.5565e-05 s
-@ PRODUCT1DCOPENMPCPU 16384 4.5565e-05
+        Time:  4.9851e-05 s
+@ PRODUCT1DCOPENMPCPU 16384 4.9851e-05
 
       OpenMP GPU
-        Time:  4.5354e-05 s
-@ PRODUCT1DCOPENMPGPU 16384 4.5354e-05
-
-====================================
-Dimensions: 16384 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  0.000208119 s
-@ PRODUCT1DRCPU 16384 0.000208119
-
-      OpenMP CPU
-        Time:  3.7772e-05 s
-@ PRODUCT1DROPENMPCPU 16384 3.7772e-05
-
-      OpenMP GPU
-        Time:  4.495e-05 s
-@ PRODUCT1DROPENMPGPU 16384 4.495e-05
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  0.000403569 s
-@ PRODUCT1DCCPU 16384 0.000403569
-
-      OpenMP
-        Time:  5.2252e-05 s
-@ PRODUCT1DCOPENMPCPU 16384 5.2252e-05
-
-      OpenMP GPU
-        Time:  5.2267e-05 s
-@ PRODUCT1DCOPENMPGPU 16384 5.2267e-05
+        Time:  4.9651e-05 s
+@ PRODUCT1DCOPENMPGPU 16384 4.9651e-05
 
 ====================================
 Dimensions: 16384 
@@ -1308,31 +1175,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.000236789 s
-@ PRODUCT1DRCPU 16384 0.000236789
+        Time:  0.000224314 s
+@ PRODUCT1DRCPU 16384 0.000224314
 
       OpenMP CPU
-        Time:  4.3661e-05 s
-@ PRODUCT1DROPENMPCPU 16384 4.3661e-05
+        Time:  4.1461e-05 s
+@ PRODUCT1DROPENMPCPU 16384 4.1461e-05
 
       OpenMP GPU
-        Time:  5.2028e-05 s
-@ PRODUCT1DROPENMPGPU 16384 5.2028e-05
+        Time:  4.9438e-05 s
+@ PRODUCT1DROPENMPGPU 16384 4.9438e-05
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.000405763 s
-@ PRODUCT1DCCPU 16384 0.000405763
+        Time:  0.000375056 s
+@ PRODUCT1DCCPU 16384 0.000375056
 
       OpenMP
-        Time:  5.245e-05 s
-@ PRODUCT1DCOPENMPCPU 16384 5.245e-05
+        Time:  4.9791e-05 s
+@ PRODUCT1DCOPENMPCPU 16384 4.9791e-05
 
       OpenMP GPU
-        Time:  5.2415e-05 s
-@ PRODUCT1DCOPENMPGPU 16384 5.2415e-05
+        Time:  4.9592e-05 s
+@ PRODUCT1DCOPENMPGPU 16384 4.9592e-05
 
 ====================================
 Dimensions: 16384 
@@ -1342,31 +1209,167 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.000227493 s
-@ PRODUCT1DRCPU 16384 0.000227493
+        Time:  0.000225348 s
+@ PRODUCT1DRCPU 16384 0.000225348
 
       OpenMP CPU
-        Time:  3.4621e-05 s
-@ PRODUCT1DROPENMPCPU 16384 3.4621e-05
+        Time:  4.1531e-05 s
+@ PRODUCT1DROPENMPCPU 16384 4.1531e-05
 
       OpenMP GPU
-        Time:  4.1187e-05 s
-@ PRODUCT1DROPENMPGPU 16384 4.1187e-05
+        Time:  4.9439e-05 s
+@ PRODUCT1DROPENMPGPU 16384 4.9439e-05
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.000323049 s
-@ PRODUCT1DCCPU 16384 0.000323049
+        Time:  0.000381725 s
+@ PRODUCT1DCCPU 16384 0.000381725
 
       OpenMP
-        Time:  4.1654e-05 s
-@ PRODUCT1DCOPENMPCPU 16384 4.1654e-05
+        Time:  4.7691e-05 s
+@ PRODUCT1DCOPENMPCPU 16384 4.7691e-05
 
       OpenMP GPU
-        Time:  4.1274e-05 s
-@ PRODUCT1DCOPENMPGPU 16384 4.1274e-05
+        Time:  4.7711e-05 s
+@ PRODUCT1DCOPENMPGPU 16384 4.7711e-05
+
+====================================
+Dimensions: 16384 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000216912 s
+@ PRODUCT1DRCPU 16384 0.000216912
+
+      OpenMP CPU
+        Time:  3.9558e-05 s
+@ PRODUCT1DROPENMPCPU 16384 3.9558e-05
+
+      OpenMP GPU
+        Time:  4.7099e-05 s
+@ PRODUCT1DROPENMPGPU 16384 4.7099e-05
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000359883 s
+@ PRODUCT1DCCPU 16384 0.000359883
+
+      OpenMP
+        Time:  4.7461e-05 s
+@ PRODUCT1DCOPENMPCPU 16384 4.7461e-05
+
+      OpenMP GPU
+        Time:  4.7257e-05 s
+@ PRODUCT1DCOPENMPGPU 16384 4.7257e-05
+
+====================================
+Dimensions: 16384 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000215636 s
+@ PRODUCT1DRCPU 16384 0.000215636
+
+      OpenMP CPU
+        Time:  3.9504e-05 s
+@ PRODUCT1DROPENMPCPU 16384 3.9504e-05
+
+      OpenMP GPU
+        Time:  4.7112e-05 s
+@ PRODUCT1DROPENMPGPU 16384 4.7112e-05
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000369181 s
+@ PRODUCT1DCCPU 16384 0.000369181
+
+      OpenMP
+        Time:  4.76e-05 s
+@ PRODUCT1DCOPENMPCPU 16384 4.76e-05
+
+      OpenMP GPU
+        Time:  4.7208e-05 s
+@ PRODUCT1DCOPENMPGPU 16384 4.7208e-05
+
+====================================
+Dimensions: 16384 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000216514 s
+@ PRODUCT1DRCPU 16384 0.000216514
+
+      OpenMP CPU
+        Time:  3.9566e-05 s
+@ PRODUCT1DROPENMPCPU 16384 3.9566e-05
+
+      OpenMP GPU
+        Time:  4.7095e-05 s
+@ PRODUCT1DROPENMPGPU 16384 4.7095e-05
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000356954 s
+@ PRODUCT1DCCPU 16384 0.000356954
+
+      OpenMP
+        Time:  4.7643e-05 s
+@ PRODUCT1DCOPENMPCPU 16384 4.7643e-05
+
+      OpenMP GPU
+        Time:  4.7345e-05 s
+@ PRODUCT1DCOPENMPGPU 16384 4.7345e-05
+
+====================================
+Dimensions: 16384 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  0.000238506 s
+@ PRODUCT1DRCPU 16384 0.000238506
+
+      OpenMP CPU
+        Time:  3.9566e-05 s
+@ PRODUCT1DROPENMPCPU 16384 3.9566e-05
+
+      OpenMP GPU
+        Time:  4.7082e-05 s
+@ PRODUCT1DROPENMPGPU 16384 4.7082e-05
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000378912 s
+@ PRODUCT1DCCPU 16384 0.000378912
+
+      OpenMP
+        Time:  4.7473e-05 s
+@ PRODUCT1DCOPENMPCPU 16384 4.7473e-05
+
+      OpenMP GPU
+        Time:  4.7482e-05 s
+@ PRODUCT1DCOPENMPGPU 16384 4.7482e-05
 
 ====================================
 ====================================
@@ -1378,31 +1381,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.000792926 s
-@ PRODUCT1DRCPU 65536 0.000792926
+        Time:  0.000815834 s
+@ PRODUCT1DRCPU 65536 0.000815834
 
       OpenMP CPU
-        Time:  0.000146114 s
-@ PRODUCT1DROPENMPCPU 65536 0.000146114
+        Time:  0.000152498 s
+@ PRODUCT1DROPENMPCPU 65536 0.000152498
 
       OpenMP GPU
-        Time:  0.000167769 s
-@ PRODUCT1DROPENMPGPU 65536 0.000167769
+        Time:  0.000182548 s
+@ PRODUCT1DROPENMPGPU 65536 0.000182548
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00131673 s
-@ PRODUCT1DCCPU 65536 0.00131673
+        Time:  0.00142525 s
+@ PRODUCT1DCCPU 65536 0.00142525
 
       OpenMP
-        Time:  0.000227406 s
-@ PRODUCT1DCOPENMPCPU 65536 0.000227406
+        Time:  0.000218323 s
+@ PRODUCT1DCOPENMPCPU 65536 0.000218323
 
       OpenMP GPU
-        Time:  0.000208182 s
-@ PRODUCT1DCOPENMPGPU 65536 0.000208182
+        Time:  0.000214143 s
+@ PRODUCT1DCOPENMPGPU 65536 0.000214143
 
 ====================================
 Dimensions: 65536 
@@ -1412,31 +1415,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.000563565 s
-@ PRODUCT1DRCPU 65536 0.000563565
+        Time:  0.000575564 s
+@ PRODUCT1DRCPU 65536 0.000575564
 
       OpenMP CPU
-        Time:  0.000116644 s
-@ PRODUCT1DROPENMPCPU 65536 0.000116644
+        Time:  0.000118813 s
+@ PRODUCT1DROPENMPCPU 65536 0.000118813
 
       OpenMP GPU
-        Time:  0.000127629 s
-@ PRODUCT1DROPENMPGPU 65536 0.000127629
+        Time:  0.000131198 s
+@ PRODUCT1DROPENMPGPU 65536 0.000131198
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00121418 s
-@ PRODUCT1DCCPU 65536 0.00121418
+        Time:  0.00118619 s
+@ PRODUCT1DCCPU 65536 0.00118619
 
       OpenMP
-        Time:  0.000221649 s
-@ PRODUCT1DCOPENMPCPU 65536 0.000221649
+        Time:  0.000223469 s
+@ PRODUCT1DCOPENMPCPU 65536 0.000223469
 
       OpenMP GPU
-        Time:  0.000209048 s
-@ PRODUCT1DCOPENMPGPU 65536 0.000209048
+        Time:  0.000218373 s
+@ PRODUCT1DCOPENMPGPU 65536 0.000218373
 
 ====================================
 Dimensions: 65536 
@@ -1446,31 +1449,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.000592825 s
-@ PRODUCT1DRCPU 65536 0.000592825
+        Time:  0.000590725 s
+@ PRODUCT1DRCPU 65536 0.000590725
 
       OpenMP CPU
-        Time:  0.000120014 s
-@ PRODUCT1DROPENMPCPU 65536 0.000120014
+        Time:  0.000120218 s
+@ PRODUCT1DROPENMPCPU 65536 0.000120218
 
       OpenMP GPU
-        Time:  0.000134632 s
-@ PRODUCT1DROPENMPGPU 65536 0.000134632
+        Time:  0.000133057 s
+@ PRODUCT1DROPENMPGPU 65536 0.000133057
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00121763 s
-@ PRODUCT1DCCPU 65536 0.00121763
+        Time:  0.00120262 s
+@ PRODUCT1DCCPU 65536 0.00120262
 
       OpenMP
-        Time:  0.000213101 s
-@ PRODUCT1DCOPENMPCPU 65536 0.000213101
+        Time:  0.000224117 s
+@ PRODUCT1DCOPENMPCPU 65536 0.000224117
 
       OpenMP GPU
-        Time:  0.000208024 s
-@ PRODUCT1DCOPENMPGPU 65536 0.000208024
+        Time:  0.000217642 s
+@ PRODUCT1DCOPENMPGPU 65536 0.000217642
 
 ====================================
 Dimensions: 65536 
@@ -1480,31 +1483,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.000569557 s
-@ PRODUCT1DRCPU 65536 0.000569557
+        Time:  0.00062096 s
+@ PRODUCT1DRCPU 65536 0.00062096
 
       OpenMP CPU
-        Time:  0.000127397 s
-@ PRODUCT1DROPENMPCPU 65536 0.000127397
+        Time:  0.000122808 s
+@ PRODUCT1DROPENMPCPU 65536 0.000122808
 
       OpenMP GPU
-        Time:  0.000130125 s
-@ PRODUCT1DROPENMPGPU 65536 0.000130125
+        Time:  0.000139694 s
+@ PRODUCT1DROPENMPGPU 65536 0.000139694
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00119264 s
-@ PRODUCT1DCCPU 65536 0.00119264
+        Time:  0.00129345 s
+@ PRODUCT1DCCPU 65536 0.00129345
 
       OpenMP
-        Time:  0.000212516 s
-@ PRODUCT1DCOPENMPCPU 65536 0.000212516
+        Time:  0.000213357 s
+@ PRODUCT1DCOPENMPCPU 65536 0.000213357
 
       OpenMP GPU
-        Time:  0.000216309 s
-@ PRODUCT1DCOPENMPGPU 65536 0.000216309
+        Time:  0.000208087 s
+@ PRODUCT1DCOPENMPGPU 65536 0.000208087
 
 ====================================
 Dimensions: 65536 
@@ -1514,31 +1517,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.000614431 s
-@ PRODUCT1DRCPU 65536 0.000614431
+        Time:  0.000652713 s
+@ PRODUCT1DRCPU 65536 0.000652713
 
       OpenMP CPU
-        Time:  0.000123286 s
-@ PRODUCT1DROPENMPCPU 65536 0.000123286
+        Time:  0.00013092 s
+@ PRODUCT1DROPENMPCPU 65536 0.00013092
 
       OpenMP GPU
-        Time:  0.000139906 s
-@ PRODUCT1DROPENMPGPU 65536 0.000139906
+        Time:  0.000147595 s
+@ PRODUCT1DROPENMPGPU 65536 0.000147595
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00123888 s
-@ PRODUCT1DCCPU 65536 0.00123888
+        Time:  0.00130794 s
+@ PRODUCT1DCCPU 65536 0.00130794
 
       OpenMP
-        Time:  0.000214425 s
-@ PRODUCT1DCOPENMPCPU 65536 0.000214425
+        Time:  0.00021456 s
+@ PRODUCT1DCOPENMPCPU 65536 0.00021456
 
       OpenMP GPU
-        Time:  0.000208325 s
-@ PRODUCT1DCOPENMPGPU 65536 0.000208325
+        Time:  0.000217253 s
+@ PRODUCT1DCOPENMPGPU 65536 0.000217253
 
 ====================================
 Dimensions: 65536 
@@ -1548,31 +1551,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.000605553 s
-@ PRODUCT1DRCPU 65536 0.000605553
+        Time:  0.00063711 s
+@ PRODUCT1DRCPU 65536 0.00063711
 
       OpenMP CPU
-        Time:  0.000121523 s
-@ PRODUCT1DROPENMPCPU 65536 0.000121523
+        Time:  0.000133906 s
+@ PRODUCT1DROPENMPCPU 65536 0.000133906
 
       OpenMP GPU
-        Time:  0.000137338 s
-@ PRODUCT1DROPENMPGPU 65536 0.000137338
+        Time:  0.0001435 s
+@ PRODUCT1DROPENMPGPU 65536 0.0001435
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00122652 s
-@ PRODUCT1DCCPU 65536 0.00122652
+        Time:  0.00126943 s
+@ PRODUCT1DCCPU 65536 0.00126943
 
       OpenMP
-        Time:  0.000215397 s
-@ PRODUCT1DCOPENMPCPU 65536 0.000215397
+        Time:  0.000223579 s
+@ PRODUCT1DCOPENMPCPU 65536 0.000223579
 
       OpenMP GPU
-        Time:  0.000206632 s
-@ PRODUCT1DCOPENMPGPU 65536 0.000206632
+        Time:  0.000207783 s
+@ PRODUCT1DCOPENMPGPU 65536 0.000207783
 
 ====================================
 Dimensions: 65536 
@@ -1582,31 +1585,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.000605202 s
-@ PRODUCT1DRCPU 65536 0.000605202
+        Time:  0.000638764 s
+@ PRODUCT1DRCPU 65536 0.000638764
 
       OpenMP CPU
-        Time:  0.000122736 s
-@ PRODUCT1DROPENMPCPU 65536 0.000122736
+        Time:  0.000126452 s
+@ PRODUCT1DROPENMPCPU 65536 0.000126452
 
       OpenMP GPU
-        Time:  0.000137915 s
-@ PRODUCT1DROPENMPGPU 65536 0.000137915
+        Time:  0.000144322 s
+@ PRODUCT1DROPENMPGPU 65536 0.000144322
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00123955 s
-@ PRODUCT1DCCPU 65536 0.00123955
+        Time:  0.00125869 s
+@ PRODUCT1DCCPU 65536 0.00125869
 
       OpenMP
-        Time:  0.000213268 s
-@ PRODUCT1DCOPENMPCPU 65536 0.000213268
+        Time:  0.000213324 s
+@ PRODUCT1DCOPENMPCPU 65536 0.000213324
 
       OpenMP GPU
-        Time:  0.000218872 s
-@ PRODUCT1DCOPENMPGPU 65536 0.000218872
+        Time:  0.000208255 s
+@ PRODUCT1DCOPENMPGPU 65536 0.000208255
 
 ====================================
 Dimensions: 65536 
@@ -1616,31 +1619,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.000637074 s
-@ PRODUCT1DRCPU 65536 0.000637074
+        Time:  0.000682709 s
+@ PRODUCT1DRCPU 65536 0.000682709
 
       OpenMP CPU
-        Time:  0.000126258 s
-@ PRODUCT1DROPENMPCPU 65536 0.000126258
+        Time:  0.000133507 s
+@ PRODUCT1DROPENMPCPU 65536 0.000133507
 
       OpenMP GPU
-        Time:  0.000143049 s
-@ PRODUCT1DROPENMPGPU 65536 0.000143049
+        Time:  0.000152522 s
+@ PRODUCT1DROPENMPGPU 65536 0.000152522
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00126516 s
-@ PRODUCT1DCCPU 65536 0.00126516
+        Time:  0.00130787 s
+@ PRODUCT1DCCPU 65536 0.00130787
 
       OpenMP
-        Time:  0.000215895 s
-@ PRODUCT1DCOPENMPCPU 65536 0.000215895
+        Time:  0.000214277 s
+@ PRODUCT1DCOPENMPCPU 65536 0.000214277
 
       OpenMP GPU
-        Time:  0.000207999 s
-@ PRODUCT1DCOPENMPGPU 65536 0.000207999
+        Time:  0.000209996 s
+@ PRODUCT1DCOPENMPGPU 65536 0.000209996
 
 ====================================
 Dimensions: 65536 
@@ -1650,31 +1653,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.000628119 s
-@ PRODUCT1DRCPU 65536 0.000628119
+        Time:  0.000646044 s
+@ PRODUCT1DRCPU 65536 0.000646044
 
       OpenMP CPU
-        Time:  0.000125679 s
-@ PRODUCT1DROPENMPCPU 65536 0.000125679
+        Time:  0.000124833 s
+@ PRODUCT1DROPENMPCPU 65536 0.000124833
 
       OpenMP GPU
-        Time:  0.000153758 s
-@ PRODUCT1DROPENMPGPU 65536 0.000153758
+        Time:  0.000147233 s
+@ PRODUCT1DROPENMPGPU 65536 0.000147233
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00126906 s
-@ PRODUCT1DCCPU 65536 0.00126906
+        Time:  0.00125072 s
+@ PRODUCT1DCCPU 65536 0.00125072
 
       OpenMP
-        Time:  0.000216292 s
-@ PRODUCT1DCOPENMPCPU 65536 0.000216292
+        Time:  0.000215648 s
+@ PRODUCT1DCOPENMPCPU 65536 0.000215648
 
       OpenMP GPU
-        Time:  0.000215787 s
-@ PRODUCT1DCOPENMPGPU 65536 0.000215787
+        Time:  0.000215225 s
+@ PRODUCT1DCOPENMPGPU 65536 0.000215225
 
 ====================================
 Dimensions: 65536 
@@ -1684,31 +1687,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.000636638 s
-@ PRODUCT1DRCPU 65536 0.000636638
+        Time:  0.00063884 s
+@ PRODUCT1DRCPU 65536 0.00063884
 
       OpenMP CPU
-        Time:  0.00012854 s
-@ PRODUCT1DROPENMPCPU 65536 0.00012854
+        Time:  0.000126634 s
+@ PRODUCT1DROPENMPCPU 65536 0.000126634
 
       OpenMP GPU
-        Time:  0.000144572 s
-@ PRODUCT1DROPENMPGPU 65536 0.000144572
+        Time:  0.000142811 s
+@ PRODUCT1DROPENMPGPU 65536 0.000142811
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00126933 s
-@ PRODUCT1DCCPU 65536 0.00126933
+        Time:  0.00126643 s
+@ PRODUCT1DCCPU 65536 0.00126643
 
       OpenMP
-        Time:  0.00021564 s
-@ PRODUCT1DCOPENMPCPU 65536 0.00021564
+        Time:  0.00021218 s
+@ PRODUCT1DCOPENMPCPU 65536 0.00021218
 
       OpenMP GPU
-        Time:  0.000208321 s
-@ PRODUCT1DCOPENMPGPU 65536 0.000208321
+        Time:  0.000208924 s
+@ PRODUCT1DCOPENMPGPU 65536 0.000208924
 
 ====================================
 ====================================
@@ -1720,31 +1723,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.00288314 s
-@ PRODUCT1DRCPU 262144 0.00288314
+        Time:  0.0028649 s
+@ PRODUCT1DRCPU 262144 0.0028649
 
       OpenMP CPU
-        Time:  0.000687763 s
-@ PRODUCT1DROPENMPCPU 262144 0.000687763
+        Time:  0.000694426 s
+@ PRODUCT1DROPENMPCPU 262144 0.000694426
 
       OpenMP GPU
-        Time:  0.000654469 s
-@ PRODUCT1DROPENMPGPU 262144 0.000654469
+        Time:  0.000640167 s
+@ PRODUCT1DROPENMPGPU 262144 0.000640167
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.0047645 s
-@ PRODUCT1DCCPU 262144 0.0047645
+        Time:  0.00489732 s
+@ PRODUCT1DCCPU 262144 0.00489732
 
       OpenMP
-        Time:  0.000975867 s
-@ PRODUCT1DCOPENMPCPU 262144 0.000975867
+        Time:  0.00105193 s
+@ PRODUCT1DCOPENMPCPU 262144 0.00105193
 
       OpenMP GPU
-        Time:  0.000943605 s
-@ PRODUCT1DCOPENMPGPU 262144 0.000943605
+        Time:  0.000976802 s
+@ PRODUCT1DCOPENMPGPU 262144 0.000976802
 
 ====================================
 Dimensions: 262144 
@@ -1754,31 +1757,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.00254689 s
-@ PRODUCT1DRCPU 262144 0.00254689
+        Time:  0.00247387 s
+@ PRODUCT1DRCPU 262144 0.00247387
 
       OpenMP CPU
-        Time:  0.000609187 s
-@ PRODUCT1DROPENMPCPU 262144 0.000609187
+        Time:  0.00060503 s
+@ PRODUCT1DROPENMPCPU 262144 0.00060503
 
       OpenMP GPU
-        Time:  0.000558079 s
-@ PRODUCT1DROPENMPGPU 262144 0.000558079
+        Time:  0.000569649 s
+@ PRODUCT1DROPENMPGPU 262144 0.000569649
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00452495 s
-@ PRODUCT1DCCPU 262144 0.00452495
+        Time:  0.00465341 s
+@ PRODUCT1DCCPU 262144 0.00465341
 
       OpenMP
-        Time:  0.000940398 s
-@ PRODUCT1DCOPENMPCPU 262144 0.000940398
+        Time:  0.000955406 s
+@ PRODUCT1DCOPENMPCPU 262144 0.000955406
 
       OpenMP GPU
-        Time:  0.000883928 s
-@ PRODUCT1DCOPENMPGPU 262144 0.000883928
+        Time:  0.000940743 s
+@ PRODUCT1DCOPENMPGPU 262144 0.000940743
 
 ====================================
 Dimensions: 262144 
@@ -1788,31 +1791,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.00236188 s
-@ PRODUCT1DRCPU 262144 0.00236188
+        Time:  0.0024539 s
+@ PRODUCT1DRCPU 262144 0.0024539
 
       OpenMP CPU
-        Time:  0.000562461 s
-@ PRODUCT1DROPENMPCPU 262144 0.000562461
+        Time:  0.000562963 s
+@ PRODUCT1DROPENMPCPU 262144 0.000562963
 
       OpenMP GPU
-        Time:  0.000535228 s
-@ PRODUCT1DROPENMPGPU 262144 0.000535228
+        Time:  0.000550275 s
+@ PRODUCT1DROPENMPGPU 262144 0.000550275
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00422296 s
-@ PRODUCT1DCCPU 262144 0.00422296
+        Time:  0.00431949 s
+@ PRODUCT1DCCPU 262144 0.00431949
 
       OpenMP
-        Time:  0.000814173 s
-@ PRODUCT1DCOPENMPCPU 262144 0.000814173
+        Time:  0.000866848 s
+@ PRODUCT1DCOPENMPCPU 262144 0.000866848
 
       OpenMP GPU
-        Time:  0.00079418 s
-@ PRODUCT1DCOPENMPGPU 262144 0.00079418
+        Time:  0.000855834 s
+@ PRODUCT1DCOPENMPGPU 262144 0.000855834
 
 ====================================
 Dimensions: 262144 
@@ -1822,31 +1825,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.00226742 s
-@ PRODUCT1DRCPU 262144 0.00226742
+        Time:  0.00240346 s
+@ PRODUCT1DRCPU 262144 0.00240346
 
       OpenMP CPU
-        Time:  0.000525899 s
-@ PRODUCT1DROPENMPCPU 262144 0.000525899
+        Time:  0.000556779 s
+@ PRODUCT1DROPENMPCPU 262144 0.000556779
 
       OpenMP GPU
-        Time:  0.000492753 s
-@ PRODUCT1DROPENMPGPU 262144 0.000492753
+        Time:  0.00053038 s
+@ PRODUCT1DROPENMPGPU 262144 0.00053038
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.0041626 s
-@ PRODUCT1DCCPU 262144 0.0041626
+        Time:  0.00406082 s
+@ PRODUCT1DCCPU 262144 0.00406082
 
       OpenMP
-        Time:  0.000792594 s
-@ PRODUCT1DCOPENMPCPU 262144 0.000792594
+        Time:  0.000836729 s
+@ PRODUCT1DCOPENMPCPU 262144 0.000836729
 
       OpenMP GPU
-        Time:  0.000798796 s
-@ PRODUCT1DCOPENMPGPU 262144 0.000798796
+        Time:  0.000778702 s
+@ PRODUCT1DCOPENMPGPU 262144 0.000778702
 
 ====================================
 Dimensions: 262144 
@@ -1856,31 +1859,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.00233722 s
-@ PRODUCT1DRCPU 262144 0.00233722
+        Time:  0.00220761 s
+@ PRODUCT1DRCPU 262144 0.00220761
 
       OpenMP CPU
-        Time:  0.000524379 s
-@ PRODUCT1DROPENMPCPU 262144 0.000524379
+        Time:  0.00052266 s
+@ PRODUCT1DROPENMPCPU 262144 0.00052266
 
       OpenMP GPU
-        Time:  0.000534122 s
-@ PRODUCT1DROPENMPGPU 262144 0.000534122
+        Time:  0.000499661 s
+@ PRODUCT1DROPENMPGPU 262144 0.000499661
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00410599 s
-@ PRODUCT1DCCPU 262144 0.00410599
+        Time:  0.00405709 s
+@ PRODUCT1DCCPU 262144 0.00405709
 
       OpenMP
-        Time:  0.000782388 s
-@ PRODUCT1DCOPENMPCPU 262144 0.000782388
+        Time:  0.000764679 s
+@ PRODUCT1DCOPENMPCPU 262144 0.000764679
 
       OpenMP GPU
-        Time:  0.000781464 s
-@ PRODUCT1DCOPENMPGPU 262144 0.000781464
+        Time:  0.000764811 s
+@ PRODUCT1DCOPENMPGPU 262144 0.000764811
 
 ====================================
 Dimensions: 262144 
@@ -1890,31 +1893,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.0022325 s
-@ PRODUCT1DRCPU 262144 0.0022325
+        Time:  0.00210032 s
+@ PRODUCT1DRCPU 262144 0.00210032
 
       OpenMP CPU
-        Time:  0.000503588 s
-@ PRODUCT1DROPENMPCPU 262144 0.000503588
+        Time:  0.000499503 s
+@ PRODUCT1DROPENMPCPU 262144 0.000499503
 
       OpenMP GPU
-        Time:  0.000494149 s
-@ PRODUCT1DROPENMPGPU 262144 0.000494149
+        Time:  0.000476501 s
+@ PRODUCT1DROPENMPGPU 262144 0.000476501
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00403817 s
-@ PRODUCT1DCCPU 262144 0.00403817
+        Time:  0.00396483 s
+@ PRODUCT1DCCPU 262144 0.00396483
 
       OpenMP
-        Time:  0.000752697 s
-@ PRODUCT1DCOPENMPCPU 262144 0.000752697
+        Time:  0.000725791 s
+@ PRODUCT1DCOPENMPCPU 262144 0.000725791
 
       OpenMP GPU
-        Time:  0.000762511 s
-@ PRODUCT1DCOPENMPGPU 262144 0.000762511
+        Time:  0.000715203 s
+@ PRODUCT1DCOPENMPGPU 262144 0.000715203
 
 ====================================
 Dimensions: 262144 
@@ -1924,31 +1927,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.00216021 s
-@ PRODUCT1DRCPU 262144 0.00216021
+        Time:  0.00225115 s
+@ PRODUCT1DRCPU 262144 0.00225115
 
       OpenMP CPU
-        Time:  0.000513815 s
-@ PRODUCT1DROPENMPCPU 262144 0.000513815
+        Time:  0.000507011 s
+@ PRODUCT1DROPENMPCPU 262144 0.000507011
 
       OpenMP GPU
-        Time:  0.00052526 s
-@ PRODUCT1DROPENMPGPU 262144 0.00052526
+        Time:  0.000518896 s
+@ PRODUCT1DROPENMPGPU 262144 0.000518896
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00401525 s
-@ PRODUCT1DCCPU 262144 0.00401525
+        Time:  0.00393034 s
+@ PRODUCT1DCCPU 262144 0.00393034
 
       OpenMP
-        Time:  0.000740863 s
-@ PRODUCT1DCOPENMPCPU 262144 0.000740863
+        Time:  0.000726462 s
+@ PRODUCT1DCOPENMPCPU 262144 0.000726462
 
       OpenMP GPU
-        Time:  0.000705281 s
-@ PRODUCT1DCOPENMPGPU 262144 0.000705281
+        Time:  0.000717971 s
+@ PRODUCT1DCOPENMPGPU 262144 0.000717971
 
 ====================================
 Dimensions: 262144 
@@ -1958,31 +1961,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.00229078 s
-@ PRODUCT1DRCPU 262144 0.00229078
+        Time:  0.00204534 s
+@ PRODUCT1DRCPU 262144 0.00204534
 
       OpenMP CPU
-        Time:  0.000505061 s
-@ PRODUCT1DROPENMPCPU 262144 0.000505061
+        Time:  0.000479766 s
+@ PRODUCT1DROPENMPCPU 262144 0.000479766
 
       OpenMP GPU
-        Time:  0.000508323 s
-@ PRODUCT1DROPENMPGPU 262144 0.000508323
+        Time:  0.000499503 s
+@ PRODUCT1DROPENMPGPU 262144 0.000499503
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00404038 s
-@ PRODUCT1DCCPU 262144 0.00404038
+        Time:  0.00423062 s
+@ PRODUCT1DCCPU 262144 0.00423062
 
       OpenMP
-        Time:  0.000777708 s
-@ PRODUCT1DCOPENMPCPU 262144 0.000777708
+        Time:  0.000739347 s
+@ PRODUCT1DCOPENMPCPU 262144 0.000739347
 
       OpenMP GPU
-        Time:  0.000741847 s
-@ PRODUCT1DCOPENMPGPU 262144 0.000741847
+        Time:  0.000697239 s
+@ PRODUCT1DCOPENMPGPU 262144 0.000697239
 
 ====================================
 Dimensions: 262144 
@@ -1992,31 +1995,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.00217568 s
-@ PRODUCT1DRCPU 262144 0.00217568
+        Time:  0.00225771 s
+@ PRODUCT1DRCPU 262144 0.00225771
 
       OpenMP CPU
-        Time:  0.000509049 s
-@ PRODUCT1DROPENMPCPU 262144 0.000509049
+        Time:  0.000503155 s
+@ PRODUCT1DROPENMPCPU 262144 0.000503155
 
       OpenMP GPU
-        Time:  0.000512236 s
-@ PRODUCT1DROPENMPGPU 262144 0.000512236
+        Time:  0.000510424 s
+@ PRODUCT1DROPENMPGPU 262144 0.000510424
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00402603 s
-@ PRODUCT1DCCPU 262144 0.00402603
+        Time:  0.00392159 s
+@ PRODUCT1DCCPU 262144 0.00392159
 
       OpenMP
-        Time:  0.00074284 s
-@ PRODUCT1DCOPENMPCPU 262144 0.00074284
+        Time:  0.000728203 s
+@ PRODUCT1DCOPENMPCPU 262144 0.000728203
 
       OpenMP GPU
-        Time:  0.000707912 s
-@ PRODUCT1DCOPENMPGPU 262144 0.000707912
+        Time:  0.000723285 s
+@ PRODUCT1DCOPENMPGPU 262144 0.000723285
 
 ====================================
 Dimensions: 262144 
@@ -2026,31 +2029,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.00223792 s
-@ PRODUCT1DRCPU 262144 0.00223792
+        Time:  0.00206094 s
+@ PRODUCT1DRCPU 262144 0.00206094
 
       OpenMP CPU
-        Time:  0.00049587 s
-@ PRODUCT1DROPENMPCPU 262144 0.00049587
+        Time:  0.000489845 s
+@ PRODUCT1DROPENMPCPU 262144 0.000489845
 
       OpenMP GPU
-        Time:  0.000500501 s
-@ PRODUCT1DROPENMPGPU 262144 0.000500501
+        Time:  0.000457746 s
+@ PRODUCT1DROPENMPGPU 262144 0.000457746
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.00398217 s
-@ PRODUCT1DCCPU 262144 0.00398217
+        Time:  0.00407109 s
+@ PRODUCT1DCCPU 262144 0.00407109
 
       OpenMP
-        Time:  0.000746804 s
-@ PRODUCT1DCOPENMPCPU 262144 0.000746804
+        Time:  0.000743881 s
+@ PRODUCT1DCOPENMPCPU 262144 0.000743881
 
       OpenMP GPU
-        Time:  0.000706616 s
-@ PRODUCT1DCOPENMPGPU 262144 0.000706616
+        Time:  0.000707125 s
+@ PRODUCT1DCOPENMPGPU 262144 0.000707125
 
 ====================================
 ====================================
@@ -2062,31 +2065,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.0079526 s
-@ PRODUCT1DRCPU 1048576 0.0079526
+        Time:  0.00838478 s
+@ PRODUCT1DRCPU 1048576 0.00838478
 
       OpenMP CPU
-        Time:  0.00212876 s
-@ PRODUCT1DROPENMPCPU 1048576 0.00212876
+        Time:  0.00214434 s
+@ PRODUCT1DROPENMPCPU 1048576 0.00214434
 
       OpenMP GPU
-        Time:  0.00218339 s
-@ PRODUCT1DROPENMPGPU 1048576 0.00218339
+        Time:  0.00220289 s
+@ PRODUCT1DROPENMPGPU 1048576 0.00220289
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.0156321 s
-@ PRODUCT1DCCPU 1048576 0.0156321
+        Time:  0.015625 s
+@ PRODUCT1DCCPU 1048576 0.015625
 
       OpenMP
-        Time:  0.00327533 s
-@ PRODUCT1DCOPENMPCPU 1048576 0.00327533
+        Time:  0.00334635 s
+@ PRODUCT1DCOPENMPCPU 1048576 0.00334635
 
       OpenMP GPU
-        Time:  0.00321595 s
-@ PRODUCT1DCOPENMPGPU 1048576 0.00321595
+        Time:  0.00326584 s
+@ PRODUCT1DCOPENMPGPU 1048576 0.00326584
 
 ====================================
 Dimensions: 1048576 
@@ -2096,31 +2099,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.00784897 s
-@ PRODUCT1DRCPU 1048576 0.00784897
+        Time:  0.00823393 s
+@ PRODUCT1DRCPU 1048576 0.00823393
 
       OpenMP CPU
-        Time:  0.00207201 s
-@ PRODUCT1DROPENMPCPU 1048576 0.00207201
+        Time:  0.00206292 s
+@ PRODUCT1DROPENMPCPU 1048576 0.00206292
 
       OpenMP GPU
-        Time:  0.00212667 s
-@ PRODUCT1DROPENMPGPU 1048576 0.00212667
+        Time:  0.00210247 s
+@ PRODUCT1DROPENMPGPU 1048576 0.00210247
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.0156616 s
-@ PRODUCT1DCCPU 1048576 0.0156616
+        Time:  0.0157103 s
+@ PRODUCT1DCCPU 1048576 0.0157103
 
       OpenMP
-        Time:  0.00326935 s
-@ PRODUCT1DCOPENMPCPU 1048576 0.00326935
+        Time:  0.00330338 s
+@ PRODUCT1DCOPENMPCPU 1048576 0.00330338
 
       OpenMP GPU
-        Time:  0.00322313 s
-@ PRODUCT1DCOPENMPGPU 1048576 0.00322313
+        Time:  0.00323465 s
+@ PRODUCT1DCOPENMPGPU 1048576 0.00323465
 
 ====================================
 Dimensions: 1048576 
@@ -2130,31 +2133,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.00800099 s
-@ PRODUCT1DRCPU 1048576 0.00800099
+        Time:  0.00832954 s
+@ PRODUCT1DRCPU 1048576 0.00832954
 
       OpenMP CPU
-        Time:  0.00209375 s
-@ PRODUCT1DROPENMPCPU 1048576 0.00209375
+        Time:  0.0021425 s
+@ PRODUCT1DROPENMPCPU 1048576 0.0021425
 
       OpenMP GPU
-        Time:  0.0021412 s
-@ PRODUCT1DROPENMPGPU 1048576 0.0021412
+        Time:  0.00216508 s
+@ PRODUCT1DROPENMPGPU 1048576 0.00216508
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.0157183 s
-@ PRODUCT1DCCPU 1048576 0.0157183
+        Time:  0.0156219 s
+@ PRODUCT1DCCPU 1048576 0.0156219
 
       OpenMP
-        Time:  0.00326886 s
-@ PRODUCT1DCOPENMPCPU 1048576 0.00326886
+        Time:  0.00328623 s
+@ PRODUCT1DCOPENMPCPU 1048576 0.00328623
 
       OpenMP GPU
-        Time:  0.0032195 s
-@ PRODUCT1DCOPENMPGPU 1048576 0.0032195
+        Time:  0.0032531 s
+@ PRODUCT1DCOPENMPGPU 1048576 0.0032531
 
 ====================================
 Dimensions: 1048576 
@@ -2164,31 +2167,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.00798248 s
-@ PRODUCT1DRCPU 1048576 0.00798248
+        Time:  0.00807957 s
+@ PRODUCT1DRCPU 1048576 0.00807957
 
       OpenMP CPU
-        Time:  0.00208144 s
-@ PRODUCT1DROPENMPCPU 1048576 0.00208144
+        Time:  0.00210151 s
+@ PRODUCT1DROPENMPCPU 1048576 0.00210151
 
       OpenMP GPU
-        Time:  0.00212586 s
-@ PRODUCT1DROPENMPGPU 1048576 0.00212586
+        Time:  0.00216566 s
+@ PRODUCT1DROPENMPGPU 1048576 0.00216566
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.0157938 s
-@ PRODUCT1DCCPU 1048576 0.0157938
+        Time:  0.0157343 s
+@ PRODUCT1DCCPU 1048576 0.0157343
 
       OpenMP
-        Time:  0.003255 s
-@ PRODUCT1DCOPENMPCPU 1048576 0.003255
+        Time:  0.00326874 s
+@ PRODUCT1DCOPENMPCPU 1048576 0.00326874
 
       OpenMP GPU
-        Time:  0.00323032 s
-@ PRODUCT1DCOPENMPGPU 1048576 0.00323032
+        Time:  0.00324084 s
+@ PRODUCT1DCOPENMPGPU 1048576 0.00324084
 
 ====================================
 Dimensions: 1048576 
@@ -2198,31 +2201,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.00792176 s
-@ PRODUCT1DRCPU 1048576 0.00792176
+        Time:  0.00837387 s
+@ PRODUCT1DRCPU 1048576 0.00837387
 
       OpenMP CPU
-        Time:  0.00208934 s
-@ PRODUCT1DROPENMPCPU 1048576 0.00208934
+        Time:  0.00208489 s
+@ PRODUCT1DROPENMPCPU 1048576 0.00208489
 
       OpenMP GPU
-        Time:  0.00212703 s
-@ PRODUCT1DROPENMPGPU 1048576 0.00212703
+        Time:  0.0021901 s
+@ PRODUCT1DROPENMPGPU 1048576 0.0021901
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.0156305 s
-@ PRODUCT1DCCPU 1048576 0.0156305
+        Time:  0.0156543 s
+@ PRODUCT1DCCPU 1048576 0.0156543
 
       OpenMP
-        Time:  0.00327753 s
-@ PRODUCT1DCOPENMPCPU 1048576 0.00327753
+        Time:  0.00326564 s
+@ PRODUCT1DCOPENMPCPU 1048576 0.00326564
 
       OpenMP GPU
-        Time:  0.00322646 s
-@ PRODUCT1DCOPENMPGPU 1048576 0.00322646
+        Time:  0.00323952 s
+@ PRODUCT1DCOPENMPGPU 1048576 0.00323952
 
 ====================================
 Dimensions: 1048576 
@@ -2232,31 +2235,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.0079502 s
-@ PRODUCT1DRCPU 1048576 0.0079502
+        Time:  0.00827236 s
+@ PRODUCT1DRCPU 1048576 0.00827236
 
       OpenMP CPU
-        Time:  0.00204902 s
-@ PRODUCT1DROPENMPCPU 1048576 0.00204902
+        Time:  0.00206677 s
+@ PRODUCT1DROPENMPCPU 1048576 0.00206677
 
       OpenMP GPU
-        Time:  0.00210069 s
-@ PRODUCT1DROPENMPGPU 1048576 0.00210069
+        Time:  0.00214912 s
+@ PRODUCT1DROPENMPGPU 1048576 0.00214912
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.0156084 s
-@ PRODUCT1DCCPU 1048576 0.0156084
+        Time:  0.0158692 s
+@ PRODUCT1DCCPU 1048576 0.0158692
 
       OpenMP
-        Time:  0.00326174 s
-@ PRODUCT1DCOPENMPCPU 1048576 0.00326174
+        Time:  0.00328282 s
+@ PRODUCT1DCOPENMPCPU 1048576 0.00328282
 
       OpenMP GPU
-        Time:  0.00322928 s
-@ PRODUCT1DCOPENMPGPU 1048576 0.00322928
+        Time:  0.00328641 s
+@ PRODUCT1DCOPENMPGPU 1048576 0.00328641
 
 ====================================
 Dimensions: 1048576 
@@ -2266,31 +2269,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.00793366 s
-@ PRODUCT1DRCPU 1048576 0.00793366
+        Time:  0.00819622 s
+@ PRODUCT1DRCPU 1048576 0.00819622
 
       OpenMP CPU
-        Time:  0.00209354 s
-@ PRODUCT1DROPENMPCPU 1048576 0.00209354
+        Time:  0.00211926 s
+@ PRODUCT1DROPENMPCPU 1048576 0.00211926
 
       OpenMP GPU
-        Time:  0.00214534 s
-@ PRODUCT1DROPENMPGPU 1048576 0.00214534
+        Time:  0.00219605 s
+@ PRODUCT1DROPENMPGPU 1048576 0.00219605
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.0158795 s
-@ PRODUCT1DCCPU 1048576 0.0158795
+        Time:  0.0156913 s
+@ PRODUCT1DCCPU 1048576 0.0156913
 
       OpenMP
-        Time:  0.00325213 s
-@ PRODUCT1DCOPENMPCPU 1048576 0.00325213
+        Time:  0.00336457 s
+@ PRODUCT1DCOPENMPCPU 1048576 0.00336457
 
       OpenMP GPU
-        Time:  0.0032802 s
-@ PRODUCT1DCOPENMPGPU 1048576 0.0032802
+        Time:  0.00325472 s
+@ PRODUCT1DCOPENMPGPU 1048576 0.00325472
 
 ====================================
 Dimensions: 1048576 
@@ -2300,31 +2303,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.00809116 s
-@ PRODUCT1DRCPU 1048576 0.00809116
+        Time:  0.00823151 s
+@ PRODUCT1DRCPU 1048576 0.00823151
 
       OpenMP CPU
-        Time:  0.00210186 s
-@ PRODUCT1DROPENMPCPU 1048576 0.00210186
+        Time:  0.00207333 s
+@ PRODUCT1DROPENMPCPU 1048576 0.00207333
 
       OpenMP GPU
-        Time:  0.00214296 s
-@ PRODUCT1DROPENMPGPU 1048576 0.00214296
+        Time:  0.00214093 s
+@ PRODUCT1DROPENMPGPU 1048576 0.00214093
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.0156949 s
-@ PRODUCT1DCCPU 1048576 0.0156949
+        Time:  0.0158012 s
+@ PRODUCT1DCCPU 1048576 0.0158012
 
       OpenMP
-        Time:  0.00326995 s
-@ PRODUCT1DCOPENMPCPU 1048576 0.00326995
+        Time:  0.00331847 s
+@ PRODUCT1DCOPENMPCPU 1048576 0.00331847
 
       OpenMP GPU
-        Time:  0.0032279 s
-@ PRODUCT1DCOPENMPGPU 1048576 0.0032279
+        Time:  0.00327787 s
+@ PRODUCT1DCOPENMPGPU 1048576 0.00327787
 
 ====================================
 Dimensions: 1048576 
@@ -2334,31 +2337,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.00790928 s
-@ PRODUCT1DRCPU 1048576 0.00790928
+        Time:  0.0083307 s
+@ PRODUCT1DRCPU 1048576 0.0083307
 
       OpenMP CPU
-        Time:  0.00208365 s
-@ PRODUCT1DROPENMPCPU 1048576 0.00208365
+        Time:  0.00213056 s
+@ PRODUCT1DROPENMPCPU 1048576 0.00213056
 
       OpenMP GPU
-        Time:  0.002135 s
-@ PRODUCT1DROPENMPGPU 1048576 0.002135
+        Time:  0.00220188 s
+@ PRODUCT1DROPENMPGPU 1048576 0.00220188
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.0157643 s
-@ PRODUCT1DCCPU 1048576 0.0157643
+        Time:  0.0158164 s
+@ PRODUCT1DCCPU 1048576 0.0158164
 
       OpenMP
-        Time:  0.00327825 s
-@ PRODUCT1DCOPENMPCPU 1048576 0.00327825
+        Time:  0.00327217 s
+@ PRODUCT1DCOPENMPCPU 1048576 0.00327217
 
       OpenMP GPU
-        Time:  0.00321378 s
-@ PRODUCT1DCOPENMPGPU 1048576 0.00321378
+        Time:  0.00325964 s
+@ PRODUCT1DCOPENMPGPU 1048576 0.00325964
 
 ====================================
 Dimensions: 1048576 
@@ -2368,31 +2371,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.00797465 s
-@ PRODUCT1DRCPU 1048576 0.00797465
+        Time:  0.00836897 s
+@ PRODUCT1DRCPU 1048576 0.00836897
 
       OpenMP CPU
-        Time:  0.00207336 s
-@ PRODUCT1DROPENMPCPU 1048576 0.00207336
+        Time:  0.00212866 s
+@ PRODUCT1DROPENMPCPU 1048576 0.00212866
 
       OpenMP GPU
-        Time:  0.0021443 s
-@ PRODUCT1DROPENMPGPU 1048576 0.0021443
+        Time:  0.00214923 s
+@ PRODUCT1DROPENMPGPU 1048576 0.00214923
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.0157376 s
-@ PRODUCT1DCCPU 1048576 0.0157376
+        Time:  0.0156796 s
+@ PRODUCT1DCCPU 1048576 0.0156796
 
       OpenMP
-        Time:  0.00326303 s
-@ PRODUCT1DCOPENMPCPU 1048576 0.00326303
+        Time:  0.00328949 s
+@ PRODUCT1DCOPENMPCPU 1048576 0.00328949
 
       OpenMP GPU
-        Time:  0.00322529 s
-@ PRODUCT1DCOPENMPGPU 1048576 0.00322529
+        Time:  0.00322748 s
+@ PRODUCT1DCOPENMPGPU 1048576 0.00322748
 
 ====================================
 ====================================
@@ -2404,31 +2407,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.0319183 s
-@ PRODUCT1DRCPU 4194304 0.0319183
+        Time:  0.0323089 s
+@ PRODUCT1DRCPU 4194304 0.0323089
 
       OpenMP CPU
-        Time:  0.00881465 s
-@ PRODUCT1DROPENMPCPU 4194304 0.00881465
+        Time:  0.00865648 s
+@ PRODUCT1DROPENMPCPU 4194304 0.00865648
 
       OpenMP GPU
-        Time:  0.00902195 s
-@ PRODUCT1DROPENMPGPU 4194304 0.00902195
+        Time:  0.00897332 s
+@ PRODUCT1DROPENMPGPU 4194304 0.00897332
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.0663494 s
-@ PRODUCT1DCCPU 4194304 0.0663494
+        Time:  0.06676 s
+@ PRODUCT1DCCPU 4194304 0.06676
 
       OpenMP
-        Time:  0.0131104 s
-@ PRODUCT1DCOPENMPCPU 4194304 0.0131104
+        Time:  0.0132391 s
+@ PRODUCT1DCOPENMPCPU 4194304 0.0132391
 
       OpenMP GPU
-        Time:  0.0130188 s
-@ PRODUCT1DCOPENMPGPU 4194304 0.0130188
+        Time:  0.0130701 s
+@ PRODUCT1DCOPENMPGPU 4194304 0.0130701
 
 ====================================
 Dimensions: 4194304 
@@ -2438,31 +2441,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.0320615 s
-@ PRODUCT1DRCPU 4194304 0.0320615
+        Time:  0.0323937 s
+@ PRODUCT1DRCPU 4194304 0.0323937
 
       OpenMP CPU
-        Time:  0.00868776 s
-@ PRODUCT1DROPENMPCPU 4194304 0.00868776
+        Time:  0.00869174 s
+@ PRODUCT1DROPENMPCPU 4194304 0.00869174
 
       OpenMP GPU
-        Time:  0.0090168 s
-@ PRODUCT1DROPENMPGPU 4194304 0.0090168
+        Time:  0.00894016 s
+@ PRODUCT1DROPENMPGPU 4194304 0.00894016
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.066525 s
-@ PRODUCT1DCCPU 4194304 0.066525
+        Time:  0.0673078 s
+@ PRODUCT1DCCPU 4194304 0.0673078
 
       OpenMP
-        Time:  0.0132133 s
-@ PRODUCT1DCOPENMPCPU 4194304 0.0132133
+        Time:  0.013157 s
+@ PRODUCT1DCOPENMPCPU 4194304 0.013157
 
       OpenMP GPU
-        Time:  0.0130068 s
-@ PRODUCT1DCOPENMPGPU 4194304 0.0130068
+        Time:  0.013077 s
+@ PRODUCT1DCOPENMPGPU 4194304 0.013077
 
 ====================================
 Dimensions: 4194304 
@@ -2472,31 +2475,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.0317655 s
-@ PRODUCT1DRCPU 4194304 0.0317655
+        Time:  0.0319519 s
+@ PRODUCT1DRCPU 4194304 0.0319519
 
       OpenMP CPU
-        Time:  0.00865968 s
-@ PRODUCT1DROPENMPCPU 4194304 0.00865968
+        Time:  0.00864059 s
+@ PRODUCT1DROPENMPCPU 4194304 0.00864059
 
       OpenMP GPU
-        Time:  0.00891772 s
-@ PRODUCT1DROPENMPGPU 4194304 0.00891772
+        Time:  0.00897164 s
+@ PRODUCT1DROPENMPGPU 4194304 0.00897164
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.0666717 s
-@ PRODUCT1DCCPU 4194304 0.0666717
+        Time:  0.0671344 s
+@ PRODUCT1DCCPU 4194304 0.0671344
 
       OpenMP
-        Time:  0.0131996 s
-@ PRODUCT1DCOPENMPCPU 4194304 0.0131996
+        Time:  0.0132155 s
+@ PRODUCT1DCOPENMPCPU 4194304 0.0132155
 
       OpenMP GPU
-        Time:  0.0131035 s
-@ PRODUCT1DCOPENMPGPU 4194304 0.0131035
+        Time:  0.0130018 s
+@ PRODUCT1DCOPENMPGPU 4194304 0.0130018
 
 ====================================
 Dimensions: 4194304 
@@ -2506,31 +2509,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.0319942 s
-@ PRODUCT1DRCPU 4194304 0.0319942
+        Time:  0.0319596 s
+@ PRODUCT1DRCPU 4194304 0.0319596
 
       OpenMP CPU
-        Time:  0.0086456 s
-@ PRODUCT1DROPENMPCPU 4194304 0.0086456
+        Time:  0.00869249 s
+@ PRODUCT1DROPENMPCPU 4194304 0.00869249
 
       OpenMP GPU
-        Time:  0.00900956 s
-@ PRODUCT1DROPENMPGPU 4194304 0.00900956
+        Time:  0.00897692 s
+@ PRODUCT1DROPENMPGPU 4194304 0.00897692
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.0666096 s
-@ PRODUCT1DCCPU 4194304 0.0666096
+        Time:  0.0670636 s
+@ PRODUCT1DCCPU 4194304 0.0670636
 
       OpenMP
-        Time:  0.0131452 s
-@ PRODUCT1DCOPENMPCPU 4194304 0.0131452
+        Time:  0.01315 s
+@ PRODUCT1DCOPENMPCPU 4194304 0.01315
 
       OpenMP GPU
-        Time:  0.0130639 s
-@ PRODUCT1DCOPENMPGPU 4194304 0.0130639
+        Time:  0.0130101 s
+@ PRODUCT1DCOPENMPGPU 4194304 0.0130101
 
 ====================================
 Dimensions: 4194304 
@@ -2540,31 +2543,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.0321056 s
-@ PRODUCT1DRCPU 4194304 0.0321056
+        Time:  0.0324321 s
+@ PRODUCT1DRCPU 4194304 0.0324321
 
       OpenMP CPU
-        Time:  0.00864737 s
-@ PRODUCT1DROPENMPCPU 4194304 0.00864737
+        Time:  0.00864709 s
+@ PRODUCT1DROPENMPCPU 4194304 0.00864709
 
       OpenMP GPU
-        Time:  0.00897006 s
-@ PRODUCT1DROPENMPGPU 4194304 0.00897006
+        Time:  0.00908403 s
+@ PRODUCT1DROPENMPGPU 4194304 0.00908403
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.0664265 s
-@ PRODUCT1DCCPU 4194304 0.0664265
+        Time:  0.0668306 s
+@ PRODUCT1DCCPU 4194304 0.0668306
 
       OpenMP
-        Time:  0.013199 s
-@ PRODUCT1DCOPENMPCPU 4194304 0.013199
+        Time:  0.0131854 s
+@ PRODUCT1DCOPENMPCPU 4194304 0.0131854
 
       OpenMP GPU
-        Time:  0.0131755 s
-@ PRODUCT1DCOPENMPGPU 4194304 0.0131755
+        Time:  0.0131143 s
+@ PRODUCT1DCOPENMPGPU 4194304 0.0131143
 
 ====================================
 Dimensions: 4194304 
@@ -2574,31 +2577,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.0318014 s
-@ PRODUCT1DRCPU 4194304 0.0318014
+        Time:  0.0322075 s
+@ PRODUCT1DRCPU 4194304 0.0322075
 
       OpenMP CPU
-        Time:  0.00863678 s
-@ PRODUCT1DROPENMPCPU 4194304 0.00863678
+        Time:  0.0087968 s
+@ PRODUCT1DROPENMPCPU 4194304 0.0087968
 
       OpenMP GPU
-        Time:  0.00901719 s
-@ PRODUCT1DROPENMPGPU 4194304 0.00901719
+        Time:  0.0089652 s
+@ PRODUCT1DROPENMPGPU 4194304 0.0089652
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.0661728 s
-@ PRODUCT1DCCPU 4194304 0.0661728
+        Time:  0.0668321 s
+@ PRODUCT1DCCPU 4194304 0.0668321
 
       OpenMP
-        Time:  0.0130852 s
-@ PRODUCT1DCOPENMPCPU 4194304 0.0130852
+        Time:  0.0132604 s
+@ PRODUCT1DCOPENMPCPU 4194304 0.0132604
 
       OpenMP GPU
-        Time:  0.0130298 s
-@ PRODUCT1DCOPENMPGPU 4194304 0.0130298
+        Time:  0.0131481 s
+@ PRODUCT1DCOPENMPGPU 4194304 0.0131481
 
 ====================================
 Dimensions: 4194304 
@@ -2608,31 +2611,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.0319782 s
-@ PRODUCT1DRCPU 4194304 0.0319782
+        Time:  0.0321467 s
+@ PRODUCT1DRCPU 4194304 0.0321467
 
       OpenMP CPU
-        Time:  0.00861269 s
-@ PRODUCT1DROPENMPCPU 4194304 0.00861269
+        Time:  0.00883282 s
+@ PRODUCT1DROPENMPCPU 4194304 0.00883282
 
       OpenMP GPU
-        Time:  0.00895691 s
-@ PRODUCT1DROPENMPGPU 4194304 0.00895691
+        Time:  0.00913962 s
+@ PRODUCT1DROPENMPGPU 4194304 0.00913962
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.0664189 s
-@ PRODUCT1DCCPU 4194304 0.0664189
+        Time:  0.0669733 s
+@ PRODUCT1DCCPU 4194304 0.0669733
 
       OpenMP
-        Time:  0.0132091 s
-@ PRODUCT1DCOPENMPCPU 4194304 0.0132091
+        Time:  0.0131389 s
+@ PRODUCT1DCOPENMPCPU 4194304 0.0131389
 
       OpenMP GPU
-        Time:  0.0130703 s
-@ PRODUCT1DCOPENMPGPU 4194304 0.0130703
+        Time:  0.0129973 s
+@ PRODUCT1DCOPENMPGPU 4194304 0.0129973
 
 ====================================
 Dimensions: 4194304 
@@ -2642,31 +2645,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.0318543 s
-@ PRODUCT1DRCPU 4194304 0.0318543
+        Time:  0.0320591 s
+@ PRODUCT1DRCPU 4194304 0.0320591
 
       OpenMP CPU
-        Time:  0.00867654 s
-@ PRODUCT1DROPENMPCPU 4194304 0.00867654
+        Time:  0.00863288 s
+@ PRODUCT1DROPENMPCPU 4194304 0.00863288
 
       OpenMP GPU
-        Time:  0.00906821 s
-@ PRODUCT1DROPENMPGPU 4194304 0.00906821
+        Time:  0.00891762 s
+@ PRODUCT1DROPENMPGPU 4194304 0.00891762
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.066161 s
-@ PRODUCT1DCCPU 4194304 0.066161
+        Time:  0.0667916 s
+@ PRODUCT1DCCPU 4194304 0.0667916
 
       OpenMP
-        Time:  0.0131048 s
-@ PRODUCT1DCOPENMPCPU 4194304 0.0131048
+        Time:  0.0131895 s
+@ PRODUCT1DCOPENMPCPU 4194304 0.0131895
 
       OpenMP GPU
-        Time:  0.0130398 s
-@ PRODUCT1DCOPENMPGPU 4194304 0.0130398
+        Time:  0.013002 s
+@ PRODUCT1DCOPENMPGPU 4194304 0.013002
 
 ====================================
 Dimensions: 4194304 
@@ -2676,31 +2679,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.0317596 s
-@ PRODUCT1DRCPU 4194304 0.0317596
+        Time:  0.0321391 s
+@ PRODUCT1DRCPU 4194304 0.0321391
 
       OpenMP CPU
-        Time:  0.00864326 s
-@ PRODUCT1DROPENMPCPU 4194304 0.00864326
+        Time:  0.00861481 s
+@ PRODUCT1DROPENMPCPU 4194304 0.00861481
 
       OpenMP GPU
-        Time:  0.00907326 s
-@ PRODUCT1DROPENMPGPU 4194304 0.00907326
+        Time:  0.00900581 s
+@ PRODUCT1DROPENMPGPU 4194304 0.00900581
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.0667439 s
-@ PRODUCT1DCCPU 4194304 0.0667439
+        Time:  0.0670539 s
+@ PRODUCT1DCCPU 4194304 0.0670539
 
       OpenMP
-        Time:  0.0131896 s
-@ PRODUCT1DCOPENMPCPU 4194304 0.0131896
+        Time:  0.0131183 s
+@ PRODUCT1DCOPENMPCPU 4194304 0.0131183
 
       OpenMP GPU
-        Time:  0.013184 s
-@ PRODUCT1DCOPENMPGPU 4194304 0.013184
+        Time:  0.0130634 s
+@ PRODUCT1DCOPENMPGPU 4194304 0.0130634
 
 ====================================
 Dimensions: 4194304 
@@ -2710,31 +2713,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.0318637 s
-@ PRODUCT1DRCPU 4194304 0.0318637
+        Time:  0.0319808 s
+@ PRODUCT1DRCPU 4194304 0.0319808
 
       OpenMP CPU
-        Time:  0.00865356 s
-@ PRODUCT1DROPENMPCPU 4194304 0.00865356
+        Time:  0.0086727 s
+@ PRODUCT1DROPENMPCPU 4194304 0.0086727
 
       OpenMP GPU
-        Time:  0.00895619 s
-@ PRODUCT1DROPENMPGPU 4194304 0.00895619
+        Time:  0.00895687 s
+@ PRODUCT1DROPENMPGPU 4194304 0.00895687
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.0665043 s
-@ PRODUCT1DCCPU 4194304 0.0665043
+        Time:  0.0673195 s
+@ PRODUCT1DCCPU 4194304 0.0673195
 
       OpenMP
-        Time:  0.0131043 s
-@ PRODUCT1DCOPENMPCPU 4194304 0.0131043
+        Time:  0.0131457 s
+@ PRODUCT1DCOPENMPCPU 4194304 0.0131457
 
       OpenMP GPU
-        Time:  0.0130427 s
-@ PRODUCT1DCOPENMPGPU 4194304 0.0130427
+        Time:  0.0130331 s
+@ PRODUCT1DCOPENMPGPU 4194304 0.0130331
 
 ====================================
 ====================================
@@ -2746,31 +2749,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.124835 s
-@ PRODUCT1DRCPU 16777216 0.124835
+        Time:  0.125901 s
+@ PRODUCT1DRCPU 16777216 0.125901
 
       OpenMP CPU
-        Time:  0.0348621 s
-@ PRODUCT1DROPENMPCPU 16777216 0.0348621
+        Time:  0.0349698 s
+@ PRODUCT1DROPENMPCPU 16777216 0.0349698
 
       OpenMP GPU
-        Time:  0.0361851 s
-@ PRODUCT1DROPENMPGPU 16777216 0.0361851
+        Time:  0.0363263 s
+@ PRODUCT1DROPENMPGPU 16777216 0.0363263
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.257912 s
-@ PRODUCT1DCCPU 16777216 0.257912
+        Time:  0.265292 s
+@ PRODUCT1DCCPU 16777216 0.265292
 
       OpenMP
-        Time:  0.0537281 s
-@ PRODUCT1DCOPENMPCPU 16777216 0.0537281
+        Time:  0.0530521 s
+@ PRODUCT1DCOPENMPCPU 16777216 0.0530521
 
       OpenMP GPU
-        Time:  0.053446 s
-@ PRODUCT1DCOPENMPGPU 16777216 0.053446
+        Time:  0.0527421 s
+@ PRODUCT1DCOPENMPGPU 16777216 0.0527421
 
 ====================================
 Dimensions: 16777216 
@@ -2780,31 +2783,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.124769 s
-@ PRODUCT1DRCPU 16777216 0.124769
+        Time:  0.126029 s
+@ PRODUCT1DRCPU 16777216 0.126029
 
       OpenMP CPU
-        Time:  0.0349205 s
-@ PRODUCT1DROPENMPCPU 16777216 0.0349205
+        Time:  0.0351274 s
+@ PRODUCT1DROPENMPCPU 16777216 0.0351274
 
       OpenMP GPU
-        Time:  0.0365437 s
-@ PRODUCT1DROPENMPGPU 16777216 0.0365437
+        Time:  0.0363039 s
+@ PRODUCT1DROPENMPGPU 16777216 0.0363039
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.262507 s
-@ PRODUCT1DCCPU 16777216 0.262507
+        Time:  0.265873 s
+@ PRODUCT1DCCPU 16777216 0.265873
 
       OpenMP
-        Time:  0.0538554 s
-@ PRODUCT1DCOPENMPCPU 16777216 0.0538554
+        Time:  0.0528139 s
+@ PRODUCT1DCOPENMPCPU 16777216 0.0528139
 
       OpenMP GPU
-        Time:  0.0537815 s
-@ PRODUCT1DCOPENMPGPU 16777216 0.0537815
+        Time:  0.0527805 s
+@ PRODUCT1DCOPENMPGPU 16777216 0.0527805
 
 ====================================
 Dimensions: 16777216 
@@ -2814,31 +2817,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.124988 s
-@ PRODUCT1DRCPU 16777216 0.124988
+        Time:  0.126018 s
+@ PRODUCT1DRCPU 16777216 0.126018
 
       OpenMP CPU
-        Time:  0.0349132 s
-@ PRODUCT1DROPENMPCPU 16777216 0.0349132
+        Time:  0.0350572 s
+@ PRODUCT1DROPENMPCPU 16777216 0.0350572
 
       OpenMP GPU
-        Time:  0.0362143 s
-@ PRODUCT1DROPENMPGPU 16777216 0.0362143
+        Time:  0.0363037 s
+@ PRODUCT1DROPENMPGPU 16777216 0.0363037
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.25807 s
-@ PRODUCT1DCCPU 16777216 0.25807
+        Time:  0.265887 s
+@ PRODUCT1DCCPU 16777216 0.265887
 
       OpenMP
-        Time:  0.0536967 s
-@ PRODUCT1DCOPENMPCPU 16777216 0.0536967
+        Time:  0.0530367 s
+@ PRODUCT1DCOPENMPCPU 16777216 0.0530367
 
       OpenMP GPU
-        Time:  0.0534797 s
-@ PRODUCT1DCOPENMPGPU 16777216 0.0534797
+        Time:  0.0529042 s
+@ PRODUCT1DCOPENMPGPU 16777216 0.0529042
 
 ====================================
 Dimensions: 16777216 
@@ -2848,31 +2851,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.12512 s
-@ PRODUCT1DRCPU 16777216 0.12512
+        Time:  0.126143 s
+@ PRODUCT1DRCPU 16777216 0.126143
 
       OpenMP CPU
-        Time:  0.0348802 s
-@ PRODUCT1DROPENMPCPU 16777216 0.0348802
+        Time:  0.0350631 s
+@ PRODUCT1DROPENMPCPU 16777216 0.0350631
 
       OpenMP GPU
-        Time:  0.0362276 s
-@ PRODUCT1DROPENMPGPU 16777216 0.0362276
+        Time:  0.0364908 s
+@ PRODUCT1DROPENMPGPU 16777216 0.0364908
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.258747 s
-@ PRODUCT1DCCPU 16777216 0.258747
+        Time:  0.270691 s
+@ PRODUCT1DCCPU 16777216 0.270691
 
       OpenMP
-        Time:  0.0537774 s
-@ PRODUCT1DCOPENMPCPU 16777216 0.0537774
+        Time:  0.0533206 s
+@ PRODUCT1DCOPENMPCPU 16777216 0.0533206
 
       OpenMP GPU
-        Time:  0.0534576 s
-@ PRODUCT1DCOPENMPGPU 16777216 0.0534576
+        Time:  0.052751 s
+@ PRODUCT1DCOPENMPGPU 16777216 0.052751
 
 ====================================
 Dimensions: 16777216 
@@ -2882,31 +2885,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.125194 s
-@ PRODUCT1DRCPU 16777216 0.125194
+        Time:  0.127233 s
+@ PRODUCT1DRCPU 16777216 0.127233
 
       OpenMP CPU
-        Time:  0.0350093 s
-@ PRODUCT1DROPENMPCPU 16777216 0.0350093
+        Time:  0.0349885 s
+@ PRODUCT1DROPENMPCPU 16777216 0.0349885
 
       OpenMP GPU
-        Time:  0.0363078 s
-@ PRODUCT1DROPENMPGPU 16777216 0.0363078
+        Time:  0.0363479 s
+@ PRODUCT1DROPENMPGPU 16777216 0.0363479
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.258155 s
-@ PRODUCT1DCCPU 16777216 0.258155
+        Time:  0.266538 s
+@ PRODUCT1DCCPU 16777216 0.266538
 
       OpenMP
-        Time:  0.0536111 s
-@ PRODUCT1DCOPENMPCPU 16777216 0.0536111
+        Time:  0.0530962 s
+@ PRODUCT1DCOPENMPCPU 16777216 0.0530962
 
       OpenMP GPU
-        Time:  0.053584 s
-@ PRODUCT1DCOPENMPGPU 16777216 0.053584
+        Time:  0.0529598 s
+@ PRODUCT1DCOPENMPGPU 16777216 0.0529598
 
 ====================================
 Dimensions: 16777216 
@@ -2916,31 +2919,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.124657 s
-@ PRODUCT1DRCPU 16777216 0.124657
+        Time:  0.126698 s
+@ PRODUCT1DRCPU 16777216 0.126698
 
       OpenMP CPU
-        Time:  0.034898 s
-@ PRODUCT1DROPENMPCPU 16777216 0.034898
+        Time:  0.0351057 s
+@ PRODUCT1DROPENMPCPU 16777216 0.0351057
 
       OpenMP GPU
-        Time:  0.0362479 s
-@ PRODUCT1DROPENMPGPU 16777216 0.0362479
+        Time:  0.0362376 s
+@ PRODUCT1DROPENMPGPU 16777216 0.0362376
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.258141 s
-@ PRODUCT1DCCPU 16777216 0.258141
+        Time:  0.266199 s
+@ PRODUCT1DCCPU 16777216 0.266199
 
       OpenMP
-        Time:  0.0537696 s
-@ PRODUCT1DCOPENMPCPU 16777216 0.0537696
+        Time:  0.0529086 s
+@ PRODUCT1DCOPENMPCPU 16777216 0.0529086
 
       OpenMP GPU
-        Time:  0.0533354 s
-@ PRODUCT1DCOPENMPGPU 16777216 0.0533354
+        Time:  0.0527123 s
+@ PRODUCT1DCOPENMPGPU 16777216 0.0527123
 
 ====================================
 Dimensions: 16777216 
@@ -2950,31 +2953,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.124975 s
-@ PRODUCT1DRCPU 16777216 0.124975
+        Time:  0.126427 s
+@ PRODUCT1DRCPU 16777216 0.126427
 
       OpenMP CPU
-        Time:  0.0349105 s
-@ PRODUCT1DROPENMPCPU 16777216 0.0349105
+        Time:  0.0350696 s
+@ PRODUCT1DROPENMPCPU 16777216 0.0350696
 
       OpenMP GPU
-        Time:  0.0364296 s
-@ PRODUCT1DROPENMPGPU 16777216 0.0364296
+        Time:  0.0365895 s
+@ PRODUCT1DROPENMPGPU 16777216 0.0365895
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.258592 s
-@ PRODUCT1DCCPU 16777216 0.258592
+        Time:  0.265662 s
+@ PRODUCT1DCCPU 16777216 0.265662
 
       OpenMP
-        Time:  0.0536768 s
-@ PRODUCT1DCOPENMPCPU 16777216 0.0536768
+        Time:  0.0530492 s
+@ PRODUCT1DCOPENMPCPU 16777216 0.0530492
 
       OpenMP GPU
-        Time:  0.0535671 s
-@ PRODUCT1DCOPENMPGPU 16777216 0.0535671
+        Time:  0.0527757 s
+@ PRODUCT1DCOPENMPGPU 16777216 0.0527757
 
 ====================================
 Dimensions: 16777216 
@@ -2984,31 +2987,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.125049 s
-@ PRODUCT1DRCPU 16777216 0.125049
+        Time:  0.127005 s
+@ PRODUCT1DRCPU 16777216 0.127005
 
       OpenMP CPU
-        Time:  0.0352861 s
-@ PRODUCT1DROPENMPCPU 16777216 0.0352861
+        Time:  0.0352207 s
+@ PRODUCT1DROPENMPCPU 16777216 0.0352207
 
       OpenMP GPU
-        Time:  0.0362392 s
-@ PRODUCT1DROPENMPGPU 16777216 0.0362392
+        Time:  0.0363255 s
+@ PRODUCT1DROPENMPGPU 16777216 0.0363255
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.258051 s
-@ PRODUCT1DCCPU 16777216 0.258051
+        Time:  0.266361 s
+@ PRODUCT1DCCPU 16777216 0.266361
 
       OpenMP
-        Time:  0.0539663 s
-@ PRODUCT1DCOPENMPCPU 16777216 0.0539663
+        Time:  0.0530411 s
+@ PRODUCT1DCOPENMPCPU 16777216 0.0530411
 
       OpenMP GPU
-        Time:  0.053414 s
-@ PRODUCT1DCOPENMPGPU 16777216 0.053414
+        Time:  0.0528396 s
+@ PRODUCT1DCOPENMPGPU 16777216 0.0528396
 
 ====================================
 Dimensions: 16777216 
@@ -3018,31 +3021,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.124059 s
-@ PRODUCT1DRCPU 16777216 0.124059
+        Time:  0.125804 s
+@ PRODUCT1DRCPU 16777216 0.125804
 
       OpenMP CPU
-        Time:  0.0348565 s
-@ PRODUCT1DROPENMPCPU 16777216 0.0348565
+        Time:  0.0349849 s
+@ PRODUCT1DROPENMPCPU 16777216 0.0349849
 
       OpenMP GPU
-        Time:  0.0361828 s
-@ PRODUCT1DROPENMPGPU 16777216 0.0361828
+        Time:  0.0362628 s
+@ PRODUCT1DROPENMPGPU 16777216 0.0362628
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.258307 s
-@ PRODUCT1DCCPU 16777216 0.258307
+        Time:  0.266068 s
+@ PRODUCT1DCCPU 16777216 0.266068
 
       OpenMP
-        Time:  0.0537431 s
-@ PRODUCT1DCOPENMPCPU 16777216 0.0537431
+        Time:  0.0531165 s
+@ PRODUCT1DCOPENMPCPU 16777216 0.0531165
 
       OpenMP GPU
-        Time:  0.0535621 s
-@ PRODUCT1DCOPENMPGPU 16777216 0.0535621
+        Time:  0.0527574 s
+@ PRODUCT1DCOPENMPGPU 16777216 0.0527574
 
 ====================================
 Dimensions: 16777216 
@@ -3052,31 +3055,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.129084 s
-@ PRODUCT1DRCPU 16777216 0.129084
+        Time:  0.125721 s
+@ PRODUCT1DRCPU 16777216 0.125721
 
       OpenMP CPU
-        Time:  0.0351981 s
-@ PRODUCT1DROPENMPCPU 16777216 0.0351981
+        Time:  0.0348683 s
+@ PRODUCT1DROPENMPCPU 16777216 0.0348683
 
       OpenMP GPU
-        Time:  0.0368636 s
-@ PRODUCT1DROPENMPGPU 16777216 0.0368636
+        Time:  0.0363983 s
+@ PRODUCT1DROPENMPGPU 16777216 0.0363983
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.258883 s
-@ PRODUCT1DCCPU 16777216 0.258883
+        Time:  0.26566 s
+@ PRODUCT1DCCPU 16777216 0.26566
 
       OpenMP
-        Time:  0.0537336 s
-@ PRODUCT1DCOPENMPCPU 16777216 0.0537336
+        Time:  0.0533806 s
+@ PRODUCT1DCOPENMPCPU 16777216 0.0533806
 
       OpenMP GPU
-        Time:  0.05341 s
-@ PRODUCT1DCOPENMPGPU 16777216 0.05341
+        Time:  0.052794 s
+@ PRODUCT1DCOPENMPGPU 16777216 0.052794
 
 ====================================
 ====================================
@@ -3088,31 +3091,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.496117 s
-@ PRODUCT1DRCPU 67108864 0.496117
+        Time:  0.501608 s
+@ PRODUCT1DRCPU 67108864 0.501608
 
       OpenMP CPU
-        Time:  0.140488 s
-@ PRODUCT1DROPENMPCPU 67108864 0.140488
+        Time:  0.14249 s
+@ PRODUCT1DROPENMPCPU 67108864 0.14249
 
       OpenMP GPU
-        Time:  0.146019 s
-@ PRODUCT1DROPENMPGPU 67108864 0.146019
+        Time:  0.146268 s
+@ PRODUCT1DROPENMPGPU 67108864 0.146268
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  1.02893 s
-@ PRODUCT1DCCPU 67108864 1.02893
+        Time:  1.03564 s
+@ PRODUCT1DCCPU 67108864 1.03564
 
       OpenMP
-        Time:  0.217379 s
-@ PRODUCT1DCOPENMPCPU 67108864 0.217379
+        Time:  0.215079 s
+@ PRODUCT1DCOPENMPCPU 67108864 0.215079
 
       OpenMP GPU
-        Time:  0.216433 s
-@ PRODUCT1DCOPENMPGPU 67108864 0.216433
+        Time:  0.21367 s
+@ PRODUCT1DCOPENMPGPU 67108864 0.21367
 
 ====================================
 Dimensions: 67108864 
@@ -3122,31 +3125,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.497544 s
-@ PRODUCT1DRCPU 67108864 0.497544
+        Time:  0.50142 s
+@ PRODUCT1DRCPU 67108864 0.50142
 
       OpenMP CPU
-        Time:  0.140771 s
-@ PRODUCT1DROPENMPCPU 67108864 0.140771
+        Time:  0.140045 s
+@ PRODUCT1DROPENMPCPU 67108864 0.140045
 
       OpenMP GPU
-        Time:  0.145841 s
-@ PRODUCT1DROPENMPGPU 67108864 0.145841
+        Time:  0.145577 s
+@ PRODUCT1DROPENMPGPU 67108864 0.145577
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  1.04629 s
-@ PRODUCT1DCCPU 67108864 1.04629
+        Time:  1.04483 s
+@ PRODUCT1DCCPU 67108864 1.04483
 
       OpenMP
-        Time:  0.216002 s
-@ PRODUCT1DCOPENMPCPU 67108864 0.216002
+        Time:  0.215228 s
+@ PRODUCT1DCOPENMPCPU 67108864 0.215228
 
       OpenMP GPU
-        Time:  0.215262 s
-@ PRODUCT1DCOPENMPGPU 67108864 0.215262
+        Time:  0.214934 s
+@ PRODUCT1DCOPENMPGPU 67108864 0.214934
 
 ====================================
 Dimensions: 67108864 
@@ -3156,31 +3159,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.496866 s
-@ PRODUCT1DRCPU 67108864 0.496866
+        Time:  0.504779 s
+@ PRODUCT1DRCPU 67108864 0.504779
 
       OpenMP CPU
-        Time:  0.140101 s
-@ PRODUCT1DROPENMPCPU 67108864 0.140101
+        Time:  0.141165 s
+@ PRODUCT1DROPENMPCPU 67108864 0.141165
 
       OpenMP GPU
-        Time:  0.145748 s
-@ PRODUCT1DROPENMPGPU 67108864 0.145748
+        Time:  0.146534 s
+@ PRODUCT1DROPENMPGPU 67108864 0.146534
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  1.02783 s
-@ PRODUCT1DCCPU 67108864 1.02783
+        Time:  1.03704 s
+@ PRODUCT1DCCPU 67108864 1.03704
 
       OpenMP
-        Time:  0.216216 s
-@ PRODUCT1DCOPENMPCPU 67108864 0.216216
+        Time:  0.214851 s
+@ PRODUCT1DCOPENMPCPU 67108864 0.214851
 
       OpenMP GPU
-        Time:  0.216582 s
-@ PRODUCT1DCOPENMPGPU 67108864 0.216582
+        Time:  0.21402 s
+@ PRODUCT1DCOPENMPGPU 67108864 0.21402
 
 ====================================
 Dimensions: 67108864 
@@ -3190,31 +3193,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.49503 s
-@ PRODUCT1DRCPU 67108864 0.49503
+        Time:  0.499336 s
+@ PRODUCT1DRCPU 67108864 0.499336
 
       OpenMP CPU
-        Time:  0.140252 s
-@ PRODUCT1DROPENMPCPU 67108864 0.140252
+        Time:  0.140841 s
+@ PRODUCT1DROPENMPCPU 67108864 0.140841
 
       OpenMP GPU
-        Time:  0.145956 s
-@ PRODUCT1DROPENMPGPU 67108864 0.145956
+        Time:  0.146052 s
+@ PRODUCT1DROPENMPGPU 67108864 0.146052
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  1.02999 s
-@ PRODUCT1DCCPU 67108864 1.02999
+        Time:  1.03373 s
+@ PRODUCT1DCCPU 67108864 1.03373
 
       OpenMP
-        Time:  0.218614 s
-@ PRODUCT1DCOPENMPCPU 67108864 0.218614
+        Time:  0.214529 s
+@ PRODUCT1DCOPENMPCPU 67108864 0.214529
 
       OpenMP GPU
-        Time:  0.217463 s
-@ PRODUCT1DCOPENMPGPU 67108864 0.217463
+        Time:  0.213298 s
+@ PRODUCT1DCOPENMPGPU 67108864 0.213298
 
 ====================================
 Dimensions: 67108864 
@@ -3224,31 +3227,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.495955 s
-@ PRODUCT1DRCPU 67108864 0.495955
+        Time:  0.501519 s
+@ PRODUCT1DRCPU 67108864 0.501519
 
       OpenMP CPU
-        Time:  0.140043 s
-@ PRODUCT1DROPENMPCPU 67108864 0.140043
+        Time:  0.141236 s
+@ PRODUCT1DROPENMPCPU 67108864 0.141236
 
       OpenMP GPU
-        Time:  0.145732 s
-@ PRODUCT1DROPENMPGPU 67108864 0.145732
+        Time:  0.146439 s
+@ PRODUCT1DROPENMPGPU 67108864 0.146439
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  1.02904 s
-@ PRODUCT1DCCPU 67108864 1.02904
+        Time:  1.03715 s
+@ PRODUCT1DCCPU 67108864 1.03715
 
       OpenMP
-        Time:  0.21721 s
-@ PRODUCT1DCOPENMPCPU 67108864 0.21721
+        Time:  0.214319 s
+@ PRODUCT1DCOPENMPCPU 67108864 0.214319
 
       OpenMP GPU
-        Time:  0.215943 s
-@ PRODUCT1DCOPENMPGPU 67108864 0.215943
+        Time:  0.213872 s
+@ PRODUCT1DCOPENMPGPU 67108864 0.213872
 
 ====================================
 Dimensions: 67108864 
@@ -3258,31 +3261,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.492474 s
-@ PRODUCT1DRCPU 67108864 0.492474
+        Time:  0.498384 s
+@ PRODUCT1DRCPU 67108864 0.498384
 
       OpenMP CPU
-        Time:  0.140881 s
-@ PRODUCT1DROPENMPCPU 67108864 0.140881
+        Time:  0.140011 s
+@ PRODUCT1DROPENMPCPU 67108864 0.140011
 
       OpenMP GPU
-        Time:  0.146347 s
-@ PRODUCT1DROPENMPGPU 67108864 0.146347
+        Time:  0.145359 s
+@ PRODUCT1DROPENMPGPU 67108864 0.145359
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  1.02321 s
-@ PRODUCT1DCCPU 67108864 1.02321
+        Time:  1.03496 s
+@ PRODUCT1DCCPU 67108864 1.03496
 
       OpenMP
-        Time:  0.210966 s
-@ PRODUCT1DCOPENMPCPU 67108864 0.210966
+        Time:  0.215532 s
+@ PRODUCT1DCOPENMPCPU 67108864 0.215532
 
       OpenMP GPU
-        Time:  0.209751 s
-@ PRODUCT1DCOPENMPGPU 67108864 0.209751
+        Time:  0.214885 s
+@ PRODUCT1DCOPENMPGPU 67108864 0.214885
 
 ====================================
 Dimensions: 67108864 
@@ -3292,31 +3295,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.497104 s
-@ PRODUCT1DRCPU 67108864 0.497104
+        Time:  0.500439 s
+@ PRODUCT1DRCPU 67108864 0.500439
 
       OpenMP CPU
-        Time:  0.140118 s
-@ PRODUCT1DROPENMPCPU 67108864 0.140118
+        Time:  0.140472 s
+@ PRODUCT1DROPENMPCPU 67108864 0.140472
 
       OpenMP GPU
-        Time:  0.145841 s
-@ PRODUCT1DROPENMPGPU 67108864 0.145841
+        Time:  0.145384 s
+@ PRODUCT1DROPENMPGPU 67108864 0.145384
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  1.02912 s
-@ PRODUCT1DCCPU 67108864 1.02912
+        Time:  1.0341 s
+@ PRODUCT1DCCPU 67108864 1.0341
 
       OpenMP
-        Time:  0.217579 s
-@ PRODUCT1DCOPENMPCPU 67108864 0.217579
+        Time:  0.214054 s
+@ PRODUCT1DCOPENMPCPU 67108864 0.214054
 
       OpenMP GPU
-        Time:  0.216511 s
-@ PRODUCT1DCOPENMPGPU 67108864 0.216511
+        Time:  0.212776 s
+@ PRODUCT1DCOPENMPGPU 67108864 0.212776
 
 ====================================
 Dimensions: 67108864 
@@ -3326,31 +3329,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.497967 s
-@ PRODUCT1DRCPU 67108864 0.497967
+        Time:  0.499301 s
+@ PRODUCT1DRCPU 67108864 0.499301
 
       OpenMP CPU
-        Time:  0.140095 s
-@ PRODUCT1DROPENMPCPU 67108864 0.140095
+        Time:  0.139907 s
+@ PRODUCT1DROPENMPCPU 67108864 0.139907
 
       OpenMP GPU
-        Time:  0.145959 s
-@ PRODUCT1DROPENMPGPU 67108864 0.145959
+        Time:  0.145549 s
+@ PRODUCT1DROPENMPGPU 67108864 0.145549
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  1.02763 s
-@ PRODUCT1DCCPU 67108864 1.02763
+        Time:  1.03635 s
+@ PRODUCT1DCCPU 67108864 1.03635
 
       OpenMP
-        Time:  0.214022 s
-@ PRODUCT1DCOPENMPCPU 67108864 0.214022
+        Time:  0.218044 s
+@ PRODUCT1DCOPENMPCPU 67108864 0.218044
 
       OpenMP GPU
-        Time:  0.213792 s
-@ PRODUCT1DCOPENMPGPU 67108864 0.213792
+        Time:  0.213193 s
+@ PRODUCT1DCOPENMPGPU 67108864 0.213193
 
 ====================================
 Dimensions: 67108864 
@@ -3360,31 +3363,31 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.495609 s
-@ PRODUCT1DRCPU 67108864 0.495609
+        Time:  0.499613 s
+@ PRODUCT1DRCPU 67108864 0.499613
 
       OpenMP CPU
-        Time:  0.140371 s
-@ PRODUCT1DROPENMPCPU 67108864 0.140371
+        Time:  0.14041 s
+@ PRODUCT1DROPENMPCPU 67108864 0.14041
 
       OpenMP GPU
-        Time:  0.146184 s
-@ PRODUCT1DROPENMPGPU 67108864 0.146184
+        Time:  0.145444 s
+@ PRODUCT1DROPENMPGPU 67108864 0.145444
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  1.029 s
-@ PRODUCT1DCCPU 67108864 1.029
+        Time:  1.03747 s
+@ PRODUCT1DCCPU 67108864 1.03747
 
       OpenMP
-        Time:  0.216514 s
-@ PRODUCT1DCOPENMPCPU 67108864 0.216514
+        Time:  0.214771 s
+@ PRODUCT1DCOPENMPCPU 67108864 0.214771
 
       OpenMP GPU
-        Time:  0.215842 s
-@ PRODUCT1DCOPENMPGPU 67108864 0.215842
+        Time:  0.213321 s
+@ PRODUCT1DCOPENMPGPU 67108864 0.213321
 
 ====================================
 Dimensions: 67108864 
@@ -3394,28 +3397,28 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  0.496613 s
-@ PRODUCT1DRCPU 67108864 0.496613
+        Time:  0.500196 s
+@ PRODUCT1DRCPU 67108864 0.500196
 
       OpenMP CPU
-        Time:  0.140495 s
-@ PRODUCT1DROPENMPCPU 67108864 0.140495
+        Time:  0.140571 s
+@ PRODUCT1DROPENMPCPU 67108864 0.140571
 
       OpenMP GPU
-        Time:  0.145341 s
-@ PRODUCT1DROPENMPGPU 67108864 0.145341
+        Time:  0.146136 s
+@ PRODUCT1DROPENMPGPU 67108864 0.146136
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  1.0289 s
-@ PRODUCT1DCCPU 67108864 1.0289
+        Time:  1.04329 s
+@ PRODUCT1DCCPU 67108864 1.04329
 
       OpenMP
-        Time:  0.216375 s
-@ PRODUCT1DCOPENMPCPU 67108864 0.216375
+        Time:  0.214387 s
+@ PRODUCT1DCOPENMPCPU 67108864 0.214387
 
       OpenMP GPU
-        Time:  0.216054 s
-@ PRODUCT1DCOPENMPGPU 67108864 0.216054
+        Time:  0.213104 s
+@ PRODUCT1DCOPENMPGPU 67108864 0.213104

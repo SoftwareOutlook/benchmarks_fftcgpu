@@ -1,3 +1,6 @@
+====================================
+====================================
+====================================
 /home/pgambron/GPU/openacc/test
 ====
 ====================================
@@ -10,38 +13,43 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  2.727e-06 s
+        Time:  2.788e-06 s
 
       OpenACC
-        Time:  1.5908e-05 s
-@ PRODUCT1DROPENACC 31 1.5908e-05
+        Time:  1.6221e-05 s
+@ PRODUCT1DROPENACC 31 1.6221e-05
 
     FFT
       OpenACC
         Direct
-          Time:  9.5234e-05 s
-@ FFT1DROPENACC 31 9.5234e-05
+@ FFTOPENACCFIRSTINIT 31 0.258813
+          Time:  0.00157646 s
+@ FFT1DRINITOPENACC 31 0.00157646
+          Time:  8.6015e-05 s
+@ FFT1DREXECOPENACC 31 8.6015e-05
         Inverse
-          Time:  6.1137e-05 s
+          Time:  5.9985e-05 s
         Error: 7.09677
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  2.723e-06 s
+        Time:  1.053e-06 s
 
       OpenACC
-        Time:  3.07e-06 s
-@ PRODUCT1DCOPENACC 31 3.07e-06
+        Time:  3.757e-06 s
+@ PRODUCT1DCOPENACC 31 3.757e-06
 
     FFT
       OpenACC
         Direct
-          Time:  6.8671e-05 s
-@ FFT1DCOPENACC 31 6.8671e-05
+          Time:  0.00124365 s
+@ FFT1DCINITOPENACC 31 0.00124365
+          Time:  6.7898e-05 s
+@ FFT1DCEXECOPENACC 31 6.7898e-05
         Inverse
-          Time:  6.2466e-05 s
+          Time:  6.2928e-05 s
         Error: 3.62857e-15
 
 
@@ -53,28 +61,32 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  0.00021129 s
-@ FFT2DROPENACC 31 0.00021129
+          Time:  0.00221306 s
+@ FFT2DRINITOPENACC 31 0.00221306
+          Time:  0.00020636 s
+@ FFT2DREXECOPENACC 31 0.00020636
         Inverse
-          Time:  0.00021663 s
+          Time:  0.000216285 s
         Error: 81.0317
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  5.317e-06 s
+        Time:  5.574e-06 s
 
       OpenACC
-        Time:  2.7519e-05 s
+        Time:  2.8392e-05 s
 
     FFT
       OpenACC
         Direct
-          Time:  0.000219716 s
-@ FFT2DCOPENACC 31 0.000219716
+          Time:  0.00130586 s
+@ FFT2DCINITOPENACC 31 0.00130586
+          Time:  0.000222557 s
+@ FFT2DCEXECOPENACC 31 0.000222557
         Inverse
-          Time:  0.000243867 s
+          Time:  0.00024727 s
         Error: 8.8617e-14
 
 
@@ -86,10 +98,12 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  0.0018686 s
-@ FFT3DROPENACC 31 0.0018686
+          Time:  0.00280186 s
+@ FFT3DRINITOPENACC 31 0.00280186
+          Time:  0.00183316 s
+@ FFT3DREXECOPENACC 31 0.00183316
         Inverse
-          Time:  0.00287307 s
+          Time:  0.00275669 s
         Error: 1503.54
 
   C <-> C
@@ -97,10 +111,12 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  0.00250281 s
-@ FFT3DCOPENACC 31 0.00250281
+          Time:  0.00134516 s
+@ FFT3DCINITOPENACC 31 0.00134516
+          Time:  0.00253522 s
+@ FFT3DCEXECOPENACC 31 0.00253522
         Inverse
-          Time:  0.00363226 s
+          Time:  0.00365973 s
         Error: 2.08779e-12
 
 
@@ -112,38 +128,43 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  6.735e-06 s
+        Time:  2.196e-06 s
 
       OpenACC
-        Time:  1.3399e-05 s
-@ PRODUCT1DROPENACC 31 1.3399e-05
+        Time:  1.2809e-05 s
+@ PRODUCT1DROPENACC 31 1.2809e-05
 
     FFT
       OpenACC
         Direct
-          Time:  9.5369e-05 s
-@ FFT1DROPENACC 31 9.5369e-05
+@ FFTOPENACCFIRSTINIT 31 0.253757
+          Time:  0.00166378 s
+@ FFT1DRINITOPENACC 31 0.00166378
+          Time:  8.9506e-05 s
+@ FFT1DREXECOPENACC 31 8.9506e-05
         Inverse
-          Time:  6.1296e-05 s
+          Time:  5.7851e-05 s
         Error: 7.09677
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  2.887e-06 s
+        Time:  7.84e-07 s
 
       OpenACC
-        Time:  3.865e-06 s
-@ PRODUCT1DCOPENACC 31 3.865e-06
+        Time:  3.29e-06 s
+@ PRODUCT1DCOPENACC 31 3.29e-06
 
     FFT
       OpenACC
         Direct
-          Time:  7.2202e-05 s
-@ FFT1DCOPENACC 31 7.2202e-05
+          Time:  0.00130164 s
+@ FFT1DCINITOPENACC 31 0.00130164
+          Time:  6.7414e-05 s
+@ FFT1DCEXECOPENACC 31 6.7414e-05
         Inverse
-          Time:  6.1955e-05 s
+          Time:  6.1082e-05 s
         Error: 3.62857e-15
 
 
@@ -155,28 +176,32 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  0.000204293 s
-@ FFT2DROPENACC 31 0.000204293
+          Time:  0.00224043 s
+@ FFT2DRINITOPENACC 31 0.00224043
+          Time:  0.000204231 s
+@ FFT2DREXECOPENACC 31 0.000204231
         Inverse
-          Time:  0.000219156 s
+          Time:  0.000215043 s
         Error: 81.0317
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  5.228e-06 s
+        Time:  5.48e-06 s
 
       OpenACC
-        Time:  2.7906e-05 s
+        Time:  2.799e-05 s
 
     FFT
       OpenACC
         Direct
-          Time:  0.000218402 s
-@ FFT2DCOPENACC 31 0.000218402
+          Time:  0.00120492 s
+@ FFT2DCINITOPENACC 31 0.00120492
+          Time:  0.000220596 s
+@ FFT2DCEXECOPENACC 31 0.000220596
         Inverse
-          Time:  0.000249484 s
+          Time:  0.000244414 s
         Error: 8.8617e-14
 
 
@@ -188,10 +213,12 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  0.00185776 s
-@ FFT3DROPENACC 31 0.00185776
+          Time:  0.00276793 s
+@ FFT3DRINITOPENACC 31 0.00276793
+          Time:  0.00183047 s
+@ FFT3DREXECOPENACC 31 0.00183047
         Inverse
-          Time:  0.00279979 s
+          Time:  0.00274302 s
         Error: 1503.54
 
   C <-> C
@@ -199,10 +226,12 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  0.00251127 s
-@ FFT3DCOPENACC 31 0.00251127
+          Time:  0.0013498 s
+@ FFT3DCINITOPENACC 31 0.0013498
+          Time:  0.00254973 s
+@ FFT3DCEXECOPENACC 31 0.00254973
         Inverse
-          Time:  0.00363789 s
+          Time:  0.0036327 s
         Error: 2.08779e-12
 
 
@@ -214,38 +243,43 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  1.706e-06 s
+        Time:  2.007e-06 s
 
       OpenACC
-        Time:  1.3055e-05 s
-@ PRODUCT1DROPENACC 31 1.3055e-05
+        Time:  1.868e-05 s
+@ PRODUCT1DROPENACC 31 1.868e-05
 
     FFT
       OpenACC
         Direct
-          Time:  9.2906e-05 s
-@ FFT1DROPENACC 31 9.2906e-05
+@ FFTOPENACCFIRSTINIT 31 0.255052
+          Time:  0.00174697 s
+@ FFT1DRINITOPENACC 31 0.00174697
+          Time:  8.6077e-05 s
+@ FFT1DREXECOPENACC 31 8.6077e-05
         Inverse
-          Time:  6.0135e-05 s
+          Time:  5.9782e-05 s
         Error: 7.09677
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  2.908e-06 s
+        Time:  7.36e-07 s
 
       OpenACC
-        Time:  3.312e-06 s
-@ PRODUCT1DCOPENACC 31 3.312e-06
+        Time:  3.307e-06 s
+@ PRODUCT1DCOPENACC 31 3.307e-06
 
     FFT
       OpenACC
         Direct
-          Time:  6.858e-05 s
-@ FFT1DCOPENACC 31 6.858e-05
+          Time:  0.0012294 s
+@ FFT1DCINITOPENACC 31 0.0012294
+          Time:  6.7635e-05 s
+@ FFT1DCEXECOPENACC 31 6.7635e-05
         Inverse
-          Time:  6.2792e-05 s
+          Time:  6.6948e-05 s
         Error: 3.62857e-15
 
 
@@ -257,28 +291,32 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  0.000203605 s
-@ FFT2DROPENACC 31 0.000203605
+          Time:  0.00237378 s
+@ FFT2DRINITOPENACC 31 0.00237378
+          Time:  0.000204687 s
+@ FFT2DREXECOPENACC 31 0.000204687
         Inverse
-          Time:  0.000215637 s
+          Time:  0.000214421 s
         Error: 81.0317
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  5.316e-06 s
+        Time:  5.553e-06 s
 
       OpenACC
-        Time:  2.7735e-05 s
+        Time:  2.822e-05 s
 
     FFT
       OpenACC
         Direct
-          Time:  0.000219354 s
-@ FFT2DCOPENACC 31 0.000219354
+          Time:  0.00122068 s
+@ FFT2DCINITOPENACC 31 0.00122068
+          Time:  0.000219995 s
+@ FFT2DCEXECOPENACC 31 0.000219995
         Inverse
-          Time:  0.000250201 s
+          Time:  0.000242634 s
         Error: 8.8617e-14
 
 
@@ -290,10 +328,12 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  0.00187697 s
-@ FFT3DROPENACC 31 0.00187697
+          Time:  0.00391656 s
+@ FFT3DRINITOPENACC 31 0.00391656
+          Time:  0.00185657 s
+@ FFT3DREXECOPENACC 31 0.00185657
         Inverse
-          Time:  0.00286552 s
+          Time:  0.002754 s
         Error: 1503.54
 
   C <-> C
@@ -301,10 +341,12 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  0.00260206 s
-@ FFT3DCOPENACC 31 0.00260206
+          Time:  0.00134377 s
+@ FFT3DCINITOPENACC 31 0.00134377
+          Time:  0.00253523 s
+@ FFT3DCEXECOPENACC 31 0.00253523
         Inverse
-          Time:  0.003939 s
+          Time:  0.00380769 s
         Error: 2.08779e-12
 
 
@@ -316,38 +358,43 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  1.833e-06 s
+        Time:  2.434e-06 s
 
       OpenACC
-        Time:  1.3451e-05 s
-@ PRODUCT1DROPENACC 31 1.3451e-05
+        Time:  1.3941e-05 s
+@ PRODUCT1DROPENACC 31 1.3941e-05
 
     FFT
       OpenACC
         Direct
-          Time:  9.3569e-05 s
-@ FFT1DROPENACC 31 9.3569e-05
+@ FFTOPENACCFIRSTINIT 31 0.252434
+          Time:  0.00159395 s
+@ FFT1DRINITOPENACC 31 0.00159395
+          Time:  8.6904e-05 s
+@ FFT1DREXECOPENACC 31 8.6904e-05
         Inverse
-          Time:  6.0888e-05 s
+          Time:  6.1939e-05 s
         Error: 7.09677
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  3.211e-06 s
+        Time:  7.21e-07 s
 
       OpenACC
-        Time:  3.349e-06 s
-@ PRODUCT1DCOPENACC 31 3.349e-06
+        Time:  2.921e-06 s
+@ PRODUCT1DCOPENACC 31 2.921e-06
 
     FFT
       OpenACC
         Direct
-          Time:  6.8752e-05 s
-@ FFT1DCOPENACC 31 6.8752e-05
+          Time:  0.00123467 s
+@ FFT1DCINITOPENACC 31 0.00123467
+          Time:  6.8595e-05 s
+@ FFT1DCEXECOPENACC 31 6.8595e-05
         Inverse
-          Time:  6.3367e-05 s
+          Time:  6.282e-05 s
         Error: 3.62857e-15
 
 
@@ -359,28 +406,32 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  0.000210641 s
-@ FFT2DROPENACC 31 0.000210641
+          Time:  0.00221762 s
+@ FFT2DRINITOPENACC 31 0.00221762
+          Time:  0.000205193 s
+@ FFT2DREXECOPENACC 31 0.000205193
         Inverse
-          Time:  0.000216232 s
+          Time:  0.000214858 s
         Error: 81.0317
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  5.202e-06 s
+        Time:  5.251e-06 s
 
       OpenACC
-        Time:  2.7609e-05 s
+        Time:  2.7713e-05 s
 
     FFT
       OpenACC
         Direct
-          Time:  0.000223951 s
-@ FFT2DCOPENACC 31 0.000223951
+          Time:  0.00122901 s
+@ FFT2DCINITOPENACC 31 0.00122901
+          Time:  0.000219843 s
+@ FFT2DCEXECOPENACC 31 0.000219843
         Inverse
-          Time:  0.000246639 s
+          Time:  0.000254792 s
         Error: 8.8617e-14
 
 
@@ -392,10 +443,12 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  0.00190514 s
-@ FFT3DROPENACC 31 0.00190514
+          Time:  0.00295804 s
+@ FFT3DRINITOPENACC 31 0.00295804
+          Time:  0.00200284 s
+@ FFT3DREXECOPENACC 31 0.00200284
         Inverse
-          Time:  0.00275889 s
+          Time:  0.00297177 s
         Error: 1503.54
 
   C <-> C
@@ -403,10 +456,12 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  0.00252234 s
-@ FFT3DCOPENACC 31 0.00252234
+          Time:  0.00137988 s
+@ FFT3DCINITOPENACC 31 0.00137988
+          Time:  0.00274137 s
+@ FFT3DCEXECOPENACC 31 0.00274137
         Inverse
-          Time:  0.00374436 s
+          Time:  0.00393004 s
         Error: 2.08779e-12
 
 
@@ -418,38 +473,43 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  1.932e-06 s
+        Time:  2.279e-06 s
 
       OpenACC
-        Time:  1.3953e-05 s
-@ PRODUCT1DROPENACC 31 1.3953e-05
+        Time:  1.7057e-05 s
+@ PRODUCT1DROPENACC 31 1.7057e-05
 
     FFT
       OpenACC
         Direct
-          Time:  9.3018e-05 s
-@ FFT1DROPENACC 31 9.3018e-05
+@ FFTOPENACCFIRSTINIT 31 0.267917
+          Time:  0.00156064 s
+@ FFT1DRINITOPENACC 31 0.00156064
+          Time:  8.641e-05 s
+@ FFT1DREXECOPENACC 31 8.641e-05
         Inverse
-          Time:  6.2771e-05 s
+          Time:  7.746e-05 s
         Error: 7.09677
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  3.254e-06 s
+        Time:  1.053e-06 s
 
       OpenACC
-        Time:  3.368e-06 s
-@ PRODUCT1DCOPENACC 31 3.368e-06
+        Time:  4.152e-06 s
+@ PRODUCT1DCOPENACC 31 4.152e-06
 
     FFT
       OpenACC
         Direct
-          Time:  6.9823e-05 s
-@ FFT1DCOPENACC 31 6.9823e-05
+          Time:  0.00131919 s
+@ FFT1DCINITOPENACC 31 0.00131919
+          Time:  6.6914e-05 s
+@ FFT1DCEXECOPENACC 31 6.6914e-05
         Inverse
-          Time:  6.2393e-05 s
+          Time:  6.1898e-05 s
         Error: 3.62857e-15
 
 
@@ -461,28 +521,32 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  0.000208038 s
-@ FFT2DROPENACC 31 0.000208038
+          Time:  0.00219162 s
+@ FFT2DRINITOPENACC 31 0.00219162
+          Time:  0.000201427 s
+@ FFT2DREXECOPENACC 31 0.000201427
         Inverse
-          Time:  0.00022094 s
+          Time:  0.000213752 s
         Error: 81.0317
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  6.355e-06 s
+        Time:  5.364e-06 s
 
       OpenACC
-        Time:  2.9104e-05 s
+        Time:  2.8384e-05 s
 
     FFT
       OpenACC
         Direct
-          Time:  0.000221819 s
-@ FFT2DCOPENACC 31 0.000221819
+          Time:  0.00119574 s
+@ FFT2DCINITOPENACC 31 0.00119574
+          Time:  0.000220433 s
+@ FFT2DCEXECOPENACC 31 0.000220433
         Inverse
-          Time:  0.000253847 s
+          Time:  0.000247458 s
         Error: 8.8617e-14
 
 
@@ -494,10 +558,12 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  0.00198969 s
-@ FFT3DROPENACC 31 0.00198969
+          Time:  0.00311419 s
+@ FFT3DRINITOPENACC 31 0.00311419
+          Time:  0.00184585 s
+@ FFT3DREXECOPENACC 31 0.00184585
         Inverse
-          Time:  0.00301152 s
+          Time:  0.00276249 s
         Error: 1503.54
 
   C <-> C
@@ -505,10 +571,12 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  0.0027488 s
-@ FFT3DCOPENACC 31 0.0027488
+          Time:  0.00134751 s
+@ FFT3DCINITOPENACC 31 0.00134751
+          Time:  0.00249216 s
+@ FFT3DCEXECOPENACC 31 0.00249216
         Inverse
-          Time:  0.00398104 s
+          Time:  0.00362721 s
         Error: 2.08779e-12
 
 
@@ -520,38 +588,43 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  1.95e-06 s
+        Time:  1.935e-06 s
 
       OpenACC
-        Time:  1.3361e-05 s
-@ PRODUCT1DROPENACC 31 1.3361e-05
+        Time:  1.3202e-05 s
+@ PRODUCT1DROPENACC 31 1.3202e-05
 
     FFT
       OpenACC
         Direct
-          Time:  9.3532e-05 s
-@ FFT1DROPENACC 31 9.3532e-05
+@ FFTOPENACCFIRSTINIT 31 0.259684
+          Time:  0.00156408 s
+@ FFT1DRINITOPENACC 31 0.00156408
+          Time:  8.4329e-05 s
+@ FFT1DREXECOPENACC 31 8.4329e-05
         Inverse
-          Time:  6.4618e-05 s
+          Time:  5.936e-05 s
         Error: 7.09677
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  2.852e-06 s
+        Time:  7.61e-07 s
 
       OpenACC
-        Time:  3.455e-06 s
-@ PRODUCT1DCOPENACC 31 3.455e-06
+        Time:  3.511e-06 s
+@ PRODUCT1DCOPENACC 31 3.511e-06
 
     FFT
       OpenACC
         Direct
-          Time:  6.7211e-05 s
-@ FFT1DCOPENACC 31 6.7211e-05
+          Time:  0.00132149 s
+@ FFT1DCINITOPENACC 31 0.00132149
+          Time:  6.8589e-05 s
+@ FFT1DCEXECOPENACC 31 6.8589e-05
         Inverse
-          Time:  6.1872e-05 s
+          Time:  6.3119e-05 s
         Error: 3.62857e-15
 
 
@@ -563,28 +636,32 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  0.000211636 s
-@ FFT2DROPENACC 31 0.000211636
+          Time:  0.00254211 s
+@ FFT2DRINITOPENACC 31 0.00254211
+          Time:  0.000203276 s
+@ FFT2DREXECOPENACC 31 0.000203276
         Inverse
-          Time:  0.000223536 s
+          Time:  0.000214419 s
         Error: 81.0317
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  5.784e-06 s
+        Time:  5.223e-06 s
 
       OpenACC
-        Time:  3.0854e-05 s
+        Time:  3.3079e-05 s
 
     FFT
       OpenACC
         Direct
-          Time:  0.000229848 s
-@ FFT2DCOPENACC 31 0.000229848
+          Time:  0.0012415 s
+@ FFT2DCINITOPENACC 31 0.0012415
+          Time:  0.000219247 s
+@ FFT2DCEXECOPENACC 31 0.000219247
         Inverse
-          Time:  0.000257804 s
+          Time:  0.000246902 s
         Error: 8.8617e-14
 
 
@@ -596,10 +673,12 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  0.0018676 s
-@ FFT3DROPENACC 31 0.0018676
+          Time:  0.00280567 s
+@ FFT3DRINITOPENACC 31 0.00280567
+          Time:  0.00183577 s
+@ FFT3DREXECOPENACC 31 0.00183577
         Inverse
-          Time:  0.00276337 s
+          Time:  0.00282918 s
         Error: 1503.54
 
   C <-> C
@@ -607,10 +686,12 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  0.00261853 s
-@ FFT3DCOPENACC 31 0.00261853
+          Time:  0.00163014 s
+@ FFT3DCINITOPENACC 31 0.00163014
+          Time:  0.00249814 s
+@ FFT3DCEXECOPENACC 31 0.00249814
         Inverse
-          Time:  0.00381803 s
+          Time:  0.00362882 s
         Error: 2.08779e-12
 
 
@@ -622,2492 +703,3154 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  2.23e-06 s
+        Time:  1.913e-06 s
 
       OpenACC
-        Time:  1.3875e-05 s
-@ PRODUCT1DROPENACC 31 1.3875e-05
+        Time:  1.311e-05 s
+@ PRODUCT1DROPENACC 31 1.311e-05
 
     FFT
       OpenACC
         Direct
-          Time:  9.7933e-05 s
-@ FFT1DROPENACC 31 9.7933e-05
+@ FFTOPENACCFIRSTINIT 31 0.262145
+          Time:  0.00170989 s
+@ FFT1DRINITOPENACC 31 0.00170989
+          Time:  8.7772e-05 s
+@ FFT1DREXECOPENACC 31 8.7772e-05
         Inverse
-          Time:  5.9931e-05 s
+          Time:  6.0035e-05 s
         Error: 7.09677
 
   C <-> C
+
+    Multiplication
+      CPU
+        Time:  7.38e-07 s
+
+      OpenACC
+        Time:  3.428e-06 s
+@ PRODUCT1DCOPENACC 31 3.428e-06
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00123256 s
+@ FFT1DCINITOPENACC 31 0.00123256
+          Time:  6.8506e-05 s
+@ FFT1DCEXECOPENACC 31 6.8506e-05
+        Inverse
+          Time:  6.3042e-05 s
+        Error: 3.62857e-15
+
+
+Dimensions: 31 31 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00221505 s
+@ FFT2DRINITOPENACC 31 0.00221505
+          Time:  0.000211296 s
+@ FFT2DREXECOPENACC 31 0.000211296
+        Inverse
+          Time:  0.000212441 s
+        Error: 81.0317
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  5.458e-06 s
+
+      OpenACC
+        Time:  2.727e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00130984 s
+@ FFT2DCINITOPENACC 31 0.00130984
+          Time:  0.000220448 s
+@ FFT2DCEXECOPENACC 31 0.000220448
+        Inverse
+          Time:  0.000245342 s
+        Error: 8.8617e-14
+
+
+Dimensions: 31 31 31 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00278722 s
+@ FFT3DRINITOPENACC 31 0.00278722
+          Time:  0.00186849 s
+@ FFT3DREXECOPENACC 31 0.00186849
+        Inverse
+          Time:  0.0027589 s
+        Error: 1503.54
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00135701 s
+@ FFT3DCINITOPENACC 31 0.00135701
+          Time:  0.00249317 s
+@ FFT3DCEXECOPENACC 31 0.00249317
+        Inverse
+          Time:  0.00362612 s
+        Error: 2.08779e-12
+
+
+====================================
+Dimensions: 31 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.016e-06 s
+
+      OpenACC
+        Time:  1.6808e-05 s
+@ PRODUCT1DROPENACC 31 1.6808e-05
+
+    FFT
+      OpenACC
+        Direct
+@ FFTOPENACCFIRSTINIT 31 0.262189
+          Time:  0.00165453 s
+@ FFT1DRINITOPENACC 31 0.00165453
+          Time:  8.7713e-05 s
+@ FFT1DREXECOPENACC 31 8.7713e-05
+        Inverse
+          Time:  6.4252e-05 s
+        Error: 7.09677
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.121e-06 s
+
+      OpenACC
+        Time:  3.302e-06 s
+@ PRODUCT1DCOPENACC 31 3.302e-06
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00140187 s
+@ FFT1DCINITOPENACC 31 0.00140187
+          Time:  7.5442e-05 s
+@ FFT1DCEXECOPENACC 31 7.5442e-05
+        Inverse
+          Time:  7.1268e-05 s
+        Error: 3.62857e-15
+
+
+Dimensions: 31 31 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00246338 s
+@ FFT2DRINITOPENACC 31 0.00246338
+          Time:  0.000220761 s
+@ FFT2DREXECOPENACC 31 0.000220761
+        Inverse
+          Time:  0.000235178 s
+        Error: 81.0317
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  6.479e-06 s
+
+      OpenACC
+        Time:  3.4934e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00133662 s
+@ FFT2DCINITOPENACC 31 0.00133662
+          Time:  0.00024691 s
+@ FFT2DCEXECOPENACC 31 0.00024691
+        Inverse
+          Time:  0.000246444 s
+        Error: 8.8617e-14
+
+
+Dimensions: 31 31 31 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00300117 s
+@ FFT3DRINITOPENACC 31 0.00300117
+          Time:  0.00190465 s
+@ FFT3DREXECOPENACC 31 0.00190465
+        Inverse
+          Time:  0.0027732 s
+        Error: 1503.54
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00132664 s
+@ FFT3DCINITOPENACC 31 0.00132664
+          Time:  0.00249803 s
+@ FFT3DCEXECOPENACC 31 0.00249803
+        Inverse
+          Time:  0.0036532 s
+        Error: 2.08779e-12
+
+
+====================================
+Dimensions: 31 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.236e-06 s
+
+      OpenACC
+        Time:  1.3681e-05 s
+@ PRODUCT1DROPENACC 31 1.3681e-05
+
+    FFT
+      OpenACC
+        Direct
+@ FFTOPENACCFIRSTINIT 31 0.262351
+          Time:  0.00155906 s
+@ FFT1DRINITOPENACC 31 0.00155906
+          Time:  8.5794e-05 s
+@ FFT1DREXECOPENACC 31 8.5794e-05
+        Inverse
+          Time:  5.9955e-05 s
+        Error: 7.09677
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  7.8e-07 s
+
+      OpenACC
+        Time:  3.779e-06 s
+@ PRODUCT1DCOPENACC 31 3.779e-06
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00126442 s
+@ FFT1DCINITOPENACC 31 0.00126442
+          Time:  6.9785e-05 s
+@ FFT1DCEXECOPENACC 31 6.9785e-05
+        Inverse
+          Time:  6.2815e-05 s
+        Error: 3.62857e-15
+
+
+Dimensions: 31 31 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00239188 s
+@ FFT2DRINITOPENACC 31 0.00239188
+          Time:  0.000204679 s
+@ FFT2DREXECOPENACC 31 0.000204679
+        Inverse
+          Time:  0.000216816 s
+        Error: 81.0317
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  5.319e-06 s
+
+      OpenACC
+        Time:  2.7646e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00124699 s
+@ FFT2DCINITOPENACC 31 0.00124699
+          Time:  0.000220155 s
+@ FFT2DCEXECOPENACC 31 0.000220155
+        Inverse
+          Time:  0.000246133 s
+        Error: 8.8617e-14
+
+
+Dimensions: 31 31 31 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00297976 s
+@ FFT3DRINITOPENACC 31 0.00297976
+          Time:  0.00192753 s
+@ FFT3DREXECOPENACC 31 0.00192753
+        Inverse
+          Time:  0.00281609 s
+        Error: 1503.54
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00138984 s
+@ FFT3DCINITOPENACC 31 0.00138984
+          Time:  0.00253299 s
+@ FFT3DCEXECOPENACC 31 0.00253299
+        Inverse
+          Time:  0.00363727 s
+        Error: 2.08779e-12
+
+
+====================================
+Dimensions: 31 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  1.954e-06 s
+
+      OpenACC
+        Time:  1.6504e-05 s
+@ PRODUCT1DROPENACC 31 1.6504e-05
+
+    FFT
+      OpenACC
+        Direct
+@ FFTOPENACCFIRSTINIT 31 0.253822
+          Time:  0.00156789 s
+@ FFT1DRINITOPENACC 31 0.00156789
+          Time:  8.4439e-05 s
+@ FFT1DREXECOPENACC 31 8.4439e-05
+        Inverse
+          Time:  5.9812e-05 s
+        Error: 7.09677
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  8.18e-07 s
+
+      OpenACC
+        Time:  3.295e-06 s
+@ PRODUCT1DCOPENACC 31 3.295e-06
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00131073 s
+@ FFT1DCINITOPENACC 31 0.00131073
+          Time:  6.9903e-05 s
+@ FFT1DCEXECOPENACC 31 6.9903e-05
+        Inverse
+          Time:  6.3325e-05 s
+        Error: 3.62857e-15
+
+
+Dimensions: 31 31 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00221246 s
+@ FFT2DRINITOPENACC 31 0.00221246
+          Time:  0.000203464 s
+@ FFT2DREXECOPENACC 31 0.000203464
+        Inverse
+          Time:  0.000214288 s
+        Error: 81.0317
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  5.273e-06 s
+
+      OpenACC
+        Time:  2.7675e-05 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00119749 s
+@ FFT2DCINITOPENACC 31 0.00119749
+          Time:  0.000218774 s
+@ FFT2DCEXECOPENACC 31 0.000218774
+        Inverse
+          Time:  0.000243475 s
+        Error: 8.8617e-14
+
+
+Dimensions: 31 31 31 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00277939 s
+@ FFT3DRINITOPENACC 31 0.00277939
+          Time:  0.00185407 s
+@ FFT3DREXECOPENACC 31 0.00185407
+        Inverse
+          Time:  0.00276245 s
+        Error: 1503.54
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0014513 s
+@ FFT3DCINITOPENACC 31 0.0014513
+          Time:  0.00249087 s
+@ FFT3DCEXECOPENACC 31 0.00249087
+        Inverse
+          Time:  0.0036433 s
+        Error: 2.08779e-12
+
+
+====================================
+====================================
+====================================
+Dimensions: 61 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  3.08e-06 s
+
+      OpenACC
+        Time:  1.3748e-05 s
+@ PRODUCT1DROPENACC 61 1.3748e-05
+
+    FFT
+      OpenACC
+        Direct
+@ FFTOPENACCFIRSTINIT 61 0.268337
+          Time:  0.0015558 s
+@ FFT1DRINITOPENACC 61 0.0015558
+          Time:  9.1136e-05 s
+@ FFT1DREXECOPENACC 61 9.1136e-05
+        Inverse
+          Time:  6.4776e-05 s
+        Error: 14.3279
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  3.969e-06 s
+
+      OpenACC
+        Time:  3.801e-06 s
+@ PRODUCT1DCOPENACC 61 3.801e-06
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00123019 s
+@ FFT1DCINITOPENACC 61 0.00123019
+          Time:  7.1911e-05 s
+@ FFT1DCEXECOPENACC 61 7.1911e-05
+        Inverse
+          Time:  6.876e-05 s
+        Error: 1.00038e-14
+
+
+Dimensions: 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00231601 s
+@ FFT2DRINITOPENACC 61 0.00231601
+          Time:  0.000478836 s
+@ FFT2DREXECOPENACC 61 0.000478836
+        Inverse
+          Time:  0.00055178 s
+        Error: 335.119
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.8439e-05 s
+
+      OpenACC
+        Time:  0.000100165 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00127654 s
+@ FFT2DCINITOPENACC 61 0.00127654
+          Time:  0.00054631 s
+@ FFT2DCEXECOPENACC 61 0.00054631
+        Inverse
+          Time:  0.000669982 s
+        Error: 4.75323e-13
+
+
+Dimensions: 61 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00396639 s
+@ FFT3DRINITOPENACC 61 0.00396639
+          Time:  0.0131105 s
+@ FFT3DREXECOPENACC 61 0.0131105
+        Inverse
+          Time:  0.0202344 s
+        Error: 12545.6
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00365014 s
+@ FFT3DCINITOPENACC 61 0.00365014
+          Time:  0.0198147 s
+@ FFT3DCEXECOPENACC 61 0.0198147
+        Inverse
+          Time:  0.0286102 s
+        Error: 2.31071e-11
+
+
+====================================
+Dimensions: 61 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.281e-06 s
+
+      OpenACC
+        Time:  1.3807e-05 s
+@ PRODUCT1DROPENACC 61 1.3807e-05
+
+    FFT
+      OpenACC
+        Direct
+@ FFTOPENACCFIRSTINIT 61 0.253984
+          Time:  0.00166819 s
+@ FFT1DRINITOPENACC 61 0.00166819
+          Time:  9.2448e-05 s
+@ FFT1DREXECOPENACC 61 9.2448e-05
+        Inverse
+          Time:  6.3641e-05 s
+        Error: 14.3279
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  4.215e-06 s
+
+      OpenACC
+        Time:  3.952e-06 s
+@ PRODUCT1DCOPENACC 61 3.952e-06
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00123124 s
+@ FFT1DCINITOPENACC 61 0.00123124
+          Time:  7.472e-05 s
+@ FFT1DCEXECOPENACC 61 7.472e-05
+        Inverse
+          Time:  6.7458e-05 s
+        Error: 1.00038e-14
+
+
+Dimensions: 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00225385 s
+@ FFT2DRINITOPENACC 61 0.00225385
+          Time:  0.000474549 s
+@ FFT2DREXECOPENACC 61 0.000474549
+        Inverse
+          Time:  0.000548922 s
+        Error: 335.119
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.8277e-05 s
+
+      OpenACC
+        Time:  0.000101962 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00131812 s
+@ FFT2DCINITOPENACC 61 0.00131812
+          Time:  0.000540854 s
+@ FFT2DCEXECOPENACC 61 0.000540854
+        Inverse
+          Time:  0.000654477 s
+        Error: 4.75323e-13
+
+
+Dimensions: 61 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00401741 s
+@ FFT3DRINITOPENACC 61 0.00401741
+          Time:  0.0142715 s
+@ FFT3DREXECOPENACC 61 0.0142715
+        Inverse
+          Time:  0.0215857 s
+        Error: 12545.6
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00388369 s
+@ FFT3DCINITOPENACC 61 0.00388369
+          Time:  0.0195326 s
+@ FFT3DCEXECOPENACC 61 0.0195326
+        Inverse
+          Time:  0.0286407 s
+        Error: 2.31071e-11
+
+
+====================================
+Dimensions: 61 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.214e-06 s
+
+      OpenACC
+        Time:  1.4128e-05 s
+@ PRODUCT1DROPENACC 61 1.4128e-05
+
+    FFT
+      OpenACC
+        Direct
+@ FFTOPENACCFIRSTINIT 61 0.25568
+          Time:  0.00156394 s
+@ FFT1DRINITOPENACC 61 0.00156394
+          Time:  9.7691e-05 s
+@ FFT1DREXECOPENACC 61 9.7691e-05
+        Inverse
+          Time:  6.351e-05 s
+        Error: 14.3279
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  4.271e-06 s
+
+      OpenACC
+        Time:  4.414e-06 s
+@ PRODUCT1DCOPENACC 61 4.414e-06
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00150964 s
+@ FFT1DCINITOPENACC 61 0.00150964
+          Time:  7.5737e-05 s
+@ FFT1DCEXECOPENACC 61 7.5737e-05
+        Inverse
+          Time:  7.0224e-05 s
+        Error: 1.00038e-14
+
+
+Dimensions: 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0022217 s
+@ FFT2DRINITOPENACC 61 0.0022217
+          Time:  0.000475936 s
+@ FFT2DREXECOPENACC 61 0.000475936
+        Inverse
+          Time:  0.000553844 s
+        Error: 335.119
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.8637e-05 s
+
+      OpenACC
+        Time:  0.000101592 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00124445 s
+@ FFT2DCINITOPENACC 61 0.00124445
+          Time:  0.000537648 s
+@ FFT2DCEXECOPENACC 61 0.000537648
+        Inverse
+          Time:  0.000652029 s
+        Error: 4.75323e-13
+
+
+Dimensions: 61 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00407198 s
+@ FFT3DRINITOPENACC 61 0.00407198
+          Time:  0.013687 s
+@ FFT3DREXECOPENACC 61 0.013687
+        Inverse
+          Time:  0.0211253 s
+        Error: 12545.6
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00365604 s
+@ FFT3DCINITOPENACC 61 0.00365604
+          Time:  0.0203029 s
+@ FFT3DCEXECOPENACC 61 0.0203029
+        Inverse
+          Time:  0.0289779 s
+        Error: 2.31071e-11
+
+
+====================================
+Dimensions: 61 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.461e-06 s
+
+      OpenACC
+        Time:  1.389e-05 s
+@ PRODUCT1DROPENACC 61 1.389e-05
+
+    FFT
+      OpenACC
+        Direct
+@ FFTOPENACCFIRSTINIT 61 0.255592
+          Time:  0.00155826 s
+@ FFT1DRINITOPENACC 61 0.00155826
+          Time:  9.4007e-05 s
+@ FFT1DREXECOPENACC 61 9.4007e-05
+        Inverse
+          Time:  6.4036e-05 s
+        Error: 14.3279
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  3.765e-06 s
+
+      OpenACC
+        Time:  4.082e-06 s
+@ PRODUCT1DCOPENACC 61 4.082e-06
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00123173 s
+@ FFT1DCINITOPENACC 61 0.00123173
+          Time:  7.2467e-05 s
+@ FFT1DCEXECOPENACC 61 7.2467e-05
+        Inverse
+          Time:  6.751e-05 s
+        Error: 1.00038e-14
+
+
+Dimensions: 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00305228 s
+@ FFT2DRINITOPENACC 61 0.00305228
+          Time:  0.000486258 s
+@ FFT2DREXECOPENACC 61 0.000486258
+        Inverse
+          Time:  0.000551238 s
+        Error: 335.119
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.8585e-05 s
+
+      OpenACC
+        Time:  0.000100727 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00120876 s
+@ FFT2DCINITOPENACC 61 0.00120876
+          Time:  0.000537932 s
+@ FFT2DCEXECOPENACC 61 0.000537932
+        Inverse
+          Time:  0.000651657 s
+        Error: 4.75323e-13
+
+
+Dimensions: 61 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00394621 s
+@ FFT3DRINITOPENACC 61 0.00394621
+          Time:  0.0142392 s
+@ FFT3DREXECOPENACC 61 0.0142392
+        Inverse
+          Time:  0.021056 s
+        Error: 12545.6
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00361545 s
+@ FFT3DCINITOPENACC 61 0.00361545
+          Time:  0.0197859 s
+@ FFT3DCEXECOPENACC 61 0.0197859
+        Inverse
+          Time:  0.0286073 s
+        Error: 2.31071e-11
+
+
+====================================
+Dimensions: 61 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.097e-06 s
+
+      OpenACC
+        Time:  1.5799e-05 s
+@ PRODUCT1DROPENACC 61 1.5799e-05
+
+    FFT
+      OpenACC
+        Direct
+@ FFTOPENACCFIRSTINIT 61 0.264555
+          Time:  0.00267598 s
+@ FFT1DRINITOPENACC 61 0.00267598
+          Time:  9.3481e-05 s
+@ FFT1DREXECOPENACC 61 9.3481e-05
+        Inverse
+          Time:  6.3356e-05 s
+        Error: 14.3279
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  3.758e-06 s
+
+      OpenACC
+        Time:  3.785e-06 s
+@ PRODUCT1DCOPENACC 61 3.785e-06
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00123545 s
+@ FFT1DCINITOPENACC 61 0.00123545
+          Time:  7.2346e-05 s
+@ FFT1DCEXECOPENACC 61 7.2346e-05
+        Inverse
+          Time:  6.8215e-05 s
+        Error: 1.00038e-14
+
+
+Dimensions: 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00228057 s
+@ FFT2DRINITOPENACC 61 0.00228057
+          Time:  0.000481418 s
+@ FFT2DREXECOPENACC 61 0.000481418
+        Inverse
+          Time:  0.000552172 s
+        Error: 335.119
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.8429e-05 s
+
+      OpenACC
+        Time:  0.000101642 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00120721 s
+@ FFT2DCINITOPENACC 61 0.00120721
+          Time:  0.000540661 s
+@ FFT2DCEXECOPENACC 61 0.000540661
+        Inverse
+          Time:  0.000651126 s
+        Error: 4.75323e-13
+
+
+Dimensions: 61 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00399922 s
+@ FFT3DRINITOPENACC 61 0.00399922
+          Time:  0.0141764 s
+@ FFT3DREXECOPENACC 61 0.0141764
+        Inverse
+          Time:  0.0215931 s
+        Error: 12545.6
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00363443 s
+@ FFT3DCINITOPENACC 61 0.00363443
+          Time:  0.0196302 s
+@ FFT3DCEXECOPENACC 61 0.0196302
+        Inverse
+          Time:  0.0286311 s
+        Error: 2.31071e-11
+
+
+====================================
+Dimensions: 61 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  1.966e-06 s
+
+      OpenACC
+        Time:  1.3748e-05 s
+@ PRODUCT1DROPENACC 61 1.3748e-05
+
+    FFT
+      OpenACC
+        Direct
+@ FFTOPENACCFIRSTINIT 61 0.251769
+          Time:  0.00155562 s
+@ FFT1DRINITOPENACC 61 0.00155562
+          Time:  9.0638e-05 s
+@ FFT1DREXECOPENACC 61 9.0638e-05
+        Inverse
+          Time:  6.4558e-05 s
+        Error: 14.3279
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  4.103e-06 s
+
+      OpenACC
+        Time:  4.044e-06 s
+@ PRODUCT1DCOPENACC 61 4.044e-06
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00129284 s
+@ FFT1DCINITOPENACC 61 0.00129284
+          Time:  7.6486e-05 s
+@ FFT1DCEXECOPENACC 61 7.6486e-05
+        Inverse
+          Time:  6.726e-05 s
+        Error: 1.00038e-14
+
+
+Dimensions: 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0022119 s
+@ FFT2DRINITOPENACC 61 0.0022119
+          Time:  0.000505899 s
+@ FFT2DREXECOPENACC 61 0.000505899
+        Inverse
+          Time:  0.000578524 s
+        Error: 335.119
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  2.4039e-05 s
+
+      OpenACC
+        Time:  0.000105873 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00128519 s
+@ FFT2DCINITOPENACC 61 0.00128519
+          Time:  0.000565824 s
+@ FFT2DCEXECOPENACC 61 0.000565824
+        Inverse
+          Time:  0.000685468 s
+        Error: 4.75323e-13
+
+
+Dimensions: 61 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00401986 s
+@ FFT3DRINITOPENACC 61 0.00401986
+          Time:  0.014227 s
+@ FFT3DREXECOPENACC 61 0.014227
+        Inverse
+          Time:  0.0216623 s
+        Error: 12545.6
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.003769 s
+@ FFT3DCINITOPENACC 61 0.003769
+          Time:  0.0196459 s
+@ FFT3DCEXECOPENACC 61 0.0196459
+        Inverse
+          Time:  0.0286268 s
+        Error: 2.31071e-11
+
+
+====================================
+Dimensions: 61 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.226e-06 s
+
+      OpenACC
+        Time:  1.3938e-05 s
+@ PRODUCT1DROPENACC 61 1.3938e-05
+
+    FFT
+      OpenACC
+        Direct
+@ FFTOPENACCFIRSTINIT 61 0.254274
+          Time:  0.00155374 s
+@ FFT1DRINITOPENACC 61 0.00155374
+          Time:  9.0084e-05 s
+@ FFT1DREXECOPENACC 61 9.0084e-05
+        Inverse
+          Time:  6.5189e-05 s
+        Error: 14.3279
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  3.638e-06 s
+
+      OpenACC
+        Time:  4.093e-06 s
+@ PRODUCT1DCOPENACC 61 4.093e-06
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00127385 s
+@ FFT1DCINITOPENACC 61 0.00127385
+          Time:  7.3996e-05 s
+@ FFT1DCEXECOPENACC 61 7.3996e-05
+        Inverse
+          Time:  7.198e-05 s
+        Error: 1.00038e-14
+
+
+Dimensions: 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00223578 s
+@ FFT2DRINITOPENACC 61 0.00223578
+          Time:  0.000502798 s
+@ FFT2DREXECOPENACC 61 0.000502798
+        Inverse
+          Time:  0.000580309 s
+        Error: 335.119
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  2.3436e-05 s
+
+      OpenACC
+        Time:  0.000105988 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00125254 s
+@ FFT2DCINITOPENACC 61 0.00125254
+          Time:  0.000553777 s
+@ FFT2DCEXECOPENACC 61 0.000553777
+        Inverse
+          Time:  0.000685946 s
+        Error: 4.75323e-13
+
+
+Dimensions: 61 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00413968 s
+@ FFT3DRINITOPENACC 61 0.00413968
+          Time:  0.01428 s
+@ FFT3DREXECOPENACC 61 0.01428
+        Inverse
+          Time:  0.0215276 s
+        Error: 12545.6
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00375462 s
+@ FFT3DCINITOPENACC 61 0.00375462
+          Time:  0.0196228 s
+@ FFT3DCEXECOPENACC 61 0.0196228
+        Inverse
+          Time:  0.0285921 s
+        Error: 2.31071e-11
+
+
+====================================
+Dimensions: 61 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.239e-06 s
+
+      OpenACC
+        Time:  1.3365e-05 s
+@ PRODUCT1DROPENACC 61 1.3365e-05
+
+    FFT
+      OpenACC
+        Direct
+@ FFTOPENACCFIRSTINIT 61 0.265578
+          Time:  0.00158616 s
+@ FFT1DRINITOPENACC 61 0.00158616
+          Time:  9.062e-05 s
+@ FFT1DREXECOPENACC 61 9.062e-05
+        Inverse
+          Time:  6.4207e-05 s
+        Error: 14.3279
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  4.165e-06 s
+
+      OpenACC
+        Time:  4.468e-06 s
+@ PRODUCT1DCOPENACC 61 4.468e-06
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00127783 s
+@ FFT1DCINITOPENACC 61 0.00127783
+          Time:  7.3539e-05 s
+@ FFT1DCEXECOPENACC 61 7.3539e-05
+        Inverse
+          Time:  6.7903e-05 s
+        Error: 1.00038e-14
+
+
+Dimensions: 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00224395 s
+@ FFT2DRINITOPENACC 61 0.00224395
+          Time:  0.000488049 s
+@ FFT2DREXECOPENACC 61 0.000488049
+        Inverse
+          Time:  0.000552229 s
+        Error: 335.119
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.886e-05 s
+
+      OpenACC
+        Time:  0.00010475 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00119469 s
+@ FFT2DCINITOPENACC 61 0.00119469
+          Time:  0.000542254 s
+@ FFT2DCEXECOPENACC 61 0.000542254
+        Inverse
+          Time:  0.00066723 s
+        Error: 4.75323e-13
+
+
+Dimensions: 61 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00394067 s
+@ FFT3DRINITOPENACC 61 0.00394067
+          Time:  0.0129936 s
+@ FFT3DREXECOPENACC 61 0.0129936
+        Inverse
+          Time:  0.0199632 s
+        Error: 12545.6
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00360215 s
+@ FFT3DCINITOPENACC 61 0.00360215
+          Time:  0.0192603 s
+@ FFT3DCEXECOPENACC 61 0.0192603
+        Inverse
+          Time:  0.0286834 s
+        Error: 2.31071e-11
+
+
+====================================
+Dimensions: 61 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.091e-06 s
+
+      OpenACC
+        Time:  1.5733e-05 s
+@ PRODUCT1DROPENACC 61 1.5733e-05
+
+    FFT
+      OpenACC
+        Direct
+@ FFTOPENACCFIRSTINIT 61 0.254438
+          Time:  0.0015961 s
+@ FFT1DRINITOPENACC 61 0.0015961
+          Time:  9.2426e-05 s
+@ FFT1DREXECOPENACC 61 9.2426e-05
+        Inverse
+          Time:  6.6386e-05 s
+        Error: 14.3279
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  4.191e-06 s
+
+      OpenACC
+        Time:  4.235e-06 s
+@ PRODUCT1DCOPENACC 61 4.235e-06
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00133126 s
+@ FFT1DCINITOPENACC 61 0.00133126
+          Time:  7.2757e-05 s
+@ FFT1DCEXECOPENACC 61 7.2757e-05
+        Inverse
+          Time:  6.7642e-05 s
+        Error: 1.00038e-14
+
+
+Dimensions: 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00225001 s
+@ FFT2DRINITOPENACC 61 0.00225001
+          Time:  0.000496685 s
+@ FFT2DREXECOPENACC 61 0.000496685
+        Inverse
+          Time:  0.000600905 s
+        Error: 335.119
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  2.3955e-05 s
+
+      OpenACC
+        Time:  0.00010651 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00120148 s
+@ FFT2DCINITOPENACC 61 0.00120148
+          Time:  0.000554991 s
+@ FFT2DCEXECOPENACC 61 0.000554991
+        Inverse
+          Time:  0.000693559 s
+        Error: 4.75323e-13
+
+
+Dimensions: 61 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00416798 s
+@ FFT3DRINITOPENACC 61 0.00416798
+          Time:  0.0141958 s
+@ FFT3DREXECOPENACC 61 0.0141958
+        Inverse
+          Time:  0.0216065 s
+        Error: 12545.6
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00361451 s
+@ FFT3DCINITOPENACC 61 0.00361451
+          Time:  0.0196241 s
+@ FFT3DCEXECOPENACC 61 0.0196241
+        Inverse
+          Time:  0.0285774 s
+        Error: 2.31071e-11
+
+
+====================================
+Dimensions: 61 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.285e-06 s
+
+      OpenACC
+        Time:  1.4339e-05 s
+@ PRODUCT1DROPENACC 61 1.4339e-05
+
+    FFT
+      OpenACC
+        Direct
+@ FFTOPENACCFIRSTINIT 61 0.266102
+          Time:  0.00156554 s
+@ FFT1DRINITOPENACC 61 0.00156554
+          Time:  8.773e-05 s
+@ FFT1DREXECOPENACC 61 8.773e-05
+        Inverse
+          Time:  6.5534e-05 s
+        Error: 14.3279
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  4.03e-06 s
+
+      OpenACC
+        Time:  4.406e-06 s
+@ PRODUCT1DCOPENACC 61 4.406e-06
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00123313 s
+@ FFT1DCINITOPENACC 61 0.00123313
+          Time:  7.2479e-05 s
+@ FFT1DCEXECOPENACC 61 7.2479e-05
+        Inverse
+          Time:  6.8327e-05 s
+        Error: 1.00038e-14
+
+
+Dimensions: 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00223961 s
+@ FFT2DRINITOPENACC 61 0.00223961
+          Time:  0.000475892 s
+@ FFT2DREXECOPENACC 61 0.000475892
+        Inverse
+          Time:  0.000549101 s
+        Error: 335.119
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.8315e-05 s
+
+      OpenACC
+        Time:  0.000100364 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00120952 s
+@ FFT2DCINITOPENACC 61 0.00120952
+          Time:  0.000536541 s
+@ FFT2DCEXECOPENACC 61 0.000536541
+        Inverse
+          Time:  0.000652326 s
+        Error: 4.75323e-13
+
+
+Dimensions: 61 61 61 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00427234 s
+@ FFT3DRINITOPENACC 61 0.00427234
+          Time:  0.0129816 s
+@ FFT3DREXECOPENACC 61 0.0129816
+        Inverse
+          Time:  0.0203616 s
+        Error: 12545.6
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00383298 s
+@ FFT3DCINITOPENACC 61 0.00383298
+          Time:  0.0202134 s
+@ FFT3DCEXECOPENACC 61 0.0202134
+        Inverse
+          Time:  0.0285363 s
+        Error: 2.31071e-11
+
+
+====================================
+====================================
+====================================
+Dimensions: 127 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.22e-06 s
+
+      OpenACC
+        Time:  1.9063e-05 s
+@ PRODUCT1DROPENACC 127 1.9063e-05
+
+    FFT
+      OpenACC
+        Direct
+@ FFTOPENACCFIRSTINIT 127 0.255593
+          Time:  0.00159838 s
+@ FFT1DRINITOPENACC 127 0.00159838
+          Time:  9.5833e-05 s
+@ FFT1DREXECOPENACC 127 9.5833e-05
+        Inverse
+          Time:  7.34e-05 s
+        Error: 29.6063
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.52e-06 s
+
+      OpenACC
+        Time:  6.165e-06 s
+@ PRODUCT1DCOPENACC 127 6.165e-06
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00122378 s
+@ FFT1DCINITOPENACC 127 0.00122378
+          Time:  8.1044e-05 s
+@ FFT1DCEXECOPENACC 127 8.1044e-05
+        Inverse
+          Time:  7.7641e-05 s
+        Error: 3.72048e-14
+
+
+Dimensions: 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00249493 s
+@ FFT2DRINITOPENACC 127 0.00249493
+          Time:  0.00147611 s
+@ FFT2DREXECOPENACC 127 0.00147611
+        Inverse
+          Time:  0.00186095 s
+        Error: 1402.97
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  8.6396e-05 s
+
+      OpenACC
+        Time:  0.000476902 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00126302 s
+@ FFT2DCINITOPENACC 127 0.00126302
+          Time:  0.0017681 s
+@ FFT2DCEXECOPENACC 127 0.0017681
+        Inverse
+          Time:  0.00223714 s
+        Error: 3.71113e-12
+
+
+Dimensions: 127 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0125844 s
+@ FFT3DRINITOPENACC 127 0.0125844
+          Time:  0.124588 s
+@ FFT3DREXECOPENACC 127 0.124588
+        Inverse
+          Time:  0.191702 s
+        Error: 109960
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0195895 s
+@ FFT3DCINITOPENACC 127 0.0195895
+          Time:  0.177959 s
+@ FFT3DCEXECOPENACC 127 0.177959
+        Inverse
+          Time:  0.254793 s
+        Error: 3.58009e-10
+
+
+====================================
+Dimensions: 127 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.483e-06 s
+
+      OpenACC
+        Time:  2.1212e-05 s
+@ PRODUCT1DROPENACC 127 2.1212e-05
+
+    FFT
+      OpenACC
+        Direct
+@ FFTOPENACCFIRSTINIT 127 0.260112
+          Time:  0.00156845 s
+@ FFT1DRINITOPENACC 127 0.00156845
+          Time:  0.000103088 s
+@ FFT1DREXECOPENACC 127 0.000103088
+        Inverse
+          Time:  7.3385e-05 s
+        Error: 29.6063
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.519e-06 s
+
+      OpenACC
+        Time:  5.578e-06 s
+@ PRODUCT1DCOPENACC 127 5.578e-06
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00122047 s
+@ FFT1DCINITOPENACC 127 0.00122047
+          Time:  8.1004e-05 s
+@ FFT1DCEXECOPENACC 127 8.1004e-05
+        Inverse
+          Time:  7.7213e-05 s
+        Error: 3.72048e-14
+
+
+Dimensions: 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00252477 s
+@ FFT2DRINITOPENACC 127 0.00252477
+          Time:  0.00148079 s
+@ FFT2DREXECOPENACC 127 0.00148079
+        Inverse
+          Time:  0.00181095 s
+        Error: 1402.97
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  8.7931e-05 s
+
+      OpenACC
+        Time:  0.000431589 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0012365 s
+@ FFT2DCINITOPENACC 127 0.0012365
+          Time:  0.00177397 s
+@ FFT2DCEXECOPENACC 127 0.00177397
+        Inverse
+          Time:  0.00225531 s
+        Error: 3.71113e-12
+
+
+Dimensions: 127 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0125814 s
+@ FFT3DRINITOPENACC 127 0.0125814
+          Time:  0.124606 s
+@ FFT3DREXECOPENACC 127 0.124606
+        Inverse
+          Time:  0.19208 s
+        Error: 109960
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.019695 s
+@ FFT3DCINITOPENACC 127 0.019695
+          Time:  0.177865 s
+@ FFT3DCEXECOPENACC 127 0.177865
+        Inverse
+          Time:  0.254982 s
+        Error: 3.58009e-10
+
+
+====================================
+Dimensions: 127 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.294e-06 s
+
+      OpenACC
+        Time:  2.0658e-05 s
+@ PRODUCT1DROPENACC 127 2.0658e-05
+
+    FFT
+      OpenACC
+        Direct
+@ FFTOPENACCFIRSTINIT 127 0.263969
+          Time:  0.00159863 s
+@ FFT1DRINITOPENACC 127 0.00159863
+          Time:  0.000100359 s
+@ FFT1DREXECOPENACC 127 0.000100359
+        Inverse
+          Time:  7.169e-05 s
+        Error: 29.6063
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.768e-06 s
+
+      OpenACC
+        Time:  5.978e-06 s
+@ PRODUCT1DCOPENACC 127 5.978e-06
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00121358 s
+@ FFT1DCINITOPENACC 127 0.00121358
+          Time:  8.0976e-05 s
+@ FFT1DCEXECOPENACC 127 8.0976e-05
+        Inverse
+          Time:  7.7741e-05 s
+        Error: 3.72048e-14
+
+
+Dimensions: 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00261294 s
+@ FFT2DRINITOPENACC 127 0.00261294
+          Time:  0.00147686 s
+@ FFT2DREXECOPENACC 127 0.00147686
+        Inverse
+          Time:  0.00183251 s
+        Error: 1402.97
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  8.7502e-05 s
+
+      OpenACC
+        Time:  0.000441856 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00122586 s
+@ FFT2DCINITOPENACC 127 0.00122586
+          Time:  0.00175648 s
+@ FFT2DCEXECOPENACC 127 0.00175648
+        Inverse
+          Time:  0.00225149 s
+        Error: 3.71113e-12
+
+
+Dimensions: 127 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0126274 s
+@ FFT3DRINITOPENACC 127 0.0126274
+          Time:  0.125175 s
+@ FFT3DREXECOPENACC 127 0.125175
+        Inverse
+          Time:  0.192304 s
+        Error: 109960
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0196523 s
+@ FFT3DCINITOPENACC 127 0.0196523
+          Time:  0.177884 s
+@ FFT3DCEXECOPENACC 127 0.177884
+        Inverse
+          Time:  0.255499 s
+        Error: 3.58009e-10
+
+
+====================================
+Dimensions: 127 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.283e-06 s
+
+      OpenACC
+        Time:  1.8916e-05 s
+@ PRODUCT1DROPENACC 127 1.8916e-05
+
+    FFT
+      OpenACC
+        Direct
+@ FFTOPENACCFIRSTINIT 127 0.259372
+          Time:  0.00155332 s
+@ FFT1DRINITOPENACC 127 0.00155332
+          Time:  9.7707e-05 s
+@ FFT1DREXECOPENACC 127 9.7707e-05
+        Inverse
+          Time:  7.2282e-05 s
+        Error: 29.6063
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.483e-06 s
+
+      OpenACC
+        Time:  6.08e-06 s
+@ PRODUCT1DCOPENACC 127 6.08e-06
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00120344 s
+@ FFT1DCINITOPENACC 127 0.00120344
+          Time:  8.0998e-05 s
+@ FFT1DCEXECOPENACC 127 8.0998e-05
+        Inverse
+          Time:  7.6739e-05 s
+        Error: 3.72048e-14
+
+
+Dimensions: 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00264416 s
+@ FFT2DRINITOPENACC 127 0.00264416
+          Time:  0.00149202 s
+@ FFT2DREXECOPENACC 127 0.00149202
+        Inverse
+          Time:  0.00181711 s
+        Error: 1402.97
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  9.9866e-05 s
+
+      OpenACC
+        Time:  0.000430455 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00121717 s
+@ FFT2DCINITOPENACC 127 0.00121717
+          Time:  0.00175686 s
+@ FFT2DCEXECOPENACC 127 0.00175686
+        Inverse
+          Time:  0.00222929 s
+        Error: 3.71113e-12
+
+
+Dimensions: 127 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0125645 s
+@ FFT3DRINITOPENACC 127 0.0125645
+          Time:  0.12521 s
+@ FFT3DREXECOPENACC 127 0.12521
+        Inverse
+          Time:  0.191785 s
+        Error: 109960
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0197686 s
+@ FFT3DCINITOPENACC 127 0.0197686
+          Time:  0.178222 s
+@ FFT3DCEXECOPENACC 127 0.178222
+        Inverse
+          Time:  0.255146 s
+        Error: 3.58009e-10
+
+
+====================================
+Dimensions: 127 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.601e-06 s
+
+      OpenACC
+        Time:  1.9543e-05 s
+@ PRODUCT1DROPENACC 127 1.9543e-05
+
+    FFT
+      OpenACC
+        Direct
+@ FFTOPENACCFIRSTINIT 127 0.255954
+          Time:  0.00158438 s
+@ FFT1DRINITOPENACC 127 0.00158438
+          Time:  9.9468e-05 s
+@ FFT1DREXECOPENACC 127 9.9468e-05
+        Inverse
+          Time:  7.3092e-05 s
+        Error: 29.6063
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.426e-06 s
+
+      OpenACC
+        Time:  6.025e-06 s
+@ PRODUCT1DCOPENACC 127 6.025e-06
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00121037 s
+@ FFT1DCINITOPENACC 127 0.00121037
+          Time:  8.0334e-05 s
+@ FFT1DCEXECOPENACC 127 8.0334e-05
+        Inverse
+          Time:  7.8741e-05 s
+        Error: 3.72048e-14
+
+
+Dimensions: 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00241327 s
+@ FFT2DRINITOPENACC 127 0.00241327
+          Time:  0.00156625 s
+@ FFT2DREXECOPENACC 127 0.00156625
+        Inverse
+          Time:  0.00195792 s
+        Error: 1402.97
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000109182 s
+
+      OpenACC
+        Time:  0.00046 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00128908 s
+@ FFT2DCINITOPENACC 127 0.00128908
+          Time:  0.00180969 s
+@ FFT2DCEXECOPENACC 127 0.00180969
+        Inverse
+          Time:  0.00242871 s
+        Error: 3.71113e-12
+
+
+Dimensions: 127 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0125503 s
+@ FFT3DRINITOPENACC 127 0.0125503
+          Time:  0.124971 s
+@ FFT3DREXECOPENACC 127 0.124971
+        Inverse
+          Time:  0.194802 s
+        Error: 109960
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0199263 s
+@ FFT3DCINITOPENACC 127 0.0199263
+          Time:  0.178459 s
+@ FFT3DCEXECOPENACC 127 0.178459
+        Inverse
+          Time:  0.255035 s
+        Error: 3.58009e-10
+
+
+====================================
+Dimensions: 127 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.805e-06 s
+
+      OpenACC
+        Time:  2.4551e-05 s
+@ PRODUCT1DROPENACC 127 2.4551e-05
+
+    FFT
+      OpenACC
+        Direct
+@ FFTOPENACCFIRSTINIT 127 0.258727
+          Time:  0.00157883 s
+@ FFT1DRINITOPENACC 127 0.00157883
+          Time:  9.8934e-05 s
+@ FFT1DREXECOPENACC 127 9.8934e-05
+        Inverse
+          Time:  7.2743e-05 s
+        Error: 29.6063
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.557e-06 s
+
+      OpenACC
+        Time:  6.296e-06 s
+@ PRODUCT1DCOPENACC 127 6.296e-06
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00123072 s
+@ FFT1DCINITOPENACC 127 0.00123072
+          Time:  8.1067e-05 s
+@ FFT1DCEXECOPENACC 127 8.1067e-05
+        Inverse
+          Time:  7.8294e-05 s
+        Error: 3.72048e-14
+
+
+Dimensions: 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00241193 s
+@ FFT2DRINITOPENACC 127 0.00241193
+          Time:  0.00148275 s
+@ FFT2DREXECOPENACC 127 0.00148275
+        Inverse
+          Time:  0.00184306 s
+        Error: 1402.97
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  8.6437e-05 s
+
+      OpenACC
+        Time:  0.000438062 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00124069 s
+@ FFT2DCINITOPENACC 127 0.00124069
+          Time:  0.00176747 s
+@ FFT2DCEXECOPENACC 127 0.00176747
+        Inverse
+          Time:  0.00227051 s
+        Error: 3.71113e-12
+
+
+Dimensions: 127 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0126304 s
+@ FFT3DRINITOPENACC 127 0.0126304
+          Time:  0.124663 s
+@ FFT3DREXECOPENACC 127 0.124663
+        Inverse
+          Time:  0.192761 s
+        Error: 109960
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0196153 s
+@ FFT3DCINITOPENACC 127 0.0196153
+          Time:  0.177909 s
+@ FFT3DCEXECOPENACC 127 0.177909
+        Inverse
+          Time:  0.255228 s
+        Error: 3.58009e-10
+
+
+====================================
+Dimensions: 127 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.309e-06 s
+
+      OpenACC
+        Time:  1.9785e-05 s
+@ PRODUCT1DROPENACC 127 1.9785e-05
+
+    FFT
+      OpenACC
+        Direct
+@ FFTOPENACCFIRSTINIT 127 0.265776
+          Time:  0.00156334 s
+@ FFT1DRINITOPENACC 127 0.00156334
+          Time:  0.000101976 s
+@ FFT1DREXECOPENACC 127 0.000101976
+        Inverse
+          Time:  7.3602e-05 s
+        Error: 29.6063
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.45e-06 s
+
+      OpenACC
+        Time:  5.909e-06 s
+@ PRODUCT1DCOPENACC 127 5.909e-06
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00125146 s
+@ FFT1DCINITOPENACC 127 0.00125146
+          Time:  8.135e-05 s
+@ FFT1DCEXECOPENACC 127 8.135e-05
+        Inverse
+          Time:  7.8578e-05 s
+        Error: 3.72048e-14
+
+
+Dimensions: 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00248461 s
+@ FFT2DRINITOPENACC 127 0.00248461
+          Time:  0.00153495 s
+@ FFT2DREXECOPENACC 127 0.00153495
+        Inverse
+          Time:  0.00185078 s
+        Error: 1402.97
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  8.5708e-05 s
+
+      OpenACC
+        Time:  0.000437325 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00125638 s
+@ FFT2DCINITOPENACC 127 0.00125638
+          Time:  0.00175681 s
+@ FFT2DCEXECOPENACC 127 0.00175681
+        Inverse
+          Time:  0.00222898 s
+        Error: 3.71113e-12
+
+
+Dimensions: 127 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0126284 s
+@ FFT3DRINITOPENACC 127 0.0126284
+          Time:  0.124998 s
+@ FFT3DREXECOPENACC 127 0.124998
+        Inverse
+          Time:  0.191805 s
+        Error: 109960
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.019674 s
+@ FFT3DCINITOPENACC 127 0.019674
+          Time:  0.178047 s
+@ FFT3DCEXECOPENACC 127 0.178047
+        Inverse
+          Time:  0.25522 s
+        Error: 3.58009e-10
+
+
+====================================
+Dimensions: 127 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.592e-06 s
+
+      OpenACC
+        Time:  1.9723e-05 s
+@ PRODUCT1DROPENACC 127 1.9723e-05
+
+    FFT
+      OpenACC
+        Direct
+@ FFTOPENACCFIRSTINIT 127 0.257713
+          Time:  0.00157322 s
+@ FFT1DRINITOPENACC 127 0.00157322
+          Time:  9.9032e-05 s
+@ FFT1DREXECOPENACC 127 9.9032e-05
+        Inverse
+          Time:  7.3679e-05 s
+        Error: 29.6063
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.516e-06 s
+
+      OpenACC
+        Time:  6.341e-06 s
+@ PRODUCT1DCOPENACC 127 6.341e-06
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00210463 s
+@ FFT1DCINITOPENACC 127 0.00210463
+          Time:  0.000100472 s
+@ FFT1DCEXECOPENACC 127 0.000100472
+        Inverse
+          Time:  7.6981e-05 s
+        Error: 3.72048e-14
+
+
+Dimensions: 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00243618 s
+@ FFT2DRINITOPENACC 127 0.00243618
+          Time:  0.00151147 s
+@ FFT2DREXECOPENACC 127 0.00151147
+        Inverse
+          Time:  0.00182185 s
+        Error: 1402.97
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  8.6581e-05 s
+
+      OpenACC
+        Time:  0.0004301 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00125231 s
+@ FFT2DCINITOPENACC 127 0.00125231
+          Time:  0.00175175 s
+@ FFT2DCEXECOPENACC 127 0.00175175
+        Inverse
+          Time:  0.00223037 s
+        Error: 3.71113e-12
+
+
+Dimensions: 127 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0127911 s
+@ FFT3DRINITOPENACC 127 0.0127911
+          Time:  0.12517 s
+@ FFT3DREXECOPENACC 127 0.12517
+        Inverse
+          Time:  0.192369 s
+        Error: 109960
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0197092 s
+@ FFT3DCINITOPENACC 127 0.0197092
+          Time:  0.178305 s
+@ FFT3DCEXECOPENACC 127 0.178305
+        Inverse
+          Time:  0.2549 s
+        Error: 3.58009e-10
+
+
+====================================
+Dimensions: 127 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.367e-06 s
+
+      OpenACC
+        Time:  3.6916e-05 s
+@ PRODUCT1DROPENACC 127 3.6916e-05
+
+    FFT
+      OpenACC
+        Direct
+@ FFTOPENACCFIRSTINIT 127 0.267986
+          Time:  0.00157439 s
+@ FFT1DRINITOPENACC 127 0.00157439
+          Time:  9.9613e-05 s
+@ FFT1DREXECOPENACC 127 9.9613e-05
+        Inverse
+          Time:  7.354e-05 s
+        Error: 29.6063
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.443e-06 s
+
+      OpenACC
+        Time:  5.495e-06 s
+@ PRODUCT1DCOPENACC 127 5.495e-06
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00122769 s
+@ FFT1DCINITOPENACC 127 0.00122769
+          Time:  8.1333e-05 s
+@ FFT1DCEXECOPENACC 127 8.1333e-05
+        Inverse
+          Time:  7.718e-05 s
+        Error: 3.72048e-14
+
+
+Dimensions: 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00249408 s
+@ FFT2DRINITOPENACC 127 0.00249408
+          Time:  0.00147921 s
+@ FFT2DREXECOPENACC 127 0.00147921
+        Inverse
+          Time:  0.0018201 s
+        Error: 1402.97
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  8.8346e-05 s
+
+      OpenACC
+        Time:  0.000435086 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00123963 s
+@ FFT2DCINITOPENACC 127 0.00123963
+          Time:  0.00175344 s
+@ FFT2DCEXECOPENACC 127 0.00175344
+        Inverse
+          Time:  0.00224897 s
+        Error: 3.71113e-12
+
+
+Dimensions: 127 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0126933 s
+@ FFT3DRINITOPENACC 127 0.0126933
+          Time:  0.124764 s
+@ FFT3DREXECOPENACC 127 0.124764
+        Inverse
+          Time:  0.191845 s
+        Error: 109960
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0195496 s
+@ FFT3DCINITOPENACC 127 0.0195496
+          Time:  0.178329 s
+@ FFT3DCEXECOPENACC 127 0.178329
+        Inverse
+          Time:  0.255554 s
+        Error: 3.58009e-10
+
+
+====================================
+Dimensions: 127 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.404e-06 s
+
+      OpenACC
+        Time:  2.2552e-05 s
+@ PRODUCT1DROPENACC 127 2.2552e-05
+
+    FFT
+      OpenACC
+        Direct
+@ FFTOPENACCFIRSTINIT 127 0.255624
+          Time:  0.00167599 s
+@ FFT1DRINITOPENACC 127 0.00167599
+          Time:  9.8358e-05 s
+@ FFT1DREXECOPENACC 127 9.8358e-05
+        Inverse
+          Time:  7.4858e-05 s
+        Error: 29.6063
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  1.439e-06 s
+
+      OpenACC
+        Time:  5.49e-06 s
+@ PRODUCT1DCOPENACC 127 5.49e-06
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00121972 s
+@ FFT1DCINITOPENACC 127 0.00121972
+          Time:  8.1262e-05 s
+@ FFT1DCEXECOPENACC 127 8.1262e-05
+        Inverse
+          Time:  7.8574e-05 s
+        Error: 3.72048e-14
+
+
+Dimensions: 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00249259 s
+@ FFT2DRINITOPENACC 127 0.00249259
+          Time:  0.00149394 s
+@ FFT2DREXECOPENACC 127 0.00149394
+        Inverse
+          Time:  0.00182922 s
+        Error: 1402.97
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  8.7671e-05 s
+
+      OpenACC
+        Time:  0.000429909 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0013464 s
+@ FFT2DCINITOPENACC 127 0.0013464
+          Time:  0.00178098 s
+@ FFT2DCEXECOPENACC 127 0.00178098
+        Inverse
+          Time:  0.00225186 s
+        Error: 3.71113e-12
+
+
+Dimensions: 127 127 127 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0126336 s
+@ FFT3DRINITOPENACC 127 0.0126336
+          Time:  0.125027 s
+@ FFT3DREXECOPENACC 127 0.125027
+        Inverse
+          Time:  0.192249 s
+        Error: 109960
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0194963 s
+@ FFT3DCINITOPENACC 127 0.0194963
+          Time:  0.177837 s
+@ FFT3DCEXECOPENACC 127 0.177837
+        Inverse
+          Time:  0.254976 s
+        Error: 3.58009e-10
+
+
+====================================
+====================================
+====================================
+Dimensions: 257 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.863e-06 s
+
+      OpenACC
+        Time:  1.8838e-05 s
+@ PRODUCT1DROPENACC 257 1.8838e-05
+
+    FFT
+      OpenACC
+        Direct
+@ FFTOPENACCFIRSTINIT 257 0.262608
+          Time:  0.00207085 s
+@ FFT1DRINITOPENACC 257 0.00207085
+          Time:  0.000126579 s
+@ FFT1DREXECOPENACC 257 0.000126579
+        Inverse
+          Time:  9.495e-05 s
+        Error: 60.3891
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  2.094e-06 s
+
+      OpenACC
+        Time:  9.631e-06 s
+@ PRODUCT1DCOPENACC 257 9.631e-06
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0017329 s
+@ FFT1DCINITOPENACC 257 0.0017329
+          Time:  0.000103028 s
+@ FFT1DCEXECOPENACC 257 0.000103028
+        Inverse
+          Time:  9.9124e-05 s
+        Error: 5.375e-12
+
+
+Dimensions: 257 257 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00438918 s
+@ FFT2DRINITOPENACC 257 0.00438918
+          Time:  0.00615579 s
+@ FFT2DREXECOPENACC 257 0.00615579
+        Inverse
+          Time:  0.0075719 s
+        Error: 5880.67
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000386675 s
+
+      OpenACC
+        Time:  0.00179992 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0035886 s
+@ FFT2DCINITOPENACC 257 0.0035886
+          Time:  0.00736529 s
+@ FFT2DCEXECOPENACC 257 0.00736529
+        Inverse
+          Time:  0.00938159 s
+        Error: 9.52558e-10
+
+
+Dimensions: 257 257 257 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0829161 s
+@ FFT3DRINITOPENACC 257 0.0829161
+          Time:  1.03151 s
+@ FFT3DREXECOPENACC 257 1.03151
+        Inverse
+          Time:  1.58206 s
+        Error: 938369
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.152792 s
+@ FFT3DCINITOPENACC 257 0.152792
+          Time:  1.46302 s
+@ FFT3DCEXECOPENACC 257 1.46302
+        Inverse
+          Time:  2.10348 s
+        Error: 1.33818e-07
+
+
+====================================
+Dimensions: 257 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  3.107e-06 s
+
+      OpenACC
+        Time:  1.8308e-05 s
+@ PRODUCT1DROPENACC 257 1.8308e-05
+
+    FFT
+      OpenACC
+        Direct
+@ FFTOPENACCFIRSTINIT 257 0.260354
+          Time:  0.00207159 s
+@ FFT1DRINITOPENACC 257 0.00207159
+          Time:  0.000132636 s
+@ FFT1DREXECOPENACC 257 0.000132636
+        Inverse
+          Time:  0.000100945 s
+        Error: 60.3891
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  2.021e-06 s
+
+      OpenACC
+        Time:  9.361e-06 s
+@ PRODUCT1DCOPENACC 257 9.361e-06
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00175024 s
+@ FFT1DCINITOPENACC 257 0.00175024
+          Time:  0.000103013 s
+@ FFT1DCEXECOPENACC 257 0.000103013
+        Inverse
+          Time:  0.000102171 s
+        Error: 5.375e-12
+
+
+Dimensions: 257 257 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0046724 s
+@ FFT2DRINITOPENACC 257 0.0046724
+          Time:  0.00682008 s
+@ FFT2DREXECOPENACC 257 0.00682008
+        Inverse
+          Time:  0.00826138 s
+        Error: 5880.67
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000380839 s
+
+      OpenACC
+        Time:  0.00178932 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00345315 s
+@ FFT2DCINITOPENACC 257 0.00345315
+          Time:  0.00796371 s
+@ FFT2DCEXECOPENACC 257 0.00796371
+        Inverse
+          Time:  0.00997011 s
+        Error: 9.52558e-10
+
+
+Dimensions: 257 257 257 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0830735 s
+@ FFT3DRINITOPENACC 257 0.0830735
+          Time:  1.02868 s
+@ FFT3DREXECOPENACC 257 1.02868
+        Inverse
+          Time:  1.59027 s
+        Error: 938369
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.150652 s
+@ FFT3DCINITOPENACC 257 0.150652
+          Time:  1.46494 s
+@ FFT3DCEXECOPENACC 257 1.46494
+        Inverse
+          Time:  2.10411 s
+        Error: 1.33818e-07
+
+
+====================================
+Dimensions: 257 
+N coils: 1
+
+  R <-> HC
+
+    Multiplication
+      CPU
+        Time:  2.664e-06 s
+
+      OpenACC
+        Time:  1.9753e-05 s
+@ PRODUCT1DROPENACC 257 1.9753e-05
+
+    FFT
+      OpenACC
+        Direct
+@ FFTOPENACCFIRSTINIT 257 0.25594
+          Time:  0.00309487 s
+@ FFT1DRINITOPENACC 257 0.00309487
+          Time:  0.000129424 s
+@ FFT1DREXECOPENACC 257 0.000129424
+        Inverse
+          Time:  9.7181e-05 s
+        Error: 60.3891
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  2.302e-06 s
+
+      OpenACC
+        Time:  1.0178e-05 s
+@ PRODUCT1DCOPENACC 257 1.0178e-05
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00175959 s
+@ FFT1DCINITOPENACC 257 0.00175959
+          Time:  0.000100347 s
+@ FFT1DCEXECOPENACC 257 0.000100347
+        Inverse
+          Time:  9.9943e-05 s
+        Error: 5.375e-12
+
+
+Dimensions: 257 257 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00464565 s
+@ FFT2DRINITOPENACC 257 0.00464565
+          Time:  0.00665804 s
+@ FFT2DREXECOPENACC 257 0.00665804
+        Inverse
+          Time:  0.00807772 s
+        Error: 5880.67
+
+  C <-> C
+
+    Multiplication
+      CPU
+        Time:  0.000645531 s
+
+      OpenACC
+        Time:  0.00180976 s
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.00342017 s
+@ FFT2DCINITOPENACC 257 0.00342017
+          Time:  0.00754112 s
+@ FFT2DCEXECOPENACC 257 0.00754112
+        Inverse
+          Time:  0.0101173 s
+        Error: 9.52558e-10
+
+
+Dimensions: 257 257 257 
+N coils: 1
+
+  R <-> HC
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.0839909 s
+@ FFT3DRINITOPENACC 257 0.0839909
+          Time:  1.02782 s
+@ FFT3DREXECOPENACC 257 1.02782
+        Inverse
+          Time:  1.58234 s
+        Error: 938369
+
+  C <-> C
+
+    FFT
+      OpenACC
+        Direct
+          Time:  0.150153 s
+@ FFT3DCINITOPENACC 257 0.150153
+          Time:  1.46441 s
+@ FFT3DCEXECOPENACC 257 1.46441
+        Inverse
+          Time:  2.10295 s
+        Error: 1.33818e-07
+
+
+====================================
+Dimensions: 257 
+N coils: 1
+
+  R <-> HC
 
     Multiplication
       CPU
         Time:  2.793e-06 s
 
       OpenACC
-        Time:  3.282e-06 s
-@ PRODUCT1DCOPENACC 31 3.282e-06
+        Time:  1.8458e-05 s
+@ PRODUCT1DROPENACC 257 1.8458e-05
 
     FFT
       OpenACC
         Direct
-          Time:  7.0027e-05 s
-@ FFT1DCOPENACC 31 7.0027e-05
+@ FFTOPENACCFIRSTINIT 257 0.260723
+          Time:  0.00206422 s
+@ FFT1DRINITOPENACC 257 0.00206422
+          Time:  0.000128745 s
+@ FFT1DREXECOPENACC 257 0.000128745
         Inverse
-          Time:  6.2859e-05 s
-        Error: 3.62857e-15
-
-
-Dimensions: 31 31 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000203146 s
-@ FFT2DROPENACC 31 0.000203146
-        Inverse
-          Time:  0.000227007 s
-        Error: 81.0317
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  5.259e-06 s
-
-      OpenACC
-        Time:  2.843e-05 s
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000225995 s
-@ FFT2DCOPENACC 31 0.000225995
-        Inverse
-          Time:  0.000254608 s
-        Error: 8.8617e-14
-
-
-Dimensions: 31 31 31 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.00203937 s
-@ FFT3DROPENACC 31 0.00203937
-        Inverse
-          Time:  0.00306577 s
-        Error: 1503.54
-
-  C <-> C
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.00274801 s
-@ FFT3DCOPENACC 31 0.00274801
-        Inverse
-          Time:  0.00400568 s
-        Error: 2.08779e-12
-
-
-====================================
-Dimensions: 31 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  1.798e-06 s
-
-      OpenACC
-        Time:  1.4492e-05 s
-@ PRODUCT1DROPENACC 31 1.4492e-05
-
-    FFT
-      OpenACC
-        Direct
-          Time:  9.6034e-05 s
-@ FFT1DROPENACC 31 9.6034e-05
-        Inverse
-          Time:  6.0981e-05 s
-        Error: 7.09677
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  3.064e-06 s
-
-      OpenACC
-        Time:  2.964e-06 s
-@ PRODUCT1DCOPENACC 31 2.964e-06
-
-    FFT
-      OpenACC
-        Direct
-          Time:  7.0951e-05 s
-@ FFT1DCOPENACC 31 7.0951e-05
-        Inverse
-          Time:  6.188e-05 s
-        Error: 3.62857e-15
-
-
-Dimensions: 31 31 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000205085 s
-@ FFT2DROPENACC 31 0.000205085
-        Inverse
-          Time:  0.000215495 s
-        Error: 81.0317
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  5.358e-06 s
-
-      OpenACC
-        Time:  2.7617e-05 s
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000218825 s
-@ FFT2DCOPENACC 31 0.000218825
-        Inverse
-          Time:  0.000246655 s
-        Error: 8.8617e-14
-
-
-Dimensions: 31 31 31 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.00186769 s
-@ FFT3DROPENACC 31 0.00186769
-        Inverse
-          Time:  0.00276853 s
-        Error: 1503.54
-
-  C <-> C
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.00249888 s
-@ FFT3DCOPENACC 31 0.00249888
-        Inverse
-          Time:  0.00363328 s
-        Error: 2.08779e-12
-
-
-====================================
-Dimensions: 31 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  5.013e-06 s
-
-      OpenACC
-        Time:  2.44e-05 s
-@ PRODUCT1DROPENACC 31 2.44e-05
-
-    FFT
-      OpenACC
-        Direct
-          Time:  9.3227e-05 s
-@ FFT1DROPENACC 31 9.3227e-05
-        Inverse
-          Time:  6.1775e-05 s
-        Error: 7.09677
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  3.317e-06 s
-
-      OpenACC
-        Time:  3.534e-06 s
-@ PRODUCT1DCOPENACC 31 3.534e-06
-
-    FFT
-      OpenACC
-        Direct
-          Time:  7.6018e-05 s
-@ FFT1DCOPENACC 31 7.6018e-05
-        Inverse
-          Time:  6.3228e-05 s
-        Error: 3.62857e-15
-
-
-Dimensions: 31 31 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000203951 s
-@ FFT2DROPENACC 31 0.000203951
-        Inverse
-          Time:  0.00021214 s
-        Error: 81.0317
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  5.105e-06 s
-
-      OpenACC
-        Time:  2.7505e-05 s
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000242325 s
-@ FFT2DCOPENACC 31 0.000242325
-        Inverse
-          Time:  0.000246682 s
-        Error: 8.8617e-14
-
-
-Dimensions: 31 31 31 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.00185595 s
-@ FFT3DROPENACC 31 0.00185595
-        Inverse
-          Time:  0.00277838 s
-        Error: 1503.54
-
-  C <-> C
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.00250304 s
-@ FFT3DCOPENACC 31 0.00250304
-        Inverse
-          Time:  0.0036608 s
-        Error: 2.08779e-12
-
-
-====================================
-Dimensions: 31 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  2.324e-06 s
-
-      OpenACC
-        Time:  1.4031e-05 s
-@ PRODUCT1DROPENACC 31 1.4031e-05
-
-    FFT
-      OpenACC
-        Direct
-          Time:  9.3914e-05 s
-@ FFT1DROPENACC 31 9.3914e-05
-        Inverse
-          Time:  6.4199e-05 s
-        Error: 7.09677
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  2.889e-06 s
-
-      OpenACC
-        Time:  3.974e-06 s
-@ PRODUCT1DCOPENACC 31 3.974e-06
-
-    FFT
-      OpenACC
-        Direct
-          Time:  6.8296e-05 s
-@ FFT1DCOPENACC 31 6.8296e-05
-        Inverse
-          Time:  6.1509e-05 s
-        Error: 3.62857e-15
-
-
-Dimensions: 31 31 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.00020482 s
-@ FFT2DROPENACC 31 0.00020482
-        Inverse
-          Time:  0.000220869 s
-        Error: 81.0317
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  5.27e-06 s
-
-      OpenACC
-        Time:  2.7554e-05 s
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000223798 s
-@ FFT2DCOPENACC 31 0.000223798
-        Inverse
-          Time:  0.000256954 s
-        Error: 8.8617e-14
-
-
-Dimensions: 31 31 31 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.0019515 s
-@ FFT3DROPENACC 31 0.0019515
-        Inverse
-          Time:  0.00296393 s
-        Error: 1503.54
-
-  C <-> C
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.00275786 s
-@ FFT3DCOPENACC 31 0.00275786
-        Inverse
-          Time:  0.00403611 s
-        Error: 2.08779e-12
-
-
-====================================
-====================================
-====================================
-Dimensions: 61 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  2.247e-06 s
-
-      OpenACC
-        Time:  1.4328e-05 s
-@ PRODUCT1DROPENACC 61 1.4328e-05
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000102467 s
-@ FFT1DROPENACC 61 0.000102467
-        Inverse
-          Time:  6.7499e-05 s
-        Error: 14.3279
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  9.94e-07 s
-
-      OpenACC
-        Time:  3.885e-06 s
-@ PRODUCT1DCOPENACC 61 3.885e-06
-
-    FFT
-      OpenACC
-        Direct
-          Time:  7.2721e-05 s
-@ FFT1DCOPENACC 61 7.2721e-05
-        Inverse
-          Time:  6.7972e-05 s
-        Error: 1.00038e-14
-
-
-Dimensions: 61 61 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000479983 s
-@ FFT2DROPENACC 61 0.000479983
-        Inverse
-          Time:  0.000551091 s
-        Error: 335.119
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  1.8364e-05 s
-
-      OpenACC
-        Time:  0.000100617 s
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000546878 s
-@ FFT2DCOPENACC 61 0.000546878
-        Inverse
-          Time:  0.000656778 s
-        Error: 4.75323e-13
-
-
-Dimensions: 61 61 61 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.0130458 s
-@ FFT3DROPENACC 61 0.0130458
-        Inverse
-          Time:  0.0204596 s
-        Error: 12545.6
-
-  C <-> C
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.0201584 s
-@ FFT3DCOPENACC 61 0.0201584
-        Inverse
-          Time:  0.0286172 s
-        Error: 2.31071e-11
-
-
-====================================
-Dimensions: 61 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  2.044e-06 s
-
-      OpenACC
-        Time:  1.6613e-05 s
-@ PRODUCT1DROPENACC 61 1.6613e-05
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000101291 s
-@ FFT1DROPENACC 61 0.000101291
-        Inverse
-          Time:  6.4946e-05 s
-        Error: 14.3279
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  9.88e-07 s
-
-      OpenACC
-        Time:  4.089e-06 s
-@ PRODUCT1DCOPENACC 61 4.089e-06
-
-    FFT
-      OpenACC
-        Direct
-          Time:  7.484e-05 s
-@ FFT1DCOPENACC 61 7.484e-05
-        Inverse
-          Time:  6.7073e-05 s
-        Error: 1.00038e-14
-
-
-Dimensions: 61 61 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000484529 s
-@ FFT2DROPENACC 61 0.000484529
-        Inverse
-          Time:  0.000553875 s
-        Error: 335.119
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  1.883e-05 s
-
-      OpenACC
-        Time:  0.000100406 s
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000553982 s
-@ FFT2DCOPENACC 61 0.000553982
-        Inverse
-          Time:  0.000676262 s
-        Error: 4.75323e-13
-
-
-Dimensions: 61 61 61 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.0146356 s
-@ FFT3DROPENACC 61 0.0146356
-        Inverse
-          Time:  0.0220358 s
-        Error: 12545.6
-
-  C <-> C
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.0202273 s
-@ FFT3DCOPENACC 61 0.0202273
-        Inverse
-          Time:  0.0286962 s
-        Error: 2.31071e-11
-
-
-====================================
-Dimensions: 61 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  1.867e-06 s
-
-      OpenACC
-        Time:  1.3705e-05 s
-@ PRODUCT1DROPENACC 61 1.3705e-05
-
-    FFT
-      OpenACC
-        Direct
-          Time:  9.9867e-05 s
-@ FFT1DROPENACC 61 9.9867e-05
-        Inverse
-          Time:  8.0324e-05 s
-        Error: 14.3279
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  1.449e-06 s
-
-      OpenACC
-        Time:  4.382e-06 s
-@ PRODUCT1DCOPENACC 61 4.382e-06
-
-    FFT
-      OpenACC
-        Direct
-          Time:  7.0718e-05 s
-@ FFT1DCOPENACC 61 7.0718e-05
-        Inverse
-          Time:  6.7669e-05 s
-        Error: 1.00038e-14
-
-
-Dimensions: 61 61 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000480737 s
-@ FFT2DROPENACC 61 0.000480737
-        Inverse
-          Time:  0.000562668 s
-        Error: 335.119
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  1.8815e-05 s
-
-      OpenACC
-        Time:  0.000100299 s
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000543603 s
-@ FFT2DCOPENACC 61 0.000543603
-        Inverse
-          Time:  0.000656811 s
-        Error: 4.75323e-13
-
-
-Dimensions: 61 61 61 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.0141978 s
-@ FFT3DROPENACC 61 0.0141978
-        Inverse
-          Time:  0.0217093 s
-        Error: 12545.6
-
-  C <-> C
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.0196495 s
-@ FFT3DCOPENACC 61 0.0196495
-        Inverse
-          Time:  0.0289234 s
-        Error: 2.31071e-11
-
-
-====================================
-Dimensions: 61 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  2.009e-06 s
-
-      OpenACC
-        Time:  1.5059e-05 s
-@ PRODUCT1DROPENACC 61 1.5059e-05
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000100718 s
-@ FFT1DROPENACC 61 0.000100718
-        Inverse
-          Time:  6.6789e-05 s
-        Error: 14.3279
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  1.049e-06 s
-
-      OpenACC
-        Time:  4.43e-06 s
-@ PRODUCT1DCOPENACC 61 4.43e-06
-
-    FFT
-      OpenACC
-        Direct
-          Time:  7.2719e-05 s
-@ FFT1DCOPENACC 61 7.2719e-05
-        Inverse
-          Time:  7.3562e-05 s
-        Error: 1.00038e-14
-
-
-Dimensions: 61 61 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000476438 s
-@ FFT2DROPENACC 61 0.000476438
-        Inverse
-          Time:  0.000554878 s
-        Error: 335.119
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  1.8968e-05 s
-
-      OpenACC
-        Time:  0.000111042 s
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000543132 s
-@ FFT2DCOPENACC 61 0.000543132
-        Inverse
-          Time:  0.000649303 s
-        Error: 4.75323e-13
-
-
-Dimensions: 61 61 61 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.0142332 s
-@ FFT3DROPENACC 61 0.0142332
-        Inverse
-          Time:  0.0216804 s
-        Error: 12545.6
-
-  C <-> C
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.0196407 s
-@ FFT3DCOPENACC 61 0.0196407
-        Inverse
-          Time:  0.0287525 s
-        Error: 2.31071e-11
-
-
-====================================
-Dimensions: 61 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  2.144e-06 s
-
-      OpenACC
-        Time:  1.4253e-05 s
-@ PRODUCT1DROPENACC 61 1.4253e-05
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000105052 s
-@ FFT1DROPENACC 61 0.000105052
-        Inverse
-          Time:  6.598e-05 s
-        Error: 14.3279
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  1.301e-06 s
-
-      OpenACC
-        Time:  3.953e-06 s
-@ PRODUCT1DCOPENACC 61 3.953e-06
-
-    FFT
-      OpenACC
-        Direct
-          Time:  7.3803e-05 s
-@ FFT1DCOPENACC 61 7.3803e-05
-        Inverse
-          Time:  6.7996e-05 s
-        Error: 1.00038e-14
-
-
-Dimensions: 61 61 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000480075 s
-@ FFT2DROPENACC 61 0.000480075
-        Inverse
-          Time:  0.000551971 s
-        Error: 335.119
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  1.8883e-05 s
-
-      OpenACC
-        Time:  0.000100932 s
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000550432 s
-@ FFT2DCOPENACC 61 0.000550432
-        Inverse
-          Time:  0.000653528 s
-        Error: 4.75323e-13
-
-
-Dimensions: 61 61 61 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.0135391 s
-@ FFT3DROPENACC 61 0.0135391
-        Inverse
-          Time:  0.0204663 s
-        Error: 12545.6
-
-  C <-> C
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.0202799 s
-@ FFT3DCOPENACC 61 0.0202799
-        Inverse
-          Time:  0.0288401 s
-        Error: 2.31071e-11
-
-
-====================================
-Dimensions: 61 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  1.907e-06 s
-
-      OpenACC
-        Time:  1.4354e-05 s
-@ PRODUCT1DROPENACC 61 1.4354e-05
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000102529 s
-@ FFT1DROPENACC 61 0.000102529
-        Inverse
-          Time:  6.7016e-05 s
-        Error: 14.3279
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  9.31e-07 s
-
-      OpenACC
-        Time:  3.913e-06 s
-@ PRODUCT1DCOPENACC 61 3.913e-06
-
-    FFT
-      OpenACC
-        Direct
-          Time:  7.2149e-05 s
-@ FFT1DCOPENACC 61 7.2149e-05
-        Inverse
-          Time:  6.8456e-05 s
-        Error: 1.00038e-14
-
-
-Dimensions: 61 61 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000481708 s
-@ FFT2DROPENACC 61 0.000481708
-        Inverse
-          Time:  0.000552448 s
-        Error: 335.119
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  1.8175e-05 s
-
-      OpenACC
-        Time:  0.000101054 s
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000542081 s
-@ FFT2DCOPENACC 61 0.000542081
-        Inverse
-          Time:  0.000654354 s
-        Error: 4.75323e-13
-
-
-Dimensions: 61 61 61 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.0130734 s
-@ FFT3DROPENACC 61 0.0130734
-        Inverse
-          Time:  0.0199565 s
-        Error: 12545.6
-
-  C <-> C
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.0177576 s
-@ FFT3DCOPENACC 61 0.0177576
-        Inverse
-          Time:  0.0296997 s
-        Error: 2.31071e-11
-
-
-====================================
-Dimensions: 61 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  1.814e-06 s
-
-      OpenACC
-        Time:  1.3788e-05 s
-@ PRODUCT1DROPENACC 61 1.3788e-05
-
-    FFT
-      OpenACC
-        Direct
-          Time:  9.9524e-05 s
-@ FFT1DROPENACC 61 9.9524e-05
-        Inverse
-          Time:  6.5327e-05 s
-        Error: 14.3279
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  9.12e-07 s
-
-      OpenACC
-        Time:  4.208e-06 s
-@ PRODUCT1DCOPENACC 61 4.208e-06
-
-    FFT
-      OpenACC
-        Direct
-          Time:  7.3843e-05 s
-@ FFT1DCOPENACC 61 7.3843e-05
-        Inverse
-          Time:  6.7726e-05 s
-        Error: 1.00038e-14
-
-
-Dimensions: 61 61 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000474841 s
-@ FFT2DROPENACC 61 0.000474841
-        Inverse
-          Time:  0.000558068 s
-        Error: 335.119
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  1.8419e-05 s
-
-      OpenACC
-        Time:  0.000117389 s
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000545272 s
-@ FFT2DCOPENACC 61 0.000545272
-        Inverse
-          Time:  0.000682274 s
-        Error: 4.75323e-13
-
-
-Dimensions: 61 61 61 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.0131479 s
-@ FFT3DROPENACC 61 0.0131479
-        Inverse
-          Time:  0.0200479 s
-        Error: 12545.6
-
-  C <-> C
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.017841 s
-@ FFT3DCOPENACC 61 0.017841
-        Inverse
-          Time:  0.0289363 s
-        Error: 2.31071e-11
-
-
-====================================
-Dimensions: 61 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  1.889e-06 s
-
-      OpenACC
-        Time:  1.3389e-05 s
-@ PRODUCT1DROPENACC 61 1.3389e-05
-
-    FFT
-      OpenACC
-        Direct
-          Time:  9.8624e-05 s
-@ FFT1DROPENACC 61 9.8624e-05
-        Inverse
-          Time:  6.4983e-05 s
-        Error: 14.3279
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  1.203e-06 s
-
-      OpenACC
-        Time:  3.966e-06 s
-@ PRODUCT1DCOPENACC 61 3.966e-06
-
-    FFT
-      OpenACC
-        Direct
-          Time:  7.2362e-05 s
-@ FFT1DCOPENACC 61 7.2362e-05
-        Inverse
-          Time:  6.7244e-05 s
-        Error: 1.00038e-14
-
-
-Dimensions: 61 61 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000483749 s
-@ FFT2DROPENACC 61 0.000483749
-        Inverse
-          Time:  0.000572503 s
-        Error: 335.119
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  1.8842e-05 s
-
-      OpenACC
-        Time:  0.00011314 s
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000542249 s
-@ FFT2DCOPENACC 61 0.000542249
-        Inverse
-          Time:  0.000649132 s
-        Error: 4.75323e-13
-
-
-Dimensions: 61 61 61 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.0141988 s
-@ FFT3DROPENACC 61 0.0141988
-        Inverse
-          Time:  0.0217015 s
-        Error: 12545.6
-
-  C <-> C
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.0195893 s
-@ FFT3DCOPENACC 61 0.0195893
-        Inverse
-          Time:  0.0288863 s
-        Error: 2.31071e-11
-
-
-====================================
-Dimensions: 61 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  1.994e-06 s
-
-      OpenACC
-        Time:  1.6057e-05 s
-@ PRODUCT1DROPENACC 61 1.6057e-05
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.00010014 s
-@ FFT1DROPENACC 61 0.00010014
-        Inverse
-          Time:  6.5764e-05 s
-        Error: 14.3279
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  1.326e-06 s
-
-      OpenACC
-        Time:  4.192e-06 s
-@ PRODUCT1DCOPENACC 61 4.192e-06
-
-    FFT
-      OpenACC
-        Direct
-          Time:  7.8496e-05 s
-@ FFT1DCOPENACC 61 7.8496e-05
-        Inverse
-          Time:  6.6546e-05 s
-        Error: 1.00038e-14
-
-
-Dimensions: 61 61 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000481984 s
-@ FFT2DROPENACC 61 0.000481984
-        Inverse
-          Time:  0.000555021 s
-        Error: 335.119
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  1.905e-05 s
-
-      OpenACC
-        Time:  0.000105505 s
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000537005 s
-@ FFT2DCOPENACC 61 0.000537005
-        Inverse
-          Time:  0.000659983 s
-        Error: 4.75323e-13
-
-
-Dimensions: 61 61 61 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.0143015 s
-@ FFT3DROPENACC 61 0.0143015
-        Inverse
-          Time:  0.0217709 s
-        Error: 12545.6
-
-  C <-> C
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.0197021 s
-@ FFT3DCOPENACC 61 0.0197021
-        Inverse
-          Time:  0.0287167 s
-        Error: 2.31071e-11
-
-
-====================================
-Dimensions: 61 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  2.123e-06 s
-
-      OpenACC
-        Time:  1.4024e-05 s
-@ PRODUCT1DROPENACC 61 1.4024e-05
-
-    FFT
-      OpenACC
-        Direct
-          Time:  9.9113e-05 s
-@ FFT1DROPENACC 61 9.9113e-05
-        Inverse
-          Time:  7.0198e-05 s
-        Error: 14.3279
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  9.74e-07 s
-
-      OpenACC
-        Time:  4.026e-06 s
-@ PRODUCT1DCOPENACC 61 4.026e-06
-
-    FFT
-      OpenACC
-        Direct
-          Time:  7.4973e-05 s
-@ FFT1DCOPENACC 61 7.4973e-05
-        Inverse
-          Time:  6.7376e-05 s
-        Error: 1.00038e-14
-
-
-Dimensions: 61 61 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000484416 s
-@ FFT2DROPENACC 61 0.000484416
-        Inverse
-          Time:  0.000563009 s
-        Error: 335.119
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  1.8524e-05 s
-
-      OpenACC
-        Time:  0.000100326 s
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000564502 s
-@ FFT2DCOPENACC 61 0.000564502
-        Inverse
-          Time:  0.000651981 s
-        Error: 4.75323e-13
-
-
-Dimensions: 61 61 61 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.0130305 s
-@ FFT3DROPENACC 61 0.0130305
-        Inverse
-          Time:  0.0201633 s
-        Error: 12545.6
-
-  C <-> C
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.0191667 s
-@ FFT3DCOPENACC 61 0.0191667
-        Inverse
-          Time:  0.0287461 s
-        Error: 2.31071e-11
-
-
-====================================
-====================================
-====================================
-Dimensions: 127 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  2.308e-06 s
-
-      OpenACC
-        Time:  1.9098e-05 s
-@ PRODUCT1DROPENACC 127 1.9098e-05
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000112708 s
-@ FFT1DROPENACC 127 0.000112708
-        Inverse
-          Time:  7.3934e-05 s
-        Error: 29.6063
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  1.53e-06 s
-
-      OpenACC
-        Time:  5.753e-06 s
-@ PRODUCT1DCOPENACC 127 5.753e-06
-
-    FFT
-      OpenACC
-        Direct
-          Time:  8.4985e-05 s
-@ FFT1DCOPENACC 127 8.4985e-05
-        Inverse
-          Time:  7.9073e-05 s
-        Error: 3.72048e-14
-
-
-Dimensions: 127 127 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.00156938 s
-@ FFT2DROPENACC 127 0.00156938
-        Inverse
-          Time:  0.00194236 s
-        Error: 1402.97
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  0.000104791 s
-
-      OpenACC
-        Time:  0.000469035 s
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.00180932 s
-@ FFT2DCOPENACC 127 0.00180932
-        Inverse
-          Time:  0.00242165 s
-        Error: 3.71113e-12
-
-
-Dimensions: 127 127 127 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.124748 s
-@ FFT3DROPENACC 127 0.124748
-        Inverse
-          Time:  0.19271 s
-        Error: 109960
-
-  C <-> C
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.178032 s
-@ FFT3DCOPENACC 127 0.178032
-        Inverse
-          Time:  0.256128 s
-        Error: 3.58009e-10
-
-
-====================================
-Dimensions: 127 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  2.484e-06 s
-
-      OpenACC
-        Time:  2.1739e-05 s
-@ PRODUCT1DROPENACC 127 2.1739e-05
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000117896 s
-@ FFT1DROPENACC 127 0.000117896
-        Inverse
-          Time:  7.6667e-05 s
-        Error: 29.6063
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  1.515e-06 s
-
-      OpenACC
-        Time:  6.682e-06 s
-@ PRODUCT1DCOPENACC 127 6.682e-06
-
-    FFT
-      OpenACC
-        Direct
-          Time:  8.0138e-05 s
-@ FFT1DCOPENACC 127 8.0138e-05
-        Inverse
-          Time:  8.2451e-05 s
-        Error: 3.72048e-14
-
-
-Dimensions: 127 127 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.0015547 s
-@ FFT2DROPENACC 127 0.0015547
-        Inverse
-          Time:  0.00194656 s
-        Error: 1402.97
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  0.000110587 s
-
-      OpenACC
-        Time:  0.000460057 s
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.00182976 s
-@ FFT2DCOPENACC 127 0.00182976
-        Inverse
-          Time:  0.0024234 s
-        Error: 3.71113e-12
-
-
-Dimensions: 127 127 127 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.125209 s
-@ FFT3DROPENACC 127 0.125209
-        Inverse
-          Time:  0.192821 s
-        Error: 109960
-
-  C <-> C
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.178353 s
-@ FFT3DCOPENACC 127 0.178353
-        Inverse
-          Time:  0.256615 s
-        Error: 3.58009e-10
-
-
-====================================
-Dimensions: 127 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  2.262e-06 s
-
-      OpenACC
-        Time:  1.9322e-05 s
-@ PRODUCT1DROPENACC 127 1.9322e-05
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000105351 s
-@ FFT1DROPENACC 127 0.000105351
-        Inverse
-          Time:  7.4586e-05 s
-        Error: 29.6063
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  1.2007e-05 s
-
-      OpenACC
-        Time:  5.93e-06 s
-@ PRODUCT1DCOPENACC 127 5.93e-06
-
-    FFT
-      OpenACC
-        Direct
-          Time:  8.1096e-05 s
-@ FFT1DCOPENACC 127 8.1096e-05
-        Inverse
-          Time:  7.7758e-05 s
-        Error: 3.72048e-14
-
-
-Dimensions: 127 127 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.00148145 s
-@ FFT2DROPENACC 127 0.00148145
-        Inverse
-          Time:  0.00182222 s
-        Error: 1402.97
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  8.408e-05 s
-
-      OpenACC
-        Time:  0.00044394 s
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.00175444 s
-@ FFT2DCOPENACC 127 0.00175444
-        Inverse
-          Time:  0.00223961 s
-        Error: 3.71113e-12
-
-
-Dimensions: 127 127 127 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.124813 s
-@ FFT3DROPENACC 127 0.124813
-        Inverse
-          Time:  0.193145 s
-        Error: 109960
-
-  C <-> C
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.178083 s
-@ FFT3DCOPENACC 127 0.178083
-        Inverse
-          Time:  0.256114 s
-        Error: 3.58009e-10
-
-
-====================================
-Dimensions: 127 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  2.374e-06 s
-
-      OpenACC
-        Time:  2.0881e-05 s
-@ PRODUCT1DROPENACC 127 2.0881e-05
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.00011036 s
-@ FFT1DROPENACC 127 0.00011036
-        Inverse
-          Time:  7.5619e-05 s
-        Error: 29.6063
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  1.717e-06 s
-
-      OpenACC
-        Time:  6.028e-06 s
-@ PRODUCT1DCOPENACC 127 6.028e-06
-
-    FFT
-      OpenACC
-        Direct
-          Time:  8.0091e-05 s
-@ FFT1DCOPENACC 127 8.0091e-05
-        Inverse
-          Time:  7.846e-05 s
-        Error: 3.72048e-14
-
-
-Dimensions: 127 127 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.00148482 s
-@ FFT2DROPENACC 127 0.00148482
-        Inverse
-          Time:  0.00184462 s
-        Error: 1402.97
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  9.5374e-05 s
-
-      OpenACC
-        Time:  0.000430293 s
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.0017592 s
-@ FFT2DCOPENACC 127 0.0017592
-        Inverse
-          Time:  0.00224216 s
-        Error: 3.71113e-12
-
-
-Dimensions: 127 127 127 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.125093 s
-@ FFT3DROPENACC 127 0.125093
-        Inverse
-          Time:  0.192573 s
-        Error: 109960
-
-  C <-> C
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.178508 s
-@ FFT3DCOPENACC 127 0.178508
-        Inverse
-          Time:  0.256607 s
-        Error: 3.58009e-10
-
-
-====================================
-Dimensions: 127 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  2.585e-06 s
-
-      OpenACC
-        Time:  1.9934e-05 s
-@ PRODUCT1DROPENACC 127 1.9934e-05
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000104812 s
-@ FFT1DROPENACC 127 0.000104812
-        Inverse
-          Time:  7.2512e-05 s
-        Error: 29.6063
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  1.585e-06 s
-
-      OpenACC
-        Time:  6.174e-06 s
-@ PRODUCT1DCOPENACC 127 6.174e-06
-
-    FFT
-      OpenACC
-        Direct
-          Time:  8.0876e-05 s
-@ FFT1DCOPENACC 127 8.0876e-05
-        Inverse
-          Time:  7.6961e-05 s
-        Error: 3.72048e-14
-
-
-Dimensions: 127 127 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.00147176 s
-@ FFT2DROPENACC 127 0.00147176
-        Inverse
-          Time:  0.00182841 s
-        Error: 1402.97
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  8.646e-05 s
-
-      OpenACC
-        Time:  0.000435629 s
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.00175487 s
-@ FFT2DCOPENACC 127 0.00175487
-        Inverse
-          Time:  0.00223509 s
-        Error: 3.71113e-12
-
-
-Dimensions: 127 127 127 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.12516 s
-@ FFT3DROPENACC 127 0.12516
-        Inverse
-          Time:  0.192802 s
-        Error: 109960
-
-  C <-> C
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.17819 s
-@ FFT3DCOPENACC 127 0.17819
-        Inverse
-          Time:  0.260464 s
-        Error: 3.58009e-10
-
-
-====================================
-Dimensions: 127 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  2.295e-06 s
-
-      OpenACC
-        Time:  1.8165e-05 s
-@ PRODUCT1DROPENACC 127 1.8165e-05
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000109141 s
-@ FFT1DROPENACC 127 0.000109141
-        Inverse
-          Time:  7.4068e-05 s
-        Error: 29.6063
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  1.513e-06 s
-
-      OpenACC
-        Time:  5.996e-06 s
-@ PRODUCT1DCOPENACC 127 5.996e-06
-
-    FFT
-      OpenACC
-        Direct
-          Time:  8.2448e-05 s
-@ FFT1DCOPENACC 127 8.2448e-05
-        Inverse
-          Time:  7.5889e-05 s
-        Error: 3.72048e-14
-
-
-Dimensions: 127 127 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.00148629 s
-@ FFT2DROPENACC 127 0.00148629
-        Inverse
-          Time:  0.00181977 s
-        Error: 1402.97
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  8.3934e-05 s
-
-      OpenACC
-        Time:  0.000431366 s
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.00174326 s
-@ FFT2DCOPENACC 127 0.00174326
-        Inverse
-          Time:  0.00230802 s
-        Error: 3.71113e-12
-
-
-Dimensions: 127 127 127 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.124842 s
-@ FFT3DROPENACC 127 0.124842
-        Inverse
-          Time:  0.19203 s
-        Error: 109960
-
-  C <-> C
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.178509 s
-@ FFT3DCOPENACC 127 0.178509
-        Inverse
-          Time:  0.255842 s
-        Error: 3.58009e-10
-
-
-====================================
-Dimensions: 127 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  2.926e-06 s
-
-      OpenACC
-        Time:  2.0217e-05 s
-@ PRODUCT1DROPENACC 127 2.0217e-05
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000108156 s
-@ FFT1DROPENACC 127 0.000108156
-        Inverse
-          Time:  7.4113e-05 s
-        Error: 29.6063
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  1.491e-06 s
-
-      OpenACC
-        Time:  6.185e-06 s
-@ PRODUCT1DCOPENACC 127 6.185e-06
-
-    FFT
-      OpenACC
-        Direct
-          Time:  7.9133e-05 s
-@ FFT1DCOPENACC 127 7.9133e-05
-        Inverse
-          Time:  7.6974e-05 s
-        Error: 3.72048e-14
-
-
-Dimensions: 127 127 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.00147174 s
-@ FFT2DROPENACC 127 0.00147174
-        Inverse
-          Time:  0.0018572 s
-        Error: 1402.97
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  8.5829e-05 s
-
-      OpenACC
-        Time:  0.000437131 s
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.00175839 s
-@ FFT2DCOPENACC 127 0.00175839
-        Inverse
-          Time:  0.00224039 s
-        Error: 3.71113e-12
-
-
-Dimensions: 127 127 127 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.124656 s
-@ FFT3DROPENACC 127 0.124656
-        Inverse
-          Time:  0.192546 s
-        Error: 109960
-
-  C <-> C
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.17825 s
-@ FFT3DCOPENACC 127 0.17825
-        Inverse
-          Time:  0.25598 s
-        Error: 3.58009e-10
-
-
-====================================
-Dimensions: 127 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  2.462e-06 s
-
-      OpenACC
-        Time:  1.9382e-05 s
-@ PRODUCT1DROPENACC 127 1.9382e-05
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000106401 s
-@ FFT1DROPENACC 127 0.000106401
-        Inverse
-          Time:  7.3501e-05 s
-        Error: 29.6063
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  1.48e-06 s
-
-      OpenACC
-        Time:  5.674e-06 s
-@ PRODUCT1DCOPENACC 127 5.674e-06
-
-    FFT
-      OpenACC
-        Direct
-          Time:  8.1227e-05 s
-@ FFT1DCOPENACC 127 8.1227e-05
-        Inverse
-          Time:  8.9535e-05 s
-        Error: 3.72048e-14
-
-
-Dimensions: 127 127 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.00147849 s
-@ FFT2DROPENACC 127 0.00147849
-        Inverse
-          Time:  0.0018234 s
-        Error: 1402.97
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  8.6771e-05 s
-
-      OpenACC
-        Time:  0.000436855 s
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.00176675 s
-@ FFT2DCOPENACC 127 0.00176675
-        Inverse
-          Time:  0.00225509 s
-        Error: 3.71113e-12
-
-
-Dimensions: 127 127 127 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.125207 s
-@ FFT3DROPENACC 127 0.125207
-        Inverse
-          Time:  0.191936 s
-        Error: 109960
-
-  C <-> C
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.178463 s
-@ FFT3DCOPENACC 127 0.178463
-        Inverse
-          Time:  0.255495 s
-        Error: 3.58009e-10
-
-
-====================================
-Dimensions: 127 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  2.326e-06 s
-
-      OpenACC
-        Time:  1.9005e-05 s
-@ PRODUCT1DROPENACC 127 1.9005e-05
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000107318 s
-@ FFT1DROPENACC 127 0.000107318
-        Inverse
-          Time:  7.3119e-05 s
-        Error: 29.6063
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  1.505e-06 s
-
-      OpenACC
-        Time:  6.581e-06 s
-@ PRODUCT1DCOPENACC 127 6.581e-06
-
-    FFT
-      OpenACC
-        Direct
-          Time:  8.1192e-05 s
-@ FFT1DCOPENACC 127 8.1192e-05
-        Inverse
-          Time:  7.5219e-05 s
-        Error: 3.72048e-14
-
-
-Dimensions: 127 127 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.00147235 s
-@ FFT2DROPENACC 127 0.00147235
-        Inverse
-          Time:  0.00181366 s
-        Error: 1402.97
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  8.6167e-05 s
-
-      OpenACC
-        Time:  0.000438385 s
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.00174892 s
-@ FFT2DCOPENACC 127 0.00174892
-        Inverse
-          Time:  0.0022514 s
-        Error: 3.71113e-12
-
-
-Dimensions: 127 127 127 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.124724 s
-@ FFT3DROPENACC 127 0.124724
-        Inverse
-          Time:  0.192158 s
-        Error: 109960
-
-  C <-> C
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.178162 s
-@ FFT3DCOPENACC 127 0.178162
-        Inverse
-          Time:  0.256561 s
-        Error: 3.58009e-10
-
-
-====================================
-Dimensions: 127 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  2.23e-06 s
-
-      OpenACC
-        Time:  1.9443e-05 s
-@ PRODUCT1DROPENACC 127 1.9443e-05
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000105343 s
-@ FFT1DROPENACC 127 0.000105343
-        Inverse
-          Time:  7.3886e-05 s
-        Error: 29.6063
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  1.569e-06 s
-
-      OpenACC
-        Time:  5.648e-06 s
-@ PRODUCT1DCOPENACC 127 5.648e-06
-
-    FFT
-      OpenACC
-        Direct
-          Time:  7.9926e-05 s
-@ FFT1DCOPENACC 127 7.9926e-05
-        Inverse
-          Time:  7.6091e-05 s
-        Error: 3.72048e-14
-
-
-Dimensions: 127 127 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.0014843 s
-@ FFT2DROPENACC 127 0.0014843
-        Inverse
-          Time:  0.00183654 s
-        Error: 1402.97
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  8.4215e-05 s
-
-      OpenACC
-        Time:  0.000430617 s
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.00174998 s
-@ FFT2DCOPENACC 127 0.00174998
-        Inverse
-          Time:  0.00223414 s
-        Error: 3.71113e-12
-
-
-Dimensions: 127 127 127 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.12491 s
-@ FFT3DROPENACC 127 0.12491
-        Inverse
-          Time:  0.192237 s
-        Error: 109960
-
-  C <-> C
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.178265 s
-@ FFT3DCOPENACC 127 0.178265
-        Inverse
-          Time:  0.256388 s
-        Error: 3.58009e-10
-
-
-====================================
-====================================
-====================================
-Dimensions: 257 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  2.646e-06 s
-
-      OpenACC
-        Time:  1.8074e-05 s
-@ PRODUCT1DROPENACC 257 1.8074e-05
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000135262 s
-@ FFT1DROPENACC 257 0.000135262
-        Inverse
-          Time:  9.6365e-05 s
+          Time:  9.5926e-05 s
         Error: 60.3891
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  2.324e-06 s
+        Time:  2.257e-06 s
 
       OpenACC
-        Time:  9.781e-06 s
-@ PRODUCT1DCOPENACC 257 9.781e-06
+        Time:  9.969e-06 s
+@ PRODUCT1DCOPENACC 257 9.969e-06
 
     FFT
       OpenACC
         Direct
-          Time:  0.000104114 s
-@ FFT1DCOPENACC 257 0.000104114
+          Time:  0.00173747 s
+@ FFT1DCINITOPENACC 257 0.00173747
+          Time:  9.8917e-05 s
+@ FFT1DCEXECOPENACC 257 9.8917e-05
         Inverse
-          Time:  9.9571e-05 s
+          Time:  9.9144e-05 s
         Error: 5.375e-12
 
 
@@ -3119,28 +3862,32 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  0.00617131 s
-@ FFT2DROPENACC 257 0.00617131
+          Time:  0.00438679 s
+@ FFT2DRINITOPENACC 257 0.00438679
+          Time:  0.00619303 s
+@ FFT2DREXECOPENACC 257 0.00619303
         Inverse
-          Time:  0.00766686 s
+          Time:  0.00760228 s
         Error: 5880.67
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.000386686 s
+        Time:  0.000379542 s
 
       OpenACC
-        Time:  0.00182091 s
+        Time:  0.00178763 s
 
     FFT
       OpenACC
         Direct
-          Time:  0.00736344 s
-@ FFT2DCOPENACC 257 0.00736344
+          Time:  0.00360476 s
+@ FFT2DCINITOPENACC 257 0.00360476
+          Time:  0.00736483 s
+@ FFT2DCEXECOPENACC 257 0.00736483
         Inverse
-          Time:  0.00944698 s
+          Time:  0.00927729 s
         Error: 9.52558e-10
 
 
@@ -3152,10 +3899,12 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  1.02917 s
-@ FFT3DROPENACC 257 1.02917
+          Time:  0.0836825 s
+@ FFT3DRINITOPENACC 257 0.0836825
+          Time:  1.02528 s
+@ FFT3DREXECOPENACC 257 1.02528
         Inverse
-          Time:  1.58798 s
+          Time:  1.58247 s
         Error: 938369
 
   C <-> C
@@ -3163,10 +3912,12 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  1.46345 s
-@ FFT3DCOPENACC 257 1.46345
+          Time:  0.150686 s
+@ FFT3DCINITOPENACC 257 0.150686
+          Time:  1.46799 s
+@ FFT3DCEXECOPENACC 257 1.46799
         Inverse
-          Time:  2.10919 s
+          Time:  2.10212 s
         Error: 1.33818e-07
 
 
@@ -3178,38 +3929,43 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  3.208e-06 s
+        Time:  2.722e-06 s
 
       OpenACC
-        Time:  1.9086e-05 s
-@ PRODUCT1DROPENACC 257 1.9086e-05
+        Time:  2.0619e-05 s
+@ PRODUCT1DROPENACC 257 2.0619e-05
 
     FFT
       OpenACC
         Direct
-          Time:  0.000139904 s
-@ FFT1DROPENACC 257 0.000139904
+@ FFTOPENACCFIRSTINIT 257 0.255103
+          Time:  0.00209402 s
+@ FFT1DRINITOPENACC 257 0.00209402
+          Time:  0.000132311 s
+@ FFT1DREXECOPENACC 257 0.000132311
         Inverse
-          Time:  0.000101153 s
+          Time:  9.6398e-05 s
         Error: 60.3891
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  1.973e-06 s
+        Time:  2.134e-06 s
 
       OpenACC
-        Time:  9.713e-06 s
-@ PRODUCT1DCOPENACC 257 9.713e-06
+        Time:  1.005e-05 s
+@ PRODUCT1DCOPENACC 257 1.005e-05
 
     FFT
       OpenACC
         Direct
-          Time:  0.000104735 s
-@ FFT1DCOPENACC 257 0.000104735
+          Time:  0.00173135 s
+@ FFT1DCINITOPENACC 257 0.00173135
+          Time:  9.6916e-05 s
+@ FFT1DCEXECOPENACC 257 9.6916e-05
         Inverse
-          Time:  0.000100295 s
+          Time:  0.000103169 s
         Error: 5.375e-12
 
 
@@ -3221,28 +3977,32 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  0.00634255 s
-@ FFT2DROPENACC 257 0.00634255
+          Time:  0.00441179 s
+@ FFT2DRINITOPENACC 257 0.00441179
+          Time:  0.00615953 s
+@ FFT2DREXECOPENACC 257 0.00615953
         Inverse
-          Time:  0.00777796 s
+          Time:  0.0077128 s
         Error: 5880.67
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.000381517 s
+        Time:  0.000378651 s
 
       OpenACC
-        Time:  0.00179944 s
+        Time:  0.00193814 s
 
     FFT
       OpenACC
         Direct
-          Time:  0.00761586 s
-@ FFT2DCOPENACC 257 0.00761586
+          Time:  0.00365344 s
+@ FFT2DCINITOPENACC 257 0.00365344
+          Time:  0.00754485 s
+@ FFT2DCEXECOPENACC 257 0.00754485
         Inverse
-          Time:  0.00964076 s
+          Time:  0.00999002 s
         Error: 9.52558e-10
 
 
@@ -3254,10 +4014,12 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  1.02526 s
-@ FFT3DROPENACC 257 1.02526
+          Time:  0.0829671 s
+@ FFT3DRINITOPENACC 257 0.0829671
+          Time:  1.02585 s
+@ FFT3DREXECOPENACC 257 1.02585
         Inverse
-          Time:  1.59131 s
+          Time:  1.58405 s
         Error: 938369
 
   C <-> C
@@ -3265,112 +4027,12 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  1.46606 s
-@ FFT3DCOPENACC 257 1.46606
+          Time:  0.151402 s
+@ FFT3DCINITOPENACC 257 0.151402
+          Time:  1.46306 s
+@ FFT3DCEXECOPENACC 257 1.46306
         Inverse
-          Time:  2.11313 s
-        Error: 1.33818e-07
-
-
-====================================
-Dimensions: 257 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  2.644e-06 s
-
-      OpenACC
-        Time:  1.8415e-05 s
-@ PRODUCT1DROPENACC 257 1.8415e-05
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000135881 s
-@ FFT1DROPENACC 257 0.000135881
-        Inverse
-          Time:  9.5691e-05 s
-        Error: 60.3891
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  1.985e-06 s
-
-      OpenACC
-        Time:  1.0271e-05 s
-@ PRODUCT1DCOPENACC 257 1.0271e-05
-
-    FFT
-      OpenACC
-        Direct
-          Time:  9.9442e-05 s
-@ FFT1DCOPENACC 257 9.9442e-05
-        Inverse
-          Time:  9.9347e-05 s
-        Error: 5.375e-12
-
-
-Dimensions: 257 257 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.00615611 s
-@ FFT2DROPENACC 257 0.00615611
-        Inverse
-          Time:  0.00766756 s
-        Error: 5880.67
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  0.000379535 s
-
-      OpenACC
-        Time:  0.0018459 s
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.00739303 s
-@ FFT2DCOPENACC 257 0.00739303
-        Inverse
-          Time:  0.00931885 s
-        Error: 9.52558e-10
-
-
-Dimensions: 257 257 257 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  1.02917 s
-@ FFT3DROPENACC 257 1.02917
-        Inverse
-          Time:  1.5855 s
-        Error: 938369
-
-  C <-> C
-
-    FFT
-      OpenACC
-        Direct
-          Time:  1.46762 s
-@ FFT3DCOPENACC 257 1.46762
-        Inverse
-          Time:  2.11468 s
+          Time:  2.1052 s
         Error: 1.33818e-07
 
 
@@ -3385,35 +4047,40 @@ N coils: 1
         Time:  2.916e-06 s
 
       OpenACC
-        Time:  1.8938e-05 s
-@ PRODUCT1DROPENACC 257 1.8938e-05
+        Time:  1.8486e-05 s
+@ PRODUCT1DROPENACC 257 1.8486e-05
 
     FFT
       OpenACC
         Direct
-          Time:  0.000132774 s
-@ FFT1DROPENACC 257 0.000132774
+@ FFTOPENACCFIRSTINIT 257 0.261272
+          Time:  0.00207443 s
+@ FFT1DRINITOPENACC 257 0.00207443
+          Time:  0.00012964 s
+@ FFT1DREXECOPENACC 257 0.00012964
         Inverse
-          Time:  9.9452e-05 s
+          Time:  9.6682e-05 s
         Error: 60.3891
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  2.031e-06 s
+        Time:  2.402e-06 s
 
       OpenACC
-        Time:  9.527e-06 s
-@ PRODUCT1DCOPENACC 257 9.527e-06
+        Time:  1.0374e-05 s
+@ PRODUCT1DCOPENACC 257 1.0374e-05
 
     FFT
       OpenACC
         Direct
-          Time:  0.000101116 s
-@ FFT1DCOPENACC 257 0.000101116
+          Time:  0.0018551 s
+@ FFT1DCINITOPENACC 257 0.0018551
+          Time:  9.988e-05 s
+@ FFT1DCEXECOPENACC 257 9.988e-05
         Inverse
-          Time:  0.000100203 s
+          Time:  9.905e-05 s
         Error: 5.375e-12
 
 
@@ -3425,28 +4092,32 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  0.00619351 s
-@ FFT2DROPENACC 257 0.00619351
+          Time:  0.00437921 s
+@ FFT2DRINITOPENACC 257 0.00437921
+          Time:  0.00615421 s
+@ FFT2DREXECOPENACC 257 0.00615421
         Inverse
-          Time:  0.0076271 s
+          Time:  0.00758247 s
         Error: 5880.67
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.000376908 s
+        Time:  0.000387 s
 
       OpenACC
-        Time:  0.00182246 s
+        Time:  0.00179301 s
 
     FFT
       OpenACC
         Direct
-          Time:  0.00735008 s
-@ FFT2DCOPENACC 257 0.00735008
+          Time:  0.00341334 s
+@ FFT2DCINITOPENACC 257 0.00341334
+          Time:  0.00736281 s
+@ FFT2DCEXECOPENACC 257 0.00736281
         Inverse
-          Time:  0.00933196 s
+          Time:  0.00936409 s
         Error: 9.52558e-10
 
 
@@ -3458,10 +4129,12 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  1.02686 s
-@ FFT3DROPENACC 257 1.02686
+          Time:  0.0835041 s
+@ FFT3DRINITOPENACC 257 0.0835041
+          Time:  1.02672 s
+@ FFT3DREXECOPENACC 257 1.02672
         Inverse
-          Time:  1.58694 s
+          Time:  1.58152 s
         Error: 938369
 
   C <-> C
@@ -3469,10 +4142,12 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  1.46699 s
-@ FFT3DCOPENACC 257 1.46699
+          Time:  0.149761 s
+@ FFT3DCINITOPENACC 257 0.149761
+          Time:  1.46514 s
+@ FFT3DCEXECOPENACC 257 1.46514
         Inverse
-          Time:  2.1152 s
+          Time:  2.10598 s
         Error: 1.33818e-07
 
 
@@ -3484,38 +4159,43 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  2.776e-06 s
+        Time:  3.189e-06 s
 
       OpenACC
-        Time:  1.7107e-05 s
-@ PRODUCT1DROPENACC 257 1.7107e-05
+        Time:  1.7882e-05 s
+@ PRODUCT1DROPENACC 257 1.7882e-05
 
     FFT
       OpenACC
         Direct
-          Time:  0.000139156 s
-@ FFT1DROPENACC 257 0.000139156
+@ FFTOPENACCFIRSTINIT 257 0.25466
+          Time:  0.00207977 s
+@ FFT1DRINITOPENACC 257 0.00207977
+          Time:  0.000128133 s
+@ FFT1DREXECOPENACC 257 0.000128133
         Inverse
-          Time:  9.8019e-05 s
+          Time:  9.6953e-05 s
         Error: 60.3891
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  2.016e-06 s
+        Time:  2.1e-06 s
 
       OpenACC
-        Time:  9.691e-06 s
-@ PRODUCT1DCOPENACC 257 9.691e-06
+        Time:  9.545e-06 s
+@ PRODUCT1DCOPENACC 257 9.545e-06
 
     FFT
       OpenACC
         Direct
-          Time:  9.7992e-05 s
-@ FFT1DCOPENACC 257 9.7992e-05
+          Time:  0.00172921 s
+@ FFT1DCINITOPENACC 257 0.00172921
+          Time:  0.000105628 s
+@ FFT1DCEXECOPENACC 257 0.000105628
         Inverse
-          Time:  0.000100652 s
+          Time:  0.000100601 s
         Error: 5.375e-12
 
 
@@ -3527,28 +4207,32 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  0.00612468 s
-@ FFT2DROPENACC 257 0.00612468
+          Time:  0.00462666 s
+@ FFT2DRINITOPENACC 257 0.00462666
+          Time:  0.00641177 s
+@ FFT2DREXECOPENACC 257 0.00641177
         Inverse
-          Time:  0.00759563 s
+          Time:  0.00792078 s
         Error: 5880.67
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.000373333 s
+        Time:  0.000397575 s
 
       OpenACC
-        Time:  0.00180134 s
+        Time:  0.00194864 s
 
     FFT
       OpenACC
         Direct
-          Time:  0.00754836 s
-@ FFT2DCOPENACC 257 0.00754836
+          Time:  0.00346984 s
+@ FFT2DCINITOPENACC 257 0.00346984
+          Time:  0.00737289 s
+@ FFT2DCEXECOPENACC 257 0.00737289
         Inverse
-          Time:  0.0100419 s
+          Time:  0.0100393 s
         Error: 9.52558e-10
 
 
@@ -3560,10 +4244,12 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  1.02628 s
-@ FFT3DROPENACC 257 1.02628
+          Time:  0.0835776 s
+@ FFT3DRINITOPENACC 257 0.0835776
+          Time:  1.02708 s
+@ FFT3DREXECOPENACC 257 1.02708
         Inverse
-          Time:  1.58804 s
+          Time:  1.58354 s
         Error: 938369
 
   C <-> C
@@ -3571,10 +4257,12 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  1.46494 s
-@ FFT3DCOPENACC 257 1.46494
+          Time:  0.1515 s
+@ FFT3DCINITOPENACC 257 0.1515
+          Time:  1.4645 s
+@ FFT3DCEXECOPENACC 257 1.4645
         Inverse
-          Time:  2.1197 s
+          Time:  2.10289 s
         Error: 1.33818e-07
 
 
@@ -3586,38 +4274,43 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  2.778e-06 s
+        Time:  3.096e-06 s
 
       OpenACC
-        Time:  1.7849e-05 s
-@ PRODUCT1DROPENACC 257 1.7849e-05
+        Time:  1.7545e-05 s
+@ PRODUCT1DROPENACC 257 1.7545e-05
 
     FFT
       OpenACC
         Direct
-          Time:  0.000136677 s
-@ FFT1DROPENACC 257 0.000136677
+@ FFTOPENACCFIRSTINIT 257 0.259069
+          Time:  0.00206761 s
+@ FFT1DRINITOPENACC 257 0.00206761
+          Time:  0.000131457 s
+@ FFT1DREXECOPENACC 257 0.000131457
         Inverse
-          Time:  9.7058e-05 s
+          Time:  9.3937e-05 s
         Error: 60.3891
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  2.256e-06 s
+        Time:  2.068e-06 s
 
       OpenACC
-        Time:  9.765e-06 s
-@ PRODUCT1DCOPENACC 257 9.765e-06
+        Time:  1.0787e-05 s
+@ PRODUCT1DCOPENACC 257 1.0787e-05
 
     FFT
       OpenACC
         Direct
-          Time:  9.683e-05 s
-@ FFT1DCOPENACC 257 9.683e-05
+          Time:  0.00174464 s
+@ FFT1DCINITOPENACC 257 0.00174464
+          Time:  0.000100183 s
+@ FFT1DCEXECOPENACC 257 0.000100183
         Inverse
-          Time:  0.000100154 s
+          Time:  0.000100462 s
         Error: 5.375e-12
 
 
@@ -3629,28 +4322,32 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  0.0065067 s
-@ FFT2DROPENACC 257 0.0065067
+          Time:  0.00478859 s
+@ FFT2DRINITOPENACC 257 0.00478859
+          Time:  0.00632602 s
+@ FFT2DREXECOPENACC 257 0.00632602
         Inverse
-          Time:  0.00814594 s
+          Time:  0.00778194 s
         Error: 5880.67
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.000503731 s
+        Time:  0.00038467 s
 
       OpenACC
-        Time:  0.00193852 s
+        Time:  0.00181018 s
 
     FFT
       OpenACC
         Direct
-          Time:  0.0075629 s
-@ FFT2DCOPENACC 257 0.0075629
+          Time:  0.00347136 s
+@ FFT2DCINITOPENACC 257 0.00347136
+          Time:  0.00757853 s
+@ FFT2DCEXECOPENACC 257 0.00757853
         Inverse
-          Time:  0.0100141 s
+          Time:  0.00953437 s
         Error: 9.52558e-10
 
 
@@ -3662,10 +4359,12 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  1.02845 s
-@ FFT3DROPENACC 257 1.02845
+          Time:  0.0853827 s
+@ FFT3DRINITOPENACC 257 0.0853827
+          Time:  1.02909 s
+@ FFT3DREXECOPENACC 257 1.02909
         Inverse
-          Time:  1.5856 s
+          Time:  1.58311 s
         Error: 938369
 
   C <-> C
@@ -3673,10 +4372,12 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  1.46676 s
-@ FFT3DCOPENACC 257 1.46676
+          Time:  0.150389 s
+@ FFT3DCINITOPENACC 257 0.150389
+          Time:  1.46468 s
+@ FFT3DCEXECOPENACC 257 1.46468
         Inverse
-          Time:  2.11535 s
+          Time:  2.10277 s
         Error: 1.33818e-07
 
 
@@ -3688,38 +4389,43 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  2.858e-06 s
+        Time:  3.031e-06 s
 
       OpenACC
-        Time:  1.7689e-05 s
-@ PRODUCT1DROPENACC 257 1.7689e-05
+        Time:  1.7736e-05 s
+@ PRODUCT1DROPENACC 257 1.7736e-05
 
     FFT
       OpenACC
         Direct
-          Time:  0.000175134 s
-@ FFT1DROPENACC 257 0.000175134
+@ FFTOPENACCFIRSTINIT 257 0.254996
+          Time:  0.00205732 s
+@ FFT1DRINITOPENACC 257 0.00205732
+          Time:  0.000123975 s
+@ FFT1DREXECOPENACC 257 0.000123975
         Inverse
-          Time:  0.000102813 s
+          Time:  9.5036e-05 s
         Error: 60.3891
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  2.028e-06 s
+        Time:  2.012e-06 s
 
       OpenACC
-        Time:  9.53e-06 s
-@ PRODUCT1DCOPENACC 257 9.53e-06
+        Time:  1.0221e-05 s
+@ PRODUCT1DCOPENACC 257 1.0221e-05
 
     FFT
       OpenACC
         Direct
-          Time:  0.00010492 s
-@ FFT1DCOPENACC 257 0.00010492
+          Time:  0.00177305 s
+@ FFT1DCINITOPENACC 257 0.00177305
+          Time:  9.8973e-05 s
+@ FFT1DCEXECOPENACC 257 9.8973e-05
         Inverse
-          Time:  0.000105269 s
+          Time:  0.000100825 s
         Error: 5.375e-12
 
 
@@ -3731,28 +4437,32 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  0.00742235 s
-@ FFT2DROPENACC 257 0.00742235
+          Time:  0.0045605 s
+@ FFT2DRINITOPENACC 257 0.0045605
+          Time:  0.00624052 s
+@ FFT2DREXECOPENACC 257 0.00624052
         Inverse
-          Time:  0.00902057 s
+          Time:  0.00761341 s
         Error: 5880.67
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.000506111 s
+        Time:  0.000389127 s
 
       OpenACC
-        Time:  0.00195097 s
+        Time:  0.00179225 s
 
     FFT
       OpenACC
         Direct
-          Time:  0.00851368 s
-@ FFT2DCOPENACC 257 0.00851368
+          Time:  0.00352432 s
+@ FFT2DCINITOPENACC 257 0.00352432
+          Time:  0.00736233 s
+@ FFT2DCEXECOPENACC 257 0.00736233
         Inverse
-          Time:  0.0109627 s
+          Time:  0.00933941 s
         Error: 9.52558e-10
 
 
@@ -3764,10 +4474,12 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  1.02775 s
-@ FFT3DROPENACC 257 1.02775
+          Time:  0.0824679 s
+@ FFT3DRINITOPENACC 257 0.0824679
+          Time:  1.02619 s
+@ FFT3DREXECOPENACC 257 1.02619
         Inverse
-          Time:  1.58438 s
+          Time:  1.58738 s
         Error: 938369
 
   C <-> C
@@ -3775,10 +4487,12 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  1.46429 s
-@ FFT3DCOPENACC 257 1.46429
+          Time:  0.151088 s
+@ FFT3DCINITOPENACC 257 0.151088
+          Time:  1.46368 s
+@ FFT3DCEXECOPENACC 257 1.46368
         Inverse
-          Time:  2.114 s
+          Time:  2.10285 s
         Error: 1.33818e-07
 
 
@@ -3790,38 +4504,43 @@ N coils: 1
 
     Multiplication
       CPU
-        Time:  3.165e-06 s
+        Time:  2.854e-06 s
 
       OpenACC
-        Time:  1.8016e-05 s
-@ PRODUCT1DROPENACC 257 1.8016e-05
+        Time:  1.7639e-05 s
+@ PRODUCT1DROPENACC 257 1.7639e-05
 
     FFT
       OpenACC
         Direct
-          Time:  0.000135294 s
-@ FFT1DROPENACC 257 0.000135294
+@ FFTOPENACCFIRSTINIT 257 0.256346
+          Time:  0.00207501 s
+@ FFT1DRINITOPENACC 257 0.00207501
+          Time:  0.000126422 s
+@ FFT1DREXECOPENACC 257 0.000126422
         Inverse
-          Time:  9.8125e-05 s
+          Time:  9.4494e-05 s
         Error: 60.3891
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  1.964e-06 s
+        Time:  2.404e-06 s
 
       OpenACC
-        Time:  9.906e-06 s
-@ PRODUCT1DCOPENACC 257 9.906e-06
+        Time:  9.879e-06 s
+@ PRODUCT1DCOPENACC 257 9.879e-06
 
     FFT
       OpenACC
         Direct
-          Time:  9.7559e-05 s
-@ FFT1DCOPENACC 257 9.7559e-05
+          Time:  0.00172752 s
+@ FFT1DCINITOPENACC 257 0.00172752
+          Time:  0.000104281 s
+@ FFT1DCEXECOPENACC 257 0.000104281
         Inverse
-          Time:  9.9078e-05 s
+          Time:  9.9468e-05 s
         Error: 5.375e-12
 
 
@@ -3833,28 +4552,32 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  0.00651929 s
-@ FFT2DROPENACC 257 0.00651929
+          Time:  0.00455443 s
+@ FFT2DRINITOPENACC 257 0.00455443
+          Time:  0.00662644 s
+@ FFT2DREXECOPENACC 257 0.00662644
         Inverse
-          Time:  0.00810134 s
+          Time:  0.00809279 s
         Error: 5880.67
 
   C <-> C
 
     Multiplication
       CPU
-        Time:  0.000503053 s
+        Time:  0.000516405 s
 
       OpenACC
-        Time:  0.00193729 s
+        Time:  0.00196104 s
 
     FFT
       OpenACC
         Direct
-          Time:  0.00756144 s
-@ FFT2DCOPENACC 257 0.00756144
+          Time:  0.0034452 s
+@ FFT2DCINITOPENACC 257 0.0034452
+          Time:  0.00758547 s
+@ FFT2DCEXECOPENACC 257 0.00758547
         Inverse
-          Time:  0.0100833 s
+          Time:  0.0100442 s
         Error: 9.52558e-10
 
 
@@ -3866,10 +4589,12 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  1.03249 s
-@ FFT3DROPENACC 257 1.03249
+          Time:  0.0830804 s
+@ FFT3DRINITOPENACC 257 0.0830804
+          Time:  1.02615 s
+@ FFT3DREXECOPENACC 257 1.02615
         Inverse
-          Time:  1.58607 s
+          Time:  1.58647 s
         Error: 938369
 
   C <-> C
@@ -3877,214 +4602,11 @@ N coils: 1
     FFT
       OpenACC
         Direct
-          Time:  1.46174 s
-@ FFT3DCOPENACC 257 1.46174
+          Time:  0.149481 s
+@ FFT3DCINITOPENACC 257 0.149481
+          Time:  1.46345 s
+@ FFT3DCEXECOPENACC 257 1.46345
         Inverse
-          Time:  2.11231 s
+          Time:  2.1016 s
         Error: 1.33818e-07
-
-
-====================================
-Dimensions: 257 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  2.565e-06 s
-
-      OpenACC
-        Time:  2.7188e-05 s
-@ PRODUCT1DROPENACC 257 2.7188e-05
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000135467 s
-@ FFT1DROPENACC 257 0.000135467
-        Inverse
-          Time:  9.6703e-05 s
-        Error: 60.3891
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  2.11e-06 s
-
-      OpenACC
-        Time:  9.627e-06 s
-@ PRODUCT1DCOPENACC 257 9.627e-06
-
-    FFT
-      OpenACC
-        Direct
-          Time:  9.9124e-05 s
-@ FFT1DCOPENACC 257 9.9124e-05
-        Inverse
-          Time:  0.000101509 s
-        Error: 5.375e-12
-
-
-Dimensions: 257 257 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.0065177 s
-@ FFT2DROPENACC 257 0.0065177
-        Inverse
-          Time:  0.00813093 s
-        Error: 5880.67
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  0.000503106 s
-
-      OpenACC
-        Time:  0.00196435 s
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.00756912 s
-@ FFT2DCOPENACC 257 0.00756912
-        Inverse
-          Time:  0.0100121 s
-        Error: 9.52558e-10
-
-
-Dimensions: 257 257 257 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  1.02699 s
-@ FFT3DROPENACC 257 1.02699
-        Inverse
-          Time:  1.59012 s
-        Error: 938369
-
-  C <-> C
-
-    FFT
-      OpenACC
-        Direct
-          Time:  1.465 s
-@ FFT3DCOPENACC 257 1.465
-        Inverse
-          Time:  2.11414 s
-        Error: 1.33818e-07
-
-
-====================================
-Dimensions: 257 
-N coils: 1
-
-  R <-> HC
-
-    Multiplication
-      CPU
-        Time:  2.54e-06 s
-
-      OpenACC
-        Time:  1.9753e-05 s
-@ PRODUCT1DROPENACC 257 1.9753e-05
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000135131 s
-@ FFT1DROPENACC 257 0.000135131
-        Inverse
-          Time:  9.8439e-05 s
-        Error: 60.3891
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  2.096e-06 s
-
-      OpenACC
-        Time:  1.0137e-05 s
-@ PRODUCT1DCOPENACC 257 1.0137e-05
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.000100317 s
-@ FFT1DCOPENACC 257 0.000100317
-        Inverse
-          Time:  9.937e-05 s
-        Error: 5.375e-12
-
-
-Dimensions: 257 257 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.00616264 s
-@ FFT2DROPENACC 257 0.00616264
-        Inverse
-          Time:  0.0075941 s
-        Error: 5880.67
-
-  C <-> C
-
-    Multiplication
-      CPU
-        Time:  0.000384416 s
-
-      OpenACC
-        Time:  0.00181796 s
-
-    FFT
-      OpenACC
-        Direct
-          Time:  0.00735958 s
-@ FFT2DCOPENACC 257 0.00735958
-        Inverse
-          Time:  0.00931665 s
-        Error: 9.52558e-10
-
-
-Dimensions: 257 257 257 
-N coils: 1
-
-  R <-> HC
-
-    FFT
-      OpenACC
-        Direct
-          Time:  1.03071 s
-@ FFT3DROPENACC 257 1.03071
-        Inverse
-          Time:  1.59082 s
-        Error: 938369
-
-  C <-> C
-
-    FFT
-      OpenACC
-        Direct
-          Time:  1.46913 s
-@ FFT3DCOPENACC 257 1.46913
-        Inverse
-          Time:  2.11548 s
-        Error: 1.33818e-07
-
 
