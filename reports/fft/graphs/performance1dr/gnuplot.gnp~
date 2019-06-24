@@ -1,0 +1,20 @@
+reset
+set terminal pdf
+set output "performance1dr.pdf
+set xlabel "N points"
+set ylabel "Time (s)"
+set title "Performance as a function of problem size - Real, 1D
+set key right bottom
+set logscale xy
+plot "powers2.dat" using 1:2 with linespoints lc rgb "blue" pt 7 ps 0.5 dashtype 1 title "FFTW - powers of 2",\
+"productintegers.dat" using 1:2 with linespoints lc rgb "blue" pt 2 ps 0.5 dashtype 2 title "FFTW - prod. int.",\
+"primes.dat" using 1:2 with linespoints lc rgb "blue" pt 1  ps 0.5 dashtype 4 title "FFTW - primes",\
+"powers2.dat" using 1:3 with linespoints lc rgb "red" pt 7  ps 0.5 dashtype 1 title "MKL - powers of 2",\
+"productintegers.dat" using 1:3 with linespoints lc rgb "red" pt 2  ps 0.5 dashtype 2 title "MKL - prod. int.",\
+"primes.dat" using 1:3 with linespoints lc rgb "red" pt 1  ps 0.5 dashtype 4 title "MKL - primes",\
+"powers2.dat" using 1:3 with linespoints lc rgb "green" pt 7  ps 0.5 dashtype 1 title "GSL - powers of 2",\
+"productintegers.dat" using 1:4 with linespoints lc rgb "green" pt 2  ps 0.5 dashtype 2 title "GSL - prod. int.",\
+"primes.dat" using 1:4 with linespoints lc rgb "green" pt 1  ps 0.5 dashtype 4 title "GSL - primes",\
+"powers2.dat" using 1:5 with linespoints lc rgb "cyan" pt 7  ps 0.5 dashtype 1 title "FFTPACK - powers of 2",\
+"productintegers.dat" using 1:5 with linespoints lc rgb "cyan" pt 2  ps 0.5 dashtype 2 title "FFTPACK - prod. int.",\
+"primes.dat" using 1:5 with linespoints lc rgb "cyan" pt 1  ps 0.5 dashtype 4 title " - primes"

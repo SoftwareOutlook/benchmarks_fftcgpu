@@ -1,0 +1,16 @@
+set terminal pdf
+set output "ccp.pdf"
+
+set style data histogram
+set style histogram cluster gap 1
+
+set style fill solid
+
+set auto x
+set boxwidth 0.8 absolute
+
+set title "Performance for (2^23^27)^2, (2^8)^2 and 257^2 points - 32 coils, complex"
+set xlabel "N points in side of square"
+set ylabel "Time (s)"
+
+plot "ccp.dat" using 2:xtic(1) lc rgb "red" title "FFTW", "" using 3:xtic(1) lc rgb "blue" title "MKL"
